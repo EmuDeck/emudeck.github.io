@@ -2,11 +2,106 @@ site_name: EmuDeck Wiki
 site_url: https://emudeck.github.io
 nav:
     - Home: 'index.md'
+    - About: 'about.md'
+    - How to Install EmuDeck:
+        - 'EmuDeck for SteamOS': 
+            - 'How to Install EmuDeck for SteamOS': 'how-to-install-emudeck/steamos/emudeck-for-steamos.md'
+        - 'EmuDeck for Windows': 
+            - 'Prerequisites': 'how-to-install-emudeck/windows/prerequisites.md'
+            - 'How to Install EmuDeck for Windows': 'how-to-install-emudeck/windows/emudeck-for-windows.md'
+    - Getting Started with EmuDeck:
+        - 'EmuDeck for SteamOS': 
+            - 'Frequently Asked Questions': 'getting-started-with-emudeck/steamos/frequently-asked-questions.md' 
+            - 'Frequently Asked Questions': 'getting-started-with-emudeck/steamos/supported-emulators.md'      
+        - 'EmuDeck for Windows': 
+            - 'Frequently Asked Questions': 'getting-started-with-emudeck/windows/frequently-asked-questions.md' 
+            - 'Frequently Asked Questions': 'getting-started-with-emudeck/windows/supported-emulators.md'  
+    - Common Issues:
+        - 'Common Issues: EmuDeck for SteamOS': 'common-issues/common-issues-emudeck-for-steamos.md'
+        - 'Common Issues: EmuDeck for Windows': 'common-issues/common-issues-emudeck-for-windows.md'
+    - EmuDeck Essentials:
+        - 'Cheat Sheet': 'emudeck-essentials/cheat-sheet.md'
+        - 'EmuDeck for SteamOS':
+            - 'Updating': 'emudeck-essentials/steamos/updating.md'
+            - 'Hotkeys': 'emudeck-essentials/steamos/hotkeys.md'
+            - 'Controls 101': 'emudeck-essentials/steamos/controls-101.md'
+            - 'EmuDeck Community Games Compatibility List': 'https://brantje.github.io/emudeck-compatibility-list/'
+        - 'EmuDeck for Windows':
+            - 'Updating': 'emudeck-essentials/windows/updating.md'
+            - 'Hotkeys': 'emudeck-essentials/windows/hotkeys.md'
+            - 'Controls 101': 'emudeck-essentials/windows/controls-101.md'
+    - EmuDeck Application:
+        - 'Cloud Saves': 'emudeck-application/cloud-saves.md'
+        - 'EmuDeck for SteamOS': 
+            - 'Cloud Services': 'emudeck-application/steamos/cloud-services.md'
+            - 'EmuDeck Application 101': 'emudeck-application/steamos/emudeck-application-101.md'
+            - 'EmuDeck Store': 'emudeck-application/steamos/emudeck-store.md'
+        - 'EmuDeck for Windows': 
+            - 'EmuDeck Application 101': 'emudeck-application/windows/emudeck-application-101.md'
+    - Tools:
+        - EmuDeck for SteamOS:
+            - 'Steam ROM Manager': 'tools/steamos/steam-rom-manager.md'
+            - 'EmulationStation-DE': 'tools/steamos/emulationstation-de.md'
+        - EmuDeck for Windows:
+            - 'Steam ROM Manager': 'tools/windows/steam-rom-manager.md'
+            - 'EmulationStation-DE': 'tools/windows/emulationstation-de.md'
     - Emulators:
+        - Cemu: 
+            - 'Cemu SteamOS': 
+                - 'Cemu SteamOS Landing Page': 'emulators/steamos/cemu.md'
+                - 'Cemu (Native) SteamOS': 'emulators/steamos/cemu-native.md'
+                - 'Cemu (Proton) SteamOS': 'emulators/steamos/cemu-proton.md'
+            - 'Cemu Windows':
+                - 'Cemu - Windows': 'emulators/windows/cemu.md'
+        - Citra:
+            - 'Citra SteamOS': 'emulators/steamos/citra.md'
+            - 'Citra Windows': 'emulators/windows/citra.md'
+        - Dolphin:
+            - 'Dolphin SteamOS': 'emulators/steamos/dolphin.md'
+            - 'Dolphin Windows': 'emulators/windows/dolphin.md'
+        - DuckStation:
+            - 'DuckStation SteamOS': 'emulators/steamos/duckstation.md'
+            - 'DuckStation Windows': 'emulators/windows/duckstation.md'
+        - MAME:
+            - 'MAME SteamOS': 'emulators/steamos/mame.md'
         - melonDS:
-            - 'melonDS Linux': 'melonDS-Linux.md'
-            - 'melonDS Windows': 'melonDS-Windows.md'
+            - 'melonDS SteamOS': 'emulators/steamos/melonds.md'
+            - 'melonDS Windows': 'emulators/windows/melonds.md'
+        - mGBA:
+            - 'mGBA SteamOS': 'emulators/steamos/mgba.md'
+        - PCSX2:
+            - 'PCSX2 SteamOS': 'emulators/steamos/pcsx2.md'
+            - 'PCSX2 Windows': 'emulators/windows/pcsx2.md'
+        - PPSSPP:
+            - 'PPSSPP SteamOS': 'emulators/steamos/ppsspp.md'
+            - 'PPSSPP Windows': 'emulators/windows/ppsspp.md'
+        - PrimeHack:
+            - 'PrimeHack SteamOS': 'emulators/steamos/primehack.md'
+        - RetroArch:
+            - 'RetroArch SteamOS': 'emulators/steamos/retroarch.md'
+            - 'RetroArch Windows': 'emulators/windows/retroarch.md'
+        - Rosalie's Mupen GUI:
+            - "Rosalie's Mupen GUI SteamOS": 'emulators/steamos/rmg.md'
+        - RPCS3:
+            - 'RPCS3 SteamOS': 'emulators/steamos/rpcs3.md'
+            - 'RPCS3 Windows': 'emulators/windows/rpcs3.md'
+        - Ryujinx:
+            - 'Ryujinx SteamOS': 'emulators/steamos/ryujinx.md'
+            - 'Ryujinx SteamOS': 'emulators/windows/ryujinx.md'
+        - ScummVM:
+            - 'ScummVM SteamOS': 'emulators/steamos/scummvm.md'
+        - Xemu:
+            - 'Xemu SteamOS': 'emulators/steamos/xemu.md'
+        - Xenia:
+            - 'Xenia SteamOS': 'emulators/steamos/xenia.md'
         - Yuzu:
-            - 'Yuzu Linux': 'Yuzu-Linux.md'
-            - 'Yuzu Windows': 'Yuzu-Windows.md'
+            - 'Yuzu SteamOS': 'emulators/steamos/yuzu.md'
+            - 'Yuzu Windows': 'emulators/windows/yuzu.md'
+    - Other:
+        - EmuDeck for SteamOS:
+            - Community Creations: 'other/steamos/community-creations.md'
+            - File Management: 'other/steamos/file-management.md'
+            - Third Party Emulation: 'other/steamos/third-party-emulation.md'  
+        - EmuDeck for Windows:
+            - File Management: 'other/windows/file-management.md'
 theme: readthedocs

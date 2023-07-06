@@ -2,12 +2,6 @@
 
 ***
 
-## Video Guide by RetroGameCorps:
-
-<div align="left">
-  <a href="https://www.youtube.com/watch?v=Y5r2WZAImuY"><img src="https://cdn.discordapp.com/attachments/925869888432652289/1101235527576989839/EmuDeck_v21.png" height="300" alt="Steam Deck Emulation (EmuDeck) Guide"></a>
-</div>
-
 ## Non-English Language Guides
 
 * Spanish (By D0aTech): https://www.youtube.com/watch?v=eZhHWwHmUnM

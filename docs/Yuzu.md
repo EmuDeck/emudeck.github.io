@@ -1,2 +1,0 @@
-[Yuzu](Yuzu-Linux.md)
-
