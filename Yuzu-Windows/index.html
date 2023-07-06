@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><link rel="canonical" href="https://emudeck.github.io/Yuzu-Windows/" />
+      <link rel="shortcut icon" href="../img/favicon.ico" />
+    <title>Yuzu Windows - EmuDeck Wiki</title>
+    <link rel="stylesheet" href="../css/theme.css" />
+    <link rel="stylesheet" href="../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css" />
+    
+      <script>
+        // Current page data
+        var mkdocs_page_name = "Yuzu Windows";
+        var mkdocs_page_input_path = "Yuzu-Windows.md";
+        var mkdocs_page_url = "/Yuzu-Windows/";
+      </script>
+    
+    <script src="../js/jquery-3.6.0.min.js" defer></script>
+    <!--[if lt IE 9]>
+      <script src="../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script> 
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href=".." class="icon icon-home"> EmuDeck Wiki
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Emulators</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="#">melonDS</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../melonDS-Linux/">melonDS Linux</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../melonDS-Windows/">melonDS Windows</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">Yuzu</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../Yuzu-Linux/">Yuzu Linux</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="./">Yuzu Windows</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#yuzu-table-of-contents">Yuzu Table of Contents</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#getting-started-with-yuzu">Getting Started with Yuzu</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#yuzu-configuration">Yuzu Configuration:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#works-with">Works with:</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-update-yuzu">How to Update Yuzu</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-launch-yuzu-in-desktop-mode">How to Launch Yuzu in Desktop Mode</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#yuzu-file-formats">Yuzu File Formats</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-manage-dlc-and-updates">How to Manage DLC and Updates</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#yuzu-hotkeys">Yuzu Hotkeys</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#known-issues">Known Issues</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#yuzu-common-issues">Yuzu Common Issues</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#special-characters">Special Characters</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#combined-xci-files">Combined XCI Files</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#why-is-mario-kart-8-stuck-on-the-mii-selection-screen">Why is Mario Kart 8 stuck on the Mii selection screen?</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#why-is-new-super-mario-bros-u-deluxe-stuck-on-a-black-screen">Why is New Super Mario Bros U Deluxe stuck on a black screen?</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#yuzu-tips-and-tricks">Yuzu Tips and Tricks</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-configure-gyro">How to Configure Gyro</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-optimize-performance-power-tools">How to Optimize Performance (Power Tools)</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-configure-multiplayer">How to Configure Multiplayer</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-install-mods">How to Install Mods</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#special-game-configurations">Special Game Configurations</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#how-to-set-up-early-access">How to Set Up Early Access</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="..">EmuDeck Wiki</a>
+        
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href=".." class="icon icon-home" aria-label="Docs"></a> &raquo;</li>
+          <li>Emulators &raquo;</li>
+          <li>Yuzu &raquo;</li>
+      <li>Yuzu Windows</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+              
+                <h1 id="yuzu-is-a-nintendo-switch-emulator">Yuzu is a Nintendo Switch emulator.</h1>
+<p>Website: https://yuzu-emu.org/</p>
+<p>Github: https://github.com/yuzu-emu/yuzu-mainline</p>
+<p>Github Releases: https://github.com/yuzu-emu/yuzu-mainline/releases</p>
+<p>Compatibility List: https://yuzu-emu.org/game/</p>
+<p>Quickstart guide: https://yuzu-emu.org/help/quickstart/</p>
+<hr />
+<h2 id="yuzu-table-of-contents">Yuzu Table of Contents</h2>
+<ol>
+<li>
+<p><a href="#getting-started-with-yuzu">Getting Started with Yuzu</a></p>
+<ul>
+<li><a href="#yuzu-configuration">Configuration</a></li>
+<li><a href="#how-to-update-yuzu">How to Update Yuzu</a></li>
+<li><a href="#how-to-launch-yuzu-in-desktop-mode">How to Launch Yuzu in Desktop Mode</a></li>
+<li><a href="#yuzu-file-formats">File Formats</a></li>
+<li><a href="#how-to-manage-dlc-and-updates">How to Manage DLC and Updates</a></li>
+<li><a href="#yuzu-hotkeys">Hotkeys</a></li>
+<li><a href="#known-issues">Known Issues</a></li>
+</ul>
+</li>
+<li>
+<p><a href="#yuzu-common-issues">Common Issues</a></p>
+<ul>
+<li><a href="#special-characters">Special Characters</a></li>
+<li><a href="#combined-xci-files">Combined XCI Files</a></li>
+<li><a href="#why-is-mario-kart-8-stuck-on-the-mii-selection-screen">Why is Mario Kart 8 stuck on the Mii selection screen?</a></li>
+<li><a href="#why-is-new-super-mario-bros-u-deluxe-stuck-on-a-black-screen">Why is New Super Mario Bros U Deluxe stuck on a black screen?</a></li>
+</ul>
+</li>
+<li>
+<p><a href="#yuzu-tips-and-tricks">Yuzu Tips and Tricks</a></p>
+<ul>
+<li><a href="#how-to-configure-gyro">How to Configure Gyro</a></li>
+<li><a href="#how-to-optimize-performance-power-tools">How to Optimize Performance (Power Tools)</a></li>
+<li><a href="#how-to-configure-multiplayer">How to Configure Multiplayer</a></li>
+<li><a href="#how-to-install-mods">How to Install Mods</a></li>
+<li><a href="#special-game-configurations">Special Game Configurations</a></li>
+<li><a href="#how-to-set-up-early-access">How to Set Up Early Access</a></li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="getting-started-with-yuzu">Getting Started with Yuzu</h2>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p>In order to play Nintendo Switch games on Yuzu, you will need a <code>prod.keys</code> file and <code>title.keys</code> to decrypt your ROMs. You will need to continue to keep your <code>prod.keys</code> and <code>title.keys</code> up to date as new Nintendo Switch firmware releases. </p>
+<p>If you play a Nintendo Switch game with Miis (for example - Mario Kart 8 Deluxe), you will need firmware files. </p>
+<p>Read Yuzu's Quick Start guide to learn how to dump Nintendo Switch keys, firmware, and ROMs: https://yuzu-emu.org/help/quickstart/. </p>
+<p>Place your ROMs in <code>Emulation/roms/switch</code>. Place your <code>prod.keys</code> file in <code>Emulation/bios/yuzu/keys</code>. Place your firmware files in <code>Emulation/bios/yuzu/firmware</code>. </p>
+<p>Read the <a href="#yuzu-configuration">Configuration</a> section to learn more about Yuzu and its folder locations. </p>
+<p>To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Nintendo Switch ROMs:</p>
+<ul>
+<li><code>EmulationStation-DE</code></li>
+<li><code>Nintendo Switch - Yuzu</code> </li>
+<li><code>Emulators</code></li>
+</ul>
+<hr />
+<h3 id="yuzu-configuration">Yuzu Configuration:</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<ul>
+<li>Type of Emulator: AppImage</li>
+<li>Executable Location: <code>/home/deck/Applications/yuzu.AppImage</code></li>
+<li>Config Location: <code>/home/deck/.config/yuzu/</code></li>
+<li>Default storage Location: <code>/home/deck/.share/local/yuzu/</code></li>
+<li>Persistent Storage: <code>Emulation/storage/yuzu</code><ul>
+<li>Contains the following folders: <ul>
+<li><code>dump</code></li>
+<li><code>load</code></li>
+<li><code>nand</code>  <ul>
+<li>Firmware: <code>Emulation/storage/yuzu/nand/system/Contents/registered</code><ul>
+<li><code>Emulation/bios/yuzu/firmware</code> is a symlink to the above location</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><code>screenshots</code></li>
+<li><code>sdmc</code></li>
+<li><code>tas</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ROMs: <code>Emulation/roms/switch/</code></li>
+<li>Firmware: <code>Emulation/bios/yuzu/firmware/</code> <ul>
+<li>Symlink folder to the proper place. <strong>DO NOT OVERWRITE</strong> THE FOLDER or it won't work</li>
+<li>Target Location: <code>Emulation/storage/yuzu/nand/system/Contents/registered</code></li>
+</ul>
+</li>
+<li>Keys: <code>Emulation/bios/yuzu/keys/</code> <ul>
+<li>Ssymlink folder to the proper place. <strong>DO NOT OVERWRITE</strong> THE FOLDER or it won't work</li>
+<li>Target Location: <code>/home/deck/.local/share/yuzu/keys</code></li>
+</ul>
+</li>
+<li>Saves:</li>
+<li>Symlink: <code>Emulation/saves/yuzu/</code></li>
+<li>Target Location: <code>Emulation/storage/yuzu/nand/user/save/</code></li>
+</ul>
+<p><strong>Note:</strong> <code>~/.local</code> is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click <code>Show Hidden Files</code> to see these folders.</p>
+<h3 id="works-with">Works with:</h3>
+<ul>
+<li>Steam ROM Manager</li>
+<li>EmulationStation-DE</li>
+</ul>
+<hr />
+<h3 id="how-to-update-yuzu">How to Update Yuzu</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p><strong>How to Update Yuzu</strong></p>
+<ul>
+<li>Through the <code>Update your Emulators &amp; Tools</code> section on the <code>Manage Emulators</code> page in the <code>EmuDeck</code> application</li>
+<li>Manual file replacement of <code>Yuzu</code></li>
+<li>Refer to https://github.com/dragoonDorise/EmuDeck/wiki/File-Management#how-to-swap-out-appimages-and-binaries for instructions. </li>
+<li>Through the application's automatic updater</li>
+<li>When you open Yuzu you may be prompted for an update, accept the prompt to update the application</li>
+</ul>
+<hr />
+<h3 id="how-to-launch-yuzu-in-desktop-mode">How to Launch Yuzu in Desktop Mode</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p><strong>How to Launch Yuzu in Desktop Mode</strong></p>
+<ul>
+<li>Launch <code>yuzu AppImage</code> from the <code>Applications Launcher</code> (Steam Deck icon in the bottom left of the taskbar)</li>
+<li>Launch the script from <code>Emulation/tools/launchers</code>, <code>yuzu.sh</code></li>
+<li>Launch the AppImage in <code>/home/deck/Applications/Yuzu.AppImage</code></li>
+<li>Launch the emulator from <code>Steam</code> after adding it via the <code>Emulators</code> parser in <code>Steam ROM Manager</code> </li>
+</ul>
+<hr />
+<h3 id="yuzu-file-formats">Yuzu File Formats</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<ul>
+<li>.kp </li>
+<li>.nca </li>
+<li>.nro </li>
+<li>.nso </li>
+<li>.nsp </li>
+<li>.xci</li>
+</ul>
+<hr />
+<h3 id="how-to-manage-dlc-and-updates">How to Manage DLC and Updates</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p><strong>Preface:</strong> Do not keep your DLC or update files in the <code>Emulation/roms/switch</code> folder. Steam ROM Manager will parse your updates and DLC and create broken shortcuts. After installing your DLC or updates, you can discard them or save them for Ryujinx. </p>
+<p>Ryujinx expects your DLC and update files to stay permanently in a folder, either in a folder of your choice, or in <code>Emulation/storage/ryujinx/patchesAndDlc</code>. For further detail, read: https://github.com/dragoonDorise/EmuDeck/wiki/ryujinx#how-to-manage-dlc-and-updates. </p>
+<p>DLC and Updates are installed directly through the Yuzu menu. </p>
+<p><strong>Quick Tutorial</strong></p>
+<ol>
+<li>In Desktop Mode, open Yuzu</li>
+<li>Click <code>File</code></li>
+<li>Click <code>Install Files to NAND..</code><ul>
+<li><img src="https://user-images.githubusercontent.com/108900299/221684457-9e642cec-06bc-4acb-b6ba-ec7acf8b3539.png" height="300"></li>
+</ul>
+</li>
+<li>(Optional) If your DLC or update files are on your SD Card, your path is: <code>/run/media/...</code>. To navigate here, click <code>Computer</code> on the left, open the <code>/</code> folder, open the <code>run</code> folder, then the <code>media</code> folder, and follow the path to the files on your SD Card. </li>
+<li>Locate your DLC or update files in your directory</li>
+<li>Your DLC or update files are now installed</li>
+</ol>
+<hr />
+<h3 id="yuzu-hotkeys">Yuzu Hotkeys</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p>Combo hotkeys have been mapped for this emulator.</p>
+<table>
+<thead>
+<tr>
+<th>Hotkey</th>
+<th>Yuzu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Menu / Full Screen</td>
+<td><code>Select</code> + <code>R3</code></td>
+</tr>
+<tr>
+<td>Docked Mode</td>
+<td><code>Start</code> + <code>DPAD Up</code></td>
+</tr>
+<tr>
+<td>GPU Accuracy</td>
+<td><code>Start</code> + <code>DPAD Down</code></td>
+</tr>
+<tr>
+<td>Filter</td>
+<td><code>Start</code> + <code>DPAD Left</code></td>
+</tr>
+<tr>
+<td>Pause</td>
+<td><code>Select</code> + <code>A</code></td>
+</tr>
+<tr>
+<td>Fast Forward</td>
+<td><code>Select</code> + <code>R2</code></td>
+</tr>
+<tr>
+<td>Exit</td>
+<td><code>Select</code> + <code>Start</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Steam Deck Button Layout:</strong> https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout</p>
+<hr />
+<h3 id="known-issues">Known Issues</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<ul>
+<li>Files with special characters in the name will not launch from shortcuts created by Steam ROM Manager in Steam or EmulationStation-DE. Rename your ROMs if they contain any of the following characters.</li>
+<li>Known Cases: <ul>
+<li><code>é</code> in Pokémon</li>
+<li><code>'</code> in Link's Awakening</li>
+</ul>
+</li>
+<li>The 3.4.6 SteamOS Stable Update on March 13th updated Mesa to 23.1. Some games may be affected. </li>
+<li>Known Issues: <ul>
+<li>Super Mario 3D World has flicking textures in snow levels. </li>
+</ul>
+</li>
+<li>Recommended Workarounds:<ul>
+<li>Use the Yuzu Flatpak</li>
+<li>Test older Yuzu versions</li>
+</ul>
+</li>
+<li>Date added to this page: March 14th, 2023</li>
+<li>Yuzu Mainline 1296 merged YFC 1.5. Recent versions of Yuzu may have some stability issues or regressions. </li>
+<li>Recommended Versions: <ul>
+<li>Mainline 1295: https://github.com/yuzu-emu/yuzu-mainline/releases/tag/mainline-0-1295</li>
+</ul>
+</li>
+<li>Date added to this page: January 19th, 2023</li>
+<li>Shin Megami Tensei V may have some performance regressions in recent versions of Yuzu. </li>
+<li>Recommended Versions: <ul>
+<li>Mainline 1069: https://github.com/yuzu-emu/yuzu-mainline/releases/tag/mainline-0-1069</li>
+</ul>
+</li>
+<li>Date added to this page: January 19th, 2023</li>
+<li>Pokemon Legends Arceus may have some crashes in recent versions of Yuzu.</li>
+<li>Recommended Versions: <ul>
+<li>Mainline 984: https://github.com/yuzu-emu/yuzu-mainline/releases/download/mainline-0-984/yuzu-20220414-0d81d4395.AppImage</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="yuzu-common-issues">Yuzu Common Issues</h2>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<hr />
+<h3 id="special-characters">Special Characters</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p>Files with special characters in the ROM name will not launch from Steam. Rename your ROMs and remove the special character.</p>
+<p>Known <strong>Cases</strong>:
+* <code>é</code> in <code>Pokémon</code>
+* <code>'</code> in <code>The Legend of Zelda: Link's Awakening</code></p>
+<p>If you used Steam ROM Manager previously, re-run Steam ROM Manager after renaming your ROMs. </p>
+<hr />
+<h3 id="combined-xci-files">Combined XCI Files</h3>
+<p>Combined Nintendo Switch games can be unreliable. These combined games will still work if you open them through Yuzu directly. </p>
+<p>However, using combined games may cause issues if you are using a shortcut created by Steam ROM Manager or running the game through EmulationStation-DE. </p>
+<p>It is recommended you do not use combined games if you want to use shortcuts created by Steam ROM Manager or run your games through EmulationStation-DE.</p>
+<hr />
+<h3 id="why-is-mario-kart-8-stuck-on-the-mii-selection-screen">Why is Mario Kart 8 stuck on the Mii selection screen?</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p>Dump and use your firmware and keys from your console following Yuzu's <a href="https://yuzu-emu.org/help/quickstart/">quickstart guide</a>. </p>
+<p>The firmware <strong>must contain</strong> Mii data. Without it, the game will get stuck on the Mii selection screen.</p>
+<p>If the game is stuck on a Mii selection screen, that means your firmware does not contain Mii data. You will need to re-dump your firmware. </p>
+<p>Reference Image: <img src="https://user-images.githubusercontent.com/108900299/229313988-00e1529b-636d-43bf-989b-49c44ba82a10.png" height="300"></p>
+<p>After you dump your firmware with Mii data, place it in <code>Emulation/bios/yuzu/firmware</code>.</p>
+<p>Once you have dumped your firmware with the proper Mii data and place it in the correct folder, you will be able to proceed through the Mii selection menu.  </p>
+<hr />
+<h3 id="why-is-new-super-mario-bros-u-deluxe-stuck-on-a-black-screen">Why is New Super Mario Bros U Deluxe stuck on a black screen?</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p>Dump and use your firmware and keys from your console following Yuzu's <a href="https://yuzu-emu.org/help/quickstart/">quickstart guide</a>. </p>
+<p>The firmware must contain Mii data. Without it, the game will launch into a black screen. </p>
+<p>If the game is stuck on a black screen, that means your firmware <strong>does not</strong> contain Mii data. You will need to re-dump your firmware. </p>
+<p>After you dump your firmware with Mii data, place it in <code>Emulation/bios/yuzu/firmware</code>.</p>
+<p>Once you have dumped your firmware with the proper Mii data and place it in the correct folder, the game will proceed and you will be able to play.  </p>
+<hr />
+<h2 id="yuzu-tips-and-tricks">Yuzu Tips and Tricks</h2>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<hr />
+<h3 id="how-to-configure-gyro">How to Configure Gyro</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p>Gyro for Yuzu requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.</p>
+<p>Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#steamdeckgyrodsu to learn how to install and utilize SteamDeckGyroDSU. </p>
+<hr />
+<h3 id="how-to-optimize-performance-power-tools">How to Optimize Performance (Power Tools)</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p>Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. </p>
+<hr />
+<h3 id="how-to-configure-multiplayer">How to Configure Multiplayer</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p>Multiplayer for Yuzu is configured out of the box, no additional configuration is needed. </p>
+<p>You may need to set the <code>Controller Order</code> in the Steam QAM (<code>...</code> button). </p>
+<hr />
+<h3 id="how-to-install-mods">How to Install Mods</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p><strong>Mod Resources</strong></p>
+<p><em>This list is not comprehensive</em></p>
+<ul>
+<li>Yuzu Mods: https://yuzu-emu.org/wiki/switch-mods/</li>
+<li>This is not an exhaustive list of mods available for Yuzu</li>
+<li>Alternate link: https://github.com/yuzu-emu/yuzu/wiki/Switch-Mods</li>
+<li>Yuzu Mod Instructions: https://yuzu-emu.org/help/feature/game-modding/</li>
+<li>GameBanana Mods: https://gamebanana.com/</li>
+<li>Search by game name</li>
+<li>Nexus Mods: https://www.nexusmods.com/</li>
+<li>Search by game name</li>
+<li>GBAtemp: https://gbatemp.net/forums/nintendo-switch.283/?prefix_id=56</li>
+<li>Use https://gbatemp.net/search/?type=post to search<ul>
+<li>Sort by <code>ROM Hack</code> in the prefixes list and <code>Nintendo Switch</code> in the <code>Search in forums</code> list</li>
+<li>To narrow search results, use the <code>Search titles only</code> toggle</li>
+</ul>
+</li>
+<li>SweetFX: http://sfx.thelazy.net/games/</li>
+<li>Search by game name</li>
+<li>theboy181</li>
+<li>1: Github Collection: https://github.com/theboy181/switch-ptchtxt-mods</li>
+<li>2: Github Collection: https://github.com/theboy181/switch-cheat-mods</li>
+<li>3: theboy181's Discord: https://linktr.ee/theboy181</li>
+</ul>
+<hr />
+<p><strong>Preface</strong></p>
+<p>Read Yuzu's instructions on how to install mods here: https://yuzu-emu.org/help/feature/game-modding/</p>
+<p>The <strong>folder structure</strong> of a mod <strong>is important</strong>. It should generally look like the following:</p>
+<pre><code>mod_directory
+  - exefs
+  - romfs
+  - romfs_ext
+</code></pre>
+<p>A few examples:</p>
+<pre><code># Blur Removal Mod for The Legend of Zelda: Link's Awakening
+
+Blur Removal
+  - exefs
+      - Zelda-Links Awakening v1.0.1 - DOF.pchtxt
+</code></pre>
+<pre><code># 60 FPS Mod for The Legend of Zelda: Link's Awakening
+
+Stable-60fps-v2
+  - exefs
+      - 1.0.0.pchtxt
+</code></pre>
+<pre><code># Faster Battles Mod for Pokemon Brilliant Diamond
+
+Faster Battles
+  - romfs
+      - Data
+         - StreamingAssets
+             - AssetAssistant
+                 - Battle
+                     - battle_masterdatas
+</code></pre>
+<hr />
+<p><strong>Tutorial</strong></p>
+<ol>
+<li>In Desktop Mode, open Yuzu</li>
+<li>Right click a game you intend on modding</li>
+<li>Click <code>Open Mod Data Location</code></li>
+<li>Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/201798674-bdc115fd-b6f9-465f-a9d3-39374e756a97.png" height="300"></li>
+<li>Place your mod folder in the opened folder</li>
+<li>You may need to extract the mod first</li>
+<li>Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/201798900-ec578de7-de6f-45f7-b5a4-dfc2fd82b4c3.png" height="300"></li>
+<li>In Yuzu, right click the same game, open <code>Properties</code>, click the <code>Add-Ons</code> tab</li>
+<li>Check the box to the left of your mod(s)</li>
+<li>Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/201799059-bd2e8a1a-0549-47ea-9d7b-1b5b75807f8d.png" height="300"></li>
+<li>Your mod is now installed</li>
+</ol>
+<hr />
+<h3 id="special-game-configurations">Special Game Configurations</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p>Some games will take additional setup, requiring mods or an extensive alteration of settings. The EmuDeck Community Creations page collects these configurations in one centralized location. </p>
+<p>You can submit or view special game configurations here: https://github.com/dragoonDorise/EmuDeck/wiki/community-creations#yuzu-nintendo-switch</p>
+<p><strong>Current List of Special Game Configurations</strong></p>
+<ul>
+<li>The Legend of Zelda: Link's Awakening</li>
+</ul>
+<hr />
+<h3 id="how-to-set-up-early-access">How to Set Up Early Access</h3>
+<p><a href="#yuzu-table-of-contents">Back to the Top</a></p>
+<p>EmuDeck 2.1 added an option to enable Yuzu (Early Access).</p>
+<p><strong>Here's how to set it up</strong></p>
+<ol>
+<li>Open EmuDeck</li>
+<li>Click the <code>Manage Emulators</code> button</li>
+<li>Click <code>Yuzu</code></li>
+<li>Click <code>Setup Early Access</code></li>
+<li>Enter your token</li>
+<li>Whenever you launch Yuzu, it will now use the <code>Early Access</code> version</li>
+</ol>
+<hr />
+              
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../Yuzu-Linux/" class="btn btn-neutral float-left" title="Yuzu Linux"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+          
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    
+    
+      <span><a href="../Yuzu-Linux/" style="color: #fcfcfc">&laquo; Previous</a></span>
+    
+    
+  </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme_extra.js" defer></script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>

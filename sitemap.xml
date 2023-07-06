@@ -6,12 +6,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emudeck.github.io/Yuzu-Linux/</loc>
+         <lastmod>2023-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emudeck.github.io/Yuzu-Windows/</loc>
+         <lastmod>2023-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emudeck.github.io/Yuzu/</loc>
          <lastmod>2023-07-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://emudeck.github.io/about/</loc>
+         <lastmod>2023-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emudeck.github.io/melonDS-Linux/</loc>
+         <lastmod>2023-07-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emudeck.github.io/melonDS-Windows/</loc>
          <lastmod>2023-07-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
