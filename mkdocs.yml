@@ -87,7 +87,7 @@ nav:
             - 'RPCS3 Windows': 'emulators/windows/rpcs3.md'
         - Ryujinx:
             - 'Ryujinx SteamOS': 'emulators/steamos/ryujinx.md'
-            - 'Ryujinx SteamOS': 'emulators/windows/ryujinx.md'
+            - 'Ryujinx Windows': 'emulators/windows/ryujinx.md'
         - ScummVM:
             - 'ScummVM SteamOS': 'emulators/steamos/scummvm.md'
         - Xemu:
