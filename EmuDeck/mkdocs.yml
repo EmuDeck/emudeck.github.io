@@ -1,0 +1,6 @@
+site_name: EmuDeck Wiki
+site_url: https://emudeck.github.io
+nav:
+    - Home: index.md
+    - About: about.md
+theme: readthedocs
