@@ -1,6 +1,12 @@
 site_name: EmuDeck Wiki
 site_url: https://emudeck.github.io
 nav:
-    - Home: index.md
-    - About: about.md
+    - Home: 'index.md'
+    - Emulators:
+        - melonDS:
+            - 'melonDS Linux': 'melonDS-Linux.md'
+            - 'melonDS Windows': 'melonDS-Windows.md'
+        - Yuzu:
+            - 'Yuzu Linux': 'Yuzu-Linux.md'
+            - 'Yuzu Windows': 'Yuzu-Windows.md'
 theme: readthedocs
