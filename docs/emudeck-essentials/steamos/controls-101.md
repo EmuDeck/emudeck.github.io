@@ -2,7 +2,7 @@
 
 ***
 
-# Controls 101 Table of Contents
+## Controls 101 Table of Contents
 
 1. [Configuration](#controls-101-configuration)
       - [Steam Deck Button Layout](#steam-deck-button-layout)
@@ -16,12 +16,12 @@
    - [Personal Computers](#personal-computers)
       - [Commodore 64](#commodore-64)
 
-# Controls 101 Configuration
+## Controls 101 Configuration
 [Back to the Top](#controls-101-table-of-contents)
 
 ***
 
-## Steam Deck Button Layout
+###  Steam Deck Button Layout
 [Back to the Top](#controls-101-table-of-contents)
 
 **Front:**
@@ -36,24 +36,24 @@
 
 ***
 
-# Controls 101
+## Controls 101
 [Back to the Top](#controls-101-table-of-contents)
 
 ***
 
-## Nintendo Controllers
+###  Nintendo Controllers
 [Back to the Top](#controls-101-table-of-contents)
 
 ***
 
-### SNES
+####  SNES
 [Back to the Top](#controls-101-table-of-contents)
 
 **SNES Controller:**
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/6163730a-53eb-47a6-a7f7-e33a0f1eee6d" height="300">
 
-#### Chart
+#####  Chart
 
 | Steam Deck       | SNES               |
 |------------------|--------------------|
@@ -71,14 +71,14 @@
 
 ***
 
-### Nintendo 64
+####  Nintendo 64
 [Back to the Top](#controls-101-table-of-contents)
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/007898fc-3703-4de0-a111-1deca7e8af83" height="300">
 
 **Back:** <img src="https://user-images.githubusercontent.com/108900299/230758433-45ae5fab-c840-4f26-970d-fbe49cbb8dd7.png" height="300">
 
-#### Chart
+#####  Chart
 
 | Steam Deck       | Nintendo 64        |
 |------------------|--------------------|
@@ -107,13 +107,13 @@
 
 ***
 
-### Gamecube
+####  Gamecube
 [Back to the Top](#controls-101-table-of-contents)
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/55438467-0812-4a96-afc4-327d2e0c363c" height="300">
 
 
-#### Chart
+#####  Chart
 
 | Steam Deck       | Gamecube           |
 |------------------|--------------------|
@@ -134,14 +134,14 @@
 
 ***
 
-### Wii
+####  Wii
 [Back to the Top](#controls-101-table-of-contents)
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/7918e637-c028-45ff-8c88-59382b2fc49b" height="300">
 
 **Nunchuk:** <img src="https://user-images.githubusercontent.com/108900299/230758936-23debd00-ee76-4bd4-b89f-df8cbbf96b62.png" height="300">
 
-#### Chart
+#####  Chart
 
 | Steam Deck       | Wii                |
 |------------------|--------------------|
@@ -161,12 +161,12 @@
 
 ***
 
-## Personal Computers
+###  Personal Computers
 [Back to the Top](#controls-101-table-of-contents)
 
 ***
 
-### Commodore 64
+####  Commodore 64
 [Back to the Top](#controls-101-table-of-contents)
 
 ***

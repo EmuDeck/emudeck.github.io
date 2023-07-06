@@ -4,7 +4,7 @@ A breakdown of the EmuDeck application and how to use its full suite of features
 
 ***
 
-# EmuDeck Application 101 Table of Contents
+### EmuDeck Application 101 Table of Contents
 
 - [Getting Started with the EmuDeck Application](#getting-started-with-the-emudeck-application)
    - [USB Transfer Wizard](#usb-transfer-wizard)
@@ -30,12 +30,12 @@ A breakdown of the EmuDeck application and how to use its full suite of features
 
 ***
 
-# Getting Started with the EmuDeck Application
+## Getting Started with the EmuDeck Application
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 ***
 
-## USB Transfer Wizard
+### USB Transfer Wizard
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/6c6d2aaa-5dda-43ea-aeb1-c3bf2ed24e88" height="300">
@@ -44,7 +44,7 @@ Use EmuDeck's USB Transfer Wizard to transfer files between your Steam Deck and 
 
 ***
 
-## Quick Settings
+### Quick Settings
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/108900299/246722290-c5c7042b-5820-4478-a754-b7811a27ab9e.png" height="300">
@@ -64,7 +64,7 @@ Manage:
 
 ***
 
-## Manage Emulators
+### Manage Emulators
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/c535314d-dc6d-4b52-b10f-08a450b397c7" height="300">
@@ -79,14 +79,14 @@ Features:
 
 ***
 
-## EmuDeck Store
+### EmuDeck Store
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-store for more information.
 
 ***
 
-## Steam ROM Manager
+### Steam ROM Manager
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Use Steam ROM Manager to add ROMs, tools, and emulators to your Steam library as non-Steam shortcuts. Launching Steam ROM Manager through EmuDeck will exit out of Steam and revert your Steam Deck to "Lizard Mode". In "Lizard Mode", use L2 to right click, R2 to left click, and the trackpad to move your cursor.
@@ -95,21 +95,21 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/Steam-ROM-Manager for more i
 
 ***
 
-## Quick Reset
+### Quick Reset
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Quickly update or reset your entire installation to the latest EmuDeck version.
 
 ***
 
-## Custom Reset
+### Custom Reset
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Update or reset your entire installation to the latest EmuDeck version in custom mode.
 
 ***
 
-## Power Tools
+### Power Tools
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Power Tools is a Decky Loader plugin that allows you to tweak power settings in Game Mode.
@@ -140,7 +140,7 @@ Power Tools is a Decky Loader plugin that allows you to tweak power settings in 
 
 ***
 
-## DeckyControls
+### DeckyControls
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/dec12de0-0563-493a-afe9-a648bd77e814" height="300">
@@ -162,7 +162,7 @@ After installing `DeckyControls`, restart your Steam Deck (Returning to Game Mod
 
 ***
 
-## SteamDeckGyroDSU
+### SteamDeckGyroDSU
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 SteamDeckGyroDSU is a tool that allows emulators to use Steam Deck's gyro.
@@ -178,7 +178,7 @@ SteamDeckGyroDSU's website: https://github.com/kmicki/SteamDeckGyroDSU
 * [Ryujinx (Switch)](https://ryujinx.org/)
 
 
-#### How to Install SteamDeckGyroDSU
+##### How to Install SteamDeckGyroDSU
 
 1. Open `EmuDeck` on your desktop
 2. Select `SteamDeckGyroDSU`
@@ -187,7 +187,7 @@ SteamDeckGyroDSU's website: https://github.com/kmicki/SteamDeckGyroDSU
 4. Restart your Steam Deck
 5. SteamDeckGyroDSU is now installed
 
-#### How to Use SteamDeckGyroDSU
+##### How to Use SteamDeckGyroDSU
 
 1. In Game Mode, while in a game, press the `STEAM` button
 2. Open Controller Settings 
@@ -199,7 +199,7 @@ SteamDeckGyroDSU's website: https://github.com/kmicki/SteamDeckGyroDSU
 
 ***
 
-## EmuDeck Compressor
+### EmuDeck Compressor
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/c847a35d-d8fd-48db-9cb5-e5b57cc6b57c" height="300">
@@ -211,7 +211,7 @@ Features:
 
 ***
 
-## BIOS Checker
+### BIOS Checker
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/d1a481ab-a4f6-4e3a-aa9b-19980e5a2d05" height="300">
@@ -222,21 +222,21 @@ Features:
 
 ***
 
-## Cloud Backup
+### Cloud Backup
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/cloud-saves for more information.
 
 ***
 
-## Cloud Services
+### Cloud Services
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/cloud-services for more information
 
 ***
 
-## RetroAchievements
+### RetroAchievements
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Retroachievements adds "achievements to your favourite retro games." Visit the Retroachievements website for more information, https://retroachievements.org/.
@@ -253,7 +253,7 @@ Retroachievements adds "achievements to your favourite retro games." Visit the R
 
 ***
 
-## Migrate Installation
+### Migrate Installation
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 This feature migrates your EmuDeck install to your SD Card or vice versa.
@@ -264,21 +264,21 @@ The "Migrate Installation" utility does not delete your original installation. A
 
 ***
 
-## Fetch Log File
+### Fetch Log File
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 This features uploads your EmuDeck log to sprunge, which you may share with the EmuDeck team to debug any issues with your EmuDeck install.
 
 ***
 
-## Changelog
+### Changelog
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Check what's new with EmuDeck.
 
 ***
 
-## Uninstall
+### Uninstall
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Remove EmuDeck from your system entirely. 
@@ -287,7 +287,7 @@ This feature **should not** be used to troubleshoot EmuDeck. Troubleshoot specif
 
 ***
 
-## Become a Patron
+### Become a Patron
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application-101#emudeck-application-101-table-of-contents)
 
 Become a patron for early access to new features and a sneak peek of the Windows build.

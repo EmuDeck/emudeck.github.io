@@ -7,7 +7,7 @@ The Cloud Services Manager (CSM) handles two types of services:
 
 ***
 
-# Cloud Services Table of Contents
+## Cloud Services Table of Contents
 
 - [Getting Started with Cloud Services](#getting-started-with-cloud-services)
 - [Configuration](#configuration)
@@ -40,7 +40,7 @@ The Cloud Services Manager (CSM) handles two types of services:
 
 ***
 
-## Configuration
+### Configuration
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cloud-services#cloud-services-table-of-contents)
 
 * Cloud Services Folder Location (web browser launcher script): `Emulation/roms/cloud`
@@ -48,7 +48,7 @@ The Cloud Services Manager (CSM) handles two types of services:
 
 ***
 
-## List of Cloud Services
+### List of Cloud Services
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cloud-services#cloud-services-table-of-contents)
 
 | Cloud Services             | Website                            |
@@ -83,7 +83,7 @@ The Cloud Services Manager (CSM) handles two types of services:
 
 ***
 
-## List of Remote Play Clients
+### List of Remote Play Clients
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cloud-services#cloud-services-table-of-contents)
 
 | Remote Play Client | Website                            |
@@ -94,7 +94,7 @@ The Cloud Services Manager (CSM) handles two types of services:
 
 ***
 
-## Steam Input Profile
+### Steam Input Profile
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cloud-services#cloud-services-table-of-contents)
 
 Steam Input Profile: `EmuDeck - Cloud`

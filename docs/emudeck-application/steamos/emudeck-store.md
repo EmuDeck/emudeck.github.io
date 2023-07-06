@@ -9,7 +9,7 @@ Please contact us on on our [Discord](https://discord.gg/b9F7GpXtFP), if:
 
 ***
 
-# Homebrew Games Table of Contents
+## Homebrew Games Table of Contents
 
 
 1. [Getting Started with Homebrew Games](#getting-started-with-homebrew-games)
@@ -21,12 +21,12 @@ Please contact us on on our [Discord](https://discord.gg/b9F7GpXtFP), if:
 
 ***
 
-# Getting Started with Homebrew Games
+## Getting Started with Homebrew Games
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/homebrew-games#homebrew-games-table-of-contents)
 
 ***
 
-## Configuration
+### Configuration
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/homebrew-games#homebrew-games-table-of-contents)
 
 **Setting up Homebrew Games**
@@ -48,7 +48,7 @@ Downloading a Homebrew games will add a homebrew folder and the respective ROM t
 
 ***
 
-## List of Homebrew Games
+### List of Homebrew Games
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/homebrew-games#homebrew-games-table-of-contents)
 
 EmuDeck Curated games:
@@ -167,7 +167,7 @@ The following games come from webrcade's selection, all the curation efforts and
 
 ***
 
-# Homebrew Games Tips and Tricks
+## Homebrew Games Tips and Tricks
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/homebrew-games#homebrew-games-table-of-contents)
 
 ***
