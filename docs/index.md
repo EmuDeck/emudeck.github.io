@@ -2,12 +2,6 @@
 
 ***
 
-## Non-English Language Guides
-
-* Spanish (By D0aTech): https://www.youtube.com/watch?v=eZhHWwHmUnM
-
-***
-
 ## What the *hell* is EmuDeck anyways?
 EmuDeck is an installation script that helps you get started with emulation on the Steam Deck. It is not an all in one solution like some other software. Instead, it strives to provide the best possible official options to you, set up and ready to go. 
 
