@@ -31,7 +31,7 @@ Could you do everything EmuDeck does on your own? You sure could, but now you do
 3.  If you would like to customize your install, choose `Custom Mode` during the installer.
 4. After you run EmuDeck once, you may open EmuDeck to use its suite of tools.
 5.  To easily update emulators, use the updater on the `Manage Emulators` page. 
-6.  If you come across something where you feel that the configurations should be updated, please create an issue: https://github.com/dragoonDorise/EmuDeck/issues and the EmuDeck team will get back to you shortly!
+6.  If you come across something where you feel that the configurations should be updated, please create an issue: [https://github.com/dragoonDorise/EmuDeck/issues](https://github.com/dragoonDorise/EmuDeck/issues) and the EmuDeck team will get back to you shortly!
     * The EmuDeck team cannot promise it will be a bug-free experience. Please report any bugs you come across by submitting an issue on the GitHub page.
 
 Setup Required:
