@@ -14,7 +14,7 @@
 
 ***
 
-## 1) EmuDeck: 
+### 1) EmuDeck: 
 [Back to the Top](#updating-table-of-contents)
 
 * Open the EmuDeck icon on your desktop. This will update you to the latest version of EmuDeck
@@ -28,19 +28,19 @@
 
 ***
 
-## 2) Emulators, EmulationStation-DE, or Steam ROM Manager:
+### 2) Emulators, EmulationStation-DE, or Steam ROM Manager:
 [Back to the Top](#updating-table-of-contents)
 
 ***
 
-### How are the various emulators and tools installed or downloaded?
+#### How are the various emulators and tools installed or downloaded?
 [Back to the Top](#updating-table-of-contents)
 
 The emulators and tools that come with EmuDeck come in four primary types: AppImage, Binary, Flatpak, and Windows Executable (through Proton).
 
 ***
 
-#### AppImage
+##### AppImage
 
 **Tools**
 
@@ -54,7 +54,7 @@ The emulators and tools that come with EmuDeck come in four primary types: AppIm
 * [PCSX2](https://pcsx2.net/)
 * [Yuzu](https://yuzu-emu.org/)
 
-#### Flatpak
+##### Flatpak
 
 **Emulators**
 
@@ -71,14 +71,14 @@ The emulators and tools that come with EmuDeck come in four primary types: AppIm
 * [ScummVM](https://www.scummvm.org/)
 * [Xemu](https://xemu.app/)
 
-#### Windows Executable (Through Proton)
+##### Windows Executable (Through Proton)
 
 **Emulators**
 
 * [Cemu](https://cemu.info/)
 * [Xenia](https://xenia.jp/)
 
-#### Binary
+##### Binary
 
 **Emulators**
 
@@ -121,7 +121,7 @@ Some emulators are packaged as AppImages, Binaries, or Windows executables. You 
 
 ***
 
-## 3) RetroArch Cores
+### 3) RetroArch Cores
 [Back to the Top](#updating-table-of-contents)
 
 **How to Update RetroArch Cores**

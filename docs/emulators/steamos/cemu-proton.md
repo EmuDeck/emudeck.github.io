@@ -16,7 +16,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
 ***
 
 
-# Cemu Proton Table of Contents
+## Cemu Proton Table of Contents
 
 1. [Getting started with Cemu](#getting-started-with-cemu)
    - [Setting up Cemu Questionnaire](#setting-up-cemu-questionnaire)
@@ -40,7 +40,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
 
 ***
 
-# Getting started with Cemu
+## Getting started with Cemu
 [Back to the Top](#cemu-proton-table-of-contents)
 
 **IMPORTANT:** Cemu is shifting away from encrypted ROMs (WUX, WUD). It is strongly recommended you use decrypted ROMs (Loadiine, WUA). Decrypted ROMs do not need any additional configuration and should launch without any issue.
@@ -63,7 +63,7 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 
 ***
 
-## Setting up Cemu Questionnaire
+### Setting up Cemu Questionnaire
 [Back to the Top](#cemu-proton-table-of-contents)
 
 **IMPORTANT:** Cemu is shifting away from encrypted ROMs (WUX, WUD). It is strongly recommended you use decrypted ROMs (Loadiine, WUA). Decrypted ROMs do not need any additional configuration and should launch without any issue. If you use decrypted ROMs, you do not need the following questionnaire. 
@@ -89,7 +89,7 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 
 ***
 
-## Cemu Proton Configuration
+### Cemu Proton Configuration
 [Back to the Top](#cemu-proton-table-of-contents)
 
 **IMPORTANT:** Cemu is shifting away from encrypted ROMs (WUX, WUD). It is strongly recommended you use decrypted ROMs (Loadiine, WUA). Decrypted ROMs do not need any additional configuration and should launch without any issue.
@@ -122,13 +122,13 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
    * Symlink:  `Emulation/saves/Cemu/saves/`
    * Target: `Emulation/roms/wiiu/mlc01/usr/save`
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## The Dangers of Proton
+### The Dangers of Proton
 [Back to the Top](#cemu-proton-table-of-contents)
 
 **IMPORTANT:**
@@ -143,7 +143,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 ***
 
-## How to Update Cemu
+### How to Update Cemu
 [Back to the Top](#cemu-proton-table-of-contents)
 
 **How to Update Cemu**
@@ -154,7 +154,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 ***
 
-## How to Switch Between Cemu Versions
+### How to Switch Between Cemu Versions
 [Back to the Top](#cemu-proton-table-of-contents)
 
 EmuDeck includes a feature that allows you to swap between Cemu 1.26 (stable), 1.27, and 2.x. 
@@ -175,7 +175,7 @@ EmuDeck includes a feature that allows you to swap between Cemu 1.26 (stable), 1
 
 ***
 
-## How to Launch Cemu in Desktop Mode
+### How to Launch Cemu in Desktop Mode
 [Back to the Top](#cemu-proton-table-of-contents)
 
 **How to Launch Cemu in Desktop Mode**
@@ -186,7 +186,7 @@ EmuDeck includes a feature that allows you to swap between Cemu 1.26 (stable), 1
 
 ***
 
-## Cemu Proton File Formats
+### Cemu Proton File Formats
 [Back to the Top](#cemu-proton-table-of-contents)
 
 * Loadiine (rpx)
@@ -214,7 +214,7 @@ EmuDeck includes a feature that allows you to swap between Cemu 1.26 (stable), 1
 
 ***
 
-## How to Convert to WUA
+### How to Convert to WUA
 [Back to the Top](#cemu-proton-table-of-contents)
 
 The WUA format is a compressed version of the Loadiine format. It contains your base game, DLC, and updates all in one single file. The WUA format is a lot less fuss than the other formats, requires no keys, and is the most friendly format for EmulationStation-DE.
@@ -242,10 +242,10 @@ Here's how to convert to WUA:
 
 ***
 
-## How to Manage DLC and Updates
+### How to Manage DLC and Updates
 [Back to the Top](#cemu-proton-table-of-contents)
 
-### Preface
+#### Preface
 
 DLC and Updates must be installed using the title manager. DLC and Updates are saved to mlc01, in the `Emulation/roms/wiiu` folder.
 
@@ -253,7 +253,7 @@ DLC and Updates must be installed using the title manager. DLC and Updates are s
 
 ***
 
-### Installing DLC/Updates Through Cemu
+#### Installing DLC/Updates Through Cemu
 
 1. Launch Cemu on Desktop Mode
 2. Click `File` in the top left, click `Install game title, update, or DLC...`
@@ -269,7 +269,7 @@ DLC and Updates must be installed using the title manager. DLC and Updates are s
 
 ***
 
-### Manual DLC / Update Install Method
+#### Manual DLC / Update Install Method
 
 You can manually position the update and DLC files in the correct spot without using the Title Manager in Cemu.
 
@@ -292,7 +292,7 @@ US Breath of the wild for example:
 
 ***
 
-## Cemu Proton Hotkeys
+### Cemu Proton Hotkeys
 [Back to the Top](#cemu-proton-table-of-contents)
 
 Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Cemu`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -314,7 +314,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 
 ***
 
-## Known Issues:
+### Known Issues
 [Back to the Top](#cemu-proton-table-of-contents)
 
 * Xenoblade Chronicles X crashes on `1.27.1` with high frequency.
@@ -324,12 +324,12 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 
 ***
 
-# Cemu Tips and Tricks
+## Cemu Tips and Tricks
 [Back to the Top](#cemu-proton-table-of-contents)
 
 ***
 
-## How to Configure Gyro
+### How to Configure Gyro
 [Back to the Top](#cemu-proton-table-of-contents)
 
 Gyro for Cemu requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
@@ -339,14 +339,14 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#stea
 
 ***
 
-## How to Optimize Performance (Power Tools)
+### How to Optimize Performance (Power Tools)
 [Back to the Top](#cemu-proton-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
 
 ***
 
-## How to Configure Multiplayer
+### How to Configure Multiplayer
 [Back to the Top](#cemu-proton-table-of-contents)
 
 1. Open Cemu
@@ -359,7 +359,7 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#powe
 
 ***
 
-## How to Use the Wii U Pro Controller Configuration
+### How to Use the Wii U Pro Controller Configuration
 [Back to the Top](#cemu-proton-table-of-contents)
 
 In some some games, the initial screen will prompt for a controller configuration: `Wii U Gamepad` or `Wii U Pro Controller`. 
@@ -381,12 +381,12 @@ If you prefer to use the `Wii U Pro Controller` layout, you need to change the c
 
 ***
 
-## How to Optimize Breath of the Wild
+### How to Optimize Breath of the Wild
 [Back to the Top](#cemu-proton-table-of-contents)
 
 **IMPORTANT:** You need Version 208 of Breath of the Wild to use FPS++. Read [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates) to learn how to install game updates for Cemu. 
 
-### How to Configure Cemu
+#### How to Configure Cemu
 
 1. In Desktop Mode, open `Cemu (Proton)`
 2. Right click `Breath of the Wild`, click `Edit graphic packs`
@@ -399,7 +399,7 @@ If you prefer to use the `Wii U Pro Controller` layout, you need to change the c
    * <img src="https://user-images.githubusercontent.com/108900299/236599850-75b95b08-252d-467a-b586-4c12f079bb12.png" height="300">
 8. Close out of Cemu
 
-### How to Configure Game Mode
+#### How to Configure Game Mode
 
 1. In Game Mode, open Breath of the Wild
 2. Click the `...` (the QAM) button

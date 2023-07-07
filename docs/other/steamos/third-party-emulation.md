@@ -4,7 +4,7 @@ Learn how to install various tools and resources related to emulation on your St
 
 The guides on this page are not officially supported by EmuDeck. Many require some level of comfort in the terminal to successfully install. Regardless of your comfort with the terminal, the guides will cover as much detail as possible to address a wide variety of expertise levels. If you get stuck on a certain part, it is encouraged you Google and troubleshoot. The EmuDeck Discord will not be able to promise support for the guides available on this page.
 
-# Third Party Emulation Table of Contents
+## Third Party Emulation Table of Contents
 
 1. [Decompilations and Reverse Engineered PC Ports](#decompilations-and-reverse-engineered-pc-ports)
     - [Getting Started with Decompilations and Reverse Engineered PC Ports](#getting-started-with-decompilations-and-reverse-engineered-pc-ports)
@@ -48,14 +48,14 @@ The guides on this page are not officially supported by EmuDeck. Many require so
 
 ***
 
-## How to Set up Distrobox
+### How to Set up Distrobox
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 Many of the decompilations and reverse engineered PC ports must be compiled. Compiling on the Steam Deck can be a bit tricky. Distrobox is one solution to make compiling these easy to do and any changes made within a Distrobox are retained on SteamOS updates.
 
 This section will go over setting up a Distrobox, which you will utilize throughout this page.
 
-### Prerequisites: Sudo Password
+#### Prerequisites: Sudo Password
 
 **Note:** Skip this section if you have already set a sudo password
 
@@ -64,7 +64,7 @@ This section will go over setting up a Distrobox, which you will utilize through
 3. Exit out of Konsole
 
 
-### How to Install Distrobox
+#### How to Install Distrobox
 
 This will require your sudo password for the setup
 
@@ -78,7 +78,7 @@ curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sh -
 curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/extras/install-podman | sh -s -- --prefix ~/.local
 ```
 
-### How to Configure bashrc
+#### How to Configure bashrc
 
 1. In Desktop Mode, open the `/home/deck` folder
    * You may not see the word `deck` in the file path at the top, this is the `home` folder for the `deck` user
@@ -96,7 +96,7 @@ export PATH=$PATH:$HOME/.local/podman/bin
 5. Save the `.bashrc` file and exit
 5. If you had a terminal open previously (Konsole), close out of it and re-open before proceeding to the next section
 
-### How to Set Up Distrobox
+#### How to Set Up Distrobox
 
 1. Open Konsole
 2. Create an Ubuntu distrobox: `distrobox create --name ubuntu -i ubuntu:22.10`
@@ -113,25 +113,25 @@ export PATH=$PATH:$HOME/.local/podman/bin
 
 ***
 
-## Cannonball - OutRun Engine
+### Cannonball - OutRun Engine
 [Back to the Top](#third-party-emulation-table-of-contents)
    
-### How to Build Cannonball on the Steam Deck
+#### How to Build Cannonball on the Steam Deck
 
-### What is this?
+#### What is this?
 
 `CannonBall is a souped-up game engine for the OutRun arcade game.`
 
 Source: https://github.com/djyt/cannonball
 
-### Installing Prerequisites
+#### Installing Prerequisites
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
    * `sudo apt install -y sdl2-dev libboost-dev cmake make`
 
-### Setting Up Cannonball
+#### Setting Up Cannonball
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -141,7 +141,7 @@ Source: https://github.com/djyt/cannonball
 4. A `cannonball` folder will be created, `
 5. You  will add your ROM files will be added after the build is finished
 
-### Building Cannonball
+#### Building Cannonball
 
 1. In `/home/deck/Applications/Distrobox/cannonball`, right click `Open Terminal Here`, enter:
    * `distrobox enter ubuntu`
@@ -153,36 +153,36 @@ Source: https://github.com/djyt/cannonball
   * `make -j4 VERBOSE=1`
 3. Wait for it to finish building
 
-### Providing ROM Files for Super Cannonball
+#### Providing ROM Files for Super Cannonball
 
 You must provide particular versions of the OutRun ROM files to run Cannonball. OutRun Revision B Roms need to unpacked into the cannonball/build/roms folder. The [cannonball/roms/roms.txt](https://raw.githubusercontent.com/djyt/cannonball/master/roms/roms.txt) file lists the expected file names to help you check that you have unpacked the correct files. 
 
 The location of suitable files cannot be linked here because they are copyright. When you have a suitable archive unpack it so that the files are directly in cannonball/build/roms and not in any subdirectory.
 
-### How to Configure Cannonball
+#### How to Configure Cannonball
 
 See the Cannonball manual: 
 `https://github.com/djyt/cannonball/wiki/Cannonball-Manual`
 
 No particular reconfiguration is needed for the Steam Deck. The game will default to 16:9 widescreen, and has no 16:10 mode, so there will be small black bars at the top and bottom of the SteamDeck screen. Options can be changed inside the Cannonball UI.
 
-### How to Run Cannonball
+#### How to Run Cannonball
 
    * `cd ~/Applications/distrobox/cannonball/build`
    * `./cannonball`
 
 ***
 
-## OpenGOAL: Jak and Dexter: The Precursor Legacy
+### OpenGOAL: Jak and Dexter: The Precursor Legacy
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-### What is OpenGOAL?
+#### What is OpenGOAL?
 
 `OpenGOAL is an unofficial port of Jak and Daxter: The Precursor Legacy for Windows and Linux.`
 
 Source: https://opengoal.dev/
 
-### Setting up OpenGOAL
+#### Setting up OpenGOAL
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -196,7 +196,7 @@ Source: https://opengoal.dev/
    * If you use EmuDeck, you may also place it in `Emulation/roms/ps2`
 
 
-### Installing OpenGOAL
+#### Installing OpenGOAL
 
 1. In `/home/deck/Applications/OpenGOAL`, right click, click `Open Terminal Here`
 2. Enter: `./extractor "NAMEOFJAKANDDEXTERROM"`
@@ -205,7 +205,7 @@ Source: https://opengoal.dev/
         * Example: If you placed it in your `Emulation/roms/ps2` folder on your SD card, the command will look like the following: `./extractor "/run/media/mmcblk0p1/Emulation/roms/ps2/NAMEOFJAKANDDEXTERROM"`
 3. To play `Jak and Daxter: The Precursor Legacy`, open `/home/deck/Applications/OpenGOAL/gk`
 
-### How to Install Custom Textures
+#### How to Install Custom Textures
 
 **Note:** After placing your custom textures, you will need to run the extractor again, some steps will be identical to the previous section. 
 
@@ -222,12 +222,12 @@ Source: https://opengoal.dev/
 
 ***
 
-## Render96ex
+### Render96ex
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-### How to Compile Render96ex on the Steam Deck
+#### How to Compile Render96ex on the Steam Deck
 
-### What is Render96ex?
+#### What is Render96ex?
 
 `An "HD" version of Super Mario 64 based on the rendered advertisements and art published in Nintendo Power.`
 
@@ -235,13 +235,13 @@ Source: https://github.com/Render96/Render96ex/wiki
 
 When you include the HD textures as part of this guide the whole Render96ex install will need 1.1GB of storage. This compares to less than 0.1 GB for the SM64Plus version of the game.
 
-### Installing Prerequisites
+#### Installing Prerequisites
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: `sudo apt install -y git build-essential pkg-config libusb-1.0-0-dev libsdl2-dev bsdmainutils libglew-dev`
 
-## Setting Up Render96ex
+#### Setting Up Render96ex
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -251,7 +251,7 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 3. A `Render96ex` folder will be created, place your Super Mario 64 ROM in this folder
 4. Rename the Super Mario 64 ROM to `baserom.us.z64`
 
-### Building Render96ex
+#### Building Render96ex
 
 1. In `/home/deck/Applications/Distrobox/Render96ex/`, right click `Open Terminal Here`, enter:
    * `distrobox enter ubuntu`
@@ -260,20 +260,20 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 3. Wait for it to finish building
 4. To play Render96ex, open `sm64.us.f3dex2e` in `/home/deck/Applications/Distrobox/Render96ex/build/us_pc`
 
-### How to Install Custom Models
+#### How to Install Custom Models
 
 1. Download the latest model pack: https://github.com/Render96/ModelPack/releases to `/home/deck/Downloads`
 2. Right click `Render96_DynOs_v3.2.7z` and click `Extract archive here, autodetect subfolder`
 3. Move the newly extracted `Render96_DynOs...` folder to `/home/deck/Applications/Distrobox/Render96ex/build/us_pc/dynos/packs`
 4. To enable custom models, in game, press `Start`, press `L2`, select `Model Packs` and enable `Render96DynOs...`
 
-### How to Install Custom Textures
+#### How to Install Custom Textures
 
 1. In `/home/deck/Applications/Distrobox/Render96ex/`, right click `Open Terminal Here`, enter:
    * `git clone https://github.com/pokeheadroom/RENDER96-HD-TEXTURE-PACK.git -b master`
 2. Move the `gfx` folder in the newly cloned `RENDER96-HD-TEXTURE-PACK` folder to `/home/deck/Applications/Distrobox/Render96ex/build/us_pc/res`
 
-### How to Configure Render96ex
+#### How to Configure Render96ex
 
 1. While in game, press `Start`, press `R1`
 2. Configure settings
@@ -282,16 +282,16 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 
 ***
 
-## Ship of Harkinian: Ocarina of Time 
+### Ship of Harkinian: Ocarina of Time 
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-### What is Ship of Harkinian?
+#### What is Ship of Harkinian?
 
 An unofficial PC port of The Legend of Zelda Ocarina of Time
 
 Source: https://www.shipofharkinian.com/
 
-### Supported Legend of Zelda: Ocarina of Time ROMs
+#### Supported Legend of Zelda: Ocarina of Time ROMs
 
 **Note:** You will need one of the following ROMs before you can proceed with the tutorial
 
@@ -315,7 +315,7 @@ sha1: 079b855b943d6ad8bd1eb026c0ed169ecbdac7da (Produced by decomp)
 sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
 ```
 
-### Setting up Ship of Harkinian
+#### Setting up Ship of Harkinian
 
 **Note:** The following folder locations are recommendations. You can choose a different folder location.
 
@@ -327,14 +327,14 @@ sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
 4. Move the `soh.AppImage` to `/home/deck/Applications/ShipofHarkinian`
 5. Right click `soh.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
 
-### Installing Ship of Harkinian
+#### Installing Ship of Harkinian
 
 1. Place your `The Legend of Zelda: Ocarina of Time` ROM in `/home/deck/Applications/ShipofHarkinian`
 2. Open `soh.AppImage`, wait
 3. To play Ship of Harkinian, open `soh.AppImage`
 
 
-### How to Install Custom Textures and Mods
+#### How to Install Custom Textures and Mods
 
 **Texture Pack and Mod Sources**
 
@@ -353,25 +353,25 @@ __This list is not exhaustive__
 
 ***
     
-## Super Mario 64 Plus 
+### Super Mario 64 Plus 
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-### How to Compile Super Mario 64 Plus on the Steam Deck
+#### How to Compile Super Mario 64 Plus on the Steam Deck
 
-### What is Super Mario 64 Plus?
+#### What is Super Mario 64 Plus?
 
 `SM64Plus is a fork of sm64-port that focuses on customizability and aims to add features that not only fix some of the issues found in the base game but also enhance the gameplay overall with extra options.`
 
 Source: https://github.com/MorsGames/sm64plus
 
-### Installing Prerequisites
+#### Installing Prerequisites
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
    * `sudo apt install -y git build-essential pkg-config libusb-1.0-0-dev libsdl2-dev bsdmainutils`
 
-### Setting Up Super Mario 64 Plus
+#### Setting Up Super Mario 64 Plus
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -381,7 +381,7 @@ Source: https://github.com/MorsGames/sm64plus
 3. A `sm64plus` folder will be created, place your Super Mario 64 ROM in this folder
 4. Rename the Super Mario 64 ROM to `baserom.us.z64`
 
-### Building Super Mario 64 Plus
+#### Building Super Mario 64 Plus
 
 1. In `/home/deck/Applications/Distrobox/sm64plus/`, right click `Open Terminal Here`, enter:
    * `distrobox enter ubuntu`
@@ -391,7 +391,7 @@ Source: https://github.com/MorsGames/sm64plus
 4. To play Super Mario 64 Plus, open `sm64.us` in `/home/deck/Applications/Distrobox/sm64plus/build/us_pc`
    * The game may have missing HUD UI textures, to fix these, read the next section
    
-### How to Fix the Missing HUD UI textures
+#### How to Fix the Missing HUD UI textures
 
 1. Download attached `.sh` file
    * Link: https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh
@@ -404,7 +404,7 @@ Source: https://github.com/MorsGames/sm64plus
 6. Check `Is Executable`
 7. Use `SuperMario64Plus.sh` to open SM64Plus
 
-### How to Configure Super Mario 64 Plus
+#### How to Configure Super Mario 64 Plus
 
 1. Open `sm64.us` in `/home/deck/Applications/Distrobox/sm64plus/build/us_pc` at least once so it can generate the `settings.ini` file 
 1. Open the `/home/deck/Applications/Distrobox/sm64plus/build/us_pc` folder
@@ -415,7 +415,7 @@ Source: https://github.com/MorsGames/sm64plus
 
 * Set `window_height` to `800`
 
-### How to Add Super Mario 64 Plus to Steam
+#### How to Add Super Mario 64 Plus to Steam
 
 1. In `/home/deck/Applications`, right click `SuperMario64Plus.sh`, click `Add to Steam`
 2. After adding it to Steam, you may rename the shortcut in Steam directly
@@ -423,20 +423,20 @@ Source: https://github.com/MorsGames/sm64plus
 
 ***
 
-## Super Mario Bros
+### Super Mario Bros
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 ### How to Compile Super Mario Bros on the Steam Deck
 
 **Note:** This section requires a legal copy of a `Super Mario All-Stars` ROM for the SNES. 
 
-### What is this?
+#### What is this?
 
 `A reverse engineered clone of Super Mario Bros.`
 
 Source: https://github.com/snesrev/smw/tree/smb1
 
-### Installing Prerequisites
+#### Installing Prerequisites
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
@@ -444,7 +444,7 @@ Source: https://github.com/snesrev/smw/tree/smb1
    * `sudo apt install libsdl2-dev python3-pip make`
    * `python3 -m pip install --upgrade pip pillow pyyaml zstandard`
 
-### How to Set Up Super Mario Bros
+#### How to Set Up Super Mario Bros
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -456,7 +456,7 @@ Source: https://github.com/snesrev/smw/tree/smb1
    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
 5. Rename the Super Mario World ROM to `smas.sfc`
 
-### How to Build Super Mario Bros
+#### How to Build Super Mario Bros
 
 1. In `/home/deck/Applications/Distrobox/smb1/other`, right click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
@@ -469,7 +469,7 @@ Source: https://github.com/snesrev/smw/tree/smb1
     * `make` 
 3. Wait for it to finish building
 
-### How to Play Super Mario Bros
+#### How to Play Super Mario Bros
 
 1. Download attached `.sh` file
    * Link: https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/bf8010ff9a055acb478462c5da5b5329e4a3fca4/smb1.sh
@@ -482,7 +482,7 @@ Source: https://github.com/snesrev/smw/tree/smb1
 6. Check `Is Executable`
 7. Use `smb1.sh` to open Super Mario Bros
 
-### How to Configure Super Mario Bros
+#### How to Configure Super Mario Bros
 
 1. In `/home/deck/Applications/Distrobox/smb1/`, right click `smw.ini`, click `Open with Kate` or a text editor of your choice
 2. Customize settings
@@ -494,20 +494,20 @@ Source: https://github.com/snesrev/smw/tree/smb1
 
 ***
 
-## Super Mario Bros: The Lost Levels
+### Super Mario Bros: The Lost Levels
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-### How to Compile Super Mario Bros: The Lost Levels on the Steam Deck
+#### How to Compile Super Mario Bros: The Lost Levels on the Steam Deck
 
 **Note:** This section requires a legal copy of a `Super Mario All-Stars` ROM for the SNES. 
 
-### What is this?
+#### What is this?
 
 `A reverse engineered clone of Super Mario Bros: The Lost Levels.`
 
 Source: https://github.com/snesrev/smw
 
-### Installing Prerequisites
+#### Installing Prerequisites
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
@@ -515,7 +515,7 @@ Source: https://github.com/snesrev/smw
    * `sudo apt install libsdl2-dev python3-pip make`
    * `python3 -m pip install --upgrade pip pillow pyyaml zstandard`
 
-### How to Set Up Super Mario Bros: The Lost Levels
+#### How to Set Up Super Mario Bros: The Lost Levels
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -527,7 +527,7 @@ Source: https://github.com/snesrev/smw
    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
 5. Rename the Super Mario World ROM to `smas.sfc`
 
-### How to Build Super Mario Bros: The Lost Levels
+#### How to Build Super Mario Bros: The Lost Levels
 
 1. In `/home/deck/Applications/Distrobox/smbll/other`, right click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
@@ -540,7 +540,7 @@ Source: https://github.com/snesrev/smw
     * `make` 
 3. Wait for it to finish building
 
-### How to Play Super Mario Bros: The Lost Levels
+#### How to Play Super Mario Bros: The Lost Levels
 
 1. Download attached `.sh` file
    * Link: https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/bda47aaf27d35501c2c32f95d2b3cfe811cfb345/smbll.sh
@@ -553,7 +553,7 @@ Source: https://github.com/snesrev/smw
 6. Check `Is Executable`
 7. Use `smbll.sh` to open Super Mario Bros: The Lost Levels
 
-### How to Configure Super Mario Bros: The Lost Levels
+#### How to Configure Super Mario Bros: The Lost Levels
 
 1. In `/home/deck/Applications/Distrobox/smbll/`, right click `smw.ini`, click `Open with Kate` or a text editor of your choice
 2. Customize settings
@@ -564,18 +564,18 @@ Source: https://github.com/snesrev/smw
 
 ***
 
-## Super Mario World 
+### Super Mario World 
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-### How to Compile Super Mario World on the Steam Deck
+#### How to Compile Super Mario World on the Steam Deck
 
-### What is this?
+#### What is this?
 
 `A reverse engineered clone of Super Mario World.`
 
 Source: https://github.com/snesrev/smw
 
-### Installing Prerequisites
+#### Installing Prerequisites
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
@@ -583,7 +583,7 @@ Source: https://github.com/snesrev/smw
    * `sudo apt install libsdl2-dev python3-pip make`
    * `python3 -m pip install --upgrade pip pillow pyyaml`
 
-### How to Set Up Super Mario World
+#### How to Set Up Super Mario World
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -595,7 +595,7 @@ Source: https://github.com/snesrev/smw
    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
 5. Rename the Super Mario World ROM to `smw.sfc`
 
-### How to Build Super Mario World
+#### How to Build Super Mario World
 
 1. In `/home/deck/Applications/Distrobox/smw/`, right click `Open Terminal Here`, enter:
    * `distrobox enter ubuntu`
@@ -604,7 +604,7 @@ Source: https://github.com/snesrev/smw
 3. Wait for it to finish building
 4. To play Super Mario World, open `smw` in `/home/deck/Applications/Distrobox/smw/`
 
-### How to Configure Super Mario World
+#### How to Configure Super Mario World
 
 1. In `/home/deck/Applications/Distrobox/smw/`, right click `smw.ini`, click `Open with Kate` or a text editor of your choice
 2. Customize settings
@@ -615,25 +615,25 @@ Source: https://github.com/snesrev/smw
 
 ***
 
-## Super Metroid
+### Super Metroid
 [Back to the Top](#third-party-emulation-table-of-contents)
    
-### How to Build Super Metroid on the Steam Deck
+#### How to Build Super Metroid on the Steam Deck
 
-### What is this?
+#### What is this?
 
 `A reverse engineered clone of Super Metroid.`
 
 Source: https://github.com/snesrev/sm
 
-### Installing Prerequisites
+#### Installing Prerequisites
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
    * `sudo apt install libsdl2-dev python3-pip make`
 
-### Setting Up Super Metroid
+#### Setting Up Super Metroid
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -643,7 +643,7 @@ Source: https://github.com/snesrev/sm
 4. A `sm` folder will be created, place your US Super Metroid ROM in `/home/deck/Applications/sm`
 5. Rename the Super Metroid ROM to `sm.smc`
 
-### Building Super Metroid
+#### Building Super Metroid
 
 1. In `/home/deck/Applications/Distrobox/sm`, right click `Open Terminal Here`, enter:
    * `distrobox enter ubuntu`
@@ -652,19 +652,19 @@ Source: https://github.com/snesrev/sm
 3. Wait for it to finish building
 4. To play Super Metroid, open `sm` in `/home/deck/Applications/Distrobox/sm/`
 
-### How to Configure Super Metroid
+#### How to Configure Super Metroid
 
 1. In `/home/deck/Applications/Distrobox/sm/`, right click `sm.ini`, click `Open with Kate` or a text editor of your choice
 2. Customize settings
 
 ***
 
-## Super Metroid Redux
+### Super Metroid Redux
 [Back to the Top](#third-party-emulation-table-of-contents)
    
-### How to Build Super Metroid Redux on the Steam Deck
+#### How to Build Super Metroid Redux on the Steam Deck
 
-### What is this?
+#### What is this?
 
 A port of `Super Metroid Redux`: https://www.romhacking.net/hacks/4963/, using `a reverse engineered clone of Super Metroid.`
 
@@ -672,19 +672,19 @@ Source: https://github.com/testyourmine/sm-redux
 
 Source: https://github.com/snesrev/sm
 
-### Installing Prerequisites
+#### Installing Prerequisites
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
    * `sudo apt install libsdl2-dev python3-pip make`
 
-### Patching Super Metroid Redux
+#### Patching Super Metroid Redux
 
 1. Download the patch here: https://www.romhacking.net/hacks/4963/
 2. Use the romhacking website here to patch your ROM: https://www.romhacking.net/patch/ 
 
-### Setting Up Super Metroid Redux
+#### Setting Up Super Metroid Redux
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -694,7 +694,7 @@ Source: https://github.com/snesrev/sm
 4. A `sm-redux` folder will be created, place your patched US Super Metroid ROM in `/home/deck/Applications/sm-redux`
 5. Rename the patched Super Metroid ROM to `sm.smc`
 
-### Building Super Metroid Redux
+#### Building Super Metroid Redux
 
 1. In `/home/deck/Applications/Distrobox/sm-redux`, right click `Open Terminal Here`, enter:
    * `distrobox enter ubuntu`
@@ -703,25 +703,25 @@ Source: https://github.com/snesrev/sm
 3. Wait for it to finish building
 4. To play Super Metroid Redux, open `sm` in `/home/deck/Applications/Distrobox/sm-redux/`
 
-### How to Configure Super Metroid Redux
+#### How to Configure Super Metroid Redux
 
 1. In `/home/deck/Applications/Distrobox/sm-redux/`, right click `sm.ini`, click `Open with Kate` or a text editor of your choice
 2. Customize settings
 
 *** 
 
-## zelda3: A Link to the Past 
+### zelda3: A Link to the Past 
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-### How to Compile zelda3 on the Steam Deck
+#### How to Compile zelda3 on the Steam Deck
 
-### What is zelda3?
+#### What is zelda3?
 
 `A reverse engineered clone of Zelda 3 - A Link to the Past.`
 
 Source: https://github.com/snesrev/zelda3
 
-### Installing Prerequisites
+#### Installing Prerequisites
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
@@ -729,7 +729,7 @@ Source: https://github.com/snesrev/zelda3
    * `sudo apt install libsdl2-dev python3-pip make`
    * `python3 -m pip install --upgrade pip pillow pyyaml`
 
-### How to Set Up zelda3
+#### How to Set Up zelda3
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -741,7 +741,7 @@ Source: https://github.com/snesrev/zelda3
    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
 5. Rename the Link to the Past ROM to `zelda3.sfc`
 
-### How to Build zelda3
+#### How to Build zelda3
 
 1. In `/home/deck/Applications/Distrobox/zelda3/`, right click `Open Terminal Here`, enter:
    * `distrobox enter ubuntu`
@@ -750,7 +750,7 @@ Source: https://github.com/snesrev/zelda3
 3. Wait for it to finish building
 4. To play zelda3, open `zelda3` in `/home/deck/Applications/Distrobox/zelda3/`
 
-### How to Configure zelda3
+#### How to Configure zelda3
 
 1. In `/home/deck/Applications/Distrobox/zelda3/`, right click `zelda3.ini`, click `Open with Kate` or a text editor of your choice
 2. Customize settings
@@ -760,7 +760,7 @@ Source: https://github.com/snesrev/zelda3
 * Set `ExtendedAspectRatio` to `16:10`
 * Set `Fullscreen` to `1`
 
-### How to Customize Sprites
+#### How to Customize Sprites
 
 1. In `/home/deck/Applications/Distrobox/zelda3/`, right click `Open Terminal Here`, enter:
    * `git clone --recursive https://github.com/snesrev/sprites-gfx.git`
@@ -770,7 +770,7 @@ Source: https://github.com/snesrev/zelda3
 
 For a full list of sprites, visit: http://alttp.mymm1.com/sprites/
 
-#### To find the file name to place in zelda3.ini
+##### To find the file name to place in zelda3.ini
 
 1. On http://alttp.mymm1.com/sprites/, right click the link above the sprite you would like to use, click `Copy Link`
 2. In a new tab, paste the URL
@@ -781,7 +781,7 @@ For a full list of sprites, visit: http://alttp.mymm1.com/sprites/
 6. Example: `LinkGraphics = sprites-gfx/snes/zelda3/link/sheets/crewmate2.zspr`
 
 
-### How to Enable MSU1 CD Soundtrack Files
+#### How to Enable MSU1 CD Soundtrack Files
 
 Choose a soundtrack from: https://www.zeldix.net/t791-the-legend-of-zelda-a-link-to-the-past
 
@@ -801,18 +801,18 @@ Choose a soundtrack from: https://www.zeldix.net/t791-the-legend-of-zelda-a-link
 
 ***
 
-## General Maintenance
+### General Maintenance
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 ***
 
-## How to Add Decompilations and Reverse Engineered PC Ports to Steam
+### How to Add Decompilations and Reverse Engineered PC Ports to Steam
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 This section will use a simple script file to launch the various decompilations and reverse engineered ports on this page. You will need to create a script file per game. 
 
 
-### How to Create Script Files
+#### How to Create Script Files
 
 **Here's How:**
 
@@ -885,12 +885,12 @@ For example:
 "/home/deck/Applications/OpenGoal/gk"
 ```
 
-### How to Utilize Script Files with EmulationStation-DE
+#### How to Utilize Script Files with EmulationStation-DE
 
 1. Place your script files in `Emulation/roms/desktop`
 2. In Game Mode, open EmulationStation-DE and play your newly created script files
 
-### How to Utilize Script Files with Steam ROM Manager
+#### How to Utilize Script Files with Steam ROM Manager
 
 1. Place your script files in `Emulation/roms/desktop`
 2. In `/home/deck/.config/steam-rom-manager/userData/`, open `userConfigurations.json` in a text editor of your choice
@@ -982,7 +982,7 @@ For example:
 
 ***
 
-## How to Update Decompilations and Reverse Engineered PC Ports
+### How to Update Decompilations and Reverse Engineered PC Ports
 
 This section specifically applies to: 
 
@@ -1014,14 +1014,14 @@ This section specifically applies to:
 
 ***
 
-## BlueMaxima's Flashpoint
+### BlueMaxima's Flashpoint
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 Link: https://gist.github.com/parkerlreed/4bd1f5fa38f7ffa72f9ceacb7d7f636d
 
 ***
 
-## Hypseus Singe
+### Hypseus Singe
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 Link: https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#hypseus-singe-daphne
@@ -1029,7 +1029,7 @@ Link: https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#hy
 
 ***
 
-## Supermodel: Model 3 Emulator
+### Supermodel: Model 3 Emulator
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 **Note:** The following folder locations are required so EmulationStation-DE can properly recognize the emulator and your ROMs. 
@@ -1038,7 +1038,7 @@ Prerequisites:
 
 * EmulationStation-DE 2.0
 
-### Setting up Supermodel
+#### Setting up Supermodel
 
 1. Download `Supermodel` from: https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE-DEV.md#arcade-and-neo-geo, under `Sega Model 3` to your `/home/deck/Downloads` folder
 2. Right click `Supermodel_2022-10-07.tar.gz`, click `Extract > Extract archive here`
@@ -1046,7 +1046,7 @@ Prerequisites:
 4. In `/home/deck/Applications`, create a `Supermodel` folder
 5. Move the `supermodel` file from the extracted folder in Step 2 to `/home/deck/Applications/Supermodel`
 
-### Running Supermodel
+#### Running Supermodel
 
 1. After placing ROMs in `Emulation/roms/model3`, open `EmulationStation-DE` in Game Mode, and run your Supermodel 3 ROMs
 
@@ -1054,7 +1054,7 @@ Prerequisites:
 
 ***
 
-## Super Smash Bros: Project+
+### Super Smash Bros: Project+
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 Link: https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21
@@ -1066,15 +1066,15 @@ Link: https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21
 
 ***
 
-## AM2R
+### AM2R
 
-## What is AM2R?
+#### What is AM2R?
 
 "It is an unofficial remake of the 1991 Game Boy game Metroid II: Return of Samus in the style of Metroid: Zero Mission (2004)."
 
 Source: https://en.wikipedia.org/wiki/AM2R
 
-## How to Play AM2R
+#### How to Play AM2R
 
 **Note:** You will need a copy of `AM2R_1_1.zip`, this section will not cover how to obtain that file
 
@@ -1086,7 +1086,7 @@ Source: https://en.wikipedia.org/wiki/AM2R
 
 ***
 
-## PokeMMO
+### PokeMMO
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 **Note:** You will need a legal copy of the following games:
@@ -1098,7 +1098,7 @@ Source: https://en.wikipedia.org/wiki/AM2R
     * Pokemon Emerald
     * Pokemon HeartGold or Pokemon SoulSilver
 
-### How to Install PokeMMO
+#### How to Install PokeMMO
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
@@ -1115,7 +1115,7 @@ Source: https://en.wikipedia.org/wiki/AM2R
     * <img src="https://user-images.githubusercontent.com/108900299/215299685-351108f5-4645-4316-8640-2f0e390532f2.png" height="300">
 7. To launch the game, open `Konsole` and enter: `/home/deck/Games/PokeMMO/jdk/bin/java -jar PokeMMO.exe -cp com.pokeemu.client.Client`
 
-# How to add PokeMMO to Steam
+#### How to add PokeMMO to Steam
 
 1. Download attached `.sh` file
    * Link: https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/c81ef659754832fb20295003d166e44d323aeae4/PokeMMO.sh

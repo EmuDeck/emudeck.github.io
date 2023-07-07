@@ -12,7 +12,7 @@ PCSX2 Wiki: https://wiki.pcsx2.net/Main_Page
 
 ***
 
-# PCSX2-QT Table of Contents
+## PCSX2-QT Table of Contents
 
 1. [Getting Started with PCSX2](#getting-started-with-pcsx2)
     - [Configuration](#pcsx2-configuration)
@@ -38,7 +38,7 @@ PCSX2 Wiki: https://wiki.pcsx2.net/Main_Page
     - [How to Mod Persona 3 FES](#how-to-mod-persona-3-fes)
 ***
 
-## Getting Started with PCSX2
+### Getting Started with PCSX2
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 PCSX2 is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation/roms/ps2`. Place your BIOS directly in `Emulation/bios`. Read the [Configuration](#pcsx2-configuration) section to learn more about PCSX2 and its folder locations. 
@@ -52,7 +52,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## PCSX2 Configuration
+### PCSX2 Configuration
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 * Type of Emulator: AppImage
@@ -82,13 +82,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Important Info:** Prior to version 0.17.6 of EmuDeck, we used the Flatpak version of PCSX2. This was installed from the discover store. We have since moved away from this release for performance reasons, and usability reasons (menus not opening).
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## How to Update PCSX2
+### How to Update PCSX2
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 **How to Update PCSX2**
@@ -99,7 +99,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Launch PCSX2 in Desktop Mode
+### How to Launch PCSX2 in Desktop Mode
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 **How to Launch PCSX2 in Desktop Mode**
@@ -112,7 +112,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## PCSX2 File Formats
+### PCSX2 File Formats
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 * .iso 
@@ -121,7 +121,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## PCSX2 Hotkeys
+### PCSX2 Hotkeys
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 |            Hotkey           |        PCSX2-QT        |
@@ -145,12 +145,12 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-# Common Issues
+## Common Issues
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 ***
 
-## Controller isn't working?
+### Controller isn't working?
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 Try turning off multitap. Certain games may not handle it.
@@ -163,7 +163,7 @@ Try turning off multitap. Certain games may not handle it.
 
 ***
 
-## Black screen immediately or just after the game boots?
+### Black screen immediately or just after the game boots?
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 This indicates a bad dump. Please validate and redump your game files.
@@ -172,7 +172,7 @@ How to validate your ROMs: https://github.com/dragoonDorise/EmuDeck/wiki/frequen
 
 ***
 
-## After starting a game it goes back to Steam or EmulationStation-DE?
+### After starting a game it goes back to Steam or EmulationStation-DE?
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 This usually means you haven't placed your bios in the right place.
@@ -181,7 +181,7 @@ Where to place your BIOS: [Configuration](#configuration)
 
 ***
 
-## Why do some of my multi-disc games not show up in Steam ROM Manager?
+### Why do some of my multi-disc games not show up in Steam ROM Manager?
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 Primarily with the Playstation 2 parser, turning on `Remove (...) and [...] brackets` will trim the ROM name and cause Steam ROM Manager to deem multiple discs of the same game as the same file. When you generate an app list, only one of your discs will show up. 
@@ -199,12 +199,12 @@ To fix this, do one of the following solutions:
 ***
 
 
-# PCSX2 Tips and Tricks
+## PCSX2 Tips and Tricks
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 ***
 
-## How to Optimize Performance (Power Tools)
+### How to Optimize Performance (Power Tools)
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
@@ -212,7 +212,7 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#powe
 ***
 
 
-## How to Optimize Storage (Compression Tool)
+### How to Optimize Storage (Compression Tool)
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 To optimize storage, you can use the `EmuDeck Compressor` within EmuDeck.  
@@ -225,26 +225,26 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 ***
 
-## How to Manage Multiple Discs
+### How to Manage Multiple Discs
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 PCSX2 does not support M3U files. 
 
 You can manage multiple discs two ways:
 
-### Method 1: Hotkeys
+#### Method 1: Hotkeys
 
 1. While in game, when you are ready to switch discs, press `Start` + `L3` at the same time
 2. Select `Change Disc` and select your next disc
 
-### Method 2: Separate Game Entries
+#### Method 2: Separate Game Entries
 
 1. When you are ready to switch discs, save and exit out of your game
 2. Open the next disc entry, either as a separate shortcut through Steam ROM Manager or a separate entry through EmulationStation-DE
 
 ***
 
-## How to Switch to Folder Memory Cards
+### How to Switch to Folder Memory Cards
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 By default PCSX2 stores each memory card as a single file. This doesn't have any compatibility problems, but means that once you hit the 8MB limit you'll have to start manually swapping cards. You can get around this by converting to folders for your memory cards:
@@ -262,7 +262,7 @@ PCSX2 will now give each game it's own separate memory card automatically.
 
 ***
 
-## How to use Cheats
+### How to use Cheats
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 **Important**
@@ -349,7 +349,7 @@ For an example of a full cheat file with a header: https://gist.githubuserconten
 
 ***
 
-## How to use Widescreen or No Interlace Cheats
+### How to use Widescreen or No Interlace Cheats
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 **Important**
@@ -369,7 +369,7 @@ For more detail, read https://forums.pcsx2.net/Thread-Sticky-Important-Patching-
 
 ***
 
-## How to Set Game Settings On a Per-Game Basis
+### How to Set Game Settings On a Per-Game Basis
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 1. In either Desktop or Game Mode, open PCSX2
@@ -383,7 +383,7 @@ For more detail, read https://forums.pcsx2.net/Thread-Sticky-Important-Patching-
 
 ***
 
-## How to Install Custom Textures
+### How to Install Custom Textures
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 **Texture Pack Sources**
@@ -418,7 +418,7 @@ _This list is not exhaustive_
   
 *** 
 
-## How to Mod Persona 3 FES
+### How to Mod Persona 3 FES
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 **Prerequisites**
@@ -428,7 +428,7 @@ _This list is not exhaustive_
 * Aemulus Mod Manager: https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0
 * Persona 3 FES ISO
 
-### On Windows (Non-Steam Deck PC)
+#### On Windows (Non-Steam Deck PC)
 
 1. Download Aemulus Mod Manager: https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0 
 2. Build a mod loadout: https://persona-3-fes-modding-guide.readthedocs.io/en/latest/installingmods.html
@@ -437,9 +437,8 @@ _This list is not exhaustive_
     * <img src="https://user-images.githubusercontent.com/108900299/209884556-357ce98f-3e43-45ca-8c19-5bcd2c46630f.png" height="300">
 4. Transfer this folder to your Steam Deck
 
-### On the Steam Deck
+#### On the Steam Deck
 
-####
 
 1. In `Emulation/roms/ps2`, create a `P3FES` folder
     * This is a recommendation, you may either use a different folder name or place the files directly into `Emulation/roms/ps2`
@@ -451,12 +450,12 @@ _This list is not exhaustive_
 6. Rename `SLUS_216.21` to `Shin Megami Tensei - Persona 3 FES - Modded.ELF`
     * The important part here is the file extension. You may rename the file to whatever you would like, but for the sake of differentiating the ELF and the base game in Steam ROM Manager, this section adds a ` - Modded` to the end of the file name
 
-### Setting up the Mod Folders on the Steam Deck
+#### Setting up the Mod Folders on the Steam Deck
 
 1. Move your mod folders to the extracted Persona 3 FES Extracted ISO Folder, `Emulation/roms/ps2/P3FES`
     * <img src="https://user-images.githubusercontent.com/108900299/222878348-24cb6ad3-ac9f-4554-b3d7-e121fb5973e8.png" height="300">
 
-### Setting up PCSX2
+#### Setting up PCSX2
 
 1. In Desktop Mode, Open PCSX2
 2. Right click `SLUS_216.21` in the game list, click properties
@@ -465,7 +464,7 @@ _This list is not exhaustive_
 4. On the `Disc Path` field, select your Persona 3 FES ISO
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/d14fc18c-7f95-4640-ba45-2e5e4d03aab1" height="300">
 
-### Setting up Cheats
+#### Setting up Cheats
 
 1. Download the attached cheat file by right clicking anywhere on the page and clicking `Save Page As`
     * https://gist.githubusercontent.com/rawdatafeel/4326c619c2361bb6feaae2a395167459/raw/7d63d4e3d6d2dc64e9cbdc15b73c633913488c88/94A82AAA-hostFS.pnach
@@ -477,7 +476,7 @@ _This list is not exhaustive_
 6. Enable the following cheat: `hostFS Patch`
     * If you are in the Big Picture GUI, the cheats icon is a frowny face 
 
-### Setting up Steam ROM Manager
+#### Setting up Steam ROM Manager
 
 If you would like to launch Persona 3 FES directly in Game Mode, follow the below steps. You may also choose to open PCSX2 in Game Mode and open the `Shin Megami Tensei - Persona 3 FES - Modded.ELF` from the PCSX2 GUI instead. 
 
@@ -497,7 +496,7 @@ If you would like to launch Persona 3 FES directly in Game Mode, follow the belo
 10. Click `Save to Steam`
 11. You can now launch a modded version of Persona 3 FES directly in `Game Mode`
 
-### Optional Cheats
+#### Optional Cheats
 
 * Controllable Party Members, file name: `94A82AAA_Direct_Commands.pnach`
     * https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/6fdf06cf7f51c1387bc576e765fd8cd72e009806/94A82AAA-Controllable%2520Party%2520Members.pnach

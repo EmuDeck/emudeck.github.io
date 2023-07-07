@@ -1,6 +1,6 @@
 # Cemu is a Wii U Emulator.
 
-# Welcome to the landing page for Cemu. 
+## Welcome to the landing page for Cemu. 
 
 Website: https://cemu.info/
 
@@ -14,7 +14,7 @@ To try out the native version of Cemu, open the EmuDeck application, click the `
 
 ***
 
-# Cemu Table of Contents
+## Cemu Table of Contents
 
 - [EmuDeck Cemu Wiki Links](#emudeck-cemu-wiki-links)
 - [How do I download Native Cemu?](#how-do-i-download-native-cemu)
@@ -26,7 +26,7 @@ To try out the native version of Cemu, open the EmuDeck application, click the `
 
 ***
 
-# EmuDeck Cemu Wiki Links
+## EmuDeck Cemu Wiki Links
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
 
 **Looking for the Cemu wiki pages? Select a wiki page below. Each correspond to the two different versions of Cemu bundled with EmuDeck.**
@@ -39,7 +39,7 @@ To try out the native version of Cemu, open the EmuDeck application, click the `
 
 ***
 
-### How do I download Native Cemu?
+## How do I download Native Cemu?
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
 
 1. In Desktop Mode, open the EmuDeck Application
@@ -52,7 +52,7 @@ To try out the native version of Cemu, open the EmuDeck application, click the `
 
 ***
 
-### What is the difference between the proton and the native version?
+## What is the difference between the proton and the native version?
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
 
 Up until the end of 2022, Cemu only provided a Windows version. EmuDeck bundled this windows version and created a script to run it through Proton. At the end of 2022, Cemu released a native Linux version as an AppImage. The AppImage released in a beta state and still had issues, both with general emulation and game compatibility. 
@@ -70,7 +70,7 @@ The foreseeable future should see improvements and eventual parity with native C
 
 *** 
 
-### Which Cemu version should I use?
+## Which Cemu version should I use?
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
 
 It is up to you. Both versions of Cemu are bundled with EmuDeck to allow the user to choose. Be sure to read [What is the difference between the proton and the native version?](#what-is-the-difference-between-the-proton-and-the-native-version) as well.
@@ -79,7 +79,7 @@ Generally, it is **recommended** to select Cemu Native over Cemu Proton. There i
 
 *** 
 
-### How do I know which Cemu is which?
+## How do I know which Cemu is which?
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
 
 One quick way to tell the difference is to compare the two GUIs.
@@ -90,10 +90,10 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
 
 ***
 
-### How do I select which version of Cemu to use in Game Mode?
+## How do I select which version of Cemu to use in Game Mode?
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
 
-#### Steam ROM Manager
+### Steam ROM Manager
 
 Select the corresponding parsers. 
 
@@ -107,7 +107,7 @@ Select the corresponding parsers.
 * `Nintendo WiiU - Cemu (.rpx) - Native`
 * `Nintendo WiiU - Cemu (.wud, .wux, .wua) - Native`
 
-#### EmulationStation-DE
+### EmulationStation-DE
 
 1. Open EmulationStation-DE
 2. Press `Start`
@@ -117,7 +117,7 @@ Select the corresponding parsers.
 
 ***
 
-### How do I select which version of Cemu to use in Desktop Mode?
+## How do I select which version of Cemu to use in Desktop Mode?
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
 
 1. In Desktop Mode, press the Steam icon in the bottom left of the taskbar to open the Applications Launcher

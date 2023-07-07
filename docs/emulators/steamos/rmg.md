@@ -6,7 +6,7 @@ Github: https://github.com/Rosalie241/RMG
 
 ***
 
-# RMG Table of Contents
+## RMG Table of Contents
 
 1. [Getting Started with RMG](#getting-started-with-rmg)
    - [Configuration](#rmg-configuration)
@@ -20,7 +20,7 @@ Github: https://github.com/Rosalie241/RMG
  
 ***
 
-# Getting Started with RMG
+## Getting Started with RMG
 [Back to the Top](#rmg-table-of-contents)
 
 RMG is a fairly straight-forward emulator to set up. If you are strictly playing Nintendo 64 ROMs, place your ROMs in `Emulation/roms/n64`. No additional setup is required. Read the [Configuration](#rmg-configuration) section to learn more about RMG and its folder locations. 
@@ -33,7 +33,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## RMG Configuration
+### RMG Configuration
 [Back to the Top](#rmg-table-of-contents)
 
 * Type of Emulator: Flatpak
@@ -52,13 +52,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## How to Update RMG
+### How to Update RMG
 [Back to the Top](#rmg-table-of-contents)
 
 **How to Update RMG**
@@ -69,7 +69,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Launch RMG in Desktop Mode
+### How to Launch RMG in Desktop Mode
 [Back to the Top](#rmg-table-of-contents)
 
 **How to Launch RMG in Desktop Mode**
@@ -81,7 +81,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## RMG File Formats
+### RMG File Formats
 [Back to the Top](#rmg-table-of-contents)
 
 * .bin
@@ -94,7 +94,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## RMG Hotkeys
+### RMG Hotkeys
 [Back to the Top](#rmg-table-of-contents)
 
 RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - RMG`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -119,21 +119,21 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 
 ***
 
-# RMG Tips and Tricks
+## RMG Tips and Tricks
 [Back to the Top](#rmg-table-of-contents)
 
 ***
 
-## How to Install Custom Textures
+### How to Install Custom Textures
 [Back to the Top](#rmg-table-of-contents)
 
-### Preface
+#### Preface
 
 HTS & HTC are cache formats. PNG is the 'source' of the texture packs before it's converted to a cache file.
 
 Before installing a texture pack, you will need to determine if it is HTC, HTS, or PNG. This can usually be confirmed by checking the file extension or reading the attached documentation. Follow the respective section below for installing texture packs.
 
-### HTC
+#### HTC
 
 1. Open RMG
 2. Click `Settings` at the top, select `Graphics`
@@ -144,7 +144,7 @@ Before installing a texture pack, you will need to determine if it is HTC, HTS, 
 5. Open the `Emulation/storage/RMG/cache` folder
 6. Place your texture pack file directly into this folder
 
-### HTS
+#### HTS
 
 1. Open RMG
 2. Click `Settings` at the top, select `Graphics`
@@ -155,7 +155,7 @@ Before installing a texture pack, you will need to determine if it is HTC, HTS, 
 5. Open the `Emulation/storage/RMG/cache` folder
 6. Place your texture pack file directly into this folder
 
-### PNG
+#### PNG
 
 This section goes over enabling `file storage instead of memory cache` in RMG's settings. This is optional, but recommended. 
 

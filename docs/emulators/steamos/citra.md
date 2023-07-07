@@ -8,7 +8,7 @@ Compatibility List: https://citra-emu.org/game/
 
 ***
 
-# Citra Table of Contents
+## Citra Table of Contents
 
 1. [Getting Started with Citra](#getting-started-with-citra)
    - [Configuration](#citra-configuration)
@@ -31,7 +31,7 @@ Compatibility List: https://citra-emu.org/game/
 
 ***
 
-# Getting Started with Citra
+## Getting Started with Citra
 [Back to the Top](#citra-table-of-contents)
 
 Citra is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation/roms/n3ds` or `Emulation/roms/3ds`. No additional setup is required if you are using decrypted ROMs. Read the [Configuration](#citra-configuration) section to learn more about Citra and its folder locations. The [Configuration](#citra-configuration) section covers where to place your `aes_keys.txt` if you are using encrypted ROMs. 
@@ -45,7 +45,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Citra Configuration
+### Citra Configuration
 [Back to the Top](#citra-table-of-contents)
 
 * Type of Emulator: Flatpak
@@ -63,13 +63,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## How to Update Citra
+### How to Update Citra
 [Back to the Top](#citra-table-of-contents)
 
 **How to Update Citra**
@@ -80,7 +80,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Launch Citra in Desktop Mode
+### How to Launch Citra in Desktop Mode
 
 **How to Launch Citra in Desktop Mode**
 
@@ -91,7 +91,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Citra File Formats
+### Citra File Formats
 [Back to the Top](#citra-table-of-contents)
 
 * .3ds 
@@ -107,7 +107,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Manage DLC and Updates
+### How to Manage DLC and Updates
 [Back to the Top](#citra-table-of-contents)
 
 Read: https://citra-emu.org/wiki/dumping-updates-and-dlcs/ to learn how to properly dump your DLC and update files from your 3DS.
@@ -123,7 +123,7 @@ DLC and update files typically are .CIAs, an installable file format through Cit
 
 ***
 
-## Citra Hotkeys
+### Citra Hotkeys
 [Back to the Top](#citra-table-of-contents)
 
 Citra comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Citra 3DS`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -149,12 +149,12 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 
 ***
 
-# Citra Common Issues
+## Citra Common Issues
 [Back to the Top](#citra-table-of-contents)
 
 ***
 
-## Why did my game suddenly stop working? 
+### Why did my game suddenly stop working? 
 [Back to the Top](#citra-table-of-contents)
 
 A recent update to some back-end changes may cause some crashing with games that were working previously. To fix this issue, you will need to delete the `shaders` folder.
@@ -170,12 +170,12 @@ This should be a one-time fix and your games should work again moving forward.
 
 ***
 
-# Citra Tips and Tricks
+## Citra Tips and Tricks
 [Back to the Top](#citra-table-of-contents)
 
 ***
 
-## How to Configure Gyro
+### How to Configure Gyro
 [Back to the Top](#citra-table-of-contents)
 
 Gyro for Citra requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
@@ -184,14 +184,14 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#stea
 
 ***
 
-## How to Optimize Performance (Power Tools)
+### How to Optimize Performance (Power Tools)
 [Back to the Top](#citra-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
 
 ***
 
-## How to Install Custom Textures
+### How to Install Custom Textures
 [Back to the Top](#citra-table-of-contents)
 
 Here's how to install custom textures for Citra:
@@ -215,7 +215,7 @@ For a visual on how to install custom textures, watch the following GIF:
 
 ***
 
-## How to Use Cheats
+### How to Use Cheats
 [Back to the Top](#citra-table-of-contents)
 
 
@@ -225,7 +225,7 @@ _This list is not exhaustive_
 
 * https://github.com/iSharingan/CTRPF-AR-CHEAT-CODES/tree/master/Cheats
 
-### How to Use Cheats
+#### How to Use Cheats
 
 1. In Desktop Mode, open Citra
 2. Right click a game of your choice, click `Properties`
@@ -241,7 +241,7 @@ _This list is not exhaustive_
 
 ***
 
-## How to Configure Bottom Screen as PiP
+### How to Configure Bottom Screen as PiP
 [Back to the Top](#citra-table-of-contents)
 
 Credit: `NexLevel`
@@ -350,7 +350,7 @@ upright_screen\default=true
 
 ***
 
-## How to Configure Bottom Screen With Opacity
+### How to Configure Bottom Screen With Opacity
 [Back to the Top](#citra-table-of-contents)
 
 Credit: `NexLevel`

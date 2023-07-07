@@ -14,7 +14,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
 
 ***
 
-# Cemu Native Table of Contents
+## Cemu Native Table of Contents
 
 1. [Getting started with Cemu](#getting-started-with-cemu)
     - [Setting up Cemu Questionnaire](#setting-up-cemu-questionnaire)
@@ -42,7 +42,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
 
 ***
 
-# Getting started with Cemu
+## Getting started with Cemu
 [Back to the Top](#cemu-native-table-of-contents)
 
 **IMPORTANT:** Cemu is shifting away from encrypted ROMs (WUX, WUD). It is strongly recommended you use decrypted ROMs (Loadiine, WUA). Decrypted ROMs do not need any additional configuration and should launch without any issue.
@@ -65,7 +65,7 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 
 ***
 
-## Setting up Cemu Questionnaire
+### Setting up Cemu Questionnaire
 [Back to the Top](#cemu-native-table-of-contents)
 
 **IMPORTANT:** Cemu is shifting away from encrypted ROMs (WUX, WUD). It is strongly recommended you use decrypted ROMs (Loadiine, WUA). Decrypted ROMs do not need any additional configuration and should launch without any issue. If you use decrypted ROMs, you do not need the following questionnaire. 
@@ -91,7 +91,7 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 
 ***
 
-## Cemu Native Configuration
+### Cemu Native Configuration
 [Back to the Top](#cemu-native-table-of-contents)
 
 **IMPORTANT:** Cemu is shifting away from encrypted ROMs (WUX, WUD). It is strongly recommended you use decrypted ROMs (Loadiine, WUA). Decrypted ROMs do not need any additional configuration and should launch without any issue.
@@ -126,13 +126,13 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
     * Symlink:  `Emulation/saves/Cemu/saves/`
     * Target: `Emulation/roms/wiiu/mlc01/usr/save`
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## The Dangers of Proton
+### The Dangers of Proton
 [Back to the Top](#cemu-native-table-of-contents)
 
 **IMPORTANT:**
@@ -147,7 +147,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 ***
 
-## How to Update Cemu
+### How to Update Cemu
 [Back to the Top](#cemu-native-table-of-contents)
 
 **How to Update Cemu**
@@ -158,7 +158,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 ***
 
-## How to Launch Cemu in Desktop Mode
+### How to Launch Cemu in Desktop Mode
 [Back to the Top](#cemu-native-table-of-contents)
 
 **How to Launch Cemu in Desktop Mode**
@@ -169,7 +169,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 ***
 
-## Cemu Native File Formats
+### Cemu Native File Formats
 [Back to the Top](#cemu-native-table-of-contents)
 
 * Loadiine (rpx)
@@ -197,7 +197,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 ***
 
-## How to Convert to WUA
+### How to Convert to WUA
 [Back to the Top](#cemu-native-table-of-contents)
 
 The WUA format is a compressed version of the Loadiine format. It contains your base game, DLC, and updates all in one single file. The WUA format is a lot less fuss than the other formats, requires no keys, and is the most friendly format for EmulationStation-DE.
@@ -222,10 +222,10 @@ Here's how to convert to WUA:
 
 ***
 
-## How to Manage DLC and Updates
+### How to Manage DLC and Updates
 [Back to the Top](#cemu-native-table-of-contents)
 
-### Preface
+#### Preface
 
 DLC and Updates must be installed using the title manager. DLC and Updates are saved to mlc01, in the `Emulation/roms/wiiu` folder.
 
@@ -233,10 +233,10 @@ DLC and Updates must be installed using the title manager. DLC and Updates are s
 
 ***
 
-## How to Install DLC and Updates
+### How to Install DLC and Updates
 [Back to the Top](#cemu-native-table-of-contents)
 
-### Preface
+#### Preface
 
 DLC and Updates must be installed using the title manager. DLC and UPdates are saved to mlc01, in the `Emulation/roms/wiiu` folder.
 
@@ -244,7 +244,7 @@ DLC and Updates must be installed using the title manager. DLC and UPdates are s
 
 ***
 
-### How to Install DLC and Updates
+#### How to Install DLC and Updates
 
 1. Launch Cemu on Desktop Mode
 2. Click `File` in the top left, click `Install game title, update, or DLC...`
@@ -259,7 +259,7 @@ DLC and Updates must be installed using the title manager. DLC and UPdates are s
 
 ***
 
-## Cemu Native Hotkeys
+### Cemu Native Hotkeys
 [Back to the Top](#cemu-native-table-of-contents)
 
 Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Cemu`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -281,12 +281,12 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 
 ***
 
-# Common Issues
+## Common Issues
 [Back to the Top](#cemu-native-table-of-contents)
 
 ***
 
-## Game Compatibility
+### Game Compatibility
 [Back to the Top](#cemu-native-table-of-contents)
 
 This section collects which games currently do not work on the native version of Cemu. These games likely work on the proton version of Cemu.
@@ -296,7 +296,7 @@ This section collects which games currently do not work on the native version of
 
 ***
 
-## Cemu Version Issues
+### Cemu Version Issues
 [Back to the Top](#cemu-native-table-of-contents)
 
 This section collects a version history of Cemu and seeks to detail compatibility and general issues with the emulator.
@@ -307,12 +307,12 @@ This section collects a version history of Cemu and seeks to detail compatibilit
 
 ***
 
-# Cemu Tips and Tricks
+## Cemu Tips and Tricks
 [Back to the Top](#cemu-native-table-of-contents)
 
 ***
 
-## How to Configure Gyro
+### How to Configure Gyro
 [Back to the Top](#cemu-native-table-of-contents)
 
 Gyro for Cemu requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
@@ -322,7 +322,7 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#stea
 
 ***
 
-## How to Configure Gyro With External Controllers
+### How to Configure Gyro With External Controllers
 [Back to the Top](#cemu-native-table-of-contents)
 
 Some external controllers, including the Sony DualSense and the Nintendo Switch Pro Controller feature gyro controls. Cemu allows you to use this gyro with a little bit of set up.
@@ -331,7 +331,7 @@ Some external controllers, including the Sony DualSense and the Nintendo Switch 
 
 **Here's How**
 
-### Desktop Mode
+#### Desktop Mode
 
 1. In Desktop Mode, exit out of Steam
     * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
@@ -357,7 +357,7 @@ Some external controllers, including the Sony DualSense and the Nintendo Switch 
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/5c64751c-041f-40a5-86a5-bc8c6615eb58" height="300">
 14. Your controller is now configured with gyro, proceed to the `Game Mode` section to start using your controller in `Game Mode`
 
-### Game Mode
+#### Game Mode
 
 1. In Game Mode, connect your controller
 2. Select your Wii U game 
@@ -369,7 +369,7 @@ Some external controllers, including the Sony DualSense and the Nintendo Switch 
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
 6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
 
-### Post-Configuration
+#### Post-Configuration
 
 This section went over creating a new Player 1 profile for your external controller.
 
@@ -381,14 +381,14 @@ To switch back to the Steam Deck controls, select the `Deck-Gamepad-Gyro` profil
 
 ***
 
-## How to Optimize Performance (Power Tools)
+### How to Optimize Performance (Power Tools)
 [Back to the Top](#cemu-native-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
 
 ***
 
-## How to Configure Multiplayer
+### How to Configure Multiplayer
 [Back to the Top](#cemu-native-table-of-contents)
 
 1. Open Cemu
@@ -401,7 +401,7 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#powe
 
 ***
 
-## How to Use the Wii U Pro Controller Configuration
+### How to Use the Wii U Pro Controller Configuration
 [Back to the Top](#cemu-native-table-of-contents)
 
 In some some games, the initial screen will prompt for a controller configuration: `Wii U Gamepad` or `Wii U Pro Controller`. Some games will automatically switch to the `Wii U Pro Controller` configuration if you choose it. 
@@ -422,7 +422,7 @@ If you prefer to use the `Wii U Pro Controller` layout, you need to change the c
 
 *** 
 
-## How to Configure Cemu Native to Work With EmulationStation-DE
+### How to Configure Cemu Native to Work With EmulationStation-DE
 [Back to the Top](#cemu-native-table-of-contents)
 
 In order to use Cemu Native through EmulationStation-DE, you will have to enable it in the settings menu.
@@ -437,12 +437,12 @@ In order to use Cemu Native through EmulationStation-DE, you will have to enable
 
 ***
 
-## How to Optimize Breath of the Wild
+### How to Optimize Breath of the Wild
 [Back to the Top](-proton#cemu-table-of-contents)
 
 **IMPORTANT:** You need Version 208 of Breath of the Wild to use FPS++. Read [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates) to learn how to install game updates for Cemu. 
 
-### How to Configure Cemu
+#### How to Configure Cemu
 
 1. In Desktop Mode, open `Cemu AppImage`
 2. Right click `Breath of the Wild`, click `Edit graphic packs`
@@ -455,7 +455,7 @@ In order to use Cemu Native through EmulationStation-DE, you will have to enable
     * <img src="https://user-images.githubusercontent.com/108900299/236599985-df1ac9fe-1c0f-48a0-8fcd-adb15688f71c.png" height="300">
 8. Close out of Cemu
 
-### How to Configure Game Mode
+#### How to Configure Game Mode
 
 1. In Game Mode, open Breath of the Wild
 2. Click the `...` (the QAM) button

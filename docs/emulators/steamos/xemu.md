@@ -15,7 +15,7 @@ Updating this Emulator:
 
 ***
 
-# Xemu Table of Contents
+## Xemu Table of Contents
 
 1. [Getting Started with Xemu](#getting-started-with-xemu)
    - [Configuration](#xemu-configuration)
@@ -41,7 +41,7 @@ Updating this Emulator:
 
 ***
 
-# Getting Started with Xemu
+## Getting Started with Xemu
 [Back to the Top](#xemu-table-of-contents)
 
 Xemu is a fairly straight-forward emulator to set up. Place your xiso formatted ROMs in `Emulation/roms/xbox`. Read the [File Formats](#xemu-file-formats) section to learn more about xiso formatted ROMs. Place your BIOS directly in `Emulation/bios`. Read the [Configuration](#xemu-configuration) section to learn more about Xemu, the expected BIOS and naming conventions, and Xemu's folder locations. 
@@ -54,7 +54,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Xemu Configuration
+### Xemu Configuration
 [Back to the Top](#xemu-table-of-contents)
 
 * Type of Emulator: Flatpak
@@ -68,13 +68,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders. 
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## How to Update Xemu
+### How to Update Xemu
 [Back to the Top](#xemu-table-of-contents)
 
 **How to Update Xemu**
@@ -85,7 +85,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Launch Xemu in Desktop Mode
+### How to Launch Xemu in Desktop Mode
 [Back to the Top](#xemu-table-of-contents)
 
 **How to Launch Xemu in Desktop Mode**
@@ -97,7 +97,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Xemu File Formats
+### Xemu File Formats
 [Back to the Top](#xemu-table-of-contents)
 
 * .iso (xiso formatted)
@@ -105,19 +105,19 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-# Xemu Common Issues
+## Xemu Common Issues
 [Back to the Top](#xemu-table-of-contents)
 
 ***
 
-## "The guest has not initialized the display"
+### "The guest has not initialized the display"
 [Back to the Top](#xemu-table-of-contents)
 
 This is likely due to a mismatch of MCPX and BIOS images, or a corrupt MCPX boot ROM.
 
 ***
 
-## "Please insert an Xbox disc"
+### "Please insert an Xbox disc"
 [Back to the Top](#xemu-table-of-contents)
 
 Try restarting Xemu. If you continue to get the message, your ISO may not be dumped in a compatible way. Try using extract-xiso to pack your ISO. 
@@ -126,15 +126,15 @@ Try restarting Xemu. If you continue to get the message, your ISO may not be dum
 
 ***
 
-# Xemu Tips and Tricks
+## Xemu Tips and Tricks
 [Back to the Top](#xemu-table-of-contents)
 
 ***
 
-## How to Convert ROMs to XISO Format
+### How to Convert ROMs to XISO Format
 [Back to the Top](#xemu-table-of-contents)
 
-### List of Methods
+#### List of Methods
 
 - [Method 1: Use the xiso Website (Steam Deck)](#method-1-use-the-xiso-website-steam-deck)
 - [Method 2: Use XDVDMulleter (Windows)](#method-2-use-xdvdmulleter-windows)
@@ -146,7 +146,7 @@ Try restarting Xemu. If you continue to get the message, your ISO may not be dum
 
 ***
 
-### Method 1: Use the xiso Website (Steam Deck)
+##### Method 1: Use the xiso Website (Steam Deck)
 [Back to the Top](#list-of-methods)
 
 Instructions provided on website.
@@ -160,7 +160,7 @@ Instructions provided on website.
 
 ***
 
-### Method 2: Use XDVDMulleter (Windows)
+##### Method 2: Use XDVDMulleter (Windows)
 [Back to the Top](#list-of-methods)
 
 Link: https://archive.org/details/xdvdmulleterv10.2beta
@@ -172,7 +172,7 @@ Link: https://archive.org/details/xdvdmulleterv10.2beta
 
 ***
 
-### Method 3: extract-iso (Windows)
+##### Method 3: extract-iso (Windows)
 [Back to the Top](#list-of-methods)
 
 Link: https://github.com/XboxDev/extract-xiso
@@ -192,7 +192,7 @@ Xemu's Tutorial: https://xemu.app/docs/disc-images/
 
 ***
 
-### Method 4: extract-iso (Linux)
+##### Method 4: extract-iso (Linux)
 [Back to the Top](#list-of-methods)
 
 Note: Cannot be *built* on the Steam Deck, but can be built elsewhere and copied. Then, it is usable on Steam Deck.
@@ -224,7 +224,7 @@ make
 
 ***
 
-### Method 5: extract-iso (Mac)
+##### Method 5: extract-iso (Mac)
 [Back to the Top](#list-of-methods)
 
 1. ⁠Open terminal
@@ -237,7 +237,7 @@ make
 
 ***
 
-### Method 6: dd (Linux)
+##### Method 6: dd (Linux)
 [Back to the Top](#list-of-methods)
 
 **Note:** May not work on Steam Deck, needs testing.
@@ -246,10 +246,10 @@ Refer to Xemu's wiki for instructions, https://xemu.app/docs/disc-images/#about-
 
 ***
 
-## How to Apply Zink
+### How to Apply Zink
 [Back to the Top](#xemu-table-of-contents)
 
-### Preface
+#### Preface
 
 On the Steam Deck, some Xbox game graphics will not render properly. Applying Zink can fix these graphical issues. 
 
@@ -264,7 +264,7 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
 
 
 
-### How to Apply Zink to Steam ROM Manager Shortcuts
+#### How to Apply Zink to Steam ROM Manager Shortcuts
 [Back to the Top](#how-to-apply-zink)
 
 1. In Desktop Mode, open Steam
@@ -276,7 +276,7 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
    * <img src="https://user-images.githubusercontent.com/108900299/226739203-c14b2c57-3029-4f87-baa3-2fa9d0af8bef.png" height="300">
 6. Zink will now be applied to this specific game's Steam shortcut, repeat for each game you would like to apply Zink
 
-### How to Apply Zink to EmulationStation-DE Games
+#### How to Apply Zink to EmulationStation-DE Games
 [Back to the Top](#how-to-apply-zink)
 
 1. In Desktop Mode, open the `Emulation/roms/xbox` folder

@@ -2,7 +2,7 @@
 
 ***
 
-# File Management Table of Contents
+## File Management Table of Contents
 
 
 1. [Managing ROM Files](#managing-rom-files)
@@ -13,17 +13,17 @@
 
 ***
 
-# Managing ROM Files
+## Managing ROM Files
 [Back to the Top](#file-management-table-of-contents)
 
 ***
 
-## How to Manage ROMs with Multiple Discs
+### How to Manage ROMs with Multiple Discs
 [Back to the Top](#file-management-table-of-contents)
 
 ***
 
-### Preface
+#### Preface
 
 To reduce the amount of files to manage, it's recommended to use EmuDeck's `Compression Tool`. Place your ROMs as you normally would in their respective folders, open the EmuDeck application on your desktop and run the `Compression Tool`. If you run the compression tool and you ran Steam ROM Manager previously, you will need to re-run Steam ROM Manager after compression to update your shortcuts. If you are following the guide on this page, you can wait until you are finished to re-run Steam ROM Manager. 
 
@@ -36,7 +36,7 @@ Compressing your ROMs makes managing multi-track games a lot simpler. You can cr
 
 ***
 
-### How to Create an M3U File
+#### How to Create an M3U File
 
 When it comes time to switch discs, various emulators have an option or a button to switch from one disc to the next. An M3U file allow you to manage ROMS with multiple discs and continue playing without any hiccup. 
 
@@ -71,12 +71,12 @@ https://user-images.githubusercontent.com/108900299/236058160-b4a3e6b9-042d-4d7a
 
 ***
 
-# Managing Emulators and Tools
+## Managing Emulators and Tools
 [Back to the Top](#file-management-table-of-contents)
 
 ***
 
-## How to Swap out AppImages and Binaries
+### How to Swap out AppImages and Binaries
 [Back to the Top](#file-management-table-of-contents)
 
 #### Preface

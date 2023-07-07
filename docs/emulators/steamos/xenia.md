@@ -16,7 +16,7 @@ We HIGHLY suggest looking to see if a game you wish to emulate has a native PC v
 
 ***
 
-# Xenia Table of Contents
+## Xenia Table of Contents
 
 1. [Getting Started with Xenia](#getting-started-with-xenia)
     - [Configuration](#xenia-configuration)
@@ -37,7 +37,7 @@ We HIGHLY suggest looking to see if a game you wish to emulate has a native PC v
 
 ***
 
-# Getting Started with Xenia
+## Getting Started with Xenia
 [Back to the Top](#xenia-table-of-contents)
 
 **IMPORTANT:**  Currently, Xbox Live Arcade games have the highest compatibility on Linux/SteamOS. Most Xbox 360 games do not run well on Xenia, on Linux/SteamOS at this time. Xenia does not currently run well on Linux/SteamOS. Most games will not boot or will not be playable. This emulator is currently in an experimental state for Linux/SteamOS.
@@ -53,7 +53,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Xenia Configuration
+### Xenia Configuration
 [Back to the Top](#xenia-table-of-contents)
 
 
@@ -70,13 +70,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * BIOS: No BIOS are required to play Xenia
 * Saves Location: `Emulation/roms/xbox360/content`
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## How to Download Xenia
+### How to Download Xenia
 [Back to the Top](#xenia-table-of-contents)
 
 Xenia cannot be installed on your initial installation of EmuDeck. It can only be installed through the `Manage Emulators` page. It is recommended to not follow online guides if you intend on using EmuDeck's set-up. Any deviations from EmuDeck configurations to Steam ROM Manager, or Xenia's general set-up **will not** be supported.
@@ -97,7 +97,7 @@ Xenia cannot be installed on your initial installation of EmuDeck. It can only b
 
 ***
 
-## How to Update Xenia
+### How to Update Xenia
 [Back to the Top](#xenia-table-of-contents)
 
 **How to Update Xenia**
@@ -108,7 +108,7 @@ Xenia cannot be installed on your initial installation of EmuDeck. It can only b
 
 ***
 
-## How to Launch Xenia in Desktop Mode
+### How to Launch Xenia in Desktop Mode
 [Back to the Top](#xenia-table-of-contents)
 
 **How to Launch Xenia in Desktop Mode**
@@ -119,7 +119,7 @@ Xenia cannot be installed on your initial installation of EmuDeck. It can only b
 
 ***
 
-## Xenia File Formats
+### Xenia File Formats
 [Back to the Top](#xenia-table-of-contents)
 
 * .iso
@@ -129,14 +129,14 @@ Xenia cannot be installed on your initial installation of EmuDeck. It can only b
 
 ***
 
-## Xenia Hotkeys
+### Xenia Hotkeys
 [Back to the Top](#xenia-table-of-contents)
 
 N/A
 
 ***
 
-## EmuDeck Compatibility List
+### EmuDeck Compatibility List
 [Back to the Top](#xenia-table-of-contents)
 
 Currently, Xbox Live Arcade games have the highest compatibility on Linux/SteamOS. Most Xbox 360 games do not run well on Xenia, on Linux/SteamOS at this time.
@@ -148,12 +148,12 @@ To submit games to the EmuDeck community compatibility list: https://docs.google
 
 ***
 
-# Xenia Common Issues
+## Xenia Common Issues
 [Back to the Top](#xenia-table-of-contents)
 
 ***
 
-## The Dangers of Proton
+### The Dangers of Proton
 [Back to the Top](#xenia-table-of-contents)
 
 **IMPORTANT:**
@@ -168,7 +168,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 ***
 
-## How to Fix !Status or GPU Command Error Messages
+### How to Fix !Status or GPU Command Error Messages
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
 
 If you get an error message with either `!Status` or `GPU Commands`, you will need to downgrade Xenia to a specific version. Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (released April 2nd, 2023) has the highest compatibility. 
@@ -181,12 +181,12 @@ To downgrade to build `e9d1e51_canary_experimental`, read: [How to Swap Out Xeni
 
 ***
 
-# Xenia Tips and Tricks
+## Xenia Tips and Tricks
 [Back to the Top](#xenia-table-of-contents)
 
 ***
 
-## How to Swap Out Xenia Builds
+### How to Swap Out Xenia Builds
 [Back to the Top](#xenia-table-of-contents)
 
 Xenia, through Proton/Wine, is currently in an experimental state. Updates may break or affect the emulator in unexpected ways. If an update does break certain games launching from Xenia, it is easy to swap out the build for an older one so you can continue playing.

@@ -15,7 +15,7 @@ Updating this Emulator:
 
 ***
 
-# PrimeHack Table of Contents
+## PrimeHack Table of Contents
 
 1. [Getting Started with PrimeHack](#getting-started-with-primehack)
     - [Configuration](#primehack-configuration)
@@ -33,7 +33,7 @@ Updating this Emulator:
 
 ***
 
-# Getting Started with PrimeHack
+## Getting Started with PrimeHack
 [Back to the Top](#primehack-table-of-contents)
 
 PrimeHack is a fairly straight-forward emulator to set up. Place your Metroid Prime Trilogy ROM in `Emulation/roms/primehack`. No additional setup is required. Read the [Configuration](#primehack-configuration) section to learn more about PrimeHack and its folder locations. **Note:** Controller configurations are not set up for the Metroid Prime games on the Gamecube. 
@@ -47,7 +47,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## PrimeHack Configuration
+### PrimeHack Configuration
 [Back to the Top](#primehack-table-of-contents)
 
 * Type of Emulator: Flatpak
@@ -64,13 +64,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 * Only `Metroid Prime Trilogy` (Wii)'s controls are configured. The Gamecube versions do not have controls configured at this time.
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## How to Update PrimeHack
+### How to Update PrimeHack
 [Back to the Top](#primehack-table-of-contents)
 
 **How to Update PrimeHack**
@@ -81,7 +81,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Launch PrimeHack in Desktop Mode
+### How to Launch PrimeHack in Desktop Mode
 [Back to the Top](#primehack-table-of-contents)
 
 **How to Launch PrimeHack in Desktop Mode**
@@ -94,7 +94,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## PrimeHack File Formats
+### PrimeHack File Formats
 [Back to the Top](#primehack-table-of-contents)
 
 * .ciso 
@@ -112,7 +112,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## PrimeHack Controls
+### PrimeHack Controls
 [Back to the Top](#primehack-table-of-contents)
 
 
@@ -135,7 +135,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## PrimeHack Hotkeys
+### PrimeHack Hotkeys
 [Back to the Top](#primehack-table-of-contents)
 
 **Important Note:** PrimeHack does not have a way of opening the menu if you are launching the game directly. It is recommended that you change any settings in the PrimeHack UI itself before launching a game. 
@@ -157,19 +157,19 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
 
-# PrimeHack Tips and Tricks
+## PrimeHack Tips and Tricks
 [Back to the Top](#primehack-table-of-contents)
 
 ***
 
-## How to Optimize Performance (Power Tools)
+### How to Optimize Performance (Power Tools)
 [Back to the Top](#primehack-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
 
 ***
 
-## How to Optimize Storage (Compression Tool)
+### How to Optimize Storage (Compression Tool)
 [Back to the Top](#primehack-table-of-contents)
 
 To optimize storage, you can use the `EmuDeck Compression Tool` in the `Tools & Stuff` menu within EmuDeck.  
@@ -183,7 +183,7 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 ***
 
-## How to Install Custom Textures
+### How to Install Custom Textures
 [Back to the Top](#primehack-table-of-contents)
 
 Here's how to install custom textures for PrimeHack: 
@@ -202,7 +202,7 @@ Here's how to install custom textures for PrimeHack:
 
 ***
 
-## How to Configure PrimeHack to work with EmulationStation-DE
+### How to Configure PrimeHack to work with EmulationStation-DE
 [Back to the Top](#primehack-table-of-contents)
 
 You need to move your `Metroid Prime Trilogy` ROM to `Emulation/roms/wii` and choose an alternative emulator for the ROM in EmulationStation-DE.

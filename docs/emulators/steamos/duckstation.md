@@ -8,7 +8,7 @@ Compatibility List: https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5RQ
 
 ***
 
-# DuckStation Table of Contents
+## DuckStation Table of Contents
 
 1. [Getting Started with DuckStation](#getting-started-with-duckstation)
       - [Configuration](#duckstation-configuration)
@@ -26,7 +26,7 @@ Compatibility List: https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5RQ
 ***
 
 
-# Getting Started with DuckStation
+## Getting Started with DuckStation
 [Back to the Top](#duckstation-table-of-contents)
 
 DuckStation is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation/roms/psx`. Place your BIOS directly in `Emulation/bios`. Read the [Configuration](#duckstation-configuration) section to learn more about DuckStation and its folder locations. 
@@ -40,7 +40,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## DuckStation Configuration
+### DuckStation Configuration
 [Back to the Top](#duckstation-table-of-contents)
 
 * Type of Emulator: Flatpak
@@ -59,13 +59,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Refer to: https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models, for a full list of PSX bios
       * BIOS files and PSX BIOS have matching names
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## How to Update DuckStation
+### How to Update DuckStation
 [Back to the Top](#duckstation-table-of-contents)
 
 **How to Update DuckStation**
@@ -75,7 +75,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Launch the emulator from `Steam` after adding it via the `Emulators` parser in `Steam ROM Manager`
 
 
-## How to Launch DuckStation in Desktop Mode
+### How to Launch DuckStation in Desktop Mode
 [Back to the Top](#duckstation-table-of-contents)
 
 **How to Launch DuckStation in Desktop Mode**
@@ -86,7 +86,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## DuckStation File Formats
+### DuckStation File Formats
 [Back to the Top](#duckstation-table-of-contents)
 
 * .cue 
@@ -97,7 +97,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * .mds 
 * .pbp
 
-## Configuring DuckStation to work alongside Retroarch's Beetle HW PSX core
+### Configuring DuckStation to work alongside Retroarch's Beetle HW PSX core
 [Back to the Top](#duckstation-table-of-contents)
 
 * ROM files for Retroarch's Beetle HW PSX core are shared with DuckStation in `Emulation/roms/psx`. 
@@ -111,7 +111,7 @@ To switch between the two in EmulationStation-DE, you can use the `Alternative E
 
 ***
 
-## DuckStation Hotkeys
+### DuckStation Hotkeys
 [Back to the Top](#duckstation-table-of-contents)
 
 DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - DuckStation`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -142,12 +142,12 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 
 ***
 
-# DuckStation Tips and Tricks
+## DuckStation Tips and Tricks
 [Back to the Top](#duckstation-table-of-contents)
 
 ***
 
-## How to Optimize Storage (Compression Tool)
+### How to Optimize Storage (Compression Tool)
 [Back to the Top](#duckstation-table-of-contents)
 
 To optimize storage, you can use the `EmuDeck Compressor` within EmuDeck.  
@@ -161,7 +161,7 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 ***
 
-## How to Manage Multiple Discs
+### How to Manage Multiple Discs
 [Back to the Top](#duckstation-table-of-contents)
 
 M3U files can be used to manage multiple discs for DuckStation. When the time comes to switch discs, use the Left Trackpad Touch Menu Hotkey. A full list of hotkeys and a tutorial on how to use Steam Input profiles can be found here: #hotkeys. 

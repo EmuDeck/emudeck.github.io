@@ -12,7 +12,7 @@ RPCS3 Wiki: https://wiki.rpcs3.net/index.php?title=Main_Page
 
 ***
 
-# RPCS3 Table of Contents
+## RPCS3 Table of Contents
 
 1. [Getting Started with RPCS3](#getting-started-with-rpcs3)
     - [Configuration](#rpcs3-configuration)
@@ -27,7 +27,7 @@ RPCS3 Wiki: https://wiki.rpcs3.net/index.php?title=Main_Page
 
 ***
 
-# Getting Started with RPCS3
+## Getting Started with RPCS3
 [Back to the Top](#rpcs3-table-of-contents)
 
 In order to play a game on RPCS3, you need to install the firmware through the RPCS3 UI. In desktop mode, open RPCS3, either in the application menu or through its shortcut in `Emulation/tools/launchers/rpcs3.sh`. In RPCS3, click File, click Install Firmware. Firmware is provided legally by Sony.
@@ -46,7 +46,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## RPCS3 Configuration
+### RPCS3 Configuration
 [Back to the Top](#rpcs3-table-of-contents)
 
 * Type of Emulator: Flatpak
@@ -69,13 +69,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 * Your game will not show in the RPCS3 UI until you add it manually through the `Add Game` option under `File` in the top left. 
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE (Refer to #how-to-configure-rpcs3-for-emulationstation-de for instructions)
 
 ***
 
-## How to Update RPCS3
+### How to Update RPCS3
 [Back to the Top](#rpcs3-table-of-contents)
 
 **How to Update RPCS3**
@@ -85,7 +85,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Launch RPCS3 in Desktop Mode
+### How to Launch RPCS3 in Desktop Mode
 [Back to the Top](#rpcs3-table-of-contents)
 
 **How to Launch RPCS3 in Desktop Mode**
@@ -97,7 +97,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## File Formats
+### File Formats
 [Back to the Top](#rpcs3-table-of-contents)
 
 * Folder Format: `/PS3_GAME/USRDIR/eboot.bin`
@@ -119,17 +119,17 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## RPCS3 Hotkeys
+### RPCS3 Hotkeys
 [Back to the Top](#rpcs3-table-of-contents)
 
 N/A
 
-# RPCS3 Tips and Tricks
+## RPCS3 Tips and Tricks
 [Back to the Top](#rpcs3-table-of-contents)
 
 ***
 
-## How to Configure RPCS3 For EmulationStation-DE
+### How to Configure RPCS3 For EmulationStation-DE
 [Back to the Top](#rpcs3-table-of-contents)
 
 1. In `Desktop Mode`, open RPCS3
@@ -157,7 +157,7 @@ Refer to https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md
 
 ***
 
-## Special Game Configurations
+### Special Game Configurations
 [Back to the Top](#rpcs3-table-of-contents)
 
 Some games will take additional setup, requiring mods or an extensive alteration of settings. The EmuDeck Community Creations page collects these configurations in one centralized location. 

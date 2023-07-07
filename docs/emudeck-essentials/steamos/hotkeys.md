@@ -2,7 +2,7 @@
 
 ***
 
-# Hotkeys Table of Contents
+## Hotkeys Table of Contents
 
 1. [Configuration](#hotkeys-configuration)
    - [Steam Deck Button Layout](#steam-deck-button-layout)
@@ -44,12 +44,12 @@
 
 ***
 
-# Hotkeys Configuration
+## Hotkeys Configuration
 [Back to the Top](#hotkeys-table-of-contents)
 
 ***
 
-## Steam Deck Button Layout
+### Steam Deck Button Layout
 [Back to the Top](#hotkeys-table-of-contents)
 
 **Front:**
@@ -65,10 +65,10 @@
 
 ***
 
-## How to Select A Steam Input Profile
+### How to Select A Steam Input Profile
 [Back to the Top](#hotkeys-table-of-contents)
 
-### Preface 
+#### Preface 
 
 EmuDeck comes with a few Steam Input profiles to make hotkeys easier to use in a few emulators. If an emulator does not have a Steam Input Profile, make sure you're on `Gamepad with Joystick Trackpad`, otherwise some controls may not work.
 
@@ -85,7 +85,7 @@ EmuDeck comes with Steam Input Profiles for the following emulators:
 * RMG
 
 
-### Selecting  Steam Input Profiles
+#### Selecting  Steam Input Profiles
 
 In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whatever name it is currently set to) at the top, and you will see a drop-down menu. When playing a PSX, PSP, 3DS, or Wii U Game, switch to the respective Steam Input Profile.
 
@@ -95,7 +95,7 @@ For a visual, watch the following GIF (DuckStation is being used as an example):
 
 ***
 
-## EmuDeck Hotkeys Printout
+### EmuDeck Hotkeys Printout
 [Back to the Top](#hotkeys-table-of-contents)
 
 If you would like to save a copy of the EmuDeck Hotkeys page to reference offline or locally, you may save a PDF of the page here:
@@ -108,15 +108,15 @@ If you would like to save a copy of the EmuDeck Hotkeys page to reference offlin
 
 ***
 
-# Hotkeys
+## Hotkeys
 [Back to the Top](#hotkeys-table-of-contents)
 
 ***
 
-# General
+### General
 [Back to the Top](#hotkeys-table-of-contents)
 
-## Global
+#### Global
 [Back to the Top](#hotkeys-table-of-contents)
 
 These hotkeys only work in Game Mode and can be used for any Steam or Non-Steam game. 
@@ -145,29 +145,29 @@ The `Steam` button in the chart below is interchangeable with the `...` (QAM) bu
 
 ***
 
-# Microsoft Hotkeys
+### Microsoft Hotkeys
 [Back to the Top](#hotkeys-table-of-contents)
 
-## Xemu (OG Xbox)
-[Back to the Top](#hotkeys-table-of-contents)
-
-N/A
-
-***
-
-## Xenia (Xbox 360)
+#### Xemu (OG Xbox)
 [Back to the Top](#hotkeys-table-of-contents)
 
 N/A
 
 ***
 
-# Multisystems Hotkeys
+#### Xenia (Xbox 360)
+[Back to the Top](#hotkeys-table-of-contents)
+
+N/A
+
+***
+
+#### Multisystems Hotkeys
 [Back to the Top](#hotkeys-table-of-contents)
 
 ***
 
-## MAME
+### MAME
 [Back to the Top](#hotkeys-table-of-contents)
 
 | Hotkey           | MAME               |
@@ -182,7 +182,7 @@ N/A
 
 ***
 
-## RetroArch
+### RetroArch
 [Back to the Top](#hotkeys-table-of-contents)
 
 [List of RetroArch Cores Used by EmuDeck](https://github.com/dragoonDorise/EmuDeck/wiki/retroarch#list-of-retroarch-cores-used-by-emudeck)
@@ -213,19 +213,19 @@ N/A
 
 ***
 
-## ScummVM
+### ScummVM
 [Back to the Top](#hotkeys-table-of-contents)
 
 N/A
 
 ***
 
-# Nintendo Hotkeys
+### Nintendo Hotkeys
 [Back to the Top](#hotkeys-table-of-contents)
 
 ***
 
-## PrimeHack (Metroid Prime Trilogy)
+#### PrimeHack (Metroid Prime Trilogy)
 [Back to the Top](#hotkeys-table-of-contents)
 
 | Hotkey              | PrimeHack              |
@@ -245,7 +245,7 @@ N/A
 
 ***
 
-## Dolphin (Gamecube and Wii)
+#### Dolphin (Gamecube and Wii)
 [Back to the Top](#hotkeys-table-of-contents)
 
 | Hotkey                       | Dolphin                             |
@@ -284,7 +284,7 @@ N/A
 
 ***
 
-## Citra (3DS)
+#### Citra (3DS)
 [Back to the Top](#hotkeys-table-of-contents)
 
 Citra comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Citra 3DS`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -309,7 +309,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 ***
 
-## Cemu (Wii U)
+#### Cemu (Wii U)
 [Back to the Top](#hotkeys-table-of-contents)
 
 Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Cemu`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -328,7 +328,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 ***
 
-## melonDS (NDS) (Standalone)
+#### melonDS (NDS) (Standalone)
 [Back to the Top](#hotkeys-table-of-contents)
 
 melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - melonDS`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -352,7 +352,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 ***
 
-## mGBA (GB, GBC, and GBA) (Standalone)
+#### mGBA (GB, GBC, and GBA) (Standalone)
 [Back to the Top](#hotkeys-table-of-contents)
 
 mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - mGBA`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -375,7 +375,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 ***
 
-## RMG (N64) (Standalone)
+#### RMG (N64) (Standalone)
 [Back to the Top](#hotkeys-table-of-contents)
 
 RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - RMG`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -401,7 +401,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 ***
 
-## Ryujinx (Switch)
+#### Ryujinx (Switch)
 [Back to the Top](#hotkeys-table-of-contents)
 
 | Ryujinx                     | Hotkeys                           |
@@ -410,7 +410,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 ***
 
-## Yuzu (Switch)
+#### Yuzu (Switch)
 [Back to the Top](#hotkeys-table-of-contents)
 
 | Hotkey       | Yuzu                  |
@@ -426,10 +426,10 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 ***
 
-# Sony Hotkeys
+### Sony Hotkeys
 [Back to the Top](#hotkeys-table-of-contents)
 
-## PPSSPP (Playstation Portable)
+#### PPSSPP (Playstation Portable)
 [Back to the Top](#hotkeys-table-of-contents)
 
 PPSSPP comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - PPSSPP Standalone`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -449,14 +449,14 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 ***
 
-## Vita3K (Playstation Vita)
+#### Vita3K (Playstation Vita)
 [Back to the Top](#hotkeys-table-of-contents)
 
 N/A
 
 ***
 
-## DuckStation (Playstation 1)
+#### DuckStation (Playstation 1)
 [Back to the Top](#hotkeys-table-of-contents)
 
 DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - DuckStation`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -484,7 +484,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 ***
 
-## PCSX2 (Playstation 2)
+#### PCSX2 (Playstation 2)
 [Back to the Top](#hotkeys-table-of-contents)
 
 |            Hotkey           |        PCSX2-QT        |
@@ -506,19 +506,19 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 ***
 
-## RPCS3 (Playstation 3)
+#### RPCS3 (Playstation 3)
 [Back to the Top](#hotkeys-table-of-contents)
 
 N/A
 
 ***
 
-# Tools Hotkeys
+### Tools Hotkeys
 [Back to the Top](#hotkeys-table-of-contents)
 
 ***
 
-## Cloud Services
+#### Cloud Services
 [Back to the Top](#hotkeys-table-of-contents)
 
 These hotkeys are specifically for cloud services, refer to the [Cloud Services](https://github.com/dragoonDorise/EmuDeck/wiki/cloud-services) page for more information.
@@ -550,7 +550,7 @@ By default, the controls are that of a standard gamepad along with:
 
 ***
 
-## EmulationStation-DE
+#### EmulationStation-DE
 [Back to the Top](#hotkeys-table-of-contents)
 
 EmulationStation-DE comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - EmulationStation-DE`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -568,13 +568,13 @@ EmulationStation-DE comes with a Steam Input profile for Hotkeys. Activate the S
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
-### An explanation of the EmulationStation-DE Profile
+##### An explanation of the EmulationStation-DE Profile
 
 Some emulators set up by EmuDeck need a unique steam input profile (like Cemu or Citra) since you cannot do combo hotkeys easily. These emulators use a Steam Input profile to bind keyboard keys to buttons on a radial or touch menu.
 
 The EmulationStation-DE combines all of these different profiles into a single menu and allows you to select your emulator profile on the fly. For emulators without a Steam Input profile, use combo hotkeys.
 
-### How to Use the EmulationStation-DE Profile
+##### How to Use the EmulationStation-DE Profile
 
 The EmulationStation-DE profile will be automatically applied to your EmulationStation-DE shortcut. If you have an older install of EmuDeck, you may need to re-run Steam ROM Manager with the EmulationStation-DE parser toggled to apply this profile.
 
@@ -584,7 +584,7 @@ All of the profiles include a `Return to Main Menu` button allowing you to retur
 
 If you do not see an emulator on the EmulationStation-DE touch menu, it likely uses combo hotkeys. This page covers the combo hotkeys for the various emulators. 
 
-### Video Showcase
+##### Video Showcase
 
 https://user-images.githubusercontent.com/108900299/236106511-c24a2f7e-7b9d-4b05-9317-566d39212ac2.mp4
 

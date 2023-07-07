@@ -2,7 +2,7 @@
 
 ***
 
-# Community Creations Table of Contents
+## Community Creations Table of Contents
 
 1. [Controller Configurations](#controller-configurations)
       * [Steam Input](#steam-input)
@@ -41,24 +41,24 @@
       1. [How to Submit an Emulator Package](#how-to-submit-an-emulator-package)
 ***
 
-# Controller Configurations
+## Controller Configurations
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
 
 
-## Steam Input
+### Steam Input
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-## Getting Started With Steam Input
+### Getting Started With Steam Input
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-### How to Share Steam Input Layouts
+#### How to Share Steam Input Layouts
 [Back to the Top](#community-creations-table-of-contents)
 
 This section will go over how to share and post your Steam Input Layouts on this page. 
@@ -132,7 +132,7 @@ This section will go over how to share and post your Steam Input Layouts on this
 
 ***
 
-### How to Download Steam Input Layouts
+#### How to Download Steam Input Layouts
 [Back to the Top](#community-creations-table-of-contents)
 
 You may select a profile to download by choosing one from the list here: [Community Steam Input Profiles](#community-steam-input-profiles-table-of-contents).
@@ -153,7 +153,7 @@ After you have selected a profile, you may use the below tutorial to learn how t
 
 ***
 
-### How to use Steam Input Layouts
+#### How to use Steam Input Layouts
 [Back to the Top](#community-creations-table-of-contents)
 
 In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whatever name it is currently set to) at the top, and you will see a drop-down menu. When playing a PSX, PSP, 3DS, or Wii U Game, switch to the respective Steam Input Profile.
@@ -164,10 +164,10 @@ For a visual, watch the following GIF (EmuDeck - Duckstation is being used as an
 
 ***
 
-## Community Steam Input Profiles 
+### Community Steam Input Profiles 
 [Back to the Top](#community-creations-table-of-contents)
 
-### Community Steam Input Profiles Table of Contents
+#### Community Steam Input Profiles Table of Contents
 
 * [Nintendo 64 Controller](#nintendo-64-controller)
 * [Steam Input Layout 2](#steam-input-layout-2)
@@ -177,7 +177,7 @@ For a visual, watch the following GIF (EmuDeck - Duckstation is being used as an
 
 ***
 
-### Nintendo 64 Controller
+#### Nintendo 64 Controller
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `Piximator` 
@@ -952,35 +952,35 @@ This Steam input profile is for the NSO Nintendo 64 Controller, https://www.nint
 
 ***
 
-### Steam Input Layout 4
+#### Steam Input Layout 4
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
 
 ***
 
-### Steam Input Layout 5
+#### Steam Input Layout 5
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
 
 ***
 
-### Steam Input Layout 6
+#### Steam Input Layout 6
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
 
 ***
 
-### Steam Input Layout 7
+#### Steam Input Layout 7
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
 
 ***
 
-## Dolphin
+### Dolphin
 [Back to the Top](#community-creations-table-of-contents)
 
 For instructions on how to create Dolphin controller profiles, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/dolphin#how-to-create-per-game-controller-layouts.
@@ -1050,12 +1050,12 @@ After you have selected a profile, you may use the below tutorial to learn how t
 
 ***
 
-## Community Dolphin Profiles
+### Community Dolphin Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-### Community Dolphin Profiles Table of Contents
+#### Community Dolphin Profiles Table of Contents
 
 * [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck)
 * [Wiimote Motion Controls With No Attachment](#wiimote-motion-controls-with-no-attachment)
@@ -1065,7 +1065,7 @@ After you have selected a profile, you may use the below tutorial to learn how t
 
 ***
 
-### Wiimote Motion Controls With Nunchuck
+##### Wiimote Motion Controls With Nunchuck
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `TrickTrigger`
@@ -1163,7 +1163,7 @@ Hotkeys/Upright Toggle = SELECT&THUMBR
 
 ***
 
-### Wiimote Motion Controls With No Attachment
+##### Wiimote Motion Controls With No Attachment
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `Trick Trigger`
@@ -1267,7 +1267,7 @@ Hotkeys/Sideways Toggle = SELECT&THUMBR
 
 ***
 
-### Super Mario Galaxy 1 and 2
+##### Super Mario Galaxy 1 and 2
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `Jigs`
@@ -1296,7 +1296,7 @@ Credit: `Jigs`
 ***
 
 
-### Gyro Steam Deck on Dolphin
+##### Gyro Steam Deck on Dolphin
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: [_punto16_](https://github.com/punto16)
@@ -1413,14 +1413,14 @@ Options/Upright Wiimote = `Full Axis 2+`
 ***
 
 
-### Dolphin Config 6
+##### Dolphin Config 6
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace this with your controller config and a brief description. 
 
 ***
 
-# Special Game Configurations
+## Special Game Configurations
 [Back to the Top](#community-creations-table-of-contents)
 
 **Important:** This section is for game configurations that require elaborate setup. For minor tweaks and settings, please use Manacharge's community database. You can link back here in the community database as well. 
@@ -1431,14 +1431,14 @@ You can view the community database here: https://docs.google.com/spreadsheets/d
 
 ***
 
-## RPCS3 (Playstation 3)
+### RPCS3 (Playstation 3)
 [Back to the Top](#community-creations-table-of-contents)
 
 How to set up and configure RPCS3: https://github.com/dragoonDorise/EmuDeck/wiki/RPCS3.
 
 ***
 
-### Metal Gear Solid 4
+#### Metal Gear Solid 4
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `AwkwaBear`
@@ -1496,14 +1496,14 @@ You can find the guide here: https://github.com/dragoonDorise/EmuDeck/wiki/Metal
 
 ***
 
-## Yuzu (Nintendo Switch)
+### Yuzu (Nintendo Switch)
 [Back to the Top](#community-creations-table-of-contents)
 
 How to set up and configure Yuzu: https://github.com/dragoonDorise/EmuDeck/wiki/Yuzu.
 
 ***
 
-### The Legend Of Zelda: Link's Awakening
+#### The Legend Of Zelda: Link's Awakening
 [Back to the Top](#community-creations-table-of-contents)
 
 **Credit:** `SardineCat`
@@ -1526,12 +1526,12 @@ How to set up and configure Yuzu: https://github.com/dragoonDorise/EmuDeck/wiki/
 
 ***
 
-# Tools and Utilities
+## Tools and Utilities
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-## How to Set Up SyncThing
+### How to Set Up SyncThing
 [Back to the Top](#community-creations-table-of-contents)
 
 [SyncThing](https://syncthing.net/) is a free self hosted "cloud" solution. There are limitations, the biggest here with the steam deck and the way EmuDeck moves/renames folders and the use of symlinks which is a “virtual file or folder” that can point to another. This is VERY nice, but due to the nature of differing filesystems, there is a reason SyncThing does not support this, and this tutorial avoids symlinks. Emudeck does make a few changes where syncing is not as straightforward as it could be, simply because the devs changed the default folder via the emulator. PCSX2 savestates and memcard folders are not only named differently from default but also moved from their default directory.
@@ -1717,7 +1717,7 @@ Now if I can figure out a way to share prefixes between non-steam games so that 
 
 ***
 
-## How to Use ROM Hacks
+### How to Use ROM Hacks
 [Back to the Top](#community-creations-table-of-contents)
 
 **ROM Hack Sources**
@@ -1759,12 +1759,12 @@ _This list is not exhaustive_
 
 ***
 
-# How to Contribute to EmuDeck
+## How to Contribute to EmuDeck
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-## How to Submit an Emulator Package
+### How to Submit an Emulator Package
 [Back to the Top](#community-creations-table-of-contents)
 
 To submit an emulator for integration into EmuDeck, use the following template:

@@ -16,7 +16,7 @@ Updating this Emulator:
 
 ***
 
-# MAME Table of Contents
+## MAME Table of Contents
 
 1. [Getting Started with MAME](#getting-started-with-mame)
       - [Configuration](#mame-configuration)
@@ -33,12 +33,12 @@ Updating this Emulator:
 
 ***
 
-# Getting Started with MAME
+## Getting Started with MAME
 [Back to the Top](#mame-table-of-contents)
 
 ***
 
-## MAME Configuration
+### MAME Configuration
 [Back to the Top](#mame-table-of-contents)
 
 * Type of Emulator: Flatpak
@@ -62,13 +62,13 @@ Updating this Emulator:
 **Note:** `~/.mame` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 * `MAME [Standalone]` shares its `Emulation/roms/arcade` folder with `Arcade - RetroArch MAME Current`. Turning both of these parsers on in Steam ROM Manager will cause duplicates in your App List. 
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## How to Update MAME
+### How to Update MAME
 [Back to the Top](#mame-table-of-contents)
 
 **How to Update MAME**
@@ -78,7 +78,7 @@ Updating this Emulator:
 
 ***
 
-## How to Launch MAME in Desktop Mode
+### How to Launch MAME in Desktop Mode
 [Back to the Top](#mame-table-of-contents)
 
 **How to Launch MAME in Desktop Mode**
@@ -90,15 +90,15 @@ Updating this Emulator:
 
 ***
 
-## MAME File Formats
+### MAME File Formats
 [Back to the Top](#mame-table-of-contents)
 
-### ROMs
+#### ROMs
 
 * .zip 
 * .chd
 
-### BIOS Files
+#### BIOS Files
 
 BIOS will be searched through 3 folders:
 * `Emulation/roms/arcade/`
@@ -109,7 +109,7 @@ BIOS will be searched through 3 folders:
 
 ***
 
-## MAME Hotkeys
+### MAME Hotkeys
 [Back to the Top](#mame-table-of-contents)
 
 
@@ -126,12 +126,12 @@ BIOS will be searched through 3 folders:
 
 ***
 
-# MAME Tips and Tricks
+## MAME Tips and Tricks
 [Back to the Top](#mame-table-of-contents)
 
 ***
 
-## Maintaining ROM Versions
+### Maintaining ROM Versions
 [Back to the Top](#mame-table-of-contents)
 
 Ideally use ROMs that are the same version as MAME's version. MAME often releases improved versions of ROMs to fix issues. Issues are less of a concern with the most popular classics because most of those haven't changed in years. But to avoid having to track multiple different versions of your ROMs, most people just keep their ROM sets updated as  the emulator updates. 
@@ -144,7 +144,7 @@ Reference image: <img src="https://user-images.githubusercontent.com/108900299/2
 
 ***
 
-## How to Add Custom Bezels
+### How to Add Custom Bezels
 [Back to the Top](#mame-table-of-contents)
 
 1. Open `Emulation/storage/mame`
@@ -155,7 +155,7 @@ Reference image: <img src="https://user-images.githubusercontent.com/108900299/2
 
 ***
 
-## How to Enable Shaders/Scanlines in MAME (Standalone)
+### How to Enable Shaders/Scanlines in MAME (Standalone)
 [Back to the Top](#mame-table-of-contents)
 
 1. In Desktop Mode, open `/home/deck/.mame/mame.ini`
@@ -167,7 +167,7 @@ Reference image: <img src="https://user-images.githubusercontent.com/108900299/2
 
 ***
 
-## How to Configure MAME to Work With EmulationStation-DE
+### How to Configure MAME to Work With EmulationStation-DE
 [Back to the Top](#mame-table-of-contents)
 
 EmuDeck installs both MAME (Standalone, installed as a flatpak), and Retroarch's MAME core. 

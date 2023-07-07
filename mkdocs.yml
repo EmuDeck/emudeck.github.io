@@ -12,11 +12,15 @@ nav:
     - Getting Started with EmuDeck:
         - 'EmuDeck for SteamOS': 
             - 'Frequently Asked Questions': 'getting-started-with-emudeck/steamos/frequently-asked-questions.md' 
+            - 'Supported Emulators': 'getting-started-with-emudeck/steamos/supported-emulators.md' 
         - 'EmuDeck for Windows': 
             - 'Frequently Asked Questions': 'getting-started-with-emudeck/windows/frequently-asked-questions.md' 
+            - 'Supported Emulators': 'getting-started-with-emudeck/windows/supported-emulators.md' 
     - Common Issues:
-        - 'Common Issues: EmuDeck for SteamOS': 'common-issues/common-issues-emudeck-for-steamos.md'
-        - 'Common Issues: EmuDeck for Windows': 'common-issues/common-issues-emudeck-for-windows.md'
+        - 'EmuDeck for SteamOS': 
+            - 'Common Issues': 'common-issues/common-issues-emudeck-for-steamos.md'
+        - 'EmuDeck for Windows': 
+            - 'Common Issues': 'common-issues/common-issues-emudeck-for-windows.md'
     - EmuDeck Essentials:
         - 'Cheat Sheet': 'emudeck-essentials/cheat-sheet.md'
         - 'EmuDeck for SteamOS':
@@ -88,6 +92,8 @@ nav:
             - 'Ryujinx Windows': 'emulators/windows/ryujinx.md'
         - ScummVM:
             - 'ScummVM SteamOS': 'emulators/steamos/scummvm.md'
+        - Vita3K:
+            - 'Vita3K SteamOS': 'emulators/steamos/vita3k.md'
         - Xemu:
             - 'Xemu SteamOS': 'emulators/steamos/xemu.md'
         - Xenia:

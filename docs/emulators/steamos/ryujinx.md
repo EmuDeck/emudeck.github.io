@@ -12,7 +12,7 @@ Quickstart guide: https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Config
 
 ***
 
-# Ryujinx Table of Contents
+## Ryujinx Table of Contents
 
 1. [Getting Started with Ryujinx](#getting-started-with-ryujinx)
     - [Configuration](#ryujinx-configuration)
@@ -30,7 +30,7 @@ Quickstart guide: https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Config
 
 ***
 
-# Getting Started with Ryujinx
+## Getting Started with Ryujinx
 [Back to the Top](#ryujinx-table-of-contents)
 
 In order to play Nintendo Switch games on Ryujinx, you need a `prod.keys` file to decrypt your ROMs. You will need to continue to keep your `prod.keys` up to date as new Nintendo Switch firmware releases. 
@@ -49,7 +49,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Ryujinx Configuration:
+### Ryujinx Configuration:
 [Back to the Top](#ryujinx-table-of-contents)
 
 * Type of Emulator: Binary Package
@@ -83,13 +83,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## How to Update Ryujinx
+### How to Update Ryujinx
 [Back to the Top](#ryujinx-table-of-contents)
 
 **How to Update Ryujinx**
@@ -102,7 +102,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Launch Ryujinx in Desktop Mode
+### How to Launch Ryujinx in Desktop Mode
 [Back to the Top](#ryujinx-table-of-contents)
 
 **How to Launch Ryujinx in Desktop Mode**
@@ -114,7 +114,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Ryujinx File Formats
+### Ryujinx File Formats
 [Back to the Top](#ryujinx-table-of-contents)
 
 * .kp 
@@ -127,7 +127,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Manage DLC and Updates
+### How to Manage DLC and Updates
 [Back to the Top](#ryujinx-table-of-contents)
 
 **IMPORTANT:** Do not keep your DLC and Update Files in the ROM folder. Steam ROM Manager will try to parse them and the Steam shortcuts created will not work.
@@ -146,7 +146,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Ryujinx Hotkeys
+### Ryujinx Hotkeys
 [Back to the Top](#ryujinx-table-of-contents)
 
 | Ryujinx                     | Hotkeys                           |
@@ -155,12 +155,12 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-# Ryujinx Tips and Tricks
+## Ryujinx Tips and Tricks
 [Back to the Top](#ryujinx-table-of-contents)
 
 ***
 
-## How to Configure Gyro
+### How to Configure Gyro
 [Back to the Top](#ryujinx-table-of-contents)
 
 Gyro for Ryujinx requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
@@ -169,14 +169,14 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#stea
 
 ***
 
-## How to Optimize Performance (Power Tools)
+### How to Optimize Performance (Power Tools)
 [Back to the Top](#ryujinx-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
 
 ***
 
-## How to Install Mods
+### How to Install Mods
 [Back to the Top](#ryujinx-table-of-contents)
 
 **Mod Resources**
@@ -231,7 +231,7 @@ mod_directory
 
 ***
 
-## Special Characters 
+### Special Characters 
 [Back to the Top](#ryujinx-table-of-contents)
 
 Files with special characters in the ROM name will not launch from steam. Rename your ROMs and remove the special character.

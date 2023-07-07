@@ -10,7 +10,7 @@ Quickstart Guide: https://vita3k.org/quickstart.html
 
 ***
 
-# Vita3K Table of Contents
+## Vita3K Table of Contents
 
 1. [Getting Started with Vita3K](#getting-started-with-vita3k)
     - [Configuration](#vita3k-configuration)
@@ -23,7 +23,7 @@ Quickstart Guide: https://vita3k.org/quickstart.html
 
 ***
 
-# Getting Started with Vita3K
+## Getting Started with Vita3K
 [Back to the Top](#vita3k-table-of-contents)
 
 In order to play a game on Vita3K, you will need to install firmware through the Vita3K UI. In desktop mode, open Vita3K, either in the application menu or through its shortcut in `Emulation/tools/launchers/vita3k.sh`. In Vita3K, click  `File`, click `Install Firmware`. Firmware is provided legally by Sony. 
@@ -40,7 +40,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Vita3K Configuration
+### Vita3K Configuration
 [Back to the Top](#vita3k-table-of-contents)
 
 * Type of Emulator: Binary Package
@@ -52,14 +52,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
     * `InstalledGames` is a symlink to `Emulation/storage/Vita3K/uxo/app`
 * Firmware: Install firmware through Vita3K. Read the [Quickstart Guide](https://vita3k.org/quickstart.html) for more information
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
     * Refer to #how-to-configure-vita3k-to-work-with-emulationstation-de for instructions
 
 ***
 
-## How to Update Vita3K
+### How to Update Vita3K
 [Back to the Top](#vita3k-table-of-contents)
 
 **How to Update Vita3K**
@@ -70,7 +70,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Launch Vita3K in Desktop Mode
+### How to Launch Vita3K in Desktop Mode
 
 **How to Launch Vita3K in Desktop Mode**
 
@@ -82,7 +82,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Vita3K File Formats
+### Vita3K File Formats
 [Back to the Top](#vita3k-table-of-contents)
 
 * .pkg
@@ -94,15 +94,16 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Updating and Launching Vita3K
+### Updating and Launching Vita3K
 [Back to the Top](#vita3k-table-of-contents)
 
-### How to Update Vita3K
+#### How to Update Vita3K
 
 1. Run `Update Emulators and Tools` in the `Tools & stuff` section of `EmuDeck`
 2. Manual file replacement of Vita3K  (Refer to https://github.com/dragoonDorise/EmuDeck/wiki/File-Management#how-to-swap-out-appimagesbinaries-for-yuzu-ryujinx-and-pcsx2 for instructions)
 
 ### How to Launch Vita3K in Desktop Mode
+[Back to the Top](#vita3k-table-of-contents)
 
 1. Launch `Vita3K EmuDeck` from the `Applications Launcher` (Steam Deck icon in the bottom left of the taskbar)
 2. Launch the emulator from Steam after adding it via the Emulators Parser in Steam ROM Manager
@@ -112,12 +113,12 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 ***
 
 
-# Vita3K Tips and Tricks
+## Vita3K Tips and Tricks
 [Back to the Top](#vita3k-table-of-contents)
 
 ***
 
-## How to Configure Vita3K to Work With EmulationStation-DE
+### How to Configure Vita3K to Work With EmulationStation-DE
 [Back to the Top](#vita3k-table-of-contents)
 
 **Note:** This section requires you to install your PlayStation Vita games first through Vita3K. At this time, EmulationStation-DE only supports launching installed PSVita games. 

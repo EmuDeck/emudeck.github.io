@@ -10,7 +10,7 @@ RetroArch FAQ: https://www.retroarch.com/?page=faq
 
 ***
 
-# RetroArch Table of Contents
+## RetroArch Table of Contents
 
 1. [Getting Started with RetroArch](#getting-started-with-retroarch)
     - [Configuration](#retroarch-configuration)
@@ -48,12 +48,12 @@ RetroArch FAQ: https://www.retroarch.com/?page=faq
         * [Section 1](#section-1)
 ***
 
-# Getting Started with RetroArch
+## Getting Started with RetroArch
 [Back to the Top](#retroarch-table-of-contents)
 
 ***
 
-## RetroArch Configuration
+### RetroArch Configuration
 [Back to the Top](#retroarch-table-of-contents)
 
 * Type of Emulator: Flatpak
@@ -71,21 +71,21 @@ RetroArch FAQ: https://www.retroarch.com/?page=faq
    
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-### Works With
+#### Works With
 * Steam Rom Manager
 * EmulationStation-DE
 
 ***
 
-## How to Update RetroArch And Its Cores
+### How to Update RetroArch And Its Cores
 [Back to the Top](#retroarch-table-of-contents)
 
-### How to Update RetroArch
+#### How to Update RetroArch
 
 * Update through `Discover` (Shopping bag icon)
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 
-### How to Update RetroArch Cores
+#### How to Update RetroArch Cores
 
 1. Open `RetroArch`
 2. Open the `Main Menu`
@@ -98,7 +98,7 @@ https://user-images.githubusercontent.com/108900299/235380638-913726b9-b186-41cd
 
 ***
 
-## How to Launch RetroArch in Desktop Mode
+### How to Launch RetroArch in Desktop Mode
 [Back to the Top](#retroarch-table-of-contents)
 
 **How to Launch RetroArch in Desktop Mode**
@@ -110,7 +110,7 @@ https://user-images.githubusercontent.com/108900299/235380638-913726b9-b186-41cd
 
 ***
 
-## A Breakdown of Overrides
+### A Breakdown of Overrides
 [Back to the Top](#retroarch-table-of-contents)
 
 1. Global = Everything.
@@ -124,7 +124,7 @@ For more information: https://docs.libretro.com/guides/overrides/
 
 ***
 
-## RetroArch Hotkeys
+### RetroArch Hotkeys
 [Back to the Top](#retroarch-table-of-contents)
 
 |       Hotkeys      |        RetroArch        |
@@ -153,7 +153,7 @@ For more information: https://docs.libretro.com/guides/overrides/
 
 ***
 
-## List of RetroArch Cores Used by EmuDeck
+### List of RetroArch Cores Used by EmuDeck
 [Back to the Top](#retroarch-table-of-contents)
 
 | Console/System            | RetroArch Core (Click for Libretro Article)                                                                               |
@@ -211,15 +211,15 @@ For more information: https://docs.libretro.com/guides/overrides/
 
 ***
 
-# Common Issues
+## Common Issues
 [Back to the Top](#retroarch-table-of-contents)
 
-# RetroArch Tips and Tricks
+## RetroArch Tips and Tricks
 [Back to the Top](#retroarch-table-of-contents)
 
 ***
 
-## How to Optimize Storage (Compression Tool)
+### How to Optimize Storage (Compression Tool)
 [Back to the Top](#retroarch-table-of-contents)
 
 To optimize storage, you can use the `EmuDeck Compressor` within EmuDeck.  
@@ -232,7 +232,7 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 ***
 
-## How to Manage Multiple Discs
+### How to Manage Multiple Discs
 [Back to the Top](#retroarch-table-of-contents)
 
 M3U files can be used to manage multiple discs for RetroAarch. When the time comes to switch discs:
@@ -244,7 +244,7 @@ Learn how to create an M3U File: https://github.com/dragoonDorise/EmuDeck/wiki/f
 
 ***
 
-## How to Change Shaders
+### How to Change Shaders
 [Back to the Top](#retroarch-table-of-contents)
 
 1. Load content that has a shader applied automatically. 
@@ -272,7 +272,7 @@ As you get lower in this list it takes precedence, so if you do nothing but set 
 
 ***
 
-## How to Change Controller Layouts on a Per Game Basis
+### How to Change Controller Layouts on a Per Game Basis
 [Back to the Top](#retroarch-table-of-contents)
 
 ```
@@ -288,7 +288,7 @@ Copied From: https://docs.libretro.com/guides/input-and-controls/#remapping-cont
 
 *** 
 
-## How to Change Controller Layouts for a System
+### How to Change Controller Layouts for a System
 [Back to the Top](#retroarch-table-of-contents)
 
 ```
@@ -304,7 +304,7 @@ Copied From: https://docs.libretro.com/guides/input-and-controls/#remapping-cont
 
 ***
 
-## How to Set Game Settings On a Per-Game Basis
+### How to Set Game Settings On a Per-Game Basis
 [Back to the Top](#retroarch-table-of-contents)
 
 ```
@@ -318,12 +318,12 @@ How to Set Game Settings On a Per-Game Basis:
 
 ***
 
-# RetroArch Cores
+## RetroArch Cores
 [Back to the Top](#retroarch-table-of-contents)
 
 ***
 
-## Flycast
+### Flycast
 [Back to the Top](#retroarch-table-of-contents)
 
 **Flycast is a Dreamcast Core for RetroArch.**
@@ -332,7 +332,7 @@ Wiki Link: https://docs.libretro.com/library/flycast/
 
 ***
 
-### How to Install Custom Textures For Flycast
+#### How to Install Custom Textures For Flycast
 [Back to the Top](#retroarch-table-of-contents)
 
 1. In `Emulation/bios`, create a `dc` folder
@@ -346,7 +346,7 @@ Texture Pack Resources: https://old.reddit.com/r/Flycast_texture_packs/
 
 ***
 
-## Fuse
+### Fuse
 [Back to the Top](#retroarch-table-of-contents)
 
 **Fuse is a ZX Spectrum Core for RetroArch.**
@@ -355,7 +355,7 @@ Wiki Link: https://docs.libretro.com/library/fuse/
 
 ***
 
-### How to Configure Controls for Fuse
+#### How to Configure Controls for Fuse
 [Back to the Top](#retroarch-table-of-contents)
 
 You will want to set a joystick in the quick menu/controls/port one. 
@@ -374,7 +374,7 @@ Bear in mind though the speccy was a computer, and some games will be keyboard o
 
 ***
 
-## MelonDS
+### MelonDS
 [Back to the Top](#retroarch-table-of-contents)
 
 **MelonDS is a Nintendo DS Core for RetroArch.**
@@ -383,7 +383,7 @@ Wiki Link: https://docs.libretro.com/library/melonds/
 
 ***
 
-### How to Use the Trackpad for the Touch Screen
+#### How to Use the Trackpad for the Touch Screen
 [Back to the Top](#retroarch-table-of-contents)
 
 **Description:** This allows you to use one of the trackpads as a touch screen for a Nintendo DS game. 
@@ -400,7 +400,7 @@ Wiki Link: https://docs.libretro.com/library/melonds/
 
 ***
 
-## Mupen64Plus-Next
+### Mupen64Plus-Next
 [Back to the Top](#retroarch-table-of-contents)
 
 **Mupen64Plus-Next is a Nintendo 64 Core for RetroArch.**
@@ -409,7 +409,7 @@ Wiki Link: https://docs.libretro.com/library/mupen64plus/
 
 ***
 
-### How to Install Custom Textures for Mupen64Plus-Next
+#### How to Install Custom Textures for Mupen64Plus-Next
 [Back to the Top](#retroarch-table-of-contents)
 
 1. In `Emulation/hdpacks/Mupen64plus_next`, create two folders, `cache` and `hires_texture`
@@ -424,7 +424,7 @@ Wiki Link: https://docs.libretro.com/library/mupen64plus/
 
 ***
 
-## Neko Project II Kai
+### Neko Project II Kai
 [Back to the Top](#retroarch-table-of-contents)
 
 **Neko Project II Kai is a NEC PC-98 Core for RetroArch.**
@@ -433,21 +433,21 @@ Wiki Link: https://docs.libretro.com/library/neko_project_ii_kai/
 
 ***
 
-### Configuring controls
+#### Configuring controls
 [Back to the Top](#retroarch-table-of-contents)
 
 Neko Project II Kai, soon:tm:
 
 ***
 
-## PPSSPP RetroArch Core
+### PPSSPP RetroArch Core
 [Back to the Top](#retroarch-table-of-contents)
 
 PPSSPP is a Playstation Portable Core for RetroArch. For the standalone emulator, visit https://github.com/dragoonDorise/EmuDeck/wiki/ppsspp.
 
 ***
 
-### How to Download Asset Files (Required)
+#### How to Download Asset Files (Required)
 [Back to the Top](#retroarch-table-of-contents)
 
 The PPSSPP RetroArch core requires assets files to be fully functional.
@@ -461,14 +461,14 @@ To download these asset files:
 
 ***
 
-## PX68k
+### PX68k
 [Back to the Top](#retroarch-table-of-contents)
 
 **PX68k is a Sharp - X68000 Core for RetroArch.**
 
 ***
 
-### Section 1
+#### Section 1
 [Back to the Top](#retroarch-table-of-contents)
 
 ***

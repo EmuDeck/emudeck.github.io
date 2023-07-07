@@ -11,7 +11,7 @@ Github: https://github.com/mgba-emu/mgba
 
 ***
 
-# mGBA Table of Contents
+## mGBA Table of Contents
 
 1. [Getting Started with mGBA](#getting-started-with-mgba)
       - [Configuration](#mgba-configuration)
@@ -28,7 +28,7 @@ Github: https://github.com/mgba-emu/mgba
 
 ***
 
-# Getting Started with mGBA
+## Getting Started with mGBA
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/mgba#mgba-table-of-contents)
 
 mGBA is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation/roms/gb`, `Emulation/roms/gbc` or `Emulation/roms/gba`. No additional setup is required. Read the [Configuration](#mgba-configuration) section to learn more about mGBA and its folder locations. 
@@ -42,7 +42,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## mGBA Configuration
+### mGBA Configuration
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/mgba#mgba-table-of-contents)
 
 * Type of Emulator: AppImage
@@ -65,7 +65,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.  
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
@@ -83,7 +83,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Launch mGBA in Desktop Mode
+### How to Launch mGBA in Desktop Mode
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/mgba#mgba-table-of-contents)
 
 **How to Launch mGBA in Desktop Mode**
@@ -95,7 +95,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## mGBA File Formats
+### mGBA File Formats
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/mgba#mgba-table-of-contents)
 
 * .gb
@@ -107,7 +107,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## mGBA Hotkeys
+### mGBA Hotkeys
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/mgba#mgba-table-of-contents)
 
 mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - mGBA`. The hotkeys below can only be used if you have the Steam Input profile active.
@@ -131,14 +131,14 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 
 ***
 
-# mGBA Tips and Tricks
+## mGBA Tips and Tricks
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/mgba#mgba-table-of-contents)
 
 
 
 ***
 
-## How to Use the Gyro Sensor
+### How to Use the Gyro Sensor
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/mgba#mgba-table-of-contents)
 
 **Supported Games**
@@ -150,9 +150,9 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 - [How to Configure the Gyro Sensor for the Steam Deck](#how-to-configure-the-gyro-sensor-for-the-steam-deck)
 - [How to Configure the Gyro Sensor for Non Steam-Deck Controllers](#how-to-configure-the-gyro-sensor-for-non-steam-deck-controller)
 
-### How to Configure the Gyro Sensor for the Steam Deck
+#### How to Configure the Gyro Sensor for the Steam Deck
 
-#### How to Configure mGBA
+##### How to Configure mGBA
 
 1. Open `/home/deck/.config/mgba`
    * `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `View hidden files`
@@ -172,7 +172,7 @@ gyroAxisY=1
 7. Click `Game Pak sensors...`
 8. Set the sensitivity in the bottom right to `34`
 
-#### How to Configure Steam Input
+##### How to Configure Steam Input
 
 1. In Game Mode, select the `WarioWare: Twisted!` ROM or the mGBA emulator
 2. Click the `Controller` icon
@@ -194,7 +194,7 @@ Minimum Joystick Y Output Value: 1
 
 ***
 
-### How to Configure the Gyro Sensor for Non Steam-Deck Controllers
+#### How to Configure the Gyro Sensor for Non Steam-Deck Controllers
 
 1. In Desktop Mode, connect your non-Steam Deck controller
 2. Open mGBA in Desktop Mode
@@ -208,7 +208,7 @@ Minimum Joystick Y Output Value: 1
 
 ***
 
-## How to Use the Tilt Sensor
+### How to Use the Tilt Sensor
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/mgba#mgba-table-of-contents)
 
 **Supported Games**
@@ -223,13 +223,13 @@ Minimum Joystick Y Output Value: 1
 
 ***
 
-### How to Configure the Tilt Sensor for the Steam Deck
+#### How to Configure the Tilt Sensor for the Steam Deck
 
 **Not sure if this is fully possible yet, if you have a way of doing it, edit this page or send a message on the Discord.**
 
 ***
 
-### How to Configure the Tilt Sensor for Non Steam-Deck Controllers
+#### How to Configure the Tilt Sensor for Non Steam-Deck Controllers
 
 1. In Desktop Mode, connect your non-Steam Deck controller
 2. Open mGBA in Desktop Mode

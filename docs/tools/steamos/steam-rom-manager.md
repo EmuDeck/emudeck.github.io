@@ -12,7 +12,7 @@ Read https://github.com/dragoonDorise/EmuDeck/wiki/EmulationStation-DE to learn 
 
 ***
 
-# Steam ROM Manager Table of Contents
+## Steam ROM Manager Table of Contents
 
 1. [Getting started with Steam ROM Manager](#getting-started-with-steam-rom-manager)
    - [Configuration](#configuration)
@@ -46,7 +46,7 @@ Read https://github.com/dragoonDorise/EmuDeck/wiki/EmulationStation-DE to learn 
 
 ***
 
-# Getting started with Steam ROM Manager
+## Getting started with Steam ROM Manager
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 Steam ROM Manager is a powerful tool used to add ROMs, emulators, and tools as non-Steam shortcuts to your Steam library. Fortunately, with EmuDeck, Steam ROM Manager comes fully pre-configured with a user friendly theme.
@@ -65,7 +65,7 @@ If you prefer, you may use the `EmulationStation-DE` parser to add `EmulationSta
 
 ***
 
-## Configuration
+### Configuration
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 * Executable Location: `Emulation/tools/srm/Steam-ROM-Manager.AppImage`
@@ -77,7 +77,7 @@ Note:
 
 ***
 
-## How to Update Steam ROM Manager
+### How to Update Steam ROM Manager
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 **How to Update Steam ROM Manager**
@@ -90,7 +90,7 @@ Note:
 
 ***
 
-## How to Launch Steam ROM Manager in Desktop Mode
+### How to Launch Steam ROM Manager in Desktop Mode
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 **How to Launch Steam ROM Manager in Desktop Mode**
@@ -101,7 +101,7 @@ Note:
 
 ***
 
-## How to Reset Steam ROM Manager
+### How to Reset Steam ROM Manager
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 Sometimes after installing EmuDeck, Steam ROM Manager may not be configured correctly and you will be missing EmuDeck's pre-created parsers. Or you may have tinkered with Steam ROM Manager and want to reset it back to EmuDeck's defaults.
@@ -122,11 +122,11 @@ A backup of your original Steam ROM Manager configurations is automatically crea
 ***
 
 
-# Common Issues
+## Common Issues
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 ***
-## I hit remove all from settings, but the Entries weren't removed!
+### I hit remove all from settings, but the Entries weren't removed!
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 If you used the remove all button and entries weren't removed, but they were uncategorized:
@@ -146,7 +146,7 @@ The other option (removes all non-steam entries, regardless as to how they were 
 
 ***
 
-## Help, I just opened Steam ROM Manager and I have no controls!
+### Help, I just opened Steam ROM Manager and I have no controls!
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 When you open Steam ROM Manager, it will exit out of Steam. Since your controls are tied to Steam being open, your controls will revert to `Lizard Mode`. You can use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse.
@@ -157,7 +157,7 @@ Learn how to remotely control your Steam Deck: https://github.com/dragoonDorise/
 
 ***
 
-## Why does Steam ROM Manager have no parsers?
+### Why does Steam ROM Manager have no parsers?
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 If you recently installed EmuDeck for the first time and Steam ROM Manager is empty, that means you did not select Steam ROM Manager's configurations to be set up in the installation of EmuDeck. 
@@ -168,7 +168,7 @@ For reference, de-selecting Steam ROM Manager on this screen will prevent EmuDec
 
 **You can fix this by choosing one of the following methods:**
 
-### Method 1: Reset Steam ROM Manager
+#### Method 1: Reset Steam ROM Manager
 
 1. Open EmuDeck on your desktop
 2. Click the `Manage Emulators` button
@@ -181,14 +181,14 @@ A backup of your original Steam ROM Manager configurations is automatically crea
 
 ***
 
-### Method 2: Custom Reset
+#### Method 2: Custom Reset
 
 * Open EmuDeck on your desktop and run through a `Custom Reset`. This may be recommended over Method 1 in case you accidentally de-selected any other icons on the `Emulator Configurations` screen. Any de-selected icons on this screen **will not** be set up by EmuDeck
    * **You do not need to uninstall EmuDeck to do this method**
 
 ***
 
-## "Please shutdown Steam if it is running"
+### "Please shutdown Steam if it is running"
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 This message is a warning to confirm that you have closed Steam. EmuDeck's shortcut for Steam ROM Manager closes out of Steam for you. You may ignore this warning if you are opening through the applications launcher in the bottom left of the taskbar or through the EmuDeck GUI. 
@@ -199,7 +199,7 @@ Running Steam ROM Manager external to EmuDeck's script will not exit out of Stea
 
 ***
 
-## Large ROM Collections 
+### Large ROM Collections 
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 If you have a large ROM collection, generally over 1,000 ROMs, it is recommended you use EmulationStation-DE for some of your larger sets. 
@@ -218,7 +218,7 @@ To use EmulationStation-DE, it is recommended to turn on at least the `Emulation
 
 ***
 
-## Why Are My Games Not Showing Up in Steam ROM Manager?
+### Why Are My Games Not Showing Up in Steam ROM Manager?
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 Your games may not show up for a few reasons: 
@@ -234,7 +234,7 @@ the [EmuDeck Cheat Sheet](https://docs.google.com/spreadsheets/d/e/2PACX-1vQB2Br
 
 ***
 
-## Why do some of my multi-disc games not show up in Steam ROM Manager?
+### Why do some of my multi-disc games not show up in Steam ROM Manager?
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 Primarily with the Playstation 2 parser, turning on `Remove (...) and [...] brackets` will trim the ROM name and cause Steam ROM Manager to deem multiple discs of the same game as the same file. When you generate an app list, only one of your discs will show up. 
@@ -251,7 +251,7 @@ To fix this, do one of the following solutions:
 
 ***
 
-## Unexpected end of JSON input
+### Unexpected end of JSON input
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 If you receive an error while trying to save the App List that is similar to this:
@@ -262,7 +262,7 @@ You will need to delete the file by opening the path in the error message. After
 
 ***
 
-## Error occurred while loading configuration presets
+### Error occurred while loading configuration presets
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 If you see: `Error occurred while loading configuration presets` in the bottom right when you open Steam ROM Manager, you will need to update your presets.
@@ -276,22 +276,22 @@ If you see: `Error occurred while loading configuration presets` in the bottom r
   
 ***
 
-## A JavaScript error occurred in the main process
+### A JavaScript error occurred in the main process
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 If you see a pop-up with the message: `A JavaScript error occurred in the main process` when you open Steam ROM Manager, you may click `Ok` to proceed. This error does not mean there is anything wrong with your configurations. 
 
 ***
 
-# Steam ROM Manager Tips and Tricks
+## Steam ROM Manager Tips and Tricks
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 ***
 
-## How to Generate and Save an App List
+### How to Generate and Save an App List
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
-### Preface
+#### Preface
 
 Generating and saving an App List is how you add your ROMs to your Steam library. It's generally recommended that you turn on at least the `Emulators` parser and the `EmulationStation-DE` parser. 
 
@@ -301,7 +301,7 @@ Here's a quick rundown:
 * The `EmulationStation-DE` parser adds EmulationStation-DE as a shortcut to Steam. 
    * EmulationStation-DE allows you to launch and play all of your ROMs from a single front-end. It can be either used as an alternative or combined with Steam ROM Manager. For further reading, refer to https://github.com/dragoonDorise/EmuDeck/wiki/EmulationStation-DE. 
 
-### Tutorial
+#### Tutorial
 
 1. Open `Steam ROM Manager`
    1. Read: [How to Launch Steam ROM Manager in Desktop Mode](#how-to-launch-steam-rom-manager-in-desktop-mode)
@@ -326,10 +326,10 @@ https://user-images.githubusercontent.com/108900299/233528935-21e97c15-d740-44d7
 
 ***
 
-## How to Fix a Mismatched Entry
+### How to Fix a Mismatched Entry
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
-### Preface
+#### Preface
 
 When you generate an app list in Steam ROM Manager, your ROMs are matched to an existing entry on [SteamGridDB](https://www.steamgriddb.com/). If your ROM does not have a SteamGridDB entry, you can request a page by following the instructions here: https://www.steamgriddb.com/faq. Make sure to upload art to your newly created SteamGridDB page. 
 
@@ -337,7 +337,7 @@ Sometimes, when you generate your app list in Steam ROM Manager, your ROM does n
 
 ***
 
-### Step One: Correct the File Name
+#### Step One: Correct the File Name
 
 First, check https://www.steamgriddb.com/ to see if your game has an entry. If it is missing, create one by following the instructions here: https://www.steamgriddb.com/faq. If it exists, make sure your ROM file name matches the SteamGridDB entry as closely as possible. 
 
@@ -347,13 +347,13 @@ If your ROM is still not matching correctly, proceed to `Step Two: Create An Exc
 
 ***
 
-### Step Two: Create An Exception in Steam ROM Manager
+#### Step Two: Create An Exception in Steam ROM Manager
 
 **Select one of the methods below**
 
 ***
 
-### Method 1: Use the "Fix Match" button
+#### Method 1: Use the "Fix Match" button
 
 1. Generate an app list
 2. Hover over the incorrectly matching ROM
@@ -372,7 +372,7 @@ https://user-images.githubusercontent.com/108900299/233472691-3d05fc7b-6b3b-4a88
 
 ***
 
-### Method 2: Use the Exceptions Manager
+#### Method 2: Use the Exceptions Manager
 
 If correcting the file name does not work, you can create an exception in Steam ROM Manager. On the left side of the Steam ROM Manager GUI, click the `Exceptions` button. On the right of this menu, you can add an exception. Use the following format:
 
@@ -399,7 +399,7 @@ https://user-images.githubusercontent.com/108900299/226779286-d0c224fd-ee14-423c
 
 ***
 
-## How to Hide an Entry in Steam ROM Manager
+### How to Hide an Entry in Steam ROM Manager
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 Steam ROM Manager comes with a powerful exceptions manager which allows you to hide entries from your app list and prevents these entries from being added to Steam as non-Steam games. 
@@ -423,7 +423,7 @@ Select one of the following methods to hide an entry in Steam ROM Manager
 
 ***
 
-### Method 1: Use the "Exclude Apps" button 
+#### Method 1: Use the "Exclude Apps" button 
 
 1. Generate an app list
 2. In the bottom right, click `Exclude Apps`
@@ -444,7 +444,7 @@ https://user-images.githubusercontent.com/108900299/233472632-3999aa3f-cc70-4891
 
 ***
 
-### Method 2: Use the Exceptions Manager
+#### Method 2: Use the Exceptions Manager
 
 On the left side of the Steam ROM Manager GUI, click the `Exceptions` button. On the right of this menu, you can add an exception. Use the following format:
 
@@ -469,7 +469,7 @@ https://user-images.githubusercontent.com/108900299/233476918-bf316a88-db0d-4ded
 
 ***
 
-## How to Manage ROMs with Multiple Discs
+### How to Manage ROMs with Multiple Discs
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 If you are using ROMs with multiple discs, it is recommended to create an M3U file and treat this newly created M3U file as the game. To learn more about M3U files, read [How to Manage ROMs with Multiple Discs](https://github.com/dragoonDorise/EmuDeck/wiki/file-management#how-to-manage-roms-with-multiple-discs). 
@@ -496,7 +496,7 @@ However, your M3U file and disc files will parse as separate entries in Steam RO
 
 ***
 
-## How to Hide ROMs on a Per Parser Basis
+### How to Hide ROMs on a Per Parser Basis
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 For systems with multiple emulators, you can use Steam ROM Manager's exception manager to select which emulator you would like to use for specific ROMs.
@@ -525,14 +525,14 @@ For example, If you would like to only run `Mario + Rabbids Kingdom Battle` thro
 ***
 
 
-## How to Remove All Shortcuts From Your Steam Library
+### How to Remove All Shortcuts From Your Steam Library
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
-### Preface
+#### Preface
 
 This setting removes all of your ROMs from your Steam library. It does not remove the ROM files. It is a way to clean up, debug, or reduce the amount of ROMs you have in your Steam library.
 
-### Tutorial
+#### Tutorial
 
 1. Open Steam ROM Manager
 2. Click `Settings` on the left
@@ -544,7 +544,7 @@ This setting removes all of your ROMs from your Steam library. It does not remov
 
 ***
 
-## How to Customize Artwork for your ROMs
+### How to Customize Artwork for your ROMs
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 After generating an app list: #how-to-generate-and-save-an-app-list, click `Select Type` in the top right and select which type of artwork you would like to choose for your ROM
@@ -566,7 +566,7 @@ Visual Reference:  <img src="https://user-images.githubusercontent.com/108900299
 
 ***
 
-## How to Change Themes
+### How to Change Themes
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 Depending on which theme you are using, the `Settings` button may be located in a different place. For the `Deck` and `Classic` theme, the `Settings` button is located in the top left. For the `EmuDeck` theme, the settings button is located in the bottom right.
@@ -599,7 +599,7 @@ Depending on which theme you are using, the `Settings` button may be located in 
 
 ***
 
-## How to Backup Your Image Choices
+### How to Backup Your Image Choices
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 A recent Steam ROM Manager update features a new easy import/export feature to backup your image choices. 
@@ -611,7 +611,7 @@ Common use cases may include:
 
 **Here's How**
 
-### Exporting
+#### Exporting
 
 1. Generate an app list
 2. Click `Export image choices`
@@ -621,7 +621,7 @@ Common use cases may include:
 5. Backup or transfer this folder
 
 
-### Importing
+#### Importing
 
 1. Generate an app list
 2. Click `Import image choices`

@@ -58,7 +58,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show hidden files` to see these folders.  
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 

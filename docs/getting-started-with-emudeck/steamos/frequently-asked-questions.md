@@ -1,13 +1,13 @@
 # Frequently Asked Questions
 
-# Frequently Asked Questions: Table of Contents
+## Frequently Asked Questions: Table of Contents
 
 1. [Getting Started with the EmuDeck Basics](#getting-started-with-the-emudeck-basics)
    - [What Does EmuDeck install?](#what-does-emudeck-install)
    - [Where Does EmuDeck install?](#where-does-emudeck-install)
    - [How are the various emulators and tools installed or downloaded?](#how-are-the-various-emulators-and-tools-installed-or-downloaded)
    - [How do I open the various emulators and tools in Desktop Mode?](#how-do-i-open-the-various-emulators-and-tools-in-desktop-mode)
-   - [Why won't EmuDeck download?](#why-wont-emudeck-download)
+   - [Why is EmuDeck not downloading?](#why-is-emudeck-not-downloading)
    - [Where do I get ROMs?](#where-do-i-get-roms)
    - [Where do I get BIOS files?](#where-do-i-get-bios-files)
    - [Which emulators require BIOS files or firmware?](#which-emulators-require-bios-files-or-firmware)
@@ -56,7 +56,7 @@
 
 ***
 
-# Getting Started with the EmuDeck Basics
+## Getting Started with the EmuDeck Basics
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 [EmuDeck](https://www.emudeck.com/) is a collection of scripts that allows you to autoconfigure your Steam Deck for emulation, it creates your ROMs directory structure and downloads all of the needed emulators for you along with optimized configurations.
@@ -79,10 +79,10 @@ Don't forget to join the [EmuDeck Discord!](https://discord.gg/b9F7GpXtFP)
 
 ***
 
-## What Does EmuDeck Install?
+### What Does EmuDeck Install?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-### List of Projects installed by EmuDeck
+#### List of Projects installed by EmuDeck
 
 * [Decky Loader (Plugin Launcher)](https://github.com/SteamDeckHomebrew/decky-loader) *Optional
 * [EmulationStation-DE (Emulator Front-End)](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
@@ -90,7 +90,7 @@ Don't forget to join the [EmuDeck Discord!](https://discord.gg/b9F7GpXtFP)
 * [SteamDeckGyroDSU](https://github.com/kmicki/SteamDeckGyroDSU) *Optional
 * [Steam ROM Manager](https://github.com/SteamGridDB/steam-rom-manager)
 
-### List of Standalone Emulators installed by EmuDeck
+#### List of Standalone Emulators installed by EmuDeck
 
 * [Cemu (Wii U)](https://cemu.info/)
 * [Citra (3DS)](https://citra-emu.org/)
@@ -119,14 +119,14 @@ Refer to: https://github.com/dragoonDorise/EmuDeck/wiki/Retroarch#list-of-retroa
 
 ***
 
-## Where Does EmuDeck install?
+### Where Does EmuDeck install?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 When you install EmuDeck, EmuDeck prompts for an install location, either the SD Card or the Internal SSD. This install location contains the directory for your ROMs, BIOS, and storage files. Regardless of the location you choose, EmuDeck will install its suite of emulators and tools onto your internal SSD.
 
 ***
 
-## How are the various emulators and tools installed or downloaded?
+### How are the various emulators and tools installed or downloaded?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 The emulators and tools that come with EmuDeck come in four primary types: AppImage, Binary, Flatpak, and EXE (through Proton).
@@ -140,7 +140,7 @@ Here's a full list breaking down each type:
 
 ***
 
-### AppImage
+#### AppImage
 
 **Tools**
 
@@ -156,7 +156,7 @@ Here's a full list breaking down each type:
 
 ***
 
-### Flatpak
+#### Flatpak
 
 **Emulators**
 
@@ -175,7 +175,7 @@ Here's a full list breaking down each type:
 
 ***
 
-### EXE (Through Proton)
+#### EXE (Through Proton)
 
 **Emulators**
 
@@ -184,7 +184,7 @@ Here's a full list breaking down each type:
 
 ***
 
-### Binary
+#### Binary
 
 **Emulators**
 
@@ -193,7 +193,7 @@ Here's a full list breaking down each type:
 
 ***
 
-### Other
+#### Other
 
 **Tools**
 
@@ -203,7 +203,7 @@ Here's a full list breaking down each type:
 
 ***
 
-## How do I open the various emulators and tools in Desktop Mode?
+### How do I open the various emulators and tools in Desktop Mode?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 The emulators and tools that come with EmuDeck come in four primary types: AppImage, Binary, Flatpak, and EXE (through Proton).
@@ -217,7 +217,7 @@ Here's how to open everything in Desktop Mode:
 
 ***
 
-### Through the Applications Launcher
+#### Through the Applications Launcher
 
 In Desktop Mode, click the `Steam` icon in the bottom left, and locate your application in the list. 
 
@@ -266,7 +266,7 @@ Here's which applications can be opened this way:
 
 ***
 
-## Through opening the executable
+#### Through opening the executable
 
 **Location 1**
 
@@ -303,7 +303,7 @@ Here's which applications can be opened this way:
 
 ***
 
-### Through the Application's Shortcut
+#### Through the Application's Shortcut
 
 In Desktop Mode, open `Emulation/tools/launchers` and locate your application in this folder.
 
@@ -332,7 +332,7 @@ Here's which applications can be opened this way:
 
 ***
 
-## Why won't EmuDeck download?
+### Why is EmuDeck not downloading?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Internet issues are an increasingly common issue among Steam Decks, even if your internet works perfectly fine on other devices, or you have the latest and fastest internet. You may notice that EmuDeck isn't installing properly, or is taking a long time time to install. You may notice these same internet issues when you try to browse the internet or download a game and the internet speeds are much slower than you would expect. 
@@ -354,7 +354,7 @@ You can fix these issues by adjusting your DNS, in System Settings within Deskto
 
 ***
 
-## Where do I get ROMs?
+### Where do I get ROMs?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Legally, ROMs must be obtained from your console. Various emulator websites have guides on how to dump games. Other methods are piracy and cannot be discussed here or on the EmuDeck Discord. 
@@ -363,14 +363,14 @@ Read this Reddit thread for additional information: https://www.reddit.com/r/Ret
 
 ***
 
-## Which emulators require BIOS files or firmware?
+### Which emulators require BIOS files or firmware?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Refer to [The EmuDeck Cheat Sheet](https://github.com/dragoonDorise/EmuDeck/wiki/Cheat-Sheet) for a list of required BIOS files. 
 
 ***
 
-## What are the expected file types for the various emulators?
+### What are the expected file types for the various emulators?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Refer to [The EmuDeck Cheat Sheet](https://github.com/dragoonDorise/EmuDeck/wiki/Cheat-Sheet) for a list of the expected file types. 
@@ -379,7 +379,7 @@ Refer to [The EmuDeck Cheat Sheet](https://github.com/dragoonDorise/EmuDeck/wiki
 
 
 
-## Where do I get BIOS files?
+### Where do I get BIOS files?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 EmuDeck does not come with BIOS files, you must obtain these on your own. 
@@ -390,17 +390,17 @@ Refer to [The EmuDeck Cheat Sheet](https://github.com/dragoonDorise/EmuDeck/wiki
 
 ***
 
-## Which folders match which systems?
+### Which folders match which systems?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Refer to [The EmuDeck Cheat Sheet](https://github.com/dragoonDorise/EmuDeck/wiki/Cheat-Sheet) for a mapping of the folders and their respective systems. 
 
 ***
 
-## Where do I put my games?
+### Where do I put my games?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-### SD Card
+#### SD Card
 
 If you installed EmuDeck to your SD Card (any of the following paths work): 
 * `/run/media/SDCARDNAME/Emulation/roms` 
@@ -410,18 +410,18 @@ If you installed EmuDeck to your SD Card (any of the following paths work):
 
 ***
 
-### Internal SSD
+#### Internal SSD
 
 * `/home/deck/Emulation/roms`
 
 ***
 
-## Where do I put my BIOS files?
+### Where do I put my BIOS files?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 ***
 
-### SD Card
+#### SD Card
 
 If you installed EmuDeck to your SD Card (any of the following paths work): 
 
@@ -438,7 +438,7 @@ If you installed EmuDeck to your SD Card (any of the following paths work):
 
 ***
 
-### Internal SSD
+#### Internal SSD
 
 * `/home/deck/Emulation/bios`
 
@@ -451,7 +451,7 @@ If you installed EmuDeck to your SD Card (any of the following paths work):
 
 ***
 
-### Keep in Mind
+#### Keep in Mind
 
 Refer to [The EmuDeck Cheat Sheet](https://github.com/dragoonDorise/EmuDeck/wiki/Cheat-Sheet) for a list of required BIOS files. 
 
@@ -465,7 +465,7 @@ Refer to [The EmuDeck Cheat Sheet](https://github.com/dragoonDorise/EmuDeck/wiki
 
 ***
 
-## What are the hotkeys for the various emulators?
+### What are the hotkeys for the various emulators?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Refer to https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys for a list of hotkeys per system.
@@ -473,7 +473,7 @@ Refer to https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys for a list of hot
 
 ***
 
-## If I install EmuDeck, will it clutter my Steam library?
+### If I install EmuDeck, will it clutter my Steam library?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 No! EmuDeck is a "dumb" script that installs a suite of tools and emulators to your Steam Deck. One tool that EmuDeck installs is "Steam ROM Manager", a tool that allows you to add ROMs as non-Steam game shortcuts to your library. You are not required to use Steam ROM Manager.
@@ -490,14 +490,14 @@ After you have installed EmuDeck, you can use Steam ROM Manager and select which
 
 ***
 
-## How do I update EmuDeck and emulators?
+### How do I update EmuDeck and emulators?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/Updating for more information.
 
 ***
 
-## How do I choose which emulators to install?
+### How do I choose which emulators to install?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 You can run EmuDeck in `Custom Mode` for more granular options, including a prompt that allows you to select which emulators you would like to install.
@@ -507,16 +507,16 @@ You can run EmuDeck in `Custom Mode` for more granular options, including a prom
 
 ***
 
-## How do I remotely control my Steam Deck?
+### How do I remotely control my Steam Deck?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-### Method 1: Anydesk 
+#### Method 1: Anydesk 
 
 In desktop mode, click the start menu, open Discover (an included flatpak store), and install Anydesk. On your other device, install Anydesk: https://anydesk.com/en. 
 
 ***
 
-### Method 2: Steam Link
+#### Method 2: Steam Link
 
 On your other device, install Steam Link: https://store.steampowered.com/remoteplay#anywhere. You do not need to install any additional software on your Steam Deck. You should be able to connect as long as Steam is open on the Steam Deck. As a bonus, you should also be able to connect while the Steam Deck is in Game Mode.
 
@@ -524,20 +524,20 @@ On your other device, install Steam Link: https://store.steampowered.com/remotep
 
 ***
 
-### Method 3: Barrier
+#### Method 3: Barrier
 
 In desktop mode, click the start menu, open Discover (an included flatpak store), and install Barrier. On your other device, install Barrier: https://github.com/debauchee/barrier. 
 
 ***
 
-## How do I transfer files to my Steam Deck?
+### How do I transfer files to my Steam Deck?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-### Preface
+#### Preface
 
 By default, Steam Deck formats your SD card in ext4 format, which is not readable on Windows without additional tinkering. Use one of the following methods to transfer files to your Steam Deck.
 
-### List of File Transfer Methods
+#### List of File Transfer Methods
 
 - [Method 1: SSH](#method-1-ssh)
    - [Tutorial 1: Text](#tutorial-1-text)
@@ -549,7 +549,7 @@ By default, Steam Deck formats your SD card in ext4 format, which is not readabl
 
 ***
 
-### Method 1: SSH
+##### Method 1: SSH
 [Back to the Top](#list-of-file-transfer-methods)
 
 Select **one** of the two tutorials below:
@@ -561,10 +561,10 @@ Although the below guide may look lengthy, SSH is a quick and easy process to se
 
 ***
 
-### Tutorial 1: Text
+##### Tutorial 1: Text
 [Back to the Top](#list-of-file-transfer-methods)
 
-#### Part 1 of 2: On the Steam Deck
+###### Part 1 of 2: On the Steam Deck
 
 1. Open `Konsole`
 2. In Konsole, type  `passwd` and follow the prompts to set a password for the account
@@ -574,7 +574,7 @@ Although the below guide may look lengthy, SSH is a quick and easy process to se
 
 ***
 
-#### Part 2 of 2: On the Non-Steam Deck PC
+###### Part 2 of 2: On the Non-Steam Deck PC
 
 Install Filezilla or WinSCP on your computer. No additional program is needed on the Steam Deck. 
 
@@ -592,7 +592,7 @@ Select **one** of the two and follow the respective guide below.
 
 ***
 
-#### Option 1: How to Use Filezilla 
+###### Option 1: How to Use Filezilla 
 
 1. Install FileZilla: https://filezilla-project.org/ on your non-Steam Deck PC
    * No additional program is needed on the Steam Deck
@@ -613,7 +613,7 @@ Select **one** of the two and follow the respective guide below.
 
 ***
 
-#### Option 2: How to Use WinSCP  
+###### Option 2: How to Use WinSCP  
 
 1. Install WINSCP: https://winscp.net/eng/index.php on your non-Steam Deck PC
    * No additional program is needed on the Steam Deck
@@ -635,7 +635,7 @@ Select **one** of the two and follow the respective guide below.
 
 ***
 
-### Post File Transfer
+###### Post File Transfer
 
 After you are finished setting up SSH and you have transferred your files, you may want to consider disabling SSH.
 
@@ -646,14 +646,14 @@ Select **one** of the two and follow the respective section below.
 * [Option 1: Terminal Command](#option-1-terminal-command)
 * [Option 2: Decky Loader Plugin](#option-2-decky-loader-plugin)
 
-#### Option 1: Terminal Command
+###### Option 1: Terminal Command
 
 1. In Desktop Mode, enter the below command in Konsole to disable SSH 
    * `sudo systemctl disable --now sshd`
 2. To re-enable SSH, enter the below command in Konsole
    * `sudo systemctl enable --now sshd`
 
-#### Option 2: Decky Loader Plugin
+###### Option 2: Decky Loader Plugin
 
 Skip Steps 1-4 if you have already installed Decky Loader
 
@@ -670,14 +670,14 @@ Skip Steps 1-4 if you have already installed Decky Loader
 
 ***
 
-### Tutorial 2: Video
+#### Tutorial 2: Video
 [Back to the Top](#list-of-file-transfer-methods)
 
 Watch: https://www.youtube.com/watch?v=F790rBfyAQM
 
 ***
 
-### Method 2: DeckMTP
+#### Method 2: DeckMTP
 [Back to the Top](#list-of-file-transfer-methods)
 
 **Preface**
@@ -692,7 +692,7 @@ DeckMTP is a Decky Loader plugin that allows the Steam Deck to be detected as a 
 
 ***
 
-#### How to Install DeckMTP
+##### How to Install DeckMTP
 
 1. Boot to desktop mode and open `Konsole`
 2. In Konsole, type  `passwd` and follow the prompts to set a password for the account
@@ -712,7 +712,7 @@ DeckMTP is a Decky Loader plugin that allows the Steam Deck to be detected as a 
 
 ***
 
-#### How to Set up DeckMTP
+##### How to Set up DeckMTP
 
 DeckMTP requires enabling DRD. 
 
@@ -730,17 +730,17 @@ For a Youtube Video, watch: https://www.youtube.com/watch?v=4GcbEWl12Uc
 
 ***
 
-### Method 3: Removable Storage Device
+#### Method 3: Removable Storage Device
 [Back to the Top](#list-of-file-transfer-methods)
 
 Use a flash drive or a removable storage device that can be read on both Windows and Linux. You may need either a USB C adapter or a USB C Hub. 
 
 ***
 
-### Method 4: AnyDesk
+#### Method 4: AnyDesk
 [Back to the Top](#list-of-file-transfer-methods)
 
-#### On the Steam Deck
+##### On the Steam Deck
 
 1. Install Anydesk from Discover (Shopping Bag icon) in desktop mode
 2. Install Flatseal from Discover (Shopping Bag icon) in desktop mode
@@ -749,26 +749,26 @@ Use a flash drive or a removable storage device that can be read on both Windows
 5. Under `Filesystem`, toggle `All system files, filesystem=host`
    * <img src="https://user-images.githubusercontent.com/108900299/211130727-6ccad2e8-2092-4d7c-a83d-2ecdc97555d1.png" height="300">
 
-#### On the Non-Steam Deck PC
+##### On the Non-Steam Deck PC
 
 1. Install AnyDesk on your other PC from the website: https://anydesk.com/ 
 2. Connect to your Steam Deck
 3. Use AnyDesk's file transfer feature to transfer files between your Steam Deck and non Steam Deck PC
 
-#### How to use AnyDesk to Transfer Files
+##### How to use AnyDesk to Transfer Files
 
 1. Connect to your Steam Deck
 2. Click the box with a right arrow at the top
    * <img src="https://user-images.githubusercontent.com/108900299/221331901-c8699d5d-18c0-40aa-9f28-1b14db691052.png" height="300">
 3. Your non-Steam Deck PC will be on the left side of the screen, your Steam Deck will be on the right side of the screen, right click files on either side to `Upload` or `Download` to the respective devices
 
-#### Tips
+##### Tips
 
 * Your SD Card path is `/run/media/...`. To navigate to your SD Card, click the `..` dots at the top until you are in the `/` directory. You will see the `run` folder, you can navigate to the remaining folders from here
 
 ***
 
-### Method 5: SMB Shares
+#### Method 5: SMB Shares
 [Back to the Top](#list-of-file-transfer-methods)
 
 Pick a tutorial: 
@@ -779,10 +779,10 @@ Pick a tutorial:
 
 ***
 
-## How do I transfer my initial install of EmuDeck to my SD Card and Vice Versa?
+### How do I transfer my initial install of EmuDeck to my SD Card and Vice Versa?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-### Preface
+#### Preface
 
 When you install EmuDeck, EmuDeck prompts for an install location, either the SD Card or the Internal SSD. This install location contains the directory for your ROMs, BIOS, and storage files. Regardless of the location you choose, EmuDeck will install its suite of emulators and tools onto your internal SSD. 
 
@@ -792,7 +792,7 @@ However, you may decide to buy an SD Card and want to move that install location
 
 ***
 
-### Transferring from the Internal SSD to SD Card
+#### Transferring from the Internal SSD to SD Card
 
 _Note: If you haven't already, format your SD card in game mode._
 1. Switch to Desktop Mode.
@@ -818,7 +818,7 @@ _Note: If you haven't already, format your SD card in game mode._
 
 ***
 
-### Transferring from SD Card to the Internal SSD
+#### Transferring from SD Card to the Internal SSD
 
 1. Switch to desktop mode.
 2. Open the SD card, right click the `Emulation` folder, click cut. 
@@ -843,10 +843,10 @@ _Note: If you haven't already, format your SD card in game mode._
 
 ***
 
-## How do I change the Steam Input Controller Profile?
+### How do I change the Steam Input Controller Profile?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-### Preface 
+#### Preface 
 
 EmuDeck comes with a few Steam Input profiles to make hotkeys easier to use in a few emulators. If an emulator does not have a Steam Input Profile, make sure you're on `Gamepad with Joystick Trackpad`, otherwise some controls may not work.
 
@@ -862,7 +862,7 @@ EmuDeck comes with Steam Input Profiles for the following emulators:
 * PPSSPP
 * RMG
 
-### Changing Steam Input Profiles
+#### Changing Steam Input Profiles
 
 In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whatever name it is currently set to) at the top, and you will see a drop-down menu. When playing a PSX, 3DS, or Wii U Game, switch to the respective Steam Input Profile.
 
@@ -873,10 +873,10 @@ For a visual, watch the following GIF (DuckStation is being used as an example):
 
 ***
 
-## How to Verify ROMs
+### How to Verify ROMs
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-### How to Verify a ROM Successfully Transferred 
+#### How to Verify a ROM Successfully Transferred 
 
 Sometimes, data loss or corruption can occur when you transfer ROMs to your Steam Deck. You can verify that the ROM successfully transferred by checking its MD5 Checksum. An MD5 Checksum is a 32-character hexadecimal number that is computed on a file. If the MD5 checksum on both the file on the Steam Deck and the original PC is an exact match, the file transferred successfully. If they do not match, the file is potentially corrupt. You will need to correct or adjust how you transfer files. 
 
@@ -900,7 +900,7 @@ Sometimes, data loss or corruption can occur when you transfer ROMs to your Stea
 * **Mac:** https://ss64.com/osx/md5.html
 * **Linux (Command-line):** https://man7.org/linux/man-pages/man1/md5sum.1.html
 
-### How to Verify a ROM is Valid
+#### How to Verify a ROM is Valid
 
 For one reason or another, your ROM may be corrupt and may not work properly. One way to confirm that you have a valid ROM is by comparing it to the ROM page on [redump.org](http://redump.org). Redump is an internet community "dedicated to collecting precise and accurate information about every video game ever released". You can validate your ROM by comparing its MD5 Checksum, a 32-character hexadecimal number that is computed on a file, to the MD5 Checksum on [redump.org](redump.org). 
 
@@ -931,7 +931,7 @@ For one reason or another, your ROM may be corrupt and may not work properly. On
 
 ***
 
-## Why is my emulator or game muted?
+### Why is my emulator or game muted?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 There is no one known reason why an emulator or ROM (run through an emulator) can accidentally be muted. However, the fix is simple.
@@ -952,14 +952,14 @@ There is no one known reason why an emulator or ROM (run through an emulator) ca
 
 ***
 
-## For systems with multiple emulators, how do I select which emulator to use?
+### For systems with multiple emulators, how do I select which emulator to use?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-### Steam ROM Manager
+#### Steam ROM Manager
 
 These systems will have multiple parsers, each corresponding to a different emulator or RetroArch core. For example: PSX can be played through DuckStation (Standalone), SwanStation, or Beetle PSX. If you prefer to use DuckStation (Standalone) for PSX, enable the Sony PlayStation - DuckStation parser and make sure the SwanStation and Beetle PSX parsers are disabled
 
-### EmulationStation-DE
+#### EmulationStation-DE
 
 These systems will have a set default. However, you can change which emulator or RetroArch core is used:
 
@@ -971,12 +971,12 @@ These systems will have a set default. However, you can change which emulator or
 
 ***
 
-# EmuDeck Tips and Tricks
+## EmuDeck Tips and Tricks
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 *** 
 
-## How do I find .var, .config, or any folder with a period in front?
+### How do I find .var, .config, or any folder with a period in front?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 **Tutorial**
@@ -992,7 +992,7 @@ These systems will have a set default. However, you can change which emulator or
 
 ***
 
-## How do I reset an emulator's configurations?
+### How do I reset an emulator's configurations?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Sometimes after installing EmuDeck, you may notice an emulator's configurations were not set properly or you tweaked something on accident and you do not remember the default settings. In the latest update of EmuDeck, there is a `Guides` section that allows you to pick which emulator you would like to reset. 
@@ -1010,7 +1010,7 @@ You can reset an emulator's configurations in the `Emulator Guides` page.
 
 ***
 
-## How do I navigate to my SD Card through an emulator's menu?
+### How do I navigate to my SD Card through an emulator's menu?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 For some emulators, you may need to navigate to your SD Card to install updates/DLC or locate a file of some sort for the emulator. On Linux, your SD card is a file path, so navigating there through the menu will look different. 
@@ -1045,7 +1045,7 @@ Visual Reference (RPCS3):
 
 ***
 
-## Why are my emulators stuttering? How do I improve emulator performance?
+### Why are my emulators stuttering? How do I improve emulator performance?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 There may be a number of reasons for this, but your first debugging tool should be to ensure that both the frame limiter and the refresh rate are off. Consider turning off half rate shading if you had it previously on. Half rate shading may cause visual glitches as well. 
@@ -1056,7 +1056,7 @@ To find these options, press the QAM ("..." button), press the battery icon, pre
 
 ***
 
-## Does EmuDeck have a community games database?
+### Does EmuDeck have a community games database?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Yes!
@@ -1069,17 +1069,17 @@ You can view the community database here: https://docs.google.com/spreadsheets/d
 
 ***
 
-## How do I install Power Tools and Deckyloader?
+### How do I install Power Tools and Deckyloader?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to both install Power Tools and optimize performance using Power Tools. 
 
 ***
 
-## How do I install SteamDeckGyroDSU?
+### How do I install SteamDeckGyroDSU?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-### Preface
+#### Preface
 SteamDeckGyroDSU is a tool that allows some emulators to use Steam Deck's motion control/gyro. 
 
 SteamDeckGyroDSU's website: https://github.com/kmicki/SteamDeckGyroDSU
@@ -1097,14 +1097,14 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#stea
 
 ***
 
-## How do I manage ROMs with multiple discs?
+### How do I manage ROMs with multiple discs?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 * Refer to https://github.com/dragoonDorise/EmuDeck/wiki/File-Management#how-to-manage-roms-with-multiple-discs 
 
 ***
 
-## How do I link folders or files?
+### How do I link folders or files?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Use symlinks! 
@@ -1113,12 +1113,12 @@ Use symlinks!
 
 ***
 
-# Steam ROM Manager FAQ
+### Steam ROM Manager FAQ
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 ***
 
-## Where Did Steam ROM Manager Go?
+#### Where Did Steam ROM Manager Go?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 The latest EmuDeck update removed all of its shortcuts from your desktop except for EmuDeck itself. These shortcuts included: Steam ROM Manager, an Emulator Updater, and an uninstaller.
@@ -1129,7 +1129,7 @@ In addition to the above, you will also find Steam ROM Manager as a shortcut in 
 
 ***
 
-## Help, I just opened Steam ROM Manager and I have no controls!
+#### Help, I just opened Steam ROM Manager and I have no controls!
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 When you open Steam ROM Manager, it will exit out of Steam. Since your controls are tied to Steam being open, your controls will revert to `Lizard Mode`. You can use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse.
@@ -1140,7 +1140,7 @@ Learn how to remotely control your Steam Deck: #how-do-i-remotely-control-my-ste
 
 ***
 
-## How do I use DeckyControls?
+### How do I use DeckyControls?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 DeckyControls is a plugin for Decky Loader, which allows you to view EmuDeck's hotkeys in Game Mode. 
@@ -1165,7 +1165,7 @@ After installing `DeckyControls`, restart your Steam Deck (Returning to Game Mod
 
 ***
 
-# Common Words and Acronyms
+## Common Words and Acronyms
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 **Common Words**
@@ -1207,25 +1207,25 @@ After installing `DeckyControls`, restart your Steam Deck (Returning to Game Mod
 
 ***
 
-# How to Debug
+## How to Debug
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 ***
 
-## Understanding What You Are Using
+### Understanding What You Are Using
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-### EmuDeck
+#### EmuDeck
 
 EmuDeck is the installer. It installs "stuff" for you, including emulators, EmulationStation-DE, Steam ROM Manager, and a few other tools. 
 
-### Front-Ends
+#### Front-Ends
 
 EmulationStation-DE and Steam are the two primary front-ends that you can use to launch your ROMs. Steam ROM Manager adds your ROMs to Steam, or you can launch your ROMs entirely from EmulationStation-DE. EmulationStation-DE and the shortcuts created by Steam ROM Manager in Steam are not typically directly related to the settings configured in the emulators. 
 
 For example, if you are running a Gamecube game through a shortcut created by Steam ROM Manager or EmulationStation-DE, you are still using the Dolphin emulator to run that Gamecube game. You are not running the Gamecube game through Steam, EmulationStation-DE, or EmuDeck. Steam (through Steam ROM Manager created shortcuts) and EmulationStation-DE are two front-ends that launch your game for you, but, have little to no relation to the actual execution of the game. That is all dependent on the emulator being launched by these two front-ends.
 
-### Emulators
+#### Emulators
 
 Using a front-end like Steam shortcuts created by Steam ROM Manager or EmulationStation-DE means you are launching an emulator. If you have issues while in game, typically you want to debug what is going on with the emulator.
 
@@ -1233,7 +1233,7 @@ For a full list of emulators installed by EmuDeck and their associated websites:
 
 Let's run through a few examples.
 
-### Examples
+#### Examples
 
 **Debugging Using Incomplete Information**
 
@@ -1257,14 +1257,14 @@ Let's run through a few examples.
 
 ***
 
-## Debugging Using Steam Shortcuts
+### Debugging Using Steam Shortcuts
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Testing shortcuts created by Steam ROM Manager in a terminal can provide you with output information. This information may be valuable in debugging specifically what's wrong with your ROM, in the case of corruption/file error, or some sort of setting gone awry in the emulator. 
 
 ***
 
-### Retrieving the Steam Shortcut
+#### Retrieving the Steam Shortcut
 
 1. In `Desktop Mode`, open `Steam`
 2. Select the game you are debugging
@@ -1281,17 +1281,17 @@ Testing shortcuts created by Steam ROM Manager in a terminal can provide you wit
    * If you are receving support through EmuDeck's Discord or Subreddit, take a photo of the shortcut in `Kate`, using your phone or however you usually take photos and share it with the person providing you support
    * If you are debugging on your own: https://github.com/dragoonDorise/EmuDeck/wiki/Frequently-Asked-Questions/#if-you-are-debugging-on-your-own
 
-### Using the Steam Shortcut
+#### Using the Steam Shortcut
 
 Pick one of the below:
 
-#### If You Are Receiving Support through EmuDeck's Discord or Subreddit
+##### If You Are Receiving Support through EmuDeck's Discord or Subreddit
 
 1. Take a photo of the shortcut in `Kate`, using your phone or however you usually take photos
    - You can zoom in to make it easier to read
 2.  Share it with the person providing you support
 
-#### If You Are Debugging On Your Own
+##### If You Are Debugging On Your Own
 
 1. Paste the command into `Konsole`  
    - If you are using RetroArch, add a `-v` before the `-L` in the shortcut
@@ -1303,7 +1303,7 @@ Pick one of the below:
 
 ***
 
-## Debugging by Resetting Configurations
+### Debugging by Resetting Configurations
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 A valuable part of the EmuDeck application is a feature to reset emulators and Steam ROM Manager to EmuDeck's defaults. Resetting will revert global configurations but keep any configurations made on a per-game level. Uninstalling EmuDeck is almost never required to debug. 
@@ -1322,22 +1322,22 @@ To reset an emulator's configurations, switch to Desktop Mode, open EmuDeck and 
 
 ***
 
-## Debugging Through the EmuDeck Log
+### Debugging Through the EmuDeck Log
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 The EmuDeck log can contain valuable information about why a certain EmuDeck feature is not working as expected. If you are receiving support through EmuDeck's Discord or Subreddit, you may be asked to share the log so the other individual can read it and figure out what is wrong. This section will go over how to both retrieve and share the log file.
 
 ***
 
-### How to get the EmuDeck Log
+#### How to get the EmuDeck Log
 
-#### Method 1
+##### Method 1
 
 1. In `Desktop Mode`, open the EmuDeck application
 2. Click `Fetch Log File`
 3. Share the URL with the person providing you support 
 
-#### Method 2
+##### Method 2
 
 1. Open `/home/deck/emudeck`
 2. Right click `emudeck.log`, click `Share --> Pastebin...`
@@ -1348,7 +1348,7 @@ The EmuDeck log can contain valuable information about why a certain EmuDeck fea
 
 ***
 
-### How to get the EmuDeck AppImage Log
+#### How to get the EmuDeck AppImage Log
 
 1. Open `/home/deck/emudeck`
 2. Right click `EmuDeck.AppImage.log`, click `Share --> Pastebin...`

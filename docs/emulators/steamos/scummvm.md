@@ -10,7 +10,7 @@ ScummVM's Wiki: https://docs.scummvm.org/en/v2.6.0
 
 ***
 
-# ScummVM Table of Contents
+## ScummVM Table of Contents
 
 1. [Getting Started with ScummVM](#getting-started-with-scummvm)
    - [Configuration](#configuration)
@@ -24,7 +24,7 @@ ScummVM's Wiki: https://docs.scummvm.org/en/v2.6.0
 
 ***
 
-# Getting Started with ScummVM
+## Getting Started with ScummVM
 [Back to the Top](#scummvm-table-of-contents)
 
 ScummVM is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation/roms/scummvm`. Read the [Configuration](#configuration) section to learn more about ScummVM and its folder locations. 
@@ -39,7 +39,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Configuration
+### Configuration
 [Back to the Top](#scummvm-table-of-contents)
 
 * Type of Emulator: Flatpak
@@ -50,14 +50,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-### Works With
+#### Works With
 * Steam ROM Manager: [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
 * EmulationStation-DE: [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)
 
 
 ***
 
-## File Formats
+### File Formats
 [Back to the Top](#scummvm-table-of-contents)
 
 **It varies.**
@@ -66,7 +66,7 @@ Refer to https://docs.scummvm.org/en/latest/use_scummvm/game_files.html and http
 
 ***
 
-## How to Update ScummVM
+### How to Update ScummVM
 [Back to the Top](#scummvm-table-of-contents)
 
 **How to Update ScummVM**
@@ -77,7 +77,7 @@ Refer to https://docs.scummvm.org/en/latest/use_scummvm/game_files.html and http
 
 ***
 
-## How to Launch ScummVM in Desktop Mode
+### How to Launch ScummVM in Desktop Mode
 [Back to the Top](#scummvm-table-of-contents)
 
 **How to Launch ScummVM in Desktop Mode**
@@ -90,12 +90,12 @@ Refer to https://docs.scummvm.org/en/latest/use_scummvm/game_files.html and http
 
 ***
 
-# ScummVM Tips and Tricks
+## ScummVM Tips and Tricks
 [Back to the Top](#scummvm-table-of-contents)
 
 ***
 
-## How to Configure ScummVM to Work With Steam ROM Manager
+### How to Configure ScummVM to Work With Steam ROM Manager
 [Back to the Top](#scummvm-table-of-contents)
 
 **Tutorial:**
@@ -114,7 +114,7 @@ Example: <img src="https://user-images.githubusercontent.com/108900299/214456141
 
 ***
  
-## How to Configure ScummVM to Work With EmulationStation-DE
+### How to Configure ScummVM to Work With EmulationStation-DE
 [Back to the Top](#scummvm-table-of-contents)
 
 For EmulationStation-DE, once you place a compatible ScummVM game in `Emulation/roms/scummvm`, you need to both create a .scummvm file matching the game's short name and rename the game folder to match that .scummvm file. 

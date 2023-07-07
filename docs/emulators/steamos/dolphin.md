@@ -11,7 +11,7 @@ Updating this Emulator:
 
 ***
 
-# Dolphin Table of Contents
+## Dolphin Table of Contents
 
 1. [Getting Started with Dolphin](#getting-started-with-dolphin)
    - [Configuration](#dolphin-configuration)
@@ -38,7 +38,7 @@ Updating this Emulator:
 
 ***
 
-# Getting Started with Dolphin
+## Getting Started with Dolphin
 [Back to the Top](#dolphin-table-of-contents)
 
 Dolphin is a fairly straight-forward emulator to set up. Place your Wii ROMs in `Emulation/roms/wii` and your `Gamecube` ROMs in either `Emulation/roms/gc` or `Emulation/roms/gamecube`. No additional setup is required. Read the [Configuration](#dolphin-configuration) section to learn more about Dolphin and its folder locations. 
@@ -51,7 +51,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Dolphin Configuration
+### Dolphin Configuration
 [Back to the Top](#dolphin-table-of-contents)
 
 * Type of Emulator: Flatpak
@@ -88,13 +88,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.  
 
-### Works With
+#### Works With
 * Steam ROM Manager
 * EmulationStation-DE
 
 ***
 
-## How to Update Dolphin
+### How to Update Dolphin
 [Back to the Top](#dolphin-table-of-contents)
 
 **How to Update Dolphin**
@@ -104,7 +104,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## How to Launch Dolphin in Desktop Mode
+### How to Launch Dolphin in Desktop Mode
 [Back to the Top](#dolphin-table-of-contents)
 
 **How to Launch Dolphin in Desktop Mode**
@@ -117,7 +117,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Dolphin File Formats
+### Dolphin File Formats
 [Back to the Top](#dolphin-table-of-contents)
 
 * .ciso 
@@ -135,7 +135,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-## Dolphin Hotkeys
+### Dolphin Hotkeys
 [Back to the Top](#dolphin-table-of-contents)
 
 **Important Note:** Dolphin does not have a way of opening the menu if you are launching the game directly. It is recommended that you change any settings in the Dolphin UI itself before launching a game. 
@@ -184,13 +184,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-# Dolphin Tips and Tricks
+## Dolphin Tips and Tricks
 [Back to the Top](#dolphin-table-of-contents)
 
 
 ***
 
-## How to Configure Gyro
+### How to Configure Gyro
 [Back to the Top](#dolphin-table-of-contents)
 
 Gyro for Dolphin requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
@@ -204,14 +204,14 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#stea
 
 ***
 
-## How to Optimize Performance (Power Tools)
+### How to Optimize Performance (Power Tools)
 [Back to the Top](#dolphin-table-of-contents)
 
 Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
 
 ***
 
-## How to Optimize Storage (Compression Tool)
+### How to Optimize Storage (Compression Tool)
 [Back to the Top](#dolphin-table-of-contents)
 
 To optimize storage, you can use the `EmuDeck Compressor` within EmuDeck.  
@@ -224,7 +224,7 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 ***
 
-## How to Manage Multiple Discs
+### How to Manage Multiple Discs
 [Back to the Top](#dolphin-table-of-contents)
 
 M3U files can be used to manage multiple discs for Dolphin. With the `Change Discs Automatically` option toggled (turned on by default with EmuDeck), Dolphin will automatically switch discs in combination with an M3U file. 
@@ -234,7 +234,7 @@ Learn how to create an M3U File: https://github.com/dragoonDorise/EmuDeck/wiki/f
 
 ***
 
-## How to Configure Multiplayer
+### How to Configure Multiplayer
 [Back to the Top](#dolphin-table-of-contents)
 
 EmuDeck configures multiplayer out of the box. You do not need to configure the controls. However, to properly setup multiplayer, you will need to enable the additional ports.
@@ -250,7 +250,7 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
       1. <img src="https://user-images.githubusercontent.com/108900299/210123969-b8bd7928-ef20-4f8f-a5bf-00285f4d2e8f.png" height="300">
 
 ***
-## How To Install Custom Textures
+### How To Install Custom Textures
 [Back to the Top](#dolphin-table-of-contents)
 
 Here's how to install custom textures for Dolphin: 
@@ -276,7 +276,7 @@ For a visual, watch the following GIF:
 
 ***
 
-## How to Create Dolphin Controller Profiles
+### How to Create Dolphin Controller Profiles
 [Back to the Top](#dolphin-table-of-contents)
 
 **Preface** 
@@ -312,14 +312,14 @@ For a visual, watch the following GIF:
 
 ***
 
-## How to Share Your Dolphin Controller Profile
+### How to Share Your Dolphin Controller Profile
 [Back to the Top](#dolphin-table-of-contents)
 
 Refer to https://github.com/dragoonDorise/EmuDeck/wiki/community-creations#sharing-dolphin-profiles, for instructions and a page to collect Dolphin profiles. 
 
 ***
 
-## How to Set Dolphin Controller Profiles On a Per-Game Basis
+### How to Set Dolphin Controller Profiles On a Per-Game Basis
 [Back to the Top](#dolphin-table-of-contents)
 
 1. Choose a controller profile (use one of the following methods): 
@@ -400,7 +400,7 @@ For additional information, read Dolphin's `GameINI (Controller Settings)` Wiki 
 
 ***
 
-## How to Set Game Settings On a Per-Game Basis
+### How to Set Game Settings On a Per-Game Basis
 [Back to the Top](#dolphin-table-of-contents)
 
 1. In Desktop Mode, Open the Dolphin emulator
@@ -433,12 +433,12 @@ AspectRatio = 2
 ``` 
 
 ***
-## How to Use Riivolution Patches
+### How to Use Riivolution Patches
 [Back to the Top](#dolphin-table-of-contents)
 
 **Note:** You will need the base game of the respective Riivolution patch to apply the patch. For example, the Riivolution patch `Newer Super Mario Bros. Wii` requires a copy of the `New Super Mario Bros. Wii` ROM in `Emulation/roms/wii`. 
 
-### Riivolution Patch - Content
+#### Riivolution Patch - Content
 
 If your Riivolution patch includes additional content, follow the below steps. If not, skip to the next section. 
 
@@ -447,7 +447,7 @@ If your Riivolution patch includes additional content, follow the below steps. I
 
 **This may not apply to all Riivolution patches, read any attached instructions or the associated website for further help.**
 
-### Riivolution Patch - XML File
+#### Riivolution Patch - XML File
 
 1. Place your Riivolution patch file in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Riivolution/`
    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
@@ -487,7 +487,7 @@ If your Riivolution patch includes additional content, follow the below steps. I
 
 ***
 
-## How to Configure Real Wiimotes
+### How to Configure Real Wiimotes
 [Back to the Top](#dolphin-table-of-contents)
 
 **How to Configure Real Wiimotes**
@@ -507,7 +507,7 @@ If your Riivolution patch includes additional content, follow the below steps. I
 
 ***
 
-## How to Use a Mayflash DolphinBar in Game Mode
+### How to Use a Mayflash DolphinBar in Game Mode
 [Back to the Top](#dolphin-table-of-contents)
 
 **Preface:** To use the Mayflash DolphinBar, you need to blacklist it from Steam to properly allow it to work with Dolphin in Game Mode.
