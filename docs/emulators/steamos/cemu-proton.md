@@ -221,6 +221,7 @@ The WUA format is a compressed version of the Loadiine format. It contains your 
 Here's how to convert to WUA:
 
 **Note:** 
+
 * Encrypted ROMs (WUX, WUD, NUS) cannot be converted to WUA
 * Cemu only supports WUA on 1.27 and above
     * You cannot convert ROMs to WUA on 1.26, the stable build of Cemu

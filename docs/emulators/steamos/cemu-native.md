@@ -205,6 +205,7 @@ The WUA format is a compressed version of the Loadiine format. It contains your 
 Here's how to convert to WUA:
 
 **Note:** 
+
 * Encrypted ROMs (WUX, WUD, NUS) cannot be converted to WUA
 
 **Tutorial**
