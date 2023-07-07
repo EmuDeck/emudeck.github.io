@@ -22,7 +22,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
     - [Hotkeys](#rpcs3-hotkeys)
 
 2. [RPCS3 Tips and Tricks](#rpcs3-tips-and-tricks)
-    - [How to Configure RPCS3 For EmulationStation-DE](#how-to-configure-rpcs3-for-emulationstation-de)
+    - [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
     - [Special Game Configurations](#special-game-configurations)
 
 ***
@@ -71,8 +71,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE (Refer to #how-to-configure-rpcs3-for-emulationstation-de for instructions)
-
+* EmulationStation-DE
+    * [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
 ***
 
 ### How to Update RPCS3
@@ -129,7 +129,7 @@ N/A
 
 ***
 
-### How to Configure RPCS3 For EmulationStation-DE
+### How to Configure RPCS3 to Work With EmulationStation-DE
 [Back to the Top](#rpcs3-table-of-contents)
 
 1. In `Desktop Mode`, open RPCS3

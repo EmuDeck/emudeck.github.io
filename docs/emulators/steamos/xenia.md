@@ -195,7 +195,7 @@ Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (release
 
 **Tutorial**
 
-1. In Desktop Mode, download `xenia_canary.zip` from: https://github.com/xenia-canary/xenia-canary/releases/tag/e9d1e51
+1. In Desktop Mode, download `xenia_canary.zip` from: [https://github.com/xenia-canary/xenia-canary/releases/tag/e9d1e51](https://github.com/xenia-canary/xenia-canary/releases/tag/e9d1e51)
 2. Extract the zip file to a folder of your choice
 3. Copy or move `xenia_canary.exe` in the newly extracted folder to `Emulation/roms/xbox360` and overwrite the pre-existing `xenia_canary.exe`
 4. To test, you can open Xenia by launching `xenia.sh` from `Emulation/tools/launchers` or `xenia (Proton)` from the applications launcher in the bottom left

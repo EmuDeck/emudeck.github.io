@@ -253,15 +253,14 @@ Learn how to create an M3U File: https://github.com/dragoonDorise/EmuDeck/wiki/f
 1. Load content that has a shader applied automatically. 
 2. Go to the quick menu via both sticks in retroarch. from there, navigate to shaders (`~/.var/app/org.libretro.RetroArch/config/retroarch/shaders`).
     * <img src="https://user-images.githubusercontent.com/1683513/174447565-be119f1e-38a3-4297-9248-ae3fcc48ee0f.png" height="300">
-2. In shaders find remove, and select it.
+3. In shaders find remove, and select it.
     * <img src="https://user-images.githubusercontent.com/1683513/174447588-6390f58b-2606-4f10-9935-3f82acbf3ad1.png" height="300">
-3. Hit the button that says remove content directory preset
+4. Hit the button that says remove content directory preset
     * <img src="https://user-images.githubusercontent.com/1683513/174447596-38bc3c39-d667-4c5a-8b06-8cc8c3b9505b.png" height="300">
-4. close retroarch, reload content. no shaders applied (yes it's hard to see, but no more lcd squares)
+5. close retroarch, reload content. no shaders applied (yes it's hard to see, but no more lcd squares)
     * <img src="https://user-images.githubusercontent.com/1683513/174447652-b4ca78d1-7b5a-4ae9-b3f9-120a5b16f3cc.png" height="300">
-
-1. Conversely in that same shader menu - if you want to set up a different shader you would make the changes and apply them. When satistified you go to save:
-   * <img src="https://user-images.githubusercontent.com/1683513/174447945-3929b8d0-cb9f-45f8-9e15-18d172703cd7.png" height="300">
+6. Conversely in that same shader menu - if you want to set up a different shader you would make the changes and apply them. When satistified you go to save:
+    * <img src="https://user-images.githubusercontent.com/1683513/174447945-3929b8d0-cb9f-45f8-9e15-18d172703cd7.png" height="300">
 
 The order they are listed in is the order they take precedence, from most general to most specific.
 
@@ -287,7 +286,7 @@ How to remap the controls for a single game:
 4. Select Save Game Remap File
 ```
 
-Copied From: https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content
+Copied From: [https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content](https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content)
 
 *** 
 
@@ -303,7 +302,8 @@ How to remap the controls for a single core:
 4. Select Save Core Remap File
 ```
 
-Copied From: https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content
+Copied From: [https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content](https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content)
+
 
 ***
 
@@ -345,7 +345,7 @@ Wiki Link: [https://docs.libretro.com/library/flycast/](https://docs.libretro.co
 3. Place texture packs in `Emulation/bios/dc/textures`
 4. Open a game, press `L3` and `R3`, open the settings menu and enable `Load Custom Textures`
 
-Texture Pack Resources: https://old.reddit.com/r/Flycast_texture_packs/
+Texture Pack Resources: [https://old.reddit.com/r/Flycast_texture_packs/](https://old.reddit.com/r/Flycast_texture_packs/)
 
 ***
 

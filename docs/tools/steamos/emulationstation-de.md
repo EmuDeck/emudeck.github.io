@@ -210,7 +210,7 @@ Watch the following GIF for a visual:
 
 1. Refer to [How to Create an M3U file](../../other/steamos/file-management.md#how-to-create-an-m3u-file) to learn more
 2. In EmulationStation-DE, press `Start`, `Other Settings`, toggle `Show Hidden Games` off
-   * <img src="https://user-images.githubusercontent.com/108900299/220525893-83723351-a594-4f40-b106-0170085139cd.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/220525893-83723351-a594-4f40-b106-0170085139cd.png" height="300">
 3. For each disc entry, press select, press `Edit This Game's Metadata`, scroll down, toggle on `Hidden`, press `Save`, `Apply`
 4. Repeat for each disc entry
 
@@ -219,7 +219,7 @@ Watch the following GIF for a visual:
 ### How to Download Themes
 [Back to the Top](#emulationstation-de-table-of-contents)
 
-**Themes List:** https://gitlab.com/es-de/themes/themes-list
+**Themes List:** [https://gitlab.com/es-de/themes/themes-list](https://gitlab.com/es-de/themes/themes-list)
 
 #### Prerequisites
 
@@ -236,7 +236,7 @@ Watch the following GIF for a visual:
 1. Open EmulationStation-DE
 2. Press `Start`
 3. Scroll down to `UI Settings`
-4. Select `Theme Downloader [Experimental]
+4. Select `Theme Downloader [Experimental]`
 5. Select the theme(s) you would like to download
 6. When you are finished, back out of this menu
 7. On the `UI Settings` menu, press `Theme Set` and select your preferred theme
@@ -245,21 +245,21 @@ Watch the following GIF for a visual:
 
 MiSTer Menu will be used as an example in the below guide.
 
-1. From the themes list: https://gitlab.com/es-de/themes/themes-list, select a theme under `EmulationStation Desktop Edition (ES-DE) - Themes`
-   * <img src="https://user-images.githubusercontent.com/108900299/224575757-623672e6-12ff-4afc-80e3-230cc0ca8ac3.png" height="300">
+1. From the themes list: [https://gitlab.com/es-de/themes/themes-list](https://gitlab.com/es-de/themes/themes-list), select a theme under `EmulationStation Desktop Edition (ES-DE) - Themes`
+    * <img src="https://user-images.githubusercontent.com/108900299/224575757-623672e6-12ff-4afc-80e3-230cc0ca8ac3.png" height="300">
 2. Open the link for the respective theme, it will take you the respective theme section on the EmulationStation-DE themes page
 3. Open the Github link, it will take you to a Github repository
-   * <img src="https://user-images.githubusercontent.com/108900299/224561154-a4085184-0601-4b2e-9e6d-9fe69bebbcf9.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/224561154-a4085184-0601-4b2e-9e6d-9fe69bebbcf9.png" height="300">
 4. On the Github repository, press the green `Code` button in the top right
-   * <img src="https://user-images.githubusercontent.com/108900299/224561062-9f50be3f-761c-4184-86e1-fa1cd5fbad2b.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/224561062-9f50be3f-761c-4184-86e1-fa1cd5fbad2b.png" height="300">
 5. Click `Download Zip`, download to a folder of your choice
-   * <img src="https://user-images.githubusercontent.com/108900299/224561283-270d6c77-d2f0-4282-ad36-6c9e8f899a14.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/224561283-270d6c77-d2f0-4282-ad36-6c9e8f899a14.png" height="300">
 6. Open the folder with the zipped theme, right click the theme, click `Extract`, `Extract archive here`
-   * <img src="https://user-images.githubusercontent.com/108900299/224565489-9f50658a-aa48-4f09-b630-7735dad26566.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/224565489-9f50658a-aa48-4f09-b630-7735dad26566.png" height="300">
 7. Move the unzipped theme folder to `/home/deck/.emulationstation/themes`
-   * `~/.emulationstation` is an invisible folder by default. In Dolphin (file manager), click the hamburger button, ☰, in the top right, click `Show hidden files`
-   * <img src="https://user-images.githubusercontent.com/108900299/224561598-8a3f27f2-5ade-4a13-ae4b-1eb740fadd55.png" height="300">
+    * `~/.emulationstation` is an invisible folder by default. In Dolphin (file manager), click the hamburger button, ☰, in the top right, click `Show hidden files`
+    * <img src="https://user-images.githubusercontent.com/108900299/224561598-8a3f27f2-5ade-4a13-ae4b-1eb740fadd55.png" height="300">
 8. To use the theme: Open EmulationStation-DE in Game Mode, press the `Start` button, `UI Settings`, `Theme Set`, and select the theme you downloaded
-   * <img src="https://user-images.githubusercontent.com/108900299/224561706-59d4dec1-2d0c-4c33-a1e8-3f5cf72c93a2.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/224561706-59d4dec1-2d0c-4c33-a1e8-3f5cf72c93a2.png" height="300">
 
 ***

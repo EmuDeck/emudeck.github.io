@@ -82,9 +82,9 @@ Note:
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `Steam-ROM-Manager.AppImage`
-   * Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions.
+    * Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions.
 * Through the application's automatic updater
-   * When you open Steam ROM Manager, you may be prompted for an update, accept the prompt to update the application
+    * When you open Steam ROM Manager, you may be prompted for an update, accept the prompt to update the application
 
 ***
 
@@ -154,7 +154,7 @@ When you open Steam ROM Manager, it will exit out of Steam. Since your controls 
 
 Alternatively, you can either use a mouse/keyboard (Bluetooth or through a USB-C Hub) or remote into your Steam Deck.
 
-[Learn how to remotely control your Steam Deck](../../getting-started-with-emudeck/steamos/frequently-asked-questions.md#how-do-i-remotely-control-my-steam-deck)
+[Learn how to remotely control your Steam Deck.](../../getting-started-with-emudeck/steamos/frequently-asked-questions.md#how-do-i-remotely-control-my-steam-deck)
 
 ***
 
@@ -194,7 +194,7 @@ A backup of your original Steam ROM Manager configurations is automatically crea
 
 This message is a warning to confirm that you have closed Steam. EmuDeck's shortcut for Steam ROM Manager closes out of Steam for you. You may ignore this warning if you are opening through the applications launcher in the bottom left of the taskbar or through the EmuDeck GUI. 
 
-If you are trying to generate an app list and no ROMs are displaying in the app list, read this section: [Why are my games not showing up in Steam ROM Manager/](#why-are-my-games-not-showing-up-in-steam-rom-manager)
+If you are trying to generate an app list and no ROMs are displaying in the app list, read: [Why are my games not showing up in Steam ROM Manager?](#why-are-my-games-not-showing-up-in-steam-rom-manager)
 
 Running Steam ROM Manager external to EmuDeck's script will not exit out of Steam for you. You will need to verify Steam is closed, if you do not use EmuDeck's script. You do not have to worry about this if you are running Steam ROM Manager from its shortcut in the Applications Launcher or the button in the EmuDeck application. 
 

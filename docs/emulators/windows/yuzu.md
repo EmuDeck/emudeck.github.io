@@ -27,6 +27,6 @@ Quickstart guide: https://yuzu-emu.org/help/quickstart/
 ### How to Set Up Early Access
 [Back to the Top](#yuzu-table-of-contents)
 
-Download it and copy Yuzu's files to USERFOLDER\EmuDeck\EmulationStation-DE\Emulators\yuzu
+Download it and copy Yuzu's files to `USERFOLDER\EmuDeck\EmulationStation-DE\Emulators\yuzu`
 
 *** 

@@ -193,7 +193,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
     * `keys.txt` needs to contain keys (one key per game) that must be dumped from a Wii U console. Any other method is piracy and cannot be discussed here or on the EmuDeck discord.
 * Once you put ROMs in place, you must refresh the list of games by right clicking in the Cemu UI and clicking `Refresh Games List`.
     * Your game will not show up in Cemu until you refresh. 
-* Refer to #installing-dlc-and-updates, for DLC and Updates. 
+* Refer to [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates), for DLC and Updates specifically 
 
 ***
 
@@ -211,12 +211,12 @@ Here's how to convert to WUA:
 
 1. Open Cemu
 2. Click `Tools`, `Title Manager`
-    1. <img src="https://user-images.githubusercontent.com/108900299/226769311-0c9961f3-57d8-48fe-a7d9-babafcfc761f.png" height="300">
+     1. <img src="https://user-images.githubusercontent.com/108900299/226769311-0c9961f3-57d8-48fe-a7d9-babafcfc761f.png" height="300">
 3. Either search for your ROM or find it in the list
 4. Select the ROM with the word `base` in the `Type` column
-    1. <img src="https://user-images.githubusercontent.com/108900299/226769442-cad00efe-9a9b-4d28-a461-e55cb7e2e4a8.png" height="300">
+     1. <img src="https://user-images.githubusercontent.com/108900299/226769442-cad00efe-9a9b-4d28-a461-e55cb7e2e4a8.png" height="300">
 5. Verify the pop-up prompt has your base game, your update, and your DLC files
-    1. You can either place these update and DLC files in `Emulation/roms/wiiu/roms` temporarily or install them: #installing-dlc-and-updates
+     1. You can either place these update and DLC files in `Emulation/roms/wiiu/roms` temporarily or install them: [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
 6. Wait, it may take a while
 7. Right click in Cemu, and click `Refresh Game List` to refresh your file path in Cemu to the newly created WUA file
 
@@ -248,12 +248,12 @@ DLC and Updates must be installed using the title manager. DLC and UPdates are s
 
 1. Launch Cemu on Desktop Mode
 2. Click `File` in the top left, click `Install game title, update, or DLC...`
-   * Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/226768498-90501d46-1656-4ade-b52d-615c80f73fef.png" height="300">
+    * Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/226768498-90501d46-1656-4ade-b52d-615c80f73fef.png" height="300">
 3. Navigate to to your Update or DLC files
-   * If your files are on your SD Card, click `Other Locations`, `Computer`, `run`, `media`, and navigate to your SD Card
-   * Example SD Card Path: `/run/media/mmcblk0p1`
+    * If your files are on your SD Card, click `Other Locations`, `Computer`, `run`, `media`, and navigate to your SD Card
+    * Example SD Card Path: `/run/media/mmcblk0p1`
 4. Select the Update or DLC and click `Open`
-   1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/226768959-2078b493-e542-4d16-a42f-b5f8372d809d.png" height="300">
+    * Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/226768959-2078b493-e542-4d16-a42f-b5f8372d809d.png" height="300">
 5. Wait a moment, and your DLC or update will be successfully installed. Repeat for each DLC or update
 
 
@@ -274,10 +274,8 @@ Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input prof
 **Note:** 
 
 * The `Blow Mic` hotkey only works if you are using the gamepad. 
-
-For a tutorial on how to select Steam Input Profiles, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/hotkeys#how-to-select-a-steam-input-profile.
-
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -292,7 +290,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 This section collects which games currently do not work on the native version of Cemu. These games likely work on the proton version of Cemu.
 
 * Tekken Tag Tournament 2 
-  * Date added to this page: May 6th, 2023 
+    * Date added to this page: May 6th, 2023 
 
 ***
 
@@ -302,8 +300,8 @@ This section collects which games currently do not work on the native version of
 This section collects a version history of Cemu and seeks to detail compatibility and general issues with the emulator.
 
 * Cemu Version 2.0.36
-  * No Known Issues
-  * Date added to this page: May 6th, 2023 
+    * No Known Issues
+    * Date added to this page: May 6th, 2023 
 
 ***
 
@@ -317,7 +315,7 @@ This section collects a version history of Cemu and seeks to detail compatibilit
 
 Gyro for Cemu requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#steamdeckgyrodsu to learn how to install and utilize SteamDeckGyroDSU. 
+Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
 
 
 ***
@@ -384,7 +382,7 @@ To switch back to the Steam Deck controls, select the `Deck-Gamepad-Gyro` profil
 ### How to Optimize Performance (Power Tools)
 [Back to the Top](#cemu-native-table-of-contents)
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
+Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
 
 ***
 
@@ -464,7 +462,7 @@ In order to use Cemu Native through EmulationStation-DE, you will have to enable
 5. Enable `Use per-game profile`
 6. Set the refresh rate to 40
     * <img src="https://user-images.githubusercontent.com/108900299/236642316-5bafc264-6c82-479c-988a-b419515ee92b.png" height="300">
-7. Read https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to use the battery menu and `Power Tools` to further increase performance for Breath of the Wild
+7. Read [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.  to learn how to use the battery menu and `Power Tools` to further increase performance for Breath of the Wild
 
 After doing the steps in the above two sections, Breath of the Wild will run at a stable 40 FPS with temporary occasional hiccups in new areas while it compiles shaders.
 

@@ -222,7 +222,7 @@ Here's how to install custom textures for Citra:
 
 _This list is not exhaustive_
 
-* https://github.com/iSharingan/CTRPF-AR-CHEAT-CODES/tree/master/Cheats
+* [https://github.com/iSharingan/CTRPF-AR-CHEAT-CODES/tree/master/Cheats](https://github.com/iSharingan/CTRPF-AR-CHEAT-CODES/tree/master/Cheats)
 
 #### How to Use Cheats
 

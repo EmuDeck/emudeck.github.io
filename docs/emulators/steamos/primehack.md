@@ -164,7 +164,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 ### How to Optimize Performance (Power Tools)
 [Back to the Top](#primehack-table-of-contents)
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
+Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
 
 ***
 

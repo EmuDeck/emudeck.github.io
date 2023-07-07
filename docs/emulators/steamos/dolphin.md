@@ -163,13 +163,9 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 | Increase Internal Resolution | `Start` + `DPAD Up`                 |
 | Decrease Internal Resolution | `Start` + `DPAD Down`               |
 | Reset                        | `A` + `B` + `X` + `Y` + `L1` + `R1` |
-| Unlock FPS*                  | `Start` +  `R2`                     |
+| Unlock FPS                   | `Start` +  `R2`                     |
 | Increase Emulator Speed*     | `Select` + `R2`                     |
 | Decrease Emulator Speed*     | `Select` + `L2`                     |
-
-**IMPORTANT**
-
-* A `*` next to the hotkey means it is only mapped in the EmuDeck Beta
 
 **List of Wii Profiles Included with EmuDeck**
 
@@ -286,8 +282,8 @@ For a visual, watch the following GIF:
      2. Gamecube: `Select` + tilt the `Left Joystick` `Up` or `Down
 2. EmuDeck currently comes with 6 profiles for Wii and 2 profiles for Gamecube. You can use these as a base to create a profile for your game of choice, using this section's tutorial. 
      1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
-     2. Wii: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote
-     3. Gamecube: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad
+     2. Wii: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote)
+     3. Gamecube: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad)
 
 **Warning:** Creating too many controller configurations may make it difficult to cycle through and pick the one you would like to use. 
 
@@ -329,8 +325,8 @@ For a visual, watch the following GIF:
         1. [View community layouts](../../other/steamos/community-creations.md#community-dolphin-profiles)
     2. Use one of EmuDeck's included layouts
         1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
-        2. Wii: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote
-        3. Gamecube: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad
+        2. Wii: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote)
+        3. Gamecube: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad)
     3. Create a controller profile in the Dolphin GUI
         1. Tutorial: [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
 2. (Optional) Place your controller profile in either the Gamecube or the Wii Profile folder
@@ -343,21 +339,21 @@ For a visual, watch the following GIF:
 6. Under `User Config`, enter a controller profile using the following template:
     * For `SelectedProfileName`, only type the name of the profile, not the file path to the profile
 
-**Wii:**
-``` 
-[Controls] 
-WiimoteProfile1 = SelectedProfileName
-```
-**Gamecube:**
-```
-[Controls] 
-PadProfile1 = SelectedProfileName
-```
-**Example (using `EXAMPLE` profile):** <img src="https://user-images.githubusercontent.com/108900299/196016424-9ae19f25-3366-4963-bb30-4b3148718961.png" height="300">
+        **Wii:**
+
+            [Controls] 
+            WiimoteProfile1 = SelectedProfileName
+
+        **Gamecube:**
+
+            [Controls] 
+            PadProfile1 = SelectedProfileName
+
+        **Example (using `EXAMPLE` profile):** <img src="https://user-images.githubusercontent.com/108900299/196016424-9ae19f25-3366-4963-bb30-4b3148718961.png" height="300">
 
 7. Exit out, and your game should now be using the selected profile
 
-For additional information, read Dolphin's `GameINI (Controller Settings)` Wiki Page: https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)
+For additional information, read Dolphin's "GameINI (Controller Settings)" Wiki Page: [https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings))
 
 ***
 
@@ -395,7 +391,7 @@ WiimoteSource2 = 0
 WiimoteSource3 = 0
 ```
 
-For additional information, read Dolphin's `GameINI (Controller Settings)` Wiki Page: https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)
+For additional information, read Dolphin's "GameINI (Controller Settings)" Wiki Page: [https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings))
 
 ***
 
@@ -406,7 +402,7 @@ For additional information, read Dolphin's `GameINI (Controller Settings)` Wiki 
 2. Right click a game
 3. Click `Properties`
 4. Click the `Editor` tab
-5. Under `User Config`, add your configurations, use: https://wiki.dolphin-emu.org/index.php?title=GameINI for a full list
+5. Under `User Config`, add your configurations, use: [https://wiki.dolphin-emu.org/index.php?title=GameINI](https://wiki.dolphin-emu.org/index.php?title=GameINI) for a full list
     1. You also need to include the headers. For example, any settings under the `[Core]` section need to include `[Core]` preceding the respective setting(s)
 
 Example, to use OpenGL for only Super Paper Mario:
@@ -425,11 +421,10 @@ Example, to use OpenGL for only Super Paper Mario:
 
 * Pokemon Colosseum: Aspect Ratio keeps changing 
    * Copy and paste the below lines into the INI editor for Pokemon Colosseum
-```
-[Video_Settings]
-wideScreenHack = False
-AspectRatio = 2
-``` 
+
+            [Video_Settings]
+            wideScreenHack = False
+            AspectRatio = 2
 
 ***
 ### How to Use Riivolution Patches
@@ -502,7 +497,7 @@ If your Riivolution patch includes additional content, follow the below steps. I
 
 * Do not pair the Wiimote to the Steam Deck
 
-**For Further Reading:** https://dolphin-emu.org/docs/guides/configuring-controllers/
+**For Further Reading:** [https://dolphin-emu.org/docs/guides/configuring-controllers/](https://dolphin-emu.org/docs/guides/configuring-controllers/)
 
 ***
 

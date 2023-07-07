@@ -1,11 +1,11 @@
 # Ryujinx is a Nintendo Switch Emulator.
 
-Website: https://ryujinx.org/
+Website: [https://ryujinx.org/](https://ryujinx.org/)
 
-Github: https://github.com/Ryujinx/Ryujinx
+Github: [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
 
-Github Releases: https://github.com/Ryujinx/release-channel-master/releases
+Github Releases: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
 
-Compatibility List: https://github.com/Ryujinx/Ryujinx-Games-List/issues
+Compatibility List: [https://github.com/Ryujinx/Ryujinx-Games-List/issues](https://github.com/Ryujinx/Ryujinx-Games-List/issues)
 
-Quickstart guide: https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide
+Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)

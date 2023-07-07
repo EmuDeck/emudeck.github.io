@@ -174,7 +174,7 @@ Link: [https://archive.org/details/xdvdmulleterv10.2beta](https://archive.org/de
 ##### Method 3: extract-iso (Windows)
 [Back to the Top](#list-of-methods)
 
-Link: https://github.com/XboxDev/extract-xiso
+Link: [https://github.com/XboxDev/extract-xiso](https://github.com/XboxDev/extract-xiso)
 
 **Instructions**
 
@@ -187,7 +187,7 @@ Link: https://github.com/XboxDev/extract-xiso
 7. Navigate to the directory containing the .EXE and your .ISO
 8. Run `extract-xiso -r game-redump.iso` 
 
-Xemu's Tutorial: https://xemu.app/docs/disc-images/
+Xemu's Tutorial: [https://xemu.app/docs/disc-images/](https://xemu.app/docs/disc-images/)
 
 ***
 
@@ -254,7 +254,7 @@ On the Steam Deck, some Xbox game graphics will not render properly. Applying Zi
 
 However, Zink can also cause performance hits in certain games. Apply it on a per-game basis and keep in mind that if performance is degraded, it may be due to Zink. 
 
-You can read more about the issue here: https://github.com/xemu-project/xemu/issues/1279#issuecomment-1381015271. 
+You can read more about the issue here: [https://github.com/xemu-project/xemu/issues/1279#issuecomment-1381015271](https://github.com/xemu-project/xemu/issues/1279#issuecomment-1381015271). 
 
 Read one of the below sections to learn how to apply Zink to your Xbox games:
 
@@ -287,8 +287,10 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
         * New text file name: `Conker - Live & Reloaded.esprefix`
     * <img src="https://user-images.githubusercontent.com/108900299/226740001-1738684d-854c-4466-86f3-96e14ac1bfb0.png" height="300">
 4. Open the newly created text file in Kate or a text editor of your choice
-5. Enter: `__GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink` on a single line
-    * <img src="https://user-images.githubusercontent.com/108900299/226754331-28689940-10ef-42b5-9164-4bc58188ea68.png" height="300">
+5. On a single line, write: 
+    * `__GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink`
+    * Example:
+        * <img src="https://user-images.githubusercontent.com/108900299/226754331-28689940-10ef-42b5-9164-4bc58188ea68.png" height="300">
 6. Zink will now be applied to this specific game in EmulationStation-DE, repeat for each game you would like to apply Zink
 
 ***

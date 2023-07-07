@@ -46,9 +46,9 @@ To try out the native version of Cemu, open the EmuDeck application, click the `
 2. Click `Manage Emulators`
 3. Click `Cemu`
 4. Click `Install Cemu AppImage`
-   * <img src="https://user-images.githubusercontent.com/108900299/236600742-52661f18-a8e4-454d-9b8a-f1cfcf4423d2.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236600742-52661f18-a8e4-454d-9b8a-f1cfcf4423d2.png" height="300">
 5. Click `Reset Cemu AppImage` to configure the emulator
-   * <img src="https://user-images.githubusercontent.com/108900299/236601649-361f4578-e46a-4807-9052-fc2a2dc1e302.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236601649-361f4578-e46a-4807-9052-fc2a2dc1e302.png" height="300">
 
 ***
 

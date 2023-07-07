@@ -1189,15 +1189,15 @@ After installing `DeckyControls`, restart your Steam Deck (Returning to Game Mod
 **Common Acronyms**
 
 * ROM 
-   * A software image of read-only memory, of a game cartridge, used in emulation. Commonly used for ISOs as well. 
+     * A software image of read-only memory, of a game cartridge, used in emulation. Commonly used for ISOs as well. 
 * BIOS
 > BIOS is actually an acronym standing for Basic Input/Output System. It is a term used to refer to the set of computer instructions that are built into the system which initialises the hardware when it's switched on.
 > At a very basic level, emulators 'pretend' to be the system that they are emulating. In order to do this, they must still "initialise" the fake hardware so that the Operating System/Program (in this case, the game you're playing) - can still access stuff like the buttons, speakers and the screen in order to make things happen.
 > The emulator acts as a go-between: it accepts the game's commands to the original hardware, translates it into something your current hardware can interpret, and back again. For example: play a sound or music, draw a character to screen, or accept your input from pressing buttons. 
 * SRM 
-  * Steam ROM Manager, [Steam ROM Manager](../../tools/steamos/steam-rom-manager.md) and [https://github.com/SteamGridDB/steam-rom-manager](https://github.com/SteamGridDB/steam-rom-manager)
+    * Steam ROM Manager, [Steam ROM Manager](../../tools/steamos/steam-rom-manager.md) and [https://github.com/SteamGridDB/steam-rom-manager](https://github.com/SteamGridDB/steam-rom-manager)
 * ES-DE
-  * EmulationStation-DE, [EmulationStation-DE](../../tools/steamos/emulationstation-de.md) and [https://es-de.org/](https://es-de.org/)
+    * EmulationStation-DE, [EmulationStation-DE](../../tools/steamos/emulationstation-de.md) and [https://es-de.org/](https://es-de.org/)
 
 ***
 

@@ -1,14 +1,14 @@
 # RPCS3 is a Sony Playstation 3 Emulator.
 
-Website: https://rpcs3.net/
+Website: [https://rpcs3.net/](https://rpcs3.net/)
 
-Quickstart Guide: https://rpcs3.net/quickstart
+Quickstart Guide: [https://rpcs3.net/quickstart](https://rpcs3.net/quickstart)
 
-Github: https://github.com/RPCS3/rpcs3
+Github: [https://github.com/RPCS3/rpcs3](https://github.com/RPCS3/rpcs3)
 
-Compatibility List: https://rpcs3.net/compatibility
+Compatibility List: [https://rpcs3.net/compatibility](https://rpcs3.net/compatibility)
 
-RPCS3 Wiki: https://wiki.rpcs3.net/index.php?title=Main_Page
+RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net/compatibility)
 
 ***
 
