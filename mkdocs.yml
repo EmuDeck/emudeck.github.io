@@ -1,5 +1,8 @@
 site_name: EmuDeck Wiki
 site_url: https://emudeck.github.io
+repo_url: https://github.com/EmuDeck/emudeck.github.io
+repo_name: emudeck.github.io
+copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
 nav:
     - EmuDeck Website: 'https://www.emudeck.com/'
     - Home: 'index.md'
@@ -113,16 +116,47 @@ nav:
         - EmuDeck for Windows:
             - File Management: 'other/windows/file-management.md'
 theme:
-    name: material
-    palette:
-        scheme: slate
+    name: material     
+    custom_dir: overrides 
     features:
         - toc.integrate 
         - navigation.top
     markdown_extensions:
         - def_list
         - sane_lists
+        - attr_list
+        - tables
+        - pymdownx.keys
+        - pymdownx.caret
+        - md_in_html          
         - pymdownx.tasklist:
     custom_checkbox: true
     logo: assets/logo.png
     favicon: images/favicon.png
+    font:
+        text: Open Sans
+        code: IBM Plex Mono
+    palette:
+      - media: "(prefers-color-scheme: dark)"
+        scheme: slate
+        primary: 'blue'
+        accent: 'light blue'
+        toggle:
+            icon: material/brightness-4
+            name: Toogle light mode
+      - media: "(prefers-color-scheme: light)"
+        scheme: light
+        primary: 'blue'
+        accent: 'light blue'
+        toggle:
+            icon: material/brightness-7
+            name: Toggle dark mode
+
+extra:
+  social:
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/EmuDeck'
+    - icon: 'fontawesome/brands/discord'
+      link: 'https://discord.gg/b9F7GpXtFP'
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/EmuDeck'
