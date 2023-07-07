@@ -1,10 +1,10 @@
 # Citra is a Nintendo 3DS Emulator.
 
-Website: https://citra-emu.org/
+Website: [https://citra-emu.org/](https://citra-emu.org/)
 
-Github: https://github.com/citra-emu/citra
+Github: [https://github.com/citra-emu/citra](https://github.com/citra-emu/citra)
 
-Compatibility List: https://citra-emu.org/game/
+Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
 
 ***
 
@@ -52,14 +52,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Config Location: `/home/deck/.var/app/org.citra_emu.citra`
 * ROM location: `Emulation/roms/3ds` or `Emulation/roms/n3ds`
 * `aes_keys.txt` location: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/sysdata/` 
-   * _Only necessary if the 3DS ROM is encrypted_
-   * If the `sysdata` folder does not exist, create it. 
+    * _Only necessary if the 3DS ROM is encrypted_
+    * If the `sysdata` folder does not exist, create it. 
 * Saves Location:
-   * Symlink: `Emulation/saves/citra/saves`
-   * Target: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/sdmc`
+    * Symlink: `Emulation/saves/citra/saves`
+    * Target: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/sdmc`
 * Savestates Location:
-   * Symlink: `Emulation/saves/citra/states/`
-   * Target: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/states`
+    * Symlink: `Emulation/saves/citra/states/`
+    * Target: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/states`
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
@@ -103,6 +103,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * .elf
 
 **IMPORTANT:** 
+
 * `.cia` can only be used if you install it through Citra. **Do not** place your `.cia` ROMs in either the `Emulation/roms/3ds` or the `Emulation/roms/n3ds` folders. The .cia file format **is not** compatible with Steam ROM Manager and EmulationStation-DE.
 
 ***
@@ -143,9 +144,10 @@ Citra comes with a Steam Input profile for Hotkeys. Activate the Steam Input pro
 | Swap Screens         | Left Trackpad Touch Menu              |
 | Change Screen Layout | Left Trackpad Touch Menu              |
 
-For a tutorial on how to select Steam Input Profiles, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/hotkeys#how-to-select-a-steam-input-profile.
+**Note:** 
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -162,7 +164,7 @@ A recent update to some back-end changes may cause some crashing with games that
 **Here's How**
 
 1. In Desktop Mode, open `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu`
-   * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Delete the `shaders` folder
 3. Try your game again
 
@@ -180,14 +182,14 @@ This should be a one-time fix and your games should work again moving forward.
 
 Gyro for Citra requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#steamdeckgyrodsu to learn how to install and utilize SteamDeckGyroDSU. 
+Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
 
 ***
 
 ### How to Optimize Performance (Power Tools)
 [Back to the Top](#citra-table-of-contents)
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
+Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
 
 ***
 
@@ -197,21 +199,18 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#powe
 Here's how to install custom textures for Citra:
 
 1. Open the Citra emulator. Click `Emulation` in the top left. Click `Configuration`, `Graphics`, and check both `Use Custom Textures` and `Async Custom Texture Loading`
-   1. `Preload Custom Textures` is no longer recommended. Leave `Preload Custom Textures` off
-   2. <img src="https://user-images.githubusercontent.com/108900299/236593948-5a918187-27a7-4f5f-ac64-3b3147be8825.png" height="300">
+    1. `Preload Custom Textures` is no longer recommended. Leave `Preload Custom Textures` off
+    2. <img src="https://user-images.githubusercontent.com/108900299/236593948-5a918187-27a7-4f5f-ac64-3b3147be8825.png" height="300">
 2. Open https://3ds.jdbye.com/?details=USA&split=0&display=0 in a browser, and note down the `Title ID` for the game you would like to install custom textures for
 3. Open `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/load/textures`
-   1. `~/.var` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click "view hidden files" to see these folders.
-   2. If the `load` and `textures` folder do not exist, create them
+    1. `~/.var` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click "view hidden files" to see these folders.
+    2. If the `load` and `textures` folder do not exist, create them
 4. In the `textures` folder from Step 3, create a folder matching the `TitleID` from Step 2
 5. Put your texture files directly into this folder
 6. Your texture pack should now be installed
 
 **IMPORTANT:** Outdated guides will recommend enabling `Preload Custom Textures`. Turning on `Preload Textures` is no longer recommended and will cause a severe performance hit. 
 
-For a visual on how to install custom textures, watch the following GIF:
-
-<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/81df29947ca5665637ea98df4d02630a37bf07ea/GIFs/How%20to%20Install%20Custom%20Textures%20for%20Citra.gif" height="400">
 
 ***
 
@@ -229,15 +228,15 @@ _This list is not exhaustive_
 
 1. In Desktop Mode, open Citra
 2. Right click a game of your choice, click `Properties`
-   * <img src="https://user-images.githubusercontent.com/108900299/236593492-91df7ce3-efae-4bb7-a559-7c252637a2e4.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236593492-91df7ce3-efae-4bb7-a559-7c252637a2e4.png" height="300">
 3. Click the `Cheats` tab
-   * <img src="https://user-images.githubusercontent.com/108900299/236593531-c045ab6e-3779-4c5a-b6ce-0af4a243f121.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236593531-c045ab6e-3779-4c5a-b6ce-0af4a243f121.png" height="300">
 4. Click `Add Cheat`
 5. Name the cheat and add the code to the box under `Code:`
-   * <img src="https://user-images.githubusercontent.com/108900299/236593755-85163908-cc80-4684-a343-01f180f14365.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236593755-85163908-cc80-4684-a343-01f180f14365.png" height="300">
 6. Click Save in the top right
 7. Check the box to the left of the cheat to enable it
-   * <img src="https://user-images.githubusercontent.com/108900299/236593806-1f8973a4-cd67-4c35-b18e-14a5fbb30105.png" height="300"> 
+    * <img src="https://user-images.githubusercontent.com/108900299/236593806-1f8973a4-cd67-4c35-b18e-14a5fbb30105.png" height="300"> 
 
 ***
 
@@ -251,53 +250,54 @@ Citra allows you to configure the bottom screen as a sort of PiP (Picture in Pic
 **Here's How**
 
 1. Open the folder: `/home/deck/.var/app/org.citra_emu.citra/config/citra-emu/`
-   * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Right click `qt-config.ini`, and click `Open with Kate` or a text editor of your choice
 3. Locate the `[Layout]` section
 4. Replace the content of the `[Layout]` section with the below text:
-```
-[Layout]
-anaglyph_shader_name=dubois (builtin)
-anaglyph_shader_name\default=true
-custom_bottom_bottom=800
-custom_bottom_bottom\default=true
-custom_bottom_left=520
-custom_bottom_left\default=true
-custom_bottom_right=760
-custom_bottom_right\default=true
-custom_bottom_top=620
-custom_bottom_top\default=true
-custom_layout=true
-custom_layout\default=true
-custom_second_layer_opacity=33
-custom_second_layer_opacity\default=true
-custom_top_bottom=784
-custom_top_bottom\default=true
-custom_top_left=0
-custom_top_left\default=true
-custom_top_right=1280
-custom_top_right\default=true
-custom_top_top=16
-custom_top_top\default=true
-factor_3d=0
-factor_3d\default=true
-filter_mode=true
-filter_mode\default=true
-large_screen_proportion=@Variant(\0\0\0\x87@\x80\0\0)
-large_screen_proportion\default=true
-layout_option=1
-layout_option\default=false
-mono_render_option=0
-mono_render_option\default=true
-pp_shader_name=none (builtin)
-pp_shader_name\default=true
-render_3d=0
-render_3d\default=true
-swap_screen=false
-swap_screen\default=true
-upright_screen=false
-upright_screen\default=true
-```
+
+         
+         [Layout]
+         anaglyph_shader_name=dubois (builtin)
+         anaglyph_shader_name\default=true
+         custom_bottom_bottom=800
+         custom_bottom_bottom\default=true
+         custom_bottom_left=520
+         custom_bottom_left\default=true
+         custom_bottom_right=760
+         custom_bottom_right\default=true
+         custom_bottom_top=620
+         custom_bottom_top\default=true
+         custom_layout=true
+         custom_layout\default=true
+         custom_second_layer_opacity=33
+         custom_second_layer_opacity\default=true
+         custom_top_bottom=784
+         custom_top_bottom\default=true
+         custom_top_left=0
+         custom_top_left\default=true
+         custom_top_right\default=true
+         custom_top_top=16
+         custom_top_top\default=true
+         factor_3d=0
+         factor_3d\default=true
+         filter_mode=true
+         filter_mode\default=true
+         large_screen_proportion=@Variant(\0\0\0\x87@\x80\0\0)
+         large_screen_proportion\default=true
+         layout_option=1
+         layout_option\default=false
+         mono_render_option=0
+         mono_render_option\default=true
+         pp_shader_name=none (builtin)
+         pp_shader_name\default=true
+         render_3d=0
+         render_3d\default=true
+         swap_screen=false
+         swap_screen\default=true
+         upright_screen=false
+         upright_screen\default=true
+         
+
 5. (Optional) To move the PiP screen up, try setting `custom_top_top=0` and `custom_top_bottom=768`
 6. Save and exit out of the text file, Citra will now be using the bottom screen as PiP
 
@@ -364,53 +364,55 @@ A recent update of Citra allows the ability to set the opacity on the bottom scr
 **Here's How**
 
 1. Open the folder: `/home/deck/.var/app/org.citra_emu.citra/config/citra-emu/`
-   * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Right click `qt-config.ini`, and click `Open with Kate` or a text editor of your choice
 3. Locate the `[Layout]` section
 4. Replace the content of the `[Layout]` section with the below text:
-```
-[Layout]
-anaglyph_shader_name=dubois (builtin)
-anaglyph_shader_name\default=true
-custom_bottom_bottom=800
-custom_bottom_bottom\default=true
-custom_bottom_left=520
-custom_bottom_left\default=true
-custom_bottom_right=760
-custom_bottom_right\default=true
-custom_bottom_top=620
-custom_bottom_top\default=true
-custom_layout=true
-custom_layout\default=true
-custom_second_layer_opacity=33
-custom_second_layer_opacity\default=true
-custom_top_bottom=784
-custom_top_bottom\default=true
-custom_top_left=0
-custom_top_left\default=true
-custom_top_right=1280
-custom_top_right\default=true
-custom_top_top=16
-custom_top_top\default=true
-factor_3d=0
-factor_3d\default=true
-filter_mode=true
-filter_mode\default=true
-large_screen_proportion=@Variant(\0\0\0\x87@\x80\0\0)
-large_screen_proportion\default=true
-layout_option=1
-layout_option\default=false
-mono_render_option=0
-mono_render_option\default=true
-pp_shader_name=none (builtin)
-pp_shader_name\default=true
-render_3d=0
-render_3d\default=true
-swap_screen=false
-swap_screen\default=true
-upright_screen=false
-upright_screen\default=true
-```
+
+         
+         [Layout]
+         anaglyph_shader_name=dubois (builtin)
+         anaglyph_shader_name\default=true
+         custom_bottom_bottom=800
+         custom_bottom_bottom\default=true
+         custom_bottom_left=520
+         custom_bottom_left\default=true
+         custom_bottom_right=760
+         custom_bottom_right\default=true
+         custom_bottom_top=620
+         custom_bottom_top\default=true
+         custom_layout=true
+         custom_layout\default=true
+         custom_second_layer_opacity=33
+         custom_second_layer_opacity\default=true
+         custom_top_bottom=784
+         custom_top_bottom\default=true
+         custom_top_left=0
+         custom_top_left\default=true
+         custom_top_right=1280
+         custom_top_right\default=true
+         custom_top_top=16
+         custom_top_top\default=true
+         factor_3d=0
+         factor_3d\default=true
+         filter_mode=true
+         filter_mode\default=true
+         large_screen_proportion=@Variant(\0\0\0\x87@\x80\0\0)
+         large_screen_proportion\default=true
+         layout_option=1
+         layout_option\default=false
+         mono_render_option=0
+         mono_render_option\default=true
+         pp_shader_name=none (builtin)
+         pp_shader_name\default=true
+         render_3d=0
+         render_3d\default=true
+         swap_screen=false
+         swap_screen\default=true
+         upright_screen=false
+         upright_screen\default=true
+         
+
 5. To adjust the PiP opacity, the opacity can be any integer between 1-100
 6. Save and exit out of the text file, Citra will now be using the bottom screen as PiP with custom opacity
 

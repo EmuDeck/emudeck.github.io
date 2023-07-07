@@ -1,14 +1,14 @@
 # PCSX2-QT is a Sony Playstation 2 emulator. 
 
-Website: https://pcsx2.net/
+Website: [https://pcsx2.net/](https://pcsx2.net/)
 
-PCSX2-QT Releases: https://pcsx2.net/downloads/#nightly-anchor
+PCSX2-QT Releases: [https://pcsx2.net/downloads/#nightly-anchor](https://pcsx2.net/downloads/#nightly-anchor)
 
-Github: https://github.com/PCSX2
+Github: [https://github.com/PCSX2](https://pcsx2.net/downloads/#nightly-anchor)
 
-Compatibility List: https://forums.pcsx2.net/Forum-Public-compatibility-list
+Compatibility List: [https://forums.pcsx2.net/Forum-Public-compatibility-list](https://pcsx2.net/downloads/#nightly-anchor)
 
-PCSX2 Wiki: https://wiki.pcsx2.net/Main_Page
+PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
 
 ***
 
@@ -74,7 +74,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * ROM location: `Emulation/roms/ps2/`
 * BIOS location: `Emulation/bios/`  
     * **IMPORTANT:** Files go directly in this folder. Do not make or use a `PS2`, `PCSX2`, or any sort of folder here. PCSX2 will not be able to find your bios files if they are in a folder. 
-    * Required BIOS  - SEE: https://pcsx2.net/docs/usage/setup/#how-to-dump-your-ps2-bios
+    * Required BIOS  - SEE: [https://pcsx2.net/docs/usage/setup/#how-to-dump-your-ps2-bios](https://pcsx2.net/docs/usage/setup/#how-to-dump-your-ps2-bios)
 * Saves: `Emulation/saves/pcsx2/saves`
 * Savestates `Emulation/saves/pcsx2/states`
 
@@ -95,7 +95,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `pcsx2-Qt.AppImage` 
-    * Refer to https://github.com/dragoonDorise/EmuDeck/wiki/file-management#how-to-swap-out-appimages-and-binaries for instructions.
+    * Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 
 ***
 
@@ -141,8 +141,9 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 | Cycle Aspect Ratio          | `Start` + `DPad Right` |
 | Toggle Software Rendering   | `Start` + `DPad Left`  |
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+**Note:** 
 
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 ***
 
 ## Common Issues
@@ -168,7 +169,7 @@ Try turning off multitap. Certain games may not handle it.
 
 This indicates a bad dump. Please validate and redump your game files.
 
-How to validate your ROMs: https://github.com/dragoonDorise/EmuDeck/wiki/frequently-asked-questions#how-to-verify-a-rom-is-valid
+[How to validate your ROMs](../../getting-started-with-emudeck/steamos/frequently-asked-questions.md#how-to-verify-a-rom-is-valid)
 
 ***
 
@@ -207,7 +208,7 @@ To fix this, do one of the following solutions:
 ### How to Optimize Performance (Power Tools)
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
+Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
 
 ***
 
@@ -267,9 +268,9 @@ PCSX2 will now give each game it's own separate memory card automatically.
 
 **Important**
 
-Individual Widescreen and "No Interlace" cheats are no longer supported. These are now officially bundled with PCSX2 and can be enabled in the per-game settings menu. For a tutorial on how to use these in PCSX2, read https://github.com/dragoonDorise/EmuDeck/wiki/PCSX2-QT#how-to-use-widescreen-or-no-interlace-cheats. 
+Individual Widescreen and "No Interlace" cheats are no longer supported. These are now officially bundled with PCSX2 and can be enabled in the per-game settings menu. For a tutorial on how to use these in PCSX2, read [How to use Widescreen or No Interlace Cheats](#how-to-use-widescreen-or-no-interlace-cheats). 
 
-For more detail, read https://forums.pcsx2.net/Thread-Sticky-Important-Patching-Notes-1-7-4546-Pnach-2-0
+For more detail, read [https://forums.pcsx2.net/Thread-Sticky-Important-Patching-Notes-1-7-4546-Pnach-2-0](https://forums.pcsx2.net/Thread-Sticky-Important-Patching-Notes-1-7-4546-Pnach-2-0)
 
 **Note:** This change means that the `cheats_ni` and `cheats_ws` are no longer used by PCSX2. Do not use these folders. PCSX2 will not recognize any files placed in these folders.
 
@@ -277,11 +278,11 @@ For more detail, read https://forums.pcsx2.net/Thread-Sticky-Important-Patching-
 
 _This list is not comprehensive_
 
-* https://forums.pcsx2.net/Thread-Post-your-PCSX2-cheats-patches-here
-* https://gamehacking.org/system/ps2
-* https://forums.pcsx2.net/Thread-Fixing-unplayable-games
+* [https://forums.pcsx2.net/Thread-Post-your-PCSX2-cheats-patches-here](https://forums.pcsx2.net/Thread-Post-your-PCSX2-cheats-patches-here)
+* [https://gamehacking.org/system/ps2](https://gamehacking.org/system/ps2)
+* [https://forums.pcsx2.net/Thread-Fixing-unplayable-games](https://forums.pcsx2.net/Thread-Fixing-unplayable-games)
 
-You can find more information about PCSX2 cheats here: https://wiki.pcsx2.net/Game_cheats. 
+You can find more information about PCSX2 cheats here: [https://wiki.pcsx2.net/Game_cheats](https://wiki.pcsx2.net/Game_cheats). 
 
 **Tutorial**
 
@@ -319,7 +320,7 @@ This section goes over identifying and creating headers for your cheats. Creatin
             description=DESCRIPTIONOFCHEAT
             ```
 
-For an example of a full cheat file with a header: https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/ddcacfaf9a0ebf930d27f95c86507cd89e2db704/94A82AAA-Controllable%2520Party%2520Members.pnach
+For an example of a full cheat file with a header: [https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/ddcacfaf9a0ebf930d27f95c86507cd89e2db704/94A82AAA-Controllable%2520Party%2520Members.pnach](https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/ddcacfaf9a0ebf930d27f95c86507cd89e2db704/94A82AAA-Controllable%2520Party%2520Members.pnach)
 
 
 #### How to Use the Cheat File
@@ -356,7 +357,7 @@ For an example of a full cheat file with a header: https://gist.githubuserconten
 
 Individual Widescreen and "No Interlace" cheats are no longer supported. These are now officially bundled with PCSX2 and can be enabled in the per-game settings menu. This section will go over how to apply the included cheats. 
 
-For more detail, read https://forums.pcsx2.net/Thread-Sticky-Important-Patching-Notes-1-7-4546-Pnach-2-0
+For more detail, read [https://forums.pcsx2.net/Thread-Sticky-Important-Patching-Notes-1-7-4546-Pnach-2-0](https://forums.pcsx2.net/Thread-Sticky-Important-Patching-Notes-1-7-4546-Pnach-2-0)
 
 **Tutorial**
 
@@ -390,7 +391,7 @@ For more detail, read https://forums.pcsx2.net/Thread-Sticky-Important-Patching-
 
 _This list is not exhaustive_
 
-* https://gbatemp.net/threads/list-of-hd-texture-packs-by-panda_venom.620163/
+* [https://gbatemp.net/threads/list-of-hd-texture-packs-by-panda_venom.620163/](https://gbatemp.net/threads/list-of-hd-texture-packs-by-panda_venom.620163/)
 
 ***
 
@@ -425,13 +426,13 @@ _This list is not exhaustive_
 
 * Windows PC
     * The mod manager used in this guide does not work properly through Wine
-* Aemulus Mod Manager: https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0
+* Aemulus Mod Manager: [https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0](https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0)
 * Persona 3 FES ISO
 
 #### On Windows (Non-Steam Deck PC)
 
-1. Download Aemulus Mod Manager: https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0 
-2. Build a mod loadout: https://persona-3-fes-modding-guide.readthedocs.io/en/latest/installingmods.html
+1. Download Aemulus Mod Manager: [https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0](https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0 )
+2. Build a mod loadout: [https://persona-3-fes-modding-guide.readthedocs.io/en/latest/installingmods.html](https://persona-3-fes-modding-guide.readthedocs.io/en/latest/installingmods.html)
     * This guide will not go into detail on how to do this
 3. Your mod loadout will look similar to the below image: 
     * <img src="https://user-images.githubusercontent.com/108900299/209884556-357ce98f-3e43-45ca-8c19-5bcd2c46630f.png" height="300">
@@ -467,7 +468,7 @@ _This list is not exhaustive_
 #### Setting up Cheats
 
 1. Download the attached cheat file by right clicking anywhere on the page and clicking `Save Page As`
-    * https://gist.githubusercontent.com/rawdatafeel/4326c619c2361bb6feaae2a395167459/raw/7d63d4e3d6d2dc64e9cbdc15b73c633913488c88/94A82AAA-hostFS.pnach
+    * [https://gist.githubusercontent.com/rawdatafeel/4326c619c2361bb6feaae2a395167459/raw/7d63d4e3d6d2dc64e9cbdc15b73c633913488c88/94A82AAA-hostFS.pnach](https://gist.githubusercontent.com/rawdatafeel/4326c619c2361bb6feaae2a395167459/raw/7d63d4e3d6d2dc64e9cbdc15b73c633913488c88/94A82AAA-hostFS.pnach)
 2. Name the downloaded file `94A82AAA-hostFS.pnach`
 3. Place the cheat file in `/home/deck/.config/PCSX2/cheats/`
     * `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
@@ -499,6 +500,6 @@ If you would like to launch Persona 3 FES directly in Game Mode, follow the belo
 #### Optional Cheats
 
 * Controllable Party Members, file name: `94A82AAA_Direct_Commands.pnach`
-    * https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/6fdf06cf7f51c1387bc576e765fd8cd72e009806/94A82AAA-Controllable%2520Party%2520Members.pnach
+    * [https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/6fdf06cf7f51c1387bc576e765fd8cd72e009806/94A82AAA-Controllable%2520Party%2520Members.pnach](https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/6fdf06cf7f51c1387bc576e765fd8cd72e009806/94A82AAA-Controllable%2520Party%2520Members.pnach)
 
 *** 

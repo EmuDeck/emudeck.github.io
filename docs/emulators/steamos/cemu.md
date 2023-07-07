@@ -2,11 +2,11 @@
 
 ## Welcome to the landing page for Cemu. 
 
-Website: https://cemu.info/
+Website: [https://cemu.info/](https://cemu.info/)
 
-Github: https://github.com/cemu-project/Cemu
+Github: [https://github.com/cemu-project/Cemu](https://github.com/cemu-project/Cemu)
 
-Compatibility List: https://compat.cemu.info/
+Compatibility List: [https://compat.cemu.info/](https://compat.cemu.info/)
 
 This is a landing page for the two versions of Cemu bundled with EmuDeck, proton and native (AppImage). EmuDeck includes the native build of Cemu as an optional install. If you choose to install the native version of Cemu, both versions will remain installed to provide the user choice and to allow for the native version to mature and fix any lingering issues. 
 
@@ -27,20 +27,20 @@ To try out the native version of Cemu, open the EmuDeck application, click the `
 ***
 
 ## EmuDeck Cemu Wiki Links
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
+[Back to the Top](#cemu-table-of-contents)
 
 **Looking for the Cemu wiki pages? Select a wiki page below. Each correspond to the two different versions of Cemu bundled with EmuDeck.**
 
-**Cemu Proton:** https://github.com/dragoonDorise/EmuDeck/wiki/Cemu-Proton
+**Cemu Proton:** [Cemu Proton](../steamos/cemu-proton.md)
 
-**Cemu Native:** https://github.com/dragoonDorise/EmuDeck/wiki/Cemu-Native
+**Cemu Native:** [Cemu Native](../steamos/cemu-native.md)
 
 
 
 ***
 
 ## How do I download Native Cemu?
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
+[Back to the Top](#cemu-table-of-contents)
 
 1. In Desktop Mode, open the EmuDeck Application
 2. Click `Manage Emulators`
@@ -53,7 +53,7 @@ To try out the native version of Cemu, open the EmuDeck application, click the `
 ***
 
 ## What is the difference between the proton and the native version?
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
+[Back to the Top](#cemu-table-of-contents)
 
 Up until the end of 2022, Cemu only provided a Windows version. EmuDeck bundled this windows version and created a script to run it through Proton. At the end of 2022, Cemu released a native Linux version as an AppImage. The AppImage released in a beta state and still had issues, both with general emulation and game compatibility. 
 
@@ -65,13 +65,13 @@ The foreseeable future should see improvements and eventual parity with native C
 
 **Cemu Native Game Compatibility**
 
-* Read: https://github.com/dragoonDorise/EmuDeck/wiki/cemu-native#game-compatibility
+* Read: [Cemu Native: Game Compatibility](../steamos/cemu-native.md#game-compatibility)
 
 
 *** 
 
 ## Which Cemu version should I use?
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
+[Back to the Top](#cemu-table-of-contents)
 
 It is up to you. Both versions of Cemu are bundled with EmuDeck to allow the user to choose. Be sure to read [What is the difference between the proton and the native version?](#what-is-the-difference-between-the-proton-and-the-native-version) as well.
 
@@ -80,7 +80,7 @@ Generally, it is **recommended** to select Cemu Native over Cemu Proton. There i
 *** 
 
 ## How do I know which Cemu is which?
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
+[Back to the Top](#cemu-table-of-contents)
 
 One quick way to tell the difference is to compare the two GUIs.
 
@@ -91,7 +91,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
 ***
 
 ## How do I select which version of Cemu to use in Game Mode?
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
+[Back to the Top](#cemu-table-of-contents)
 
 ### Steam ROM Manager
 
@@ -118,7 +118,7 @@ Select the corresponding parsers.
 ***
 
 ## How do I select which version of Cemu to use in Desktop Mode?
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
+[Back to the Top](#cemu-table-of-contents)
 
 1. In Desktop Mode, press the Steam icon in the bottom left of the taskbar to open the Applications Launcher
    * <img src="https://user-images.githubusercontent.com/108900299/236600606-f9de3696-c794-4c15-b7d5-16a88c54360a.png" height="300">

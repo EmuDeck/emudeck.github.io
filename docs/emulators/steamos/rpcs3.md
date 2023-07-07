@@ -1,14 +1,14 @@
 # RPCS3 is a Sony Playstation 3 Emulator.
 
-Website: https://rpcs3.net/
+Website: [https://rpcs3.net/](https://rpcs3.net/)
 
-Quickstart Guide: https://rpcs3.net/quickstart
+Quickstart Guide: [https://rpcs3.net/quickstart](https://rpcs3.net/quickstart)
 
-Github: https://github.com/RPCS3/rpcs3
+Github: [https://github.com/RPCS3/rpcs3](https://github.com/RPCS3/rpcs3)
 
-Compatibility List: https://rpcs3.net/compatibility
+Compatibility List: [https://rpcs3.net/compatibility](https://rpcs3.net/compatibility)
 
-RPCS3 Wiki: https://wiki.rpcs3.net/index.php?title=Main_Page
+RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net/compatibility)
 
 ***
 
@@ -32,16 +32,16 @@ RPCS3 Wiki: https://wiki.rpcs3.net/index.php?title=Main_Page
 
 In order to play a game on RPCS3, you need to install the firmware through the RPCS3 UI. In desktop mode, open RPCS3, either in the application menu or through its shortcut in `Emulation/tools/launchers/rpcs3.sh`. In RPCS3, click File, click Install Firmware. Firmware is provided legally by Sony.
 
-Follow RPCS3's Quickstart Guide for a step by step process on setting up RPCS3: https://rpcs3.net/quickstart
+Follow RPCS3's Quickstart Guide for a step by step process on setting up RPCS3: [https://rpcs3.net/quickstart](https://rpcs3.net/quickstart)
 
 Read the [Configuration](#rpcs3-configuration) section to learn more about RPCS3 and its folder locations. 
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Playstation 3 ROMs:
 
 * `EmulationStation-DE`
-  * To play PS3 games in EmulationStation-DE, read: [How to Configure RPCS3 For EmulationStation-DE](#how-to-configure-rpcs3-for-emulationstation-de) 
+    * To play PS3 games in EmulationStation-DE, read: [How to Configure RPCS3 For EmulationStation-DE](#how-to-configure-rpcs3-for-emulationstation-de) 
 * `Sony PlayStation 3 - RPCS3 (Extracted ISO/PSN)` or `Sony PlayStation 3 - RPCS3 (Installed PKG)`
-   * Read the [File Formats](#file-formats) section to learn more about these various file formats
+    * Read the [File Formats](#rpcs3-file-formats) section to learn more about these various file formats
 * `Emulators`
 
 ***
@@ -62,8 +62,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * ROM location: `Emulation/roms/ps3`
 * Firmware: Install the firmware following the [Quickstart Guide](https://rpcs3.net/quickstart)
 * Saves: 
-   * Symlink: `Emulation/saves/rpcs3/saves`
-   * Target: `Emulation/storage/rpcs3/dev_hdd0/home/00000001/savedata`
+    * Symlink: `Emulation/saves/rpcs3/saves`
+    * Target: `Emulation/storage/rpcs3/dev_hdd0/home/00000001/savedata`
 
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
@@ -101,16 +101,16 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 [Back to the Top](#rpcs3-table-of-contents)
 
 * Folder Format: `/PS3_GAME/USRDIR/eboot.bin`
-  * Place the folder in `Emulation/roms/ps3`
-  * **Visual Reference:** <img src="https://user-images.githubusercontent.com/1683513/197632719-71784143-e637-4dc8-81f4-d61c59d4f28c.png" height="300">
-  * For more information on the `Folder Format`, read [RPCS3's Quickstart Guide](https://rpcs3.net/quickstart)
-    * **Note:** Read the `Dumping Step-by-step` section specifically
+    * Place the folder in `Emulation/roms/ps3`
+    * **Visual Reference:** <img src="https://user-images.githubusercontent.com/1683513/197632719-71784143-e637-4dc8-81f4-d61c59d4f28c.png" height="300">
+    * For more information on the `Folder Format`, read [RPCS3's Quickstart Guide](https://rpcs3.net/quickstart)
+        * **Note:** Read the `Dumping Step-by-step` section specifically
 * Install `.pkg` files directly through the RPCS3 UI
-  * **Note:** You can drag and drop `.pkg` files to the RPCS3 UI
-  * `.pkg` files are installed to: `Emulation/storage/rpcs3/dev_hdd0/game/`
+    * **Note:** You can drag and drop `.pkg` files to the RPCS3 UI
+    * `.pkg` files are installed to: `Emulation/storage/rpcs3/dev_hdd0/game/`
 * Install `.rap` files directly through the RPCS3 UI
-  * **Note:** You can drag and drop `.rap` files to the RPCS3 UI
-  * `.rap` files are installed to: `Emulation/storage/rpcs3/dev_hdd0/game/`
+    * **Note:** You can drag and drop `.rap` files to the RPCS3 UI
+    * `.rap` files are installed to: `Emulation/storage/rpcs3/dev_hdd0/game/`
 
 **Steam ROM Manager Parsers**
 
@@ -152,7 +152,7 @@ N/A
 
 If you get an error message about "Invalid file or folder" you need to change Alternative Emulator for ps3 to RPCS3 Shortcut [Standalone]. If all your game as shortcuts you can make this change in the main settings to apply for all games. If you have a mix of directory based and shortcut games you can change the setting on a game by game basis in the games metadata.
 
-Refer to https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3, for additional information. 
+Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3), for additional information. 
 
 
 ***
@@ -162,6 +162,6 @@ Refer to https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md
 
 Some games will take additional setup, requiring mods or an extensive alteration of settings. The EmuDeck Community Creations page collects these configurations in one centralized location. 
 
-You can submit or view special game configurations here: https://github.com/dragoonDorise/EmuDeck/wiki/community-creations#rpcs3-playstation-3
+You can submit or view special game configurations here: [Special Game Configurations](../../other/steamos/community-creations.md#rpcs3-playstation-3)
 
 ***

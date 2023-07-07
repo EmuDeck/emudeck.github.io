@@ -1,14 +1,14 @@
 # Xenia is an Xbox 360 Emulator.
 
-Website: https://xenia.jp/
+Website: [https://xenia.jp/](https://xenia.jp/)
 
-Github: https://github.com/xenia-project/xenia
+Github: [https://github.com/xenia-project/xenia](https://github.com/xenia-project/xenia)
 
-Compatibility List: https://github.com/xenia-project/game-compatibility/issues
+Compatibility List: [https://github.com/xenia-project/game-compatibility/issues](https://github.com/xenia-project/game-compatibility/issues)
 
-Xenia's FAQ: https://github.com/xenia-project/xenia/wiki/faq
+Xenia's FAQ: [https://github.com/xenia-project/xenia/wiki/faq](https://github.com/xenia-project/xenia/wiki/faq)
 
-Xenia's Quickstart Guide: https://github.com/xenia-project/xenia/wiki/Quickstart
+Xenia's Quickstart Guide: [https://github.com/xenia-project/xenia/wiki/Quickstart](https://github.com/xenia-project/xenia/wiki/Quickstart)
 
 **IMPORTANT:** Xenia does not currently run well on Linux/SteamOS. Most games will not boot or will not be playable. This emulator is currently in an experimental state for Linux/SteamOS.
 
@@ -59,14 +59,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: Windows Executable through Proton
 * Executable Location (Xenia Script): `Emulation/tools/launchers/xenia.sh`
-  * Use `xenia.sh` to launch Xenia in Desktop Mode
+    * Use `xenia.sh` to launch Xenia in Desktop Mode
 * Executable Location (Windows EXE): `Emulation/roms/xbox360/xenia_canary.exe`
-  * Do not launch Xenia in Desktop Mode with `xenia_canary.exe`
+    * Do not launch Xenia in Desktop Mode with `xenia_canary.exe`
 * Config Location: `Emulation/roms/xbox360`
 * Xbox 360 ROM Location: `Emulation/roms/xbox360/roms`
-  * Note the second `roms` folder in the path
+    * Note the second `roms` folder in the path
 * Xbox Live Arcade ROM Location: `Emulation/roms/xbox360/roms/xbla`
-  * Note the second `roms` folder in the path
+    * Note the second `roms` folder in the path
 * BIOS: No BIOS are required to play Xenia
 * Saves Location: `Emulation/roms/xbox360/content`
 
@@ -87,9 +87,9 @@ Xenia cannot be installed on your initial installation of EmuDeck. It can only b
 2. Click the `Manage Emulators` button
 3. Click `Xenia`
 4. Click `Install`
-   * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/084ab99a-8a3c-4c58-8772-321700a2f3f0" height="300">
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/084ab99a-8a3c-4c58-8772-321700a2f3f0" height="300">
 5. Xenia will be installed to `Emulation/roms/xbox360`
-   * Place your Xbox 360 ROMs in `Emulation/roms/xbox360/roms` and Xbox Live Arcade ROMs in `Emulation/roms/xbox360/roms/xbla`
+    * Place your Xbox 360 ROMs in `Emulation/roms/xbox360/roms` and Xbox Live Arcade ROMs in `Emulation/roms/xbox360/roms/xbla`
 
 **No** additional setup is required with Steam ROM Manager and EmulationStation-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
 
@@ -104,7 +104,7 @@ Xenia cannot be installed on your initial installation of EmuDeck. It can only b
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `xenia_canary.exe`
-  * Refer to https://github.com/dragoonDorise/EmuDeck/wiki/file-management#how-to-swap-out-appimages-and-binaries for instructions.
+    * Refer to [How to Swap Out Xenia Builds](#how-to-swap-out-xenia-builds) for instructions
 
 ***
 
@@ -125,7 +125,7 @@ Xenia cannot be installed on your initial installation of EmuDeck. It can only b
 * .iso
 * .xex
 * No file extension
-  * For Xbox Live Arcade Games
+    * For Xbox Live Arcade Games
 
 ***
 
@@ -141,9 +141,9 @@ N/A
 
 Currently, Xbox Live Arcade games have the highest compatibility on Linux/SteamOS. Most Xbox 360 games do not run well on Xenia, on Linux/SteamOS at this time.
 
-Check the EmuDeck community compatibility list to see what Xbox 360 games run well on the Steam Deck (on SteamOS): https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit#gid=1989583881.
+Check the EmuDeck community compatibility list to see what Xbox 360 games run well on the Steam Deck (on SteamOS): [https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit#gid=1989583881](https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit#gid=1989583881).
 
-To submit games to the EmuDeck community compatibility list: https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform.
+To submit games to the EmuDeck community compatibility list: [https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform](https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform).
 
 
 ***
@@ -203,6 +203,10 @@ Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (release
 
 **Visual Tutorial**
 
-https://user-images.githubusercontent.com/108900299/235378389-43bdae68-1365-43a6-9ca1-0a8beb9d5f12.mp4
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/how-to-swap-out-xenia-builds.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ***

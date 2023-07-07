@@ -4,17 +4,17 @@
 
 EmuDeck installs EmulationStation-DE, which allows you to manage your ROMs through a single front-end application. It can either be used as an alternative or in tandem with Steam Rom Manager (an application that adds ROMs as game shortcuts to your Steam Library).
 
-Website: https://es-de.org/
+Website: [https://es-de.org/](https://es-de.org/)
 
-EmulationStation-DE's Wiki: https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md
+EmulationStation-DE's Wiki: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md)
 
-EmulationStation-DE's FAQ: https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md
+EmulationStation-DE's FAQ: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
 
-Emulation-Station-DE Releases: https://gitlab.com/es-de/emulationstation-de/-/packages/
+Emulation-Station-DE Releases: [https://gitlab.com/es-de/emulationstation-de/-/packages/](https://gitlab.com/es-de/emulationstation-de/-/packages/)
 
-EmulationStation-DE currently scrapes art from https://thegamesdb.net/ and https://www.screenscraper.fr/
+EmulationStation-DE currently scrapes art from [https://thegamesdb.net/](https://thegamesdb.net/) and [https://www.screenscraper.fr/](https://www.screenscraper.fr/)
 
-Read https://github.com/dragoonDorise/EmuDeck/wiki/Steam-Rom-Manager to learn more about Steam Rom Manager and how it can be used in tandem with EmulationStation-DE!
+Read the [Steam ROM Manager](../steamos/steam-rom-manager.md) page to learn more about Steam Rom Manager and how it can be used in tandem with EmulationStation-DE!
 
 
 ***
@@ -61,7 +61,7 @@ Note: `~/.emulationstation` is an invisible folder by default. In Dolphin (file 
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `EmulationStation-DE-x64_SteamDeck.AppImage`
-   * Refer to https://github.com/dragoonDorise/EmuDeck/wiki/file-management#how-to-swap-out-appimages-and-binaries for instructions.
+   * Refer to Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions.
 
 ***
 
@@ -92,7 +92,8 @@ In Desktop Mode, you can open `EmulationStation-DE` by opening the executable he
 
 Watch the following GIF for a visual:
 
-<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/c165d87500dd88a51b8ec80c5173e0950aebfe25/GIFs/Adding%20EmulationStation-DE%20to%20Steam.gif" height="400">
+<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/c165d87500dd88a51b8ec80c5173e0950aebfe25/GIFs/Adding%20EmulationStation-DE%20to%20Steam.gif?raw=true"/>
+
 
 ***
 
@@ -135,7 +136,11 @@ If you do not see an emulator on the EmulationStation-DE touch menu, it likely u
 
 #### Video Showcase
 
-https://user-images.githubusercontent.com/108900299/236106511-c24a2f7e-7b9d-4b05-9317-566d39212ac2.mp4
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/emulationstation-de-steam-input-showcase.mp4" type="video/mp4">
+  </video>
+</figure>
 
 
 ***
@@ -162,7 +167,7 @@ https://user-images.githubusercontent.com/108900299/236106511-c24a2f7e-7b9d-4b05
 
 Watch the following GIF for a visual:
 
-<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/8a63e0196e44930de6a3a328ea24429beea15673/GIFs/How%20to%20Select%20a%20Different%20Emulator%20for%20a%20System.gif" height="400">
+<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/8a63e0196e44930de6a3a328ea24429beea15673/GIFs/How%20to%20Select%20a%20Different%20Emulator%20for%20a%20System.gif?raw=true"/>
 
 ***
 
@@ -203,7 +208,7 @@ Watch the following GIF for a visual:
 
 #### Method 2: Create an M3U file and hide each of the disc entries in EmulationStation-DE
 
-1. Refer to https://github.com/dragoonDorise/EmuDeck/wiki/File-Management#method-1-creating-an-m3u-file on how to create an m3u file.
+1. Refer to [How to Create an M3U file](../../other/steamos/file-management.md#how-to-create-an-m3u-file) to learn more
 2. In EmulationStation-DE, press `Start`, `Other Settings`, toggle `Show Hidden Games` off
    * <img src="https://user-images.githubusercontent.com/108900299/220525893-83723351-a594-4f40-b106-0170085139cd.png" height="300">
 3. For each disc entry, press select, press `Edit This Game's Metadata`, scroll down, toggle on `Hidden`, press `Save`, `Apply`

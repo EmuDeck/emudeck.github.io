@@ -1,13 +1,12 @@
 # Dolphin is a Gamecube and Wii emulator.
 
-Website: https://dolphin-emu.org/
+Website: [https://dolphin-emu.org/](https://dolphin-emu.org/)
 
-Github: https://github.com/dolphin-emu/dolphin
+Github: [https://github.com/dolphin-emu/dolphin](https://dolphin-emu.org/)
 
-Compatibility List: https://dolphin-emu.org/compat/
+Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/compat/)
 
-Updating this Emulator:
-* Use `Discover` (Shopping Bag icon) to update Dolphin
+
 
 ***
 
@@ -60,30 +59,30 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Wii Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
 * ROM location (Gamecube): `Emulation/roms/gc` or `Emulation/roms/gamecube`
 * ROM location (Wii): `Emulation/roms/wii`
-   * No BIOS are required to play Gamecube or Wii ROMs
+    * No BIOS are required to play Gamecube or Wii ROMs
 * Dolphin does not need any additional BIOS files to run
 * Saves (Wii):
-   * Symlink: `Emulation/saves/dolphin/Wii`
-   * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Wii`
+    * Symlink: `Emulation/saves/dolphin/Wii`
+    * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Wii`
 * Saves (Gamecube):
-   * Symlink: `Emulation/saves/dolphin/GC`
-   * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC`
+    * Symlink: `Emulation/saves/dolphin/GC`
+    * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC`
 * Savestates (Wii):
-   * Symlink: `Emulation/saves/dolphin/StateSaves`
-   * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
+    * Symlink: `Emulation/saves/dolphin/StateSaves`
+    * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
 * Savestates (Gamecube):
-   * Symlink: `Emulation/saves/dolphin/StateSaves`
-   * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
+    * Symlink: `Emulation/saves/dolphin/StateSaves`
+    * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
 * Gamecube BIOS (Optional): `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/IPL.bin`
-   * After placing the `IPL.bin` here, you will need to:
-      1. Open the Dolphin emulator
-      2. Open the `Configuration` settings
-      3. Click the `Gamecube` tab 
-      4. uncheck `Skip Main Menu`
+    * After placing the `IPL.bin` here, you will need to:
+       1. Open the Dolphin emulator
+       2. Open the `Configuration` settings
+       3. Click the `Gamecube` tab 
+       4. uncheck `Skip Main Menu`
 * Wii Menu (Optional): Open the Dolphin emulator, click `Tools` at the top, click `Perform System Update`, select a Region
-   * To use: Click `Tools`, click `Load Wii System Menu...`
-   * The Wii Menu is not required to play Wii ROMs
-   * For further reading: https://wiki.dolphin-emu.org/index.php?title=Wii_Menu
+    * To use: Click `Tools`, click `Load Wii System Menu...`
+    * The Wii Menu is not required to play Wii ROMs
+    * For further reading: https://wiki.dolphin-emu.org/index.php?title=Wii_Menu
 
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.  
@@ -110,7 +109,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 **How to Launch Dolphin in Desktop Mode**
 
 * Launch `Dolphin Emulator` (Blue Dolphin Icon) from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar)
-   * Icon: <img src="https://user-images.githubusercontent.com/108900299/195756381-6fec2182-e673-465a-ac7b-76cc22598d6d.png" height="25"> 
+    * Icon: <img src="https://user-images.githubusercontent.com/108900299/195756381-6fec2182-e673-465a-ac7b-76cc22598d6d.png" height="25"> 
 * Launch the script from `Emulation/tools/launchers`, `dolphin-emu.sh`
 * Launch the emulator from `Steam` after adding it via the `Emulators` parser in `Steam ROM Manager`
 
@@ -180,7 +179,9 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Wiimote with No Attachment and Touchpad Support
 * Wii Classic Controller
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+**Note:** 
+
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -199,7 +200,7 @@ Gyro for Dolphin requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed vi
 
 Gyro for Dolphin is not mapped out of the box. You will need to open the Dolphin emulator and configure gyro controls after installing SteamDeckGyroDSU. 
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#steamdeckgyrodsu to learn how to install and utilize SteamDeckGyroDSU. 
+Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU.  
 
 
 ***
@@ -207,7 +208,7 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#stea
 ### How to Optimize Performance (Power Tools)
 [Back to the Top](#dolphin-table-of-contents)
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
+Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.
 
 ***
 
@@ -229,7 +230,7 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 M3U files can be used to manage multiple discs for Dolphin. With the `Change Discs Automatically` option toggled (turned on by default with EmuDeck), Dolphin will automatically switch discs in combination with an M3U file. 
 
-Learn how to create an M3U File: https://github.com/dragoonDorise/EmuDeck/wiki/file-management#how-to-manage-roms-with-multiple-discs. 
+[Learn how to create an M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file) 
 
 
 ***
@@ -244,10 +245,10 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 1. Open the Dolphin emulator
 2. Open the `Controller` settings
 3. For each controller you are using: 
-   1. Gamecube: To the right of each Port # under `Gamecube Controllers`, enable `Standard Controller`
-      1. <img src="https://user-images.githubusercontent.com/108900299/210123946-d7c6a1e8-2cff-420d-b51b-0650327d4525.png" height="300">
-   2. Wii: To the right of each Port # under `Wii Remotes`, enable `Emulated Wii Remote`
-      1. <img src="https://user-images.githubusercontent.com/108900299/210123969-b8bd7928-ef20-4f8f-a5bf-00285f4d2e8f.png" height="300">
+    1. Gamecube: To the right of each Port # under `Gamecube Controllers`, enable `Standard Controller`
+        1. <img src="https://user-images.githubusercontent.com/108900299/210123946-d7c6a1e8-2cff-420d-b51b-0650327d4525.png" height="300">
+    2. Wii: To the right of each Port # under `Wii Remotes`, enable `Emulated  Wii Remote`
+        1. <img src="https://user-images.githubusercontent.com/108900299/210123969-b8bd7928-ef20-4f8f-a5bf-00285f4d2e8f.png" height="300">
 
 ***
 ### How To Install Custom Textures
@@ -257,22 +258,21 @@ Here's how to install custom textures for Dolphin:
 
 1. Open the Dolphin emulator, right click the game you would like to install custom textures for, click `Properties`, click the `Info` tab, note down the `GameID`.
 2. In the Dolphin emulator, click `Graphics` in the top right (or `Options` > `Graphic Settings`), click `Advanced`, make sure `Load Custom Textures` and `Prefetch Custom Textures` are checked. 
-   * Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/196001664-b2265732-e7e1-41b8-9052-9af087a2dbd3.png" height="300">
+    * Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/196001664-b2265732-e7e1-41b8-9052-9af087a2dbd3.png" height="300">
 3. Open `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Textures`
-   * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click "view hidden files" to see these folders.  
-   * If the `Load` and `Textures` folder do not exist, create them.
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click "view hidden files" to see these folders.  
+    * If the `Load` and `Textures` folder do not exist, create them.
 4. In the `Textures` folder from Step 2, create a folder matching the first 3 characters of the `GameID` from Step 1.
-   * Example: `Pokémon XD: Gale of Darkness`
-      * Original Game ID: `GXXP01` (PAL Region)
-      * Folder Name: `GXX`  
+    * Example: `Pokémon XD: Gale of Darkness`
+       * Original Game ID: `GXXP01` (PAL Region)
+       * Folder Name: `GXX`  
 5. Put your texture files directly into this folder.
 6. Your texture pack should now be installed. 
-   * If the game crashes with custom textures, it is likely too demanding for the Steam Deck. You can turn off `Prefetch Custom Textures` as a workaround, but performance will still take a hit. 
+    * If the game crashes with custom textures, it is likely too demanding for the Steam Deck. You can turn off `Prefetch Custom Textures` as a workaround, but performance will still take a hit. 
 
 For a visual, watch the following GIF:
 
-<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/cf5594f726fed6af2eecf9d4e4c1746018c66e51/GIFs/How%20to%20Install%20Custom%20Textures%20for%20Dolphin.gif" height="400">
-
+<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/cf5594f726fed6af2eecf9d4e4c1746018c66e51/GIFs/How%20to%20Install%20Custom%20Textures%20for%20Dolphin.gif?raw=true"/>
 
 ***
 
@@ -282,13 +282,14 @@ For a visual, watch the following GIF:
 **Preface** 
 
 1. This section goes over how to create a Dolphin controller profile and set it for a specific game. However, you can use this profile for any Gamecube/Wii game. While in game, you can use the following hotkeys to cycle through profiles: 
-   1. Wii: `Select` + tilt the `Left Joystick` `Left` or `Right`
-   2. Gamecube: `Select` + tilt the `Left Joystick` `Up` or `Down
+     1. Wii: `Select` + tilt the `Left Joystick` `Left` or `Right`
+     2. Gamecube: `Select` + tilt the `Left Joystick` `Up` or `Down
 2. EmuDeck currently comes with 6 profiles for Wii and 2 profiles for Gamecube. You can use these as a base to create a profile for your game of choice, using this section's tutorial. 
-   1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
-   2. Wii: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote
-   3. Gamecube: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad
-3. **Warning:** Creating too many controller configurations may make it difficult to cycle through and pick the one you would like to use. 
+     1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
+     2. Wii: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote
+     3. Gamecube: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad
+
+**Warning:** Creating too many controller configurations may make it difficult to cycle through and pick the one you would like to use. 
 
 ***
 
@@ -296,26 +297,27 @@ For a visual, watch the following GIF:
 
 1. Open the Dolphin emulator, click `Options` at the top, click `Controller Settings`.
 2. Select a system:
-   1. For Gamecube: Click `Configure` to the right of `Port 1 Standard Controller`
-   2. For Wii: Click `Configure` to the right of `Wii Remote 1 Emulated Wii Remote`
-   3. <img src="https://user-images.githubusercontent.com/108900299/196016641-eb5d4e25-048e-480e-8c06-50767f3a3542.png" height="300">
+    1. For Gamecube: Click `Configure` to the right of `Port 1 Standard Controller`
+    2. For Wii: Click `Configure` to the right of `Wii Remote 1 Emulated Wii Remote`
+    3. <img src="https://user-images.githubusercontent.com/108900299/196016641-eb5d4e25-048e-480e-8c06-50767f3a3542.png" height="300">
 3. On this screen, configure your controllers however you like. 
 4. After you have finished configuring your controls, in the top right under `Profile`, enter the profile name you would like to use. 
 5. Click `Save` to the right.
-   1. <img src="https://user-images.githubusercontent.com/108900299/196016662-edbef7c2-5e3e-4280-8efb-d1a9eda9df59.png" height="300">
-   2. I named my profile `EXAMPLE`
+    1. <img src="https://user-images.githubusercontent.com/108900299/196016662-edbef7c2-5e3e-4280-8efb-d1a9eda9df59.png" height="300">
+    2. I named my profile `EXAMPLE`
 6. Close out of the `Controller Settings` menu. 
 7. To use this profile, choose one of the following methods:
-   1. Set it for a specific game: #how-to-set-dolphin-controller-profiles-on-a-per-game-basis
-   2. Select the profile in game, by tilting the `Left Joystick`, `Left` or `Right` (For Wii) or `Up` or `Down` (For Gamecube), until your profile name appears in the top left. 
-      1. View the full list of Dolphin hotkeys here: [Hotkeys](#dolphin-hotkeys)
+    1. Set it for a specific game: #how-to-set-dolphin-controller-profiles-on-a-per-game-basis
+    2. Select the profile in game, by tilting the `Left Joystick`, `Left` or `Right` (For Wii) or `Up` or `Down` (For Gamecube), until your profile name appears in the top left. 
+        1. View the full list of Dolphin hotkeys here: [Hotkeys](#dolphin-hotkeys)
 
 ***
 
 ### How to Share Your Dolphin Controller Profile
 [Back to the Top](#dolphin-table-of-contents)
 
-Refer to https://github.com/dragoonDorise/EmuDeck/wiki/community-creations#sharing-dolphin-profiles, for instructions and a page to collect Dolphin profiles. 
+[How to Share Your Dolphin Controller Profile](../../other/steamos/community-creations.md#how-to-share-dolphin-profiles)
+
 
 ***
 
@@ -323,23 +325,23 @@ Refer to https://github.com/dragoonDorise/EmuDeck/wiki/community-creations#shari
 [Back to the Top](#dolphin-table-of-contents)
 
 1. Choose a controller profile (use one of the following methods): 
-   1. Download a controller profile with an `.ini` extension type
-      1. View community layouts: https://github.com/dragoonDorise/EmuDeck/wiki/community-creations#dolphin
-   2. Use one of EmuDeck's included layouts
-      1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
-      2. Wii: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote
-      3. Gamecube: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad
-   3. Create a controller profile in the Dolphin GUI
-      1. Tutorial: [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
+    1. Download a controller profile with an `.ini` extension type
+        1. [View community layouts](../../other/steamos/community-creations.md#community-dolphin-profiles)
+    2. Use one of EmuDeck's included layouts
+        1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
+        2. Wii: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote
+        3. Gamecube: https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad
+    3. Create a controller profile in the Dolphin GUI
+        1. Tutorial: [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
 2. (Optional) Place your controller profile in either the Gamecube or the Wii Profile folder
-   1. Skip this step if you are using an EmuDeck included layout or a profile you created in the Dolphin GUI
-   2. Gamecube Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
-   3. Wii Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
+    1. Skip this step if you are using an EmuDeck included layout or a profile you created in the Dolphin GUI
+    2. Gamecube Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
+    3. Wii Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
 3. Open the Dolphin emulator
 4. Right click the game you would like to use this controller profile for, and click `Properties`
 5. On the `Game Config` tab, press the `Editor` sub-tab
 6. Under `User Config`, enter a controller profile using the following template:
-   * For `SelectedProfileName`, only type the name of the profile, not the file path to the profile
+    * For `SelectedProfileName`, only type the name of the profile, not the file path to the profile
 
 **Wii:**
 ``` 
@@ -368,16 +370,13 @@ For additional information, read Dolphin's `GameINI (Controller Settings)` Wiki 
 4. Click the `Editor` tab
 5. Under `User Config`, enter the following
 
-```
-[Controls]
-PadType0 = 6
-PadProfile1 = GC_base
-WiimoteSource0 = 0
-```
-<img src="https://user-images.githubusercontent.com/108900299/213080943-80187386-77db-4918-b8d8-74a648b2f422.png" height="300">
+         [Controls]
+         PadType0 = 6
+         PadProfile1 = GC_base
+         WiimoteSource0 = 0
 
 6. Click OK and your Wii game should now be using a Gamecube controller profile
-
+    * <img src="https://user-images.githubusercontent.com/108900299/213080943-80187386-77db-4918-b8d8-74a648b2f422.png" height="300">
 
 **Multiplayer**
 
@@ -408,7 +407,7 @@ For additional information, read Dolphin's `GameINI (Controller Settings)` Wiki 
 3. Click `Properties`
 4. Click the `Editor` tab
 5. Under `User Config`, add your configurations, use: https://wiki.dolphin-emu.org/index.php?title=GameINI for a full list
-   1. You also need to include the headers. For example, any settings under the `[Core]` section need to include `[Core]` preceding the respective setting(s)
+    1. You also need to include the headers. For example, any settings under the `[Core]` section need to include `[Core]` preceding the respective setting(s)
 
 Example, to use OpenGL for only Super Paper Mario:
 
@@ -443,29 +442,29 @@ AspectRatio = 2
 If your Riivolution patch includes additional content, follow the below steps. If not, skip to the next section. 
 
 1. Place your Riivolution content folder in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load`
-   * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 
 **This may not apply to all Riivolution patches, read any attached instructions or the associated website for further help.**
 
 #### Riivolution Patch - XML File
 
 1. Place your Riivolution patch file in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Riivolution/`
-   * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
-   * A Riivolution patch file is generally a `.xml` file
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * A Riivolution patch file is generally a `.xml` file
 2. Open the Dolphin Emulator 
 3. Right click the base game and select `Start with Riivolution patches...`
-   * <img src="https://user-images.githubusercontent.com/108900299/209005481-c5f7922b-e5b4-4f94-96ab-e3f281648f5d.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/209005481-c5f7922b-e5b4-4f94-96ab-e3f281648f5d.png" height="300">
 4. Click `Open Riivolution XML...` and select a Riivolution patch
 5. Click `Save as Preset...`
-   * <img src="https://user-images.githubusercontent.com/108900299/209005702-5af85a1e-52cb-4e6a-999b-5a5210acfecc.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/209005702-5af85a1e-52cb-4e6a-999b-5a5210acfecc.png" height="300">
 6. Name the preset with a `.json` file extension
-   * The file name of the JSON file is up to you. However, it is recommended you match the JSON file as closely as possible to the Riivolution patch name so Steam ROM Manager and EmulationStation-DE can scrape the appropriate game art or game info
-   * <img src="https://user-images.githubusercontent.com/108900299/209005860-46fa8e50-97d8-4174-ad04-350928e3d789.png" height="300">
+    * The file name of the JSON file is up to you. However, it is recommended you match the JSON file as closely as possible to the Riivolution patch name so Steam ROM Manager and EmulationStation-DE can scrape the appropriate game art or game info
+    * <img src="https://user-images.githubusercontent.com/108900299/209005860-46fa8e50-97d8-4174-ad04-350928e3d789.png" height="300">
 7. Save your preset file with a `.json` file extension to `Emulation/roms/wii`
-   * <img src="https://user-images.githubusercontent.com/108900299/236645287-aceeabe8-c7dc-4770-af5d-ea32ac6aab8f.png" height="300">
-   * If the bottom left box to append `.json` does not exist, you can instead type the full name and add `.json` manually at the end of the full name. For example, `Newer Super Mario Bros. Wii`, type `Newer Super Mario Bros. Wii.json` into the box
+    * <img src="https://user-images.githubusercontent.com/108900299/236645287-aceeabe8-c7dc-4770-af5d-ea32ac6aab8f.png" height="300">
+    * If the bottom left box to append `.json` does not exist, you can instead type the full name and add `.json` manually at the end of the full name. For example, `Newer Super Mario Bros. Wii`, type `Newer Super Mario Bros. Wii.json` into the box
 8. Your Riivolution patch will now be playable as a stand-alone game
-   * Parse it through Steam ROM Manager or play it through EmulationStation-DE
+    * Parse it through Steam ROM Manager or play it through EmulationStation-DE
 
 ***
 
@@ -480,9 +479,9 @@ If your Riivolution patch includes additional content, follow the below steps. I
 **Known Riivolution Patch Fixes**
 
 * Mario Kart Midnight
-   * Open the included `Mario Kart Midnight.xml` in a text editor and capitalize the `L` in `loader{$__region}.bin`
+    * Open the included `Mario Kart Midnight.xml` in a text editor and  capitalize the `L` in `loader{$__region}.bin`
 * Mario Kart Wii Deluxe
-   * Rename the included `mkwdx` folder to `MKWDX`
+    * Rename the included `mkwdx` folder to `MKWDX`
 
 
 ***
@@ -495,7 +494,7 @@ If your Riivolution patch includes additional content, follow the below steps. I
 1. In Desktop Mode, open Dolphin 
 1. Open the controller settings
 3. Under `Wii Remotes`, select `Real Wii Remote` under the drop-down list next to `Wii Remote 1` and check `Continuous Scanning` at the bottom of the screen
-   1. <img src="https://user-images.githubusercontent.com/108900299/211222098-c34d4652-4efc-4c40-b7bc-56c18a23ad7c.png" height="300">
+    1. <img src="https://user-images.githubusercontent.com/108900299/211222098-c34d4652-4efc-4c40-b7bc-56c18a23ad7c.png" height="300">
 4. Return to Game Mode
 5. Open a Wii game, and press `1` and `2` on the Wiimote at the same time
 
@@ -518,13 +517,14 @@ If your Riivolution patch includes additional content, follow the below steps. I
 
 1. Back up `/home/deck/.local/share/Steam/config/config.vdf`
 2. Exit out of Steam
-   * If Steam is not closed, any edits you make to `config.vdf` will be reverted
+    * If Steam is not closed, any edits you make to `config.vdf` will be reverted
 3. Right click `config.vdf`, click `Open with Kate`
 4. Add the following to the end of the file, on a new line before the final `}` and save
-```    
-"controller_blacklist"        "57e/0306,57e/0306,57e/0306,57e/0306"
-```  
-   * <img src="https://user-images.githubusercontent.com/1683513/223632945-8baa6102-ef9c-43b5-9199-faa608e1b654.png" width="800">
+    
+         "controller_blacklist"        "57e/0306,57e/0306,57e/0306,57e/0306"
+ 
+   
+    * <img src="https://user-images.githubusercontent.com/1683513/223632945-8baa6102-ef9c-43b5-9199-faa608e1b654.png" width="800">
 
 5. Make sure `Wii Emulator Mode` is toggled on the Mayflash DolphinBar by clicking the `MODE` button (LED 4)
 

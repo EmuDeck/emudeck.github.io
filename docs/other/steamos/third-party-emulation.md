@@ -122,7 +122,7 @@ export PATH=$PATH:$HOME/.local/podman/bin
 
 `CannonBall is a souped-up game engine for the OutRun arcade game.`
 
-Source: https://github.com/djyt/cannonball
+Source: [https://github.com/djyt/cannonball](https://github.com/djyt/cannonball)
 
 #### Installing Prerequisites
 
@@ -180,14 +180,14 @@ No particular reconfiguration is needed for the Steam Deck. The game will defaul
 
 `OpenGOAL is an unofficial port of Jak and Daxter: The Precursor Legacy for Windows and Linux.`
 
-Source: https://opengoal.dev/
+Source: [https://opengoal.dev/](https://opengoal.dev/)
 
 #### Setting up OpenGOAL
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create an `OpenGOAL` folder
-2. Download the latest `tar.gz` from here: https://github.com/open-goal/jak-project/releases/tag/v0.1.32 and place it in the folder you created in Step 1
+2. Download the latest `tar.gz` from here: [https://github.com/open-goal/jak-project/releases](https://github.com/open-goal/jak-project/releases) and place it in the folder you created in Step 1
    * Example: Download `opengoal-linux-v0.1.32.tar.gz `
        * The version number may be different depending on when you are reading this
 3. Right click the `tar.gz` file and click `Extract archive here`
@@ -209,7 +209,7 @@ Source: https://opengoal.dev/
 
 **Note:** After placing your custom textures, you will need to run the extractor again, some steps will be identical to the previous section. 
 
-1. Download the custom textures from the pinned comment on this Youtube Video: https://www.youtube.com/watch?v=lX1gBO1INZ4 to your `/home/deck/Downloads` folder
+1. Download the custom textures from the pinned comment on this Youtube Video: [https://www.youtube.com/watch?v=lX1gBO1INZ4](https://www.youtube.com/watch?v=lX1gBO1INZ4) to your `/home/deck/Downloads` folder
 2. Right click `texture_replacements.zip` and click `Extract archive here, autodetect subfolder`
 3. Move the extracted `texture_replacements` folder to `/home/deck/Applications/OpenGOAL/data`
 4. In `/home/deck/Applications/OpenGOAL`, right click, click `Open Terminal Here`
@@ -231,7 +231,7 @@ Source: https://opengoal.dev/
 
 `An "HD" version of Super Mario 64 based on the rendered advertisements and art published in Nintendo Power.`
 
-Source: https://github.com/Render96/Render96ex/wiki
+Source: [https://github.com/Render96/Render96ex/wiki](https://github.com/Render96/Render96ex/wiki)
 
 When you include the HD textures as part of this guide the whole Render96ex install will need 1.1GB of storage. This compares to less than 0.1 GB for the SM64Plus version of the game.
 
@@ -262,7 +262,7 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 
 #### How to Install Custom Models
 
-1. Download the latest model pack: https://github.com/Render96/ModelPack/releases to `/home/deck/Downloads`
+1. Download the latest model pack: [https://github.com/Render96/ModelPack/releases](https://github.com/Render96/ModelPack/releases) to `/home/deck/Downloads`
 2. Right click `Render96_DynOs_v3.2.7z` and click `Extract archive here, autodetect subfolder`
 3. Move the newly extracted `Render96_DynOs...` folder to `/home/deck/Applications/Distrobox/Render96ex/build/us_pc/dynos/packs`
 4. To enable custom models, in game, press `Start`, press `L2`, select `Model Packs` and enable `Render96DynOs...`
@@ -289,7 +289,7 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 
 An unofficial PC port of The Legend of Zelda Ocarina of Time
 
-Source: https://www.shipofharkinian.com/
+Source: [https://www.shipofharkinian.com/](https://www.shipofharkinian.com/)
 
 #### Supported Legend of Zelda: Ocarina of Time ROMs
 
@@ -320,7 +320,7 @@ sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
 **Note:** The following folder locations are recommendations. You can choose a different folder location.
 
 1. In `/home/deck/Applications`, create a `ShipofHarkinian` folder
-2. Download the latest version of `Ship of Harkinian`: https://www.shipofharkinian.com/ to the folder you created in Step 1
+2. Download the latest version of `Ship of Harkinian`: [https://www.shipofharkinian.com/](https://www.shipofharkinian.com/) to the folder you created in Step 1
    * Download links are only available from their Discord
    * Download the `Linux / SteamDeck (Perfomance Build)`
 3. Right click the downloaded zip file and click `Extract archive here, detect subfolder`
@@ -340,7 +340,7 @@ sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
 
 __This list is not exhaustive__
 
-* https://gamebanana.com/games/16121
+* [https://gamebanana.com/games/16121](https://gamebanana.com/games/16121)
 
 **How to Install Custom Textures and Mods**
 
@@ -362,7 +362,7 @@ __This list is not exhaustive__
 
 `SM64Plus is a fork of sm64-port that focuses on customizability and aims to add features that not only fix some of the issues found in the base game but also enhance the gameplay overall with extra options.`
 
-Source: https://github.com/MorsGames/sm64plus
+Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm64plus)
 
 #### Installing Prerequisites
 
@@ -394,7 +394,7 @@ Source: https://github.com/MorsGames/sm64plus
 #### How to Fix the Missing HUD UI textures
 
 1. Download attached `.sh` file
-   * Link: https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh
+   * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh)
    * Right click anywhere on the page, click `Save Page As`
    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
@@ -434,7 +434,7 @@ Source: https://github.com/MorsGames/sm64plus
 
 `A reverse engineered clone of Super Mario Bros.`
 
-Source: https://github.com/snesrev/smw/tree/smb1
+Source: [https://github.com/snesrev/smw/tree/smb1](https://github.com/snesrev/smw/tree/smb1)
 
 #### Installing Prerequisites
 
@@ -472,7 +472,7 @@ Source: https://github.com/snesrev/smw/tree/smb1
 #### How to Play Super Mario Bros
 
 1. Download attached `.sh` file
-   * Link: https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/bf8010ff9a055acb478462c5da5b5329e4a3fca4/smb1.sh
+   * Link: [https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/bf8010ff9a055acb478462c5da5b5329e4a3fca4/smb1.sh](https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/bf8010ff9a055acb478462c5da5b5329e4a3fca4/smb1.sh)
    * Right click anywhere on the page, click `Save Page As`
    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
@@ -505,7 +505,7 @@ Source: https://github.com/snesrev/smw/tree/smb1
 
 `A reverse engineered clone of Super Mario Bros: The Lost Levels.`
 
-Source: https://github.com/snesrev/smw
+Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 #### Installing Prerequisites
 
@@ -543,7 +543,7 @@ Source: https://github.com/snesrev/smw
 #### How to Play Super Mario Bros: The Lost Levels
 
 1. Download attached `.sh` file
-   * Link: https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/bda47aaf27d35501c2c32f95d2b3cfe811cfb345/smbll.sh
+   * Link: [https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/bda47aaf27d35501c2c32f95d2b3cfe811cfb345/smbll.sh](https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/bda47aaf27d35501c2c32f95d2b3cfe811cfb345/smbll.sh)
    * Right click anywhere on the page, click `Save Page As`
    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
@@ -573,7 +573,7 @@ Source: https://github.com/snesrev/smw
 
 `A reverse engineered clone of Super Mario World.`
 
-Source: https://github.com/snesrev/smw
+Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 #### Installing Prerequisites
 
@@ -624,7 +624,7 @@ Source: https://github.com/snesrev/smw
 
 `A reverse engineered clone of Super Metroid.`
 
-Source: https://github.com/snesrev/sm
+Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 
 #### Installing Prerequisites
 
@@ -668,9 +668,9 @@ Source: https://github.com/snesrev/sm
 
 A port of `Super Metroid Redux`: https://www.romhacking.net/hacks/4963/, using `a reverse engineered clone of Super Metroid.`
 
-Source: https://github.com/testyourmine/sm-redux
+Source: [https://github.com/testyourmine/sm-redux](https://github.com/testyourmine/sm-redux)
 
-Source: https://github.com/snesrev/sm
+Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 
 #### Installing Prerequisites
 
@@ -681,8 +681,8 @@ Source: https://github.com/snesrev/sm
 
 #### Patching Super Metroid Redux
 
-1. Download the patch here: https://www.romhacking.net/hacks/4963/
-2. Use the romhacking website here to patch your ROM: https://www.romhacking.net/patch/ 
+1. Download the patch here: [https://www.romhacking.net/hacks/4963/](https://www.romhacking.net/hacks/4963/)
+2. Use the romhacking website here to patch your ROM: [https://www.romhacking.net/patch/](https://www.romhacking.net/patch/)
 
 #### Setting Up Super Metroid Redux
 
@@ -719,7 +719,7 @@ Source: https://github.com/snesrev/sm
 
 `A reverse engineered clone of Zelda 3 - A Link to the Past.`
 
-Source: https://github.com/snesrev/zelda3
+Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 
 #### Installing Prerequisites
 
@@ -768,27 +768,27 @@ Source: https://github.com/snesrev/zelda3
 3. Remove the `#` at the beginning of this line: `# LinkGraphics = sprites-gfx/snes/zelda3/link/sheets/megaman-x.2.zspr`
 4. Replace `megaman-x.2.zspr` with the sprite of your choice
 
-For a full list of sprites, visit: http://alttp.mymm1.com/sprites/
+For a full list of sprites, visit: [http://alttp.mymm1.com/sprites/](http://alttp.mymm1.com/sprites/)
 
 ##### To find the file name to place in zelda3.ini
 
-1. On http://alttp.mymm1.com/sprites/, right click the link above the sprite you would like to use, click `Copy Link`
+1. On [http://alttp.mymm1.com/sprites/](http://alttp.mymm1.com/sprites/), right click the link above the sprite you would like to use, click `Copy Link`
 2. In a new tab, paste the URL
    * If you press enter, it will download the sprite
 3. The sprite file name will be at the end of the URL
-4. Example (Crewmate): https://alttpr-assets.s3.us-east-2.amazonaws.com/crewmate.2.zspr
+4. Example (Crewmate): [https://alttpr-assets.s3.us-east-2.amazonaws.com/crewmate.2.zspr](https://alttpr-assets.s3.us-east-2.amazonaws.com/crewmate.2.zspr)
 5. In `zelda3.ini`, replace `megaman-x.2.zspr` at the end: `LinkGraphics = sprites-gfx/snes/zelda3/link/sheets/megaman-x.2.zspr` with `crewmate2.zspr`
 6. Example: `LinkGraphics = sprites-gfx/snes/zelda3/link/sheets/crewmate2.zspr`
 
 
 #### How to Enable MSU1 CD Soundtrack Files
 
-Choose a soundtrack from: https://www.zeldix.net/t791-the-legend-of-zelda-a-link-to-the-past
+Choose a soundtrack from: [https://www.zeldix.net/t791-the-legend-of-zelda-a-link-to-the-past](https://www.zeldix.net/t791-the-legend-of-zelda-a-link-to-the-past)
 
 **Example**
 
 
-1.  Download `Alternative New Soundtrack For Randomizers by JUD6MENT (updated: Sep 27, 2021)` from: https://www.zeldix.net/t791-the-legend-of-zelda-a-link-to-the-past to your `/home/deck/Downloads` folder
+1.  Download `Alternative New Soundtrack For Randomizers by JUD6MENT (updated: Sep 27, 2021)` from: [https://www.zeldix.net/t791-the-legend-of-zelda-a-link-to-the-past](https://www.zeldix.net/t791-the-legend-of-zelda-a-link-to-the-past) to your `/home/deck/Downloads` folder
 2. Right click `Zelda Alternative Soundtrack by JUD6MENT (update Sep-21-2021).zip`, click `Extract archive here, autodetect subfolder`
 3. Rename the newly extracted `Zelda Alternative Soundtrack by JUD6MENT (update Sep-21-2021)` folder to `msu`
    * `msu` is case sensitive
@@ -850,7 +850,7 @@ cd "/home/deck/Applications/Distrobox/sm"
 - [Super Mario 64 Plus](#super-mario-64-plus)
 
 1. Download attached `.sh` file
-   * Link: https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh
+   * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh)
    * Right click anywhere on the page, click `Save Page As`
    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
@@ -1017,15 +1017,14 @@ This section specifically applies to:
 ### BlueMaxima's Flashpoint
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-Link: https://gist.github.com/parkerlreed/4bd1f5fa38f7ffa72f9ceacb7d7f636d
+Link: [https://gist.github.com/parkerlreed/4bd1f5fa38f7ffa72f9ceacb7d7f636d](https://gist.github.com/parkerlreed/4bd1f5fa38f7ffa72f9ceacb7d7f636d)
 
 ***
 
 ### Hypseus Singe
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-Link: https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#hypseus-singe-daphne
-
+Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#hypseus-singe-daphne](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#hypseus-singe-daphne)
 
 ***
 
@@ -1040,7 +1039,7 @@ Prerequisites:
 
 #### Setting up Supermodel
 
-1. Download `Supermodel` from: https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE-DEV.md#arcade-and-neo-geo, under `Sega Model 3` to your `/home/deck/Downloads` folder
+1. Download `Supermodel` from: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE-DEV.md#arcade-and-neo-geo](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE-DEV.md#arcade-and-neo-geo), under `Sega Model 3` to your `/home/deck/Downloads` folder
 2. Right click `Supermodel_2022-10-07.tar.gz`, click `Extract > Extract archive here`
 3. Move the `Config` and `NVRAM` folders from the extracted folder in Step 2 to `Emulation/roms/model3`
 4. In `/home/deck/Applications`, create a `Supermodel` folder
@@ -1057,7 +1056,7 @@ Prerequisites:
 ### Super Smash Bros: Project+
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-Link: https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21
+Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21](https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21)
 
 *** 
 
@@ -1072,7 +1071,7 @@ Link: https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21
 
 "It is an unofficial remake of the 1991 Game Boy game Metroid II: Return of Samus in the style of Metroid: Zero Mission (2004)."
 
-Source: https://en.wikipedia.org/wiki/AM2R
+Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
 
 #### How to Play AM2R
 
@@ -1104,9 +1103,9 @@ Source: https://en.wikipedia.org/wiki/AM2R
 
 1. In `/home/deck/Games`, create a `PokeMMO` folder
 2. In `/home/deck/Games/PokeMMO`, create a `jdk` folder
-3. Download Java OpenJDK: https://jdk.java.net/19/ to `/home/deck/Games/PokeMMO`
+3. Download Java OpenJDK: [https://jdk.java.net/19/](https://jdk.java.net/19/) to `/home/deck/Games/PokeMMO`
     * Download `Linux / x64 	tar.gz (sha256) 	195931906`
-4. Download PokeMMO: https://pokemmo.com/downloads/linux/ to `/home/deck/Games/PokeMMO`
+4. Download PokeMMO: [https://pokemmo.com/downloads/linux/](https://pokemmo.com/downloads/linux/) to `/home/deck/Games/PokeMMO`
     * Under `Other Distributions`, click `Download the Client`
 5. Extract `PokeMMO-Client.zip` in `/home/deck/Games/PokeMMO`
     * <img src="https://user-images.githubusercontent.com/108900299/215299506-ef39e81d-989a-4f79-9865-4b0fbe8dba42.png" height="300">
@@ -1118,7 +1117,7 @@ Source: https://en.wikipedia.org/wiki/AM2R
 #### How to add PokeMMO to Steam
 
 1. Download attached `.sh` file
-   * Link: https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/c81ef659754832fb20295003d166e44d323aeae4/PokeMMO.sh
+   * Link: [https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/c81ef659754832fb20295003d166e44d323aeae4/PokeMMO.sh](https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/c81ef659754832fb20295003d166e44d323aeae4/PokeMMO.sh)
    * Right click anywhere on the page, click `Save Page As`
    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`

@@ -2,16 +2,13 @@
 
 ***
 
-Website: https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime
+Website: [https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime](https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime)
 
-Github: https://github.com/shiiion/metroid-prime-source-mod/releases/
+Github: [https://github.com/shiiion/metroid-prime-source-mod/releases/](https://github.com/shiiion/metroid-prime-source-mod/releases/)
 
-PrimeHack Wiki: https://github.com/shiiion/dolphin/wiki
+PrimeHack Wiki: [https://github.com/shiiion/dolphin/wiki](https://github.com/shiiion/dolphin/wiki)
 
-PrimeHack FAQ: https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions
-
-Updating this Emulator:
-* Use `Discover` (Shopping Bag icon) to update PrimeHack
+PrimeHack FAQ: [https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions](https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questions)
 
 ***
 
@@ -155,7 +152,9 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 | Decrease IR         | `Start` + `DPAD Down`  |
 | Graphics Toggle     | `Start` + `L3`         |
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+**Note:** 
+
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 ## PrimeHack Tips and Tricks
 [Back to the Top](#primehack-table-of-contents)
@@ -207,6 +206,6 @@ Here's how to install custom textures for PrimeHack:
 
 You need to move your `Metroid Prime Trilogy` ROM to `Emulation/roms/wii` and choose an alternative emulator for the ROM in EmulationStation-DE.
 
-For further instructions, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/EmulationStation-DE#how-to-select-a-different-emulator-on-a-per-game-basis. 
+For further instructions, refer to: [How to Select a Different Emulator on a Per Game Basis](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-on-a-per-game-basis). 
 
 ***

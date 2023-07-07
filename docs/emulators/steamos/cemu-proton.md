@@ -1,12 +1,12 @@
 # Cemu is a Wii U Emulator.
 
-Website: https://cemu.info/
+Website: [https://cemu.info/](https://cemu.info/)
 
-Github: https://github.com/cemu-project/Cemu
+Github: [https://github.com/cemu-project/Cemu](https://github.com/cemu-project/Cemu)
 
-Compatibility List: https://compat.cemu.info/
+Compatibility List: [https://compat.cemu.info/](https://compat.cemu.info/)
 
-**This page is for the Proton build of Cemu. EmuDeck includes the native build of Cemu as an optional install. If you choose to download the native version, both versions will remain installed. One quick way to tell the difference is to compare the two GUIs. For the Native version of Cemu, visit https://github.com/dragoonDorise/EmuDeck/wiki/Cemu-Native.**
+**This page is for the Proton build of Cemu. EmuDeck includes the native build of Cemu as an optional install. If you choose to download the native version, both versions will remain installed. One quick way to tell the difference is to compare the two GUIs. For the Native version of Cemu, visit [Cemu Native](../steamos/cemu-native.md).**
 
 Native Cemu: <img src="https://user-images.githubusercontent.com/108900299/226765451-f9e712cd-f6c5-4257-8821-8957f28b3745.png" height="300">
 
@@ -19,24 +19,23 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
 ## Cemu Proton Table of Contents
 
 1. [Getting started with Cemu](#getting-started-with-cemu)
-   - [Setting up Cemu Questionnaire](#setting-up-cemu-questionnaire)
-   - [Configuration](#cemu-proton-configuration)
-   - [The Dangers of Proton](#the-dangers-of-proton)
-   - [How to Update Cemu](#how-to-update-cemu)
-   - [How to Switch Between Cemu Versions](#how-to-switch-between-cemu-versions)
-   - [How to Launch Cemu in Desktop Mode](#how-to-launch-cemu-in-desktop-mode)
-   - [File Formats](#cemu-proton-file-formats)
-   - [How to Convert to WUA](#how-to-convert-to-wua)
-   - [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
-   - [Hotkeys](#cemu-proton-hotkeys)
-   - [Known Issues](#cemu-proton-known-issues)
-
+    - [Setting up Cemu Questionnaire](#setting-up-cemu-questionnaire)
+    - [Configuration](#cemu-proton-configuration)
+    - [The Dangers of Proton](#the-dangers-of-proton)
+    - [How to Update Cemu](#how-to-update-cemu)
+    - [How to Switch Between Cemu Versions](#how-to-switch-between-cemu-versions)
+    - [How to Launch Cemu in Desktop Mode](#how-to-launch-cemu-in-desktop-mode)
+    - [File Formats](#cemu-proton-file-formats)
+    - [How to Convert to WUA](#how-to-convert-to-wua)
+    - [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
+    - [Hotkeys](#cemu-proton-hotkeys)
+    - [Known Issues](#cemu-proton-known-issues)
 2. [Cemu Tips and Tricks](#cemu-tips-and-tricks)
-   - [How to Configure Gyro](#how-to-configure-gyro)
-   - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
-   - [How to Configure Multiplayer](#how-to-configure-multiplayer)
-   - [How to Use the Wii U Pro Controller Configuration](#how-to-use-the-wii-u-pro-controller-configuration)
-   - [How to Optimize Breath of the Wild](#how-to-optimize-breath-of-the-wild)
+    - [How to Configure Gyro](#how-to-configure-gyro)
+    - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
+    - [How to Use the Wii U Pro Controller Configuration](#how-to-use-the-wii-u-pro-controller-configuration)
+    - [How to Optimize Breath of the Wild](#how-to-optimize-breath-of-the-wild)
 
 ***
 
@@ -55,8 +54,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * `EmulationStation-DE`
 * `Nintendo WiiU - Cemu (.rpx) - Proton` or `Nintendo WiiU - Cemu (.wud, .wux, .wua) - Proton`
-   * Read the [File Formats](#file-formats) section to learn more about these various file formats
-   * `.rpx` and `.wua` are decrypted ROM formats
+    * Read the [File Formats](#file-formats) section to learn more about these various file formats
+    * `.rpx` and `.wua` are decrypted ROM formats
 * `Emulators`
 
 _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questionnaire](#setting-up-cemu-questionnaire). 
@@ -71,20 +70,20 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 **Setting up Cemu Questionnaire**
 
 1. Is your ROM encrypted? If yes, do you have a `keys.txt` in the right place with the correct keys for your games in the `keys.txt` file?
-   1. What are keys?: Keys are required to decrypt Wii U ROMs. Your `keys.txt` needs to contain keys (one key per game) that must be dumped from a Wii U console. Any other method of obtaining keys is piracy and cannot be discussed here or on the EmuDeck discord.
-   2. Which Cemu ROM Formats are encrypted?: [File Formats](#cemu-proton-file-formats)
-   3. `keys.txt` Location: `Emulation/roms/wiiu`
-   4. If your ROM is NUS Format (a folder with .h3 and .app files), you will need to decrypt your ROM into the Loadiine format (folder format with three subfolders - code, content, meta). Decryption methods cannot be discussed here or on the EmuDeck discord.
+    1. What are keys?: Keys are required to decrypt Wii U ROMs. Your `keys.txt` needs to contain keys (one key per game) that must be dumped from a Wii U console. Any other method of obtaining keys is piracy and cannot be discussed here or on the EmuDeck discord.
+    2. Which Cemu ROM Formats are encrypted?: [File Formats](#cemu-proton-file-formats)
+    3. `keys.txt` Location: `Emulation/roms/wiiu`
+    4. If your ROM is NUS Format (a folder with .h3 and .app files), you will need to decrypt your ROM into the Loadiine format (folder format with three subfolders - code, content, meta). Decryption methods cannot be discussed here or on the EmuDeck discord.
 2. Is your ROM decrypted?
-   1. Which Cemu ROM Formats are decrypted?: [File Formats](#cemu-proton-file-formats)
-   2. If your ROM is decrypted, place the ROM in `Emulation/roms/wiiu/roms`. Your game should launch without needing any keys. 
+    1. Which Cemu ROM Formats are decrypted?: [File Formats](#cemu-proton-file-formats)
+    2. If your ROM is decrypted, place the ROM in `Emulation/roms/wiiu/roms`. Your game should launch without needing any keys. 
 3. If you are getting an `Unable to launch game` error, did you place the `keys.txt` in the right place?
-   1. `keys.txt` Location: `Emulation/roms/wiiu`
+    1. `keys.txt` Location: `Emulation/roms/wiiu`
 4. If you placed the `keys.txt` in the right place, and your ROM is still not working, does your `keys.txt` have the correct key for the ROM?
-   1. Even if you placed a key for your game in `keys.txt`, you may still have the incorrect key. 
+    1. Even if you placed a key for your game in `keys.txt`, you may still have the incorrect key. 
 5. Did you transfer your ROM from another computer and did you compare file sizes to ensure it transferred successfully? 
 6. Did you turn on Proton in Steam? If yes, turn it off. If you are unsure, check.
-   1. How do I check?: [The Dangers of Proton](#the-dangers-of-proton)
+    1. How do I check?: [The Dangers of Proton](#the-dangers-of-proton)
 
 
 ***
@@ -96,31 +95,31 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 
 * Type of Emulator: Windows Executable Through Proton
 * Executable Location (Cemu Script):  `Emulation/tools/launchers/cemu.sh`
-   * Use `cemu.sh` to launch Cemu in desktop mode. 
+    * Use `cemu.sh` to launch Cemu in desktop mode. 
 * Executable Location (Windows EXE): `Emulation/roms/wiiu/cemu.exe`
-   * Do not launch Cemu in desktop mode with `cemu.exe`.
+    * Do not launch Cemu in desktop mode with `cemu.exe`.
 * Emulator Folders Location: `Emulation/roms/wiiu`
-   * Contains the following folders: 
-      * `controllerProfiles`
-      * `gameProfiles`
-      * `graphicPacks`
-      * `memorySearcher`
-      * `mlc01`
-      * `resources`
-      * `roms`
-      * `shaderCache`
+    * Contains the following folders: 
+       * `controllerProfiles`
+       * `gameProfiles`
+       * `graphicPacks`
+       * `memorySearcher`
+       * `mlc01`
+       * `resources`
+       * `roms`
+       * `shaderCache`
 * Cemu Configuration File: `Emulation/roms/wiiu/settings.xml`
 * Persistent Storage: `Emulation/roms/wiiu/mlc01/`
 * ROM Location: `Emulation/roms/wiiu/roms` 
-   * Note the second `roms` folder in the path. 
-   * Do not put DLC / update files in the ROM path. Refer to [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates) for DLC and updates. 
-   * Place your game ROMs here, **do not** install your game ROMs
+    * Note the second `roms` folder in the path. 
+    * Do not put DLC / update files in the ROM path. Refer to [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates) for DLC and updates. 
+    * Place your game ROMs here, **do not** install your game ROMs
 * `keys.txt` Location: `Emulation/roms/wiiu`
-   * The `keys.txt` is only necessary if the Wii U ROM is encrypted.
-   * `keys.txt` needs to contain keys (one key per game) that must be dumped from a Wii U console. Any other method of obtaining keys is piracy and cannot be discussed here or on the EmuDeck discord.
+    * The `keys.txt` is only necessary if the Wii U ROM is encrypted.
+    * `keys.txt` needs to contain keys (one key per game) that must be dumped from a Wii U console. Any other method of obtaining keys is piracy and cannot be discussed here or on the EmuDeck discord.
 * Saves Location:
-   * Symlink:  `Emulation/saves/Cemu/saves/`
-   * Target: `Emulation/roms/wiiu/mlc01/usr/save`
+    * Symlink:  `Emulation/saves/Cemu/saves/`
+    * Target: `Emulation/roms/wiiu/mlc01/usr/save`
 
 #### Works With
 * Steam ROM Manager
@@ -165,13 +164,13 @@ EmuDeck includes a feature that allows you to swap between Cemu 1.26 (stable), 1
 2. Click the `Manage Emulators` button
 3. Click `Update your Emulators`
 4. Click `Update AppImages and Binaries`
-   * This includes the Windows version of Cemu
+    * This includes the Windows version of Cemu
 5. Check `Nintendo WiiU Emu (Proton)`
-   * <img src="https://user-images.githubusercontent.com/108900299/236591838-e15dccf3-d001-423d-8357-a20e7b4ec028.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236591838-e15dccf3-d001-423d-8357-a20e7b4ec028.png" height="300">
 6. Select which Cemu version you would like to use
-   * <img src="https://user-images.githubusercontent.com/108900299/236591942-ff2bedcc-f45e-44bb-8216-edfb21967fb7.png" height="300">
-   * **IMPORTANT:** The GitHub link is the latest 2.x version of Cemu (version 2.0.36 in this image)
-   * **IMPORTANT:** The GitHub link/2.x version of Cemu is still the Windows version of Cemu, the link does not refer to the native version
+    * <img src="https://user-images.githubusercontent.com/108900299/236591942-ff2bedcc-f45e-44bb-8216-edfb21967fb7.png" height="300">
+    * **IMPORTANT:** The GitHub link is the latest 2.x version of Cemu (version 2.0.36 in this image)
+    * **IMPORTANT:** The GitHub link/2.x version of Cemu is still the Windows version of Cemu, the link does not refer to the native version
 
 ***
 
@@ -190,26 +189,26 @@ EmuDeck includes a feature that allows you to swap between Cemu 1.26 (stable), 1
 [Back to the Top](#cemu-proton-table-of-contents)
 
 * Loadiine (rpx)
-   * Three folders (code, content, meta) 
-   * Folders should be inside a folder with the name of the game. This game folder is placed in `Emulation/roms/wiiu/roms` (note the second `roms`)
-   * **Visual Reference:** <img src="https://user-images.githubusercontent.com/108900299/194643616-cdf86618-1869-4ba5-b95e-f14066e77ac1.png" width="300">
-   * Decrypted, does not require `keys.txt` 
+    * Three folders (code, content, meta) 
+    * Folders should be inside a folder with the name of the game. This game  folder is placed in `Emulation/roms/wiiu/roms` (note the second `roms`)
+    * **Visual Reference:** <img src="https://user-images.githubusercontent.com/108900299/194643616-cdf86618-1869-4ba5-b95e-f14066e77ac1.png" width="300">
+    * Decrypted, does not require `keys.txt` 
 * WUA (requires Cemu 1.27.1 or higher) 
-   * Decrypted, does not require `keys.txt`
+    * Decrypted, does not require `keys.txt`
 * WUX
-   * Encrypted, requires `keys.txt` in `Emulation/roms/wiiu/`
+    * Encrypted, requires `keys.txt` in `Emulation/roms/wiiu/`
 * WUD 
-   * Encrypted, requires `keys.txt` in `Emulation/roms/wiiu/`
+    * Encrypted, requires `keys.txt` in `Emulation/roms/wiiu/`
 * NUS
-   * A folder with `.h3` and `.app` files
-   * Encrypted, can be decrypted into a `Loadiine (rpx)` folder. Decryption methods cannot be discussed here or on the EmuDeck discord.
+    * A folder with `.h3` and `.app` files
+    * Encrypted, can be decrypted into a `Loadiine (rpx)` folder. Decryption methods cannot be discussed here or on the EmuDeck discord.
 
 **IMPORTANT:**
 
 * Some of these formats may require keys. We cannot help you get these. Place your `keys.txt` in: `Emulation/roms/wiiu`
-   * `keys.txt` needs to contain keys (one key per game) that must be dumped from a Wii U console. Any other method is piracy and cannot be discussed here or on the EmuDeck discord
+    * `keys.txt` needs to contain keys (one key per game) that must be dumped from a Wii U console. Any other method is piracy and cannot be discussed here or on the EmuDeck discord
 * Once you put ROMs in place, you must refresh the list of games by right clicking in the Cemu UI and clicking `Refresh Games List`
-   * Your game will not show up in Cemu until you refresh
+    * Your game will not show up in Cemu until you refresh
 * Refer to [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates), for DLC and Updates.
 
 ***
@@ -224,21 +223,21 @@ Here's how to convert to WUA:
 **Note:** 
 * Encrypted ROMs (WUX, WUD, NUS) cannot be converted to WUA
 * Cemu only supports WUA on 1.27 and above
-   * You cannot convert ROMs to WUA on 1.26, the stable build of Cemu
+    * You cannot convert ROMs to WUA on 1.26, the stable build of Cemu
 
 **Tutorial**
 
 1. Open Cemu
 2. Click `Tools`, `Title Manager`
-   1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/201561912-95b38755-1f00-405c-9f14-5d01fbbb5621.png" height="300">
+    1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/201561912-95b38755-1f00-405c-9f14-5d01fbbb5621.png" height="300">
 3. Either search for your ROM or find it in the list
 4. Select the ROM with the word `base` in the `Type` column
 5. Verify the pop-up prompt has your base game, your update, and your DLC files
-   1. You can either place these update and DLC files in `Emulation/roms/wiiu/roms` temporarily or install them: [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
+    1. You can either place these update and DLC files in `Emulation/roms/wiiu/roms` temporarily or install them: [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
 6. Wait, it may take a while
 7. Right click in Cemu, and click `Refresh Game List` to refresh your file path in Cemu to the newly created WUA file
 
-**GIF:** <img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/378de344c80bca61732515928cb5581086014b95/GIFs/How%20to%20Convert%20to%20WUA.gif" height="400">
+<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/378de344c80bca61732515928cb5581086014b95/GIFs/How%20to%20Convert%20to%20WUA.gif?raw=true"/>
 
 ***
 
@@ -257,12 +256,12 @@ DLC and Updates must be installed using the title manager. DLC and Updates are s
 
 1. Launch Cemu on Desktop Mode
 2. Click `File` in the top left, click `Install game title, update, or DLC...`
-   1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/201563073-05165165-6b0c-4b00-b0de-9a02e81de3fd.png" height="300">
+    1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/201563073-05165165-6b0c-4b00-b0de-9a02e81de3fd.png" height="300">
 3. Click `/` and either navigate to your SD card, `/run/media/mmcblk0p1` or to your home folder `/home/deck`
 4. Select the parent folder (named `<Game Name: Update ###>` or `<Game Name: DLC Y>`) of your update or DLC
 5. On the right, you will see `code`, `content`, and `meta`
 6. Select `meta`, and click `Open` in the bottom right
-   1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/201563629-e619e6d7-af95-4778-8ed5-e6cea5f7fa3d.png" height="300">
+    1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/201563629-e619e6d7-af95-4778-8ed5-e6cea5f7fa3d.png" height="300">
 7. Wait a moment, and your DLC or update will be successfully installed. Repeat for each DLC or update
 
 **GIF**: <img src="https://user-images.githubusercontent.com/108900299/201563676-12836b79-42b7-48d9-9756-f3edf2273534.gif" height="400">
@@ -307,10 +306,8 @@ Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input prof
 **Note:** 
 
 * The `Blow Mic` hotkey only works if you are using the gamepad. 
-
-For a tutorial on how to select Steam Input Profiles, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/hotkeys#how-to-select-a-steam-input-profile.
-
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -319,7 +316,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 
 * Xenoblade Chronicles X crashes on `1.27.1` with high frequency.
 * Cemu will fail to launch on versions `1.27.1` through `2.0-16` when there's no internet and Gyro is enabled.
-  * Cemu versions `2.0-17` and above will work offline with Gyro enabled. 
+   * Cemu versions `2.0-17` and above will work offline with Gyro enabled. 
 * The Legend of Zelda: Twilight Princess HD's missing UI graphics are fixed in `2.0.4`, but this version brings some performance regressions in other games. 
 
 ***
@@ -334,7 +331,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 
 Gyro for Cemu requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#steamdeckgyrodsu to learn how to install and utilize SteamDeckGyroDSU. 
+Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
 
 
 ***
@@ -342,7 +339,7 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#stea
 ### How to Optimize Performance (Power Tools)
 [Back to the Top](#cemu-proton-table-of-contents)
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
+Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
 
 ***
 
@@ -373,10 +370,10 @@ If you prefer to use the `Wii U Pro Controller` layout, you need to change the c
 1. Right click the game, click `Edit game profile`
 2. Click the `Controller` tab
 3. Change the profile to `Deck`
-   * <img src="https://user-images.githubusercontent.com/108900299/194134513-a4cd2bd3-aa54-4fd3-9d39-2afedd13016b.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/194134513-a4cd2bd3-aa54-4fd3-9d39-2afedd13016b.png" height="300">
 4. When you launch a game, one of the following two things will happen: 
-   * Some games will prompt you to choose a controller layout, select the `Wii U Pro Controller`
-   * Some games will automatically switch to the `Wii U Pro Controller` configuration
+    * Some games will prompt you to choose a controller layout, select the `Wii U Pro Controller`
+    * Some games will automatically switch to the `Wii U Pro Controller` configuration
 
 
 ***
@@ -390,13 +387,13 @@ If you prefer to use the `Wii U Pro Controller` layout, you need to change the c
 
 1. In Desktop Mode, open `Cemu (Proton)`
 2. Right click `Breath of the Wild`, click `Edit graphic packs`
-   * <img src="https://user-images.githubusercontent.com/108900299/236599757-fe0abb1f-2228-43f8-af5d-0aa0270df2cb.png" height="300">  
+    * <img src="https://user-images.githubusercontent.com/108900299/236599757-fe0abb1f-2228-43f8-af5d-0aa0270df2cb.png" height="300">  
 3. Click `Download latest community graphic packs`
 4. Click the `+` to the left of `Mods` 
 5. Check the box to the left of `FPS++`
 6. Change the mode to `Advanced Settings`
 7. Change the `Framerate Limit` to `40FPS`
-   * <img src="https://user-images.githubusercontent.com/108900299/236599850-75b95b08-252d-467a-b586-4c12f079bb12.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236599850-75b95b08-252d-467a-b586-4c12f079bb12.png" height="300">
 8. Close out of Cemu
 
 #### How to Configure Game Mode
@@ -407,7 +404,7 @@ If you prefer to use the `Wii U Pro Controller` layout, you need to change the c
 4. Click `Advanced View`
 5. Enable `Use per-game profile`
 6. Set the refresh rate to 40
-   * <img src="https://user-images.githubusercontent.com/108900299/236642316-5bafc264-6c82-479c-988a-b419515ee92b.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236642316-5bafc264-6c82-479c-988a-b419515ee92b.png" height="300">
 7. Read [How to Optimize Performance](#how-to-optimize-performance-power-tools) to learn how to use the battery menu and `Power Tools` to further increase performance for Breath of the Wild 
 
 After doing the steps in the above two sections, Breath of the Wild will run at a stable 40 FPS with temporary occasional hiccups in new areas while it compiles shaders.

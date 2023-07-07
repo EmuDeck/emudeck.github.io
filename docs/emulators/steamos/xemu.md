@@ -1,17 +1,16 @@
 # Xemu is an Original Xbox Emulator.
 
-Website: https://xemu.app/
+Website: [https://xemu.app/](https://xemu.app/)
 
-Github: https://github.com/mborgerson/xemu
+Github: [https://github.com/mborgerson/xemu](https://github.com/mborgerson/xemu)
 
-Compatibility List: https://xemu.app/#compatibility
+Compatibility List: [https://xemu.app/#compatibility](https://xemu.app/#compatibility)
 
-Xemu Wiki: https://xemu.app/docs/download/
+Xemu Wiki: [https://xemu.app/docs/download/](https://xemu.app/docs/download/)
 
-Quickstart Guide (Skip the HDD requirement, it is pre-included with EmuDeck): https://xemu.app/docs/required-files/
+Quickstart Guide (Skip the HDD requirement, it is pre-included with EmuDeck): [https://xemu.app/docs/required-files/](https://xemu.app/docs/required-files/)
 
-Updating this Emulator:
-* Use `Discover` (Shopping bag icon) to update Xemu
+
 
 ***
 
@@ -62,9 +61,9 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * ROM location: `Emulation/roms/xbox`
 * BIOS location: `Emulation/bios` (Do not create any additional folders in this folder for Xbox BIOS)
 * Required BIOS: 
-   * MCPX Boot ROM Image: `mcpx_1.0.bin`
-   * Flash ROM Image:  `Complex_4627v1.03.bin`
-   * These are EmuDeck's pre-configured file names, you must name the files exactly as written above. If you choose to provide a different Flash ROM Image, you can either rename the file or open Xemu and change the settings to point to the file directly. 
+    * MCPX Boot ROM Image: `mcpx_1.0.bin`
+    * Flash ROM Image:  `Complex_4627v1.03.bin`
+    * These are EmuDeck's pre-configured file names, you must name the files exactly as written above. If you choose to provide a different Flash ROM Image, you can either rename the file or open Xemu and change the settings to point to the file directly. 
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders. 
 
@@ -101,7 +100,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 [Back to the Top](#xemu-table-of-contents)
 
 * .iso (xiso formatted)
-   * [How to Convert ROMs to XISO Format](https://github.com/dragoonDorise/EmuDeck/wiki/Xemu#how-to-convert-roms-to-xiso-format)
+    * [How to Convert ROMs to XISO Format](#how-to-convert-roms-to-xiso-format)
 
 ***
 
@@ -122,7 +121,7 @@ This is likely due to a mismatch of MCPX and BIOS images, or a corrupt MCPX boot
 
 Try restarting Xemu. If you continue to get the message, your ISO may not be dumped in a compatible way. Try using extract-xiso to pack your ISO. 
 
-[How to Convert ROMs to XISO Format](https://github.com/dragoonDorise/EmuDeck/wiki/Xemu#how-to-convert-roms-to-xiso-format)
+[How to Convert ROMs to XISO Format](#how-to-convert-roms-to-xiso-format)
 
 ***
 
@@ -151,7 +150,7 @@ Try restarting Xemu. If you continue to get the message, your ISO may not be dum
 
 Instructions provided on website.
 
-**Link:** https://xiso.antangelo.com/
+**Link:** [https://xiso.antangelo.com/](https://xiso.antangelo.com/)
 
 **Note:**
 
@@ -163,7 +162,7 @@ Instructions provided on website.
 ##### Method 2: Use XDVDMulleter (Windows)
 [Back to the Top](#list-of-methods)
 
-Link: https://archive.org/details/xdvdmulleterv10.2beta
+Link: [https://archive.org/details/xdvdmulleterv10.2beta](https://archive.org/details/xdvdmulleterv10.2beta)
 
 ![1](https://user-images.githubusercontent.com/108900299/194170038-5b4f69ed-853c-4332-b9c5-00b43679b449.png)
 ![2](https://user-images.githubusercontent.com/108900299/194170057-95e650e2-7dfb-4dcc-99b8-f4e6b5aaf689.png)
@@ -179,7 +178,7 @@ Link: https://github.com/XboxDev/extract-xiso
 
 **Instructions**
 
-1. Go to the releases tab: https://github.com/XboxDev/extract-xiso/releases/tag/build-202204252159
+1. Go to the releases tab: [https://github.com/XboxDev/extract-xiso/releases/tag/build-202204252159](https://archive.org/details/xdvdmulleterv10.2beta)
 2. Download the release .ZIP
 3. Extract it somewhere on your computer
 4. Put the untrimmed Xbox .ISO in the same directory
@@ -198,25 +197,25 @@ Xemu's Tutorial: https://xemu.app/docs/disc-images/
 Note: Cannot be *built* on the Steam Deck, but can be built elsewhere and copied. Then, it is usable on Steam Deck.
 
 1. Enter these commands in your terminal
-```
-# Install dependencies
-# Example for Arch:
-sudo pacman -Syu build-essential cmake
 
-# Clone Repo
-git clone https://github.com/XboxDev/extract-xiso.git
+         # Install dependencies
+         # Example for Arch:
+         sudo pacman -Syu build-essential cmake
 
-# cd into directory
-cd extract-xiso
+         # Clone Repo
+         git clone https://github.com/XboxDev/extract-xiso.git
 
-# Create working directory
-mkdir build
-cd build
+         # cd into directory
+         cd extract-xiso
 
-# Build project
-cmake ..
-make
-```
+         # Create working directory
+         mkdir build
+         cd build
+
+         # Build project
+         cmake ..
+         make
+
 2. Put the untrimmed Xbox .ISO in the same directory
 3. Rename the .ISO to something without spaces like `game-redump.iso` (doesn't have to be this exact name)
 4. Navigate to the directory containing your .ISO
@@ -242,7 +241,7 @@ make
 
 **Note:** May not work on Steam Deck, needs testing.
 
-Refer to Xemu's wiki for instructions, https://xemu.app/docs/disc-images/#about-redump-isos. 
+Refer to Xemu's wiki for instructions, [https://xemu.app/docs/disc-images/#about-redump-isos](https://xemu.app/docs/disc-images/#about-redump-isos. )
 
 ***
 
@@ -270,10 +269,10 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
 1. In Desktop Mode, open Steam
 2. Select an Xbox Game shortcut in Steam
 3. Click the `Gear` icon 
-   * <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
 4. Click `Properties` 
 5. In the `Launch Options` box, enter: `__GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink %command%`
-   * <img src="https://user-images.githubusercontent.com/108900299/226739203-c14b2c57-3029-4f87-baa3-2fa9d0af8bef.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/226739203-c14b2c57-3029-4f87-baa3-2fa9d0af8bef.png" height="300">
 6. Zink will now be applied to this specific game's Steam shortcut, repeat for each game you would like to apply Zink
 
 #### How to Apply Zink to EmulationStation-DE Games
@@ -281,15 +280,15 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
 
 1. In Desktop Mode, open the `Emulation/roms/xbox` folder
 2. Right click anywhere in the folder, click `Create New --> Text File`
-   * <img src="https://user-images.githubusercontent.com/108900299/226739494-0e7b44c7-0fcf-4f9b-820a-8fa3351cfcfc.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/226739494-0e7b44c7-0fcf-4f9b-820a-8fa3351cfcfc.png" height="300">
 3. Match the name of the text file to the game you are applying Zink to and change the file extension to `.esprefix`
-   * For example: 
-      * ROM Name: `Conker - Live & Reloaded.iso`
-      * New text file name: `Conker - Live & Reloaded.esprefix`
-   * <img src="https://user-images.githubusercontent.com/108900299/226740001-1738684d-854c-4466-86f3-96e14ac1bfb0.png" height="300">
+    * For example: 
+        * ROM Name: `Conker - Live & Reloaded.iso`
+        * New text file name: `Conker - Live & Reloaded.esprefix`
+    * <img src="https://user-images.githubusercontent.com/108900299/226740001-1738684d-854c-4466-86f3-96e14ac1bfb0.png" height="300">
 4. Open the newly created text file in Kate or a text editor of your choice
 5. Enter: `__GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink` on a single line
-   * <img src="https://user-images.githubusercontent.com/108900299/226754331-28689940-10ef-42b5-9164-4bc58188ea68.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/226754331-28689940-10ef-42b5-9164-4bc58188ea68.png" height="300">
 6. Zink will now be applied to this specific game in EmulationStation-DE, repeat for each game you would like to apply Zink
 
 ***

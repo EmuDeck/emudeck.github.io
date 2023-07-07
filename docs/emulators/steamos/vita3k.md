@@ -1,12 +1,12 @@
 # Vita3K is a Playstation Vita emulator.
 
-Website: https://vita3k.org/
+Website: [https://vita3k.org/](https://vita3k.org/)
 
-Github: https://github.com/Vita3K/Vita3K
+Github: [https://github.com/Vita3K/Vita3K](https://github.com/Vita3K/Vita3K)
 
-Compatibility List: https://vita3k.org/compatibility.html?lang=en
+Compatibility List: [https://vita3k.org/compatibility.html?lang=en](https://vita3k.org/compatibility.html?lang=en)
 
-Quickstart Guide: https://vita3k.org/quickstart.html
+Quickstart Guide: [https://vita3k.org/quickstart.html](https://vita3k.org/quickstart.html)
 
 ***
 
@@ -55,7 +55,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE
-    * Refer to #how-to-configure-vita3k-to-work-with-emulationstation-de for instructions
+    * Refer to [How to Configure Vita3K to Work With EmulationStation-DE](#how-to-configure-vita3k-to-work-with-emulationstation-de) for instructions
 
 ***
 
@@ -66,7 +66,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `Vita3K` 
-    * Refer to https://github.com/dragoonDorise/EmuDeck/wiki/file-management#how-to-swap-out-appimages-and-binaries for instructions
+    * Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 
 ***
 
@@ -91,24 +91,6 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Installed `.vpk`
 
 **Note:** Vitamin dumps are not supported and Maidump is unstable.
-
-***
-
-### Updating and Launching Vita3K
-[Back to the Top](#vita3k-table-of-contents)
-
-#### How to Update Vita3K
-
-1. Run `Update Emulators and Tools` in the `Tools & stuff` section of `EmuDeck`
-2. Manual file replacement of Vita3K  (Refer to https://github.com/dragoonDorise/EmuDeck/wiki/File-Management#how-to-swap-out-appimagesbinaries-for-yuzu-ryujinx-and-pcsx2 for instructions)
-
-### How to Launch Vita3K in Desktop Mode
-[Back to the Top](#vita3k-table-of-contents)
-
-1. Launch `Vita3K EmuDeck` from the `Applications Launcher` (Steam Deck icon in the bottom left of the taskbar)
-2. Launch the emulator from Steam after adding it via the Emulators Parser in Steam ROM Manager
-3. Launch the script from `Emulation/tools/launchers`, `vita3k.sh`
-4. Launch from `/home/deck/Applications/Vita3K/Vita3K`
 
 ***
 
@@ -140,6 +122,6 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 6. Repeat for each PlayStation Vita ROM
 7. Your game should now show up in and launch directly from EmulationStation-DE
 
-For additional detail, read EmulationStation-DE's section on Vita3K: https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-vita
+For additional detail, read EmulationStation-DE's section on Vita3K: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-vita](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-vita)
 
 ***

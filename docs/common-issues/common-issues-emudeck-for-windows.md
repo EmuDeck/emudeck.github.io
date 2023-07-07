@@ -19,18 +19,18 @@ Download it again, this time don't use Edge :)
 Download it using other browser. ( We are working on a fix )
 
 ## EmuDeck won't go any further than the "checking for updates message"
-Open CMD and run powershell. If it gives you an error you have to follow this instructions: https://confluence.atlassian.com/bamkb/powershell-is-not-recognized-as-an-internal-or-external-command-1095246216.html#:~:text=This%20is%20caused%20by%20the,%5CSystem32%5CWindowsPowerShell%5Cv1
+Open CMD and run powershell. If it gives you an error you have to follow this instructions: [https://confluence.atlassian.com/bamkb/powershell-is-not-recognized-as-an-internal-or-external-command-1095246216.html#:~:text=This%20is%20caused%20by%20the,%5CSystem32%5CWindowsPowerShell%5Cv1](https://confluence.atlassian.com/bamkb/powershell-is-not-recognized-as-an-internal-or-external-command-1095246216.html#:~:text=This%20is%20caused%20by%20the,%5CSystem32%5CWindowsPowerShell%5Cv1)
 
-Try changing your DNS using this tutorial: https://pureinfotech.com/change-dns-server-address-windows-11/#:~:text=To%20change%20the%20DNS%20address,and%20change%20the%20DNS%20address.
+Try changing your DNS using this tutorial: [https://pureinfotech.com/change-dns-server-address-windows-11/#:~:text=To%20change%20the%20DNS%20address,and%20change%20the%20DNS%20address](https://pureinfotech.com/change-dns-server-address-windows-11/#:~:text=To%20change%20the%20DNS%20address,and%20change%20the%20DNS%20address).
 
-If it doesn't give you an error then delete this folder: USERFOLDER/AppData/Roaming/EmuDeck/backend and launch EmuDeck again.
+If it doesn't give you an error then delete this folder: `USERFOLDER/AppData/Roaming/EmuDeck/backend` and launch EmuDeck again.
 
 ## EmuDeck won't allow me to select any Drive
-Open CMD and run powershell. If it gives you an error you have to follow this instructions: https://confluence.atlassian.com/bamkb/powershell-is-not-recognized-as-an-internal-or-external-command-1095246216.html#:~:text=This%20is%20caused%20by%20the,%5CSystem32%5CWindowsPowerShell%5Cv1
+Open CMD and run powershell. If it gives you an error you have to follow this instructions: [https://confluence.atlassian.com/bamkb/powershell-is-not-recognized-as-an-internal-or-external-command-1095246216.html#:~:text=This%20is%20caused%20by%20the,%5CSystem32%5CWindowsPowerShell%5Cv1](https://confluence.atlassian.com/bamkb/powershell-is-not-recognized-as-an-internal-or-external-command-1095246216.html#:~:text=This%20is%20caused%20by%20the,%5CSystem32%5CWindowsPowerShell%5Cv1)
 
 # Emulators Issues
 
 
 ## My PS2 games won't launch and I have copied the bios
 
-Don't create subfolders on Emulation\bios, Emulation\bios\ps2\bios.bin won't work, but Emulation\bios\bios.bin will.
+Don't create subfolders on `Emulation\bios`, `Emulation\bios\ps2\bios.bin` won't work, but `Emulation\bios\bios.bin` will.

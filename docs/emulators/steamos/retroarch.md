@@ -1,12 +1,12 @@
 # RetroArch is an open source and cross platform frontend/framework for emulators.
 
-Website: https://www.retroarch.com/
+Website: [https://www.retroarch.com/](https://www.retroarch.com/)
 
-Github: https://github.com/libretro/RetroArch
+Github: [https://github.com/libretro/RetroArch](https://github.com/libretro/RetroArch)
 
-RetroArch Wiki: https://docs.libretro.com/
+RetroArch Wiki: [https://docs.libretro.com/](https://docs.libretro.com/)
 
-RetroArch FAQ: https://www.retroarch.com/?page=faq
+RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
 
 ***
 
@@ -60,7 +60,7 @@ RetroArch FAQ: https://www.retroarch.com/?page=faq
 * Config Location: `/home/deck/.var/app/org.libretro.RetroArch`
 * Storage: `Emulation/storage/retroarch`
     * Contains: `cheats`
-* ROMs: Refer to https://github.com/dragoonDorise/EmuDeck/wiki/RetroArch#list-of-retroarch-cores-used-by-emudeck for a full list of RetroArch folders.
+* ROMs: Refer to the [Cheat Sheet](../../emudeck-essentials/cheat-sheet.md)
 * BIOS: `Emulation/bios`
 * Saves:
     * Symlink: `Emulation/saves/retroarch/saves`
@@ -94,7 +94,11 @@ RetroArch FAQ: https://www.retroarch.com/?page=faq
 
 **Visual Reference:** 
 
-https://user-images.githubusercontent.com/108900299/235380638-913726b9-b186-41cd-b5cd-91a2143246d2.mp4
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/how-to-update-retroarch-cores.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ***
 
@@ -120,7 +124,7 @@ https://user-images.githubusercontent.com/108900299/235380638-913726b9-b186-41cd
 
 As you get lower in this list it takes precedence, so if you do nothing but set a core shader preset, it will  not override the content directory preset already applied.
 
-For more information: https://docs.libretro.com/guides/overrides/
+For more information: [https://docs.libretro.com/guides/overrides/](https://docs.libretro.com/guides/overrides/)
 
 ***
 
@@ -144,12 +148,11 @@ For more information: https://docs.libretro.com/guides/overrides/
 | Toggle Screen Layout (NDS) | `R2`    |
 | Blow Mic  (NDS)    | `L2`                    |
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
-
 **Note:** 
 
 * Screenshots are saved in: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/screenshots`
 * The `Blow Mic` hotkey only blows white noise. It cannot be used to speak into the Steam Deck microphone. The white noise may not be strong enough to progress in some games. 
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -248,7 +251,7 @@ Learn how to create an M3U File: https://github.com/dragoonDorise/EmuDeck/wiki/f
 [Back to the Top](#retroarch-table-of-contents)
 
 1. Load content that has a shader applied automatically. 
-2. Go to the quick menu via both sticks in retroarch. from there, navigate to shaders (~/.var/app/org.libretro.RetroArch/config/retroarch/shaders).
+2. Go to the quick menu via both sticks in retroarch. from there, navigate to shaders (`~/.var/app/org.libretro.RetroArch/config/retroarch/shaders`).
     * <img src="https://user-images.githubusercontent.com/1683513/174447565-be119f1e-38a3-4297-9248-ae3fcc48ee0f.png" height="300">
 2. In shaders find remove, and select it.
     * <img src="https://user-images.githubusercontent.com/1683513/174447588-6390f58b-2606-4f10-9935-3f82acbf3ad1.png" height="300">
@@ -328,7 +331,7 @@ How to Set Game Settings On a Per-Game Basis:
 
 **Flycast is a Dreamcast Core for RetroArch.**
 
-Wiki Link: https://docs.libretro.com/library/flycast/
+Wiki Link: [https://docs.libretro.com/library/flycast/](https://docs.libretro.com/library/flycast/)
 
 ***
 
@@ -351,7 +354,7 @@ Texture Pack Resources: https://old.reddit.com/r/Flycast_texture_packs/
 
 **Fuse is a ZX Spectrum Core for RetroArch.**
 
-Wiki Link: https://docs.libretro.com/library/fuse/
+Wiki Link: [https://docs.libretro.com/library/fuse/](https://docs.libretro.com/library/fuse/)
 
 ***
 
@@ -379,7 +382,7 @@ Bear in mind though the speccy was a computer, and some games will be keyboard o
 
 **MelonDS is a Nintendo DS Core for RetroArch.**
 
-Wiki Link: https://docs.libretro.com/library/melonds/
+Wiki Link: [https://docs.libretro.com/library/melonds/](https://docs.libretro.com/library/melonds/). For the standalone emulator, visit the [melonDS](../../emulators/steamos/melonds.md) page.
 
 ***
 
@@ -390,9 +393,9 @@ Wiki Link: https://docs.libretro.com/library/melonds/
 
 **RetroArch**
 
-1) Press both `L3` and `R3` while playing a DS game
-2) `Quick Menu` > `Core Options` > `Screen` > `Touch Mode` > change from `Touch` to `Mouse`
-3) `Quick Menu` > `Manage Core Options` > `Save Content Directory Options`
+1. Press both `L3` and `R3` while playing a DS game
+2. `Quick Menu` > `Core Options` > `Screen` > `Touch Mode` > change from `Touch` to `Mouse`
+3. `Quick Menu` > `Manage Core Options` > `Save Content Directory Options`
 
 **Steam Input**
 
@@ -405,7 +408,7 @@ Wiki Link: https://docs.libretro.com/library/melonds/
 
 **Mupen64Plus-Next is a Nintendo 64 Core for RetroArch.**
 
-Wiki Link: https://docs.libretro.com/library/mupen64plus/
+Wiki Link: [https://docs.libretro.com/library/mupen64plus/](https://docs.libretro.com/library/mupen64plus/)
 
 ***
 
@@ -429,7 +432,7 @@ Wiki Link: https://docs.libretro.com/library/mupen64plus/
 
 **Neko Project II Kai is a NEC PC-98 Core for RetroArch.**
 
-Wiki Link: https://docs.libretro.com/library/neko_project_ii_kai/
+Wiki Link: [https://docs.libretro.com/library/neko_project_ii_kai/](https://docs.libretro.com/library/neko_project_ii_kai/)
 
 ***
 
@@ -443,7 +446,7 @@ Neko Project II Kai, soon:tm:
 ### PPSSPP RetroArch Core
 [Back to the Top](#retroarch-table-of-contents)
 
-PPSSPP is a Playstation Portable Core for RetroArch. For the standalone emulator, visit https://github.com/dragoonDorise/EmuDeck/wiki/ppsspp.
+PPSSPP is a Playstation Portable Core for RetroArch. For the standalone emulator, visit the [PPSSPP](../../emulators/steamos/ppsspp.md) page.
 
 ***
 

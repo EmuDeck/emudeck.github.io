@@ -18,7 +18,7 @@
    * [Multisystems Hotkeys](#multisystems-hotkeys)
       * [MAME](#mame)
       * [RetroArch](#retroarch)
-         * [List of RetroArch Cores Used by EmuDeck](https://github.com/dragoonDorise/EmuDeck/wiki/retroarch#list-of-retroarch-cores-used-by-emudeck)
+         * [List of RetroArch Cores Used by EmuDeck](../../emulators/steamos/retroarch.md#list-of-retroarch-cores-used-by-emudeck)
       * [ScummVM](#scummvm)
    * [Nintendo Hotkeys](#nintendo-hotkeys)
       * [PrimeHack (Metroid Prime Trilogy)](#primehack-metroid-prime-trilogy)
@@ -91,7 +91,7 @@ In Game Mode, single click the game you would like to change the Steam Input Pro
 
 For a visual, watch the following GIF (DuckStation is being used as an example):
 
-<img src="https://user-images.githubusercontent.com/108900299/194612525-670e56a1-a16a-4dbf-a03f-85d14e7f7b76.gif" height="300">
+<img src="https://user-images.githubusercontent.com/108900299/194612525-670e56a1-a16a-4dbf-a03f-85d14e7f7b76.gif?raw=true"/>
 
 ***
 
@@ -586,7 +586,10 @@ If you do not see an emulator on the EmulationStation-DE touch menu, it likely u
 
 ##### Video Showcase
 
-https://user-images.githubusercontent.com/108900299/236106511-c24a2f7e-7b9d-4b05-9317-566d39212ac2.mp4
-
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/emulationstation-de-steam-input-showcase.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ***

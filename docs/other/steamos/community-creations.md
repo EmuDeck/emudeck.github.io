@@ -182,7 +182,7 @@ For a visual, watch the following GIF (EmuDeck - Duckstation is being used as an
 
 Credit: `Piximator` 
 
-This Steam input profile is for the NSO Nintendo 64 Controller, https://www.nintendo.com/store/products/nintendo-64-controller/. 
+This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nintendo.com/store/products/nintendo-64-controller/](https://www.nintendo.com/store/products/nintendo-64-controller/). 
 
 **Profile Name:** `nintendo switch online n64 controller.vdf`
 
@@ -983,13 +983,10 @@ Replace with your Steam Input Layout and a brief description.
 ### Dolphin
 [Back to the Top](#community-creations-table-of-contents)
 
-For instructions on how to create Dolphin controller profiles, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/dolphin#how-to-create-per-game-controller-layouts.
-
-For instructions on how to share Dolphin controller profiles, refer to: #sharing-dolphin-profiles. 
-
-For instructions on how to download Dolphin controller profiles, refer to: #downloading-dolphin-profiles. 
-
-For instructions on how to set a Dolphin controller profile for a specific game, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/dolphin#how-to-download-dolphin-controller-profiles-and-set-it-for-a-specific-game
+* [How to create Dolphin controller profiles](../../emulators/steamos/dolphin.md#how-to-create-dolphin-controller-profiles)
+* [How to Share Dolphin controller profiles](#how-to-share-dolphin-profiles). 
+* [How to Download Dolphin controller profiles](#how-to-download-dolphin-profiles)
+* [How to Download Dolphin controller profiles and set it for a specific game](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 
 
 ***
@@ -1037,16 +1034,16 @@ After you have selected a profile, you may use the below tutorial to learn how t
 **Tutorial**
 
 1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
-   1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/196857393-76dfa11b-ed76-464a-a665-4970505a848c.png" height="300">
+    1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/196857393-76dfa11b-ed76-464a-a665-4970505a848c.png" height="300">
 2. In either the `Gamecube` or the `Wii` profile folders, right click, `Create New`, `Text File`
-   1. Gamecube Profile Folder: `home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
-   2. Wii Profile Folder: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
+    1. Gamecube Profile Folder: `home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
+    2. Wii Profile Folder: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
 3. Paste the contents of a profile you would like to use
 4. Save the profile, either matching the profile name or something descriptive with an `.ini` file extension
-   1. Without the `.ini` file extension, the profile will not work
+    1. Without the `.ini` file extension, the profile will not work
 5. You now have successfully downloaded a profile 
 
-**Note:** For instructions on how to set a Dolphin controller profile for a specific game, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/dolphin#how-to-download-dolphin-controller-profiles-and-set-it-for-a-specific-game
+**Note:** For instructions on how to set a Dolphin controller profile for a specific game, refer to: [How to Download Dolphin controller profiles and set it for a specific game](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 
 ***
 
@@ -1072,7 +1069,7 @@ Credit: `TrickTrigger`
 
 **REQUIRES STEAMDECKGYRODSU TO BE INSTALLED**
 
-How to Install SteamDeckGyroDSU: https://github.com/dragoonDorise/EmuDeck/wiki/frequently-asked-questions#how-do-i-install-steamdeckgyrodsu
+[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 This config is basically the Nunchuck config, with modifications to enable proper, true motion controls. This can be easily converted into a standalone Wii Remote config with motion by simply removing the Nunchuck in the Dolphin menu, but keep in mind that I swapped some buttons around, so you might want to tweak it if you do that.
 
@@ -1170,7 +1167,7 @@ Credit: `Trick Trigger`
 
 **REQUIRES STEAMDECKGYRODSU TO BE INSTALLED**
 
-How to Install SteamDeckGyroDSU: https://github.com/dragoonDorise/EmuDeck/wiki/frequently-asked-questions#how-do-i-install-steamdeckgyrodsu
+[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 This config is the Nunchuck config with no attachment, and modifications to enable proper, true motion controls. Keep in mind that I swapped some buttons around, so you might want to tweak it if you do that.
 
@@ -1291,7 +1288,7 @@ Credit: `Jigs`
 
 ***
 
-**Download:** https://cdn.discordapp.com/attachments/977206955871440966/977207020220448808/wiigalaxy.ini
+**Download:** [https://cdn.discordapp.com/attachments/977206955871440966/977207020220448808/wiigalaxy.ini](https://cdn.discordapp.com/attachments/977206955871440966/977207020220448808/wiigalaxy.ini)
 
 ***
 
@@ -1425,16 +1422,16 @@ Replace this with your controller config and a brief description.
 
 **Important:** This section is for game configurations that require elaborate setup. For minor tweaks and settings, please use Manacharge's community database. You can link back here in the community database as well. 
 
-You can contribute to the community games database here: https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform
+You can contribute to the community games database here: [https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform](https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform)
 
-You can view the community database here: https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit?usp=sharing
+You can view the community database here: [https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit?usp=sharing)
 
 ***
 
 ### RPCS3 (Playstation 3)
 [Back to the Top](#community-creations-table-of-contents)
 
-How to set up and configure RPCS3: https://github.com/dragoonDorise/EmuDeck/wiki/RPCS3.
+[How to set up and configure RPCS3](../../emulators/steamos/rpcs3.md#getting-started-with-rpcs3)
 
 ***
 
@@ -1454,31 +1451,27 @@ MGS4 when first imported into RPCS3 will freeze natively and needs some work to 
 I believe trying to patch the file using the built in RPCS3 patch manager will not fix the issue and the game needs to be patched manually to get it working. (Let me know if anyone else is able to prove otherwise)
 
 1. If you haven't done so already, follow the PS3 setup guide from RGC to get mgs4 added and rpcs3 setup
-   - https://retrogamecorps.com/2022/10/16/steam-deck-emulation-starter-guide/
+    - [https://retrogamecorps.com/2022/10/16/steam-deck-emulation-starter-guide/](https://retrogamecorps.com/2022/10/16/steam-deck-emulation-starter-guide/)
 2. Patch using the "Manually adding custom patches" section on this page and the MGS4 patch section in the second link. (You can make the patch yourself using the rpcs3 wiki link or download the one I have made from my github repo linked just below)
-   - https://wiki.rpcs3.net/index.php?title=Help:Game_Patches#Using_game_patches
-   - https://wiki.rpcs3.net/index.php?title=Help:Game_Patches/Canary
-   - Link to premade manual patch: https://github.com/agasbarro36/MGS4-RPCS3-Manual-Patch
+    - [https://wiki.rpcs3.net/index.php?title=Help:Game_Patches#Using_game_patches](https://wiki.rpcs3.net/index.php?title=Help:Game_Patches#Using_game_patches)
+    - [https://wiki.rpcs3.net/index.php?title=Help:Game_Patches/Canary](https://wiki.rpcs3.net/index.php?title=Help:Game_Patches/Canary)
+    - Link to premade manual patch: [https://github.com/agasbarro36/MGS4-RPCS3-Manual-Patch](https://github.com/agasbarro36/MGS4-RPCS3-Manual-Patch)
 3. When the instructions say "Save the file in relevant location:" you need to navigate to save it in the flatpack location instead of the usual Linux one. _**NOTE: ~/.VAR is a hidden directory and you need to click show hidden files in dolphin file explorer to see it. **_
-<img src="https://user-images.githubusercontent.com/19947797/207243548-ad1eb95d-3608-442a-a8de-c1008087541f.png" height="600">
-
-
-   - The location is: `~/.var/app/net.rpcs3.RPCS3/config/rpcs3/patches`
+	- <img src="https://user-images.githubusercontent.com/19947797/207243548-ad1eb95d-3608-442a-a8de-c1008087541f.png" height="600">
+    - The location is: `~/.var/app/net.rpcs3.RPCS3/config/rpcs3/patches`
 4. Open RPCS3 Navigate to the Patch Manager (Select Manage > Game Patches) and tick the checkbox corresponding to the patches you wish to apply.
-   - Select Metal Gear solid 4: Guns of the Patriots in the game list and click the tab to expand
-   - expand both tabs for the version of the game you have
-   -  select the `cellspurs urgent commands hack - 4.8x` (where 'x' is the ps3 firmware version you installed)
-   -  select `Crash Fix`
-   -  select `Disable Shadows`
-   -  select `Disable spawned effects`
-   -  select `Reduce Stage quality`
-   -  select `Unlock FPS`
-<img src="https://user-images.githubusercontent.com/19947797/196624586-81718981-902d-43f1-8a4d-28d5a718a79b.png" height="600">
-
+    - Select Metal Gear solid 4: Guns of the Patriots in the game list and click the tab to expand
+    - expand both tabs for the version of the game you have
+    -  select the `cellspurs urgent commands hack - 4.8x` (where 'x' is the ps3 firmware version you installed)
+    -  select `Crash Fix`
+    -  select `Disable Shadows`
+    -  select `Disable spawned effects`
+    -  select `Reduce Stage quality`
+    -  select `Unlock FPS`
+	- <img src="https://user-images.githubusercontent.com/19947797/196624586-81718981-902d-43f1-8a4d-28d5a718a79b.png" height="600">
 5. Apply and Save your patch settings then run the game
-
 6. Here are the current GPU settings I have tested but are still yet to be optimized 
-<img src="https://user-images.githubusercontent.com/19947797/207242116-712babf0-ad8f-46a8-8d21-2dd24e08fc77.png" height="600">
+	- <img src="https://user-images.githubusercontent.com/19947797/207242116-712babf0-ad8f-46a8-8d21-2dd24e08fc77.png" height="600">
 
 
 
@@ -1499,7 +1492,7 @@ You can find the guide here: https://github.com/dragoonDorise/EmuDeck/wiki/Metal
 ### Yuzu (Nintendo Switch)
 [Back to the Top](#community-creations-table-of-contents)
 
-How to set up and configure Yuzu: https://github.com/dragoonDorise/EmuDeck/wiki/Yuzu.
+[How to set up and configure Yuzu](../../emulators/steamos/yuzu.md#getting-started-with-yuzu)
 
 ***
 
@@ -1509,18 +1502,21 @@ How to set up and configure Yuzu: https://github.com/dragoonDorise/EmuDeck/wiki/
 **Credit:** `SardineCat`
 
 **Recommended Settings**
+
 * Yuzu on portable mode (idk if docked loses somes frames)
 * accuracy on high, cpu on unsafe, 
 * make sure you have powertools and then use smt off
-  * How to install Power Tools: https://github.com/dragoonDorise/EmuDeck/wiki/frequently-asked-questions#how-do-i-install-power-tools-and-deckyloader
+    * [How to install Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools)
 * use v1.0.0 of the game 
 
 **Recommended Mods**
-* How to install mods: https://github.com/dragoonDorise/EmuDeck/wiki/yuzu#how-to-install-mods
-* This mod disables the blur effect which also increases some performance giving you some frames back https://cdn.discordapp.com/attachments/356187763139280896/798516893840965632/Blur_Removal.zip
-* the 60fps mod found here https://cdn.discordapp.com/attachments/356187763139280896/724250990928461834/Stable-60fps-v2.zip
+
+* [How to install mods](../../emulators/steamos/yuzu.md#how-to-install-mods)
+* This mod disables the blur effect which also increases some performance giving you some frames back: [https://cdn.discordapp.com/attachments/356187763139280896/798516893840965632/Blur_Removal.zip](https://cdn.discordapp.com/attachments/356187763139280896/798516893840965632/Blur_Removal.zip)
+* The 60fps mod found here: [https://cdn.discordapp.com/attachments/356187763139280896/724250990928461834/Stable-60fps-v2.zip](https://cdn.discordapp.com/attachments/356187763139280896/724250990928461834/Stable-60fps-v2.zip)
 
 **How well does the game perform after these tweaks?**
+
 * This all equates to 60fps almost everywhere, I lose a couple of frames in Mabe Village and Animal Village but its not a big deal IMO.
 * Fixes the invisible Chain Chomp bug
 
@@ -1724,32 +1720,33 @@ Now if I can figure out a way to share prefixes between non-steam games so that 
 
 _This list is not exhaustive_
 
-* ROMHacking: https://www.romhacking.net/
-* GBAtemp: https://gbatemp.net/
-* PokeCommunity: https://www.pokecommunity.com/
-* Metroid Construction: https://metroidconstruction.com/hacks.php
-* SegaXtreme: https://segaxtreme.net/resources/categories/translations.9/
-* GameBanana: https://gamebanana.com/
+* ROMHacking: [https://www.romhacking.net/](https://www.romhacking.net/)
+* GBAtemp: [https://gbatemp.net/](https://gbatemp.net/)
+* PokeCommunity: [https://www.pokecommunity.com/](https://www.pokecommunity.com/)
+* Metroid Construction: [https://metroidconstruction.com/hacks.php](https://metroidconstruction.com/hacks.php)
+* SegaXtreme: [https://segaxtreme.net/resources/categories/translations.9/](https://segaxtreme.net/resources/categories/translations.9/)
+* GameBanana: [https://gamebanana.com/](https://gamebanana.com/)
 
 **IMPORTANT** 
+
   * Everything can be done on the Steam Deck itself
-  * If you plan on using Steam ROM Manager to add this ROM Hack to Steam, it may not have art yet on https://www.steamgriddb.com/. If it does not have art, create a page here: https://www.steamgriddb.com/ and locate some custom art for the ROM Hack so others can use it in the future as well. 
+  * If you plan on using Steam ROM Manager to add this ROM Hack to Steam, it may not have art yet on [https://www.steamgriddb.com/](https://www.steamgriddb.com/). If it does not have art, create a page here: [https://www.steamgriddb.com/](https://www.steamgriddb.com/) and locate some custom art for the ROM Hack so others can use it in the future as well. 
   * Not all ROM Hacks can be applied using the following method. For ROM Hacks that do not use the below method and do not have a Linux equivalent program to apply patches, you can either use Wine/Proton (through Lutris or Steam), or you can use a Windows computer to apply these patches and transfer over the patched ROM Hack. 
 
 **Tutorial**
 
 1. Locate a ROM Hack you would like to use and its associated game ROM
-   1. Example: 
+    1. Example: 
         * File 1: A clean ROM of Pokemon Emerald for the Nintendo Gameboy Advance
-        * File 2: A ROM Hack that turns Pokemon Emerald into a roguelike: https://www.pokecommunity.com/showthread.php?t=479406
-   2. Your ROM Hack patch file may end with one of the following file extensions: `IPS`, `UPS`, `APS`, `BPS`, `RUP`, `PPF`, `MOD`, `XDELTA`, `VCDIFF`
-2.  (Optional) Some ROM Hacks expect a specific hash, use https://www.romhacking.net/hash/, to check the hash of your ROM
+        * File 2: A ROM Hack that turns Pokemon Emerald into a roguelike: [https://www.pokecommunity.com/showthread.php?t=479406](https://www.pokecommunity.com/showthread.php?t=479406)
+    2. Your ROM Hack patch file may end with one of the following file extensions: `IPS`, `UPS`, `APS`, `BPS`, `RUP`, `PPF`, `MOD`, `XDELTA`, `VCDIFF`
+2.  (Optional) Some ROM Hacks expect a specific hash, use [https://www.romhacking.net/hash/](https://www.romhacking.net/hash/), to check the hash of your ROM
     1. You can also check hashes in the Dolphin file manager on the Steam Deck by doing the following: 
           1. Right click the ROM
           2. Click Properties
           3. Click the Checksums tab
           4. Click `Calculate` to the right of `MD5`
-3. Open https://www.romhacking.net/patch/
+3. Open [https://www.romhacking.net/patch/](https://www.romhacking.net/patch/)
 4. For the top field, `ROM File`, browse to your clean ROM
 5. For the bottom field, `Patch File`, browse to your patch
 6. Click `Apply Patch` 
@@ -1778,14 +1775,14 @@ Include the following configurations:
 * Create an emulator function, to download the emulator and configure proper permissions
 * Create a storage directory, if necessary, in `Emulation/storage`
 * Configure BIOS directory, if necessary, in `Emulation/bios`
-  * If not doable, create a BIOS link in `Emulation/bios`
+    * If not doable, create a BIOS link in `Emulation/bios`
 * Configure emulator saves location in `Emulation/saves`
-  * If not doable, create a saves link in `Emulation/saves`
+    * If not doable, create a saves link in `Emulation/saves`
 * Create a controller profile
 * Configure hotkeys
-  * If not doable using Steam Deck buttons, create a Steam input profile mapping keyboard keys to Steam Deck buttons
+    * If not doable using Steam Deck buttons, create a Steam input profile mapping keyboard keys to Steam Deck buttons
 * Create controller profiles for multiplayer
 
-For a list of standalone emulators that work on Steam Deck, refer to https://gist.github.com/rawdatafeel/9873683285d68025846424adfd5c4296. 
+For a list of standalone emulators that work on Steam Deck, refer to [https://gist.github.com/rawdatafeel/9873683285d68025846424adfd5c4296](https://gist.github.com/rawdatafeel/9873683285d68025846424adfd5c4296). 
 
 *** 

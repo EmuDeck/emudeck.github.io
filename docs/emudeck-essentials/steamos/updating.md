@@ -98,6 +98,7 @@ The emulators and tools that come with EmuDeck come in four primary types: AppIm
 Some emulators come from the system repository as Flatpaks. Running an "Easy Reset" or "Custom Reset" will **NOT** update Flatpaks.
 
 **To update Flatpaks**: 
+
 * Update through the **Discover store**
 * Open the EmuDeck application, open the "Manage Emulators" page, click the "Update your Emulators & Tools" button, and click the "Update Flatpaks" button 
 
@@ -112,9 +113,10 @@ It is recommended you monitor and **use the Discover store** to update any syste
 Some emulators are packaged as AppImages, Binaries, or Windows executables. You can update or change version for these tools and emulators through the EmuDeck application. Running an "Easy Reset" or "Custom Reset" will fetch you the latest version of these emulators and tools.
 
 **To update tools and emulators packaged as AppImages, Binaries, or Windows executables:**
+
    * Open the EmuDeck application, open the "Manage Emulators" page, click the "Update your Emulators & Tools" button, and click "Update AppImages and Binaries"
        * This button also **includes** any emulators that are downloaded as **Windows executables** and run through Proton. 
-           * At the moment, this includes [**Xenia**](https://github.com/dragoonDorise/EmuDeck/wiki/Xenia) and [**Cemu**](https://github.com/dragoonDorise/emuDeck/wiki/cemu)
+           * At the moment, this includes [**Xenia**](../../emulators/steamos/xenia.md) and [**Cemu**](../../emulators/steamos/cemu-proton.md)
 
 <img src="https://user-images.githubusercontent.com/108900299/235380491-f574ba11-8aa6-47b5-8cca-71fdc4e70f86.png" height=300>
 
@@ -131,6 +133,9 @@ Some emulators are packaged as AppImages, Binaries, or Windows executables. You 
 3. Scroll down and select `Online Updater`
 4. Select `Update Installed Cores`
 
-https://user-images.githubusercontent.com/108900299/235380638-913726b9-b186-41cd-b5cd-91a2143246d2.mp4
-
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/how-to-update-retroarch-cores.mp4" type="video/mp4">
+  </video>
+</figure>
 ***

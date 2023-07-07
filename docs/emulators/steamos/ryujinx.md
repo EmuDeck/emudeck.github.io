@@ -1,14 +1,14 @@
 # Ryujinx is a Nintendo Switch Emulator.
 
-Website: https://ryujinx.org/
+Website: [https://ryujinx.org/](https://ryujinx.org/)
 
-Github: https://github.com/Ryujinx/Ryujinx
+Github: [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
 
-Github Releases: https://github.com/Ryujinx/release-channel-master/releases
+Github Releases: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
 
-Compatibility List: https://github.com/Ryujinx/Ryujinx-Games-List/issues
+Compatibility List: [https://github.com/Ryujinx/Ryujinx-Games-List/issues](https://github.com/Ryujinx/Ryujinx-Games-List/issues)
 
-Quickstart guide: https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide
+Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
 
 ***
 
@@ -65,21 +65,21 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
       * `system`
       * `Config.json`
 * Storage: `Emulation/storage/Ryujinx`
-  * Contains the following folders: 
-    * `games`
-    * `patchesAndDlc`
+    * Contains the following folders: 
+     * `games`
+     * `patchesAndDlc`
 * DLC and Updates: `Emulation/storage/Ryujinx/patchesAndDlc`
-  * It's recommended that you place your DLC and Updates directly in this folder. However, you can create any folder for Ryujinx DLC and Updates as long as it is not `Emulation/roms/switch`
-  * For more detail, read: [How To Manage DLC and Updates](#how-to-manage-dlc-and-updates)
+    * It's recommended that you place your DLC and Updates directly in this folder. However, you can create any folder for Ryujinx DLC and Updates as long as it is not `Emulation/roms/switch`
+    * For more detail, read: [How To Manage DLC and Updates](#how-to-manage-dlc-and-updates)
 * ROMs: `Emulation/roms/switch/`
 * Keys: `Emulation/bios/ryujinx/keys/`
 * Firmware: Install through Ryujinx GUI
 * Saves:
-  * Symlink: `Emulation/saves/ryujinx/saves`
-  * Target: `/home/deck/.config/Ryujinx/bis/user/save`
+    * Symlink: `Emulation/saves/ryujinx/saves`
+    * Target: `/home/deck/.config/Ryujinx/bis/user/save`
 * saveMeta:
-  * Symlink: `Emulation/saves/Ryujinx/saveMeta`
-  * Target: `/home/deck/.config/Ryujinx/bis/user/saveMeta`
+    * Symlink: `Emulation/saves/Ryujinx/saveMeta`
+    * Target: `/home/deck/.config/Ryujinx/bis/user/saveMeta`
 
 **Note:** `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
@@ -96,9 +96,9 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `Ryujinx`
-  * Refer to https://github.com/dragoonDorise/EmuDeck/wiki/File-Management#how-to-swap-out-appimages-and-binaries for instructions. 
+    * Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 * Through the application's automatic updater
-  * When you open Ryujinx, you may be prompted for an update, accept the prompt to update the application
+    * When you open Ryujinx, you may be prompted for an update, accept the prompt to update the application
 
 ***
 
@@ -165,14 +165,15 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 Gyro for Ryujinx requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#steamdeckgyrodsu to learn how to install and utilize SteamDeckGyroDSU.  
+Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
+
 
 ***
 
 ### How to Optimize Performance (Power Tools)
 [Back to the Top](#ryujinx-table-of-contents)
 
-Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#power-tools to learn how to optimize performance using Power Tools. 
+Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
 
 ***
 
@@ -184,27 +185,27 @@ Visit https://github.com/dragoonDorise/EmuDeck/wiki/EmuDeck-Application-101#powe
 _This list is not comprehensive_
 
 * Ryujinx's Discord
-  * https://ryujinx.org/
-* GameBanana Mods: https://gamebanana.com/
-  * Search by game name
-* Nexus Mods: https://www.nexusmods.com/
-  * Search by game name
-* GBAtemp: https://gbatemp.net/forums/nintendo-switch.283/?prefix_id=56
-  * Use https://gbatemp.net/search/?type=post to search
-    * Sort by `ROM Hack` in the prefixes list and `Nintendo Switch` in the `Search in forums` list
-    * To narrow search results, use the `Search titles only` toggle
-* SweetFX: http://sfx.thelazy.net/games/
-  * Search by game name
+     * [https://ryujinx.org/](https://ryujinx.org/)
+* GameBanana Mods: [https://gamebanana.com/](https://gamebanana.com/)
+     * Search by game name
+* Nexus Mods: [https://www.nexusmods.com/](https://www.nexusmods.com/)
+     * Search by game name
+* GBAtemp: [https://gbatemp.net/forums/nintendo-switch.283/?prefix_id=56](https://gbatemp.net/forums/nintendo-switch.283/?prefix_id=56)
+     * Use [https://gbatemp.net/search/?type=post](https://gbatemp.net/search/?type=post) to search
+        * Sort by `ROM Hack` in the prefixes list and `Nintendo Switch` in the `Search in forums` list
+     * To narrow search results, use the `Search titles only` toggle
+* SweetFX: [http://sfx.thelazy.net/games/](http://sfx.thelazy.net/games/)
+     * Search by game name
 * theboy181
-  * 1: Github Collection: https://github.com/theboy181/switch-ptchtxt-mods
-  * 2: Github Collection: https://github.com/theboy181/switch-cheat-mods
-  * 3: theboy181's Discord: https://linktr.ee/theboy181
+     * 1: Github Collection: [https://github.com/theboy181/switch-ptchtxt-mods](https://github.com/theboy181/switch-ptchtxt-mods)
+     * 2: Github Collection: [https://github.com/theboy181/switch-cheat-mods](https://github.com/theboy181/switch-cheat-mods)
+     * 3: theboy181's Discord: [https://linktr.ee/theboy181](https://linktr.ee/theboy181)
 
 ***
 
 **Preface**
 
-Read Ryujinx's instructions on how to install mods here: https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide/87dc34d49facc69bb1b4fde45e1f10b520171671#managing-mods
+Read Ryujinx's instructions on how to install mods here: [How to Install Ryujinx Mods](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide/87dc34d49facc69bb1b4fde45e1f10b520171671#managing-mods)
 
 The folder structure of a mod is important. It should generally look like the following:
 
@@ -237,6 +238,7 @@ mod_directory
 Files with special characters in the ROM name will not launch from steam. Rename your ROMs and remove the special character.
 
 Known **Cases**:
+
 * `é` in `Pokémon`
 * `'` in `The Legend of Zelda: Link's Awakening`
 

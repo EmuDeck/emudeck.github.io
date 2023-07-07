@@ -1,8 +1,8 @@
 # Rosalie's Mupen GUI (RMG) is a Nintendo 64 Emulator.
 
-Github: https://github.com/Rosalie241/RMG
+Github: [https://github.com/Rosalie241/RMG](https://github.com/Rosalie241/RMG)
 
-**This page is for Rosalie's Mupen GUI, a standalone N64 emulator. This page is not for the Mupen64Plus-Next RetroArch core. For more information on RetroArch and the Mupen64Plus-Next RetroArch core, visit https://github.com/dragoonDorise/EmuDeck/wiki/Retroarch.**
+**This page is for Rosalie's Mupen GUI, a standalone N64 emulator. This page is not for the Mupen64Plus-Next RetroArch core. For more information on RetroArch and the Mupen64Plus-Next RetroArch core, visit the [RetroArch Page](../steamos/retroarch.md).**
 
 ***
 
@@ -41,14 +41,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Nintendo 64 ROM Location: `Emulation/roms/n64`
 * Nintendo 64DD ROM Location: `Emulation/roms/n64dd`
 * BIOS Location (Optional): `Emulation/bios`
-   * Optional BIOS (N64DD): `64DD_IPL_US.n64`, `64DD_IPL_JP.n64`, `64DD_IPL_DEV.n64`
+    * Optional BIOS (N64DD): `64DD_IPL_US.n64`, `64DD_IPL_JP.n64`, `64DD_IPL_DEV.n64`
 * Saves: `Emulation/saves/RMG/saves`
 * Savestates: `Emulation/saves/RMG/states`
 * Storage Location: `Emulation/storage/RMG`
-   * Contains the following folders: 
-      * `Emulation/storage/RMG/cache`
-      * `Emulation/storage/RMG/HiResTextures`
-      * `Emulation/storage/RMG/screenshots`
+    * Contains the following folders: 
+        * `Emulation/storage/RMG/cache`
+        * `Emulation/storage/RMG/HiResTextures`
+        * `Emulation/storage/RMG/screenshots`
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
@@ -113,9 +113,10 @@ RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profi
 | Stop Emulation | Left Trackpad Radial Menu |
 | Reset          | Left Trackpad Radial Menu |
 
-For a tutorial on how to select Steam Input Profiles, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/hotkeys#how-to-select-a-steam-input-profile.
+**Note:** 
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -139,8 +140,8 @@ Before installing a texture pack, you will need to determine if it is HTC, HTS, 
 2. Click `Settings` at the top, select `Graphics`
 3. Click the `Texture enhancement` tab
 4. Make sure `Use file storage instead of memory cache` is unchecked
-   * <img src="https://user-images.githubusercontent.com/108900299/220504844-73ad1aae-9525-4e07-aa46-a47bcf953a8e.png" height="300">
-   * This setting is unchecked by default
+    * <img src="https://user-images.githubusercontent.com/108900299/220504844-73ad1aae-9525-4e07-aa46-a47bcf953a8e.png" height="300">
+    * This setting is unchecked by default
 5. Open the `Emulation/storage/RMG/cache` folder
 6. Place your texture pack file directly into this folder
 
@@ -150,8 +151,8 @@ Before installing a texture pack, you will need to determine if it is HTC, HTS, 
 2. Click `Settings` at the top, select `Graphics`
 3. Click the `Texture enhancement` tab
 4. Check `Use file storage instead of memory cache`
-   * <img src="https://user-images.githubusercontent.com/108900299/220504446-d29fc261-9194-43ee-ba19-2c15562ac716.png" height="300">
-   * **Note:** To save this setting on a per game basis, you can open the graphics settings while in-game and it will save to the per game profile
+    * <img src="https://user-images.githubusercontent.com/108900299/220504446-d29fc261-9194-43ee-ba19-2c15562ac716.png" height="300">
+    * **Note:** To save this setting on a per game basis, you can open the graphics settings while in-game and it will save to the per game profile
 5. Open the `Emulation/storage/RMG/cache` folder
 6. Place your texture pack file directly into this folder
 
@@ -163,8 +164,8 @@ This section goes over enabling `file storage instead of memory cache` in RMG's 
 2. Click `Settings` at the top, select `Graphics`
 3. Click the `Texture enhancement` tab
 4. Check `Use file storage instead of memory cache`
-   * <img src="https://user-images.githubusercontent.com/108900299/220504446-d29fc261-9194-43ee-ba19-2c15562ac716.png" height="300">
-   * **Note:** To save this setting on a per game basis, you can open the graphics settings while in-game and it will save to the per game profile
+    * <img src="https://user-images.githubusercontent.com/108900299/220504446-d29fc261-9194-43ee-ba19-2c15562ac716.png" height="300">
+    * **Note:** To save this setting on a per game basis, you can open the graphics settings while in-game and it will save to the per game profile
 5. Open the `Emulation/storage/RMG/HiResTextures` folder
 6. Place your texture pack folder directly into this folder
    

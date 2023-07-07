@@ -6,7 +6,7 @@
 
 ## Gyro suddenly stopped working - June 15th, 2023
 
-The latest Steam Client update on June 14th, https://store.steampowered.com/oldnews/195171, adjusted how gyro works on the Steam Deck. 
+The latest Steam Client update on June 14th, [https://store.steampowered.com/oldnews/195171](https://store.steampowered.com/oldnews/195171), adjusted how gyro works on the Steam Deck. 
 
 Gyro, through SteamDeckGyroDSU, now requires a few additional steps to enable in Game Mode. 
 
@@ -35,12 +35,12 @@ If you recently updated from an older version of RetroArch and you notice your g
 After you have updated any pending system library updates in Discover, RetroArch will work again. 
 
 1. In Desktop Mode, open Discover (shopping bag icon)
-   * <img src="https://user-images.githubusercontent.com/108900299/236019379-be39493c-8b61-4163-be41-ff3de4d14177.png" height=50>
-   * <img src="https://user-images.githubusercontent.com/108900299/236021304-1d8a5494-c866-4103-8491-f0baf93a9a88.png" height=300>
+    * <img src="https://user-images.githubusercontent.com/108900299/236019379-be39493c-8b61-4163-be41-ff3de4d14177.png" height=50>
+    * <img src="https://user-images.githubusercontent.com/108900299/236021304-1d8a5494-c866-4103-8491-f0baf93a9a88.png" height=300>
 2. Click Update (x) in the bottom left
-   * There will usually be a number in the ()
+    * There will usually be a number in the ()
 3. Click Update All in the top right
-   * <img src="https://user-images.githubusercontent.com/108900299/236020629-558f88f7-76f2-4fa6-b137-adaf077411bb.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236020629-558f88f7-76f2-4fa6-b137-adaf077411bb.png" height="300">
 4. Wait, once the updates are finished, test RetroArch again
 
 ***

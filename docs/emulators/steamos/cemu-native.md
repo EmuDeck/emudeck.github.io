@@ -1,12 +1,12 @@
 # Cemu is a Wii U Emulator.
 
-Website: https://cemu.info/
+Website: [https://cemu.info/](https://cemu.info/)
 
-Github: https://github.com/cemu-project/Cemu
+Github: [https://github.com/cemu-project/Cemu](https://github.com/cemu-project/Cemu)
 
-Compatibility List: https://compat.cemu.info/
+Compatibility List: [https://compat.cemu.info/](https://compat.cemu.info/)
 
-**This page is for the native build of Cemu. EmuDeck includes the native build of Cemu as an optional install. Both versions will remain installed. One quick way to tell the difference is to compare the two GUIs. For the Proton version of Cemu, visit https://github.com/dragoonDorise/EmuDeck/wiki/Cemu-Proton.**
+**This page is for the native build of Cemu. EmuDeck includes the native build of Cemu as an optional install. Both versions will remain installed. One quick way to tell the difference is to compare the two GUIs. For the Proton version of Cemu, visit [Cemu Proton](../steamos/cemu-proton.md).**
 
 Native Cemu: <img src="https://user-images.githubusercontent.com/108900299/226765451-f9e712cd-f6c5-4257-8821-8957f28b3745.png" height="300">
 
@@ -154,7 +154,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `Cemu.AppImage` 
-    * Refer to https://github.com/dragoonDorise/EmuDeck/wiki/File-Management#how-to-swap-out-appimages-and-binaries for instructions 
+    * Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 
 ***
 

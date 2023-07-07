@@ -32,7 +32,7 @@ Compressing your ROMs makes managing multi-track games a lot simpler. You can cr
 **Important** 
 
 * PCSX2 does not support M3U files
-   * [How to Manage Multiple Discs in PCSX2](https://github.com/dragoonDorise/EmuDeck/wiki/PCSX2-QT#how-to-manage-multiple-discs)
+   * [How to Manage Multiple Discs in PCSX2](../../emulators/steamos/pcsx2.md#how-to-manage-multiple-discs)
 
 ***
 
@@ -67,7 +67,11 @@ Fortunately these M3U files are easy to create.
 
 Visual Tutorial: 
 
-https://user-images.githubusercontent.com/108900299/236058160-b4a3e6b9-042d-4d7a-ba27-2808b8977247.mp4
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/how-to-create-an-m3u-file.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ***
 
@@ -93,34 +97,34 @@ For some emulators, your ROMs launch using a script created by EmuDeck, which lo
 #### List of Supported Emulators and Tools
 
 * Cemu (AppImage)
-  * Executable Location: `/home/deck/Applications/Cemu.AppImage`
-  * Download Link: https://github.com/cemu-project/Cemu/releases
+    * Executable Location: `/home/deck/Applications/Cemu.AppImage`
+    * Download Link: [https://github.com/cemu-project/Cemu/releases](https://github.com/cemu-project/Cemu/releases)
 * Cemu (Swap out its EXE)
-  * Executable Location: `Emulation/roms/wiiu/cemu.exe`
-  * Download Link: https://github.com/cemu-project/Cemu
+    * Executable Location: `Emulation/roms/wiiu/cemu.exe`
+    * Download Link: [https://github.com/cemu-project/Cemu](https://github.com/cemu-project/Cemu)
 * EmulationStation-DE
-  * Executable Location: `Emulation/tools/EmulationStation-DE-x64_SteamDeck.AppImage`
-  * Download Link: https://gitlab.com/es-de/emulationstation-de/-/packages/
+    * Executable Location: `Emulation/tools/EmulationStation-DE-x64_SteamDeck.AppImage`
+    * Download Link: [https://gitlab.com/es-de/emulationstation-de/-/packages/](https://gitlab.com/es-de/emulationstation-de/-/packages/)
 * mGBA
-  * Executable Location: `/home/deck/Applications/mGBA.AppImage`
-  * Download Link: https://github.com/mgba-emu/mgba/releases
+    * Executable Location: `/home/deck/Applications/mGBA.AppImage`
+    * Download Link: [https://github.com/mgba-emu/mgba/releases](https://github.com/mgba-emu/mgba/releases)
 * PCSX2-QT
-  * Executable Location: `/home/deck/Applications/pcsx2-Qt.AppImage`
-  * Download Link: https://pcsx2.net/downloads/#nightly-anchor
+    * Executable Location: `/home/deck/Applications/pcsx2-Qt.AppImage`
+    * Download Link: [https://pcsx2.net/downloads/#nightly-anchor](https://pcsx2.net/downloads/#nightly-anchor)
 * Ryujinx
-  * Executable Location: `/home/deck/Applications/publish/Ryujinx`
-  * Download Link: https://github.com/Ryujinx/release-channel-master/releases
+   * Executable Location: `/home/deck/Applications/publish/Ryujinx`
+   * Download Link: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
 * Steam ROM Manager
-  * Executable Location: `Emulation/tools/srm/Steam-ROM-Manager.AppImage`
-  * Download Link: https://github.com/SteamGridDB/steam-rom-manager/releases
+    * Executable Location: `Emulation/tools/srm/Steam-ROM-Manager.AppImage`
+    * Download Link: [https://github.com/SteamGridDB/steam-rom-manager/releases](https://github.com/SteamGridDB/steam-rom-manager/releases)
 * Vita3K
-  * Executable Location: `/home/deck/Applications/Vita3K/Vita3K`
+    * Executable Location: `/home/deck/Applications/Vita3K/Vita3K`
 * Xenia (Swap out its EXE)
-  * Executable Location: `Emulation/roms/xbox360/xenia_canary.exe`
-  * Download Link: https://github.com/xenia-canary/xenia-canary/releases
+    * Executable Location: `Emulation/roms/xbox360/xenia_canary.exe`
+    * Download Link: [https://github.com/xenia-canary/xenia-canary/releases](https://github.com/xenia-canary/xenia-canary/releases)
 * Yuzu
-  * Executable Location: `/home/deck/Applications/yuzu.AppImage`
-  * Download Link: https://github.com/yuzu-emu/yuzu-mainline/releases
+    * Executable Location: `/home/deck/Applications/yuzu.AppImage`
+    * Download Link: [https://github.com/yuzu-emu/yuzu-mainline/releases](https://github.com/yuzu-emu/yuzu-mainline/releases)
 
 #### How to Swap Out Emulators
 
@@ -129,15 +133,15 @@ For some emulators, your ROMs launch using a script created by EmuDeck, which lo
 3. Move the downloaded emulator from Step 1 to the folder in Step 2
 3. Rename or delete the original emulator file
     * Rename it so it can be distinguished from your downloaded file
-    * A Few Examples: 
-      * Rename `Yuzu.AppImage` to `Yauzu.AppImage`
-      * Rename `Yuzu.AppImage` to add a `.bak` to the end of the file extension, `Yuzu.AppImage.bak` 
-      * Rename `Yuzu.AppImage` to add the version number. For example, if the latest version is 1351, rename it to `Yuzu-1351.AppImage`
+        * A Few Examples: 
+            * Rename `Yuzu.AppImage` to `Yauzu.AppImage`
+            * Rename `Yuzu.AppImage` to add a `.bak` to the end of the file extension, `Yuzu.AppImage.bak` 
+            * Rename `Yuzu.AppImage` to add the version number. For example, if the latest version is 1351, rename it to `Yuzu-1351.AppImage`
 4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
 5. Your games will now launch using the version of the emulator you downloaded
 
 Watch the following GIF for a visual (Yuzu is being used as an example in this GIF):
 
-<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/3c461f555ed3eb882e2ee1273a53429ae3fda486/GIFs/Swapping%20out%20AppImages%20and%20Binaries.gif" height="400">
+<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/3c461f555ed3eb882e2ee1273a53429ae3fda486/GIFs/Swapping%20out%20AppImages%20and%20Binaries.gif?raw=true"/>
 
 ***

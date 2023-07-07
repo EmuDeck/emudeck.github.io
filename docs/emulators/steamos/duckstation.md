@@ -1,10 +1,10 @@
 # DuckStation is a Sony Playstation 1 emulator. 
 
-Website: https://www.duckstation.org/
+Website: [https://www.duckstation.org/](https://www.duckstation.org/)
 
-Github: https://github.com/stenzek/duckstation
+Github: [https://github.com/stenzek/duckstation](https://www.duckstation.org/)
 
-Compatibility List: https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5RQmF5woS1murio2dsLn14kEqo/edit#gid=0
+Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5RQmF5woS1murio2dsLn14kEqo/edit#gid=0](https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5RQmF5woS1murio2dsLn14kEqo/edit#gid=0)
 
 ***
 
@@ -135,9 +135,10 @@ DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Inp
 | Toggle SoftwareRendering  | `Start` + `L3`            |
 | Full Screen               | `Select` + `R3`           |  
 
-For a tutorial on how to select Steam Input Profiles, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/hotkeys#how-to-select-a-steam-input-profile.
+**Note:** 
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 
 ***
@@ -166,6 +167,6 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 M3U files can be used to manage multiple discs for DuckStation. When the time comes to switch discs, use the Left Trackpad Touch Menu Hotkey. A full list of hotkeys and a tutorial on how to use Steam Input profiles can be found here: #hotkeys. 
 
-Learn how to create an M3U File: https://github.com/dragoonDorise/EmuDeck/wiki/file-management#how-to-manage-roms-with-multiple-discs. 
+[Learn how to create an M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file) 
 
 ***

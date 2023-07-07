@@ -1,17 +1,16 @@
 # MAME is a multi-purpose emulation framework. Play arcade games and more. 
 
-Website: https://www.mamedev.org/
+Website: [https://www.mamedev.org/](https://www.mamedev.org/)
 
-Github: https://github.com/mamedev/mame
+Github: [https://github.com/mamedev/mame](https://github.com/mamedev/mame)
 
-MAME Wiki: https://docs.mamedev.org/whatis.html
+MAME Wiki: [https://docs.mamedev.org/whatis.html](https://docs.mamedev.org/whatis.html)
 
-MAME FAQ: https://docs.mamedev.org/usingmame/commonissues.html
+MAME FAQ: [https://docs.mamedev.org/usingmame/commonissues.html](https://docs.mamedev.org/usingmame/commonissues.html)
 
-Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name refers to): http://adb.arcadeitalia.net/default.php
+Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name refers to): [http://adb.arcadeitalia.net/default.php](http://adb.arcadeitalia.net/default.php)
 
-Updating this Emulator:
-* Use `Discover` (Shopping Bag icon) to update MAME
+
 
 
 ***
@@ -101,6 +100,7 @@ Updating this Emulator:
 #### BIOS Files
 
 BIOS will be searched through 3 folders:
+
 * `Emulation/roms/arcade/`
 * `Emulation/bios/mame/*`
 * `Emulation/bios/`
@@ -122,7 +122,9 @@ BIOS will be searched through 3 folders:
 | Save State       | `Select` + `R1`    |
 | Exit Emulator    | `Select` + `Start` |
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+**Note:** 
+
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -140,7 +142,7 @@ To understand how MAME works, look up the difference between merged and split RO
 
 Reference image: <img src="https://user-images.githubusercontent.com/108900299/230745173-8be48509-2131-4dc7-b4da-efb96a4b2594.png" height="300">
 
-**Note:** Refer to https://docs.mamedev.org/usingmame/aboutromsets.html, for additional information. 
+**Note:** Refer to [https://docs.mamedev.org/usingmame/aboutromsets.html](https://docs.mamedev.org/usingmame/aboutromsets.html), for additional information. 
 
 ***
 
@@ -151,7 +153,7 @@ Reference image: <img src="https://user-images.githubusercontent.com/108900299/2
 2. Copy bezel files, in .zip format, into this folder, named the same as the ROM. 
 3. Done.
 
-**Note:** Use the Bezel Project to locate bezels for your MAME ROMS: https://github.com/thebezelproject/BezelProject-Windows
+**Note:** Use the Bezel Project to locate bezels for your MAME ROMS: [https://github.com/thebezelproject/BezelProject-Windows](https://github.com/thebezelproject/BezelProject-Windows)
 
 ***
 
@@ -163,14 +165,14 @@ Reference image: <img src="https://user-images.githubusercontent.com/108900299/2
 3. Under the `BGFX POST-PROCESSING OPTIONS` section, set `bgfx_screen_chains` to the shader of your choice, for example: `crt-geom-deluxe`
 4. Save your changes to the file
 
-**Note:** Other shader values can be found here: https://docs.mamedev.org/advanced/bgfx.html
+**Note:** Other shader values can be found here: [https://docs.mamedev.org/advanced/bgfx.html](https://docs.mamedev.org/advanced/bgfx.html)
 
 ***
 
 ### How to Configure MAME to Work With EmulationStation-DE
 [Back to the Top](#mame-table-of-contents)
 
-EmuDeck installs both MAME (Standalone, installed as a flatpak), and Retroarch's MAME core. 
+EmuDeck installs both MAME (Standalone, installed as a flatpak), and RetroArch's MAME core. 
 
 In order to use MAME (Standalone), make sure your ROMs are in `Emulation/roms/arcade`. 
 

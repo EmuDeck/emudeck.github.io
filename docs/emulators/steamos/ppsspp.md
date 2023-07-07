@@ -1,12 +1,12 @@
 # PPSSPP is a Playstation Portable emulator.
 
-Website: https://www.ppsspp.org/
+Website: [https://www.ppsspp.org/](https://www.ppsspp.org/)
 
-Github: https://github.com/hrydgard/ppsspp
+Github: [https://github.com/hrydgard/ppsspp](https://www.ppsspp.org/)
 
-Compatibility List: https://forums.ppsspp.org/showthread.php?tid=1473
+Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://www.ppsspp.org/)
 
-**This page is for PPSSPP, a standalone emulator. This page is not for the PPSSPP RetroArch core. For more information on RetroArch and the PPSSPP RetroArch core, visit https://github.com/dragoonDorise/EmuDeck/wiki/Retroarch.**
+**This page is for PPSSPP, a standalone emulator. This page is not for the PPSSPP RetroArch core. For more information on RetroArch and the PPSSPP RetroArch core, visit the [RetroArch Page](../steamos/retroarch.md).**
 
 ***
 
@@ -46,15 +46,15 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Type of Emulator: Flatpak
 * Config Location: `/home/deck/.var/app/org.ppsspp.PPSSPP`
 * Memstick Location: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP`
-   * The `PSP` folder at the end of this path is equivalent to the `Memstick` folder 
+    * The `PSP` folder at the end of this path is equivalent to the `Memstick` folder 
 * ROM location: `Emulation/roms/psp`
 * PPSSPP does not require any additional BIOS or firmware
 * Saves: 
-   * Symlink: `Emulation/saves/ppsspp/saves`
-   * Target: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SAVEDATA`
+    * Symlink: `Emulation/saves/ppsspp/saves`
+    * Target: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SAVEDATA`
 * Savestates:
-   * Symlink: `Emulation/saves/ppsspp/states/`
-   * Target: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/PPSSPP_STATE`
+    * Symlink: `Emulation/saves/ppsspp/states/`
+    * Target: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/PPSSPP_STATE`
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.  
 
@@ -133,14 +133,14 @@ Rock Band Unplugged requires additional configuration to enable DLC and addition
 **How to Configure the Memstick Folder for Rock Band Unplugged**
 
 * Folder: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/GAME`
-   * Create a `GAME` folder if one does not exist already
-   * Place DLC folder (to enable additional music tracks) in this folder
+    * Create a `GAME` folder if one does not exist already
+    * Place DLC folder (to enable additional music tracks) in this folder
 * Folder: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/seplugins`
-   * Create a `seplugins` folder if one does not exist already
-   * Place plugin contents directly into this folder
+    * Create a `seplugins` folder if one does not exist already
+    * Place plugin contents directly into this folder
 * File: `game.txt`, placed in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/seplugins`
-   * Create a `game.txt` file and place in this folder
-   * Contents of the `game.txt` file: `ms0:/seplugins/nploader.prx 1`
+    * Create a `game.txt` file and place in this folder
+    * Contents of the `game.txt` file: `ms0:/seplugins/nploader.prx 1`
 
 
 ***
@@ -159,9 +159,10 @@ PPSSPP comes with a Steam Input profile for Hotkeys. Activate the Steam Input pr
 | Next Save Slot | Left Trackpad Radial Menu |
 | Fast Forward   | Left Trackpad Radial Menu |
 
-For a tutorial on how to select Steam Input Profiles, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/hotkeys#how-to-select-a-steam-input-profile.
+**Note:** 
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -183,21 +184,21 @@ The PPSSPP Flatpak (installed by EmuDeck) does not use a named Memstick folder t
 
 _This list is not exhaustive_
 
-* https://forums.ppsspp.org/forumdisplay.php?fid=36
+* [https://forums.ppsspp.org/forumdisplay.php?fid=36](https://forums.ppsspp.org/forumdisplay.php?fid=36)
 
 ***
 
 **How to Install Custom Textures**
 
 1. In Desktop Mode, open `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/`
-   1. `~/.var` is an invisible folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
+    1. `~/.var` is an invisible folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
 2. Create a `TEXTURES` folder here, casing matters
 3. In the `TEXTURES` folder, create a folder matching your Game ID
-   1. To find your Game ID, open PPSSPP, click the `Games` tab, click the `Gear` icon, Toggle `Show ID`
-   2. <img src="https://user-images.githubusercontent.com/108900299/210125694-441118ba-2f32-4843-bc7f-48def75e9b09.png" height="300">
-   3. Note down the Game ID to the right of your game
+    1. To find your Game ID, open PPSSPP, click the `Games` tab, click the `Gear` icon, Toggle `Show ID`
+    2. <img src="https://user-images.githubusercontent.com/108900299/210125694-441118ba-2f32-4843-bc7f-48def75e9b09.png" height="300">
+    3. Note down the Game ID to the right of your game
 4. Place the texture folder (containing the texture files) directly in this newly created folder
-   1. Example (Using Kingdom Hearts: Birth by Sleep): <img src="https://user-images.githubusercontent.com/108900299/210125679-ee345b47-33d3-4bf1-bf15-49bcbc2e97bb.png" height="300">
+    1. Example (Using Kingdom Hearts: Birth by Sleep): <img src="https://user-images.githubusercontent.com/108900299/210125679-ee345b47-33d3-4bf1-bf15-49bcbc2e97bb.png" height="300">
 
 ***
 
@@ -214,27 +215,27 @@ The PPSSPP Flatpak (installed by EmuDeck) does not use a named Memstick folder t
 
 _This list is not exhaustive_
 
-* https://forums.ppsspp.org/showthread.php?tid=11961
-* https://forums.ppsspp.org/showthread.php?tid=22800
+* [https://forums.ppsspp.org/showthread.php?tid=11961](https://forums.ppsspp.org/showthread.php?tid=11961)
+* [https://forums.ppsspp.org/showthread.php?tid=22800](https://forums.ppsspp.org/showthread.php?tid=22800)
 
 ***
 
 #### How to Use a cheats.db File
 
 1. In Desktop Mode, open `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/`
-   1. `~/.var` is an invisible folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
+    1. `~/.var` is an invisible folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
 2. Create a `Cheats` folder here, casing matters
-   1. If one exists, skip this step
+    1. If one exists, skip this step
 3. Place a `cheat.db` file in this folder
-   1. <img src="https://user-images.githubusercontent.com/108900299/214385915-9016e2ca-02fd-4e20-9331-5ff9d4e632da.png" height="300">
+    1. <img src="https://user-images.githubusercontent.com/108900299/214385915-9016e2ca-02fd-4e20-9331-5ff9d4e632da.png" height="300">
 4. Open PPSSPP, click `Settings`, select `System`, scroll down and check `Enable cheats`
-   1. <img src="https://user-images.githubusercontent.com/108900299/214386240-5cc0309c-dd93-43a3-a14e-a38e1ff210f6.png" height="300">
+    1. <img src="https://user-images.githubusercontent.com/108900299/214386240-5cc0309c-dd93-43a3-a14e-a38e1ff210f6.png" height="300">
 5. In Game Mode, open a game and either press the `Escape Key` hotkey: `Steam` + `DPad Left` or use the `PPSSPP Steam Input Profile` to open the Quick Menu
-   1. Global Hotkeys: https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#global
-   2. PPSSPP Hotkeys: #hotkeys
-   3. <img src="https://user-images.githubusercontent.com/108900299/214387780-baab0bf4-2ed8-4632-9a46-091faccb5900.png" height="300">
+    1. Global Hotkeys: [Global Hotkeys](../../emudeck-essentials/steamos/hotkeys.md#global)
+    2. PPSSPP Hotkeys: #hotkeys
+    3. <img src="https://user-images.githubusercontent.com/108900299/214387780-baab0bf4-2ed8-4632-9a46-091faccb5900.png" height="300">
 6. Select `Import from cheat.db`, and check the cheat(s) you would like to enable
-   1. <img src="https://user-images.githubusercontent.com/108900299/214387170-31a93120-5b6f-47e0-ade8-b5078676530f.png" height="300">
+    1. <img src="https://user-images.githubusercontent.com/108900299/214387170-31a93120-5b6f-47e0-ade8-b5078676530f.png" height="300">
 7. Return to game and your cheat(s) should now be enabled
 
 ***
@@ -242,26 +243,26 @@ _This list is not exhaustive_
 #### How to use Cheat Codes
 
 1. In Desktop Mode, open `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/`
-   1. `~/.var` is an invisible folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
+    1. `~/.var` is an invisible folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
 2. Create a `Cheats` folder here, casing matters
-   1. If one exists, skip this step
+    1. If one exists, skip this step
 3. Locate your Game ID
-   1. To find your Game ID, open PPSSPP, click the `Games` tab, click the `Gear` icon, Toggle `Show ID`
-   2. <img src="https://user-images.githubusercontent.com/108900299/210125694-441118ba-2f32-4843-bc7f-48def75e9b09.png" height="300">
-   3. Note down the Game ID to the right of your game
+    1. To find your Game ID, open PPSSPP, click the `Games` tab, click the `Gear` icon, Toggle `Show ID`
+    2. <img src="https://user-images.githubusercontent.com/108900299/210125694-441118ba-2f32-4843-bc7f-48def75e9b09.png" height="300">
+    3. Note down the Game ID to the right of your game
 4. In the `Cheats` folder, create a file matching your Game ID with an `.ini` file extension
-   1. Skip this step if an `.ini` file already exists matching your Game ID
-   2. Example (Using Grand Theft Auto: Liberty City Stories - `ULUS10160.ini`): <img src="https://user-images.githubusercontent.com/108900299/214389912-556cf061-e426-4384-8a7a-6d048e603a49.png" height="300">
+    1. Skip this step if an `.ini` file already exists matching your Game ID
+    2. Example (Using Grand Theft Auto: Liberty City Stories - `ULUS10160.ini`): <img src="https://user-images.githubusercontent.com/108900299/214389912-556cf061-e426-4384-8a7a-6d048e603a49.png" height="300">
 5. Open the `.ini` file and add your cheat to the bottom of the file
-   1. Example (Using a 60 FPS cheat for Grand Theft Auto: Liberty City Stories): <img src="https://user-images.githubusercontent.com/108900299/214389761-989b1891-25c9-408f-9ccd-e8b6f4df4ab3.png" height="300">
+    1. Example (Using a 60 FPS cheat for Grand Theft Auto: Liberty City Stories): <img src="https://user-images.githubusercontent.com/108900299/214389761-989b1891-25c9-408f-9ccd-e8b6f4df4ab3.png" height="300">
 6. Save and close out of the `.ini` file
 5. In Game Mode, open a game and either press the `Escape Key` hotkey: `Steam` + `DPad Left` or use the `PPSSPP Steam Input Profile` to open the Quick Menu
-   1. Global Hotkeys: https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#global
-   2. PPSSPP Hotkeys: #hotkeys
-   3. <img src="https://user-images.githubusercontent.com/108900299/214387780-baab0bf4-2ed8-4632-9a46-091faccb5900.png" height="300">
+    1. Global Hotkeys: [Global Hotkeys](../../emudeck-essentials/steamos/hotkeys.md#global)
+    2. [PPSSPP Hotkeys](#hotkeys)
+    3. <img src="https://user-images.githubusercontent.com/108900299/214387780-baab0bf4-2ed8-4632-9a46-091faccb5900.png" height="300">
 6. Select `Cheats` on the right
 7. scroll down the list of cheats and enable the cheat(s) you added to the `.ini` file
-   1. <img src="https://user-images.githubusercontent.com/108900299/214390274-8832ce4e-50d9-4844-8d39-35f1d233a4c6.png" height="300">
+    1. <img src="https://user-images.githubusercontent.com/108900299/214390274-8832ce4e-50d9-4844-8d39-35f1d233a4c6.png" height="300">
 8. Return to game and your cheat(s) should now be enabled
 
 ***

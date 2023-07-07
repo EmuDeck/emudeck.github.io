@@ -35,7 +35,7 @@ Could you do everything EmuDeck does on your own? You sure could, but now you do
     * The EmuDeck team cannot promise it will be a bug-free experience. Please report any bugs you come across by submitting an issue on the GitHub page.
 
 Setup Required:
-Many emulators require BIOS files. Generally place them in the `Emulation/bios` directly with no subfolders. There are a few exceptions. You can check the cheat sheet for more information, https://github.com/dragoonDorise/EmuDeck/wiki/Cheat-Sheet.
+Many emulators require BIOS files. Generally place them in the `Emulation/bios` directly with no subfolders. There are a few exceptions. You can check the [Cheat Sheet](./emudeck-essentials/cheat-sheet.md) for more information.
 
 Please note - ROMs, BIOS files, or any other copyrighted files are not included in the install. Asking for support on where to obtain these files is not allowed. 
 

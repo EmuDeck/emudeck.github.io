@@ -1,14 +1,14 @@
 # melonDS is a Nintendo DS emulator.
 
-Website: https://melonds.kuribo64.net/
+Website: [https://melonds.kuribo64.net/](https://github.com/mgba-emu/mgba)
 
-melonDS' FAQ: https://melonds.kuribo64.net/faq.php
+melonDS' FAQ: [https://melonds.kuribo64.net/faq.php](https://melonds.kuribo64.net/faq.php)
 
-Github: https://github.com/melonDS-emu/melonDS
+Github: [https://github.com/melonDS-emu/melonDS](https://github.com/melonDS-emu/melonDS)
 
-Compatibility List: https://melonds.kuribo64.net/board/forum.php?id=3
+Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://melonds.kuribo64.net/board/forum.php?id=3)
 
-**This page is for melonDS, a standalone NDS emulator. This page is not for the melonDS RetroArch core. For more information on RetroArch and the melonDS RetroArch core, visit https://github.com/dragoonDorise/EmuDeck/wiki/Retroarch.**
+**This page is for melonDS, a standalone NDS emulator. This page is not for the melonDS RetroArch core. For more information on RetroArch and the melonDS RetroArch core, visit the [RetroArch Page](../steamos/retroarch.md).**
 
 
 ***
@@ -50,8 +50,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Config Location: `/home/deck/.var/app/net.kuribo64.melonDS`
 * ROM Location: `Emulation/roms/nds`
 * BIOS Location: `Emulation/bios`
-   * Optional BIOS (Nintendo DS): `bios7.bin`, `bios9.bin`, `firmware.bin`
-   * Optional BIOS (Nintendo DSI): `dsi_bios9.bin`, `dsi_bios7.bin`, `dsi_firmware.bin`, `dsi_nand.bin`
+    * Optional BIOS (Nintendo DS): `bios7.bin`, `bios9.bin`, `firmware.bin`
+    * Optional BIOS (Nintendo DSI): `dsi_bios9.bin`, `dsi_bios7.bin`, `dsi_firmware.bin`, `dsi_nand.bin`
 * Saves: `Emulation/saves/melonds/saves`
 * Savestates: `Emulation/saves/melonds/states`
 * Cheats Location: `Emulation/storage/melonds/cheats`
@@ -114,9 +114,10 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 | Toggle FPS Limit | Tilt `Right Joystick` `Right`    |
 
 
-For a tutorial on how to select Steam Input Profiles, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/hotkeys#how-to-select-a-steam-input-profile.
+**Note:** 
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -135,13 +136,13 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 1. Open melonDS
 2. Click `System` at the top
 3. Check `Enable cheats`
-   * <img src="https://user-images.githubusercontent.com/108900299/220514789-7511568d-4806-4528-8521-ea1d6e35b989.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/220514789-7511568d-4806-4528-8521-ea1d6e35b989.png" height="300">
 
 #### How to Download the Cheats Database
 
-1. Open https://db.universal-team.net/ds/ndsi-cheat-databases, right click `cheats.xml`, and click `Save As`
+1. Open [https://db.universal-team.net/ds/ndsi-cheat-databases](https://db.universal-team.net/ds/ndsi-cheat-databases), right click `cheats.xml`, and click `Save As`
 2. Place it in `Emulation/storage/melonds/cheats`
-   * This folder placement is optional, you may place it wherever you want
+    * This folder placement is optional, you may place it wherever you want
 3. To view, right click `cheats.xml`, open with a text editor of your choice
 
 #### How to Use the Cheats Database
@@ -151,7 +152,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 1. Open the `cheats.xml` you downloaded from the `How to Download the Cheats Database` section
 2. `CTRL` + `F` the game you are adding cheats to
 3. Copy the blocks of alphanumerical strings between the two `<codes> <codes>` for your respective cheat
-   * Example: <img src="https://user-images.githubusercontent.com/108900299/220517493-9305654f-660e-4845-8210-ea1da61ce2b2.png" height="300">
+    * Example: <img src="https://user-images.githubusercontent.com/108900299/220517493-9305654f-660e-4845-8210-ea1da61ce2b2.png" height="300">
 4. Open MelonDS
 5. Open a ROM
 6. Click `System` at the top
@@ -162,8 +163,8 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
    * The name is flexible, you may name it whatever you would like
 11. Paste the code you copied from Step 3, it will appear as red text
 13. Format the cheat so there are two blocks of code per line
-   * Original: <img src="https://user-images.githubusercontent.com/108900299/220517044-dc4c547b-7a13-4a42-aa34-c3f36786c320.png" height ="300">
-   * Corrected: <img src="https://user-images.githubusercontent.com/108900299/220516960-47147c37-d914-4ced-9893-f5b9c9e47781.png" height="300">
+    * Original: <img src="https://user-images.githubusercontent.com/108900299/220517044-dc4c547b-7a13-4a42-aa34-c3f36786c320.png" height ="300">
+    * Corrected: <img src="https://user-images.githubusercontent.com/108900299/220516960-47147c37-d914-4ced-9893-f5b9c9e47781.png" height="300">
 14. Some cheats are automatically activated, others will require a button combo. Look at the `cheats.xml` file to see if a button combo is required to activate your cheat
 
 ***
@@ -173,7 +174,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 
 1. If you have a game that when extracted is just "00000000", change the extension to ".app" so it becomes "00000000.app". This makes the game recognizable in melonDS.
 2. Place your DSI BIOS in `Emulation/bios`.
-   * Read: #getting-started-with-melonds for additional detail
+    * Read the [Configuration](#melonds-configuration) section for additional detail
 3. Open melonDS. At the main screen, select Config -> Emu Settings
 4. In General: Console type -> DSi (experimental)
 5. In DSi-mode: Point the ARM9 BIOS, ARM7 BIOS, Firmware, and NAND to the files you acquired
@@ -186,9 +187,9 @@ For a tutorial on how to select Steam Input Profiles, refer to: https://github.c
 **Steam ROM Manager and EmulationStation-DE**
 
 * You can rename the ROM file from `00000000.app` to `GAMENAME.app` so it can be parsed by Steam ROM Manager and EmulationStation-DE
-   * [SteamGridDB](https://www.steamgriddb.com/) (Steam ROM Manager's source) may not have a game page available for your respective DSIWare game, you can request to create a page here: https://www.steamgriddb.com/request-game
+    * [SteamGridDB](https://www.steamgriddb.com/) (Steam ROM Manager's source) may not have a game page available for your respective DSIWare game, you can request to create a page here: [https://www.steamgriddb.com/request-game](https://www.steamgriddb.com/request-game)
       * You will need to login to view this page
-   * [TheGamesDB](https://thegamesdb.net/) and [ScreenScraper](https://www.screenscraper.fr/) (EmulationStation-DE's sources) may not have a game page available for your respective DSIWare game. You may sign up for either website to create a page
+    * [TheGamesDB](https://thegamesdb.net/) and [ScreenScraper](https://www.screenscraper.fr/) (EmulationStation-DE's sources) may not have a game page available for your respective DSIWare game. You may sign up for either website to create a page
 
 ***
 
@@ -200,11 +201,11 @@ A handful of Nintendo DS games require portrait orientation. For these games, yo
 **Here's How**
 
 1. In Game Mode, select the `EmuDeck - MelonDS` profile if you are playing a game directly from Game Mode or the `EmuDeck - EmulationStation-DE` profile if you are playing through EmulationStation-DE
-   * [How to Select A Steam Input Profile](https://github.com/dragoonDorise/EmuDeck/wiki/hotkeys#how-to-select-a-steam-input-profile)
+    * [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Open the game, use the Steam Input profile and select the `Fullscreen` hotkey
 3. At the top, press `Config`, `Screen Rotation`, `270`
-   * <img src="https://user-images.githubusercontent.com/108900299/224400268-181fd70c-3ef1-470d-85ef-9a8897211958.png" height="300">
-   * <img src="https://user-images.githubusercontent.com/108900299/224400552-b53ddd81-c448-473e-9951-5003cb8b6b14.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/224400268-181fd70c-3ef1-470d-85ef-9a8897211958.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/224400552-b53ddd81-c448-473e-9951-5003cb8b6b14.png" height="300">
 
 ***
 
@@ -221,10 +222,10 @@ By default, EmuDeck configures melonDS' screens to use a hybrid layout, meaning 
 **Here's How**
 
 1. In Game Mode, select the `EmuDeck - MelonDS` profile if you are playing a game directly from Game Mode or the `EmuDeck - EmulationStation-DE` profile if you are playing through EmulationStation-DE
-   * [How to Select A Steam Input Profile](https://github.com/dragoonDorise/EmuDeck/wiki/hotkeys#how-to-select-a-steam-input-profile)
+    * [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Open the game, use the Steam Input profile and select the `Fullscreen` hotkey
 3. At the top, press `Config`, and use `Screen size`, `Screen rotation`, `Screen layout`, `Screen sizing`, and `Aspect Ratio` to customize your layout 
-   * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/93413e6c-a704-48ea-aaca-565f54a85bb6" height="300">
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/93413e6c-a704-48ea-aaca-565f54a85bb6" height="300">
 
 The `Screen layout` is where you can find the `Hybrid layout` option. Here, you can swap to `Natural`, `Vertical`, `Horizontal`, and `Hybrid`. 
 
@@ -239,11 +240,10 @@ If you configured the settings and you decide you would like to reset to EmuDeck
 **How to Back Up your Screen Layout Configuration**
 
 1. In Desktop Mode, open `/home/deck/.var/app/net.kuribo64.melonDS/config/melonDS`
-   * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show hidden files` to see these folders
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show hidden files` to see these folders
 2. Open `melonDS.ini` in Kate or a text editor of your choice
 3. Copy the following section to another file:
-   * For example:            
-      * ```   
+
             WindowWidth=1280
             WindowHeight=771
             WindowMax=0
@@ -255,7 +255,7 @@ If you configured the settings and you decide you would like to reset to EmuDeck
             IntegerScaling=0
             ScreenAspectTop=4
             ScreenAspectBot=4           
-            ```
+
 4. Back up this file to a secure location. If/when your melonDS configs are reset on an EmuDeck update, you may paste this section into the `melonDS.ini` to restore your custom layout
 
 ***
