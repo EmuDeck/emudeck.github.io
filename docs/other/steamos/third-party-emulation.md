@@ -801,7 +801,7 @@ Choose a soundtrack from: https://www.zeldix.net/t791-the-legend-of-zelda-a-link
 
 ***
 
-### General Maintenance
+## General Maintenance
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 ***
