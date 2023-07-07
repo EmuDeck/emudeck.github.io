@@ -1,6 +1,7 @@
 site_name: EmuDeck Wiki
 site_url: https://emudeck.github.io
 nav:
+    - EmuDeck Website: 'https://www.emudeck.com/'
     - Home: 'index.md'
     - About: 'about.md'
     - How to Install EmuDeck:

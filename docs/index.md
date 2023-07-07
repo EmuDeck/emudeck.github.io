@@ -1,5 +1,8 @@
 # Welcome to the EmuDeck wiki!
 
+* [EmuDeck Website](https://www.emudeck.com/)
+* [EmuDeck GitHub](https://github.com/dragoonDorise/EmuDeck)
+
 ***
 
 ## What the *hell* is EmuDeck anyways?
