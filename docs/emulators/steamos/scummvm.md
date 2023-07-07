@@ -13,14 +13,14 @@ ScummVM's Wiki: https://docs.scummvm.org/en/v2.6.0
 ## ScummVM Table of Contents
 
 1. [Getting Started with ScummVM](#getting-started-with-scummvm)
-   - [Configuration](#configuration)
-   - [How to Update ScummVM](#how-to-update-scummvm)
-   - [How to Launch ScummVM in Desktop Mode](#how-to-launch-scummvm-in-desktop-mode)
-   - [File Formats](#file-formats)
+    - [Configuration](#configuration)
+    - [How to Update ScummVM](#how-to-update-scummvm)
+    - [How to Launch ScummVM in Desktop Mode](#how-to-launch-scummvm-in-desktop-mode)
+    - [File Formats](#file-formats)
 
 2. [ScummVM Tips and Tricks](#scummvm-tips-and-tricks)
-   - [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
-   - [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)
+    - [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
+    - [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)
 
 ***
 

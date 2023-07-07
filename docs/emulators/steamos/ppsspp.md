@@ -13,16 +13,16 @@ Compatibility List: https://forums.ppsspp.org/showthread.php?tid=1473
 ## PPSSPP Table of Contents
 
 1. [Getting Started with PPSSPP](#getting-started-with-ppsspp)
-   - [Configuration](#ppsspp-configuration)
-   - [How to Update PPSSPP](#how-to-update-ppsspp)
-   - [How to Launch PPSSPP in Desktop Mode](#how-to-launch-ppsspp-in-desktop-mode)
-   - [File Formats](#ppsspp-file-formats)
-   - [How to Manage DLC](#ppsspp-how-to-manage-dlc)
-   - [Hotkeys](#ppsspp-hotkeys)
+    - [Configuration](#ppsspp-configuration)
+    - [How to Update PPSSPP](#how-to-update-ppsspp)
+    - [How to Launch PPSSPP in Desktop Mode](#how-to-launch-ppsspp-in-desktop-mode)
+    - [File Formats](#ppsspp-file-formats)
+    - [How to Manage DLC](#ppsspp-how-to-manage-dlc)
+    - [Hotkeys](#ppsspp-hotkeys)
 
 2. [PPSSPP Tips and Tricks](#ppsspp-tips-and-tricks)
-   - [How to Install Custom Textures](#how-to-install-custom-textures)
-   - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Install Custom Textures](#how-to-install-custom-textures)
+    - [How to Use Cheats](#how-to-use-cheats)
 
 ***
 

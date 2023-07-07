@@ -11,23 +11,23 @@ Compatibility List: https://citra-emu.org/game/
 ## Citra Table of Contents
 
 1. [Getting Started with Citra](#getting-started-with-citra)
-   - [Configuration](#citra-configuration)
-   - [How to Update Citra](#how-to-update-citra)
-   - [How to Launch Citra in Desktop Mode](#how-to-launch-citra-in-desktop-mode)
-   - [File Formats](#citra-file-formats)
-   - [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
-   - [Hotkeys](#citra-hotkeys)
+    - [Configuration](#citra-configuration)
+    - [How to Update Citra](#how-to-update-citra)
+    - [How to Launch Citra in Desktop Mode](#how-to-launch-citra-in-desktop-mode)
+    - [File Formats](#citra-file-formats)
+    - [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
+    - [Hotkeys](#citra-hotkeys)
 
 2. [Common Issues](#citra-common-issues)
-   - [Why did my game suddenly stop working?](#why-did-my-game-suddenly-stop-working)
+    - [Why did my game suddenly stop working?](#why-did-my-game-suddenly-stop-working)
 
 2. [Citra Tips and Tricks](#citra-tips-and-tricks)
-   - [How to Configure Gyro](#how-to-configure-gyro)
-   - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
-   - [How to Install Custom Textures](#how-to-install-custom-textures)
-   - [How to Use Cheats](#how-to-use-cheats)
-   - [How to Configure Bottom Screen as PiP](#how-to-configure-bottom-screen-as-pip)
-   - [How to Configure Bottom Screen With Opacity](#how-to-configure-bottom-screen-with-opacity)
+    - [How to Configure Gyro](#how-to-configure-gyro)
+    - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
+    - [How to Install Custom Textures](#how-to-install-custom-textures)
+    - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Configure Bottom Screen as PiP](#how-to-configure-bottom-screen-as-pip)
+    - [How to Configure Bottom Screen With Opacity](#how-to-configure-bottom-screen-with-opacity)
 
 ***
 

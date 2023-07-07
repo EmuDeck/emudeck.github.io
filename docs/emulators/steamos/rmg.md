@@ -9,14 +9,14 @@ Github: https://github.com/Rosalie241/RMG
 ## RMG Table of Contents
 
 1. [Getting Started with RMG](#getting-started-with-rmg)
-   - [Configuration](#rmg-configuration)
-   - [How to Update RMG](#how-to-update-rmg)
-   - [How to Launch RMG in Desktop Mode](#how-to-launch-rmg-in-desktop-mode)
-   - [File Formats](#rmg-file-formats)
-   - [Hotkeys](#rmg-hotkeys)
+    - [Configuration](#rmg-configuration)
+    - [How to Update RMG](#how-to-update-rmg)
+    - [How to Launch RMG in Desktop Mode](#how-to-launch-rmg-in-desktop-mode)
+    - [File Formats](#rmg-file-formats)
+    - [Hotkeys](#rmg-hotkeys)
 
 2. [RMG Tips and Tricks](#rmg-tips-and-tricks)
-   - [How to Install Custom Textures](#how-to-install-custom-textures)
+    - [How to Install Custom Textures](#how-to-install-custom-textures)
  
 ***
 

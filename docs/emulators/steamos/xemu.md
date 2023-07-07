@@ -18,26 +18,26 @@ Updating this Emulator:
 ## Xemu Table of Contents
 
 1. [Getting Started with Xemu](#getting-started-with-xemu)
-   - [Configuration](#xemu-configuration)
-   - [How to Update Xemu](#how-to-update-xemu)
-   - [How to Launch Xemu in Desktop Mode](#how-to-update-xemu)
-   - [File Formats](#xemu-file-formats)
+    - [Configuration](#xemu-configuration)
+    - [How to Update Xemu](#how-to-update-xemu)
+    - [How to Launch Xemu in Desktop Mode](#how-to-update-xemu)
+    - [File Formats](#xemu-file-formats)
 
 2. [Common Issues](#xemu-common-issues)
-   - ["The guest has not initialized the display"](#the-guest-has-not-initialized-the-display)
-   - ["Please insert an Xbox disc"](#please-insert-an-xbox-disc)
+    - ["The guest has not initialized the display"](#the-guest-has-not-initialized-the-display)
+    - ["Please insert an Xbox disc"](#please-insert-an-xbox-disc)
 
 3. [Xemu Tips and Tricks](#xemu-tips-and-tricks)
-   - [How to Convert ROMs to XISO Format](#how-to-convert-roms-to-xiso-format)
-      - [Method 1: Use the xiso Website (Steam Deck)](#method-1-use-the-xiso-website-steam-deck)
-      - [Method 2: Use XDVDMulleter (Windows)](#method-2-use-xdvdmulleter-windows)
-      - [Method 3: extract-iso (Windows)](#method-3-extract-iso-windows)
-      - [Method 4: extract-iso (Linux)](#method-4-extract-iso-linux)
-      - [Method 5: extract-iso (Mac)](#method-5-extract-iso-mac)
-      - [Method 6: dd](#method-6-dd-linux)
-   - [How to Apply Zink](#how-to-apply-zink)
-      - [How to Apply Zink to Steam ROM Manager Shortcuts](#how-to-apply-zink-to-steam-rom-manager-shortcuts)
-      - [How to Apply Zink to EmulationStation-DE Games](#how-to-apply-zink-to-emulationstation-de-games)
+    - [How to Convert ROMs to XISO Format](#how-to-convert-roms-to-xiso-format)
+        - [Method 1: Use the xiso Website (Steam Deck)](#method-1-use-the-xiso-website-steam-deck)
+        - [Method 2: Use XDVDMulleter (Windows)](#method-2-use-xdvdmulleter-windows)
+        - [Method 3: extract-iso (Windows)](#method-3-extract-iso-windows)
+        - [Method 4: extract-iso (Linux)](#method-4-extract-iso-linux)
+        - [Method 5: extract-iso (Mac)](#method-5-extract-iso-mac)
+        - [Method 6: dd](#method-6-dd-linux)
+    - [How to Apply Zink](#how-to-apply-zink)
+        - [How to Apply Zink to Steam ROM Manager Shortcuts](#how-to-apply-zink-to-steam-rom-manager-shortcuts)
+        - [How to Apply Zink to EmulationStation-DE Games](#how-to-apply-zink-to-emulationstation-de-games)
 
 ***
 

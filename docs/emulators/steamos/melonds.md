@@ -16,17 +16,17 @@ Compatibility List: https://melonds.kuribo64.net/board/forum.php?id=3
 ## melonDS Table of Contents
 
 1. [Getting Started with melonDS](#getting-started-with-melonds)
-   - [Configuration](#melonds-configuration)
-   - [How to Update melonDS](#how-to-update-melonds)
-   - [How to Launch melonDS in Desktop Mode](#how-to-launch-melonds-in-desktop-mode)
-   - [File Formats](#melonds-file-formats)
-   - [Hotkeys](#melonds-hotkeys)
+    - [Configuration](#melonds-configuration)
+    - [How to Update melonDS](#how-to-update-melonds)
+    - [How to Launch melonDS in Desktop Mode](#how-to-launch-melonds-in-desktop-mode)
+    - [File Formats](#melonds-file-formats)
+    - [Hotkeys](#melonds-hotkeys)
 
 2. [melonDS Tips and Tricks](#melonds-tips-and-tricks)
-   - [How to Use Cheats](#how-to-use-cheats)
-   - [How to Set up DSIWare](#how-to-set-up-dsiware)
-   - [How to Play Nintendo DS Games in Book Mode](#how-to-play-nintendo-ds-games-in-book-mode)
-   - [How to Customize the Screen Layout](#how-to-customize-the-screen-layout)
+    - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Set up DSIWare](#how-to-set-up-dsiware)
+    - [How to Play Nintendo DS Games in Book Mode](#how-to-play-nintendo-ds-games-in-book-mode)
+    - [How to Customize the Screen Layout](#how-to-customize-the-screen-layout)
 
 ***
 
