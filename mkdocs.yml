@@ -108,4 +108,15 @@ nav:
             - Third Party Emulation: 'other/steamos/third-party-emulation.md'  
         - EmuDeck for Windows:
             - File Management: 'other/windows/file-management.md'
-theme: readthedocs
+theme:
+    name: material
+    palette:
+        scheme: slate
+    features:
+        - toc.integrate 
+        - navigation.top
+    markdown_extensions:
+    - def_list
+    - sane_lists
+    - pymdownx.tasklist:
+    custom_checkbox: true

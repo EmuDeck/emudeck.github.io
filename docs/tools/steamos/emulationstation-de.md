@@ -22,18 +22,18 @@ Read https://github.com/dragoonDorise/EmuDeck/wiki/Steam-Rom-Manager to learn mo
 ## Emulationstation-DE Table of Contents
 
 1. [Getting started with EmulationStation-DE](#getting-started-with-emulationstation-de)
-   - [Configuration](#emulationstation-de-configuration)
-   - [How to Update EmulationStation-DE](#how-to-update-emulationstation-de)
-   - [How to Launch EmulationStation-DE in Desktop Mode](#how-to-launch-emulationstation-de-in-desktop-mode)
-   - [How to add EmulationStation-DE to your Steam Library](#how-to-add-emulationstation-de-to-your-steam-library)
-   - [Hotkeys](#emulationstation-de-hotkeys)
+    - [Configuration](#emulationstation-de-configuration)
+    - [How to Update EmulationStation-DE](#how-to-update-emulationstation-de)
+    - [How to Launch EmulationStation-DE in Desktop Mode](#how-to-launch-emulationstation-de-in-desktop-mode)
+    - [How to add EmulationStation-DE to your Steam Library](#how-to-add-emulationstation-de-to-your-steam-library)
+    - [Hotkeys](#emulationstation-de-hotkeys)
 
 2. [EmulationStation-DE Tips and Tricks](#emulationstation-de-tips-and-tricks)
-   - [Tips for Navigating EmulationStation-DE](#tips-for-navigating-emulationstation-de)
-   - [How to Select a Different Emulator for a System](#how-to-select-a-different-emulator-for-a-system)
-   - [How to Select a Different Emulator on a Per-Game Basis](#how-to-select-a-different-emulator-on-a-per-game-basis)
-   - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
-   - [How to Download Themes](#how-to-download-themes)
+    - [Tips for Navigating EmulationStation-DE](#tips-for-navigating-emulationstation-de)
+    - [How to Select a Different Emulator for a System](#how-to-select-a-different-emulator-for-a-system)
+    - [How to Select a Different Emulator on a Per-Game Basis](#how-to-select-a-different-emulator-on-a-per-game-basis)
+    - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
+    - [How to Download Themes](#how-to-download-themes)
 
 ***
 
