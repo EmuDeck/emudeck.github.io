@@ -9,7 +9,7 @@ nav:
         - 'EmuDeck for Windows': 
             - 'Prerequisites': 'how-to-install-emudeck/windows/prerequisites.md'
             - 'How to Install EmuDeck for Windows': 'how-to-install-emudeck/windows/emudeck-for-windows.md'
-        - 'EmuDeck for SteamOS': 
+        - 'EmuDeck for Linux': 
             - 'Prerequisites': 'how-to-install-emudeck/linux/prerequisites.md'
             - 'How to Install EmuDeck for Linux': 'how-to-install-emudeck/linux/emudeck-for-linux.md'
     - Getting Started with EmuDeck:
