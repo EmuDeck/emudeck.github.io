@@ -1,3 +1,5 @@
+# EmuDeck for Windows Prerequisites
+
 ## Windows Apps 
 - [Steam](https://store.steampowered.com/about/), EmuDeck works using Steam as his backbone so you need to have Steam installed and running to use EmuDeck.
 

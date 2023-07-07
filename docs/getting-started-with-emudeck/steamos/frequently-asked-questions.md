@@ -3,56 +3,56 @@
 ## Frequently Asked Questions: Table of Contents
 
 1. [Getting Started with the EmuDeck Basics](#getting-started-with-the-emudeck-basics)
-   - [What Does EmuDeck install?](#what-does-emudeck-install)
-   - [Where Does EmuDeck install?](#where-does-emudeck-install)
-   - [How are the various emulators and tools installed or downloaded?](#how-are-the-various-emulators-and-tools-installed-or-downloaded)
-   - [How do I open the various emulators and tools in Desktop Mode?](#how-do-i-open-the-various-emulators-and-tools-in-desktop-mode)
-   - [Why is EmuDeck not downloading?](#why-is-emudeck-not-downloading)
-   - [Where do I get ROMs?](#where-do-i-get-roms)
-   - [Where do I get BIOS files?](#where-do-i-get-bios-files)
-   - [Which emulators require BIOS files or firmware?](#which-emulators-require-bios-files-or-firmware)
-   - [What are the expected file types for the various emulators?](#what-are-the-expected-file-types-for-the-various-emulators)
-   - [Which folders match which systems?](#which-folders-match-which-systems)
-   - [Where do I put my games?](#where-do-i-put-my-games)
-   - [Where do I put my BIOS files?](#where-do-i-put-my-bios-files)
-   - [What are the hotkeys for the various emulators?](#what-are-the-hotkeys-for-the-various-emulators)
-   - [If I install EmuDeck, will it clutter my Steam library?](#if-i-install-emudeck-will-it-clutter-my-steam-library)
-   - [How do I update EmuDeck and emulators?](#how-do-i-update-emudeck-and-emulators)
-   - [How do I choose which emulators to install?](#how-do-i-choose-which-emulators-to-install)
-   - [How do I remotely control my Steam Deck?](#how-do-i-remotely-control-my-steam-deck)
-   - [How do I transfer files to my Steam Deck?](#how-do-i-transfer-files-to-my-steam-deck)
-   - [How do I transfer my initial install of EmuDeck to my SD Card and Vice Versa?](#how-do-I-transfer-my-initial-install-of-EmuDeck-to-my-SD-Card-and-Vice-Versa)
-   - [How do I change the Steam Input Controller Profile?](#how-do-i-change-the-steam-input-controller-profile) 
-   - [How to Verify ROMs](#how-to-verify-roms)
-   - [Why is my emulator or game muted?](#why-is-my-emulator-or-game-muted)
-   - [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
+    - [What Does EmuDeck install?](#what-does-emudeck-install)
+    - [Where Does EmuDeck install?](#where-does-emudeck-install)
+    - [How are the various emulators and tools installed or downloaded?](#how-are-the-various-emulators-and-tools-installed-or-downloaded)
+    - [How do I open the various emulators and tools in Desktop Mode?](#how-do-i-open-the-various-emulators-and-tools-in-desktop-mode)
+    - [Why is EmuDeck not downloading?](#why-is-emudeck-not-downloading)
+    - [Where do I get ROMs?](#where-do-i-get-roms)
+    - [Where do I get BIOS files?](#where-do-i-get-bios-files)
+    - [Which emulators require BIOS files or firmware?](#which-emulators-require-bios-files-or-firmware)
+    - [What are the expected file types for the various emulators?](#what-are-the-expected-file-types-for-the-various-emulators)
+    - [Which folders match which systems?](#which-folders-match-which-systems)
+    - [Where do I put my games?](#where-do-i-put-my-games)
+    - [Where do I put my BIOS files?](#where-do-i-put-my-bios-files)
+    - [What are the hotkeys for the various emulators?](#what-are-the-hotkeys-for-the-various-emulators)
+    - [If I install EmuDeck, will it clutter my Steam library?](#if-i-install-emudeck-will-it-clutter-my-steam-library)
+    - [How do I update EmuDeck and emulators?](#how-do-i-update-emudeck-and-emulators)
+    - [How do I choose which emulators to install?](#how-do-i-choose-which-emulators-to-install)
+    - [How do I remotely control my Steam Deck?](#how-do-i-remotely-control-my-steam-deck)
+    - [How do I transfer files to my Steam Deck?](#how-do-i-transfer-files-to-my-steam-deck)
+    - [How do I transfer my initial install of EmuDeck to my SD Card and Vice Versa?](#how-do-I-transfer-my-initial-install-of-EmuDeck-to-my-SD-Card-and-Vice-Versa)
+    - [How do I change the Steam Input Controller Profile?](#how-do-i-change-the-steam-input-controller-profile) 
+    - [How to Verify ROMs](#how-to-verify-roms)
+    - [Why is my emulator or game muted?](#why-is-my-emulator-or-game-muted)
+    - [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
 
 
 2. [EmuDeck Tips and Tricks](#emudeck-tips-and-tricks)
-   - [How do I find .var, .config, or any folder with a period in front?](#how-do-i-find-var-config-or-any-folder-with-a-period-in-front)
-   - [How do I reset an emulator's configurations?](#how-do-i-reset-an-emulators-configurations)
-   - [How do I navigate to my SD Card through an emulator's menu?](#how-do-i-navigate-to-my-sd-card-through-an-emulators-menu)
-   - [Why are my emulators stuttering? How do I improve emulator performance?](#why-are-my-emulators-stuttering-How-do-I-improve-emulator-performance)
-   - [Does EmuDeck have a community games database?](#does-emudeck-have-a-community-games-database)
-   - [How do I install Power Tools and Deckyloader?](#how-do-i-install-power-tools-and-deckyloader)
-   - [How do I install SteamDeckGyroDSU?](#how-do-i-install-SteamDeckGyroDSU)
-   - [How do I manage ROMs with multiple discs?](#how-do-i-manage-roms-with-multiple-discs)
-   - [How do I link folders or files?](#how-do-i-link-folders-or-files)
-   - [How do I use DeckyControls?](#how-do-i-use-deckycontrols)
+    - [How do I find .var, .config, or any folder with a period in front?](#how-do-i-find-var-config-or-any-folder-with-a-period-in-front)
+    - [How do I reset an emulator's configurations?](#how-do-i-reset-an-emulators-configurations)
+    - [How do I navigate to my SD Card through an emulator's menu?](#how-do-i-navigate-to-my-sd-card-through-an-emulators-menu)
+    - [Why are my emulators stuttering? How do I improve emulator performance?](#why-are-my-emulators-stuttering-How-do-I-improve-emulator-performance)
+    - [Does EmuDeck have a community games database?](#does-emudeck-have-a-community-games-database)
+    - [How do I install Power Tools and Deckyloader?](#how-do-i-install-power-tools-and-deckyloader)
+    - [How do I install SteamDeckGyroDSU?](#how-do-i-install-SteamDeckGyroDSU)
+    - [How do I manage ROMs with multiple discs?](#how-do-i-manage-roms-with-multiple-discs)
+    - [How do I link folders or files?](#how-do-i-link-folders-or-files)
+    - [How do I use DeckyControls?](#how-do-i-use-deckycontrols)
 
      
 
 3. [Steam ROM Manager FAQ](#steam-rom-manager-faq)
-   - [Where Did Steam ROM Manager Go?](#where-did-steam-rom-manager-go)
-   - [Help, I just opened Steam ROM Manager and I have no controls!](#help-i-just-opened-steam-rom-manager-and-i-have-no-controls)
+    - [Where Did Steam ROM Manager Go?](#where-did-steam-rom-manager-go)
+    - [Help, I just opened Steam ROM Manager and I have no controls!](#help-i-just-opened-steam-rom-manager-and-i-have-no-controls)
 
 4. [Common Words and Acronyms](#common-words-and-acronyms)
 
 5. [How to Debug](#how-to-debug)
-   - [Understanding What You Are Using](#understanding-what-you-are-using)
-   - [Debugging Using Steam Shortcuts](#debugging-using-steam-shortcuts)
-   - [Debugging by Resetting Configurations](#debugging-by-resetting-configurations)
-   - [Debugging Through the EmuDeck Log](#debugging-through-the-emudeck-log)
+    - [Understanding What You Are Using](#understanding-what-you-are-using)
+    - [Debugging Using Steam Shortcuts](#debugging-using-steam-shortcuts)
+    - [Debugging by Resetting Configurations](#debugging-by-resetting-configurations)
+    - [Debugging Through the EmuDeck Log](#debugging-through-the-emudeck-log)
 
 ***
 
@@ -902,7 +902,7 @@ Sometimes, data loss or corruption can occur when you transfer ROMs to your Stea
 
 #### How to Verify a ROM is Valid
 
-For one reason or another, your ROM may be corrupt and may not work properly. One way to confirm that you have a valid ROM is by comparing it to the ROM page on [redump.org](http://redump.org). Redump is an internet community "dedicated to collecting precise and accurate information about every video game ever released". You can validate your ROM by comparing its MD5 Checksum, a 32-character hexadecimal number that is computed on a file, to the MD5 Checksum on [redump.org](redump.org). 
+For one reason or another, your ROM may be corrupt and may not work properly. One way to confirm that you have a valid ROM is by comparing it to the ROM page on [redump.org](http://redump.org). Redump is an internet community "dedicated to collecting precise and accurate information about every video game ever released". You can validate your ROM by comparing its MD5 Checksum, a 32-character hexadecimal number that is computed on a file, to the MD5 Checksum on [redump.org](http://redump.org). 
 
 **Here's How**
 
