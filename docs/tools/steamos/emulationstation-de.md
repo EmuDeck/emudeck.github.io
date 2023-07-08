@@ -113,9 +113,10 @@ EmulationStation-DE comes with a Steam Input profile for Hotkeys. Activate the S
 | PPSSPP         | Left Trackpad Touch  Menu |
 | DuckStation    | Left Trackpad Touch  Menu |
 
-For a tutorial on how to select Steam Input Profiles, refer to: https://github.com/dragoonDorise/EmuDeck/wiki/hotkeys#how-to-select-a-steam-input-profile.
+**Note:** 
 
-**Steam Deck Button Layout:** https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys#steam-deck-button-layout
+* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
 
 #### An explanation of the EmulationStation-DE Profile
 
