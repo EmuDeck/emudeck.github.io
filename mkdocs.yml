@@ -28,6 +28,8 @@ nav:
             - 'common-issues/steamos/index.md'
         - 'EmuDeck for Windows': 
             - 'common-issues/windows/index.md'
+        - 'EmuDeck for Linux': 
+            - 'common-issues/linux/index.md'
     - EmuDeck Essentials:
         - 'Cheat Sheet': 'emudeck-essentials/cheat-sheet.md'
         - 'EmuDeck for SteamOS':
