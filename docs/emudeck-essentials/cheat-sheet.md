@@ -61,7 +61,7 @@ search:
 * In some cases, BIOS must be named a specific way. Match the file name to the `BIOS` column in the chart
 * To distinguish from RetroArch cores, standalone emulators are indicated in bold and are written with: `(Standalone)`
 * If you are on a computer, press `CTRL` + `F` or `CMD` + `F` together to search the chart
-   * <img src="https://user-images.githubusercontent.com/108900299/215289134-a79b8b74-2317-4128-a1d6-4e51fe046b88.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/215289134-a79b8b74-2317-4128-a1d6-4e51fe046b88.png" height="300">
 
 ***
 
@@ -93,7 +93,7 @@ These systems will have a set default.
 ### A Breakdown of Libretro Wiki Pages
 [Back to the Top](#how-to-use-the-cheat-sheets-table-of-contents)
 
-When reading a Libretro wiki article, the `System` directory refers to `Emulation/bios`. Treat the `Emulation/bios` folder as the `System` directory and either place your files or create a folder according to the instructions on the various Libretro wiki pages.
+When reading a Libretro wiki article, the `System` directory refers to `Emulation/bios`. Treat the `Emulation/bios` folder as the `System` directory and either place your files directly in `Emulation/bios` or create a folder according to the instructions on the various Libretro wiki pages.
 
 ***
 

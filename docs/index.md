@@ -6,6 +6,7 @@
 ***
 
 ## What the *hell* is EmuDeck anyways?
+
 EmuDeck is an installation script that helps you get started with emulation on the Steam Deck. It is not an all in one solution like some other software. Instead, it strives to provide the best possible official options to you, set up and ready to go. 
 
 Install Emulators?   Done for you. Software is either installed from the available Software Store (Discover), or directly from the Emulators official repositories.
@@ -19,6 +20,22 @@ Settings?    EmuDeck does its best to optimize every emulator for the Steam Deck
 Emulator Updates?    These are available in the Discover store or on the `Manage Emulators` page within the EmuDeck application.
 
 Could you do everything EmuDeck does on your own? You sure could, but now you don't have to.
+
+***
+
+## EmuDeck for Windows and EmuDeck for Android
+
+### EmuDeck for Windows
+
+EmuDeck for Windows is ready for testing through EmuDeck's Patreon, found here: [https://www.patreon.com/dragoonDorise](https://www.patreon.com/dragoonDorise). It is only available through the "Early Access" or "EmuDeck Fan" tiers. 
+
+EmuDeck for Windows is still in development. Its feature suite is not currently at parity with EmuDeck for SteamOS but more will be added over time. 
+
+For more information, read [EmuDeck for Window's FAQ](./getting-started-with-emudeck/windows/frequently-asked-questions.md).
+
+### EmuDeck for Android
+
+EmuDeck for Android development is currently on pause until EmuDeck for Windows is released. 
 
 ***
 
