@@ -71,6 +71,7 @@ If you prefer, you may use the `EmulationStation-DE` parser to add `EmulationSta
 * Art Location: `/home/deck/.steam/steam/userdata/<steamuseridnumber>/config/grid`
 
 Note: 
+
 * `~/.config` and `~/.steam` are invisible folders by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
 ***
