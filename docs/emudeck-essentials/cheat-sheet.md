@@ -2,7 +2,7 @@
 
 ***
 
-**This page covers:**
+## What this page covers
 
 * Emulator or RetroArch core names
 * Expected ROM folder locations
@@ -13,7 +13,7 @@
 
 ***
 
-# Cheat Sheet Table of Contents
+## Cheat Sheet Table of Contents
 
 1. [How to Use the Cheat Sheets](#how-to-use-the-cheat-sheets)
     - [How to Use the Tables](#how-to-use-the-tables)
@@ -37,7 +37,7 @@
 ## How to Use the Cheat Sheets
 [Back to the Top](#cheat-sheet-table-of-contents)
 
-#### How to Use the Cheat Sheets Table of Contents
+### How to Use the Cheat Sheets Table of Contents
 
 - [How to Use the Tables](#how-to-use-the-tables)
 - [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
@@ -46,7 +46,7 @@
 
 ***
 
-#### How to Use The Tables
+### How to Use The Tables
 [Back to the Top](#how-to-use-the-cheat-sheets-table-of-contents)
 
 * BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make or use any additional folders unless otherwise specified on the charts below
@@ -60,19 +60,19 @@
 
 ***
 
-#### For systems with multiple emulators, how do I select which emulator to use?
+### For systems with multiple emulators, how do I select which emulator to use?
 [Back to the Top](#how-to-use-the-cheat-sheets-table-of-contents)
 
 For systems with both standalone and RetroArch core options, or multiple standalone options:
 
-##### Steam ROM Manager
+#### Steam ROM Manager
 
 These systems will have multiple parsers, each corresponding to a different emulator or RetroArch core.
 
 For example: PSX can be played through DuckStation (Standalone), SwanStation, or Beetle PSX. If you prefer to use DuckStation (Standalone) for PSX, enable the `Sony PlayStation - DuckStation` parser and make sure the `SwanStation` and `Beetle PSX` parsers are disabled.
 
 
-##### EmulationStation-DE
+#### EmulationStation-DE
 
 These systems will have a set default.
 
@@ -85,7 +85,7 @@ These systems will have a set default.
 
 ***
 
-#### A Breakdown of Libretro Wiki Pages
+### A Breakdown of Libretro Wiki Pages
 [Back to the Top](#how-to-use-the-cheat-sheets-table-of-contents)
 
 When reading a Libretro wiki article, the `System` directory refers to `Emulation/bios`. Treat the `Emulation/bios` folder as the `System` directory and either place your files or create a folder according to the instructions on the various Libretro wiki pages.
@@ -103,12 +103,12 @@ It mostly comes down to preference.
 
 ***
 
-# Cheat Sheets
+## Cheat Sheets
 [Back to the Top](#cheat-sheet-table-of-contents)
 
 ***
 
-## Arcade and MAME Related Emulation Cheat Sheet
+### Arcade and MAME Related Emulation Cheat Sheet
 [Back to the Top](#cheat-sheet-table-of-contents)
 
 ***
@@ -124,7 +124,7 @@ It mostly comes down to preference.
 
 ***
 
-## Atari Cheat Sheet
+### Atari Cheat Sheet
 [Back to the Top](#cheat-sheet-table-of-contents)
 
 ***
@@ -136,7 +136,7 @@ It mostly comes down to preference.
 
 ***
 
-## Game Engine Recreations Cheat Sheet
+### Game Engine Recreations Cheat Sheet
 [Back to the Top](#cheat-sheet-table-of-contents)
 
 | Console/System | ROM Folder Name | Emulator (Click for link) | File Types | BIOS Files | Additional Notes |
@@ -148,7 +148,7 @@ It mostly comes down to preference.
 
 ***
 
-## Microsoft Cheat Sheet
+### Microsoft Cheat Sheet
 [Back to the Top](#cheat-sheet-table-of-contents)
 
 ***
@@ -161,7 +161,7 @@ It mostly comes down to preference.
 
 ***
 
-## Miscellaneous Consoles and Handhelds Cheat Sheet
+### Miscellaneous Consoles and Handhelds Cheat Sheet
 [Back to the Top](#cheat-sheet-table-of-contents)
 
 ***
@@ -175,7 +175,7 @@ It mostly comes down to preference.
 
 ***
 
-## Nintendo Cheat Sheet
+### Nintendo Cheat Sheet
 [Back to the Top](#cheat-sheet-table-of-contents)
 
 ***
@@ -210,7 +210,7 @@ It mostly comes down to preference.
 
 ***
 
-## Personal Computers Cheat Sheet
+### Personal Computers Cheat Sheet
 [Back to the Top](#cheat-sheet-table-of-contents)
 
 ***
@@ -232,7 +232,7 @@ It mostly comes down to preference.
 
 ***
 
-## Sega Cheat Sheet
+### Sega Cheat Sheet
 [Back to the Top](#cheat-sheet-table-of-contents)
 
 ***
@@ -252,7 +252,7 @@ It mostly comes down to preference.
 
 ***
 
-## Sony Cheat Sheet
+### Sony Cheat Sheet
 [Back to the Top](#cheat-sheet-table-of-contents)
 
 ***
