@@ -122,6 +122,17 @@ theme:
         - toc.integrate 
         - navigation.top
     markdown_extensions:
+        - pymdownx.superfences:
+            custom_fences:
+                - name: mermaid
+                  class: mermaid
+                  format: !!python/name:pymdownx.superfences.fence_code_format
+        - pymdownx.emoji:
+            emoji_index: !!python/name:materialx.emoji.twemoji
+            emoji_generator: !!python/name:materialx.emoji.to_svg
+            options:
+                custom_icons:
+                    - overrides/.icons
         - def_list
         - sane_lists
         - attr_list
@@ -154,9 +165,14 @@ theme:
 
 extra:
   social:
+    - icon: 'custom/logo'
+      link: 'https://www.emudeck.com/'
     - icon: 'fontawesome/brands/github'
       link: 'https://github.com/EmuDeck'
     - icon: 'fontawesome/brands/discord'
       link: 'https://discord.gg/b9F7GpXtFP'
     - icon: 'fontawesome/brands/twitter'
       link: 'https://twitter.com/EmuDeck'
+    - icon: 'fontawesome/brands/patreon'
+      link: 'https://www.patreon.com/dragoonDorise'
+
