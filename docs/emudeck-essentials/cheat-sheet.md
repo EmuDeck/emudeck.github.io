@@ -1,3 +1,8 @@
+---
+search:
+  boost: 150 
+---
+
 # The Cheat Sheet is Your Tool to Success.
 
 ***

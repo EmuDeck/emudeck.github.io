@@ -117,9 +117,11 @@ nav:
         - EmuDeck for Windows:
             - File Management: 'other/windows/file-management.md'
 theme:
+    # Theme: https://squidfunk.github.io/mkdocs-material/
     name: material  
     custom_dir: overrides
     features:
+    # QOL features
     - navigation.top
     - search.suggest
     - search.highlight
@@ -128,12 +130,12 @@ theme:
     - navigation.path
     - toc.follow 
     - navigation.indexes 
-    custom_checkbox: true
     logo: assets/logo.png
     favicon: images/favicon.png
     font:
         text: Open Sans
         code: IBM Plex Mono
+    # Color scheme and toggle button for dark/light mode
     palette:
       - media: "(prefers-color-scheme: dark)"
         scheme: slate
@@ -150,13 +152,16 @@ theme:
             icon: material/brightness-7
             name: Toggle dark mode
 markdown_extensions:
+    # permalink:true adds anchors to headers
     - toc:
         permalink: true
+    # pymdownx.superfences adds diagrams
     - pymdownx.superfences:
         custom_fences:
             - name: mermaid
               class: mermaid
               format: !!python/name:pymdownx.superfences.fence_code_format
+    # adds emojis and allows for custom emojis placed in overrides/.icons
     - pymdownx.emoji:
         emoji_index: !!python/name:materialx.emoji.twemoji
         emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -168,13 +173,21 @@ markdown_extensions:
     - sane_lists
     - attr_list
     - tables
+    # Adds keyboard icons, may be able to add steam deck buttons
     - pymdownx.keys
-    - pymdownx.caret
-    - md_in_html          
+    # Allows for writing markdown in HTML
+    - md_in_html       
+    # Adds checkboxes   
     - pymdownx.tasklist
+    # Adds highlighting and subscript and superscript
+    - pymdownx.caret
+    - pymdownx.mark
+    - pymdownx.tilde
+# plugins section, search is an included plugin but if adding any new plugins, needs to be stated here as well
 plugins:
-    - search
-    
+    - search:
+        separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+# Footer
 extra:
   social:
     - icon: 'custom/logo'
