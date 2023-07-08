@@ -121,6 +121,11 @@ theme:
     features:
         - toc.integrate 
         - navigation.top
+        - search.suggest
+        - search.highlight
+        - search.share
+    plugins:
+        - search
     markdown_extensions:
         - pymdownx.superfences:
             custom_fences:
@@ -162,6 +167,7 @@ theme:
         toggle:
             icon: material/brightness-7
             name: Toggle dark mode
+
 
 extra:
   social:
