@@ -124,6 +124,9 @@ theme:
         - search.suggest
         - search.highlight
         - search.share
+        - navigation.tabs.sticky
+        - navigation.path
+        - toc.follow
     plugins:
         - search
     markdown_extensions:
