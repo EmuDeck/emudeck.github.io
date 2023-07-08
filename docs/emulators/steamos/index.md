@@ -121,9 +121,9 @@ Select the corresponding parsers.
 [Back to the Top](#cemu-table-of-contents)
 
 1. In Desktop Mode, press the Steam icon in the bottom left of the taskbar to open the Applications Launcher
-   * <img src="https://user-images.githubusercontent.com/108900299/236600606-f9de3696-c794-4c15-b7d5-16a88c54360a.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236600606-f9de3696-c794-4c15-b7d5-16a88c54360a.png" height="300">
 2. Select which Cemu you would like to use, `Cemu (Proton)` or `Cemu AppImage`
-   * <img src="https://user-images.githubusercontent.com/108900299/236600639-6a5bcb38-c0b0-4ea0-b2ff-526045bba7da.png" height="300">
+    * <img src="https://user-images.githubusercontent.com/108900299/236600639-6a5bcb38-c0b0-4ea0-b2ff-526045bba7da.png" height="300">
 
 ***
 
