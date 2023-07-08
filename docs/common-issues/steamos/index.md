@@ -4,6 +4,10 @@
 
 ***
 
+[TOC]
+
+***
+
 ## Gyro suddenly stopped working - June 15th, 2023
 
 The latest Steam Client update on June 14th, [https://store.steampowered.com/oldnews/195171](https://store.steampowered.com/oldnews/195171), adjusted how gyro works on the Steam Deck. 

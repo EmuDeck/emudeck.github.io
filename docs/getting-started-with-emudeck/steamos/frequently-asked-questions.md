@@ -33,7 +33,7 @@
     - [How do I reset an emulator's configurations?](#how-do-i-reset-an-emulators-configurations)
     - [How do I navigate to my SD Card through an emulator's menu?](#how-do-i-navigate-to-my-sd-card-through-an-emulators-menu)
     - [Why are my emulators stuttering? How do I improve emulator performance?](#why-are-my-emulators-stuttering-How-do-I-improve-emulator-performance)
-    - [Does EmuDeck have a community games database?](#does-emudeck-have-a-community-games-database)
+    - [Does EmuDeck have a game compatibility list?](#does-emudeck-have-a-game-compatibility-list)
     - [How do I install Power Tools and Deckyloader?](#how-do-i-install-power-tools-and-deckyloader)
     - [How do I install SteamDeckGyroDSU?](#how-do-i-install-SteamDeckGyroDSU)
     - [How do I manage ROMs with multiple discs?](#how-do-i-manage-roms-with-multiple-discs)
@@ -1061,16 +1061,19 @@ To find these options, press the QAM ("..." button), press the battery icon, pre
 
 ***
 
-### Does EmuDeck have a community games database?
+### Does EmuDeck have a game compatibility list?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
 Yes!
 
 Manacharge, an EmuDeck community member, put together a Google Form and a Google Spreadsheet to keep track of how emulated games run on the Steam Deck. 
 
-You can contribute to the community games database here: [https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform](https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform)
+You can contribute to the community games database here: [https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform](https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform).
 
-You can view the community database here: [https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit?usp=sharing)
+You can view the community database using one of the following two links: 
+
+* [https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit?usp=sharing)
+* [https://brantje.github.io/emudeck-compatibility-list/](https://brantje.github.io/emudeck-compatibility-list/)
 
 ***
 

@@ -41,7 +41,7 @@ EmuDeck for Android development is currently on pause until EmuDeck for Windows 
 
 ## General Usage
 
-1.  To begin with EmuDeck, please download and run the installer from the main page at www.emudeck.com.
+1.  To begin with EmuDeck, please download and run the installer from the main page at [https://www.emudeck.com/](https://www.emudeck.com/).
 2.  Updates are handled by simply running EmuDeck again.
     * You can find EmuDeck on your desktop: <img src="https://user-images.githubusercontent.com/108900299/196099299-afb63d83-5434-4822-bd6c-8d93d76cadcf.png" height="60"> 
     * It is recommend to allow EmuDeck to reset your general emulator configurations on each update, in order to be up to date with the latest optimizations. To change configurations, it is recommend to use per-game settings. These will not be overwritten by updates. 

@@ -25,9 +25,9 @@ nav:
             - 'Supported Emulators': 'getting-started-with-emudeck/windows/supported-emulators.md' 
     - Common Issues:
         - 'EmuDeck for SteamOS': 
-            - 'Common Issues': 'common-issues/common-issues-emudeck-for-steamos.md'
+            - 'common-issues/steamos/index.md'
         - 'EmuDeck for Windows': 
-            - 'Common Issues': 'common-issues/common-issues-emudeck-for-windows.md'
+            - 'common-issues/windows/index.md'
     - EmuDeck Essentials:
         - 'Cheat Sheet': 'emudeck-essentials/cheat-sheet.md'
         - 'EmuDeck for SteamOS':
@@ -130,6 +130,7 @@ theme:
     - navigation.path
     - toc.follow 
     - navigation.indexes 
+    - content.tooltips
     logo: assets/logo.png
     favicon: images/favicon.png
     font:
@@ -173,6 +174,9 @@ markdown_extensions:
     - sane_lists
     - attr_list
     - tables
+    - abbr
+    - attr_list
+    - pymdownx.snippets
     # Adds keyboard icons, may be able to add steam deck buttons
     - pymdownx.keys
     # Allows for writing markdown in HTML
