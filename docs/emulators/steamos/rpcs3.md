@@ -133,10 +133,11 @@ N/A
 [Back to the Top](#rpcs3-table-of-contents)
 
 1. In `Desktop Mode`, open RPCS3
-2. Either: 
-    * In the top left click, `File`, click `Add Games`, locate your game
-    * In the top left click, `File`, click `Install Packages/Raps/Edats`, and install your PKG
-    * For more information, read the [File Formats](#file-formats) section
+2. Skip this step if you have already added your games to RPCS3:
+    * Either: 
+        * In the top left click, `File`, click `Add Games`, locate your game
+        * In the top left click, `File`, click `Install Packages/Raps/Edats`, and install your PKG
+        * For more information, read the [File Formats](#rpcs3-file-formats) section
 3. Right click your game, click `Create Shortcut`, click `Create Desktop Shortcut`
 4. On your desktop, you should see an icon for your game. Move this icon to `Emulation/roms/ps3`
 5. Right click the shortcut, click `Open with Kate`
