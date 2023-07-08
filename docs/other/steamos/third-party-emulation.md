@@ -897,87 +897,87 @@ For example:
 3. Scroll to the very bottom of the text file, you will see a `}` and a `]`, add a comma to `}`
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/7b816803-7bd4-4758-bb04-140d447e4aa1" height="300"> 
 4. Paste the below block of text between the `},` and the `]`
-    ```
-    {
-        "parserType": "Glob",
-        "configTitle": "Decompilations",
-        "steamDirectory": "${steamdirglobal}",
-        "steamCategory": "${Decompilations}",
-        "romDirectory": "${romsdirglobal}/desktop",
-        "executableArgs": "",
-        "executableModifier": "\"${exePath}\"",
-        "startInDirectory": "",
-        "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
-        "imageProviders": [
-            "SteamGridDB"
-        ],
-        "onlineImageQueries": "${${fuzzyTitle}}",
-        "imagePool": "${fuzzyTitle}",
-        "userAccounts": {
-            "specifiedAccounts": null
-        },
-        "executable": {
-            "path": "",
-            "shortcutPassthrough": true,
-            "appendArgsToExecutable": true
-        },
-        "parserInputs": {
-            "glob": "**/${title}@(.sh|.SH|.desktop|.DESKTOP)"
-        },
-        "titleFromVariable": {
-            "limitToGroups": "",
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "tryToMatchTitle": false
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
-        },
-        "imageProviderAPIs": {
-            "SteamGridDB": {
-                "nsfw": false,
-                "humor": false,
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": [],
-                "imageMotionTypes": [
-                    "static"
-                ]
+    
+            {
+               "parserType": "Glob",
+               "configTitle": "Decompilations",
+               "steamDirectory": "${steamdirglobal}",
+               "steamCategory": "${Decompilations}",
+               "romDirectory": "${romsdirglobal}/desktop",
+               "executableArgs": "",
+               "executableModifier": "\"${exePath}\"",
+               "startInDirectory": "",
+               "titleModifier": "${fuzzyTitle}",
+               "fetchControllerTemplatesButton": null,
+               "removeControllersButton": null,
+               "imageProviders": [
+                     "SteamGridDB"
+               ],
+               "onlineImageQueries": "${${fuzzyTitle}}",
+               "imagePool": "${fuzzyTitle}",
+               "userAccounts": {
+                     "specifiedAccounts": null
+               },
+               "executable": {
+                     "path": "",
+                     "shortcutPassthrough": true,
+                     "appendArgsToExecutable": true
+               },
+               "parserInputs": {
+                     "glob": "**/${title}@(.sh|.SH|.desktop|.DESKTOP)"
+               },
+               "titleFromVariable": {
+                     "limitToGroups": "",
+                     "caseInsensitiveVariables": false,
+                     "skipFileIfVariableWasNotFound": false,
+                     "tryToMatchTitle": false
+               },
+               "fuzzyMatch": {
+                     "replaceDiacritics": true,
+                     "removeCharacters": true,
+                     "removeBrackets": true
+               },
+               "controllers": {
+                     "ps4": null,
+                     "ps5": null,
+                     "xbox360": null,
+                     "xboxone": null,
+                     "switch_joycon_left": null,
+                     "switch_joycon_right": null,
+                     "switch_pro": null,
+                     "neptune": null
+               },
+               "imageProviderAPIs": {
+                     "SteamGridDB": {
+                        "nsfw": false,
+                        "humor": false,
+                        "styles": [],
+                        "stylesHero": [],
+                        "stylesLogo": [],
+                        "stylesIcon": [],
+                        "imageMotionTypes": [
+                           "static"
+                        ]
+                     }
+               },
+               "defaultImage": {
+                     "tall": null,
+                     "long": null,
+                     "hero": null,
+                     "logo": null,
+                     "icon": null
+               },
+               "localImages": {
+                     "tall": null,
+                     "long": null,
+                     "hero": null,
+                     "logo": null,
+                     "icon": null
+               },
+               "parserId": "168816977280299277",
+               "version": 15
             }
-        },
-        "defaultImage": {
-            "tall": null,
-            "long": null,
-            "hero": null,
-            "logo": null,
-            "icon": null
-        },
-        "localImages": {
-            "tall": null,
-            "long": null,
-            "hero": null,
-            "logo": null,
-            "icon": null
-        },
-        "parserId": "168816977280299277",
-        "version": 15
-    }
-    ```
+    
 5. Open Steam ROM Manager, toggle the `Decompilations` parser and generate an app list to add your games to Steam
 
 ***
