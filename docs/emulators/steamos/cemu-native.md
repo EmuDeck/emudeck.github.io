@@ -49,7 +49,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
 
 Cemu is a fairly straight-forward emulator to set up, _if_ you use decrypted ROMs. Place your ROMs in `Emulation/roms/wiiu/roms`. **Do not** install your games. No additional setup is required. 
 
-Read the [Configuration](#cemu-proton-configuration) section to learn more about Cemu and its folder locations. 
+Read the [Configuration](#cemu-native-configuration) section to learn more about Cemu and its folder locations. 
 
 For updates and DLC, read [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates).  
 

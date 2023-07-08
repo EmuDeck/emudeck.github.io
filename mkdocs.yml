@@ -57,9 +57,10 @@ nav:
     - Emulators:
         - Cemu: 
             - 'Cemu SteamOS': 
-                - 'Cemu SteamOS Landing Page': 'emulators/steamos/cemu.md'
-                - 'Cemu (Native) SteamOS': 'emulators/steamos/cemu-native.md'
-                - 'Cemu (Proton) SteamOS': 'emulators/steamos/cemu-proton.md'
+                - Cemu SteamOS Landing Page:
+                    - 'emulators/steamos/index.md'
+                    - 'Cemu (Native) SteamOS': 'emulators/steamos/cemu-native.md'
+                    - 'Cemu (Proton) SteamOS': 'emulators/steamos/cemu-proton.md'
             - 'Cemu Windows':
                 - 'Cemu - Windows': 'emulators/windows/cemu.md'
         - Citra:
@@ -116,39 +117,17 @@ nav:
         - EmuDeck for Windows:
             - File Management: 'other/windows/file-management.md'
 theme:
-    name: material     
-    custom_dir: overrides 
+    name: material  
+    custom_dir: overrides
     features:
-        - toc.integrate 
-        - navigation.top
-        - search.suggest
-        - search.highlight
-        - search.share
-        - navigation.tabs.sticky
-        - navigation.path
-        - toc.follow
-    plugins:
-        - search
-    markdown_extensions:
-        - pymdownx.superfences:
-            custom_fences:
-                - name: mermaid
-                  class: mermaid
-                  format: !!python/name:pymdownx.superfences.fence_code_format
-        - pymdownx.emoji:
-            emoji_index: !!python/name:materialx.emoji.twemoji
-            emoji_generator: !!python/name:materialx.emoji.to_svg
-            options:
-                custom_icons:
-                    - overrides/.icons
-        - def_list
-        - sane_lists
-        - attr_list
-        - tables
-        - pymdownx.keys
-        - pymdownx.caret
-        - md_in_html          
-        - pymdownx.tasklist:
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tabs.sticky
+    - navigation.path
+    - toc.follow 
+    - navigation.indexes 
     custom_checkbox: true
     logo: assets/logo.png
     favicon: images/favicon.png
@@ -162,7 +141,7 @@ theme:
         accent: 'light blue'
         toggle:
             icon: material/brightness-4
-            name: Toogle light mode
+            name: Toggle light mode
       - media: "(prefers-color-scheme: light)"
         scheme: light
         primary: 'blue'
@@ -170,8 +149,32 @@ theme:
         toggle:
             icon: material/brightness-7
             name: Toggle dark mode
-
-
+markdown_extensions:
+    - toc:
+        permalink: true
+    - pymdownx.superfences:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:pymdownx.superfences.fence_code_format
+    - pymdownx.emoji:
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:materialx.emoji.to_svg
+        options:
+            options:
+            custom_icons: 
+                - overrides/.icons
+    - def_list
+    - sane_lists
+    - attr_list
+    - tables
+    - pymdownx.keys
+    - pymdownx.caret
+    - md_in_html          
+    - pymdownx.tasklist
+plugins:
+    - search
+    
 extra:
   social:
     - icon: 'custom/logo'
@@ -184,4 +187,5 @@ extra:
       link: 'https://twitter.com/EmuDeck'
     - icon: 'fontawesome/brands/patreon'
       link: 'https://www.patreon.com/dragoonDorise'
+
 
