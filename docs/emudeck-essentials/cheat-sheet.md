@@ -92,7 +92,7 @@ When reading a Libretro wiki article, the `System` directory refers to `Emulatio
 
 ***
 
-#### What is the difference between a RetroArch core and a standalone emulator?
+### What is the difference between a RetroArch core and a standalone emulator?
 [Back to the Top](#how-to-use-the-cheat-sheets-table-of-contents)
 
 It mostly comes down to preference.
