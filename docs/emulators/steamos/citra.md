@@ -111,7 +111,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 ### How to Manage DLC and Updates
 [Back to the Top](#citra-table-of-contents)
 
-Read: https://citra-emu.org/wiki/dumping-updates-and-dlcs/ to learn how to properly dump your DLC and update files from your 3DS.
+Read: [https://citra-emu.org/wiki/dumping-updates-and-dlcs/](https://citra-emu.org/wiki/dumping-updates-and-dlcs/) to learn how to properly dump your DLC and update files from your 3DS.
 
 DLC and update files typically are .CIAs, an installable file format through Citra. After installing your DLC or updates, you may discard these files. 
 

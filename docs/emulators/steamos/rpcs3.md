@@ -39,7 +39,7 @@ Read the [Configuration](#rpcs3-configuration) section to learn more about RPCS3
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Playstation 3 ROMs:
 
 * `EmulationStation-DE`
-    * To play PS3 games in EmulationStation-DE, read: [How to Configure RPCS3 For EmulationStation-DE](#how-to-configure-rpcs3-for-emulationstation-de) 
+    * To play PS3 games in EmulationStation-DE, read: [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
 * `Sony PlayStation 3 - RPCS3 (Extracted ISO/PSN)` or `Sony PlayStation 3 - RPCS3 (Installed PKG)`
     * Read the [File Formats](#rpcs3-file-formats) section to learn more about these various file formats
 * `Emulators`
@@ -97,7 +97,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-### File Formats
+### RPCS3 File Formats
 [Back to the Top](#rpcs3-table-of-contents)
 
 * Folder Format: `/PS3_GAME/USRDIR/eboot.bin`
