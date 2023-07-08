@@ -74,7 +74,7 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 
 1. Is your ROM encrypted? If yes, do you have a `keys.txt` in the right place with the correct keys for your games in the `keys.txt` file?
     1. What are keys?: Keys are required to decrypt Wii U ROMs. Your `keys.txt` needs to contain keys (one key per game) that must be dumped from a Wii U console. Any other method of obtaining keys is piracy and cannot be discussed here or on the EmuDeck discord.
-    2. Which Cemu ROM Formats are encrypted?: [File Formats](#cemu-native-file-formats))
+    2. Which Cemu ROM Formats are encrypted?: [File Formats](#cemu-native-file-formats)
     3. `keys.txt` Location: `/home/deck/.local/share/Cemu/`
     4. If your ROM is NUS Format (a folder with .h3 and .app files), you will need to decrypt your ROM into the Loadiine format (folder format with three subfolders - code, content, meta). Decryption methods cannot be discussed here or on the EmuDeck discord.
 2. Is your ROM decrypted?
