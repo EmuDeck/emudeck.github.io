@@ -54,7 +54,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * `EmulationStation-DE`
 * `Nintendo WiiU - Cemu (.rpx) - Proton` or `Nintendo WiiU - Cemu (.wud, .wux, .wua) - Proton`
-    * Read the [File Formats](#file-formats) section to learn more about these various file formats
+    * Read the [File Formats](#cemu-proton-file-formats) section to learn more about these various file formats
     * `.rpx` and `.wua` are decrypted ROM formats
 * `Emulators`
 

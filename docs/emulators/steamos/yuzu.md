@@ -63,7 +63,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-### Yuzu Configuration:
+### Yuzu Configuration
 [Back to the Top](#yuzu-table-of-contents)
 
 * Type of Emulator: AppImage
