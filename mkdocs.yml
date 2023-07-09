@@ -209,6 +209,9 @@ extra:
       link: 'https://twitter.com/EmuDeck'
     - icon: 'fontawesome/brands/patreon'
       link: 'https://www.patreon.com/dragoonDorise'
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 # Analytics - To Do
 #  consent:
 #    title: Cookie consent
@@ -221,6 +224,7 @@ extra:
 #        - accept
 #        - reject
 #        - manage
+
     
 
 
