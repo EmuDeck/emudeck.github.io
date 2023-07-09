@@ -133,6 +133,7 @@ theme:
     - toc.follow 
     - navigation.indexes 
     - content.tooltips
+    - navigation.instant
     logo: assets/logo.png
     favicon: images/favicon.png
     font:

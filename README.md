@@ -43,6 +43,6 @@ You will need to install the following:
 * [https://www.mkdocs.org/](https://www.mkdocs.org/)
 * [https://squidfunk.github.io/mkdocs-material/getting-started/](https://squidfunk.github.io/mkdocs-material/getting-started/)
 
-To do so, you will need to clone both the `main` and `gh-pages` repo. Make any changes you would like to the markdown files in the `main` repo. Once you are finished making your changes, you can use `gh-deploy`, which will deploy any of your changes directly to the `gh-pages` branch. 
+To do so, you will need to clone both the `main` and `gh-pages` branches. Make any changes you would like to the markdown files in the `main` branch. Once you are finished making your changes, you can use `gh-deploy`, which will deploy any of your changes directly to the `gh-pages` branch. 
 
 Once you are satisfied with your changes, you may create a PR here. 
