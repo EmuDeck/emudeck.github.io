@@ -99,6 +99,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - RMG`. The hotkeys below can only be used if you have the Steam Input profile active.
 
+**Long Press** to activate hotkeys on the left trackpad radial menu. 
+
 | Hotkey         | EmulationStation-DE       |
 |----------------|---------------------------|
 | Quick Menu     | Left Trackpad Radial Menu |

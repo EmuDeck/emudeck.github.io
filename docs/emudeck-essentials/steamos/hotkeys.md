@@ -80,10 +80,14 @@ EmuDeck comes with Steam Input Profiles for the following emulators:
 * Citra
    * The Steam Input Profile is necessary to switch screens
 * DuckStation
+    * **Long Press** to activate hotkeys
 * melonDS
+    * **Long Press** to activate hotkeys
 * mGBA
+    * **Long Press** to activate hotkeys
 * PPSSPP
 * RMG
+    * **Long Press** to activate hotkeys
 
 
 #### Selecting  Steam Input Profiles
@@ -334,6 +338,8 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - melonDS`. The hotkeys below can only be used if you have the Steam Input profile active.
 
+**Long Press** to activate hotkeys on the left trackpad radial menu. 
+
 | Hotkey         | melonDS                   |
 |----------------|---------------------------|
 | Full Screen      | Left Trackpad Radial Menu or Tilt `Right Joystick` `Left` |
@@ -358,6 +364,8 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - mGBA`. The hotkeys below can only be used if you have the Steam Input profile active.
 
+**Long Press** to activate hotkeys on the left trackpad touch menu. 
+
 | Hotkey         | mGBA                      |
 |----------------|---------------------------|
 | Quick Menu     | Left Trackpad Touch Menu  |
@@ -380,6 +388,8 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 [Back to the Top](#hotkeys-table-of-contents)
 
 RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - RMG`. The hotkeys below can only be used if you have the Steam Input profile active.
+
+**Long Press** to activate hotkeys on the left trackpad radial menu. 
 
 | Hotkey         | RMG                       |
 |----------------|---------------------------|
@@ -461,6 +471,8 @@ N/A
 [Back to the Top](#hotkeys-table-of-contents)
 
 DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - DuckStation`. The hotkeys below can only be used if you have the Steam Input profile active.
+
+**Long Press** to activate hotkeys on the left trackpad touch menu. 
 
 | Hotkey                    | DuckStation               |
 |---------------------------|---------------------------|
@@ -555,6 +567,8 @@ By default, the controls are that of a standard gamepad along with:
 [Back to the Top](#hotkeys-table-of-contents)
 
 EmulationStation-DE comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - EmulationStation-DE`. The hotkeys below can only be used if you have the Steam Input profile active.
+
+**Long Press** to activate hotkeys on the left trackpad radial menu. 
 
 | Hotkey         | EmulationStation-DE       |
 |----------------|---------------------------|

@@ -112,6 +112,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - mGBA`. The hotkeys below can only be used if you have the Steam Input profile active.
 
+**Long Press** to activate hotkeys on the left trackpad touch menu. 
+
 | Hotkey         | mGBA                      |
 |----------------|---------------------------|
 | Quick Menu     | Left Trackpad Touch Menu  |

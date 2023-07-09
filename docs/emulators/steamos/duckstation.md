@@ -115,6 +115,8 @@ To switch between the two in EmulationStation-DE, you can use the `Alternative E
 
 DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - DuckStation`. The hotkeys below can only be used if you have the Steam Input profile active.
 
+**Long Press** to activate hotkeys on the left trackpad radial menu. 
+
 | Hotkey                    | DuckStation               |
 |---------------------------|---------------------------|
 | Save State                | Left Trackpad Touch Menu  |
