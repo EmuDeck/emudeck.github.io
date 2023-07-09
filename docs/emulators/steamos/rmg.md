@@ -17,6 +17,7 @@ Github: [https://github.com/Rosalie241/RMG](https://github.com/Rosalie241/RMG)
 
 2. [RMG Tips and Tricks](#rmg-tips-and-tricks)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
+    - [How to Configure VRU](#how-to-configure-vru)
  
 ***
 
@@ -40,8 +41,12 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Config Location: `/home/deck/.var/app/com.github.Rosalie241.RMG`
 * Nintendo 64 ROM Location: `Emulation/roms/n64`
 * Nintendo 64DD ROM Location: `Emulation/roms/n64dd`
-* BIOS Location (Optional): `Emulation/bios`
-    * Optional BIOS (N64DD): `64DD_IPL_US.n64`, `64DD_IPL_JP.n64`, `64DD_IPL_DEV.n64`
+* Nintendo 64DD BIOS Location: `Emulation/bios`
+    * Nintendo 64DD BIOS: 
+        * `64DD_IPL_US.n64`
+        * `64DD_IPL_JP.n64`
+        * `64DD_IPL_DEV.n64`
+        * **Note:** These BIOS are only required if you are playing Nintendo 64DD games. These BIOS are not required for base Nintendo 64 games
 * Saves: `Emulation/saves/RMG/saves`
 * Savestates: `Emulation/saves/RMG/states`
 * Storage Location: `Emulation/storage/RMG`
@@ -136,40 +141,73 @@ HTS & HTC are cache formats. PNG is the 'source' of the texture packs before it'
 
 Before installing a texture pack, you will need to determine if it is HTC, HTS, or PNG. This can usually be confirmed by checking the file extension or reading the attached documentation. Follow the respective section below for installing texture packs.
 
-#### HTC
+#### Keep in Mind
 
-1. Open RMG
-2. Click `Settings` at the top, select `Graphics`
-3. Click the `Texture enhancement` tab
-4. Make sure `Use file storage instead of memory cache` is unchecked
+* This section specifically requires the GLideN64 plugin. GLideN64 is the default graphics plugin if you are using EmuDeck settings 
+* Texture packs are placed in the various subfolders within `Emulation/storage/RMG`
+    * This folder contains the following sub-folders:
+        * `cache`
+            * `cache` is for HTC and HTS texture packs 
+        * `HiResTextures`   
+            * `HiResTextures` is for PNG texture packs
+
+#### How to Install Custom Textures
+
+##### HTC
+
+1. Open the `Emulation/storage/RMG/cache` folder
+2. Place your texture pack file directly into this folder
+3. Open RMG
+4. Click `Settings` at the top, select `Graphics`
+5. Click the `Texture enhancement` tab
+6. Make sure `Use file storage instead of memory cache` is unchecked
     * <img src="https://user-images.githubusercontent.com/108900299/220504844-73ad1aae-9525-4e07-aa46-a47bcf953a8e.png" height="300">
     * This setting is unchecked by default
-5. Open the `Emulation/storage/RMG/cache` folder
-6. Place your texture pack file directly into this folder
 
-#### HTS
+##### HTS
 
-1. Open RMG
-2. Click `Settings` at the top, select `Graphics`
-3. Click the `Texture enhancement` tab
-4. Check `Use file storage instead of memory cache`
+1. Open the `Emulation/storage/RMG/cache` folder
+2. Place your texture pack file directly into this folder
+3. Open RMG
+4. Click `Settings` at the top, select `Graphics`
+5. Click the `Texture enhancement` tab
+6. Check `Use file storage instead of memory cache`
     * <img src="https://user-images.githubusercontent.com/108900299/220504446-d29fc261-9194-43ee-ba19-2c15562ac716.png" height="300">
-    * **Note:** To save this setting on a per game basis, you can open the graphics settings while in-game and it will save to the per game profile
-5. Open the `Emulation/storage/RMG/cache` folder
-6. Place your texture pack file directly into this folder
+    * **Note:** To save this setting on a per game basis, you can open the graphics settings while in-game and it will save to the per-game profile
 
-#### PNG
+##### PNG
 
 This section goes over enabling `file storage instead of memory cache` in RMG's settings. This is optional, but recommended. 
 
-1. Open RMG
-2. Click `Settings` at the top, select `Graphics`
-3. Click the `Texture enhancement` tab
-4. Check `Use file storage instead of memory cache`
+1. Open the `Emulation/storage/RMG/HiResTextures` folder
+2. Place your texture pack folder directly into this folder
+3. Open RMG
+4. Click `Settings` at the top, select `Graphics`
+5. Click the `Texture enhancement` tab
+6. Check `Use file storage instead of memory cache`
     * <img src="https://user-images.githubusercontent.com/108900299/220504446-d29fc261-9194-43ee-ba19-2c15562ac716.png" height="300">
-    * **Note:** To save this setting on a per game basis, you can open the graphics settings while in-game and it will save to the per game profile
-5. Open the `Emulation/storage/RMG/HiResTextures` folder
-6. Place your texture pack folder directly into this folder
-   
+    * **Note:** To save this setting on a per game basis, you can open the graphics settings while in-game and it will save to the per-game profile
+
+
+***
+
+### How to Configure VRU
+[Back to the Top](#rmg-table-of-contents)
+
+The VRU (Voice Recognition Unit) was a peripheral for the Nintendo 64 that allowed you to use a microphone in "Hey You, Pikachu!" and "Densha de Go! 64". 
+
+Since the Steam Deck comes with an internal built in microphone, you can use the Steam Deck's microphone to utilize VRU in Rosalie's Mupen GUI.
+
+**Note:** Make sure Rosalie's Mupen GUI is up to date. VRU support was added in v0.4.2, on July 7th, 2023. 
+
+#### How to Set up VRU
+
+1. Open RMG
+2. Open the `Input` settings under the `Settings` tab at the top
+3. Click on `Player 4`
+4. Change the `Input Device` to `Voice Recognition Unit`
+    * ![RMG VRU](../../assets/rmg-vru.png) 
+5. Click `OK` in the bottom right
+6. VRU is now enabled
 
 ***
