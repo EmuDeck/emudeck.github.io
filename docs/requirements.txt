@@ -1,1 +1,2 @@
 mkdocs-material=="9.*"
+mkdocs-glightbox

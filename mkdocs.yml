@@ -185,7 +185,6 @@ markdown_extensions:
     - attr_list
     - tables
     - abbr
-    - attr_list
     - pymdownx.snippets
     # Adds keyboard icons, may be able to add steam deck buttons
     - pymdownx.keys
@@ -201,6 +200,7 @@ markdown_extensions:
 plugins:
     - search:
         separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+    - glightbox
 # Footer
 extra:
   social:
