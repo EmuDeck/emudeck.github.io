@@ -67,18 +67,18 @@ This section will go over how to share and post your Steam Input Layouts on this
 
 1. Create a new Steam Input Layout in Game Mode. 
 2. After you are finished, press the Gear icon on the controller layout screen, click `Export Layout`, change `Export Type` to `New Personal Save`.
-   1. Visual Reference 1: <img src="https://user-images.githubusercontent.com/108900299/199400389-e35e7877-0dec-4fde-bdea-28104d981dab.png" height="300">
-   2. Visual Reference 2: <img src="https://user-images.githubusercontent.com/108900299/197309794-404dbe92-6509-485a-8b1f-59f71d965584.png" height="300">
-   3. Visual Reference 3: <img src="https://user-images.githubusercontent.com/108900299/199398759-7db86406-0c13-4f68-8545-4857d1a507ea.png" height="300">
+    1. Visual Reference 1: <img src="https://user-images.githubusercontent.com/108900299/199400389-e35e7877-0dec-4fde-bdea-28104d981dab.png" height="300">
+    2. Visual Reference 2: <img src="https://user-images.githubusercontent.com/108900299/197309794-404dbe92-6509-485a-8b1f-59f71d965584.png" height="300">
+    3. Visual Reference 3: <img src="https://user-images.githubusercontent.com/108900299/199398759-7db86406-0c13-4f68-8545-4857d1a507ea.png" height="300">
 3. Switch to Desktop Mode.
 4. Open Konsole. 
 5. In Konsole, enter: `grep --recursive "<yourprofilename>" ~/.steam/steam/userdata`
-   1. Replace `<yourprofilename>` entirely with the profile name you created in Step 1. 
-   2. Visual Reference (Using `Community Creations` as an example): <img src="https://user-images.githubusercontent.com/108900299/199399154-1d4a9e60-f2cd-4a13-bf89-c2fb2fb4280a.png" height="300">
+    1. Replace `<yourprofilename>` entirely with the profile name you created in Step 1. 
+    2. Visual Reference (Using `Community Creations` as an example): <img src="https://user-images.githubusercontent.com/108900299/199399154-1d4a9e60-f2cd-4a13-bf89-c2fb2fb4280a.png" height="300">
 6. Open the folder path outputted by the command. 
-   1. `~/.steam` is an invisible folder by default, in Dolphin (File Explorer), press the hamburger button in the top right, ☰, press `Show Hidden Files`.  
+    1. `~/.steam` is an invisible folder by default, in Dolphin (File Explorer), press the hamburger button in the top right, ☰, press `Show Hidden Files`.  
 7. Copy this template to another folder of your choice.
-   1. Rename the copied file to something descriptive, like the profile name created in Step 1. 
+    1. Rename the copied file to something descriptive, like the profile name created in Step 1. 
 8. Right click, click `Open with Kwrite` or a text editor of your choice.
 9. Edit the top part of the file using the following template: 
 
@@ -126,7 +126,7 @@ This section will go over how to share and post your Steam Input Layouts on this
     1. Create a Github Account to edit this page first, if you have not done so already. 
     2. At the moment, `Steam Input Layout 4` through `Steam Input Layout 7` can be edited and replaced with your templates. 
 11. Paste the contents of the file into your newly created section, include a brief description and any prerequisites. 
-12. Place ``` at the top and the bottom of the pasted profile, refer to `Steam Input Layout 1` as a sample.
+12. Place three \` at the top and the bottom of the pasted profile, refer to `Steam Input Layout 1` as a sample.
 13. Save the page.
 14. You have now successfully shared your profile. 
 

@@ -2,7 +2,9 @@ site_name: EmuDeck Wiki
 site_url: https://emudeck.github.io
 repo_url: https://github.com/EmuDeck/emudeck.github.io
 repo_name: emudeck.github.io
-copyright: Copyright Creative Commons Attribution-ShareAlike 4.0 International
+copyright: > 
+    Copyright Creative Commons Attribution-ShareAlike 4.0 International
+#    <a href="#__consent">Change cookie settings</a>
 nav:
     - EmuDeck Website: 'https://www.emudeck.com/'
     - Home: 'index.md'
@@ -207,5 +209,18 @@ extra:
       link: 'https://twitter.com/EmuDeck'
     - icon: 'fontawesome/brands/patreon'
       link: 'https://www.patreon.com/dragoonDorise'
+# Analytics - To Do
+#  consent:
+#    title: Cookie consent
+#    description: >-
+#        We use cookies to recognize your repeated visits and preferences, as well
+#        as to measure the effectiveness of our documentation and whether users
+#        find what they're searching for. With your consent, you're helping us to
+#        make our documentation better.
+#    actions:
+#        - accept
+#        - reject
+#        - manage
+    
 
 

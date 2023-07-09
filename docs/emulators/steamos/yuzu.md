@@ -25,6 +25,7 @@ Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/h
     - [Known Issues](#known-issues)
 
 2. [Common Issues](#yuzu-common-issues)
+    - [Game suddenly stopped working?](#game-suddenly-stopped-working)
     - [Special Characters](#special-characters)
     - [Combined XCI Files](#combined-xci-files)
     - [Why is Mario Kart 8 stuck on the Mii selection screen?](#why-is-mario-kart-8-stuck-on-the-mii-selection-screen)
@@ -211,6 +212,22 @@ Combo hotkeys have been mapped for this emulator.
 
 ## Yuzu Common Issues
 [Back to the Top](#yuzu-table-of-contents)
+
+***
+
+## Game suddenly stopped working?
+[Back to the Top](#yuzu-table-of-contents)
+
+If your game ever crashes or you exit the game by pressing the `STEAM` button and clicking `Exit Game` instead of using the hotkey (`Select` + `Start`), you may end up corrupting the shader cache. 
+
+To clear the shader cache:
+
+1. Open Yuzu
+2. Right click the game in specific
+3. Click `Remove`
+4. Click `Remove All Pipeline Caches`
+
+**Note:** Use `Select` + `Start` to exit your game instead of using the `STEAM` button. 
 
 ***
 
