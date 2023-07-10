@@ -190,7 +190,7 @@ N/A
 ### RetroArch
 [Back to the Top](#hotkeys-table-of-contents)
 
-[List of RetroArch Cores Used by EmuDeck](https://github.com/dragoonDorise/EmuDeck/wiki/retroarch#list-of-retroarch-cores-used-by-emudeck)
+[List of RetroArch Cores Used by EmuDeck](../../emulators/steamos/retroarch.md#list-of-retroarch-cores-used-by-emudeck)
 
 |       Hotkeys      |        RetroArch        |
 |:------------------:|:-----------------------:|
