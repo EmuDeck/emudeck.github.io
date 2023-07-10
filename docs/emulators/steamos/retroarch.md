@@ -240,12 +240,12 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 ### How to Manage Multiple Discs
 [Back to the Top](#retroarch-table-of-contents)
 
-M3U files can be used to manage multiple discs for RetroAarch. When the time comes to switch discs:
+M3U files can be used to manage multiple discs for RetroArch. [Learn how to create an M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file).
+
+When the time comes to switch discs:
 
 1. Press L3 and R3 together
 2. Select manage discs
-
-Learn how to create an M3U File: https://github.com/dragoonDorise/EmuDeck/wiki/file-management#how-to-manage-roms-with-multiple-discs.
 
 ***
 
