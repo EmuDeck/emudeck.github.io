@@ -9,17 +9,15 @@ nav:
     - Home: 'index.md'
     - About: 'about.md'
     - EmuDeck Website: 'https://www.emudeck.com/'
-    - EmuDeck Discord: 'https://discord.gg/b9F7GpXtFP'
     - EmuDeck GitHub: 'https://github.com/dragoonDorise/EmuDeck'
+    - EmuDeck Discord: 'https://discord.gg/b9F7GpXtFP'
     - How to Install EmuDeck:
         - 'EmuDeck for SteamOS': 
-            - 'How to Install EmuDeck for SteamOS': 'how-to-install-emudeck/steamos/emudeck-for-steamos.md'
+            - 'how-to-install-emudeck/steamos/index.md'
         - 'EmuDeck for Windows': 
-            - 'Prerequisites': 'how-to-install-emudeck/windows/prerequisites.md'
-            - 'How to Install EmuDeck for Windows': 'how-to-install-emudeck/windows/emudeck-for-windows.md'
+            - 'how-to-install-emudeck/windows/index.md'
         - 'EmuDeck for Linux': 
-            - 'Prerequisites': 'how-to-install-emudeck/linux/prerequisites.md'
-            - 'How to Install EmuDeck for Linux': 'how-to-install-emudeck/linux/emudeck-for-linux.md'
+            - 'how-to-install-emudeck/linux/index.md'
     - Getting Started with EmuDeck:
         - 'EmuDeck for SteamOS': 
             - 'Frequently Asked Questions': 'getting-started-with-emudeck/steamos/frequently-asked-questions.md' 
