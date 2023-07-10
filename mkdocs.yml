@@ -61,10 +61,9 @@ nav:
     - Emulators:
         - Cemu: 
             - 'Cemu on SteamOS': 
-                - Cemu on SteamOS Landing Page:
-                    - 'emulators/steamos/index.md'
-                    - 'Cemu (Native) on SteamOS': 'emulators/steamos/cemu-native.md'
-                    - 'Cemu (Proton) on SteamOS': 'emulators/steamos/cemu-proton.md'
+                - 'emulators/steamos/index.md'
+                - 'Cemu (Native) on SteamOS': 'emulators/steamos/cemu-native.md'
+                - 'Cemu (Proton) on SteamOS': 'emulators/steamos/cemu-proton.md'
             - 'Cemu on Windows': 'emulators/windows/cemu.md'
         - Citra:
             - 'Citra on SteamOS': 'emulators/steamos/citra.md'
