@@ -36,6 +36,7 @@ The Cloud Services Manager (CSM) handles two types of services:
 4. After making any changes (installing/uninstalling/file renaming) you need to run Steam Rom Manager (SRM) using the "Cloud Services" or "Remote Play Clients" parser so uninstalled items are removed and newly installed items are added to Steam with artwork and accessible in game mode.
 
 "Cloud Services" will be shown in a new Steam collection labeled "Cloud Services"
+
 "Remote Play Clients" will be shown in a new Steam collection labeled "Remote Play Clients"
 
 ***

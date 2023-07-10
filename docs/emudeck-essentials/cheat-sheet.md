@@ -22,6 +22,7 @@ search:
 
 1. [How to Use the Cheat Sheets](#how-to-use-the-cheat-sheets)
     - [How to Use the Tables](#how-to-use-the-tables)
+    - [Where do I put the BIOS files?](#where-do-i-put-the-bios-files)
     - [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
     - [A Breakdown of Libretro Wiki Pages](#a-breakdown-of-libretro-wiki-pages)
     - [What is the difference between a RetroArch core and a standalone emulator?](#what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator)
@@ -45,6 +46,7 @@ search:
 ### How to Use the Cheat Sheets Table of Contents
 
 - [How to Use the Tables](#how-to-use-the-tables)
+- [Where do I put the BIOS files?](#where-do-i-put-the-bios-files)
 - [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
 - [A Breakdown of Libretro Wiki Pages](#a-breakdown-of-libretro-wiki-pages)
 - [What is the difference between a RetroArch core and a standalone emulator?](#what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator)
@@ -62,6 +64,32 @@ search:
 * To distinguish from RetroArch cores, standalone emulators are indicated in bold and are written with: `(Standalone)`
 * If you are on a computer, press `CTRL` + `F` or `CMD` + `F` together to search the chart
     * <img src="https://user-images.githubusercontent.com/108900299/215289134-a79b8b74-2317-4128-a1d6-4e51fe046b88.png" height="300">
+
+***
+
+### Where do I put the BIOS files?
+
+BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make or use any additional folders unless otherwise specified on the charts below.
+
+#### When to place BIOS Files directly into Emulation/bios
+
+For example, the photo below instructs you to **place** `sega_101.bin` (if you are playing JP games) or `mpr-17933.bin` (if you are playing US/EU) games **directly** into the `Emulation/bios` folder. **Do not** make a subfolder.
+
+![Sega Saturn BIOS Example](../assets/sega-saturn-bios-example.png)
+
+In `Emulation/bios`:
+
+![Sega Saturn Folder Example](../assets/sega-saturn-folder-example.png)
+
+#### When to create a subfolder
+
+For example, the photo below instructs you to **create** a `dc` folder in `Emulation/bios` and to place `dc_boot.bin` directly into `Emulation/bios/dc`. 
+
+![Sega Dreamcast BIOS Example](../assets/sega-dreamcast-bios-example.png)
+
+In `Emulation/bios/dc`:
+
+![Sega Dreamcast Folder Example](../assets/sega-dreamcast-folder-example.png)
 
 ***
 
