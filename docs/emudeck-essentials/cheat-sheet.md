@@ -22,7 +22,7 @@ search:
 
 1. [How to Use the Cheat Sheets](#how-to-use-the-cheat-sheets)
     - [How to Use the Tables](#how-to-use-the-tables)
-    - [Where do I put the BIOS files?](#where-do-i-put-the-bios-files)
+    - [Where do I place the BIOS files?](#where-do-i-place-the-bios-files)
     - [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
     - [A Breakdown of Libretro Wiki Pages](#a-breakdown-of-libretro-wiki-pages)
     - [What is the difference between a RetroArch core and a standalone emulator?](#what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator)
@@ -46,7 +46,7 @@ search:
 ### How to Use the Cheat Sheets Table of Contents
 
 - [How to Use the Tables](#how-to-use-the-tables)
-- [Where do I put the BIOS files?](#where-do-i-put-the-bios-files)
+- [Where do I place the BIOS files?](#where-do-i-place-the-bios-files)
 - [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
 - [A Breakdown of Libretro Wiki Pages](#a-breakdown-of-libretro-wiki-pages)
 - [What is the difference between a RetroArch core and a standalone emulator?](#what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator)
