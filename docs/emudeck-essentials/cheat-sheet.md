@@ -67,7 +67,7 @@ search:
 
 ***
 
-### Where do I put the BIOS files?
+### Where do I place the BIOS files?
 
 BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make or use any additional folders unless otherwise specified on the charts below.
 
