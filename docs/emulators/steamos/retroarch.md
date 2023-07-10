@@ -30,6 +30,7 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
     - [How to Change Controller Layouts on a Per Game Basis](#how-to-change-controller-layouts-on-a-per-game-basis)
     - [How to Change Controller Layouts for a System](#how-to-change-controller-layouts-for-a-system)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
+    - [How to Change Settings On a Per-Core Basis](#how-to-change-settings-on-a-per-core-basis)
 
 4. [RetroArch Cores](#retroarch-cores)
     * [Flycast](#flycast)
@@ -118,9 +119,10 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
 [Back to the Top](#retroarch-table-of-contents)
 
 1. Global = Everything.
-1. Core = Anything run by a specfic cores.
-1. Content Directory = Any rom in a specific directory. *these are used for the emudeck applied shaders.
-1. Game = that specific rom.
+2. Core = Anything run by a specific core.
+3. Content Directory = Any ROM in a specific directory. 
+    * These are used for the EmuDeck applied shaders.
+4. Game = that specific ROM.
 
 As you get lower in this list it takes precedence, so if you do nothing but set a core shader preset, it will  not override the content directory preset already applied.
 
@@ -281,9 +283,11 @@ As you get lower in this list it takes precedence, so if you do nothing but set 
 How to remap the controls for a single game:
 
 1. Start content with the core for which you want to remap controls
-2. Go to Quick Menu and then Controls
-3. Configure the buttons the way you want
-4. Select Save Game Remap File
+2. Open the Quick Menu with L3 + R3
+3. Select Controls
+4. Configure controls
+5. Select Manage Remap Files
+6. Select Save Game Remap File
 ```
 
 Copied From: [https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content](https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content)
@@ -294,12 +298,14 @@ Copied From: [https://docs.libretro.com/guides/input-and-controls/#remapping-con
 [Back to the Top](#retroarch-table-of-contents)
 
 ```
-How to remap the controls for a single core:
+How to remap the controls for a single system/core:
 
 1. Start content with the core for which you want to remap controls
-2. Go to Quick Menu and then Controls
-3. Configure the buttons the way you want
-4. Select Save Core Remap File
+2. Open the Quick Menu with L3 + R3
+3. Select Controls
+4. Configure controls
+5. Select Manage Remap Files
+6. Select Save Core Remap File
 ```
 
 Copied From: [https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content](https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content)
@@ -314,9 +320,25 @@ Copied From: [https://docs.libretro.com/guides/input-and-controls/#remapping-con
 How to Set Game Settings On a Per-Game Basis:
 
 1. Start content with the core for which you want to change settings
-2. Go to Quick Menu and then 
-3. Configure the settings the way you want
-4. Select Core Options, Manage Core Options, Save Game Options
+2. Open the Quick Menu with L3 + R3
+3. Configure settings
+4. Select Overrides
+5. Select Save Game Overrides
+```
+
+***
+
+### How to Change Settings On a Per-Core Basis
+[Back to the Top](#retroarch-table-of-contents)
+
+```
+How to Change Settings On a Per-Core Basis
+
+1. Start content with the core for which you want to change settings
+2. Open the Quick Menu with L3 + R3
+3. Configure settings
+4. Select Overrides
+5. Select Save Core Overrides
 ```
 
 ***

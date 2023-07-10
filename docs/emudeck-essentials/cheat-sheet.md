@@ -73,7 +73,7 @@ BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make
 
 #### When to place BIOS Files directly into Emulation/bios
 
-For example, the photo below instructs you to **place** `sega_101.bin` (if you are playing JP games) or `mpr-17933.bin` (if you are playing US/EU) games **directly** into the `Emulation/bios` folder. **Do not** make a subfolder.
+For example, the photo below instructs you to **place** `sega_101.bin` (if you are playing JP games) or `mpr-17933.bin` (if you are playing US/EU games) **directly** into the `Emulation/bios` folder. **Do not** make a subfolder.
 
 ![Sega Saturn BIOS Example](../assets/sega-saturn-bios-example.png)
 
