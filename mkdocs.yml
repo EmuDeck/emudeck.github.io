@@ -219,6 +219,7 @@ extra_javascript:
   - javascripts/tablesort.js
 extra_css:
   - css/github-permalink-style.css
+  - css/github-tables.css
 # Analytics - To Do
 #  consent:
 #    title: Cookie consent
