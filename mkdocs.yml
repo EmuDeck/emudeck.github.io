@@ -6,9 +6,11 @@ copyright: >
     Copyright Creative Commons Attribution-ShareAlike 4.0 International
 #    <a href="#__consent">Change cookie settings</a>
 nav:
-    - EmuDeck Website: 'https://www.emudeck.com/'
     - Home: 'index.md'
     - About: 'about.md'
+    - EmuDeck Website: 'https://www.emudeck.com/'
+    - EmuDeck Discord: 'https://discord.gg/b9F7GpXtFP'
+    - EmuDeck GitHub: 'https://github.com/dragoonDorise/EmuDeck'
     - How to Install EmuDeck:
         - 'EmuDeck for SteamOS': 
             - 'How to Install EmuDeck for SteamOS': 'how-to-install-emudeck/steamos/emudeck-for-steamos.md'
@@ -139,6 +141,7 @@ theme:
     - navigation.indexes 
     - content.tooltips
     - navigation.instant
+    - navigation.sections
     logo: assets/logo.png
     favicon: images/favicon.png
     font:
