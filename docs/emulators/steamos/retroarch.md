@@ -252,24 +252,37 @@ When the time comes to switch discs:
 ### How to Change Shaders
 [Back to the Top](#retroarch-table-of-contents)
 
-1. Load content that has a shader applied automatically. 
-2. Go to the quick menu via both sticks in retroarch. from there, navigate to shaders (`~/.var/app/org.libretro.RetroArch/config/retroarch/shaders`).
+#### How to Download/Update Shaders
+
+1. Open RetroArch
+    * You may also do this in game by pressing L3 and R3
+2. Open the `Main Menu`
+3. Select `Online Updater`
+4. Select `Update Slang Shaders` 
+
+#### How to Apply Shaders
+
+1. Load content that has a shader applied automatically
+2. Open the Quick Menu with L3 and R3
+3. Select `Shaders`
     * <img src="https://user-images.githubusercontent.com/1683513/174447565-be119f1e-38a3-4297-9248-ae3fcc48ee0f.png" height="300">
-3. In shaders find remove, and select it.
+3. In Shaders, select the `Remove` button
     * <img src="https://user-images.githubusercontent.com/1683513/174447588-6390f58b-2606-4f10-9935-3f82acbf3ad1.png" height="300">
-4. Hit the button that says remove content directory preset
+4. Select `Remove Content Directory Preset`
     * <img src="https://user-images.githubusercontent.com/1683513/174447596-38bc3c39-d667-4c5a-8b06-8cc8c3b9505b.png" height="300">
-5. close retroarch, reload content. no shaders applied (yes it's hard to see, but no more lcd squares)
+5. Close RetroArch and reload content. No shaders will be applied
+    * Yes, it may be hard to see, but no more LCD squares
     * <img src="https://user-images.githubusercontent.com/1683513/174447652-b4ca78d1-7b5a-4ae9-b3f9-120a5b16f3cc.png" height="300">
-6. Conversely in that same shader menu - if you want to set up a different shader you would make the changes and apply them. When satistified you go to save:
+6. If you want to select a different shader, open the `Shaders` menu again, and select your preferred settings/shaders. When you are satisfied, select the `Save` button
     * <img src="https://user-images.githubusercontent.com/1683513/174447945-3929b8d0-cb9f-45f8-9e15-18d172703cd7.png" height="300">
 
 The order they are listed in is the order they take precedence, from most general to most specific.
 
-* Global = Everything.
-* Core = Anything run by a specfic cores.
-* Content Directory = Any rom in a specific directory. *these are used for the emudeck applied shaders.
-* Game = that specific rom.
+1. Global = Everything.
+2. Core = Anything run by a specific core.
+3. Content Directory = Any ROM in a specific directory. 
+    * These are used for the EmuDeck applied shaders.
+4. Game = that specific ROM.
 
 As you get lower in this list it takes precedence, so if you do nothing but set a core shader preset, it will  not override the content directory preset already applied.
 
