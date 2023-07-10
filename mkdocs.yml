@@ -60,59 +60,58 @@ nav:
             - 'EmulationStation-DE': 'tools/windows/emulationstation-de.md'
     - Emulators:
         - Cemu: 
-            - 'Cemu SteamOS': 
-                - Cemu SteamOS Landing Page:
+            - 'Cemu on SteamOS': 
+                - Cemu on SteamOS Landing Page:
                     - 'emulators/steamos/index.md'
-                    - 'Cemu (Native) SteamOS': 'emulators/steamos/cemu-native.md'
-                    - 'Cemu (Proton) SteamOS': 'emulators/steamos/cemu-proton.md'
-            - 'Cemu Windows':
-                - 'Cemu - Windows': 'emulators/windows/cemu.md'
+                    - 'Cemu (Native) on SteamOS': 'emulators/steamos/cemu-native.md'
+                    - 'Cemu (Proton) on SteamOS': 'emulators/steamos/cemu-proton.md'
+            - 'Cemu on Windows': 'emulators/windows/cemu.md'
         - Citra:
-            - 'Citra SteamOS': 'emulators/steamos/citra.md'
-            - 'Citra Windows': 'emulators/windows/citra.md'
+            - 'Citra on SteamOS': 'emulators/steamos/citra.md'
+            - 'Citra on Windows': 'emulators/windows/citra.md'
         - Dolphin:
-            - 'Dolphin SteamOS': 'emulators/steamos/dolphin.md'
-            - 'Dolphin Windows': 'emulators/windows/dolphin.md'
+            - 'Dolphin on SteamOS': 'emulators/steamos/dolphin.md'
+            - 'Dolphin on Windows': 'emulators/windows/dolphin.md'
         - DuckStation:
-            - 'DuckStation SteamOS': 'emulators/steamos/duckstation.md'
-            - 'DuckStation Windows': 'emulators/windows/duckstation.md'
+            - 'DuckStation on SteamOS': 'emulators/steamos/duckstation.md'
+            - 'DuckStation on Windows': 'emulators/windows/duckstation.md'
         - MAME:
-            - 'MAME SteamOS': 'emulators/steamos/mame.md'
+            - 'MAME on SteamOS': 'emulators/steamos/mame.md'
         - melonDS:
-            - 'melonDS SteamOS': 'emulators/steamos/melonds.md'
-            - 'melonDS Windows': 'emulators/windows/melonds.md'
+            - 'melonDS on SteamOS': 'emulators/steamos/melonds.md'
+            - 'melonDS on Windows': 'emulators/windows/melonds.md'
         - mGBA:
-            - 'mGBA SteamOS': 'emulators/steamos/mgba.md'
+            - 'mGBA on SteamOS': 'emulators/steamos/mgba.md'
         - PCSX2:
-            - 'PCSX2 SteamOS': 'emulators/steamos/pcsx2.md'
-            - 'PCSX2 Windows': 'emulators/windows/pcsx2.md'
+            - 'PCSX2 on SteamOS': 'emulators/steamos/pcsx2.md'
+            - 'PCSX2 on Windows': 'emulators/windows/pcsx2.md'
         - PPSSPP:
-            - 'PPSSPP SteamOS': 'emulators/steamos/ppsspp.md'
-            - 'PPSSPP Windows': 'emulators/windows/ppsspp.md'
+            - 'PPSSPP on SteamOS': 'emulators/steamos/ppsspp.md'
+            - 'PPSSPP on Windows': 'emulators/windows/ppsspp.md'
         - PrimeHack:
-            - 'PrimeHack SteamOS': 'emulators/steamos/primehack.md'
+            - 'PrimeHack on SteamOS': 'emulators/steamos/primehack.md'
         - RetroArch:
-            - 'RetroArch SteamOS': 'emulators/steamos/retroarch.md'
-            - 'RetroArch Windows': 'emulators/windows/retroarch.md'
+            - 'RetroArch on SteamOS': 'emulators/steamos/retroarch.md'
+            - 'RetroArch on Windows': 'emulators/windows/retroarch.md'
         - Rosalie's Mupen GUI:
-            - "Rosalie's Mupen GUI SteamOS": 'emulators/steamos/rmg.md'
+            - "Rosalie's Mupen GUI on SteamOS": 'emulators/steamos/rmg.md'
         - RPCS3:
-            - 'RPCS3 SteamOS': 'emulators/steamos/rpcs3.md'
-            - 'RPCS3 Windows': 'emulators/windows/rpcs3.md'
+            - 'RPCS3 on SteamOS': 'emulators/steamos/rpcs3.md'
+            - 'RPCS3 on Windows': 'emulators/windows/rpcs3.md'
         - Ryujinx:
-            - 'Ryujinx SteamOS': 'emulators/steamos/ryujinx.md'
-            - 'Ryujinx Windows': 'emulators/windows/ryujinx.md'
+            - 'Ryujinx on SteamOS': 'emulators/steamos/ryujinx.md'
+            - 'Ryujinx on Windows': 'emulators/windows/ryujinx.md'
         - ScummVM:
-            - 'ScummVM SteamOS': 'emulators/steamos/scummvm.md'
+            - 'ScummVM on SteamOS': 'emulators/steamos/scummvm.md'
         - Vita3K:
-            - 'Vita3K SteamOS': 'emulators/steamos/vita3k.md'
+            - 'Vita3K on SteamOS': 'emulators/steamos/vita3k.md'
         - Xemu:
-            - 'Xemu SteamOS': 'emulators/steamos/xemu.md'
+            - 'Xemu on SteamOS': 'emulators/steamos/xemu.md'
         - Xenia:
-            - 'Xenia SteamOS': 'emulators/steamos/xenia.md'
+            - 'Xenia on SteamOS': 'emulators/steamos/xenia.md'
         - Yuzu:
-            - 'Yuzu SteamOS': 'emulators/steamos/yuzu.md'
-            - 'Yuzu Windows': 'emulators/windows/yuzu.md'
+            - 'Yuzu on SteamOS': 'emulators/steamos/yuzu.md'
+            - 'Yuzu on Windows': 'emulators/windows/yuzu.md'
     - Other:
         - EmuDeck for SteamOS:
             - Community Creations: 'other/steamos/community-creations.md'

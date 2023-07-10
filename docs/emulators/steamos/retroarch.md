@@ -318,7 +318,7 @@ How to remap the controls for a single system/core:
 3. Select Controls
 4. Configure controls
 5. Select Manage Remap Files
-6. Select Save Core Remap File
+6. Select Save Content Directory Remap File
 ```
 
 Copied From: [https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content](https://docs.libretro.com/guides/input-and-controls/#remapping-controls-for-individual-cores-or-content)
@@ -351,7 +351,7 @@ How to Change Settings On a Per-Core Basis
 2. Open the Quick Menu with L3 + R3
 3. Configure settings
 4. Select Overrides
-5. Select Save Core Overrides
+5. Select Save Content Directory Overrides
 ```
 
 ***
