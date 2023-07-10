@@ -1,3 +1,139 @@
+---
+search:
+  boost: 150 
+---
+
+# The Cheat Sheet is Your Tool to Success.
+
+***
+
+## What this page covers
+
+* Emulator or RetroArch core names
+* Expected ROM folder locations
+* Expected ROM file types
+* Expected BIOS (if required)
+* Expected BIOS location
+    * Typically, BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make or use any additional folders unless otherwise specified on the charts below
+
+***
+
+## Cheat Sheet Table of Contents
+
+1. [How to Use the Cheat Sheets](#how-to-use-the-cheat-sheets)
+    - [How to Use the Tables](#how-to-use-the-tables)
+    - [Where do I place the BIOS files?](#where-do-i-place-the-bios-files)
+    - [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
+    - [A Breakdown of Libretro Wiki Pages](#a-breakdown-of-libretro-wiki-pages)
+    - [What is the difference between a RetroArch core and a standalone emulator?](#what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator)
+2. [Cheat Sheets](#cheat-sheets)
+    - [Arcade and MAME Related Emulation Cheat Sheet](#arcade-and-mame-related-emulation-cheat-sheet)
+    - [Atari Cheat Sheet](#atari-cheat-sheet)
+    - [Game Engine Recreations Cheat Sheet](#game-engine-recreations-cheat-sheet)
+    - [Microsoft Cheat Sheet](#microsoft-cheat-sheet)
+    - [Miscellaneous Consoles and Handhelds Cheat Sheet](#miscellaneous-consoles-and-handhelds-cheat-sheet)
+        * Includes: 3DO, TurboGrafx, and Wonderswan
+    - [Nintendo Cheat Sheet](#nintendo-cheat-sheet)
+    - [Personal Computers Cheat Sheet](#personal-computers-cheat-sheet)
+    - [Sega Cheat Sheet](#sega-cheat-sheet)
+    - [Sony Cheat Sheet](#sony-cheat-sheet)
+
+***
+
+## How to Use the Cheat Sheets
+[Back to the Top](#cheat-sheet-table-of-contents)
+
+### How to Use the Cheat Sheets Table of Contents
+
+- [How to Use the Tables](#how-to-use-the-tables)
+- [Where do I place the BIOS files?](#where-do-i-place-the-bios-files)
+- [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
+- [A Breakdown of Libretro Wiki Pages](#a-breakdown-of-libretro-wiki-pages)
+- [What is the difference between a RetroArch core and a standalone emulator?](#what-is-the-difference-between-a-retroarch-core-and-a-standalone-emulator)
+
+***
+
+### How to Use The Tables
+[Back to the Top](#how-to-use-the-cheat-sheets-table-of-contents)
+
+* BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make or use any additional folders unless otherwise specified on the charts below
+* If the BIOS box contains: `N/A`, BIOS files are not required to play the respective system
+* The chart can be scrolled horizontally
+* In many cases, BIOS names are case sensitive. Match the casing to the `BIOS` column in the chart
+* In some cases, BIOS must be named a specific way. Match the file name to the `BIOS` column in the chart
+* To distinguish from RetroArch cores, standalone emulators are indicated in bold and are written with: `(Standalone)`
+* If you are on a computer, press `CTRL` + `F` or `CMD` + `F` together to search the chart
+    * <img src="https://user-images.githubusercontent.com/108900299/215289134-a79b8b74-2317-4128-a1d6-4e51fe046b88.png" height="300">
+
+***
+
+### Where do I place the BIOS files?
+
+BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make or use any additional folders unless otherwise specified on the charts below.
+
+#### When to place BIOS Files directly into Emulation/bios
+
+For example, the photo below instructs you to **place** `sega_101.bin` (if you are playing JP games) or `mpr-17933.bin` (if you are playing US/EU) games **directly** into the `Emulation/bios` folder. **Do not** make a subfolder.
+
+![Sega Saturn BIOS Example](../assets/sega-saturn-bios-example.png)
+
+In `Emulation/bios`:
+
+![Sega Saturn Folder Example](../assets/sega-saturn-folder-example.png)
+
+#### When to create a subfolder
+
+For example, the photo below instructs you to **create** a `dc` folder in `Emulation/bios` and to place `dc_boot.bin` directly into `Emulation/bios/dc`. 
+
+![Sega Dreamcast BIOS Example](../assets/sega-dreamcast-bios-example.png)
+
+In `Emulation/bios/dc`:
+
+![Sega Dreamcast Folder Example](../assets/sega-dreamcast-folder-example.png)
+
+***
+
+### For systems with multiple emulators, how do I select which emulator to use?
+[Back to the Top](#how-to-use-the-cheat-sheets-table-of-contents)
+
+For systems with both standalone and RetroArch core options, or multiple standalone options:
+
+#### Steam ROM Manager
+
+These systems will have multiple parsers, each corresponding to a different emulator or RetroArch core.
+
+For example: PSX can be played through DuckStation (Standalone), SwanStation, or Beetle PSX. If you prefer to use DuckStation (Standalone) for PSX, enable the `Sony PlayStation - DuckStation` parser and make sure the `SwanStation` and `Beetle PSX` parsers are disabled.
+
+
+#### EmulationStation-DE
+
+These systems will have a set default.
+
+ However, you can change which emulator or RetroArch core is used:
+
+1. In `EmulationStation-DE`, press the `Start` button
+2. Scroll down and select `Other Settings`
+3. Select `Alternative Emulators`
+4. Scroll down to the system you would like to configure, press `B`, and select your preferred emulator
+
+***
+
+### A Breakdown of Libretro Wiki Pages
+[Back to the Top](#how-to-use-the-cheat-sheets-table-of-contents)
+
+When reading a Libretro wiki article, the `System` directory refers to `Emulation/bios`. Treat the `Emulation/bios` folder as the `System` directory and either place your files directly in `Emulation/bios` or create a folder according to the instructions on the various Libretro wiki pages.
+
+***
+
+### What is the difference between a RetroArch core and a standalone emulator?
+[Back to the Top](#how-to-use-the-cheat-sheets-table-of-contents)
+
+It mostly comes down to preference.
+
+**RetroArch:** RetroArch comes with a suite of shaders, bezels, cohesive hotkeys across the cores. A lot of small general emulator enhancements with an emphasis on a cohesive experience (for better or for worse).
+
+**Standalone emulators:** Standalone emulators tend to be more up to date, more bleeding edge with the latest improvements to whatever that emulator emulates. Standalone emulators tend to come with a lot of additional features for the specific console it emulates. For example, melonDS features native microphone support. In the case of systems with both RetroArch cores and standalone emulators available, the standalone emulator usually also provides better overall performance than the RetroArch core.
+
 ***
 
 ## Cheat Sheets
