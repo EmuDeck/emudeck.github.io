@@ -16,7 +16,7 @@
                * [Steam Input Layout 3](#steam-input-layout-3)
                * [Steam Input Layout 4](#steam-input-layout-4)
                * [Steam Input Layout 5](#steam-input-layout-5)
-      2. [Dolphin](#dolphin)
+      * [Dolphin](#dolphin)
           * [Getting Started With Dolphin Profiles](#getting-started-with-dolphin-profiles)
                * [How to Share Dolphin Profiles](#how-to-share-dolphin-profiles)
                * [How to Download Dolphin Profiles](#how-to-download-dolphin-profiles)
