@@ -200,6 +200,8 @@ Gyro for Dolphin is not mapped out of the box. You will need to open the Dolphin
 
 After installing SteamDeckGyroDSU, you may either choose to create your own profile in Dolphin or you may choose to download a community created profile from the [Community Creations](../../other/steamos/community-creations.md) page.
 
+If you are choosing to create your own profile, it is recommended you read Dolphin's wikipedia page on gyro for more information: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
+
 
 ***
 
