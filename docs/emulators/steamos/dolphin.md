@@ -517,7 +517,7 @@ If your Riivolution patch includes additional content, follow the below steps. I
 1. Back up `/home/deck/.local/share/Steam/config/config.vdf`
 2. Exit out of Steam
     * If Steam is not closed, any edits you make to `config.vdf` will be reverted
-3. Right click `config.vdf`, click `Open with Kate`
+3. Right click `config.vdf`, click `Open with Kate` or a text editor of your choice
 4. Add the following to the end of the file, on a new line before the final `}` and save
     
          "controller_blacklist"        "57e/0306,57e/0306,57e/0306,57e/0306"
