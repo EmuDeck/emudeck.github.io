@@ -94,6 +94,13 @@ To navigate to the SD Card or a removable storage device, you can click `rootfs`
 * Removable Storage Device
     * `/run/media/deck/REMOVABLESTORAGEDEVICENAME`
 
+**On Windows**
+
+* Internal SSD
+    * `C:\Emulation\bios`
+* Removable Storage Device or SD Card
+    * `DRIVELETTER:\Emulation\bios`
+
 #### When to place BIOS Files directly into Emulation/bios
 
 For example, the photo below instructs you to **place** `sega_101.bin` (if you are playing JP games) or `mpr-17933.bin` (if you are playing US/EU games) **directly** into the `Emulation/bios` folder. **Do not** make a subfolder.
