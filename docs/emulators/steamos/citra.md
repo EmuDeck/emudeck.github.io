@@ -17,11 +17,9 @@ Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
     - [File Formats](#citra-file-formats)
     - [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
     - [Hotkeys](#citra-hotkeys)
-
 2. [Common Issues](#citra-common-issues)
     - [Why did my game suddenly stop working?](#why-did-my-game-suddenly-stop-working)
-
-2. [Citra Tips and Tricks](#citra-tips-and-tricks)
+3. [Citra Tips and Tricks](#citra-tips-and-tricks)
     - [How to Configure Gyro](#how-to-configure-gyro)
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
@@ -218,8 +216,6 @@ Here's how to install custom textures for Citra:
 4. In the `textures` folder from Step 3, create a folder matching the `TitleID` from Step 2
 5. Put your texture files directly into the `TitleID` folder you created in Step 4
 6. Your texture pack should now be installed
-
-
 
 **IMPORTANT:** Outdated guides will recommend enabling `Preload Custom Textures`. Turning on `Preload Textures` is no longer recommended and will cause a severe performance hit. 
 
