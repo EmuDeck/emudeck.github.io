@@ -71,6 +71,29 @@ search:
 
 BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make or use any additional folders unless otherwise specified on the charts below.
 
+### Where do I find the Emulation/bios folder?
+
+**On a Steam Deck**
+
+To navigate to the SD Card or a removable storage device, you can click `rootfs` on the left side in Dolphin (file explorer) and follow one of the below paths.
+
+* Internal SSD
+    * `/home/deck/Emulation/bios`
+* SD Card
+    * `/run/media/SDCARDNAME/Emulation/bios`
+        * Your `SDCARDNAME` may be `mmcblk0p1`
+* Removable Storage Device
+    * `/run/media/deck/REMOVABLESTORAGEDEVICENAME`
+
+**On Linux**
+
+* Internal SSD
+    * `/home/$USER/Emulation/bios`
+* SD Card
+    * `/run/media/SDCARDNAME/Emulation/bios`
+* Removable Storage Device
+    * `/run/media/deck/REMOVABLESTORAGEDEVICENAME`
+
 #### When to place BIOS Files directly into Emulation/bios
 
 For example, the photo below instructs you to **place** `sega_101.bin` (if you are playing JP games) or `mpr-17933.bin` (if you are playing US/EU games) **directly** into the `Emulation/bios` folder. **Do not** make a subfolder.
