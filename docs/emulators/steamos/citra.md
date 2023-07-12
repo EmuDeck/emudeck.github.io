@@ -198,16 +198,28 @@ Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md
 
 Here's how to install custom textures for Citra:
 
+#### Citra Configuration
+
 1. Open the Citra emulator. Click `Emulation` in the top left. Click `Configuration`, `Graphics`, and check both `Use Custom Textures` and `Async Custom Texture Loading`
-    1. `Preload Custom Textures` is no longer recommended. Leave `Preload Custom Textures` off
-    2. <img src="https://user-images.githubusercontent.com/108900299/236593948-5a918187-27a7-4f5f-ac64-3b3147be8825.png" height="300">
-2. Open https://3ds.jdbye.com/?details=USA&split=0&display=0 in a browser, and note down the `Title ID` for the game you would like to install custom textures for
+    * <img src="https://user-images.githubusercontent.com/108900299/236593948-5a918187-27a7-4f5f-ac64-3b3147be8825.png" height="300">
+
+**Note:** `Preload Custom Textures` is no longer recommended. Leave `Preload Custom Textures` off
+
+#### How to Install Custom Textures
+
+**Note:** Your texture pack may already come properly named and packaged with the correct `TitleID` and texture files. You may place the included texture pack folder directly into `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/load/textures`. You do not need the following section if this is the case.
+
+1. Open [https://3ds.jdbye.com/?details=USA&split=0&display=0](https://3ds.jdbye.com/?details=USA&split=0&display=0) in a browser
+2. Note down the `Title ID` for the game
+    * For example, The Legend of Zelda: Majora's Mask 3D's (US) Title ID is: `0004000000125500` 
 3. Open `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/load/textures`
-    1. `~/.var` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click "view hidden files" to see these folders.
-    2. If the `load` and `textures` folder do not exist, create them
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * If the `load` and `textures` folder do not exist, create them
 4. In the `textures` folder from Step 3, create a folder matching the `TitleID` from Step 2
-5. Put your texture files directly into this folder
+5. Put your texture files directly into the `TitleID` folder you created in Step 4
 6. Your texture pack should now be installed
+
+
 
 **IMPORTANT:** Outdated guides will recommend enabling `Preload Custom Textures`. Turning on `Preload Textures` is no longer recommended and will cause a severe performance hit. 
 
