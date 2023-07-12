@@ -510,7 +510,7 @@ If your Riivolution patch includes additional content, follow the below steps. I
 
 **Preface:** To use the Mayflash DolphinBar, you need to blacklist it from Steam to properly allow it to work with Dolphin in Game Mode.
 
-**Note:** This section is specifically for the Mayflash Dolphinbar. Read: #how-to-configure-real-wiimotes, for information on how to configure `Real Wiimotes`. 
+**Note:** This section is specifically for the Mayflash Dolphinbar. For Real Wiimotes, read: [How to Configure Real Wiimotes](#how-to-configure-real-wiimotes).
 
 #### How to Use a Mayflash DolphinBar in Game Mode
 
