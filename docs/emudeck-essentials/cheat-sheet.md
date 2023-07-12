@@ -83,7 +83,7 @@ To navigate to the SD Card or a removable storage device, you can click `rootfs`
     * `/run/media/SDCARDNAME/Emulation/bios`
         * Your `SDCARDNAME` may be `mmcblk0p1`
 * Removable Storage Device
-    * `/run/media/deck/REMOVABLESTORAGEDEVICENAME`
+    * `/run/media/deck/REMOVABLESTORAGEDEVICENAME/Emulation/bios`
 
 **On Linux**
 
@@ -92,7 +92,7 @@ To navigate to the SD Card or a removable storage device, you can click `rootfs`
 * SD Card
     * `/run/media/SDCARDNAME/Emulation/bios`
 * Removable Storage Device
-    * `/run/media/deck/REMOVABLESTORAGEDEVICENAME`
+    * `/run/media/deck/REMOVABLESTORAGEDEVICENAME/Emulation/bios`
 
 **On Windows**
 
