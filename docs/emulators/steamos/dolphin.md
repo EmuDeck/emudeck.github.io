@@ -424,7 +424,7 @@ Example, to use OpenGL for only Super Paper Mario:
 #### Specific Use Cases for Custom Game Settings
 
 * Pokemon Colosseum: Aspect Ratio keeps changing 
-   * Copy and paste the below lines into the INI editor for Pokemon Colosseum
+    * Copy and paste the below lines into the INI editor for Pokemon Colosseum
 
             [Video_Settings]
             wideScreenHack = False

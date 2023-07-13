@@ -195,21 +195,21 @@ Watch the following GIF for a visual:
 
 #### Method 1:  Directories interpreted as files (Recommended)
 
-1. Refer to https://github.com/dragoonDorise/EmuDeck/wiki/File-Management#how-to-create-an-m3u-file on how to create an M3U file
+1. Create an [M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file)
 2. Place all of your disc files with the M3U file in a folder
 3. Rename the folder to match the M3U file exactly including the file extension `.m3u`
    * Example: <img src="https://user-images.githubusercontent.com/108900299/220529984-3a333b70-ad70-4815-8490-45236414cd9a.png" height="300">
 
 **Note:**
 
-* This method is not compatible with Steam ROM Manager.
-* Refer to https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#directories-interpreted-as-files for additional details.
+* This method is not compatible with Steam ROM Manager
+* Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#directories-interpreted-as-files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#directories-interpreted-as-files) for additional information
 
 ***
 
 #### Method 2: Create an M3U file and hide each of the disc entries in EmulationStation-DE
 
-1. Refer to [How to Create an M3U file](../../other/steamos/file-management.md#how-to-create-an-m3u-file) to learn more
+1. Create an [M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file)
 2. In EmulationStation-DE, press `Start`, `Other Settings`, toggle `Show Hidden Games` off
     * <img src="https://user-images.githubusercontent.com/108900299/220525893-83723351-a594-4f40-b106-0170085139cd.png" height="300">
 3. For each disc entry, press select, press `Edit This Game's Metadata`, scroll down, toggle on `Hidden`, press `Save`, `Apply`
