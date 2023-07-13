@@ -71,7 +71,14 @@ search:
 
 BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make or use any additional folders unless otherwise specified on the charts below.
 
-### Where do I find the Emulation/bios folder?
+Read through the following sections for a quick run-down of when to and when not to place BIOS directly into `Emulation/bios`.
+
+- [Where do I find the Emulation/bios folder?](#where-do-i-find-the-emulationbios-folder)
+- [When to place BIOS Files directly into Emulation/bios](#when-to-place-bios-files-directly-into-emulationbios)
+- [When to create a subfolder](#when-to-create-a-subfolder)
+- [What does N/A mean?](#what-does-na-mean)
+
+#### Where do I find the Emulation/bios folder?
 
 **On a Steam Deck**
 
