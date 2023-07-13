@@ -198,7 +198,7 @@ Watch the following GIF for a visual:
 1. Create an [M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file)
 2. Place all of your disc files with the M3U file in a folder
 3. Rename the folder to match the M3U file exactly including the file extension `.m3u`
-   * Example: <img src="https://user-images.githubusercontent.com/108900299/220529984-3a333b70-ad70-4815-8490-45236414cd9a.png" height="300">
+    * Example: <img src="https://user-images.githubusercontent.com/108900299/220529984-3a333b70-ad70-4815-8490-45236414cd9a.png" height="300">
 
 **Note:**
 
