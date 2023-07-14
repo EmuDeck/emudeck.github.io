@@ -1117,7 +1117,7 @@ Visit the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-applicati
 
 Use symlinks! 
 
-<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/60d68dadd56ab45cacadefafc1d5086647dd3c61/GIFs/How%20to%20Create%20a%20Symlink.gif?raw=true"/>
+[How to Use Symlinks](../../other/steamos/file-management.md#how-to-create-a-symlink)
 
 
 ***

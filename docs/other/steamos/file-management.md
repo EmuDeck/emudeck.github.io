@@ -11,6 +11,9 @@
 2. [Managing Emulators and Tools](#managing-emulators-and-tools)
     - [How to Swap out AppImages and Binaries](#how-to-swap-out-appimages-and-binaries)
 
+3. [Managing Files](#managing-files)
+    - [How to Use Symlinks](#how-to-use-symlinks)
+
 ***
 
 ## Managing ROM Files
@@ -143,5 +146,46 @@ For some emulators, your ROMs launch using a script created by EmuDeck, which lo
 Watch the following GIF for a visual (Yuzu is being used as an example in this GIF):
 
 <img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/3c461f555ed3eb882e2ee1273a53429ae3fda486/GIFs/Swapping%20out%20AppImages%20and%20Binaries.gif?raw=true"/>
+
+***
+
+## Managing Files
+[Back to the Top](#file-management-table-of-contents)
+
+
+***
+
+### How to Use Symlinks
+[Back to the Top](#file-management-table-of-contents)
+
+#### Preface
+
+Symbolic links, or symlinks for short, are a powerful way to link files or directories. Symlinks are a kind of file that points to another file, similar to a shortcut on Windows. However, symlinks are much more versatile. 
+
+A few features of symlinks include: renaming the symlink, crossing partitions (between an SD card and an internal SSD for example), and creating multiple symlinks to the same file. 
+
+#### Use Cases
+
+Let's go over a few use cases specifically pertaining EmuDeck: 
+
+* If you wanted to install EmuDeck on multiple storage devices, you could instead install EmuDeck to the internal SSD and symlink ROM folders from the various storage devices to the `Emulation` folder on the internal SSD. 
+* If you had a large texture pack folder or a large folder of any sort, you could place this folder on your removable storage device and symlink it to its expected location on the internal SSD.
+* If you wanted to symlink your NAS to your `Emulation` folder. 
+
+#### How to create a Symlink
+
+You can create a symlink a couple of ways. One method is to create a symlink through Dolphin (file manager). Keep in mind that within Dolphin (file manager), you can open tabs and view multiple folders at the same time.
+
+When you have your original folder or file and the destination ready, drag the original folder or file to the destination and click `Link here`. A symlink is indicated with a small link icon and the file name in italics.
+
+##### Photos
+
+1. ![Symlink Example Step 1](../../assets/symlink-example1.png)
+2. ![Symlink Example Step 2](../../assets//symlink-example2.png)
+3. ![Symlink Example Step 3](../../assets/symlink-example3.png)
+
+##### GIF
+
+<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/60d68dadd56ab45cacadefafc1d5086647dd3c61/GIFs/How%20to%20Create%20a%20Symlink.gif?raw=true"/>
 
 ***
