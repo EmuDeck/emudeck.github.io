@@ -59,58 +59,60 @@ nav:
             - 'Steam ROM Manager': 'tools/windows/steam-rom-manager.md'
             - 'EmulationStation-DE': 'tools/windows/emulationstation-de.md'
     - Emulators:
-        - Cemu: 
-            - 'Cemu on SteamOS': 
-                - 'emulators/steamos/index.md'
-                - 'Cemu (Native) on SteamOS': 'emulators/steamos/cemu-native.md'
-                - 'Cemu (Proton) on SteamOS': 'emulators/steamos/cemu-proton.md'
-            - 'Cemu on Windows': 'emulators/windows/cemu.md'
-        - Citra:
-            - 'Citra on SteamOS': 'emulators/steamos/citra.md'
-            - 'Citra on Windows': 'emulators/windows/citra.md'
-        - Dolphin:
-            - 'Dolphin on SteamOS': 'emulators/steamos/dolphin.md'
-            - 'Dolphin on Windows': 'emulators/windows/dolphin.md'
-        - DuckStation:
-            - 'DuckStation on SteamOS': 'emulators/steamos/duckstation.md'
-            - 'DuckStation on Windows': 'emulators/windows/duckstation.md'
-        - MAME:
-            - 'MAME on SteamOS': 'emulators/steamos/mame.md'
-        - melonDS:
-            - 'melonDS on SteamOS': 'emulators/steamos/melonds.md'
-            - 'melonDS on Windows': 'emulators/windows/melonds.md'
-        - mGBA:
-            - 'mGBA on SteamOS': 'emulators/steamos/mgba.md'
-        - PCSX2:
-            - 'PCSX2 on SteamOS': 'emulators/steamos/pcsx2.md'
-            - 'PCSX2 on Windows': 'emulators/windows/pcsx2.md'
-        - PPSSPP:
-            - 'PPSSPP on SteamOS': 'emulators/steamos/ppsspp.md'
-            - 'PPSSPP on Windows': 'emulators/windows/ppsspp.md'
-        - PrimeHack:
-            - 'PrimeHack on SteamOS': 'emulators/steamos/primehack.md'
-        - RetroArch:
-            - 'RetroArch on SteamOS': 'emulators/steamos/retroarch.md'
-            - 'RetroArch on Windows': 'emulators/windows/retroarch.md'
-        - Rosalie's Mupen GUI:
-            - "Rosalie's Mupen GUI on SteamOS": 'emulators/steamos/rmg.md'
-        - RPCS3:
-            - 'RPCS3 on SteamOS': 'emulators/steamos/rpcs3.md'
-            - 'RPCS3 on Windows': 'emulators/windows/rpcs3.md'
-        - Ryujinx:
-            - 'Ryujinx on SteamOS': 'emulators/steamos/ryujinx.md'
-            - 'Ryujinx on Windows': 'emulators/windows/ryujinx.md'
-        - ScummVM:
-            - 'ScummVM on SteamOS': 'emulators/steamos/scummvm.md'
-        - Vita3K:
-            - 'Vita3K on SteamOS': 'emulators/steamos/vita3k.md'
-        - Xemu:
-            - 'Xemu on SteamOS': 'emulators/steamos/xemu.md'
-        - Xenia:
-            - 'Xenia on SteamOS': 'emulators/steamos/xenia.md'
-        - Yuzu:
-            - 'Yuzu on SteamOS': 'emulators/steamos/yuzu.md'
-            - 'Yuzu on Windows': 'emulators/windows/yuzu.md'
+        - Microsoft:
+            - Xemu (OG Xbox):
+                - 'Xemu on SteamOS': 'emulators/steamos/xemu.md'
+            - Xenia (Xbox 360):
+                - 'Xenia on SteamOS': 'emulators/steamos/xenia.md'
+        - Multisystems:
+            - MAME:
+                - 'MAME on SteamOS': 'emulators/steamos/mame.md'
+            - RetroArch:
+                - 'RetroArch on SteamOS': 'emulators/steamos/retroarch.md'
+                - 'RetroArch on Windows': 'emulators/windows/retroarch.md'
+            - ScummVM:
+                - 'ScummVM on SteamOS': 'emulators/steamos/scummvm.md'
+        - Nintendo:
+            - Rosalie's Mupen GUI (Nintendo 64):
+                - "Rosalie's Mupen GUI on SteamOS": 'emulators/steamos/rmg.md'
+            - mGBA (GB, GBC, and GBA):
+                - 'mGBA on SteamOS': 'emulators/steamos/mgba.md'
+            - melonDS (Nintendo DS):
+                - 'melonDS on SteamOS': 'emulators/steamos/melonds.md'
+                - 'melonDS on Windows': 'emulators/windows/melonds.md'
+            - Dolphin (GameCube and Wii):
+                - 'Dolphin on SteamOS': 'emulators/steamos/dolphin.md'
+                - 'Dolphin on Windows': 'emulators/windows/dolphin.md'
+            - Citra (Nintendo 3DS):
+                - 'Citra on SteamOS': 'emulators/steamos/citra.md'
+                - 'Citra on Windows': 'emulators/windows/citra.md'
+            - Cemu (Wii U): 
+                - 'Cemu on SteamOS': 
+                    - 'emulators/steamos/index.md'
+                    - 'Cemu (Native) on SteamOS': 'emulators/steamos/cemu-native.md'
+                    - 'Cemu (Proton) on SteamOS': 'emulators/steamos/cemu-proton.md'
+                - 'Cemu on Windows': 'emulators/windows/cemu.md'
+            - Ryujinx (Nintendo Switch):
+                - 'Ryujinx on SteamOS': 'emulators/steamos/ryujinx.md'
+                - 'Ryujinx on Windows': 'emulators/windows/ryujinx.md'
+            - Yuzu (Nintendo Switch):
+                - 'Yuzu on SteamOS': 'emulators/steamos/yuzu.md'
+                - 'Yuzu on Windows': 'emulators/windows/yuzu.md'
+        - Sony:
+            - PPSSPP (PlayStation Portable):
+                - 'PPSSPP on SteamOS': 'emulators/steamos/ppsspp.md'
+                - 'PPSSPP on Windows': 'emulators/windows/ppsspp.md'
+            - Vita3K (PlayStation Vita):
+                - 'Vita3K on SteamOS': 'emulators/steamos/vita3k.md'
+            - DuckStation (PlayStation 1):
+                - 'DuckStation on SteamOS': 'emulators/steamos/duckstation.md'
+                - 'DuckStation on Windows': 'emulators/windows/duckstation.md'
+            - PCSX2 (PlayStation 2):
+                - 'PCSX2 on SteamOS': 'emulators/steamos/pcsx2.md'
+                - 'PCSX2 on Windows': 'emulators/windows/pcsx2.md'
+            - RPCS3 (PlayStation 3):
+                - 'RPCS3 on SteamOS': 'emulators/steamos/rpcs3.md'
+                - 'RPCS3 on Windows': 'emulators/windows/rpcs3.md'
     - Other:
         - EmuDeck for SteamOS:
             - Community Creations: 'other/steamos/community-creations.md'
