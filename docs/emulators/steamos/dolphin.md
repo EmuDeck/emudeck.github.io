@@ -224,7 +224,9 @@ If you are choosing to create your own profile:
 12. Press `Select` in the top right
     * ![Dolphin Gyro Example 1](../../assets/dolphin-gyro.png) 
 13. Press `OK` in the bottom right
-13. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
+14. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
+15. After you are finished, give your profile a name in the top right and save it as a new profile
+16. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
 
 For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
 
