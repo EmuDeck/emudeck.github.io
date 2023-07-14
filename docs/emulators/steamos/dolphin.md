@@ -200,8 +200,23 @@ Gyro for Dolphin is not mapped out of the box. You will need to open the Dolphin
 
 After installing SteamDeckGyroDSU, you may either choose to create your own profile in Dolphin or you may choose to download a community created profile from the [Community Creations](../../other/steamos/community-creations.md) page.
 
-If you are choosing to create your own profile, it is recommended you read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
+#### Downloading a Community Creations profile
 
+Visit the [Community Creations](../../other/steamos/community-creations.md) page. You may want to start with the [How to Download Dolphin Profiles](../../other/steamos/community-creations.md#how-to-download-dolphin-profiles) section. 
+
+#### Creating your own profile
+
+If you are choosing to create your own profile:
+
+It is recommended you read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
+
+**Do note** the following with Dolphin's wiki page on gyro: 
+
+* It is highly recommended you do everything in Desktop Mode
+* You do not need to "add the users to a specific group" on the Steam Deck
+* You do not need to select the appropriate IMU device on the gyro configuration screen in Dolphin
+    * If it is not set by default, the correct option is `DSUClient/steamdeckgyro`
+* To right click on the Steam Deck (and to get to the advanced config), use `L2`
 
 ***
 
