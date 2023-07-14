@@ -208,16 +208,26 @@ Visit the [Community Creations](../../other/steamos/community-creations.md) page
 
 If you are choosing to create your own profile:
 
-It is recommended you read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
+1. Install and configure [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+2. In Game Mode, open the Dolphin emulator
+    * Make sure gyro is configured and set up  
+3. Open the `Controllers` menu
+4. Select `Configure` to the right of `Wii Remote 1`
+    * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
+5. Select the `Motion Input` tab
+6. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `STEAM` + `L2`
+7. Make sure `DSUClient/0/steamdeckgyro` is selected in the drop-down menu at the top
+8. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
+9. Select the matching input to the button you clicked in Step 6
+10. Highlight the input text in the box below
+    * Either use the touch screen or hold `STEAM` and use the trackpad to highlight it
+    * ![Dolphin Gyro 1](../../assets/dolphin-gyro-1.png)
+        * If the box is blank, skip to Step 11 
+11. If you are holding `STEAM`, let go of the button and press `Select` in the top right
+12. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
 
-**Do note** the following with Dolphin's wiki page on gyro: 
+For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
 
-* It is highly recommended you configure gyro in Desktop Mode. After you have configured gyro, you may switch back to Game Mode
-    * In Desktop Mode, hold the `Start` button for a few seconds to switch to Gamepad configurations 
-* You **do not** need to "add users to a specific group" on the Steam Deck
-* You **do not** need to select the appropriate IMU device on the gyro configuration screen in Dolphin
-    * If it is not set by default, the correct option is `DSUClient/steamdeckgyro`
-* To right click on the Steam Deck (and to get to the advanced config), use `L2`
 
 ***
 
