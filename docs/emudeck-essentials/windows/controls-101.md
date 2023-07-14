@@ -1,12 +1,17 @@
 # Controls 101
+
 ***
 
 ## Controls 101 Table of Contents
 
 [TOC]
 
+***
+
 ## Devices
 [Back to the Top](#controls-101-table-of-contents)
+
+***
 
 ### ROG Ally
 [Back to the Top](#controls-101-table-of-contents)
@@ -43,3 +48,5 @@ Power (DC) input combo port
 24. Volume buttons
 25. Two-color battery charge indicator
 26. Power button/Fingerprint sensor
+
+***

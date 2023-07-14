@@ -21,21 +21,21 @@
             - [List of RetroArch Cores Used by EmuDeck](../../emulators/steamos/retroarch.md#list-of-retroarch-cores-used-by-emudeck)
         - [ScummVM](#scummvm)
     - [Nintendo Hotkeys](#nintendo-hotkeys)
+        - [RMG (N64) (Standalone)](#rmg-n64-standalone)
+        - [mGBA (GB, GBC, and GBA) (Standalone)](#mgba-gb-gbc-and-gba-standalone)
+        - [melonDS (NDS) (Standalone)](#melonds-nds-standalone)
         - [PrimeHack (Metroid Prime Trilogy)](#primehack-metroid-prime-trilogy)
         - [Dolphin (Gamecube and Wii)](#dolphin-gamecube-and-wii)
         - [Citra (3DS)](#citra-3ds)
         - [Cemu (Wii U)](#cemu-wii-u)
-        - [melonDS (NDS) (Standalone)](#melonds-nds-standalone)
-        - [mGBA (GB, GBC, and GBA) (Standalone)](#mgba-gb-gbc-and-gba-standalone)
-        - [RMG (N64) (Standalone)](#rmg-n64-standalone)
         - [Ryujinx (Switch)](#ryujinx-switch)
         - [Yuzu (Switch)](#yuzu-switch)
     - [Sony Hotkeys](#sony-hotkeys)
-        - [PPSSPP (Playstation Portable)](#ppsspp-playstation-portable)
-        - [Vita3K (Playstation Vita)](#vita3k-playstation-vita)
-        - [DuckStation (Playstation 1)](#duckstation-playstation-1)
-        - [PCSX2 (Playstation 2)](#pcsx2-playstation-2)
-        - [RPCS3 (Playstation 3)](#rpcs3-playstation-3)      
+        - [PPSSPP (PlayStation Portable)](#ppsspp-playstation-portable)
+        - [Vita3K (PlayStation Vita)](#vita3k-playstation-vita)
+        - [DuckStation (PlayStation 1)](#duckstation-playstation-1)
+        - [PCSX2 (PlayStation 2)](#pcsx2-playstation-2)
+        - [RPCS3 (PlayStation 3)](#rpcs3-playstation-3)      
     - [Tools Hotkeys](#tools-hotkeys)
         - [Cloud Services](#cloud-services)
         - [EmulationStation-DE](#emulationstation-de) 
@@ -230,6 +230,84 @@ N/A
 
 ***
 
+#### RMG (N64) (Standalone)
+[Back to the Top](#hotkeys-table-of-contents)
+
+RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - RMG`. The hotkeys below can only be used if you have the Steam Input profile active.
+
+**Long Press** to activate hotkeys on the left trackpad radial menu. 
+
+| Hotkey         | RMG                       |
+|----------------|---------------------------|
+| Quick Menu     | Left Trackpad Radial Menu |
+| Save State     | Left Trackpad Radial Menu |
+| Save State Menu| Left Trackpad Radial Menu |
+| Load State     | Left Trackpad Radial Menu |
+| Pause          | Left Trackpad Radial Menu |
+| Cheats         | Left Trackpad Radial Menu |
+| Controller Menu| Left Trackpad Radial Menu |
+| Graphics Menu  | Left Trackpad Radial Menu |
+| Screenshot     | Left Trackpad Radial Menu |
+| Stop Emulation | Left Trackpad Radial Menu |
+| Reset          | Left Trackpad Radial Menu |
+
+For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+
+**These hotkeys are for RMG, a standalone N64 emulator. These hotkeys are not for the Mupen64Plus-Next RetroArch core. For more information on RetroArch and the Mupen64Plus-Next RetroArch core hotkeys, visit [RetroArch](#retroarch).**
+
+***
+
+#### mGBA (GB, GBC, and GBA) (Standalone)
+[Back to the Top](#hotkeys-table-of-contents)
+
+mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - mGBA`. The hotkeys below can only be used if you have the Steam Input profile active.
+
+**Long Press** to activate hotkeys on the left trackpad touch menu. 
+
+| Hotkey         | mGBA                      |
+|----------------|---------------------------|
+| Quick Menu     | Left Trackpad Touch Menu  |
+| Save State     | Left Trackpad Touch Menu  |
+| Load State     | Left Trackpad Touch Menu  |
+| Pause          | Left Trackpad Touch Menu  |
+| Reset          | Left Trackpad Touch Menu  |
+| Stop Emulation | Left Trackpad Touch Menu  |
+| Fast Forward   | Left Trackpad Touch  Menu |
+| Cheats         | Left Trackpad Touch Menu  |
+| Screenshot     | Left Trackpad Touch Menu  |
+
+For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+
+**These hotkeys are for mGBA, a standalone Nintendo Gameboy, Gameboy Color and Gameboy Advance emulator. These hotkeys are not for the mGBA RetroArch core. For more information on RetroArch and the mGBA RetroArch core hotkeys, visit [RetroArch](#retroarch).**
+
+***
+
+#### melonDS (NDS) (Standalone)
+[Back to the Top](#hotkeys-table-of-contents)
+
+melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - melonDS`. The hotkeys below can only be used if you have the Steam Input profile active.
+
+**Long Press** to activate hotkeys on the left trackpad radial menu. 
+
+| Hotkey         | melonDS                   |
+|----------------|---------------------------|
+| Full Screen      | Left Trackpad Radial Menu or Tilt `Right Joystick` `Left` |
+| Save State Menu  | Left Trackpad Radial Menu        |
+| Load State Menu  | Left Trackpad Radial Menu        |
+| Pause            | Left Trackpad Radial Menu        |
+| Cheats           | Left Trackpad Radial Menu        |
+| Microphone       | Left Trackpad Radial Menu or `R3`|
+| Close/Open Lid   | Left Trackpad Radial Menu or `L3`|
+| Swap Screens     | Left Trackpad Radial Menu or `R2`|
+| Reset            | Left Trackpad Radial Menu        |
+| Toggle FPS Limit | Tilt `Right Joystick` `Right`    |
+
+For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+
+**These hotkeys are for melonDS, a standalone NDS emulator. These hotkeys are not for the melonDS RetroArch core. For more information on RetroArch and the melonDS RetroArch core hotkeys, visit [RetroArch](#retroarch).**
+
+***
+
 #### PrimeHack (Metroid Prime Trilogy)
 [Back to the Top](#hotkeys-table-of-contents)
 
@@ -330,85 +408,6 @@ Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input prof
 
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
-
-***
-
-#### melonDS (NDS) (Standalone)
-[Back to the Top](#hotkeys-table-of-contents)
-
-melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - melonDS`. The hotkeys below can only be used if you have the Steam Input profile active.
-
-**Long Press** to activate hotkeys on the left trackpad radial menu. 
-
-| Hotkey         | melonDS                   |
-|----------------|---------------------------|
-| Full Screen      | Left Trackpad Radial Menu or Tilt `Right Joystick` `Left` |
-| Save State Menu  | Left Trackpad Radial Menu        |
-| Load State Menu  | Left Trackpad Radial Menu        |
-| Pause            | Left Trackpad Radial Menu        |
-| Cheats           | Left Trackpad Radial Menu        |
-| Microphone       | Left Trackpad Radial Menu or `R3`|
-| Close/Open Lid   | Left Trackpad Radial Menu or `L3`|
-| Swap Screens     | Left Trackpad Radial Menu or `R2`|
-| Reset            | Left Trackpad Radial Menu        |
-| Toggle FPS Limit | Tilt `Right Joystick` `Right`    |
-
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
-
-**These hotkeys are for melonDS, a standalone NDS emulator. These hotkeys are not for the melonDS RetroArch core. For more information on RetroArch and the melonDS RetroArch core hotkeys, visit [RetroArch](#retroarch).**
-
-***
-
-#### mGBA (GB, GBC, and GBA) (Standalone)
-[Back to the Top](#hotkeys-table-of-contents)
-
-mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - mGBA`. The hotkeys below can only be used if you have the Steam Input profile active.
-
-**Long Press** to activate hotkeys on the left trackpad touch menu. 
-
-| Hotkey         | mGBA                      |
-|----------------|---------------------------|
-| Quick Menu     | Left Trackpad Touch Menu  |
-| Save State     | Left Trackpad Touch Menu  |
-| Load State     | Left Trackpad Touch Menu  |
-| Pause          | Left Trackpad Touch Menu  |
-| Reset          | Left Trackpad Touch Menu  |
-| Stop Emulation | Left Trackpad Touch Menu  |
-| Fast Forward   | Left Trackpad Touch  Menu |
-| Cheats         | Left Trackpad Touch Menu  |
-| Screenshot     | Left Trackpad Touch Menu  |
-
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
-
-**These hotkeys are for mGBA, a standalone Nintendo Gameboy, Gameboy Color and Gameboy Advance emulator. These hotkeys are not for the mGBA RetroArch core. For more information on RetroArch and the mGBA RetroArch core hotkeys, visit [RetroArch](#retroarch).**
-
-***
-
-#### RMG (N64) (Standalone)
-[Back to the Top](#hotkeys-table-of-contents)
-
-RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - RMG`. The hotkeys below can only be used if you have the Steam Input profile active.
-
-**Long Press** to activate hotkeys on the left trackpad radial menu. 
-
-| Hotkey         | RMG                       |
-|----------------|---------------------------|
-| Quick Menu     | Left Trackpad Radial Menu |
-| Save State     | Left Trackpad Radial Menu |
-| Save State Menu| Left Trackpad Radial Menu |
-| Load State     | Left Trackpad Radial Menu |
-| Pause          | Left Trackpad Radial Menu |
-| Cheats         | Left Trackpad Radial Menu |
-| Controller Menu| Left Trackpad Radial Menu |
-| Graphics Menu  | Left Trackpad Radial Menu |
-| Screenshot     | Left Trackpad Radial Menu |
-| Stop Emulation | Left Trackpad Radial Menu |
-| Reset          | Left Trackpad Radial Menu |
-
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
-
-**These hotkeys are for RMG, a standalone N64 emulator. These hotkeys are not for the Mupen64Plus-Next RetroArch core. For more information on RetroArch and the Mupen64Plus-Next RetroArch core hotkeys, visit [RetroArch](#retroarch).**
-
 
 ***
 
