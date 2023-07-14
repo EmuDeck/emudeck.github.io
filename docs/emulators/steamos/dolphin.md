@@ -212,9 +212,10 @@ It is recommended you read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 
 **Do note** the following with Dolphin's wiki page on gyro: 
 
-* It is highly recommended you do everything in Desktop Mode
-* You do not need to "add the users to a specific group" on the Steam Deck
-* You do not need to select the appropriate IMU device on the gyro configuration screen in Dolphin
+* It is highly recommended you configure gyro in Desktop Mode. After you have configured gyro, you may switch back to Game Mode
+    * In Desktop Mode, hold the `Start` button for a few seconds to switch to Gamepad configurations 
+* You **do not** need to "add users to a specific group" on the Steam Deck
+* You **do not** need to select the appropriate IMU device on the gyro configuration screen in Dolphin
     * If it is not set by default, the correct option is `DSUClient/steamdeckgyro`
 * To right click on the Steam Deck (and to get to the advanced config), use `L2`
 
