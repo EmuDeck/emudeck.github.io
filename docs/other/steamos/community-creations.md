@@ -1307,7 +1307,7 @@ I used the text of Trick Trigger from the profile he shared as a template so her
 
 **REQUIRES STEAMDECKGYRODSU TO BE INSTALLED**
 
-How to Install SteamDeckGyroDSU: https://github.com/dragoonDorise/EmuDeck/wiki/frequently-asked-questions#how-do-i-install-steamdeckgyrodsu
+[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 This config is basically the one default on dolphin when you install it with EmuDeck, but it detects as default Xbox 360 gamepad (in game it's in reality steam deck's controlls). So, this config just adds to Xbox 360 controller detected the gyro inputs of the steam deck with help of steam deck gyrodsu.
 
