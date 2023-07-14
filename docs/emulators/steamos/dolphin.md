@@ -223,6 +223,7 @@ If you are choosing to create your own profile:
 11. Press `Clear` in the bottom right
 12. Press `Select` in the top right
     * ![Dolphin Gyro Example 1](../../assets/dolphin-gyro-1.png) 
+13. Press `OK` in the bottom right
 13. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
 
 For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
