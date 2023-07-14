@@ -80,6 +80,8 @@ nav:
             - melonDS (Nintendo DS):
                 - 'melonDS on SteamOS': 'emulators/steamos/melonds.md'
                 - 'melonDS on Windows': 'emulators/windows/melonds.md'
+            - PrimeHack: 
+                - 'PrimeHack on SteamOS': 'emulators/steamos/primehack.md'
             - Dolphin (GameCube and Wii):
                 - 'Dolphin on SteamOS': 'emulators/steamos/dolphin.md'
                 - 'Dolphin on Windows': 'emulators/windows/dolphin.md'
