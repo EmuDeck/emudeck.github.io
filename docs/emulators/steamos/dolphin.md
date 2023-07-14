@@ -214,17 +214,16 @@ If you are choosing to create your own profile:
 3. Open the `Controllers` menu
 4. Select `Configure` to the right of `Wii Remote 1`
     * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
-5. Select the `Motion Input` tab
-6. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `STEAM` + `L2`
-7. Make sure `DSUClient/0/steamdeckgyro` is selected in the drop-down menu at the top
-8. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
-9. Select the matching input to the button you clicked in Step 6
-10. Highlight the input text in the box below
-    * Either use the touch screen or hold `STEAM` and use the trackpad to highlight it
-    * ![Dolphin Gyro 1](../../assets/dolphin-gyro-1.png)
-        * If the box is blank, skip to Step 11 
-11. If you are holding `STEAM`, let go of the button and press `Select` in the top right
-12. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
+5. Make sure `evdev/microsoft X-box 360 pad 0` is set in the top left
+6. Select the `Motion Input` tab
+7. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `STEAM` + `L2`
+8. Make sure `DSUClient/0/steamdeckgyro` is selected in the drop-down menu at the top
+9. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
+10. Select the matching input to the button you clicked in Step 7
+11. Press `Clear` in the bottom right
+12. Press `Select` in the top right
+    * ![Dolphin Gyro Example 1](../../assets/dolphin-gyro-1.png) 
+13. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
 
 For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
 
