@@ -184,7 +184,7 @@ SteamDeckGyroDSU's website: [https://github.com/kmicki/SteamDeckGyroDSU](https:/
 1. Open `EmuDeck` on your desktop
 2. Select `SteamDeckGyroDSU`
 3. Enter your password, and click `Install GyroDSU`
-   * If you have not set a password, this page will prompt you to create one
+    * If you have not set a password, this page will prompt you to create one
 4. Restart your Steam Deck
 5. SteamDeckGyroDSU is now installed
 
