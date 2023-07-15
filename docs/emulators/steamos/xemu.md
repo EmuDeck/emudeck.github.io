@@ -59,7 +59,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Type of Emulator: Flatpak
 * Config Location: `/home/deck/.var/app/app.xemu.xemu`
 * ROM location: `Emulation/roms/xbox`
-* BIOS location: `Emulation/bios` (Do not create any additional folders in this folder for Xbox BIOS)
+* BIOS location: `Emulation/bios`
+    * **Do not** create any additional folders in this folder for Xbox BIOS
+* Storage location: `Emulation/storage/xemu`
+    * Contains the following files (included with EmuDeck):
+        * `eeprom.bin`
+        * `xbox_hdd.qcow2`
+            * This file is a "pre-built 8G Xbox HDD image, free of any copyrighted content, and only contains a dummy dashboard" provided by Xemu
+            * The "Hard Disk Image" is one of the required files mentioned in Xemu's Setup documentation
 * Required BIOS: 
     * MCPX Boot ROM Image: `mcpx_1.0.bin`
     * Flash ROM Image:  `Complex_4627v1.03.bin`
