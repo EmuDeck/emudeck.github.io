@@ -61,8 +61,9 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
 * Config Location: `/home/deck/.var/app/org.libretro.RetroArch`
 * Storage: `Emulation/storage/retroarch`
     * Contains: `cheats`
-* ROMs: Refer to the [Cheat Sheet](../../emudeck-essentials/cheat-sheet.md)
+* ROMs: Refer to the [Cheat Sheet](../../cheat-sheet.md)
 * BIOS: `Emulation/bios`
+    * Refer to the [Cheat Sheet](../../cheat-sheet.md) for more information 
 * Saves:
     * Symlink: `Emulation/saves/retroarch/saves`
     * Target Location: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/saves/`
@@ -154,7 +155,7 @@ For more information: [https://docs.libretro.com/guides/overrides/](https://docs
 
 * Screenshots are saved in: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/screenshots`
 * The `Blow Mic` hotkey only blows white noise. It cannot be used to speak into the Steam Deck microphone. The white noise may not be strong enough to progress in some games. 
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -240,7 +241,7 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 ### How to Manage Multiple Discs
 [Back to the Top](#retroarch-table-of-contents)
 
-M3U files can be used to manage multiple discs for RetroArch. [Learn how to create an M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file).
+M3U files can be used to manage multiple discs for RetroArch. [Learn how to create an M3U File](../../file-management/steamos/file-management.md#how-to-create-an-m3u-file).
 
 When the time comes to switch discs:
 

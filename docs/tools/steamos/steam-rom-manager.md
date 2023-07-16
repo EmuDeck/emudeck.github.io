@@ -51,7 +51,7 @@ Steam ROM Manager is a powerful tool used to add ROMs, emulators, and tools as n
 
 Open Steam ROM Manager through the EmuDeck application on your desktop or through the applications launcher (Steam icon in the bottom left of your taskbar). Do note that it will exit out of Steam and switch your controls into "Lizard Mode". You will retain use of the trackpad but will need to use R2 to left click and L2 to right click instead of clicking with the trackpad. 
 
-First, place your ROMs with the expected file formats into their respective system folders in `Emulation/roms`. Read the the [Cheat Sheet](../../emudeck-essentials/cheat-sheet.md) if you have not done so already, it will cover the expected file formats as well as expected BIOS for the various systems.
+First, place your ROMs with the expected file formats into their respective system folders in `Emulation/roms`. Read the the [Cheat Sheet](../../cheat-sheet.md) if you have not done so already, it will cover the expected file formats as well as expected BIOS for the various systems.
 
 After you place your ROMs in their respective system folders, learn how to generate and parse an app list here: #how-to-generate-and-save-an-app-list. 
 
@@ -83,7 +83,7 @@ Note:
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `Steam-ROM-Manager.AppImage`
-    * Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions.
+    * Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions.
 * Through the application's automatic updater
     * When you open Steam ROM Manager, you may be prompted for an update, accept the prompt to update the application
 
@@ -225,10 +225,10 @@ To use EmulationStation-DE, it is recommended to turn on at least the `Emulation
 
 Your games may not show up for a few reasons: 
 
-* Make sure your file path is correct. Refer to the [EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md) for which folders correlate to which system.
+* Make sure your file path is correct. Refer to the [Cheat Sheet](../../cheat-sheet.md) for which folders correlate to which system.
     * Example: Nintendo DS games are placed in `Emulation/roms/nds`
 * Make sure your ROMs are in the correct file format. Refer to 
-the [EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md) for the correct file format.
+the [Cheat Sheet](../../cheat-sheet.md) for the correct file format.
     * Example: Many emulators are not compatible with `.7z` or `.zip` files. You will need to extract these files to use them. The cheat sheet will list which emulators can and cannot use `zip` files. 
 * Make sure you know how to generate an App List, refer to #how-to-generate-and-save-an-app-list, for further instructions. 
 * Steam ROM Manager's UI sometimes does not scale properly and the scrollbar on the right does not let you scroll down. However, you can either resize the window or scroll in the middle to see the rest of your generated app list. 
@@ -428,7 +428,7 @@ Common use cases may include:
 
 * Selectively hide entries in a large ROM set 
 * Hide multi-disc games
-    * For more information on multi-disc games, read [How to Manage ROMs with Multiple Discs](../../other/steamos/file-management.md#how-to-manage-roms-with-multiple-discs)
+    * For more information on multi-disc games, read [How to Manage ROMs with Multiple Discs](../../file-management/steamos/file-management.md#how-to-manage-roms-with-multiple-discs)
 * Exceptions using [Method 1: Use the "Exclude Apps" button"](#method-1-use-the-exclude-apps-button) hide ROM entries on a per parser basis
     * For systems with multiple emulators, you can use this feature to select which emulator you would like to use for specific ROMs
         * For example, If you would like to only run `Mario + Rabbids Kingdom Battle` through Ryujinx: 
@@ -499,7 +499,7 @@ For a visual, watch the following GIF:
 ### How to Manage ROMs with Multiple Discs
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
-If you are using ROMs with multiple discs, it is recommended to create an M3U file and treat this newly created M3U file as the game. To learn more about M3U files, read [How to Manage ROMs with Multiple Discs](../../other/steamos/file-management.md#how-to-manage-roms-with-multiple-discs). 
+If you are using ROMs with multiple discs, it is recommended to create an M3U file and treat this newly created M3U file as the game. To learn more about M3U files, read [How to Manage ROMs with Multiple Discs](../../file-management/steamos/file-management.md#how-to-manage-roms-with-multiple-discs). 
 
 However, your M3U file and disc files will parse as separate entries in Steam ROM Manager. Fortunately, it is easy to hide the discs and only parse the M3U file to keep your Steam library neat and tidy.
 

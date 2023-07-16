@@ -177,7 +177,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** 
 
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -198,11 +198,11 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 
 Gyro for Dolphin is not mapped out of the box. You will need to open the Dolphin emulator and configure gyro controls after installing SteamDeckGyroDSU. 
 
-After installing SteamDeckGyroDSU, you may either choose to create your own profile in Dolphin or you may choose to download a community created profile from the [Community Creations](../../other/steamos/community-creations.md) page.
+After installing SteamDeckGyroDSU, you may either choose to create your own profile in Dolphin or you may choose to download a community created profile from the [Community Creations](../../community-creations/steamos/community-creations.md) page.
 
 #### Downloading a Community Creations profile
 
-Visit the [Community Creations](../../other/steamos/community-creations.md) page. You may want to start with the [How to Download Dolphin Profiles](../../other/steamos/community-creations.md#how-to-download-dolphin-profiles) section. 
+Visit the [Community Creations](../../community-creations/steamos/community-creations.md) page. You may want to start with the [How to Download Dolphin Profiles](../../community-creations/steamos/community-creations.md#how-to-download-dolphin-profiles) section. 
 
 #### Creating your own profile
 
@@ -258,7 +258,7 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 M3U files can be used to manage multiple discs for Dolphin. With the `Change Discs Automatically` option toggled (turned on by default with EmuDeck), Dolphin will automatically switch discs in combination with an M3U file. 
 
-[Learn how to create an M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file) 
+[Learn how to create an M3U File](../../file-management/steamos/file-management.md#how-to-create-an-m3u-file) 
 
 
 ***
@@ -344,7 +344,7 @@ For a visual, watch the following GIF:
 ### How to Share Your Dolphin Controller Profile
 [Back to the Top](#dolphin-table-of-contents)
 
-[How to Share Your Dolphin Controller Profile](../../other/steamos/community-creations.md#how-to-share-dolphin-profiles)
+[How to Share Your Dolphin Controller Profile](../../community-creations/steamos/community-creations.md#how-to-share-dolphin-profiles)
 
 
 ***
@@ -354,7 +354,7 @@ For a visual, watch the following GIF:
 
 1. Choose a controller profile (use one of the following methods): 
     1. Download a controller profile with an `.ini` extension type
-        1. [View community layouts](../../other/steamos/community-creations.md#community-dolphin-profiles)
+        1. [View community layouts](../../community-creations/steamos/community-creations.md#community-dolphin-profiles)
     2. Use one of EmuDeck's included layouts
         1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
         2. Wii: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote)

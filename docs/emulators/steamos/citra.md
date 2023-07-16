@@ -144,8 +144,8 @@ Citra comes with a Steam Input profile for Hotkeys. Activate the Steam Input pro
 
 **Note:** 
 
-* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 

@@ -118,8 +118,8 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 
 **Note:** 
 
-* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -203,7 +203,7 @@ A handful of Nintendo DS games require portrait orientation. For these games, yo
 **Here's How**
 
 1. In Game Mode, select the `EmuDeck - MelonDS` profile if you are playing a game directly from Game Mode or the `EmuDeck - EmulationStation-DE` profile if you are playing through EmulationStation-DE
-    * [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+    * [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Open the game, use the Steam Input profile and select the `Fullscreen` hotkey
 3. At the top, press `Config`, `Screen Rotation`, `270`
     * <img src="https://user-images.githubusercontent.com/108900299/224400268-181fd70c-3ef1-470d-85ef-9a8897211958.png" height="300">
@@ -224,7 +224,7 @@ By default, EmuDeck configures melonDS' screens to use a hybrid layout, meaning 
 **Here's How**
 
 1. In Game Mode, select the `EmuDeck - MelonDS` profile if you are playing a game directly from Game Mode or the `EmuDeck - EmulationStation-DE` profile if you are playing through EmulationStation-DE
-    * [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+    * [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Open the game, use the Steam Input profile and select the `Fullscreen` hotkey
 3. At the top, press `Config`, and use `Screen size`, `Screen rotation`, `Screen layout`, `Screen sizing`, and `Aspect Ratio` to customize your layout 
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/93413e6c-a704-48ea-aaca-565f54a85bb6" height="300">

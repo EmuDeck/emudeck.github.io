@@ -163,6 +163,6 @@ Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.m
 
 Some games will take additional setup, requiring mods or an extensive alteration of settings. The EmuDeck Community Creations page collects these configurations in one centralized location. 
 
-You can submit or view special game configurations here: [Special Game Configurations](../../other/steamos/community-creations.md#rpcs3-playstation-3)
+You can submit or view special game configurations here: [Special Game Configurations](../../community-creations/steamos/community-creations.md#rpcs3-playstation-3)
 
 ***

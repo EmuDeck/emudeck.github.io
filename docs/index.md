@@ -5,7 +5,7 @@
 * [EmuDeck Website](https://www.emudeck.com/)
 * [EmuDeck GitHub](https://github.com/dragoonDorise/EmuDeck)
 * [EmuDeck Discord](https://discord.gg/b9F7GpXtFP)
-* [EmuDeck Cheat Sheet](./emudeck-essentials/cheat-sheet.md)
+* [EmuDeck Cheat Sheet](./cheat-sheet.md)
     * Learn what BIOS files you need and where to place your ROMs and BIOS!
 * [EmuDeck Community Games Compatibility List](https://brantje.github.io/emudeck-compatibility-list/)
 
@@ -58,7 +58,7 @@ EmuDeck for Android development is currently on pause until EmuDeck for Windows 
     * The EmuDeck team cannot promise it will be a bug-free experience. Please report any bugs you come across by submitting an issue on the GitHub page.
 
 Setup Required:
-Many emulators require BIOS files. Generally place them in the `Emulation/bios` directly with no subfolders. There are a few exceptions. You can check the [Cheat Sheet](./emudeck-essentials/cheat-sheet.md) for more information.
+Many emulators require BIOS files. Generally place them in the `Emulation/bios` directly with no subfolders. There are a few exceptions. You can check the [Cheat Sheet](./cheat-sheet.md) for more information.
 
 Please note - ROMs, BIOS files, or any other copyrighted files are not included in the install. Asking for support on where to obtain these files is not allowed. 
 

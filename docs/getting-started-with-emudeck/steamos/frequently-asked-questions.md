@@ -69,7 +69,7 @@ For a tutorial (pick one):
 
 **Read:** Retro Game Corps' guide: [https://retrogamecorps.com/2022/10/16/steam-deck-emulation-starter-guide/](https://retrogamecorps.com/2022/10/16/steam-deck-emulation-starter-guide/)
 
-[The EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md) should be by your side when you're first setting up EmuDeck. It contains a list of included emulators, ROM formats, and the names of the expected files in `Emulation/bios`. 
+[The EmuDeck Cheat Sheet](../../cheat-sheet.md) should be by your side when you're first setting up EmuDeck. It contains a list of included emulators, ROM formats, and the names of the expected files in `Emulation/bios`. 
 
 [The EmuDeck Emulation Database](https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit?usp=sharing): This community database is an excellent tool to find games that run well. 
 
@@ -369,14 +369,14 @@ Read this Reddit thread for additional information: [https://www.reddit.com/r/Re
 ### Which emulators require BIOS files or firmware?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-Refer to [The EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md) for a list of required BIOS files. 
+Refer to [The EmuDeck Cheat Sheet](../../cheat-sheet.md) for a list of required BIOS files. 
 
 ***
 
 ### What are the expected file types for the various emulators?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-Refer to [The EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md) for a list of the expected file types. 
+Refer to [The EmuDeck Cheat Sheet](../../cheat-sheet.md) for a list of the expected file types. 
 
 ***
 
@@ -389,14 +389,14 @@ EmuDeck does not come with BIOS files, you must obtain these on your own.
 
 Legally, BIOS files or firmware must be obtained from your console. Various emulator websites have guides on how to dump BIOS files or firmware. Other methods are piracy and cannot be discussed here or on the EmuDeck Discord.
 
-Refer to [The EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md) for a list of required BIOS files. 
+Refer to [The EmuDeck Cheat Sheet](../../cheat-sheet.md) for a list of required BIOS files. 
 
 ***
 
 ### Which folders match which systems?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-Refer to [The EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md) for a mapping of the folders and their respective systems. 
+Refer to [The EmuDeck Cheat Sheet](../../cheat-sheet.md) for a mapping of the folders and their respective systems. 
 
 ***
 
@@ -436,7 +436,7 @@ If you installed EmuDeck to your SD Card (any of the following paths work):
 
 **IMPORTANT:** 
 
-* Files go directly in this folder. **Do not** make or use any additional folders unless otherwise specified on the [The EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md).
+* Files go directly in this folder. **Do not** make or use any additional folders unless otherwise specified on the [The EmuDeck Cheat Sheet](../../cheat-sheet.md).
 * Do not make or use a `PS2`, `PCSX2`, or any sort of folder here. PCSX2 will not be able to find your BIOS files if they are in a folder.
 * Do not make or use a `PSX`, `PS1`, or any sort of folder here. DuckStation and Beetle PSX will not be able to find your BIOS files if they are in a folder. 
 
@@ -449,7 +449,7 @@ If you installed EmuDeck to your SD Card (any of the following paths work):
 
 **IMPORTANT:** 
 
-* Files go directly in this folder. **Do not** make or use any additional folders unless otherwise specified on the [The EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md).
+* Files go directly in this folder. **Do not** make or use any additional folders unless otherwise specified on the [The EmuDeck Cheat Sheet](../../cheat-sheet.md).
 * Do not make or use a `PS2`, `PCSX2`, or any sort of folder here. PCSX2 will not be able to find your BIOS files if they are in a folder.
 * Do not make or use a `PSX`, `PS1`, or any sort of folder here. DuckStation will not be able to find your BIOS files if they are in a folder. 
 
@@ -457,11 +457,11 @@ If you installed EmuDeck to your SD Card (any of the following paths work):
 
 #### Keep in Mind
 
-Refer to [The EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md) for a list of required BIOS files. 
+Refer to [The EmuDeck Cheat Sheet](../../cheat-sheet.md) for a list of required BIOS files. 
 
 **IMPORTANT:** 
 
-* Files go directly in this folder. **Do not** make or use any additional folders unless otherwise specified on the [The EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md)
+* Files go directly in this folder. **Do not** make or use any additional folders unless otherwise specified on the [The EmuDeck Cheat Sheet](../../cheat-sheet.md)
 * Do not make or use a `PS2`, `PCSX2`, or any sort of folder here. PCSX2 will not be able to find your BIOS files if they are in a folder.
     * **IMPORTANT:** PCSX2 will not be able to find your files if they are in a sub-folder. Do not make or use any sub-folders.   
 * Do not make or use a `PSX`, `PS1`, or any sort of folder here. DuckStation will not be able to find your BIOS files if they are in a folder. 
@@ -472,7 +472,7 @@ Refer to [The EmuDeck Cheat Sheet](../../emudeck-essentials/cheat-sheet.md) for 
 ### What are the hotkeys for the various emulators?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-Refer to the [Hotkeys](../../emudeck-essentials/steamos/hotkeys.md) page for a list of hotkeys per system.
+Refer to the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page for a list of hotkeys per system.
 
 
 ***
@@ -497,7 +497,7 @@ After you have installed EmuDeck, you can use Steam ROM Manager and select which
 ### How do I update EmuDeck and emulators?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-Visit the [Updating](../../emudeck-essentials/steamos/updating.md) page for more information.
+Visit the [Updating](../../emudeck-maintenance/steamos/updating.md) page for more information.
 
 ***
 
@@ -1108,7 +1108,7 @@ Visit the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-applicati
 ### How do I manage ROMs with multiple discs?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-[How to Manage ROMs with Multiple Discs](../../other/steamos/file-management.md#how-to-manage-roms-with-multiple-discs)
+[How to Manage ROMs with Multiple Discs](../../file-management/steamos/file-management.md#how-to-manage-roms-with-multiple-discs)
 
 ***
 
@@ -1117,7 +1117,7 @@ Visit the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-applicati
 
 Use symlinks! 
 
-[How to Use Symlinks](../../other/steamos/file-management.md#how-to-create-a-symlink)
+[How to Use Symlinks](../../file-management/steamos/file-management.md#how-to-create-a-symlink)
 
 
 ***

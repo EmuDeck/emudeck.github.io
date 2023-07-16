@@ -61,7 +61,7 @@ Note: `~/.emulationstation` is an invisible folder by default. In Dolphin (file 
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `EmulationStation-DE-x64_SteamDeck.AppImage`
-   * Refer to Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions.
+   * Refer to Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions.
 
 ***
 
@@ -115,8 +115,8 @@ EmulationStation-DE comes with a Steam Input profile for Hotkeys. Activate the S
 
 **Note:** 
 
-* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 #### An explanation of the EmulationStation-DE Profile
 
@@ -195,7 +195,7 @@ Watch the following GIF for a visual:
 
 #### Method 1:  Directories interpreted as files (Recommended)
 
-1. Create an [M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file)
+1. Create an [M3U File](../../file-management/steamos/file-management.md#how-to-create-an-m3u-file)
 2. Place all of your disc files with the M3U file in a folder
 3. Rename the folder to match the M3U file exactly including the file extension `.m3u`
     * Example: <img src="https://user-images.githubusercontent.com/108900299/220529984-3a333b70-ad70-4815-8490-45236414cd9a.png" height="300">
@@ -209,7 +209,7 @@ Watch the following GIF for a visual:
 
 #### Method 2: Create an M3U file and hide each of the disc entries in EmulationStation-DE
 
-1. Create an [M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file)
+1. Create an [M3U File](../../file-management/steamos/file-management.md#how-to-create-an-m3u-file)
 2. In EmulationStation-DE, press `Start`, `Other Settings`, toggle `Show Hidden Games` off
     * <img src="https://user-images.githubusercontent.com/108900299/220525893-83723351-a594-4f40-b106-0170085139cd.png" height="300">
 3. For each disc entry, press select, press `Edit This Game's Metadata`, scroll down, toggle on `Hidden`, press `Save`, `Apply`

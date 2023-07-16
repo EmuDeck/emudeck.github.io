@@ -124,7 +124,7 @@ BIOS will be searched through 3 folders:
 
 **Note:** 
 
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 

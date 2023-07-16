@@ -112,21 +112,21 @@ To navigate to the SD Card or a removable storage device, you can click `rootfs`
 
 For example, the photo below instructs you to **place** `sega_101.bin` (if you are playing JP games) or `mpr-17933.bin` (if you are playing US/EU games) **directly** into the `Emulation/bios` folder. **Do not** make a subfolder.
 
-![Sega Saturn BIOS Example](../assets/sega-saturn-bios-example.png)
+![Sega Saturn BIOS Example](./assets/sega-saturn-bios-example.png)
 
 In `Emulation/bios`:
 
-![Sega Saturn Folder Example](../assets/sega-saturn-folder-example.png)
+![Sega Saturn Folder Example](./assets/sega-saturn-folder-example.png)
 
 #### When to create a subfolder
 
 For example, the photo below instructs you to **create** a `dc` folder in `Emulation/bios` and to place `dc_boot.bin` directly into `Emulation/bios/dc`. 
 
-![Sega Dreamcast BIOS Example](../assets/sega-dreamcast-bios-example.png)
+![Sega Dreamcast BIOS Example](./assets/sega-dreamcast-bios-example.png)
 
 In `Emulation/bios/dc`:
 
-![Sega Dreamcast Folder Example](../assets/sega-dreamcast-folder-example.png)
+![Sega Dreamcast Folder Example](./assets/sega-dreamcast-folder-example.png)
 
 ***
 
@@ -138,7 +138,7 @@ For example, `N/A` is in the BIOS column in the photo below. When you see the wo
 
 For some of these systems, including BIOS files may be used to launch into the respective system's boot screen when playing games. A few examples include Game Boy Advance and Gamecube. 
 
-![N/A BIOS Example](../assets/na-bios-example.png)
+![N/A BIOS Example](./assets/na-bios-example.png)
 
 ***
 
@@ -227,7 +227,7 @@ It mostly comes down to preference.
 | DooM | doom | [RetroArch PrBoom](https://docs.libretro.com/library/prboom/) | .7z .wad .iwad .pwad .zip | `prboom.wad` | |
 | EasyRPG | easyrpg | [RetroArch EasyRPG](https://docs.libretro.com/library/easyrpg/) | .ldb .easyrpg | N/A |  |
 | Pico-8 | pico8 | [RetroArch Pico-8](https://github.com/Jakz/retro8) | .7z .zip .p8 .png | N/A | EmulationStation-DE does not currently support RetroArch Pico-8 |
-| **ScummVM (Standalone)** | scummvm | **[ScummVM (Standalone)](https://www.scummvm.org/)** | Varies | N/A |  [How to Configure ScummVM to Work With Steam ROM Manager](../emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-steam-rom-manager) <br>    [How to Configure ScummVM to Work With EmulationStation-DE](../emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-emulationstation-de) |
+| **ScummVM (Standalone)** | scummvm | **[ScummVM (Standalone)](https://www.scummvm.org/)** | Varies | N/A |  [How to Configure ScummVM to Work With Steam ROM Manager](./emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-steam-rom-manager) <br>    [How to Configure ScummVM to Work With EmulationStation-DE](./emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-emulationstation-de) |
 
 ***
 
@@ -238,7 +238,7 @@ It mostly comes down to preference.
 
 |         Console/System         |    ROM Folder Name    |  Emulator (Click for Link) |       File Types      |                                  BIOS Files                                 |
 |:------------------------------:|:-----------------:|:--------------------------:|:---------------------:|:---------------------------------------------------------------------------:|
-| **Microsoft Xbox (Standalone)**                 | xbox              | **[Xemu (Standalone)](https://xemu.app/)**  |  .iso (xiso formatted) <br>  [How to convert ROMs to xiso format](../emulators/steamos/xemu.md#how-to-convert-roms-to-xiso-format) |  MCPX Boot ROM: `mcpx_1.0.bin` <br>  Flash ROM Image (COMPLEX 4627 BIOS):  `Complex_4627v1.03.bin` |
+| **Microsoft Xbox (Standalone)**                 | xbox              | **[Xemu (Standalone)](https://xemu.app/)**  |  .iso (xiso formatted) <br>  [How to convert ROMs to xiso format](./emulators/steamos/xemu.md#how-to-convert-roms-to-xiso-format) |  MCPX Boot ROM: `mcpx_1.0.bin` <br>  Flash ROM Image (COMPLEX 4627 BIOS):  `Complex_4627v1.03.bin` |
 | **Microsoft Xbox 360 (Standalone) **           | `xbox360/roms`      | **[Xenia (Standalone)](https://xenia.jp/)** | .iso                  | N/A                                                                         |
 | **Microsoft Xbox 360 Live Arcade (Standalone)** | `xbox360/roms/xbla` | **[Xenia (Standalone)](https://xenia.jp/)** | No file extension     | N/A                                                                         |
 
@@ -288,8 +288,8 @@ It mostly comes down to preference.
 | **Nintendo Switch (Standalone)**                      | switch         | **[Ryujinx (Standalone)](https://ryujinx.org/)**                                                                                           | .kp   .nca   .nro   .nso   .nsp   .xci   .nsz                                                         |  Place `prod.keys` in:  `Emulation/bios/ryujinx/keys`  <br>  Install firmware through Ryujinx GUI                                                                                   |
 | **Nintendo Switch (Standalone)**                       | switch         | **[Yuzu (Standalone)](https://yuzu-emu.org/)**                                                                                             | .kp   .nca   .nro   .nso   .nsp   .xci                                                                |  Place `prod.keys` in: `Emulation/bios/yuzu/keys` <br>   Place `Firmware` files in: `Emulation/bios/yuzu/firmware`                                                                                |
 | **Nintendo Wii (Standalone)**                          | wii            | **[Dolphin (Standalone)](https://dolphin-emu.org/)**                                                                            | .ciso   .dol   .elf   .gcm   .gcz   .iso   .json   .nkit .iso   .rvz   .wad   .wia   .wbfs .m3u             | N/A                                                                                                                                                                                         |
-| **Nintendo Wii U (Standalone) (Proton)**                        | `wiiu/roms`    | **[Cemu (Standalone) (Proton)](https://cemu.info/)**                                                                                                | .rpx   .wud   .wux   .elf  .wad  .wua                                                         |  Place `keys_txt` (for encrypted ROMs) in: `Emulation/roms/wiiu` <br>  For more information, read the [Setting up Cemu (Proton) Questionnaire](../emulators/steamos/cemu-proton.md#setting-up-cemu-questionnaire)                                                                                                                             |
-| **Nintendo Wii U (Standalone) (Native)**                        | `wiiu/roms`    | **[Cemu (Standalone) (Native)](https://cemu.info/)**                                                                                                | .rpx   .wud   .wux   .elf  .wad  .wua                                                         |  Place `keys_txt` (for encrypted ROMs) in: `/home/deck/.local/share/Cemu/` <br>  For more information, read the [Setting up Cemu (Native) Questionnaire](../emulators/steamos/cemu-native.md#setting-up-cemu-questionnaire)                                                                                                                             |
+| **Nintendo Wii U (Standalone) (Proton)**                        | `wiiu/roms`    | **[Cemu (Standalone) (Proton)](https://cemu.info/)**                                                                                                | .rpx   .wud   .wux   .elf  .wad  .wua                                                         |  Place `keys_txt` (for encrypted ROMs) in: `Emulation/roms/wiiu` <br>  For more information, read the [Setting up Cemu (Proton) Questionnaire](./emulators/steamos/cemu-proton.md#setting-up-cemu-questionnaire)                                                                                                                             |
+| **Nintendo Wii U (Standalone) (Native)**                        | `wiiu/roms`    | **[Cemu (Standalone) (Native)](https://cemu.info/)**                                                                                                | .rpx   .wud   .wux   .elf  .wad  .wua                                                         |  Place `keys_txt` (for encrypted ROMs) in: `/home/deck/.local/share/Cemu/` <br>  For more information, read the [Setting up Cemu (Native) Questionnaire](./emulators/steamos/cemu-native.md#setting-up-cemu-questionnaire)                                                                                                                             |
 
 ***
 

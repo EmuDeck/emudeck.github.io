@@ -11,7 +11,7 @@ nav:
     - EmuDeck Website: 'https://www.emudeck.com/'
     - EmuDeck GitHub: 'https://github.com/dragoonDorise/EmuDeck'
     - EmuDeck Discord: 'https://discord.gg/b9F7GpXtFP'
-    - EmuDeck Cheat Sheet: 'emudeck-essentials/cheat-sheet.md'
+    - EmuDeck Cheat Sheet: 'cheat-sheet.md'
     - EmuDeck Community Games Compatibility List: 'https://brantje.github.io/emudeck-compatibility-list/'
     - How to Install EmuDeck:
         - 'EmuDeck for SteamOS': 
@@ -35,15 +35,15 @@ nav:
         - 'EmuDeck for Linux': 
             - 'common-issues/linux/index.md'
     - EmuDeck Maintenance:
-        - 'Updating on SteamOS': 'emudeck-essentials/steamos/updating.md'
-        - 'Updating on Windows': 'emudeck-essentials/windows/updating.md'
+        - 'Updating on SteamOS': 'emudeck-maintenance/steamos/updating.md'
+        - 'Updating on Windows': 'emudeck-maintenance/windows/updating.md'
     - Controls and Hotkeys:
         - EmuDeck for SteamOS:
-            - 'Controls 101': 'emudeck-essentials/steamos/controls-101.md' 
-            - 'Hotkeys': 'emudeck-essentials/steamos/hotkeys.md'
+            - 'Controls 101': 'controls-and-hotkeys/steamos/controls-101.md' 
+            - 'Hotkeys': 'controls-and-hotkeys/steamos/hotkeys.md'
         - EmuDeck for Windows:  
-            - 'Controls 101': 'emudeck-essentials/windows/controls-101.md'
-            - 'Hotkeys': 'emudeck-essentials/windows/hotkeys.md'
+            - 'Controls 101': 'controls-and-hotkeys/windows/controls-101.md'
+            - 'Hotkeys': 'controls-and-hotkeys/windows/hotkeys.md'
     - EmuDeck Application:
         - 'Cloud Saves': 'emudeck-application/cloud-saves.md'
         - 'EmuDeck for SteamOS': 
@@ -118,13 +118,14 @@ nav:
                 - 'RPCS3 on Windows': 'emulators/windows/rpcs3.md'
     - Community Creations:
         - EmuDeck for SteamOS:
-            - Community Creations: 'other/steamos/community-creations.md'
-            - Third Party Emulation: 'other/steamos/third-party-emulation.md'  
+            - Community Creations: 'community-creations/steamos/community-creations.md'
+            - Third Party Emulation: 'community-creations/steamos/third-party-emulation.md'  
         - EmuDeck for Windows:
-            - Community Creations: 'other/windows/community-creations.md'
-    - File Management and Plugins:
-        - File Management on SteamOS: 'other/steamos/file-management.md'
-        - File Management on Windows: 'other/windows/file-management.md'
+            - Community Creations: 'community-creations/windows/community-creations.md'
+    - File Management:
+        - File Management on SteamOS: 'file-management/steamos/file-management.md'
+        - File Management on Windows: 'file-management/windows/file-management.md'
+    - EmuDeck Plugins:
         - EmuDeck Plugins:
             - 'emudeck-plugins/index.md'
             - 'DeckyControls': 'emudeck-plugins/deckycontrols.md'

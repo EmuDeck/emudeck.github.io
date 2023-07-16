@@ -161,8 +161,8 @@ PPSSPP comes with a Steam Input profile for Hotkeys. Activate the Steam Input pr
 
 **Note:** 
 
-* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -231,7 +231,7 @@ _This list is not exhaustive_
 4. Open PPSSPP, click `Settings`, select `System`, scroll down and check `Enable cheats`
     1. <img src="https://user-images.githubusercontent.com/108900299/214386240-5cc0309c-dd93-43a3-a14e-a38e1ff210f6.png" height="300">
 5. In Game Mode, open a game and either press the `Escape Key` hotkey: `Steam` + `DPad Left` or use the `PPSSPP Steam Input Profile` to open the Quick Menu
-    1. [Global Hotkeys](../../emudeck-essentials/steamos/hotkeys.md#global)
+    1. [Global Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md#global)
     2. [PPSSPP Hotkeys](#ppsspp-hotkeys)
     3. <img src="https://user-images.githubusercontent.com/108900299/214387780-baab0bf4-2ed8-4632-9a46-091faccb5900.png" height="300">
 6. Select `Import from cheat.db`, and check the cheat(s) you would like to enable
@@ -257,7 +257,7 @@ _This list is not exhaustive_
     1. Example (Using a 60 FPS cheat for Grand Theft Auto: Liberty City Stories): <img src="https://user-images.githubusercontent.com/108900299/214389761-989b1891-25c9-408f-9ccd-e8b6f4df4ab3.png" height="300">
 6. Save and close out of the `.ini` file
 5. In Game Mode, open a game and either press the `Escape Key` hotkey: `Steam` + `DPad Left` or use the `PPSSPP Steam Input Profile` to open the Quick Menu
-    1. [Global Hotkeys](../../emudeck-essentials/steamos/hotkeys.md#global)
+    1. [Global Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md#global)
     2. [PPSSPP Hotkeys](#ppsspp-hotkeys)
     3. <img src="https://user-images.githubusercontent.com/108900299/214387780-baab0bf4-2ed8-4632-9a46-091faccb5900.png" height="300">
 6. Select `Cheats` on the right

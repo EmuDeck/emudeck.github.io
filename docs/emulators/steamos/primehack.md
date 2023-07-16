@@ -154,7 +154,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** 
 
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ## PrimeHack Tips and Tricks
 [Back to the Top](#primehack-table-of-contents)

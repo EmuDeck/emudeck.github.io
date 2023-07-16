@@ -138,8 +138,8 @@ DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Inp
 
 **Note:** 
 
-* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 
 ***
@@ -168,6 +168,6 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 
 M3U files can be used to manage multiple discs for DuckStation. When the time comes to switch discs, use the Left Trackpad Touch Menu Hotkey. A full list of hotkeys and a tutorial on how to use Steam Input profiles can be found here: #hotkeys. 
 
-[Learn how to create an M3U File](../../other/steamos/file-management.md#how-to-create-an-m3u-file) 
+[Learn how to create an M3U File](../../file-management/steamos/file-management.md#how-to-create-an-m3u-file) 
 
 ***

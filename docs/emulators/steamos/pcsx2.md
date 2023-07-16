@@ -95,7 +95,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `pcsx2-Qt.AppImage` 
-    * Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
+    * Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 
 ***
 
@@ -143,7 +143,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** 
 
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 ***
 
 ## Common Issues

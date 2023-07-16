@@ -107,7 +107,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `Yuzu`
-    * Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
+    * Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 * Through the application's automatic updater
   * When you open Yuzu you may be prompted for an update, accept the prompt to update the application
 
@@ -175,7 +175,7 @@ Combo hotkeys have been mapped for this emulator.
 
 **Note:** 
 
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 
 ***
@@ -411,7 +411,7 @@ Faster Battles
 
 Some games will take additional setup, requiring mods or an extensive alteration of settings. The EmuDeck Community Creations page collects these configurations in one centralized location. 
 
-You can submit or view special game configurations here: [Special Game Configurations](../../other/steamos/community-creations.md#yuzu-nintendo-switch)
+You can submit or view special game configurations here: [Special Game Configurations](../../community-creations/steamos/community-creations.md#yuzu-nintendo-switch)
 
 **Current List of Special Game Configurations**
 

@@ -78,7 +78,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `mGBA.AppImage` 
-    * Refer to [How to Swap Out AppImages and Binaries](../../other/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
+    * Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 
 
 ***
@@ -128,8 +128,8 @@ mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input prof
 
 **Note:** 
 
-* [How to Select a Steam Input Profile](../../emudeck-essentials/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-* [Steam Deck Button Layout](../../emudeck-essentials/steamos/hotkeys.md#steam-deck-button-layout)
+* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 
 ***
