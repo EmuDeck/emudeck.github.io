@@ -12,11 +12,13 @@ This **repository** is not for the EmuDeck application, you can find that here: 
 
 ## How to Contribute
 
-You can contribute to the EmuDeck Wiki in a couple of ways:
+You can contribute to the EmuDeck Wiki in a couple of ways.
 
 ### Option 1: A quick shout-out
 
 Send a quick message on EmuDeck's Discord stating what needs to be edited or added. 
+
+[EmuDeck Discord Link](https://discord.gg/b9F7GpXtFP)
 
 ### Option 2: Opening an Issue
 
@@ -30,19 +32,12 @@ You will need to create a GitHub account to open a Pull Request.
 
 Markdown is a fairly straightforward markup language. If you are not familiar, you can take a quick look at the documents in the `docs` folder. 
 
-Depending on your comfort level with GitHub, you can either use GitHub's web editor to edit any markdown files or you may also choose to clone the repository and edit the markdown files that way. 
+Depending on your comfort level with GitHub, you can either use GitHub's web editor to edit any markdown files or you may also clone the repository and edit the markdown files that way. 
 
 To edit markdown files in GitHub's web editor, open a document in the `docs` folder, and click the small pencil icon in the top right. Once you are finished, click `Commit changes..`. GitHub will prompt you to open a Pull Request, which will then be merged once it is reviewed. 
 
-### Option 4: Setting up MkDocs
+Once the PR is merged and reviewed, it will automatically be deployed to the website. 
 
-You may choose to contribute to both the Markdown files and the branch (`gh-pages`) that hosts the website. 
+***
 
-You will need to install the following:
-
-* [https://www.mkdocs.org/](https://www.mkdocs.org/)
-* [https://squidfunk.github.io/mkdocs-material/getting-started/](https://squidfunk.github.io/mkdocs-material/getting-started/)
-
-To do so, you will need to clone both the `main` and `gh-pages` branches. Make any changes you would like to the markdown files in the `main` branch. Once you are finished making your changes, you can use `gh-deploy`, which will deploy any of your changes directly to the `gh-pages` branch. 
-
-Once you are satisfied with your changes, you may create a PR here. 
+Thank you for contributing!
