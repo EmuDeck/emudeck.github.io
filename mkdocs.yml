@@ -11,7 +11,7 @@ nav:
     - EmuDeck Website: 'https://www.emudeck.com/'
     - EmuDeck GitHub: 'https://github.com/dragoonDorise/EmuDeck'
     - EmuDeck Discord: 'https://discord.gg/b9F7GpXtFP'
-    - EmuDeck Cheat Sheet: 'cheat-sheet.md'
+    - EmuDeck Cheat Sheet (BIOS and ROMs Tips and Tricks): 'cheat-sheet.md'
     - EmuDeck Community Games Compatibility List: 'https://brantje.github.io/emudeck-compatibility-list/'
     - How to Install EmuDeck:
         - 'EmuDeck for SteamOS': 
@@ -74,11 +74,11 @@ nav:
             - ScummVM:
                 - 'ScummVM on SteamOS': 'emulators/steamos/scummvm.md'
         - Nintendo:
-            - Rosalie's Mupen GUI (Nintendo 64):
+            - Rosalie's Mupen GUI (Nintendo 64) (Standalone):
                 - "Rosalie's Mupen GUI on SteamOS": 'emulators/steamos/rmg.md'
-            - mGBA (GB, GBC, and GBA):
+            - mGBA (GB, GBC, and GBA) (Standalone):
                 - 'mGBA on SteamOS': 'emulators/steamos/mgba.md'
-            - melonDS (Nintendo DS):
+            - melonDS (Nintendo DS) (Standalone):
                 - 'melonDS on SteamOS': 'emulators/steamos/melonds.md'
                 - 'melonDS on Windows': 'emulators/windows/melonds.md'
             - PrimeHack: 
@@ -102,7 +102,7 @@ nav:
                 - 'Yuzu on SteamOS': 'emulators/steamos/yuzu.md'
                 - 'Yuzu on Windows': 'emulators/windows/yuzu.md'
         - Sony:
-            - PPSSPP (PlayStation Portable):
+            - PPSSPP (PlayStation Portable) (Standalone):
                 - 'PPSSPP on SteamOS': 'emulators/steamos/ppsspp.md'
                 - 'PPSSPP on Windows': 'emulators/windows/ppsspp.md'
             - Vita3K (PlayStation Vita):
