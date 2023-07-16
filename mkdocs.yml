@@ -37,7 +37,7 @@ nav:
     - EmuDeck Maintenance:
         - 'Updating on SteamOS': 'emudeck-essentials/steamos/updating.md'
         - 'Updating on Windows': 'emudeck-essentials/windows/updating.md'
-    - EmuDeck Controls and Hotkeys:
+    - Controls and Hotkeys:
         - EmuDeck for SteamOS:
             - 'Controls 101': 'emudeck-essentials/steamos/controls-101.md' 
             - 'Hotkeys': 'emudeck-essentials/steamos/hotkeys.md'
