@@ -122,11 +122,13 @@ nav:
             - Third Party Emulation: 'other/steamos/third-party-emulation.md'  
         - EmuDeck for Windows:
             - File Management: 'other/windows/file-management.md'
-    - EmuDeck Plugins:
-        - 'emudeck-plugins/index.md'
-        - 'DeckyControls': 'emudeck-plugins/deckycontrols.md'
-        - 'Emuchievements': 'emudeck-plugins/emuchievements.md'
-        - 'MetaDeck': 'emudeck-plugins/metadeck.md'
+#    - EmuDeck Plugins:
+#        - 'emudeck-plugins/index.md'
+#        - 'DeckyControls': 'emudeck-plugins/deckycontrols.md'
+#        - 'Emuchievements': 'emudeck-plugins/emuchievements.md'
+#        - 'MetaDeck': 'emudeck-plugins/metadeck.md'
+    - Contributing to EmuDeck: 
+        - How to Contribute: 'how-to-contribute.md'
 theme:
     # Theme: https://squidfunk.github.io/mkdocs-material/
     name: material  
