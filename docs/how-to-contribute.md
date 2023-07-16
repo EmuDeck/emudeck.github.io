@@ -2,7 +2,7 @@
 
 ## How to Contribute to the EmuDeck Wiki
 
-EmuDeck Wiki GitHub Repository: [https://github.com/EmuDeck/emudeck.github.io/issues](https://github.com/EmuDeck/emudeck.github.io/issues)
+EmuDeck Wiki GitHub Repository: [https://github.com/EmuDeck/emudeck.github.io](https://github.com/EmuDeck/emudeck.github.io)
 
 ### Option 1: A quick shout-out
 
