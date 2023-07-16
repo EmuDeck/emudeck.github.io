@@ -1,7 +1,13 @@
 # Welcome to the EmuDeck wiki!
 
+**Important Links**
+
 * [EmuDeck Website](https://www.emudeck.com/)
 * [EmuDeck GitHub](https://github.com/dragoonDorise/EmuDeck)
+* [EmuDeck Discord](https://discord.gg/b9F7GpXtFP)
+* [EmuDeck Cheat Sheet](./emudeck-essentials/cheat-sheet.md)
+    * Learn what BIOS files you need and where to place your ROMs and BIOS!
+* [EmuDeck Community Games Compatibility List](https://brantje.github.io/emudeck-compatibility-list/)
 
 ***
 
