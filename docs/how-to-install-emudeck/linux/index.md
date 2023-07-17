@@ -6,23 +6,28 @@
 
 ## Prerequisites 
 
-### Ubuntu/Debian
-
-sudo apt-get install steam jq zenity flatpak unzip bash
-
 ### Arch
 
-sudo pacman -Sy packagekit-qt5 flatpak rsync unzip jq bash curl zenity
+`sudo pacman -Sy steam packagekit-qt5 flatpak rsync unzip jq bash curl zenity`
 
 ### Fedora
 
-dnf install flatpak unzip jq bash steam
+`dnf install flatpak unzip jq bash steam zenity rsync`
+
+### Debian/Ubuntu
+
+`sudo apt-get install steam jq zenity flatpak unzip bash rysnc`
 
 ***
 
 ## Text Guides
 
 ### Arch
+
 `curl -L https://raw.githubusercontent.com/dragoonDorise/EmuDeck/main/install.sh | bash`
+
+### Fedora
+
+### Debian/Ubuntu
 
 ***
