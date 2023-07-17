@@ -6,7 +6,7 @@
 * [EmuDeck GitHub](https://github.com/dragoonDorise/EmuDeck)
 * [EmuDeck Discord](https://discord.gg/b9F7GpXtFP)
 * [EmuDeck Cheat Sheet](./cheat-sheet.md)
-    * Learn what BIOS files you need and where to place your ROMs and BIOS!
+    * Learn what BIOS files you need and where to place your BIOS and ROMs!
 * [EmuDeck Community Games Compatibility List](https://brantje.github.io/emudeck-compatibility-list/)
 
 ***

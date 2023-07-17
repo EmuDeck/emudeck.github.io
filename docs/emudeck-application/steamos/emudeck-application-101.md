@@ -193,10 +193,12 @@ SteamDeckGyroDSU's website: [https://github.com/kmicki/SteamDeckGyroDSU](https:/
 1. In Game Mode, while in a game, press the `STEAM` button
 2. Open Controller Settings 
 3. Edit layout
-4. Go to Gyro
-5. Select Gyro Behavior -> Directional Pad
+4. Select `Gyro`
+5. Select `Gyro Behavior`
+6. Select `Directional Pad`
+    * You do not need to set anything for the four buttons below `Gyro Behavior`
 
-<img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/0169e42f-242a-4c13-9cd1-68a55021325a" height="300">
+![SteamDeckGyroDSU](../../assets/steamdeckgyrodsu.png)
 
 ***
 
