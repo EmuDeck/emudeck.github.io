@@ -53,12 +53,12 @@ nav:
         - 'EmuDeck for Windows': 
             - 'EmuDeck Application 101': 'emudeck-application/windows/emudeck-application-101.md'
     - Tools:
-        - EmuDeck for SteamOS:
-            - 'Steam ROM Manager': 'tools/steamos/steam-rom-manager.md'
-            - 'EmulationStation-DE': 'tools/steamos/emulationstation-de.md'
-        - EmuDeck for Windows:
-            - 'Steam ROM Manager': 'tools/windows/steam-rom-manager.md'
-            - 'EmulationStation-DE': 'tools/windows/emulationstation-de.md'
+        - Steam ROM Manager:
+            - 'Steam ROM Manager on SteamOS': 'tools/steamos/steam-rom-manager.md'
+            - 'Steam ROM Manager on Windows': 'tools/windows/steam-rom-manager.md'
+        - EmulationStation-DE:
+            - 'EmulationStation-DE on SteamOS': 'tools/steamos/emulationstation-de.md'
+            - 'EmulationStation-DE on Windows': 'tools/windows/emulationstation-de.md'
     - Emulators:
         - Microsoft:
             - Xemu (OG Xbox):
