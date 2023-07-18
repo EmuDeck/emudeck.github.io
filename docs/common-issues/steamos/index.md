@@ -1,4 +1,4 @@
-# Common Issues: What's wrong with my emulator?!
+# Common Issues: EmuDeck for SteamOS
 
 **Note:** Each section of this page includes the date it was added to this page in its header. 
 

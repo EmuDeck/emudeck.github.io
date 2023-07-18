@@ -112,23 +112,23 @@ To navigate to the SD Card or a removable storage device, you can click `rootfs`
     * `/run/media/SDCARDNAME/Emulation/bios`
         * Your `SDCARDNAME` may be `mmcblk0p1`
 * Removable Storage Device
-    * `/run/media/deck/REMOVABLESTORAGEDEVICENAME/Emulation/bios`
+    * `/run/media/deck/DEVICENAME/Emulation/bios`
 
 **On Linux**
 
 * Internal SSD
-    * `/home/$USER/Emulation/bios`
+    * `$HOME/Emulation/bios`
 * SD Card
-    * `/run/media/SDCARDNAME/Emulation/bios`
+    * `/run/media/$USERNAME/SDCARDNAME/Emulation/bios`
 * Removable Storage Device
-    * `/run/media/deck/REMOVABLESTORAGEDEVICENAME/Emulation/bios`
+    * `/run/media/$USERNAME/DEVICENAME/Emulation/bios`
 
 **On Windows**
 
 * Internal SSD
-    * `C:\Emulation\bios`
+    * `%USERPROFILE%\Emulation\bios`
 * Removable Storage Device or SD Card
-    * `DRIVELETTER:\Emulation\bios`
+    * `EXTERNALDRIVE:\Emulation\bios`
 
 #### When to place BIOS Files directly into Emulation/bios
 
@@ -312,7 +312,7 @@ It mostly comes down to preference.
 | **Nintendo Wii (Standalone)**              | wii                | **[Dolphin (Standalone)](https://dolphin-emu.org/)**                                                                                       | .ciso   .dol   .elf   .gcm   .gcz   .iso   .json   .nkit .iso   .rvz   .wad   .wia   .wbfs .m3u                                                                                   | N/A                                                                                                                                                                                                                                                |
 | **Nintendo Wii U (Standalone) (Proton)**   | `wiiu/roms`        | **[Cemu (Standalone) (Proton)](https://cemu.info/)**                                                                                       | .rpx   .wud   .wux   .elf  .wad  .wua                                                                                                                                             | Place `keys_txt` (for encrypted ROMs) in: `Emulation/roms/wiiu` <br>   For more information, read the [Setting up Cemu (Proton) Questionnaire](./emulators/steamos/cemu-proton.md#setting-up-cemu-questionnaire)                                   |
 | **Nintendo Wii U (Standalone) (Native)**   | `wiiu/roms`        | **[Cemu (Standalone) (Native)](https://cemu.info/)**                                                                                       | .rpx   .wud   .wux   .elf  .wad  .wua                                                                                                                                             | Place `keys_txt` (for encrypted ROMs) in: `/home/deck/.local/share/Cemu/` <br>   For more information, read the [Setting up Cemu (Native) Questionnaire](./emulators/steamos/cemu-native.md#setting-up-cemu-questionnaire)                         |
-| **Nintendo Wii U (Standalone) (Windows)**  | wiiu               | **[Cemu (Standalone) (Windows)](https://cemu.info/)**                                                                                      | .rpx   .wud   .wux   .elf  .wad  .wua                                                                                                                                             | Place `keys_txt` (for encrypted ROMs) in:`C:\Users\{username}\emudeck\EmulationStation-DE\Emulators\cemu` <br> For more information, read the [Setting up Cemu (Windows) Questionnaire](./emulators/windows/cemu.md#setting-up-cemu-questionnaire) |
+| **Nintendo Wii U (Standalone) (Windows)**  | wiiu               | **[Cemu (Standalone) (Windows)](https://cemu.info/)**                                                                                      | .rpx   .wud   .wux   .elf  .wad  .wua                                                                                                                                             | Place `keys_txt` (for encrypted ROMs) in:`%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu` <br> For more information, read the [Setting up Cemu (Windows) Questionnaire](./emulators/windows/cemu.md#setting-up-cemu-questionnaire) |
 
 ***
 

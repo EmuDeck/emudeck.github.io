@@ -59,13 +59,13 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 1. Is your ROM encrypted? If yes, do you have a `keys.txt` in the right place with the correct keys for your games in the `keys.txt` file?
     1. What are keys?: Keys are required to decrypt Wii U ROMs. Your `keys.txt` needs to contain keys (one key per game) that must be dumped from a Wii U console. Any other method of obtaining keys is piracy and cannot be discussed here or on the EmuDeck discord.
     2. Which Cemu ROM Formats are encrypted?: [File Formats](#cemu-file-formats)
-    3. `keys.txt` Location: `C:\Users\{username}\emudeck\EmulationStation-DE\Emulators\cemu`
+    3. `keys.txt` Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu`
     4. If your ROM is NUS Format (a folder with .h3 and .app files), you will need to decrypt your ROM into the Loadiine format (folder format with three subfolders - code, content, meta). Decryption methods cannot be discussed here or on the EmuDeck discord.
 2. Is your ROM decrypted?
     1. Which Cemu ROM Formats are decrypted?: [File Formats](#cemu-file-formats)
     2. If your ROM is decrypted, place the ROM in `Emulation\roms\wiiu`. Your game should launch without needing any keys. 
 3. If you are getting an `Unable to launch game` error, did you place the `keys.txt` in the right place?
-    1. `keys.txt` Location: `C:\Users\{username}\emudeck\EmulationStation-DE\Emulators\cemu`
+    1. `keys.txt` Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu`
 4. If you placed the `keys.txt` in the right place, and your ROM is still not working, does your `keys.txt` have the correct key for the ROM?
     1. Even if you placed a key for your game in `keys.txt`, you may still have the incorrect key. 
 5. Did you transfer your ROM from another computer and did you compare file sizes to ensure it transferred successfully? 
@@ -100,16 +100,16 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 * WUA 
     * Decrypted, does not require `keys.txt`
 * WUX
-    * Encrypted, requires `keys.txt` in `C:\Users\{username}\emudeck\EmulationStation-DE\Emulators\cemu`
+    * Encrypted, requires `keys.txt` in `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu`
 * WUD 
-    * Encrypted, requires `keys.txt` in `C:\Users\{username}\emudeck\EmulationStation-DE\Emulators\cemu`
+    * Encrypted, requires `keys.txt` in `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu`
 * NUS
     * A folder with `.h3` and `.app` files
     * Encrypted, can be decrypted into a `Loadiine (rpx)` folder. Decryption methods cannot be discussed here or on the EmuDeck discord.
 
 **IMPORTANT:**
 
-* Some of these formats may require keys. We cannot help you get these. Place your `keys.txt` in: `C:\Users\{username}\emudeck\EmulationStation-DE\Emulators\cemu`
+* Some of these formats may require keys. We cannot help you get these. Place your `keys.txt` in: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu`
     * `keys.txt` needs to contain keys (one key per game) that must be dumped from a Wii U console. Any other method is piracy and cannot be discussed here or on the EmuDeck discord.
 * Once you put ROMs in place, you must refresh the list of games by right clicking in the Cemu UI and clicking `Refresh Games List`.
     * Your game will not show up in Cemu until you refresh. 

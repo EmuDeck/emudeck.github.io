@@ -47,7 +47,6 @@ nav:
     - EmuDeck Application:
         - 'Cloud Saves': 'emudeck-application/cloud-saves.md'
         - 'EmuDeck for SteamOS': 
-            - 'Cloud Services': 'emudeck-application/steamos/cloud-services.md'
             - 'EmuDeck Application 101': 'emudeck-application/steamos/emudeck-application-101.md'
             - 'EmuDeck Store': 'emudeck-application/steamos/emudeck-store.md'
         - 'EmuDeck for Windows': 
@@ -59,6 +58,8 @@ nav:
         - EmulationStation-DE:
             - 'EmulationStation-DE on SteamOS': 'tools/steamos/emulationstation-de.md'
             - 'EmulationStation-DE on Windows': 'tools/windows/emulationstation-de.md'
+        - Cloud Services:
+            - 'Cloud Services on SteamOS': 'emudeck-application/steamos/cloud-services.md'
     - Emulators:
         - Microsoft:
             - Xemu (OG Xbox):
