@@ -18,9 +18,7 @@
 
 **D0aTech**
 
-<div align="left">
-  <a href="https://www.youtube.com/watch?v=eZhHWwHmUnM"><img src="https://cdn.discordapp.com/attachments/925869888432652289/1101235527576989839/EmuDeck_v21.png" height="300" alt="Steam Deck Emulation (EmuDeck) Guide"></a>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eZhHWwHmUnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ***
 
