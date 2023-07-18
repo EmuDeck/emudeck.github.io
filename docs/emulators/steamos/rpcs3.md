@@ -17,7 +17,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
 1. [Getting Started with RPCS3](#getting-started-with-rpcs3)
     - [Configuration](#rpcs3-configuration)
     - [How to Update RPCS3](#how-to-update-rpcs3)
-    - [How to Launch RPCS3 in Desktop Mode](#how-to-update-rpcs3)
+    - [How to Launch RPCS3 in Desktop Mode](#how-to-launch-rpcs3-in-desktop-mode)
     - [File Formats](#rpcs3-file-formats)
     - [Hotkeys](#rpcs3-hotkeys)
 

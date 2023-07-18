@@ -20,7 +20,6 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Launch PCSX2 in Desktop Mode](#how-to-launch-pcsx2-in-desktop-mode)
     - [File Formats](#pcsx2-file-formats)
     - [Hotkeys](#pcsx2-hotkeys)
-      
 2. [Common Issues](#common-issues)
     - [Controller isn't working?](#controller-isnt-working)
     - [Black screen immediately or just after the game boots?](#black-screen-immediately-or-just-after-the-game-boots)

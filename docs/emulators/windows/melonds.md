@@ -7,3 +7,48 @@ melonDS' FAQ: [https://melonds.kuribo64.net/faq.php](https://melonds.kuribo64.ne
 Github: [https://github.com/melonDS-emu/melonDS](https://github.com/melonDS-emu/melonDS)
 
 Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://melonds.kuribo64.net/board/forum.php?id=3)
+
+***
+
+## melonDS Table of Contents
+
+1. [Getting Started with melonDS](#getting-started-with-melonds)
+    - [Configuration](#melonds-configuration)
+    - [How to Update melonDS](#how-to-update-melonds)
+    - [How to Launch melonDS in Desktop Mode](#how-to-launch-melonds)
+    - [File Formats](#melonds-file-formats)
+    - [Hotkeys](../../controls-and-hotkeys/windows/hotkeys.md#melonds-nds-standalone)
+
+2. [melonDS Tips and Tricks](#melonds-tips-and-tricks)
+
+***
+
+## Getting Started with melonDS
+[Back to the Top](#melonds-table-of-contents)
+
+***
+
+### melonDS Configuration
+[Back to the Top](#melonds-table-of-contents)
+
+***
+
+### How to Update melonDS
+[Back to the Top](#melonds-table-of-contents)
+
+***
+
+### How to Launch melonDS
+[Back to the Top](#melonds-table-of-contents)
+
+***
+
+### melonDS File Formats
+[Back to the Top](#melonds-table-of-contents)
+
+***
+
+## melonDS Tips and Tricks
+[Back to the Top](#melonds-table-of-contents)
+
+***

@@ -6,38 +6,51 @@ Github: [https://github.com/citra-emu/citra](https://github.com/citra-emu/citra)
 
 Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
 
+***
+
 ## Citra Table of Contents
 
 1. [Getting Started with Citra](#getting-started-with-citra)
     - [Configuration](#citra-configuration)
     - [How to Update Citra](#how-to-update-citra)
-    - [How to Launch Citra in Desktop Mode](#how-to-launch-citra-in-desktop-mode)
+    - [How to Launch Citra](#how-to-launch-citra-in-desktop-mode)
     - [File Formats](#citra-file-formats)
     - [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
-    - [Hotkeys](#citra-hotkeys)
+    - [Hotkeys](../../controls-and-hotkeys/windows/hotkeys.md#citra-3ds)
 2. [Citra Tips and Tricks](#citra-tips-and-tricks)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
+
+***
 
 ## Getting Started with Citra
 [Back to the Top](#citra-table-of-contents)
 
-### Configuration
+***
+
+### Citra Configuration
 [Back to the Top](#citra-table-of-contents)
 
-### How to Launch Citra in Desktop Mode
+***
+
+### How to Launch Citra
 [Back to the Top](#citra-table-of-contents)
 
-### File Formats
+***
+
+### Citra File Formats
 [Back to the Top](#citra-table-of-contents)
+
+***
 
 ### How to Manage DLC and Updates
 [Back to the Top](#citra-table-of-contents)
 
-### Hotkeys
-[Back to the Top](#citra-table-of-contents)
+***
 
 ## Citra Tips and Tricks
 [Back to the Top](#citra-table-of-contents)
+
+***
 
 ### How to Install Custom Textures
 [Back to the Top](#citra-table-of-contents)
@@ -72,3 +85,5 @@ Here's how to install custom textures for Citra:
 6. Your texture pack should now be installed
 
 **IMPORTANT:** Outdated guides will recommend enabling `Preload Custom Textures`. Turning on `Preload Textures` is no longer recommended and will cause a severe performance hit. 
+
+***

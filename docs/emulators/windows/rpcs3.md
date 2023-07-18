@@ -14,8 +14,39 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
 
 # RPCS3 Table of Contents
 
-1. [RPCS3 Tips and Tricks](#rpcs3-tips-and-tricks)
+1. [Getting Started with RPCS3](#getting-started-with-rpcs3)
+    - [Configuration](#rpcs3-configuration)
+    - [How to Update RPCS3](#how-to-update-rpcs3)
+    - [How to Launch RPCS3](#how-to-launch-rpcs3)
+    - [File Formats](#rpcs3-file-formats)
+    - [Hotkeys](../../controls-and-hotkeys/windows/hotkeys.md#rpcs3-playstation-3)
+2. [RPCS3 Tips and Tricks](#rpcs3-tips-and-tricks)
     - [How to Configure RPCS3 For EmulationStation-DE](#how-to-configure-rpcs3-for-emulationstation-de)
+
+***
+
+## Getting Started with RPCS3
+[Back to the Top](#rpcs3-table-of-contents)
+
+***
+
+### RPCS3 Configuration
+[Back to the Top](#rpcs3-table-of-contents)
+
+***
+
+### How to Update RPCS3
+[Back to the Top](#rpcs3-table-of-contents)
+
+***
+
+### How to Launch RPCS3
+[Back to the Top](#rpcs3-table-of-contents)
+
+***
+
+### RPCS3 File Formats
+[Back to the Top](#rpcs3-table-of-contents)
 
 ***
 

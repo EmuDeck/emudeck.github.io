@@ -23,7 +23,7 @@ Read the [EmulationStation-DE](../steamos/emulationstation-de.md) page to learn 
 2. [Common Issues](#common-issues)
     - [I hit the Remove All button in settings but it didn't work](#i-hit-remove-all-from-settings-but-the-entries-werent-removed)
     - [Help, I just opened Steam ROM Manager and I have no controls!](#help-i-just-opened-steam-rom-manager-and-i-have-no-controls)
-   - [Why does Steam ROM Manager have no parsers?](#why-does-steam-rom-manager-have-no-parsers)
+    - [Why does Steam ROM Manager have no parsers?](#why-does-steam-rom-manager-have-no-parsers)
     - ["Please shutdown Steam if it is running"](#please-shutdown-steam-if-it-is-running)
     - [Large ROM Collections](#large-rom-collections)
     - [Why are my games not showing up in Steam ROM Manager?](#why-are-my-games-not-showing-up-in-steam-rom-manager)
@@ -53,9 +53,9 @@ Open Steam ROM Manager through the EmuDeck application on your desktop or throug
 
 First, place your ROMs with the expected file formats into their respective system folders in `Emulation/roms`. Read the the [Cheat Sheet](../../cheat-sheet.md) if you have not done so already, it will cover the expected file formats as well as expected BIOS for the various systems.
 
-After you place your ROMs in their respective system folders, learn how to generate and parse an app list here: #how-to-generate-and-save-an-app-list. 
+After you place your ROMs in their respective system folders, learn how to generate and parse an app list here: [How to Generate and Save an App List](#how-to-generate-and-save-an-app-list). 
 
-If you open Steam ROM Manager, and you do not see any parsers, read this section: #why-does-steam-rom-manager-have-no-parsers to fix the issue. 
+If you open Steam ROM Manager, and you do not see any parsers, to fix the issue, read: [Why does Steam ROM Manager have no parsers?](#why-does-steam-rom-manager-have-no-parsers). 
 
 After you have parsed and saved an app list, your ROMs will be added to the non-Steam section. You will now be ready to play your games directly from Game Mode. 
 
