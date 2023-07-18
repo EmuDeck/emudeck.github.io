@@ -12,11 +12,11 @@
 
 ### Fedora
 
-`dnf install flatpak unzip jq bash steam zenity rsync`
+`dnf install flatpak unzip jq bash steam zenity rsync curl`
 
 ### Debian/Ubuntu
 
-`sudo apt-get install steam jq zenity flatpak unzip bash rysnc`
+`sudo apt-get install steam jq zenity flatpak unzip bash rysnc curl`
 
 ***
 
