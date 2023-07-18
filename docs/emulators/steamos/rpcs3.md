@@ -20,6 +20,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
     - [How to Launch RPCS3 in Desktop Mode](#how-to-launch-rpcs3-in-desktop-mode)
     - [File Formats](#rpcs3-file-formats)
     - [Hotkeys](#rpcs3-hotkeys)
+    - [How to Manage Updates](#how-to-manage-updates)
 
 2. [RPCS3 Tips and Tricks](#rpcs3-tips-and-tricks)
     - [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
@@ -123,6 +124,17 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 [Back to the Top](#rpcs3-table-of-contents)
 
 N/A
+
+***
+
+### How to Manage Updates
+[Back to the Top](#rpcs3-table-of-contents)
+
+Read [https://wiki.rpcs3.net/index.php?title=Help:Installing_Game_Updates](https://wiki.rpcs3.net/index.php?title=Help:Installing_Game_Updates) for a tutorial on how to download and manage PS3 updates. 
+
+The Linux version of the software mentioned in the above article can be found here: [https://github.com/RainbowCookie32/rusty-psn/releases/](https://github.com/RainbowCookie32/rusty-psn/releases/).
+
+***
 
 ## RPCS3 Tips and Tricks
 [Back to the Top](#rpcs3-table-of-contents)
