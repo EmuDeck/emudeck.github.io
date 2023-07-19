@@ -59,7 +59,7 @@ nav:
             - 'EmulationStation-DE on SteamOS': 'tools/steamos/emulationstation-de.md'
             - 'EmulationStation-DE on Windows': 'tools/windows/emulationstation-de.md'
         - Cloud Services:
-            - 'Cloud Services on SteamOS': 'emudeck-application/steamos/cloud-services.md'
+            - 'Cloud Services on SteamOS': 'tools/steamos/cloud-services.md'
     - Emulators:
         - Supported Emulators:
             - Supported Emulators on SteamOS: 'emulators/steamos/supported-emulators.md'

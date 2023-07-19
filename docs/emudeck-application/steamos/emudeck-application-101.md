@@ -191,14 +191,24 @@ SteamDeckGyroDSU's website: [https://github.com/kmicki/SteamDeckGyroDSU](https:/
 ##### How to Use SteamDeckGyroDSU
 
 1. In Game Mode, while in a game, press the `STEAM` button
-2. Open Controller Settings 
-3. Edit layout
+2. Open `Controller settings`
+3. Select `Edit Layout`
 4. Select `Gyro`
 5. Select `Gyro Behavior`
 6. Select `Directional Pad`
     * You do not need to set anything for the four buttons below `Gyro Behavior`
 
+You will need to repeat for **each game** you would like to use gyro for. 
+
 ![SteamDeckGyroDSU](../../assets/steamdeckgyrodsu.png)
+
+**Visual Reference**
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/steamdeckgyrodsu.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ***
 
@@ -235,7 +245,7 @@ Visit the [Cloud Saves](../cloud-saves.md) page for more information.
 ### Cloud Services
 [Back to the Top](#emudeck-application-101-table-of-contents)
 
-Visit the [Cloud Services](../steamos/cloud-services.md) page for more information
+Visit the [Cloud Services](../../tools/steamos/cloud-services.md) page for more information
 
 ***
 
