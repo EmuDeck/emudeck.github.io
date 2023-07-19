@@ -14,13 +14,7 @@ The latest Steam Client update on June 14th, [https://store.steampowered.com/old
 
 Gyro, through SteamDeckGyroDSU, now requires a few additional steps to enable in Game Mode. 
 
-To enable gyro, follow the below steps. This assumes you have already installed SteamDeckGyroDSU through EmuDeck (or by manually installing it).
-
-1. In Game Mode, while in a game, press the `STEAM` button
-2. Open Controller Settings
-3. Edit layout
-4. Go to Gyro
-5. Select Gyro Behavior -> Directional Pad
+Visit the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) page to learn how to configure gyro.
 
 ***
 
