@@ -171,7 +171,7 @@ To determine if your ROM requires a `.chd` file:
 4. The line without a file size or a CRC is the `.chd` file required. The line with a file size and a CRC is the file located within the zip file
     * For example, `sfiii3_euro.29f400.u2` is the file located in `sfiii3.zip` and `cap-33s-2` is the `.chd` file required to run `sfiii3.zip`
 5. Create a subfolder matching the shortname in `Emulation/roms/arcade` and place the `.chd` file in the subfolder
-    * For example, with `sfiii3`, create a `sfiii3` in `Emulation/roms/arcade` and place `cap-33s-2.chd` in `Emulation/roms/arcade/sfiii3`
+    * For example, with `sfiii3`, create a `sfiii3` folder in `Emulation/roms/arcade` and place `cap-33s-2.chd` in `Emulation/roms/arcade/sfiii3`
     * Place `sfiii3.zip` directly in `Emulation/roms/arcade`
 
 ***

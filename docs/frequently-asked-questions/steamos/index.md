@@ -339,6 +339,8 @@ Internet issues are an increasingly common issue among Steam Decks, even if your
 
 You can fix these issues by adjusting your DNS, in System Settings within Desktop Mode, in `Configure Network Settings`. 
 
+**Note:** If you are noticing unexpected behavior with RetroAchievements causing errant controls or freezing, consider trying the below steps. 
+
 **Here's How:** 
 
 1. Click the bottom left icon in the taskbar (Steam Deck icon), click `Settings` in the list, open `System Settings`.
