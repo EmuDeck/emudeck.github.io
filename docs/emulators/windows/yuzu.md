@@ -1,14 +1,14 @@
 # Yuzu is a Nintendo Switch emulator.
 
-Website: https://yuzu-emu.org/
+Website: [https://yuzu-emu.org/](https://yuzu-emu.org/)
 
-Github: https://github.com/yuzu-emu/yuzu-mainline
+Github: [https://github.com/yuzu-emu/yuzu-mainline](https://github.com/yuzu-emu/yuzu-mainline)
 
-Github Releases: https://github.com/yuzu-emu/yuzu-mainline/releases
+Github Releases: [https://github.com/yuzu-emu/yuzu-mainline/releases](https://github.com/yuzu-emu/yuzu-mainline/releases)
 
-Compatibility List: https://yuzu-emu.org/game/
+Compatibility List: [https://yuzu-emu.org/game/](https://yuzu-emu.org/game/)
 
-Quickstart guide: https://yuzu-emu.org/help/quickstart/
+Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/help/quickstart/)
 
 ***
 

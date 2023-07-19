@@ -37,6 +37,7 @@ Quickstart Guide (Skip the HDD requirement, it is pre-included with EmuDeck): [h
     - [How to Apply Zink](#how-to-apply-zink)
         - [How to Apply Zink to Steam ROM Manager Shortcuts](#how-to-apply-zink-to-steam-rom-manager-shortcuts)
         - [How to Apply Zink to EmulationStation-DE Games](#how-to-apply-zink-to-emulationstation-de-games)
+    - [How to Access Saves](#how-to-access-saves)
 
 ***
 
@@ -61,6 +62,10 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * ROM location: `Emulation/roms/xbox`
 * BIOS location: `Emulation/bios`
     * **Do not** create any additional folders in this folder for Xbox BIOS
+* Required BIOS: 
+    * MCPX Boot ROM Image: `mcpx_1.0.bin`
+    * Flash ROM Image:  `Complex_4627v1.03.bin`
+    * These are EmuDeck's pre-configured file names, you must name the files exactly as written above. If you choose to provide a different Flash ROM Image, you can either rename the file or open Xemu and change the settings to point to the file directly. 
 * Storage location: `Emulation/storage/xemu`
     * Contains the following files (included with EmuDeck):
         * `eeprom.bin`
@@ -68,10 +73,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
             * This file is a "pre-built 8G Xbox HDD image, free of any copyrighted content, and only contains a dummy dashboard" provided by Xemu
             * The "Hard Disk Image" is one of the required files mentioned in Xemu's setup documentation
             * You may also choose to provide your own hard disk image. Other hard disk images may include additional features such as FTP
-* Required BIOS: 
-    * MCPX Boot ROM Image: `mcpx_1.0.bin`
-    * Flash ROM Image:  `Complex_4627v1.03.bin`
-    * These are EmuDeck's pre-configured file names, you must name the files exactly as written above. If you choose to provide a different Flash ROM Image, you can either rename the file or open Xemu and change the settings to point to the file directly. 
+* Saves location: `Emulation/storage/xemu/xbox_hdd.qcow2`
+    * To access your saves, read [How to Access Saves](#how-to-access-saves)
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders. 
 
@@ -300,5 +303,18 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
     * Example:
         * <img src="https://user-images.githubusercontent.com/108900299/226754331-28689940-10ef-42b5-9164-4bc58188ea68.png" height="300">
 6. Zink will now be applied to this specific game in EmulationStation-DE, repeat for each game you would like to apply Zink
+
+***
+
+### How to Access Saves
+[Back to the Top](#xemu-table-of-contents)
+
+Your save files are located here: `Emulation/storage/xemu/xbox_hdd.qcow2`
+
+**How to Access Saves**
+
+Download [https://github.com/Ryzee119/LithiumX/releases/tag/v0.9.1](https://github.com/Ryzee119/LithiumX/releases/tag/v0.9.1), extract the zip file, and launch the ISO in Xemu.
+
+Follow the instructions here: [https://xemu.app/docs/ftp/](https://xemu.app/docs/ftp/), to access the saves in the `xbox_hdd.qcow2` file. 
 
 ***
