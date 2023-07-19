@@ -14,7 +14,7 @@ The latest Steam Client update on June 14th, [https://store.steampowered.com/old
 
 Gyro, through SteamDeckGyroDSU, now requires a few additional steps to enable in Game Mode. 
 
-Visit the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) page to learn how to configure gyro.
+Visit the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) section to learn how to configure gyro.
 
 ***
 

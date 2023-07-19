@@ -1103,7 +1103,7 @@ SteamDeckGyroDSU's website: [https://github.com/kmicki/SteamDeckGyroDSU](https:/
 * [Ryujinx (Switch)](https://ryujinx.org/)
 
 
-Visit the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
+Visit the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) section to learn how to install and utilize SteamDeckGyroDSU. 
 
 ***
 

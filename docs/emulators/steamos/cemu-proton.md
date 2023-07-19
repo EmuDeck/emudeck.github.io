@@ -332,6 +332,10 @@ Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input prof
 
 Gyro for Cemu requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
+Gyro only works with the Wii U Gamepad (enabled by default). If you changed your controller layout to the Pro Controller, gyro will not work. 
+
+Read [How to Use the Wii U Pro Controller Configuration](#how-to-use-the-wii-u-pro-controller-configuration) to learn how to apply the Pro Controller layout on a per game basis. 
+
 Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
 
 
