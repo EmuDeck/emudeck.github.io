@@ -155,7 +155,7 @@ When you open Steam ROM Manager, it will exit out of Steam. Since your controls 
 
 Alternatively, you can either use a mouse/keyboard (Bluetooth or through a USB-C Hub) or remote into your Steam Deck.
 
-[Learn how to remotely control your Steam Deck.](../../getting-started-with-emudeck/steamos/frequently-asked-questions.md#how-do-i-remotely-control-my-steam-deck)
+[Learn how to remotely control your Steam Deck.](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck)
 
 ***
 

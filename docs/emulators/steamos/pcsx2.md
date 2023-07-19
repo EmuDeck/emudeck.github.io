@@ -168,7 +168,7 @@ Try turning off multitap. Certain games may not handle it.
 
 This indicates a bad dump. Please validate and redump your game files.
 
-[How to validate your ROMs](../../getting-started-with-emudeck/steamos/frequently-asked-questions.md#how-to-verify-a-rom-is-valid)
+[How to validate your ROMs](../../frequently-asked-questions/steamos/index.md#how-to-verify-a-rom-is-valid)
 
 ***
 

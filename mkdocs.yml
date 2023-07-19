@@ -20,13 +20,13 @@ nav:
             - 'how-to-install-emudeck/windows/index.md'
         - 'EmuDeck for Linux': 
             - 'how-to-install-emudeck/linux/index.md'
-    - Getting Started with EmuDeck:
+    - Frequently Asked Questions:
         - 'EmuDeck for SteamOS': 
-            - 'Frequently Asked Questions': 'getting-started-with-emudeck/steamos/frequently-asked-questions.md' 
-            - 'Supported Emulators': 'getting-started-with-emudeck/steamos/supported-emulators.md' 
+            - 'frequently-asked-questions/steamos/index.md' 
         - 'EmuDeck for Windows': 
-            - 'Frequently Asked Questions': 'getting-started-with-emudeck/windows/frequently-asked-questions.md' 
-            - 'Supported Emulators': 'getting-started-with-emudeck/windows/supported-emulators.md' 
+            - 'frequently-asked-questions/windows/index.md' 
+        - 'EmuDeck for Linux': 
+            - 'frequently-asked-questions/linux/index.md' 
     - Common Issues:
         - 'EmuDeck for SteamOS': 
             - 'common-issues/steamos/index.md'
@@ -61,6 +61,9 @@ nav:
         - Cloud Services:
             - 'Cloud Services on SteamOS': 'emudeck-application/steamos/cloud-services.md'
     - Emulators:
+        - Supported Emulators:
+            - Supported Emulators on SteamOS: 'emulators/steamos/supported-emulators.md'
+            - Supported Emulators on Windows: 'emulators/windows/supported-emulators.md'
         - Microsoft:
             - Xemu (OG Xbox):
                 - 'Xemu on SteamOS': 'emulators/steamos/xemu.md'

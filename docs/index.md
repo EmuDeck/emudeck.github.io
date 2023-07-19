@@ -37,7 +37,7 @@ EmuDeck for Windows is ready for testing through EmuDeck's Patreon, found here: 
 
 EmuDeck for Windows is still in development. Its feature suite is not currently at parity with EmuDeck for SteamOS but more will be added over time. 
 
-For more information, read [EmuDeck for Window's FAQ](./getting-started-with-emudeck/windows/frequently-asked-questions.md).
+For more information, read [EmuDeck for Window's FAQ](./frequently-asked-questions/windows/index.md).
 
 ### EmuDeck for Android
 

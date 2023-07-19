@@ -26,4 +26,4 @@ Yes, as of today, EmuDeck for Windows is only available through Patreon. We are 
 Sure!
 
 ## What emulators are currently included with EmuDeck for Windows?
-Visit the [Supported Emulators](./supported-emulators.md) page for more information. 
+Visit the [Supported Emulators](../../emulators/windows/supported-emulators.md) page for more information. 
