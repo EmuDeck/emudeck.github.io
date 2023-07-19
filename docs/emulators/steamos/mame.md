@@ -56,7 +56,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
 * ROM Location: `Emulation/roms/arcade`
 * BIOS Location: `Emulation/roms/arcade`
 * Saves: `Emulation/saves/MAME/saves`
-* Savestates: `Emulation/saves/MAME/states`
+* Save States: `Emulation/saves/MAME/states`
 
 
 **Note:** 

@@ -40,6 +40,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Type of Emulator: Flatpak
 * Config Location: `/home/deck/.var/app/com.github.Rosalie241.RMG`
 * Nintendo 64 ROM Location: `Emulation/roms/n64`
+    * No BIOS are required to play Nintendo 64 games 
 * Nintendo 64DD ROM Location: `Emulation/roms/n64dd`
 * Nintendo 64DD BIOS Location: `Emulation/bios`
     * Nintendo 64DD BIOS: 
@@ -48,7 +49,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
         * `64DD_IPL_DEV.n64`
         * **Note:** These BIOS are only required if you are playing Nintendo 64DD games. These BIOS are not required for base Nintendo 64 games
 * Saves: `Emulation/saves/RMG/saves`
-* Savestates: `Emulation/saves/RMG/states`
+* Save States: `Emulation/saves/RMG/states`
 * Storage Location: `Emulation/storage/RMG`
     * Contains the following folders: 
         * `Emulation/storage/RMG/cache`

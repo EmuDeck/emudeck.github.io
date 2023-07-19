@@ -8,7 +8,7 @@ Compatibility List: [https://compat.cemu.info/](https://compat.cemu.info/)
 
 ***
 
-## Cemu Native Table of Contents
+## Cemu Table of Contents
 
 1. [Getting started with Cemu](#getting-started-with-cemu)
     - [Setting up Cemu Questionnaire](#setting-up-cemu-questionnaire)
@@ -77,6 +77,20 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 
 **IMPORTANT:** Cemu is shifting away from encrypted ROMs (WUX, WUD). It is strongly recommended you use decrypted ROMs (Loadiine, WUA). Decrypted ROMs do not need any additional configuration and should launch without any issue.
 
+* Executable Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu\Cemu.exe`
+* Config Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu`
+* ROM Location: `Emulation\roms\wiiu`
+* `keys.txt` location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu` 
+    * _Only necessary if the Wii U ROM is encrypted_
+* Storage Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu\mlc01` 
+* Saves Location:
+    * Shortcut: `Emulation\saves\cemu\saves`
+    * Target: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu\mlc01\usr\save` 
+
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
 ***
 
 ### How to Update Cemu
@@ -86,6 +100,11 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 
 ### How to Launch Cemu
 [Back to the Top](#cemu-table-of-contents)
+
+* Launch `Cemu` from the `EmuDeck` folder in the `Start Menu`
+* Launch `cemu.bat` file in `Emulation\tools\launchers`
+* Launch `Cemu.exe` in `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu` 
+* Launch the emulator from `Steam` after adding it via the `Emulators` parser in `Steam ROM Manager`
 
 ***
 
@@ -123,11 +142,6 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
 ***
 
 ### How to Manage DLC and Updates
-[Back to the Top](#cemu-table-of-contents)
-
-***
-
-### Cemu Hotkeys
 [Back to the Top](#cemu-table-of-contents)
 
 ***

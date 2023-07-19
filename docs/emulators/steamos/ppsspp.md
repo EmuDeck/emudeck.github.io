@@ -47,12 +47,12 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Config Location: `/home/deck/.var/app/org.ppsspp.PPSSPP`
 * Memstick Location: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP`
     * The `PSP` folder at the end of this path is equivalent to the `Memstick` folder 
-* ROM location: `Emulation/roms/psp`
+* ROM Location: `Emulation/roms/psp`
 * PPSSPP does not require any additional BIOS or firmware
 * Saves: 
     * Symlink: `Emulation/saves/ppsspp/saves`
     * Target: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SAVEDATA`
-* Savestates:
+* Save States:
     * Symlink: `Emulation/saves/ppsspp/states/`
     * Target: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/PPSSPP_STATE`
 
@@ -108,18 +108,18 @@ The PPSSPP Flatpak (installed by EmuDeck) does not use a named Memstick folder t
 **How to Manage DLC**
 
 1. In the Memstick folder, create two folders: `GAME` and `SAVEDATA`
-    1. <img src="https://user-images.githubusercontent.com/108900299/214207497-a46f9090-28bc-4f5f-874c-967296afd97d.png" height="300">
-    2. If these folders exist, skip this step
+    * <img src="https://user-images.githubusercontent.com/108900299/214207497-a46f9090-28bc-4f5f-874c-967296afd97d.png" height="300">
+    * If these folders exist, skip this step
 2. Determine which type of DLC you have
-    1. DLC Type 1: `GAME` DLC
-        1. If the DLC folder includes `PARAM.PBP`, you have `GAME` DLC
-    2. DLC Type 2: `SAVEDATA` DLC
-        1. If the DLC folder includes `PARAM.SFO`, you have `SAVEDATA` DLC
+    * DLC Type 1: `GAME` DLC
+        * If the DLC folder includes `PARAM.PBP`, you have `GAME` DLC
+    * DLC Type 2: `SAVEDATA` DLC
+        * If the DLC folder includes `PARAM.SFO`, you have `SAVEDATA` DLC
 3. Place the DLC into the matching folder
-    1. `GAME` DLC are placed here: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/GAME` 
-      1. Example (for the game `Persona 2: Innocent Sin`): <img src="https://user-images.githubusercontent.com/108900299/214209149-e59da495-7ccd-496e-b56f-ffd968482eee.png" height="300">
-      2. `SAVEDATA` DLC are placed here: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SAVEDATA`
-         1. Example (for the game `EXIT`): <img src="https://user-images.githubusercontent.com/108900299/214208821-bd0a8751-4be7-425c-82a2-dd29a72f9af7.png" height="300">
+    * `GAME` DLC are placed here: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/GAME` 
+      * Example (for the game `Persona 2: Innocent Sin`): <img src="https://user-images.githubusercontent.com/108900299/214209149-e59da495-7ccd-496e-b56f-ffd968482eee.png" height="300">
+    * `SAVEDATA` DLC are placed here: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SAVEDATA`
+         * Example (for the game `EXIT`): <img src="https://user-images.githubusercontent.com/108900299/214208821-bd0a8751-4be7-425c-82a2-dd29a72f9af7.png" height="300">
 
 **IMPORTANT**
 

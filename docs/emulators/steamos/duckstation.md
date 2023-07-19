@@ -31,7 +31,7 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5R
 
 DuckStation is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation/roms/psx`. Place your BIOS directly in `Emulation/bios`. Read the [Configuration](#duckstation-configuration) section to learn more about DuckStation and its folder locations. 
 
-To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your PSX ROMs:
+To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your PlayStation 1 ROMs:
 
 * `EmulationStation-DE`
 * `Sony PlayStation - DuckStation` 
@@ -45,12 +45,12 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: Flatpak
 * Config Location: `/home/deck/.var/app/org.duckstation.DuckStation`
-* ROM location: `Emulation/roms/psx`
-* BIOS location: `Emulation/bios` 
+* ROM Location: `Emulation/roms/psx`
+* BIOS Location: `Emulation/bios` 
     * **IMPORTANT:** Files go directly in this folder. Do not make or use a `PSX`, `PS1`, or any sort of folder here. DuckStation will not be able to find your bios files if they are in a folder. 
     * Required BIOS (Example set, one per region - US, Europe, Japan): `scph5500.bin`, `scph5501.bin`, `scph5502.bin `
 * Saves: `Emulation/saves/duckstation/saves`
-* Savestates: `Emulation/saves/duckstation/states`
+* Save States: `Emulation/saves/duckstation/states`
 
 **Note:** 
 

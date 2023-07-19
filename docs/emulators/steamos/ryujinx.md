@@ -54,7 +54,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: Binary Package
 * Executable Location: `/home/deck/Applications/publish/Ryujinx`
-* Emulator Configuration Location: 
+* Config Location: 
   * `/home/deck/.config/Ryujinx/` 
     * Contains the following folders and files: 
       * `bis`
@@ -64,7 +64,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
       * `sdcard`
       * `system`
       * `Config.json`
-* Storage: `Emulation/storage/Ryujinx`
+* Storage Location: `Emulation/storage/Ryujinx`
     * Contains the following folders: 
      * `games`
      * `patchesAndDlc`

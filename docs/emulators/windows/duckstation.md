@@ -22,10 +22,34 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5R
 ## Getting Started with DuckStation
 [Back to the Top](#duckstation-table-of-contents)
 
+DuckStation is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation\roms\psx`. Place your BIOS directly in `Emulation\bios`. Read the [Configuration](#duckstation-configuration) section to learn more about DuckStation and its folder locations. 
+
+To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your PlayStation 1 ROMs:
+
+* `EmulationStation-DE`
+* `Sony PlayStation - DuckStation` 
+* `Emulators`
+
 ***
 
 ### DuckStation Configuration
 [Back to the Top](#duckstation-table-of-contents)
+
+* Executable Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\duckstation\duckstation-qt-x64-ReleaseLTCG.exe`
+* Config Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\duckstation`
+* ROM Location: `Emulation/roms/psx`
+* BIOS Location: `Emulation/bios` 
+    * **IMPORTANT:** Files go directly in this folder. Do not make or use a `PSX`, `PS1`, or any sort of folder here. DuckStation will not be able to find your bios files if they are in a folder. 
+    * Example BIOS 
+      * `scph5500.bin` (JP)
+      * `scph5501.bin` (US)
+      * `scph5502.bin` (EU)
+* Saves: 
+      * Shortcut: `Emulation\saves\duckstation\saves`
+      * Target: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\duckstation\memcards`
+* Save States: 
+      * Shortcut: `Emulation\saves\duckstation\states`
+      * Target: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\duckstation\savestates`
 
 ***
 
@@ -37,10 +61,23 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5R
 ### How to Launch DuckStation
 [Back to the Top](#duckstation-table-of-contents)
 
+* Launch `DuckStation` from the `EmuDeck` folder in the `Start Menu`
+* Launch `duckstation.bat` file in `Emulation\tools\launchers`
+* Launch `duckstation-qt-x64-ReleaseLTCG.exe` in `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\duckstation` 
+* Launch the emulator from `Steam` after adding it via the `Emulators` parser in `Steam ROM Manager`
+
 ***
 
 ### DuckStation File Formats
 [Back to the Top](#duckstation-table-of-contents)
+
+* .cue 
+* .chd 
+* .ecm 
+* .iso 
+* .m3u 
+* .mds 
+* .pbp
 
 ***
 

@@ -49,17 +49,19 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: Flatpak
 * Config Location: `/home/deck/.var/app/io.github.shiiion.primehack`
-* ROM location: `Emulation/roms/primehacks`
+* ROM Location: `Emulation/roms/primehacks`
 * Saves:
   * Symlink: `Emulation/saves/primehack/Wii`
   * Target: `/home/deck/.var/app/io.github.shiiion.primehack/data/dolphin-emu/Wii`
 * Save States:
   * Symlink: `Emulation/saves/primehack/Savestates`
   * Target: `/home/deck/.var/app/io.github.shiiion.primehack/data/dolphin-emu/StateSaves/`
-* PrimeHack does not need any additional BIOS files to run.
+* PrimeHack does not require any additional BIOS files to run
 
-**Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
-* Only `Metroid Prime Trilogy` (Wii)'s controls are configured. The Gamecube versions do not have controls configured at this time.
+**Note:** 
+
+* `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+* Only `Metroid Prime Trilogy` (Wii)'s controls are configured. The Gamecube versions do not have controls configured at this time
 
 #### Works With
 * Steam ROM Manager

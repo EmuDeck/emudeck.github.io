@@ -70,12 +70,12 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
         * `covers`
         * `snaps`
         * `textures`
-* ROM location: `Emulation/roms/ps2/`
-* BIOS location: `Emulation/bios/`  
+* ROM Location: `Emulation/roms/ps2/`
+* BIOS Location: `Emulation/bios/`  
     * **IMPORTANT:** Files go directly in this folder. Do not make or use a `PS2`, `PCSX2`, or any sort of folder here. PCSX2 will not be able to find your bios files if they are in a folder. 
     * Required BIOS  - SEE: [https://pcsx2.net/docs/usage/setup/#how-to-dump-your-ps2-bios](https://pcsx2.net/docs/usage/setup/#how-to-dump-your-ps2-bios)
 * Saves: `Emulation/saves/pcsx2/saves`
-* Savestates `Emulation/saves/pcsx2/states`
+* Save States `Emulation/saves/pcsx2/states`
 
 **Note:** `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.  
 

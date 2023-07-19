@@ -48,9 +48,9 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Executable Location: `/home/deck/Applications/Vita3K/Vita3K`
 * Storage Location: `Emulation/storage/Vita3K`
     * Contains: `ux0`
-* ROM location: `Emulation/roms/psvita/InstalledGames`
+* ROM Location: `Emulation/roms/psvita/InstalledGames`
     * `InstalledGames` is a symlink to `Emulation/storage/Vita3K/uxo/app`
-* Firmware: Install firmware through Vita3K. Read the [Quickstart Guide](https://vita3k.org/quickstart.html) for more information
+* Firmware: Install firmware through Vita3K's GUI. Read the [Quickstart Guide](https://vita3k.org/quickstart.html) for a tutorial
 
 #### Works With
 * Steam ROM Manager

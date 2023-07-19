@@ -26,10 +26,31 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
 ## Getting Started with melonDS
 [Back to the Top](#melonds-table-of-contents)
 
+melonDS is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation\roms\nds`. No additional setup is required. Read the [Configuration](#melonds-configuration) section to learn more about melonDS and its folder locations. BIOS are optional for both the Nintendo DS and Nintendo DSI. 
+
+To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your NDS ROMs:
+
+* `EmulationStation-DE`
+* `Nintendo DS - melonDS` 
+* `Emulators`
+
 ***
 
 ### melonDS Configuration
 [Back to the Top](#melonds-table-of-contents)
+
+* Executable Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\melonDS\melonDS.exe`
+* Config Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\melonDS`
+* ROM Location: `Emulation\roms\nds`
+* BIOS Location: `Emulation\bios`
+    * Optional BIOS (Nintendo DS): `bios7.bin`, `bios9.bin`, `firmware.bin`
+    * Optional BIOS (Nintendo DSI): `dsi_bios9.bin`, `dsi_bios7.bin`, `dsi_firmware.bin`, `dsi_nand.bin`
+* Saves: `Emulation\saves\melonds\saves`
+* Save States: `Emulation\saves\melonds\states`
+
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
 
 ***
 
@@ -41,10 +62,18 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
 ### How to Launch melonDS
 [Back to the Top](#melonds-table-of-contents)
 
+* Launch `melonDS` from the `EmuDeck` folder in the `Start Menu`
+* Launch `melonDS.bat` file in `Emulation\tools\launchers`
+* Launch `melonDS.exe` in `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\melonDS` 
+* Launch the emulator from `Steam` after adding it via the `Emulators` parser in `Steam ROM Manager`
+
 ***
 
 ### melonDS File Formats
 [Back to the Top](#melonds-table-of-contents)
+
+* .nds
+* .app
 
 ***
 

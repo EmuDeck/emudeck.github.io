@@ -53,7 +53,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
     * Optional BIOS (Nintendo DS): `bios7.bin`, `bios9.bin`, `firmware.bin`
     * Optional BIOS (Nintendo DSI): `dsi_bios9.bin`, `dsi_bios7.bin`, `dsi_firmware.bin`, `dsi_nand.bin`
 * Saves: `Emulation/saves/melonds/saves`
-* Savestates: `Emulation/saves/melonds/states`
+* Save States: `Emulation/saves/melonds/states`
 * Cheats Location: `Emulation/storage/melonds/cheats`
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show hidden files` to see these folders.  

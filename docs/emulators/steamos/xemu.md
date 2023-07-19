@@ -59,21 +59,21 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: Flatpak
 * Config Location: `/home/deck/.var/app/app.xemu.xemu`
-* ROM location: `Emulation/roms/xbox`
-* BIOS location: `Emulation/bios`
+* ROM Location: `Emulation/roms/xbox`
+* BIOS Location: `Emulation/bios`
     * **Do not** create any additional folders in this folder for Xbox BIOS
 * Required BIOS: 
     * MCPX Boot ROM Image: `mcpx_1.0.bin`
     * Flash ROM Image:  `Complex_4627v1.03.bin`
     * These are EmuDeck's pre-configured file names, you must name the files exactly as written above. If you choose to provide a different Flash ROM Image, you can either rename the file or open Xemu and change the settings to point to the file directly. 
-* Storage location: `Emulation/storage/xemu`
+* Storage Location: `Emulation/storage/xemu`
     * Contains the following files (included with EmuDeck):
         * `eeprom.bin`
         * `xbox_hdd.qcow2`
             * This file is a "pre-built 8G Xbox HDD image, free of any copyrighted content, and only contains a dummy dashboard" provided by Xemu
             * The "Hard Disk Image" is one of the required files mentioned in Xemu's setup documentation
             * You may also choose to provide your own hard disk image. Other hard disk images may include additional features such as FTP
-* Saves location: `Emulation/storage/xemu/xbox_hdd.qcow2`
+* Saves Location: `Emulation/storage/xemu/xbox_hdd.qcow2`
     * To access your saves, read [How to Access Saves](#how-to-access-saves)
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders. 

@@ -70,8 +70,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Type of Emulator: AppImage
 * Executable Location: `/home/deck/Applications/yuzu.AppImage`
 * Config Location: `/home/deck/.config/yuzu/`
-* Default storage Location: `/home/deck/.share/local/yuzu/`
-* Persistent Storage: `Emulation/storage/yuzu`
+* Storage Location: `Emulation/storage/yuzu`
     * Contains the following folders: 
         * `dump`
         * `load`
@@ -81,7 +80,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
         * `screenshots`
         * `sdmc`
         * `tas`
- * ROMs: `Emulation/roms/switch/`
+* ROMs: `Emulation/roms/switch/`
 * Firmware: `Emulation/bios/yuzu/firmware/` 
     * Symlink folder to the proper place. **DO NOT OVERWRITE** THE FOLDER or it won't work
     * Target Location: `Emulation/storage/yuzu/nand/system/Contents/registered`

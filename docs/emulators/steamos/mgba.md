@@ -1,4 +1,4 @@
-# mGBA is a Nintendo Gameboy, Gameboy Color and Gameboy Advance emulator.
+# mGBA is a Nintendo Game Boy, Game Boy Color and Game Boy Advance emulator.
 
 Website: [https://mgba.io/](https://mgba.io/)
 
@@ -6,7 +6,7 @@ mGBA's FAQ: [https://mgba.io/faq.html](https://mgba.io/)
 
 Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
 
-**This page is for mGBA, a standalone Nintendo Gameboy, Gameboy Color and Gameboy Advance emulator. This page is not for the mGBA RetroArch core. For more information on RetroArch and the mGBA RetroArch core, visit the [RetroArch Page](../steamos/retroarch.md).**
+**This page is for mGBA, a standalone Nintendo Game Boy, Game Boy Color and Game Boy Advance emulator. This page is not for the mGBA RetroArch core. For more information on RetroArch and the mGBA RetroArch core, visit the [RetroArch Page](../steamos/retroarch.md).**
 
 
 ***
@@ -36,7 +36,7 @@ mGBA is a fairly straight-forward emulator to set up. Place your ROMs in `Emulat
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your GB, GBC, and GBA ROMs:
 
 * `EmulationStation-DE`
-* `Nintendo GameBoy - mGBA`, `Nintendo GameBoy Color - mGBA` or `Nintendo GameBoy Advance - mGBA`
+* `Nintendo Game Boy - mGBA`, `Nintendo Game Boy Color - mGBA` or `Nintendo Game Boy Advance - mGBA`
 * `Emulators`
 
 
@@ -52,11 +52,11 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
          * `config.ini`
          * `library.sqlite3`
          * `qt.ini`  
-* Gameboy Advance ROM location: `Emulation/roms/gba`
-* Gameboy Color ROM location: `Emulation/roms/gbc`
-* Gameboy ROM location: `Emulation/roms/gb`
+* Game Boy Advance ROM location: `Emulation/roms/gba`
+* Game Boy Color ROM location: `Emulation/roms/gbc`
+* Game Boy ROM location: `Emulation/roms/gb`
 * Saves: `Emulation/saves/mgba/saves`
-* Savestates `Emulation/saves/mgba/states`
+* Save States `Emulation/saves/mgba/states`
 * Storage Location: `Emulation/storage/mgba`
       * Contains the following folders: 
          * `Emulation/storage/mgba/cheats`

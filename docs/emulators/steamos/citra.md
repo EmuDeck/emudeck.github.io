@@ -48,14 +48,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: Flatpak
 * Config Location: `/home/deck/.var/app/org.citra_emu.citra`
-* ROM location: `Emulation/roms/3ds` or `Emulation/roms/n3ds`
+* ROM Location: `Emulation/roms/3ds` or `Emulation/roms/n3ds`
 * `aes_keys.txt` location: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/sysdata/` 
     * _Only necessary if the 3DS ROM is encrypted_
     * If the `sysdata` folder does not exist, create it. 
 * Saves Location:
     * Symlink: `Emulation/saves/citra/saves`
     * Target: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/sdmc`
-* Savestates Location:
+* Save States Location:
     * Symlink: `Emulation/saves/citra/states/`
     * Target: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/states`
 

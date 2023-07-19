@@ -25,9 +25,39 @@ Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
 ## Getting Started with Citra
 [Back to the Top](#citra-table-of-contents)
 
+Citra is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation/roms/n3ds` or `Emulation/roms/3ds`. No additional setup is required if you are using decrypted ROMs. Read the [Configuration](#citra-configuration) section to learn more about Citra and its folder locations. The [Configuration](#citra-configuration) section covers where to place your `aes_keys.txt` if you are using encrypted ROMs. 
+
+To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Citra ROMs:
+
+* `EmulationStation-DE`
+* `Nintendo 3DS - Citra` 
+* `Emulators`
+
 ***
 
 ### Citra Configuration
+[Back to the Top](#citra-table-of-contents)
+
+* Executable Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\citra\citra-qt.exe`
+* Config Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\citra`
+* ROM Location: `Emulation\roms\n3ds`
+* `aes_keys.txt` Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\citra\user\sysdata` 
+    * _Only necessary if the 3DS ROM is encrypted_
+* Storage Location: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\citra\user` 
+* Saves Location:
+    * Shortcut: `Emulation\saves\citra\saves`
+    * Target: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\citra\user\sdmc` 
+* Save States Location:
+    * Shortcut: `Emulation\saves\citra\states`
+    * Target: `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\citra\user\states` 
+
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### How to Update Citra
 [Back to the Top](#citra-table-of-contents)
 
 ***
@@ -35,15 +65,40 @@ Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
 ### How to Launch Citra
 [Back to the Top](#citra-table-of-contents)
 
+* Launch `Citra` from the `EmuDeck` folder in the `Start Menu`
+* Launch `citra.bat` file in `Emulation\tools\launchers`
+* Launch `citra-qt.exe` in `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\citra` 
+* Launch the emulator from `Steam` after adding it via the `Emulators` parser in `Steam ROM Manager`
+
 ***
 
 ### Citra File Formats
 [Back to the Top](#citra-table-of-contents)
 
+* .3ds 
+* .3dsx 
+* .app 
+* .axf 
+* .cci 
+* .cxi 
+* .elf
+
 ***
 
 ### How to Manage DLC and Updates
 [Back to the Top](#citra-table-of-contents)
+
+Read: [https://citra-emu.org/wiki/dumping-updates-and-dlcs/](https://citra-emu.org/wiki/dumping-updates-and-dlcs/) to learn how to properly dump your DLC and update files from your 3DS.
+
+DLC and update files typically are .CIAs, an installable file format through Citra. After installing your DLC or updates, you may discard these files. 
+
+**How to Install DLC and Updates**
+
+1. Open Citra
+2. Click `File` in the top left 
+3. Click `Install CIA...`
+4. Navigate to your DLC or update files
+
 
 ***
 

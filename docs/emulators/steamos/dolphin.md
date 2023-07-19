@@ -57,8 +57,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Config Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu`
 * Gamecube Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
 * Wii Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
-* ROM location (Gamecube): `Emulation/roms/gc` or `Emulation/roms/gamecube`
-* ROM location (Wii): `Emulation/roms/wii`
+* ROM Location (Gamecube): `Emulation/roms/gc` or `Emulation/roms/gamecube`
+* ROM Location (Wii): `Emulation/roms/wii`
     * No BIOS are required to play Gamecube or Wii ROMs
 * Dolphin does not need any additional BIOS files to run
 * Saves (Wii):
@@ -67,10 +67,10 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Saves (Gamecube):
     * Symlink: `Emulation/saves/dolphin/GC`
     * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC`
-* Savestates (Wii):
+* Save States (Wii):
     * Symlink: `Emulation/saves/dolphin/StateSaves`
     * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
-* Savestates (Gamecube):
+* Save States (Gamecube):
     * Symlink: `Emulation/saves/dolphin/StateSaves`
     * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
 * Gamecube BIOS (Optional): `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/IPL.bin`

@@ -60,8 +60,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
           * `home`
           * `photo`
           * `savedata`
-* ROM location: `Emulation/roms/ps3`
-* Firmware: Install the firmware following the [Quickstart Guide](https://rpcs3.net/quickstart)
+* ROM Location: `Emulation/roms/ps3`
+* Firmware: Install the firmware through RPCS3's GUI. Read the [Quickstart Guide](https://rpcs3.net/quickstart) for a tutorial
 * Saves: 
     * Symlink: `Emulation/saves/rpcs3/saves`
     * Target: `Emulation/storage/rpcs3/dev_hdd0/home/00000001/savedata`
@@ -74,6 +74,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Steam ROM Manager
 * EmulationStation-DE
     * [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
+
 ***
 
 ### How to Update RPCS3
