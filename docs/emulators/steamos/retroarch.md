@@ -58,18 +58,23 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
 [Back to the Top](#retroarch-table-of-contents)
 
 * Type of Emulator: Flatpak
-* Config Location: `/home/deck/.var/app/org.libretro.RetroArch`
-* Storage: `Emulation/storage/retroarch`
+* Config Location: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch`
+    * The `cheats`, `config`, `cores`, `saves`, and `shaders` folder are located here
+* Storage Location: `Emulation/storage/retroarch`
     * Contains: `cheats`
 * ROMs: Refer to the [Cheat Sheet](../../cheat-sheet.md)
 * BIOS: Refer to the [Cheat Sheet](../../cheat-sheet.md)
-* Saves:
+* Saves Location:
     * Symlink: `Emulation/saves/retroarch/saves`
     * Target Location: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/saves/`
-* Save States:
+* Save States Location:
     * Symlink: `Emulation/saves/retroarch/states`
     * Target Location: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/states/`
-   
+* Systems Location: `Emulation/bios`
+    * Libretro wikis or guides may mention either placing your files into a `System` folder or creating a folder in the `System` directory. Though `Emulation/bios` is not named `System`, treat it as the `System` folder for RetroArch
+        * For example, the Libretro wiki page for Dreamcast expects you to create a `dc` folder in RetroArch's system directory. Instead, create a `dc` folder in `Emulation/bios` and place any required files in `Emulation/bios/dc`
+            * ![Dreamcast Example](../../assets/retroarch-system-example.png)
+
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
 #### Works With
