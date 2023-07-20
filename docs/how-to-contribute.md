@@ -32,6 +32,24 @@ If you do choose to clone the repository, you only need to clone the `main` bran
 
 Depending on your permission level, when you are finished making edits, either push your changes to `main` or create a Pull Request. Any changes you make to the markdown files will automatically be pushed to the `gh-pages` branch and deployed to the website once you have either pushed your changes to `main` or your Pull Request is approved and merged.  
 
+#### How to Contribute Using GitHub's Web Editor
+
+Select a document to edit in the `docs` folder here: [https://github.com/EmuDeck/emudeck.github.io/tree/main/docs](https://github.com/EmuDeck/emudeck.github.io/tree/main/docs)
+
+This section will use `Dolphin on SteamOS` as an example.
+
+1. On the page you would like to edit, click the pencil icon in the top right
+    * ![How to Contribute to the Wiki 1](./assets/how-to-contribute-1.png)
+2. Make any changes you would like
+3. Once you are finished making your changes, click the `Commit changes...` button in the top right
+    * ![How to Contribute to the Wiki 2](./assets/how-to-contribute-2.png)
+4. You will be prompted to create a Pull Request. Add a little bit of detail about what you added and why
+    * ![How to Contribute to the Wiki 3](./assets/how-to-contribute-3.png)
+    * You will not see the option to `Commit directly to the main branch` so do not worry about inadvertently making any changes
+5. Submit your Pull Request
+6. Once your Pull Request is reviewed, it will be merged and any of your changes will automatically be deployed to the website
+
+
 ## How to Contribute to EmuDeck
 
 ## How to Contribute to the EmuDeck Application
