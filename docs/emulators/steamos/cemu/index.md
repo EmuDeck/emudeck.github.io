@@ -31,9 +31,9 @@ To try out the native version of Cemu, open the EmuDeck application, click the `
 
 **Looking for the Cemu wiki pages? Select a wiki page below. Each correspond to the two different versions of Cemu bundled with EmuDeck.**
 
-**Cemu Proton:** [Cemu Proton](../steamos/cemu-proton.md)
+**Cemu Proton:** [Cemu Proton](./cemu-proton.md)
 
-**Cemu Native:** [Cemu Native](../steamos/cemu-native.md)
+**Cemu Native:** [Cemu Native](./cemu-native.md)
 
 
 
@@ -65,8 +65,7 @@ The foreseeable future should see improvements and eventual parity with native C
 
 **Cemu Native Game Compatibility**
 
-* Read: [Cemu Native: Game Compatibility](../steamos/cemu-native.md#game-compatibility)
-
+* Read: [Cemu Native: Game Compatibility](./cemu-native.md#game-compatibility)
 
 *** 
 

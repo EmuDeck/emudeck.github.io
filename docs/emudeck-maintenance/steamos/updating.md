@@ -116,7 +116,7 @@ Some emulators are packaged as AppImages, Binaries, or Windows executables. You 
 
    * Open the EmuDeck application, open the "Manage Emulators" page, click the "Update your Emulators & Tools" button, and click "Update AppImages and Binaries"
        * This button also **includes** any emulators that are downloaded as **Windows executables** and run through Proton. 
-           * At the moment, this includes [**Xenia**](../../emulators/steamos/xenia.md) and [**Cemu**](../../emulators/steamos/cemu-proton.md)
+           * At the moment, this includes [**Xenia**](../../emulators/steamos/xenia.md) and [**Cemu**](../../emulators/steamos/cemu/cemu-proton.md)
 
 <img src="https://user-images.githubusercontent.com/108900299/235380491-f574ba11-8aa6-47b5-8cca-71fdc4e70f86.png" height=300>
 

@@ -6,7 +6,7 @@ Github: [https://github.com/cemu-project/Cemu](https://github.com/cemu-project/C
 
 Compatibility List: [https://compat.cemu.info/](https://compat.cemu.info/)
 
-**This page is for the native build of Cemu. EmuDeck includes the native build of Cemu as an optional install. Both versions will remain installed. One quick way to tell the difference is to compare the two GUIs. For the Proton version of Cemu, visit [Cemu Proton](../steamos/cemu-proton.md).**
+**This page is for the native build of Cemu. EmuDeck includes the native build of Cemu as an optional install. Both versions will remain installed. One quick way to tell the difference is to compare the two GUIs. For the Proton version of Cemu, visit [Cemu Proton](./cemu-proton.md).**
 
 Native Cemu: <img src="https://user-images.githubusercontent.com/108900299/226765451-f9e712cd-f6c5-4257-8821-8957f28b3745.png" height="300">
 
@@ -154,7 +154,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `Cemu.AppImage` 
-    * Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
+    * Refer to [How to Swap Out AppImages and Binaries](../../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 
 ***
 
@@ -275,8 +275,8 @@ Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input prof
 **Note:** 
 
 * The `Blow Mic` hotkey only works if you are using the gamepad. 
-* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
+* [How to Select a Steam Input Profile](../../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -320,7 +320,7 @@ Gyro only works with the Wii U Gamepad (enabled by default). If you changed your
 
 Read [How to Use the Wii U Pro Controller Configuration](#how-to-use-the-wii-u-pro-controller-configuration) to learn how to apply the Pro Controller layout on a per game basis. 
 
-Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
+Visit [SteamDeckGyroDSU](../../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
 
 
 ***
@@ -387,7 +387,7 @@ To switch back to the Steam Deck controls, select the `Deck-Gamepad-Gyro` profil
 ### How to Optimize Performance (Power Tools)
 [Back to the Top](#cemu-native-table-of-contents)
 
-Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
+Visit [Power Tools](../../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
 
 ***
 
@@ -467,7 +467,7 @@ In order to use Cemu Native through EmulationStation-DE, you will have to enable
 5. Enable `Use per-game profile`
 6. Set the refresh rate to 40
     * <img src="https://user-images.githubusercontent.com/108900299/236642316-5bafc264-6c82-479c-988a-b419515ee92b.png" height="300">
-7. Read [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.  to learn how to use the battery menu and `Power Tools` to further increase performance for Breath of the Wild
+7. Read [Power Tools](../../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.  to learn how to use the battery menu and `Power Tools` to further increase performance for Breath of the Wild
 
 After doing the steps in the above two sections, Breath of the Wild will run at a stable 40 FPS with temporary occasional hiccups in new areas while it compiles shaders.
 

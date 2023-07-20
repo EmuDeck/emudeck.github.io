@@ -6,7 +6,7 @@ Github: [https://github.com/cemu-project/Cemu](https://github.com/cemu-project/C
 
 Compatibility List: [https://compat.cemu.info/](https://compat.cemu.info/)
 
-**This page is for the Proton build of Cemu. EmuDeck includes the native build of Cemu as an optional install. If you choose to download the native version, both versions will remain installed. One quick way to tell the difference is to compare the two GUIs. For the Native version of Cemu, visit [Cemu Native](../steamos/cemu-native.md).**
+**This page is for the Proton build of Cemu. EmuDeck includes the native build of Cemu as an optional install. If you choose to download the native version, both versions will remain installed. One quick way to tell the difference is to compare the two GUIs. For the Native version of Cemu, visit [Cemu Native](./cemu-native.md).**
 
 Native Cemu: <img src="https://user-images.githubusercontent.com/108900299/226765451-f9e712cd-f6c5-4257-8821-8957f28b3745.png" height="300">
 
@@ -307,8 +307,8 @@ Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input prof
 **Note:** 
 
 * The `Blow Mic` hotkey only works if you are using the gamepad. 
-* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
+* [How to Select a Steam Input Profile](../../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* [Steam Deck Button Layout](../../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
 
@@ -336,7 +336,7 @@ Gyro only works with the Wii U Gamepad (enabled by default). If you changed your
 
 Read [How to Use the Wii U Pro Controller Configuration](#how-to-use-the-wii-u-pro-controller-configuration) to learn how to apply the Pro Controller layout on a per game basis. 
 
-Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
+Visit [SteamDeckGyroDSU](../../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
 
 
 ***
@@ -344,7 +344,7 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 ### How to Optimize Performance (Power Tools)
 [Back to the Top](#cemu-proton-table-of-contents)
 
-Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
+Visit [Power Tools](../../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
 
 ***
 
