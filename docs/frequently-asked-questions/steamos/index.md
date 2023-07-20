@@ -1236,7 +1236,7 @@ For example, if you are running a Gamecube game through a shortcut created by St
 
 Using a front-end like Steam shortcuts created by Steam ROM Manager or EmulationStation-DE means you are launching an emulator. If you have issues while in game, typically you want to debug what is going on with the emulator.
 
-For a full list of emulators installed by EmuDeck and their associated websites: #what-does-emudeck-install
+For a full list of emulators installed by EmuDeck and their associated websites: [What does EmuDeck install?](#what-does-emudeck-install)
 
 Let's run through a few examples.
 
