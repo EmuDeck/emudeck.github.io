@@ -12,7 +12,7 @@ nav:
     - GitHub: 'https://github.com/dragoonDorise/EmuDeck'
     - Discord: 'https://discord.gg/b9F7GpXtFP'
     - BIOS and ROMs Cheat Sheet: 'cheat-sheet.md'
-    - Community Games Compatibility List: 'https://brantje.github.io/emudeck-compatibility-list/'
+    - Community Games Compatibility Database: 'https://brantje.github.io/emudeck-compatibility-list/'
     - How to Install EmuDeck:
         - 'EmuDeck for SteamOS': 
             - 'how-to-install-emudeck/steamos/index.md'

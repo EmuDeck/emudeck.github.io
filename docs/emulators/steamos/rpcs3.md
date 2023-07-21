@@ -114,6 +114,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
     * **Note:** You can drag and drop `.rap` files to the RPCS3 UI
     * `.rap` files are installed to: `Emulation/storage/rpcs3/dev_hdd0/game/`
 
+**Note:** `.iso` **is not** supported. You **cannot** extract PS3 ISOs into a folder (without decrypting it) and expect a working ROM. Read the `Dumping Step-by-step` section specifically of the [RPCS3 Quickstart Guide](https://rpcs3.net/quickstart) to learn how to extract `.iso` files into a decrypted folder. A ROM ending with the file extension `.iso` is **not supported.**
+
 **Steam ROM Manager Parsers**
 
 * Folder Format: Use the `Sony PlayStation 3 - RPCS3 (Extracted ISO/PSN)` parser
