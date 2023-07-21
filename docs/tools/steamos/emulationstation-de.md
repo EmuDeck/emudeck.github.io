@@ -61,7 +61,10 @@ Note: `~/.emulationstation` is an invisible folder by default. In Dolphin (file 
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `EmulationStation-DE-x64_SteamDeck.AppImage`
-   * Refer to Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions.
+    * Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
+* Through the application's automatic updater
+    * When you open EmulationStation-DE, you may be prompted for an update, accept the prompt to update the application
+        * The automatic updater is only available on EmulationStation-DE versions `2.1.0` and up
 
 ***
 
