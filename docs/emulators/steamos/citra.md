@@ -157,16 +157,16 @@ Citra comes with a Steam Input profile for Hotkeys. Activate the Steam Input pro
 ### Why did my game suddenly stop working? 
 [Back to the Top](#citra-table-of-contents)
 
-A recent update to some back-end changes may cause some crashing with games that were working previously. To fix this issue, you will need to delete the `shaders` folder.
+If your game ever crashes or you exit the game by pressing the `STEAM` button and clicking `Exit Game` instead of using the hotkey (`Quit` on the left trackpad), you may end up corrupting the shader cache. 
 
-**Here's How**
+To clear the shader cache:
 
 1. In Desktop Mode, open `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu`
     * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Delete the `shaders` folder
 3. Try your game again
 
-This should be a one-time fix and your games should work again moving forward. 
+**Note:** Use the `Quit` hotkey on the left trackpad to exit your game instead of using the `STEAM` button. 
 
 ***
 
