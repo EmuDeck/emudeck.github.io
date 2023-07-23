@@ -69,7 +69,18 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: AppImage
 * Executable Location: `/home/deck/Applications/yuzu.AppImage`
-* Config Location: `/home/deck/.config/yuzu/`
+* Config Location: 
+    * `$HOME/.config/yuzu/`
+        * Contains the following folders and files:   
+            * `custom`
+            * `input`
+            * `qt-config.ini` 
+    * `$HOME/.local/share/yuzu`
+        * Contains the following folders:
+            * `amiibo`
+            * `keys`
+            * `log`
+            * `shader`
 * Storage Location: `Emulation/storage/yuzu`
     * Contains the following folders: 
         * `dump`

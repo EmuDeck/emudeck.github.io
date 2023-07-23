@@ -87,7 +87,7 @@ In Desktop Mode, you can open `EmulationStation-DE` by opening the executable he
 
 1. In Desktop Mode, open Steam Rom Manager
 2. Turn all the parsers off except for `EmulationStation-DE`
-   * It's recommended to turn on the `Emulators` parser as well so you can configure your Emulators directly in `Game Mode`
+    * It's recommended to turn on the `Emulators` parser as well so you can configure your Emulators directly in `Game Mode`
 3. Click `Preview` in the top left of the application
 4. Click `Generate app list`, wait a moment
 5. Click `Save app list`, wait for a message to pop up: `Done adding/removing entries`
