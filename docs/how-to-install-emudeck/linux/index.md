@@ -1,22 +1,46 @@
 # How to Install EmuDeck for Linux
 
+> ⚠️ These are for x86_64 devices **ONLY** ⚠️
+
 [TOC]
 
 ***
 
 ## Prerequisites 
 
-### Arch
+## Debian based (Includes Ubuntu, Pop!_OS, Mint, etc.)
 
-`sudo pacman -Sy bash curl flatpak jq packagekit-qt5 rsync steam unzip zenity`
+```sh
+sudo apt-get install jq zenity flatpak unzip bash libfuse2 git rsync
+```
 
-### Debian/Ubuntu
+Install Steam as directed by your OS.
 
-`sudo apt-get install bash curl flatpak jq rsync steam unzip zenity`
+## Arch based (Includes Endeavour, Manjaro, etc.)
 
-### Fedora
+```sh
+sudo pacman -Sy steam jq zenity flatpak unzip bash fuse2 git
+```
 
-`dnf install bash curl flatpak jq rsync steam unzip zenity`
+## Fedora based (Includes RHEL, CentOS, Nobara, etc.)
+
+```sh
+sudo dnf install jq zenity flatpak unzip bash fuse git rsync
+```
+
+Install Steam as directed by your OS.
+
+## OpenSUSE based
+
+```sh
+sudo zypper install steam jq zenity flatpak unzip bash libfuse2 git rsync
+```
+
+## Void based
+
+```sh
+sudo xbps-install -S steam jq zenity flatpak unzip bash fuse git rsync
+```
 
 ***
 
@@ -24,7 +48,11 @@
 
 ### Arch
 
-`curl -L https://raw.githubusercontent.com/dragoonDorise/EmuDeck/main/install.sh | bash`
+```sh
+curl -L https://raw.githubusercontent.com/dragoonDorise/EmuDeck/main/install.sh | bash
+```
+
+Alternatively, use the [AUR Package](https://aur.archlinux.org/packages/emudeck) with the AUR helper of your choice.
 
 ### Debian/Ubuntu
 

@@ -154,6 +154,8 @@ theme:
     - content.tooltips
     - navigation.instant
     - navigation.sections
+    - content.code.copy
+    - content.code.annotate
     logo: assets/logo.png
     favicon: images/favicon.png
     font:
@@ -209,6 +211,13 @@ markdown_extensions:
     - pymdownx.caret
     - pymdownx.mark
     - pymdownx.tilde
+    - pymdownx.highlight:
+        anchor_linenums: true
+        line_spans: __span
+        pygments_lang_class: true
+        anchor_linenums: true
+        use_pygments: true
+    - pymdownx.inlinehilite
 # plugins section, search is an included plugin but if adding any new plugins, needs to be stated here as well
 plugins:
     - search:

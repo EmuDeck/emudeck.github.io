@@ -1,5 +1,7 @@
 # How to Install EmuDeck for Windows
 
+> ⚠️ EmuDeck for Windows is only available through the Patreon: [https://www.patreon.com/dragoonDorise](https://www.patreon.com/dragoonDorise) in the  "Early Access" and "EmuDeck Fan" tiers. There is currently no ETA for the public release. ⚠️
+
 [TOC]
 
 ***
@@ -8,11 +10,11 @@
 
 ### Windows Apps 
 - [Steam](https://store.steampowered.com/about/)
-  * EmuDeck works using Steam as the backbone so you need to have Steam installed and running to use EmuDeck
+    * EmuDeck works using Steam as the backbone so you need to have Steam installed and running to use EmuDeck
 - [7zip](https://www.7-zip.org/)
-  * Installed by EmuDeck on initial launch
+    * Installed by EmuDeck on initial launch
 - [Git](https://git-scm.com/)
-  * Installed by EmuDeck on initial launch
+    * Installed by EmuDeck on initial launch
 
 
 ### Control configurations
