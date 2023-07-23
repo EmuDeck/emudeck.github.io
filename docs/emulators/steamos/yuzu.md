@@ -49,7 +49,7 @@ In order to play Nintendo Switch games on Yuzu, you will need a `prod.keys` file
 
 If you play a Nintendo Switch game with Miis (for example - Mario Kart 8 Deluxe), you will need firmware files. 
 
-Read Yuzu's Quick Start guide to learn how to dump Nintendo Switch keys, firmware, and ROMs: https://yuzu-emu.org/help/quickstart/. 
+Read Yuzu's Quick Start guide to learn how to dump Nintendo Switch keys, firmware, and ROMs: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/help/quickstart/). 
 
 Place your ROMs in `Emulation/roms/switch`. Place your `prod.keys` file in `Emulation/bios/yuzu/keys`. Place your firmware files in `Emulation/bios/yuzu/firmware`. 
 
