@@ -125,7 +125,7 @@ EmulationStation-DE comes with a Steam Input profile for Hotkeys. Activate the S
 
 Some emulators set up by EmuDeck need a unique steam input profile (like Cemu or Citra) since you cannot do combo hotkeys easily. These emulators use a Steam Input profile to bind keyboard keys to buttons on a radial or touch menu.
 
-The EmulationStation-DE combines all of these different profiles into a single menu and allows you to select your emulator profile on the fly. For emulators without a Steam Input profile, use combo hotkeys. Visit https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys for both a list of the specific buttons on the various radial and touch menus as well as the combo hotkeys.
+The EmulationStation-DE combines all of these different profiles into a single menu and allows you to select your emulator profile on the fly. For emulators without a Steam Input profile, use combo hotkeys. Visit the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page for both a list of the specific buttons on the various radial and touch menus as well as the combo hotkeys.
 
 #### How to Use the EmulationStation-DE Profile
 
@@ -135,7 +135,7 @@ After the EmulationStation-DE profile is applied, use the left trackpad to pull 
 
 All of the profiles include a `Return to Main Menu` button allowing you to return to the profile switcher menu.
 
-If you do not see an emulator on the EmulationStation-DE touch menu, it likely uses combo hotkeys. The [Hotkeys](https://github.com/dragoonDorise/EmuDeck/wiki/Hotkeys) page covers the combo hotkeys for the various emulators. 
+If you do not see an emulator on the EmulationStation-DE touch menu, it likely uses combo hotkeys. The [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page covers the combo hotkeys for the various emulators. 
 
 
 #### Video Showcase
