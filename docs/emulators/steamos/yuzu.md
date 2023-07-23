@@ -79,6 +79,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
         * Contains the following folders:
             * `amiibo`
             * `keys`
+                * `Emulation/bios/yuzu/keys` is a symlink to the above location
             * `log`
             * `shader`
 * Storage Location: `Emulation/storage/yuzu`
