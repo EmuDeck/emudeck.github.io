@@ -85,7 +85,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
     * For further reading: https://wiki.dolphin-emu.org/index.php?title=Wii_Menu
 
 
-**Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.  
+**Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
 #### Works With
 * Steam ROM Manager
@@ -284,19 +284,19 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 
 Here's how to install custom textures for Dolphin: 
 
-1. Open the Dolphin emulator, right click the game you would like to install custom textures for, click `Properties`, click the `Info` tab, note down the `GameID`.
-2. In the Dolphin emulator, click `Graphics` in the top right (or `Options` > `Graphic Settings`), click `Advanced`, make sure `Load Custom Textures` and `Prefetch Custom Textures` are checked. 
-    * Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/196001664-b2265732-e7e1-41b8-9052-9af087a2dbd3.png" height="300">
-3. Open `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Textures`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click "view hidden files" to see these folders.  
-    * If the `Load` and `Textures` folder do not exist, create them.
-4. In the `Textures` folder from Step 2, create a folder matching the first 3 characters of the `GameID` from Step 1.
+1. Open the Dolphin emulator, right click the game you would like to install custom textures for, click `Properties`, click the `Info` tab, note down the `GameID`
+2. In the Dolphin emulator, click `Graphics` in the top right (or `Options` > `Graphic Settings`), click `Advanced`, make sure `Load Custom Textures` and `Prefetch Custom Textures` are checked
+    * <img src="https://user-images.githubusercontent.com/108900299/196001664-b2265732-e7e1-41b8-9052-9af087a2dbd3.png" height="300">
+3. Open `$HOME/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Textures`
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * If the `Load` and `Textures` folder do not exist, create them
+4. In the `Textures` folder from Step 2, create a folder matching the first 3 characters of the `GameID` from Step 1
     * Example: `Pokémon XD: Gale of Darkness`
        * Original Game ID: `GXXP01` (PAL Region)
        * Folder Name: `GXX`  
-5. Put your texture files directly into this folder.
-6. Your texture pack should now be installed. 
-    * If the game crashes with custom textures, it is likely too demanding for the Steam Deck. You can turn off `Prefetch Custom Textures` as a workaround, but performance will still take a hit. 
+5. Put your texture files directly into this folder
+6. Your texture pack should now be installed 
+    * If the game crashes with custom textures, it is likely too demanding for the Steam Deck. You can turn off `Prefetch Custom Textures` as a workaround, but performance will still take a hit 
 
 For a visual, watch the following GIF:
 
