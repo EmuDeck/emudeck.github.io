@@ -137,7 +137,7 @@ All of the profiles include a `Return to Main Menu` button allowing you to retur
 
 If you do not see an emulator on the EmulationStation-DE touch menu, it likely uses combo hotkeys. The [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page covers the combo hotkeys for the various emulators. 
 
-All of the Steam input profiles featured on the EmulationStation-DE profile are specifically for **Standalone emulators**. For example, the melonDS and the mGBA profiles will not work if you are using the RetroArch cores. You will need to use the combo hotkeys instead: [RetroArch Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md#retroarch). To switch to the standalone emulator in EmulationStation-DE, read [How to Select a Different Emulator for a System](#how-to-select-a-different-emulator-for-a-system).
+All of the Steam input profiles featured on the EmulationStation-DE profile are specifically for **standalone emulators**. For example, the melonDS and the mGBA profiles will not work if you are using the RetroArch cores. You will need to use the combo hotkeys instead: [RetroArch Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md#retroarch). To switch to the standalone emulator in EmulationStation-DE, read [How to Select a Different Emulator for a System](#how-to-select-a-different-emulator-for-a-system).
 
 
 #### Video Showcase
