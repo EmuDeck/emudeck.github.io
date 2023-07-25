@@ -166,7 +166,9 @@ The Linux version of the software mentioned in the above article can be found he
     * **Updated Line:** `Exec="/usr/bin/flatpak" run net.rpcs3.RPCS3 --no-gui "%RPCS3_GAMEID%:BLUS30443"`
 8. Your game should now show up in and launch directly from EmulationStation-DE
 
-If you get an error message about "Invalid file or folder" you need to change Alternative Emulator for ps3 to RPCS3 Shortcut [Standalone]. If all your game as shortcuts you can make this change in the main settings to apply for all games. If you have a mix of directory based and shortcut games you can change the setting on a game by game basis in the games metadata.
+If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in EmulationStation-DE for PlayStation 3 to `RPCS3 Shortcut [Standalone]`. 
+
+You may also do this on a per-game basis if you are using a mix of folders and PKGs. On a game, press the `select ` button, scroll down and select `EDIT THIS GAME'S METADATA`, scroll down and select `ALTERNATIVE EMULATOR`, select PS3 and select the corresponding format.
 
 Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3), for additional information. 
 

@@ -104,20 +104,24 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ***
 
-### How to Configure RPCS3 For EmulationStation-DE
+### How to Configure RPCS3 to Work With EmulationStation-DE
 [Back to the Top](#rpcs3-table-of-contents)
 
-First you need to rename your PS3 folder names and just add .ps3 at the end.
+1. In `Desktop Mode`, open RPCS3
+2. Skip this step if you have already added your games to RPCS3:
+    * Either: 
+        * In the top left click, `File`, click `Add Games`, locate your game
+        * In the top left click, `File`, click `Install Packages/Raps/Edats`, and install your PKG
+        * For more information, read the [File Formats](#rpcs3-file-formats) section
+3. Right click your game, click `Create Shortcut`, click `Create Desktop Shortcut`
+4. On your desktop, you should see an icon for your game. Move this icon to `Emulation\roms\ps3`
+5. Your game should now show up in and launch directly from EmulationStation-DE
 
-For instance:
+If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in EmulationStation-DE for PlayStation 3 to `RPCS3 Shortcut [Standalone]`. 
 
-`Heavenly Sword`
+You may also do this on a per-game basis if you are using a mix of folders and PKGs. On a game, press the `select ` button, scroll down and select `EDIT THIS GAME'S METADATA`, scroll down and select `ALTERNATIVE EMULATOR`, select PS3 and select the corresponding format.
 
-should be renamed:
+Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3), for additional information. 
 
-`Heavenly Sword.ps3`
-
-and then go to Main Menu, Other Settings, Alternative Emulators and chose RPCS3 Directory:
-![](https://c10.patreonusercontent.com/4/patreon-media/p/post/84682828/b333f979d2e643a28918bd6aede6e77b/eyJ3Ijo4MjB9/1.png?token-time=1688774400&token-hash=m-nEiQ6cJFrRwRRGQyqqhEKPXOo647-0AL-igxxm4Vg%3D)
 
 ***
