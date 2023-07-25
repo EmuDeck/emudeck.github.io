@@ -10,7 +10,7 @@
 
 ### Windows Apps 
 - [Steam](https://store.steampowered.com/about/)
-    * EmuDeck works using Steam as the backbone so you need to have Steam installed and running to use EmuDeck
+    * Steam is the "back-end" for EmuDeck, it manages your controls and it is how you launch your ROMs and emulators
 - [7zip](https://www.7-zip.org/)
     * Installed by EmuDeck on initial launch
 - [Git](https://git-scm.com/)
