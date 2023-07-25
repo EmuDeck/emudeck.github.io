@@ -21,7 +21,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
     - [File Formats](#rpcs3-file-formats)
     - [Hotkeys](../../controls-and-hotkeys/windows/hotkeys.md#rpcs3-playstation-3)
 2. [RPCS3 Tips and Tricks](#rpcs3-tips-and-tricks)
-    - [How to Configure RPCS3 For EmulationStation-DE](#how-to-configure-rpcs3-for-emulationstation-de)
+    - [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
 
 ***
 
