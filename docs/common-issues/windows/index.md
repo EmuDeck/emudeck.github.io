@@ -2,7 +2,21 @@
 
 ***
 
-[TOC]
+## Common Issues: EmuDeck for Windows Table of Contents
+
+1. [Controls](#controls)
+    - [General Control Issues](#general-control-issues)
+    - [Device Specific Issues](#device-specific-issues)
+        - [Asus ROG Ally](#asus-rog-ally)
+            - [I have a ROG Ally, my controls do not work!](#i-have-a-rog-ally-my-controls-do-not-work)
+2. [Emulators](#emulators)
+    - [An emulator is not working/controls are not working](#an-emulator-is-not-workingcontrols-are-not-working)
+    - [PlayStation 2 games will not launch](#playstation-2-games-will-not-launch)
+3. [Installation Issues](#installation-issues)
+    - [Windows Defender - Wacatac.B!ml virus](#windows-defender---wacatacbml-virus)
+    - [Windows is trying to open the EmuDeck Application through the Windows Store](#windows-is-trying-to-open-the-emudeck-application-through-the-windows-store)
+    - [EmuDeck is stuck on the "checking for updates" message](#emudeck-is-stuck-on-the-checking-for-updates-message)
+    - [EmuDeck - I cannot select a drive](#emudeck---i-cannot-select-a-drive)
 
 ***
 
@@ -55,7 +69,7 @@ Read [PCSX2 Configuration](../../emulators/windows/pcsx2.md#pcsx2-configuration)
 
 ***
 
-## Installing EmuDeck for Windows
+## Installation Issues
 
 ***
 
@@ -65,7 +79,7 @@ If you see "Wacatac.B!ml virus" from Windows Defender, it is a false positive, y
 
 ***
 
-### Windows cannot open the EmuDeck installer and is trying to open it through the Windows Store
+### Windows is trying to open the EmuDeck Application through the Windows Store
 
 Download it again, this time don't use Microsoft Edge :)
 
