@@ -83,6 +83,46 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
+#### Folder Visualization
+
+`$HOME/.config/Ryujinx`
+
+```
+Ryujinx/
+├── bis
+│   ├── system
+│   │   ├── Contents
+│   │   └── save
+│   └── user
+│       ├── Contents
+│       ├── save
+│       ├── saveMeta
+│       └── temp
+├── Config.json
+├── Config.json.bak
+├── games -> Emulation/storage/ryujinx/games/
+├── mods
+│   ├── contents
+│   ├── exefs_patches
+│   └── nro_patches
+├── profiles
+│   └── controller
+│       ├── Deck.json
+│       └── Deck.json.bak
+├── sdcard
+│   ├── atmosphere
+│   │   ├── contents
+│   │   ├── exefs_patches
+│   │   └── nro_patches
+│   ├── Nintendo
+│   │   ├── Contents
+│   │   └── save
+│   └── ocw-config.json
+└── system
+    ├── prod.keys
+    └── Profiles.json
+```
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

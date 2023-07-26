@@ -52,6 +52,74 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
     * `InstalledGames` is a symlink to `Emulation/storage/Vita3K/uxo/app`
 * Firmware: Install firmware through Vita3K's GUI. Read the [Quickstart Guide](https://vita3k.org/quickstart.html) for a tutorial
 
+#### Folder Visualization
+
+`$HOME/Applications/Vita3K`
+
+```
+Vita3K/
+├── cache
+│   ├── app_compat_db.xml
+│   └── shaders
+├── config.yml
+├── config.yml.bak
+├── data
+│   ├── config
+│   ├── fonts
+│   └── image
+├── imgui.ini
+├── lang
+├── libcrypto.so.3
+├── libssl.so.3
+├── shaderlog
+├── shaders-builtin
+│   ├── opengl
+│   └── vulkan
+├── texturelog
+├── update-vita3k.sh
+├── Vita3K
+└── vita3k.log
+```
+
+`Emulation/storage/Vita3K`
+
+```
+Vita3K/
+├── gro0
+├── grw0
+├── host0
+├── imc0
+├── os0
+│   ├── kd
+│   ├── sm
+│   ├── ue
+│   └── us
+├── pd0
+├── sa0
+│   └── data
+├── sd0
+├── tm0
+├── ud0
+├── uma0
+│   └── data
+├── ur0
+├── ux0
+│   ├── app
+│   ├── data
+│   ├── license
+│   ├── temp
+│   ├── theme
+│   └── user
+├── vd0
+├── vs0
+│   ├── app
+│   ├── data
+│   ├── sys
+│   ├── tool
+│   └── vsh
+└── xmc0
+```
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

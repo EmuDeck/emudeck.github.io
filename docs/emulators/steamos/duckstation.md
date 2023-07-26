@@ -58,6 +58,38 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Refer to: [https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models](https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models), for a full list of PSX bios
       * System Models and PSX BIOS have matching names
 
+#### Folder Visualization
+
+`$HOME/.var/app/org.duckstation.DuckStation`
+
+```
+org.duckstation.DuckStation/
+├── cache
+├── config
+│   ├── duckstation
+│   │   ├── cache
+│   │   ├── cheats
+│   │   ├── covers
+│   │   ├── dump
+│   │   ├── gamesettings
+│   │   ├── inputprofiles
+│   │   ├── playtime.dat
+│   │   ├── screenshots
+│   │   ├── settings.ini
+│   │   ├── settings.ini.bak
+│   │   ├── shaders
+│   │   └── textures
+│   ├── kdeglobals
+│   ├── pulse
+│   │   └── cookie
+│   ├── QtProject.conf
+│   └── user-dirs.dirs
+└── data
+    └── duckstation
+        ├── settings.ini
+        └── settings.ini.bak
+```
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

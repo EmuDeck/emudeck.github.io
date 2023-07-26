@@ -121,6 +121,84 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
     * Symlink:  `Emulation/saves/Cemu/saves/`
     * Target: `Emulation/roms/wiiu/mlc01/usr/save`
 
+#### Folder Visualization
+
+`Emulation/roms/wiiu/`
+
+```
+wiiu
+├── Cemu.exe
+├── controllerProfiles
+│   ├── controller0.xml
+│   ├── controller0.xml.bak
+│   ├── deck2.xml
+│   ├── deck2.xml.bak
+│   ├── deck3.xml
+│   ├── deck3.xml.bak
+│   ├── deck4.xml
+│   ├── deck4.xml.bak
+│   ├── Deck-Gamepad-Gyro.xml
+│   ├── Deck-Gamepad-Gyro.xml.bak
+│   ├── Deck.xml
+│   └── Deck.xml.bak
+├── gameProfiles
+│   ├── default
+│   └── example.ini
+├── graphicPacks
+│   └── downloadedGraphicPacks
+├── keys.txt
+├── log.txt
+├── memorySearcher
+├── mlc01
+│   ├── readme.txt
+│   ├── readme.txt.bak
+│   ├── sys
+│   └── usr
+├── resources
+│   ├── ca
+│   ├── de
+│   ├── es
+│   ├── fr
+│   ├── hu
+│   ├── it
+│   ├── ja
+│   ├── ko
+│   ├── libusb-1.0.dll
+│   ├── nb
+│   ├── nl
+│   ├── pl
+│   ├── pt
+│   ├── ru
+│   ├── sharedFonts
+│   ├── sv
+│   ├── tr
+│   ├── uk
+│   ├── WinGamingInput.dll
+│   └── zh
+├── roms
+├── settings.xml
+├── shaderCache
+│   ├── driver
+│   ├── info.txt
+│   ├── precompiled
+│   └── transferable
+└── title_list_cache.xml
+```
+
+`Emulation/roms/wiiu/mlc01`
+
+```
+wiiu/mlc01/
+├── sys
+│   ├── sys
+│   ├── title
+│   └── usr
+└── usr
+    ├── boss
+    ├── save
+    └── title
+```
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

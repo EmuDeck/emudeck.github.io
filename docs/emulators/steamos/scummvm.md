@@ -50,6 +50,31 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
+#### Folder Visualization
+
+`$HOME/.var/app/org.scummvm.ScummVM`
+
+```
+org.scummvm.ScummVM/
+├── cache
+│   ├── fontconfig
+│   ├── scummvm
+│   │   ├── icons
+│   │   └── logs
+│   │       └── scummvm.log
+│   └── tmp
+├── config
+│   ├── pulse
+│   │   └── cookie
+│   ├── scummvm
+│   │   ├── scummvm.ini
+│   │   └── scummvm.ini.bak
+│   └── user-dirs.dirs
+└── data
+    └── scummvm
+        └── saves
+```
+
 #### Works With
 * Steam ROM Manager: [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
 * EmulationStation-DE: [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)

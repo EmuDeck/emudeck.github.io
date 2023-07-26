@@ -61,6 +61,38 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
+#### Folder Visualization
+
+`$HOME/.var/app/org.citra_emu.citra`
+
+```
+org.citra_emu.citra/
+├── cache
+├── config
+    ├── citra-emu
+    │   ├── custom
+    │   ├── qt-config.ini
+    │   ├── qt-config.ini.bak
+    │   └── telemetry_id
+    ├── kdeglobals
+    ├── pulse
+    │   └── cookie
+    ├── QtProject.conf
+    └── user-dirs.dirs
+└── data
+    └── citra-emu
+        ├── cheats
+        ├── load
+        ├── log
+        ├── nand
+        ├── screenshots
+        ├── sdmc
+        ├── shaders
+        ├── states
+        └── sysdata 
+```
+
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

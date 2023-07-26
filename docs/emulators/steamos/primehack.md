@@ -63,6 +63,73 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 * Only `Metroid Prime Trilogy` (Wii)'s controls are configured. The Gamecube versions do not have controls configured at this time
 
+#### Folder Visualization 
+
+`$HOME/.var/app/io.github.shiiion.primehack`
+
+```
+io.github.shiiion.primehack/
+├── cache
+│   ├── dolphin-emu
+│   │   └── GameCovers
+│   ├── fontconfig
+│   ├── mesa_shader_cache
+│   └── tmp
+├── config
+│   └── dolphin-emu
+│       ├── GraphicMods
+│       └── Profiles
+│           └── Wiimote
+└── data
+    └── dolphin-emu
+        ├── Dump
+        │   ├── Audio
+        │   ├── DSP
+        │   ├── Frames
+        │   ├── Objects
+        │   ├── SSL
+        │   └── Textures
+        ├── GameSettings
+        ├── GC
+        │   ├── EUR
+        │   ├── JAP
+        │   └── USA
+        ├── Load
+        │   ├── GraphicMods
+        │   ├── Riivolution
+        │   ├── Textures
+        │   │   └── R3M
+        │   │       ├── 0EXTRA - Steam Deck Button Prompts
+        │   │       │   ├── Common
+        │   │       │   ├── MP1
+        │   │       │   ├── MP2
+        │   │       │   └── MP3
+        │   │       └── 0EXTRA - Wiimote Warning Replacement
+        │   └── WiiSDSync
+        ├── Logs
+        │   └── Mail
+        ├── Maps
+        ├── ResourcePacks
+        ├── ScreenShots
+        ├── Shaders
+        │   └── Anaglyph
+        ├── StateSaves
+        ├── Styles
+        ├── Themes
+        └── Wii
+            ├── import
+            ├── meta
+            ├── shared1
+            ├── shared2
+            │   └── sys
+            ├── sys
+            ├── ticket
+            ├── title
+            ├── tmp
+            └── wfs
+```
+
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

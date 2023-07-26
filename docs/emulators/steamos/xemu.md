@@ -78,9 +78,46 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders. 
 
+#### Folder Visualization
+
+`$HOME/.var/app/app.xemu.xemu`
+
+```
+app.xemu.xemu/
+├── cache
+├── config
+│   ├── glib-2.0
+│   │   └── settings
+│   ├── gtk-3.0
+│   │   └── bookmarks
+│   ├── ibus
+│   │   └── bus
+│   ├── pulse
+│   │   └── cookie
+│   └── user-dirs.dirs
+└── data
+    ├── recently-used.xbel
+    └── xemu
+        └── xemu
+            ├── shader_cache_list
+            ├── shaders
+            ├── xemu.toml
+            └── xemu.toml.bak
+```
+
+`Emulation/storage/xemu`
+
+```
+xemu/
+├── eeprom.bin
+└── xbox_hdd.qcow2
+```
+
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE
+
 
 ***
 

@@ -58,6 +58,34 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
+#### Folder Visualization
+
+`$HOME/.var/app/com.github.Rosalie241.RMG`
+
+```
+com.github.Rosalie241.RMG
+├── cache
+├── config
+│   ├── kdeglobals
+│   ├── pulse
+│   │   └── cookie
+│   ├── QtProject.conf
+│   ├── RMG
+│   │   ├── GLideN64.ini
+│   │   ├── GLideN64.ini.bak
+│   │   ├── mupen64plus.cfg
+│   │   └── mupen64plus.cfg.bak
+│   └── user-dirs.dirs
+└── data
+    └── RMG
+        ├── Cheats-User
+        └── Save
+            ├── Game
+            └── State
+```
+
+
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

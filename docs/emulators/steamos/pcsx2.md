@@ -81,6 +81,39 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Important Info:** Prior to version 0.17.6 of EmuDeck, we used the Flatpak version of PCSX2. This was installed from the discover store. We have since moved away from this release for performance reasons, and usability reasons (menus not opening).
 
+#### Folder Visualization
+
+`$HOME/.config/PCSX2`
+
+```
+PCSX2
+├── bios
+├── cache
+├── cheats
+├── covers
+├── gamesettings
+├── inis
+│   └── PCSX2.ini
+├── inputprofiles
+├── logs
+├── memcards
+├── patches
+├── snaps
+├── sstates
+├── textures
+└── videos
+```
+
+`Emulation/storage/pcsx2`
+
+```
+pcsx2/
+├── cache
+├── covers
+├── snaps
+└── textures
+```
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

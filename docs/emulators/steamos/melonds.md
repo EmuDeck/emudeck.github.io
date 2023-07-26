@@ -58,9 +58,35 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show hidden files` to see these folders.  
 
+#### Folder Visualization
+
+`$HOME/.var/app/net.kuribo64.melonDS`
+
+```
+net.kuribo64.melonDS
+├── cache
+├── config
+│   ├── kdeglobals
+│   ├── melonDS
+│   │   ├── melonDS.ini
+│   │   ├── melonDS.ini.bak
+│   │   ├── timewarp.mln
+│   │   └── wfcsettings.bin
+│   ├── pulse
+│   │   └── cookie
+│   ├── QtProject.conf
+│   └── user-dirs.dirs
+└── data
+    ├── user-places.xbel
+    ├── user-places.xbel.bak
+    └── user-places.xbel.tbcache
+```
+
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE
+
 
 
 ***

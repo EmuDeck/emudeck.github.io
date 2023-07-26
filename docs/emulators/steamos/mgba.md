@@ -65,6 +65,31 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.  
 
+#### Folder Visualization 
+
+`$HOME/.config/mgba`
+
+```
+mgba/
+├── config.ini
+├── config.ini.bak
+├── library.sqlite3
+├── nointro.sqlite3
+├── qt.ini
+├── qt.ini.bak
+└── updater.log
+```
+
+`Emulation/storage/mgba`
+
+```
+mgba
+├── cheats
+├── patches
+└── screenshots
+```
+
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

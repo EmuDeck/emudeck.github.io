@@ -87,6 +87,85 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
+#### Folder Visualization
+
+`$HOME/.var/app/org.DolphinEmu.dolphin-emu`
+```
+org.DolphinEmu.dolphin-emu/
+├── cache
+├── config
+    ├── dolphin-emu
+    │   ├── Debugger.ini
+    │   ├── Dolphin.ini
+    │   ├── DSUClient.ini
+    │   ├── FreeLookController.ini
+    │   ├── FreeLook.ini
+    │   ├── GameSettings
+    │   ├── GBA.ini
+    │   ├── GCKeyNew.ini
+    │   ├── GCPadNew.ini
+    │   ├── GFX.ini
+    │   ├── GraphicMods
+    │   ├── Hotkeys.ini
+    │   ├── Logger.ini
+    │   ├── Profiles
+    │   │   ├── GCPad
+    │   │   │   ├── GC_base.ini
+    │   │   │   └── GC_reverse_camera.ini
+    │   │   └── Wiimote
+    │   │       ├── Wii_base_nunchuck.ini
+    │   │       ├── Wii_base_nunchuck_with_touchpad.ini
+    │   │       ├── Wii_classic_controller.ini
+    │   │       ├── Wii_no_attachment.ini
+    │   │       ├── Wii_no_attachment_with_touchpad.ini
+    │   │       └── Wii_NoController.ini
+    │   ├── Qt.ini
+    │   └── WiimoteNew.ini
+    ├── kdeglobals
+    └── user-dirs.dirs
+└── data
+    └── dolphin-emu
+        ├── Dump
+        │   ├── Audio
+        │   ├── DSP
+        │   ├── Frames
+        │   ├── Objects
+        │   ├── SSL
+        │   └── Textures
+        ├── GameSettings
+        ├── GC
+        │   ├── EUR
+        │   ├── JAP
+        │   └── USA
+        ├── Load
+        │   ├── DynamicInputTextures
+        │   ├── GraphicMods
+        │   ├── Riivolution
+        │   ├── Textures
+        │   └── WiiSDSync
+        ├── Logs
+        │   └── Mail
+        ├── Maps
+        ├── ResourcePacks
+        ├── ScreenShots
+        ├── Shaders
+        │   └── Anaglyph
+        ├── StateSaves
+        ├── Styles
+        ├── Themes
+        └── Wii
+            ├── import
+            ├── meta
+            ├── shared1
+            ├── shared2
+            ├── sys
+            ├── ticket
+            ├── title
+            ├── tmp
+            └── wfs
+```
+
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

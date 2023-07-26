@@ -77,6 +77,254 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
+#### Folder Visualization
+
+`$HOME/.var/app/org.libretro.RetroArch/config/retroarch`
+
+```
+org.libretro.RetroArch
+├── cache
+├── config
+│   ├── pulse
+│   └── retroarch
+│       ├── assets
+│       ├── autoconfig
+│       ├── cheats
+│       ├── config
+│       │   ├── Beetle Cygne
+│       │   ├── Beetle Lynx
+│       │   ├── Beetle NeoPop
+│       │   ├── Beetle PCE
+│       │   ├── Beetle PCE Fast
+│       │   ├── Beetle PSX
+│       │   ├── Beetle PSX HW
+│       │   ├── Beetle Saturn
+│       │   ├── Beetle SuperGrafx
+│       │   ├── Beetle WonderSwan
+│       │   ├── blueMSX
+│       │   ├── bsnes-hd beta
+│       │   ├── dolphin_emu
+│       │   ├── DOSBox-pure
+│       │   ├── DOSBox Pure
+│       │   ├── FinalBurn Neo
+│       │   ├── Flycast
+│       │   ├── Gambatte
+│       │   ├── Gearsystem
+│       │   ├── Genesis Plus GX
+│       │   ├── Handy
+│       │   ├── Hatari
+│       │   ├── Kronos
+│       │   ├── MAME
+│       │   ├── MAME 2003-Plus
+│       │   ├── melonDS
+│       │   ├── Mesen
+│       │   ├── mGBA
+│       │   ├── Mupen64Plus-Next
+│       │   ├── NeoCD
+│       │   ├── Nestopia
+│       │   ├── ParaLLEl N64
+│       │   ├── PicoDrive
+│       │   ├── PPSSPP
+│       │   ├── PUAE
+│       │   ├── remaps
+│       │   │   └── Gambatte
+│       │   ├── SameBoy
+│       │   ├── Snes9x
+│       │   ├── Stella
+│       │   ├── SwanStation
+│       │   ├── VICE x64
+│       │   ├── VICE x64sc
+│       │   ├── VICE xscpu64
+│       │   ├── VICE xvic
+│       │   ├── YabaSanshiro
+│       │   └── Yabause
+│       ├── cores
+│       ├── database
+│       │   └── rdb
+│       ├── downloads
+│       │   └── core_backups
+│       │       ├── 81_libretro
+│       │       ├── a5200_libretro
+│       │       ├── atari800_libretro
+│       │       ├── bluemsx_libretro
+│       │       ├── bsnes_hd_beta_libretro
+│       │       ├── bsnes_libretro
+│       │       ├── cap32_libretro
+│       │       ├── citra2018_libretro
+│       │       ├── citra_libretro
+│       │       ├── desmume_libretro
+│       │       ├── dosbox_core_libretro
+│       │       ├── dosbox_svn_libretro
+│       │       ├── easyrpg_libretro
+│       │       ├── fbalpha2012_cps1_libretro
+│       │       ├── fbalpha2012_cps2_libretro
+│       │       ├── fbalpha2012_cps3_libretro
+│       │       ├── fbalpha2012_neogeo_libretro
+│       │       ├── fbneo_libretro
+│       │       ├── fceumm_libretro
+│       │       ├── flycast_libretro
+│       │       ├── fmsx_libretro
+│       │       ├── gambatte_libretro
+│       │       ├── genesis_plus_gx_libretro
+│       │       ├── genesis_plus_gx_wide_libretro
+│       │       ├── gpsp_libretro
+│       │       ├── handy_libretro
+│       │       ├── hatari_libretro
+│       │       ├── kronos_libretro
+│       │       ├── lutro_libretro
+│       │       ├── mame2000_libretro
+│       │       ├── mame2003_plus_libretro
+│       │       ├── mame2010_libretro
+│       │       ├── mame_libretro
+│       │       ├── mednafen_lynx_libretro
+│       │       ├── mednafen_ngp_libretro
+│       │       ├── mednafen_pce_fast_libretro
+│       │       ├── mednafen_pce_libretro
+│       │       ├── mednafen_pcfx_libretro
+│       │       ├── mednafen_psx_hw_libretro
+│       │       ├── mednafen_psx_libretro
+│       │       ├── mednafen_saturn_libretro
+│       │       ├── mednafen_supergrafx_libretro
+│       │       ├── mednafen_vb_libretro
+│       │       ├── mednafen_wswan_libretro
+│       │       ├── melonds_libretro
+│       │       ├── mesen_libretro
+│       │       ├── mgba_libretro
+│       │       ├── mu_libretro
+│       │       ├── mupen64plus_next_libretro
+│       │       ├── neocd_libretro
+│       │       ├── nestopia_libretro
+│       │       ├── np2kai_libretro
+│       │       ├── nxengine_libretro
+│       │       ├── o2em_libretro
+│       │       ├── parallel_n64_libretro
+│       │       ├── pcsx2_libretro
+│       │       ├── pcsx_rearmed_libretro
+│       │       ├── picodrive_libretro
+│       │       ├── ppsspp_libretro
+│       │       ├── prboom_libretro
+│       │       ├── prosystem_libretro
+│       │       ├── puae_libretro
+│       │       ├── px68k_libretro
+│       │       ├── quasi88_libretro
+│       │       ├── quicknes_libretro
+│       │       ├── race_libretro
+│       │       ├── same_cdi_libretro
+│       │       ├── scummvm_libretro
+│       │       ├── snes9x2010_libretro
+│       │       ├── snes9x_libretro
+│       │       ├── stella2014_libretro
+│       │       ├── stella_libretro
+│       │       ├── swanstation_libretro
+│       │       ├── tic80_libretro
+│       │       ├── tyrquake_libretro
+│       │       ├── vbam_libretro
+│       │       ├── vba_next_libretro
+│       │       ├── vecx_libretro
+│       │       ├── vice_x128_libretro
+│       │       ├── vice_x64_libretro
+│       │       ├── vice_x64sc_libretro
+│       │       ├── vice_xscpu64_libretro
+│       │       ├── vice_xvic_libretro
+│       │       ├── vitaquake2_libretro
+│       │       ├── vitaquake2-rogue_libretro
+│       │       ├── vitaquake2-xatrix_libretro
+│       │       ├── vitaquake2-zaero_libretro
+│       │       ├── vitaquake3_libretro
+│       │       ├── wasm4_libretro
+│       │       └── yabause_libretro
+│       ├── filters
+│       │   ├── audio
+│       │   └── video
+│       ├── layouts
+│       ├── logs
+│       ├── overlay
+│       ├── overlays
+│       │   └── pegasus
+│       ├── playlists
+│       │   └── logs
+│       │       ├── Beetle Lynx
+│       │       ├── Beetle PCE
+│       │       ├── Beetle PSX
+│       │       ├── Beetle Saturn
+│       │       ├── Beetle SuperGrafx
+│       │       ├── blueMSX
+│       │       ├── Gambatte
+│       │       ├── Handy
+│       │       ├── MAME (Git)
+│       │       ├── melonDS
+│       │       ├── mGBA
+│       │       ├── Mupen64Plus-Next
+│       │       ├── ParaLLEl N64
+│       │       └── Snes9x
+│       ├── records
+│       ├── records_config
+│       ├── saves
+│       │   └── mame
+│       │       ├── cfg
+│       │       └── nvram
+│       ├── screenshots
+│       ├── shaders
+│       │   └── shaders_slang
+│       │       ├── anamorphic
+│       │       ├── anti-aliasing
+│       │       ├── auto-box
+│       │       ├── bezel
+│       │       ├── blurs
+│       │       ├── border
+│       │       ├── cel
+│       │       ├── crt
+│       │       ├── cubic
+│       │       ├── ddt
+│       │       ├── deblur
+│       │       ├── denoisers
+│       │       ├── dithering
+│       │       ├── eagle
+│       │       ├── film
+│       │       ├── fsr
+│       │       ├── gpu
+│       │       ├── handheld
+│       │       ├── hdr
+│       │       ├── hqx
+│       │       ├── include
+│       │       ├── interpolation
+│       │       ├── linear
+│       │       ├── misc
+│       │       ├── motionblur
+│       │       ├── motion-interpolation
+│       │       ├── nedi
+│       │       ├── nes_raw_palette
+│       │       ├── nnedi3
+│       │       ├── ntsc
+│       │       ├── omniscale
+│       │       ├── pal
+│       │       ├── presets
+│       │       ├── procedural
+│       │       ├── quad
+│       │       ├── reshade
+│       │       ├── sabr
+│       │       ├── scalefx
+│       │       ├── scalehq
+│       │       ├── scalenx
+│       │       ├── scanlines
+│       │       ├── sharpen
+│       │       ├── spec
+│       │       ├── stereoscopic-3d
+│       │       ├── test
+│       │       ├── vhs
+│       │       ├── warp
+│       │       ├── windowed
+│       │       ├── xbr
+│       │       ├── xbrz
+│       │       ├── xsal
+│       │       └── xsoft
+│       ├── states
+│       ├── system
+│       └── thumbnails
+└── data
+```
+
+
 #### Works With
 * Steam Rom Manager
 * EmulationStation-DE
@@ -265,7 +513,7 @@ When the time comes to switch discs:
 3. Select `Online Updater`
 4. Select `Update Slang Shaders` 
 
-#### How to Apply Shaders
+#### How to apply shaders if shaders are already applied
 
 1. Load content that has a shader applied automatically
 2. Open the Quick Menu with L3 and R3
@@ -281,6 +529,15 @@ When the time comes to switch discs:
 6. If you want to select a different shader, open the `Shaders` menu again, and select your preferred settings/shaders. When you are satisfied, select the `Save` button
     * <img src="https://user-images.githubusercontent.com/1683513/174447945-3929b8d0-cb9f-45f8-9e15-18d172703cd7.png" height="300">
 
+#### How to apply shaders if shaders are not already applied
+
+1. Load content that has a shader applied automatically
+2. Open the Quick Menu with L3 and R3
+3. Select `Shaders`
+    * <img src="https://user-images.githubusercontent.com/1683513/174447565-be119f1e-38a3-4297-9248-ae3fcc48ee0f.png" height="300">
+4. Select a shader
+5. Apply a `Content Directory Override`
+
 The order they are listed in is the order they take precedence, from most general to most specific.
 
 1. Global = Everything.
@@ -290,6 +547,8 @@ The order they are listed in is the order they take precedence, from most genera
 4. Game = that specific ROM.
 
 As you get lower in this list it takes precedence, so if you do nothing but set a core shader preset, it will  not override the content directory preset already applied.
+
+
 
 
 ***

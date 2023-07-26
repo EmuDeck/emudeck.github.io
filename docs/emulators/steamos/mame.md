@@ -64,6 +64,31 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
 * `~/.mame` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 * `MAME [Standalone]` shares its `Emulation/roms/arcade` folder with `Arcade - RetroArch MAME Current`. Turning both of these parsers on in Steam ROM Manager will cause duplicates in your App List. 
 
+#### Folder Visualization
+
+`$HOME/.mame`
+
+```
+.mame
+├── cfg
+│   ├── default.cfg
+│   └── ___empty.cfg
+└── mame.ini
+```
+
+`Emulation/storage/mame`
+
+```
+mame
+├── artwork
+├── ctrlr
+├── ini
+│   ├── mame.ini
+│   ├── plugin.ini
+│   └── ui.ini
+└── samples
+```
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

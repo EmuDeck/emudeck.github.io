@@ -70,6 +70,197 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * BIOS: No BIOS are required to play Xenia
 * Saves Location: `Emulation/roms/xbox360/content`
 
+#### Folder Visualization
+
+`Emulation/roms/xbox360`
+
+```
+xbox360/
+├── cache
+│   └── modules
+│       ├── 591F88BF31D190A8FC6D34699CD04D6D
+│       │   └── executable_addr_flags.bin
+│       └── 92894AFA8482EBA139E20552587117
+│           └── executable_addr_flags.bin
+├── LICENSE
+├── patches
+│   ├── 415607D3 - Gun.patch.toml
+│   ├── 415607DD - Tony Hawk's Project 8.patch.toml
+│   ├── 415607F2 - Kung Fu Panda.patch.toml
+│   ├── 415607F5 - Bee Movie Game.patch.toml
+│   ├── 41560817 - Modern Warfare 2 (TU6).patch.toml
+│   ├── 415608AF - GoldenEye 007 Reloaded.patch.toml
+│   ├── 415608C5 - Family Guy Back to the Multiverse.patch.toml
+│   ├── 41560904 - Transformers-Rise of The Dark Spark.patch.toml
+│   ├── 425307D1 - The Elder Scrolls IV Oblivion (GOTY).patch.toml
+│   ├── 425307DB - Wet.patch.toml
+│   ├── 425307E6 - The Elder Scrolls V Skyrim.patch.toml
+│   ├── 434307D4 - Resident Evil 5.patch.toml
+│   ├── 43430817 - Asura's Wrath.patch.toml
+│   ├── 43430824 - DmC Devil May Cry.patch.toml
+│   ├── 43430830 - Lost Planet 3.patch.toml
+│   ├── 43430841 - Resident Evil.patch.toml
+│   ├── 43430842 - Resident Evil 0.patch.toml
+│   ├── 434D0822 - Leisure Suit Larry Box Office Bust.patch.toml
+│   ├── 445007EA - Onechanbara Bikini Samurai Squad.patch.toml
+│   ├── 454107D9 - Need for Speed Most Wanted (2005).patch.toml
+│   ├── 454107F9 - Battlefield Bad Company.patch.toml
+│   ├── 45410809 - The Simpsons Game.patch.toml
+│   ├── 4541080F - The Orange Box (default.xex).patch.toml
+│   ├── 4541080F - The Orange Box (engine_360.dll).patch.toml
+│   ├── 4541080F - The Orange Box (shaderapidx9_360.dll).patch.toml
+│   ├── 4541080F - The Orange Box (tf-bin-Client_360.dll).patch.toml
+│   ├── 45410850 - Mirror's Edge.patch.toml
+│   ├── 4541087F - Skate 2.patch.toml
+│   ├── 454108D8 - Army of Two The 40th Day.patch.toml
+│   ├── 454108E6 - Skate 3.patch.toml
+│   ├── 454108EF - Bulletstorm.patch.toml
+│   ├── 45410914 - Rock Band 3.patch.toml
+│   ├── 45410914 - Rock Band 3 TU5.patch.toml
+│   ├── 45410915 - Fight Night Champion (TU0).patch.toml
+│   ├── 45410915 - Fight Night Champion (TU1).patch.toml
+│   ├── 45410915 - Fight Night Champion (TU2).patch.toml
+│   ├── 45410916 - Alice Madness Returns.patch.toml
+│   ├── 4541092A - Shadows of the Damned.patch.toml
+│   ├── 4541096D - SSX.patch.toml
+│   ├── 465307D6 - Armored Core 4 (USA).patch.toml
+│   ├── 475007D2 - Hail to the Chimp.patch.toml
+│   ├── 475807D1 - Lucha Libre AAA Heroes del Ring.patch.toml
+│   ├── 494F07D1 - El Shaddai.patch.toml
+│   ├── 4B4E0823 - Silent Hill Downpour.patch.toml
+│   ├── 4B4E0823 - Silent Hill Downpour (TU1).patch.toml
+│   ├── 4B5607E8 - Dead or Alive 5 Ultimate.patch.toml
+│   ├── 4C4107D7 - LEGO Star Wars The Complete Saga.patch.toml
+│   ├── 4C4107F3 - LEGO Star Wars III The Clone Wars.patch.toml
+│   ├── 4D5307D1 - Project Gotham Racing 3 (v10.0 or higher).patch.toml
+│   ├── 4D5307D1 - Project Gotham Racing 3 (v9.0 or lower).patch.toml
+│   ├── 4D5307D2 - Kameo Elements of Power.patch.toml
+│   ├── 4D5307D2 - Kameo Elements of Power (TU2).patch.toml
+│   ├── 4D5307D3 - Perfect Dark Zero.patch.toml
+│   ├── 4D5307D3 - Perfect Dark Zero (Platinum Hits).patch.toml
+│   ├── 4D5307D3 - Perfect Dark Zero (TU3).patch.toml
+│   ├── 4D5307D5 - Gears of War.patch.toml
+│   ├── 4D5307D5 - Gears of War (TU5).patch.toml
+│   ├── 4D5307DF - Blue Dragon.patch.toml
+│   ├── 4D5307DF - ブルードラゴン.patch.toml
+│   ├── 4D5307E6 - Halo 3.patch.toml
+│   ├── 4D5307ED - Banjo-Kazooie Nuts & Bolts.patch.toml
+│   ├── 4D5307ED - Banjo-Kazooie Nuts & Bolts (TU3).patch.toml
+│   ├── 4D5307F1 - Fable II (1).patch.toml
+│   ├── 4D5307F1 - Fable II (2).patch.toml
+│   ├── 4D5307F1 - Fable II (GOTY_Platinum Edition).patch.toml
+│   ├── 4D5307F1 - Fable II (GOTY_Platinum Edition, TU1).patch.toml
+│   ├── 4D5307F2 - Viva Piñata.patch.toml
+│   ├── 4D5307F9 - Project Gotham Racing 4.patch.toml
+│   ├── 4D5307FA - Lost Odyssey (NTSC-J).patch.toml
+│   ├── 4D5307FA - Lost Odyssey.patch.toml
+│   ├── 4D53082D - Gears of War 2.patch.toml
+│   ├── 4D53082D - Gears of War 2 (TU6).patch.toml
+│   ├── 4D53085B - Halo Reach.patch.toml
+│   ├── 4D53085F - Viva Piñata Trouble in Paradise.patch.toml
+│   ├── 4D53085F - Viva Piñata Trouble in Paradise (TU1).patch.toml
+│   ├── 4D530877 - Halo 3 ODST.patch.toml
+│   ├── 4D5308AB - Gears of War 3.patch.toml
+│   ├── 4D5308AB - Gears of War 3 (TU6 Disc; TU1 XBL).patch.toml
+│   ├── 4D53090E - Kinect Star Wars.patch.toml
+│   ├── 4D5309B1 - Halo Combat Evolved Anniversary.patch.toml
+│   ├── 4D5309C9 - Forza Horizon (E3 Demo).patch.toml
+│   ├── 4D5309C9 - Forza Horizon.patch.toml
+│   ├── 4D530A26 - Gears of War Judgment.patch.toml
+│   ├── 4D530A26 - Gears of War Judgment (TU4).patch.toml
+│   ├── 4D530A87 - Fable Anniversary.patch.toml
+│   ├── 4D5387E0 - Kameo Elements of Power (kiosk demo).patch.toml
+│   ├── 4D5387E9 - Kameo Elements of Power (demo).patch.toml
+│   ├── 4D53880C - Halo 3 Alpha.patch.toml
+│   ├── 4D53883A - Halo 3 Epsilon (Aug 20th).patch.toml
+│   ├── 4D5388BF - Crackdown 2 Demo.patch.toml
+│   ├── 4D5707D7 - Blacksite.patch.toml
+│   ├── 4D5707DB - Unreal Tournament 3.patch.toml
+│   ├── 4D5707DF - TNA Impact (TU1).patch.toml
+│   ├── 4E4D07D3 - Ridge Racer 6.patch.toml
+│   ├── 4E4D07F0 - Splatterhouse.patch.toml
+│   ├── 4E4D080B - Magnacarta2.patch.toml
+│   ├── 534307E2 - Bionicle Heroes.patch.toml
+│   ├── 5343080B - Batman Arkham Asylum GOTY.patch.toml
+│   ├── 534507D6 - Sonic the Hedgehog (2006).patch.toml
+│   ├── 53450812 - Sonic Unleashed.patch.toml
+│   ├── 53450812 - Sonic Unleashed (TU2).patch.toml
+│   ├── 5345085A - Dreamcast Collection.patch.toml
+│   ├── 535107E4 - Final Fantasy XIII.patch.toml
+│   ├── 535107E8 - Nier.patch.toml
+│   ├── 535107FA - Deus Ex Human Revolution Director's Cut.patch.toml
+│   ├── 53510806 - Final Fantasy XIII-2.patch.toml
+│   ├── 53518810 - Final Fantasy XIII-2 Demo.patch.toml
+│   ├── 544307D5 - Ninja Gaiden II (Japan, TU3).patch.toml
+│   ├── 544307D5 - Ninja Gaiden II (World).patch.toml
+│   ├── 544307D5 - Ninja Gaiden II (World, TU2).patch.toml
+│   ├── 545107D1 - Saints Row.patch.toml
+│   ├── 545107D1 - Saints Row (TU1).patch.toml
+│   ├── 545107F1 - Ratatouille.patch.toml
+│   ├── 545107FC - Saints Row 2.patch.toml
+│   ├── 545107FC - Saints Row 2 (TU1).patch.toml
+│   ├── 545107FE - DAH Path of the Furon.patch.toml
+│   ├── 5451083B - 50 Cent Blood on the Sand.patch.toml
+│   ├── 54510850 - SpongeBob - Truth or Square.patch.toml
+│   ├── 54510866 - WWE All Stars.patch.toml
+│   ├── 545407D4 - Amped 3.patch.toml
+│   ├── 545407DF - Table Tennis.patch.toml
+│   ├── 545407EE - The Darkness.patch.toml
+│   ├── 545407F2 - Grand Theft Auto IV.patch.toml
+│   ├── 545407F8 - Midnight Club Los Angeles (Complete Edition).patch.toml
+│   ├── 545407F8 - Midnight Club Los Angeles.patch.toml
+│   ├── 5454082B - Red Dead Redemption (GOTY, Disc 1).patch.toml
+│   ├── 5454082B - Red Dead Redemption (GOTY, Disc 2).patch.toml
+│   ├── 5454082B - Red Dead Redemption (Original, NTSC).patch.toml
+│   ├── 5454082B - Red Dead Redemption (Original, NTSC, TU9).patch.toml
+│   ├── 5454082B - Red Dead Redemption-Undead Nightmare (Platinum Hits).patch.toml
+│   ├── 5454085D - Bioshock Infinite.patch.toml
+│   ├── 545408A7 - Grand Theft Auto V (TU26).patch.toml
+│   ├── 545408A7 - Grand Theft Auto V (TU27).patch.toml
+│   ├── 555307DC - Far Cry Instincts Predator.patch.toml
+│   ├── 555307E5 - Naruto Rise of a Ninja.patch.toml
+│   ├── 5553088C - Far Cry 3.patch.toml
+│   ├── 565507D4 - The Bourne Conspiracy.patch.toml
+│   ├── 565707D0 - Lollipop Chainsaw.patch.toml
+│   ├── 565707D0 - Lollipop Chainsaw (Premium Edition).patch.toml
+│   ├── 57520802 - Batman Arkham City GOTY.patch.toml
+│   ├── 57520802 - Batman Arkham City (TU6).patch.toml
+│   ├── 584107D5 - Small Arms.patch.toml
+│   ├── 58410889 - Peggle.patch.toml
+│   ├── 584108A9 - Bean (GoldenEye 007).patch.toml
+│   ├── 584108D3 - Boogie Bunnies.patch.toml
+│   ├── 584108DB - A Kingdom for Keflings.patch.toml
+│   ├── 584108F6 - Shadow Complex.patch.toml
+│   ├── 58410908 - Gel Set & Match.patch.toml
+│   ├── 5841090B - Doritos Dash of Destruction.patch.toml
+│   ├── 58410954 - Banjo-Kazooie.patch.toml
+│   ├── 58410955 - Banjo-Tooie.patch.toml
+│   ├── 58410968 - Outrun Online Arcade.patch.toml
+│   ├── 5841096A - Hydro Thunder Hurricane.patch.toml
+│   ├── 584109FF - Plants vs. Zombies.patch.toml
+│   ├── 58410A34 - Crazy Taxi.patch.toml
+│   ├── 58410A39 - Space Channel 5 Part 2.patch.toml
+│   ├── 58410A70 - Harm's Way.patch.toml
+│   ├── 58410B00 - Dead Rising 2 Case West.patch.toml
+│   ├── 584111E8 - State of Decay (TU5).patch.toml
+│   ├── 584111F7 - Minecraft (XBLA, TU0).patch.toml
+│   ├── 584111F7 - Minecraft (XBLA, TU1).patch.toml
+│   ├── 584111F7 - Minecraft (XBLA, TU2).patch.toml
+│   ├── 584111F7 - Minecraft (XBLA, TU3).patch.toml
+│   ├── 584111F7 - Minecraft (XBLA, TU4).patch.toml
+│   ├── 5841124F - Doritos Crash Course 2.patch.toml
+│   └── 58411436 - Peggle 2.patch.toml
+├── portable.txt
+├── recent.toml
+├── roms
+│   └── xbla
+├── xenia-canary.config.toml
+├── xenia_canary.exe
+├── xenia.config.toml
+└── xenia.log
+```
+
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

@@ -58,6 +58,30 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.  
 
+#### Folder Visualization
+
+`$HOME/.var/app/org.ppsspp.PPSSPP`
+
+```
+org.ppsspp.PPSSPP
+├── cache
+├── config
+│   ├── ppsspp
+│   │   └── PSP
+│   │       ├── CHEATS
+│   │       ├── GAME
+│   │       ├── PPSSPP_STATE
+│   │       ├── SAVEDATA
+│   │       ├── SYSTEM
+│   │       │   ├── controls.ini
+│   │       │   └── ppsspp.ini
+│   │       └── TEXTURES
+│   ├── pulse
+│   │   └── cookie
+│   └── user-dirs.dirs
+└── data
+```
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE
