@@ -529,9 +529,9 @@ If you would like to launch Persona 3 FES directly in Game Mode, follow the belo
 10. Click `Save to Steam`
 11. You can now launch a modded version of Persona 3 FES directly in `Game Mode`
 
-#### Optional Cheats
+#### Popular Mods
 
-* Controllable Party Members, file name: `94A82AAA_Direct_Commands.pnach`
-    * [https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/6fdf06cf7f51c1387bc576e765fd8cd72e009806/94A82AAA-Controllable%2520Party%2520Members.pnach](https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/6fdf06cf7f51c1387bc576e765fd8cd72e009806/94A82AAA-Controllable%2520Party%2520Members.pnach)
+* [Direct Commands](https://gamebanana.com/mods/426860)
+    * Successor to the `Party Controls` cheat 
 
 *** 
