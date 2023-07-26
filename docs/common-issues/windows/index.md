@@ -10,18 +10,20 @@
         - [Asus ROG Ally](#asus-rog-ally)
             - [I have a ROG Ally, my controls do not work!](#i-have-a-rog-ally-my-controls-do-not-work)
 2. [Emulators](#emulators)
-    - [An emulator is not working/controls are not working](#an-emulator-is-not-workingcontrols-are-not-working)
     - [PlayStation 2 games will not launch](#playstation-2-games-will-not-launch)
-    - [Which emulators are available on EmuDeck for Windows?]
-3. [Installation Issues](#installation-issues)
+    - [RetroArch does not have any sound](#retroarch-does-not-have-any-sound)
+3. [General Emulator Issues](#general-emulator-issues)
+    - [An emulator is not working/controls are not working](#an-emulator-is-not-workingcontrols-are-not-working)
+    - [Which emulators are available on EmuDeck for Windows?](#which-emulators-are-available-on-emudeck-for-windows)
+4. [Installation Issues](#installation-issues)
     - [Windows Defender - Wacatac.B!ml virus](#windows-defender---wacatacbml-virus)
     - [Windows is trying to open the EmuDeck Application through the Windows Store](#windows-is-trying-to-open-the-emudeck-application-through-the-windows-store)
     - [EmuDeck is stuck on the "checking for updates" message](#emudeck-is-stuck-on-the-checking-for-updates-message)
     - [EmuDeck - I cannot select a drive](#emudeck---i-cannot-select-a-drive)
-4. [Patreon](#patreon)
+5. [Patreon](#patreon)
     - [I am having difficulty generating a Patreon token](#i-am-having-difficulty-generating-a-patreon-token)
     - [I am subscribed to the Patreon, how do I receive support on Discord?](#i-am-subscribed-to-the-patreon-how-do-i-receive-support-on-discord)
-5. [Uninstalling EmuDeck](#uninstallating-emudeck)
+6. [Uninstalling EmuDeck](#uninstallating-emudeck)
     - [How do I Uninstall EmuDeck for Windows?](#how-do-i-uninstall-emudeck-for-windows)
 
 
@@ -66,13 +68,6 @@ If the above does not work, you may try resetting your emulators on the Manage E
 
 ***
 
-### An emulator is not working/controls are not working
-[Back to the Top](#common-issues-emudeck-for-windows-table-of-contents)
-
-Reset the specific emulator on the Manage Emulators page in the EmuDeck Application. 
-
-***
-
 ### PlayStation 2 games will not launch
 [Back to the Top](#common-issues-emudeck-for-windows-table-of-contents)
 
@@ -81,6 +76,27 @@ Do not create sub-folders in `Emulation\bios`.
 `Emulation\bios\ps2\bios.bin` will not work but `Emulation\bios\bios.bin` will.
 
 Read [PCSX2 Configuration](../../emulators/windows/pcsx2.md#pcsx2-configuration) for more information. 
+
+***
+
+### RetroArch does not have any sound
+[Back to the Top](#common-issues-emudeck-for-windows-table-of-contents)
+
+1. Open RetroArch
+2. go to Settings -> Drivers -> Audio
+3. Try the different drivers until one works for you
+
+***
+
+## General Emulator Issues
+[Back to the Top](#common-issues-emudeck-for-windows-table-of-contents)
+
+***
+
+### An emulator is not working/controls are not working
+[Back to the Top](#common-issues-emudeck-for-windows-table-of-contents)
+
+Reset the specific emulator on the Manage Emulators page in the EmuDeck Application. 
 
 ***
 
