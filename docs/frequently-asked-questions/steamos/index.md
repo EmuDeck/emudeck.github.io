@@ -1002,9 +1002,9 @@ These systems will have a set default. However, you can change which emulator or
 ### How do I reset an emulator's configurations?
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-Sometimes after installing EmuDeck, you may notice an emulator's configurations were not set properly or you tweaked something on accident and you do not remember the default settings. In the latest update of EmuDeck, there is a `Guides` section that allows you to pick which emulator you would like to reset. 
+Sometimes after installing EmuDeck, you may notice an emulator's configurations were not set properly or you tweaked something on accident and you do not remember the default settings. 
 
-You can reset an emulator's configurations in the `Emulator Guides` page. 
+You may reset an emulator's configurations in the `Manage Emulators` page. 
 
 **Tutorial**
 
@@ -1014,6 +1014,7 @@ You can reset an emulator's configurations in the `Emulator Guides` page.
 4. Click `Reset configuration`, wait a moment.
     1. Using PCSX2 as an example: <img src="https://user-images.githubusercontent.com/108900299/196877825-0a4fd76f-bed0-487a-95d5-5454e631f920.png" height="200">
 5. Your selected emulator has been reset.
+
 
 ***
 

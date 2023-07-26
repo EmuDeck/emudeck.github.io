@@ -11,6 +11,7 @@
 
 2. [Managing Emulators and Tools](#managing-emulators-and-tools)
     - [How to Swap out AppImages and Binaries](#how-to-swap-out-appimages-and-binaries)
+    - [How do I reset an emulator's configurations?](#how-do-i-reset-an-emulators-configurations)
 
 3. [Managing Files](#managing-files)
     - [How to Use Symlinks](#how-to-use-symlinks)
@@ -206,6 +207,24 @@ For some emulators, your ROMs launch using a script created by EmuDeck, which lo
 Watch the following GIF for a visual (Yuzu is being used as an example in this GIF):
 
 <img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/3c461f555ed3eb882e2ee1273a53429ae3fda486/GIFs/Swapping%20out%20AppImages%20and%20Binaries.gif?raw=true"/>
+
+***
+
+### How do I reset an emulator's configurations?
+[Back to the Top](#file-management-table-of-contents)
+
+Sometimes after installing EmuDeck, you may notice an emulator's configurations were not set properly or you tweaked something on accident and you do not remember the default settings. 
+
+You may reset an emulator's configurations in the `Manage Emulators` page. 
+
+**Tutorial**
+
+1. Open EmuDeck on your desktop.
+2. Click the `Manage Emulators` button.
+3. Select which emulator configurations you would like to reset in the drop-down menu.
+4. Click `Reset configuration`, wait a moment.
+    1. Using PCSX2 as an example: <img src="https://user-images.githubusercontent.com/108900299/196877825-0a4fd76f-bed0-487a-95d5-5454e631f920.png" height="200">
+5. Your selected emulator has been reset.
 
 ***
 
