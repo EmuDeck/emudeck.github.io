@@ -70,6 +70,62 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 * Your game will not show in the RPCS3 UI until you add it manually through the `Add Game` option under `File` in the top left. 
 
+#### Folder Visualization
+
+`$HOME/.var/app/net.rpcs3.RPCS3`
+
+```
+net.rpcs3.RPCS3
+├── cache
+│   ├── fontconfig
+│   ├── mesa_shader_cache
+│   │   ├── 17
+│   │   ├── 9b
+│   │   ├── d6
+│   │   └── ea
+│   ├── rpcs3
+│   │   ├── savestates
+│   │   ├── shaderlog
+│   │   └── spu_progs
+│   └── tmp
+├── config
+│   ├── kdeglobals
+│   ├── pulse
+│   │   └── cookie
+│   ├── QtProject.conf
+│   ├── rpcs3
+│   │   ├── captures
+│   │   ├── config.yml
+│   │   ├── dev_bdvd
+│   │   ├── dev_flash
+│   │   ├── dev_flash2
+│   │   ├── dev_flash3
+│   │   ├── dev_hdd1
+│   │   │   └── caches
+│   │   ├── dev_usb000
+│   │   ├── games.yml
+│   │   ├── GuiConfigs
+│   │   │   └── CurrentSettings.ini
+│   │   ├── Icons
+│   │   ├── patches
+│   │   ├── sounds
+│   │   └── uuid
+│   └── user-dirs.dirs
+└── data
+```
+
+`Emulation/storage/rpcs3`
+
+```
+rpcs3/
+└── dev_hdd0
+    ├── disc
+    ├── game
+    ├── home
+    ├── photo
+    └── savedata
+```
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

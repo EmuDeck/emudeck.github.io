@@ -126,6 +126,57 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
     * Symlink:  `Emulation/saves/Cemu/saves/`
     * Target: `Emulation/roms/wiiu/mlc01/usr/save`
 
+#### Folder Visualization
+
+`$HOME/.config/Cemu/` 
+
+```
+Cemu/
+├── controllerProfiles
+│   ├── controller0.xml
+│   ├── controller1.xml
+│   ├── controller2.xml
+│   ├── controller3.xml
+│   ├── Deck-Gamepad-Gyro.xml
+│   ├── Deck-P1.xml
+│   ├── Deck-P2.xml
+│   ├── Deck-P3.xml
+│   └── Deck-P4.xml
+└── settings.xml
+```
+
+`$HOME/.local/share/Cemu/`
+
+```
+Cemu/
+├── graphicPacks
+└── memorySearcher
+```
+
+`$HOME/.cache/Cemu`
+
+```
+Cemu/
+└── shaderCache
+    ├── driver
+    ├── precompiled
+    └── transferable
+```
+
+`Emulation/roms/wiiu/mlc01`
+
+```
+wiiu/mlc01/
+├── sys
+│   ├── sys
+│   ├── title
+│   └── usr
+└── usr
+    ├── boss
+    ├── save
+    └── title
+```
+
 #### Works With
 * Steam ROM Manager
 * EmulationStation-DE

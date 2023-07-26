@@ -105,6 +105,44 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
+#### Folder Visualization
+
+`$HOME/.config/yuzu`
+
+```
+yuzu/
+├── custom
+├── input
+│   ├── emudeck.ini
+│   └── emudeck.ini.bak
+├── qt-config.ini
+├── qt-config.ini.bak
+└── telemetry_id
+```
+
+`$HOME/.local/share/yuzu`
+
+```
+yuzu
+├── amiibo
+├── keys
+├── log
+└── shader
+```
+
+`Emulation/storage/yuzu`
+
+```
+yuzu/
+├── dump
+├── load
+├── nand
+├── screenshots
+├── sdmc
+└── tas
+```
+
+
 #### Works with:
 * Steam ROM Manager
 * EmulationStation-DE
