@@ -14,7 +14,7 @@
 - [x] [Ryujinx (Nintendo Switch)](https://ryujinx.org/)
 - [x] [Yuzu (Nintendo Switch)](https://yuzu-emu.org/)
 
-## Planned Emulators not added yet
+## Planned Emulators
 
 - [ ] [mGBA (Gameboy, Gameboy Color, and Gameboy Advance) (Standalone)](https://mgba.io/)
 - [ ] [ScummVM (Point and Click Adventures)](https://www.scummvm.org/)
