@@ -11,11 +11,11 @@
 
 2. [Managing Emulators and Tools](#managing-emulators-and-tools)
     - [How to Swap out AppImages and Binaries](#how-to-swap-out-appimages-and-binaries)
-    - [How do I reset an emulator's configurations?](#how-do-i-reset-an-emulators-configurations)
+    - [How to reset an emulator's configurations to EmuDeck's defaults](#how-to-reset-an-emulators-configurations-to-emudecks-defaults)
 
 3. [Managing Files](#managing-files)
     - [How to Use Symlinks](#how-to-use-symlinks)
-    - [How do I transfer files to my Steam Deck?](#how-do-i-transfer-files-to-my-steam-deck)
+    - [How to transfer files to a Steam Deck](#how-to-transfer-files-to-a-steam-deck)
 
 ***
 
@@ -210,7 +210,7 @@ Watch the following GIF for a visual (Yuzu is being used as an example in this G
 
 ***
 
-### How do I reset an emulator's configurations?
+### How to reset an emulator's configurations to EmuDeck's defaults
 [Back to the Top](#file-management-table-of-contents)
 
 Sometimes after installing EmuDeck, you may notice an emulator's configurations were not set properly or you tweaked something on accident and you do not remember the default settings. 
@@ -271,7 +271,7 @@ When you have your original folder or file and the destination ready, drag the o
 
 ***
 
-### How do I transfer files to my Steam Deck?
+### How to transfer files to a Steam Deck
 [Back to the Top](#file-management-table-of-contents)
 
 #### Preface
