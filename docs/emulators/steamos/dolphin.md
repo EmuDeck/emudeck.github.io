@@ -82,7 +82,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Wii Menu (Optional): Open the Dolphin emulator, click `Tools` at the top, click `Perform System Update`, select a Region
     * To use: Click `Tools`, click `Load Wii System Menu...`
     * The Wii Menu is not required to play Wii ROMs
-    * For further reading: https://wiki.dolphin-emu.org/index.php?title=Wii_Menu
+    * For further reading: [https://wiki.dolphin-emu.org/index.php?title=Wii_Menu](https://wiki.dolphin-emu.org/index.php?title=Wii_Menu)
 
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
