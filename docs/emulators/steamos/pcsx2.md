@@ -87,10 +87,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 ```
 PCSX2
-├── bios
-├── cache
 ├── cheats
-├── covers
 ├── gamesettings
 ├── inis
 │   └── PCSX2.ini
@@ -98,9 +95,7 @@ PCSX2
 ├── logs
 ├── memcards
 ├── patches
-├── snaps
 ├── sstates
-├── textures
 └── videos
 ```
 
