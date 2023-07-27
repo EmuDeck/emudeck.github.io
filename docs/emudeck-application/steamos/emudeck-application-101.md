@@ -15,7 +15,7 @@ A breakdown of the EmuDeck application and how to use its full suite of features
     - [Quick Reset](#quick-reset)
     - [Custom Reset](#custom-reset)
     - [Power Tools](#power-tools)
-    - [DeckyControls](#decky-controls)
+    - [DeckyControls](#deckycontrols)
     - [SteamDeckGyroDSU](#steamdeckgyrodsu)
     - [EmuDeck Compressor](#emudeck-compressor)
     - [BIOS Checker](#bios-checker)
