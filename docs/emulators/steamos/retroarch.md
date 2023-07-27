@@ -529,7 +529,7 @@ When the time comes to switch discs:
 5. Close RetroArch and reload content. No shaders will be applied
     * Yes, it may be hard to see, but no more LCD squares
     * <img src="https://user-images.githubusercontent.com/1683513/174447652-b4ca78d1-7b5a-4ae9-b3f9-120a5b16f3cc.png" height="300">
-6. If you want to select a different shader, open the `Shaders` menu again, and select your preferred settings/shaders. When you are satisfied, select the `Save` button
+6. If you want to select a different shader, open the `Shaders` menu again, and select your preferred settings/shaders. When you are satisfied, select the `Save` button, and click `Save Content Directory Preset`
     * <img src="https://user-images.githubusercontent.com/1683513/174447945-3929b8d0-cb9f-45f8-9e15-18d172703cd7.png" height="300">
 
 #### How to apply shaders if shaders are not already applied
