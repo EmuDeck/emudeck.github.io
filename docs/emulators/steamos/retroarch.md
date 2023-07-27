@@ -27,6 +27,9 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
     - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)   
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Change Shaders](#how-to-change-shaders)
+        - [How to Download/Update Shaders](#how-to-downloadupdate-shaders)
+        - [How to apply shaders if shaders are already applied](#how-to-apply-shaders-if-shaders-are-already-applied)
+        - [How to apply shaders if shaders are not already applied](#how-to-apply-shaders-if-shaders-are-not-already-applied)
     - [How to Change Controller Layouts on a Per Game Basis](#how-to-change-controller-layouts-on-a-per-game-basis)
     - [How to Change Controller Layouts for a System](#how-to-change-controller-layouts-for-a-system)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
@@ -535,8 +538,11 @@ When the time comes to switch discs:
 2. Open the Quick Menu with L3 and R3
 3. Select `Shaders`
     * <img src="https://user-images.githubusercontent.com/1683513/174447565-be119f1e-38a3-4297-9248-ae3fcc48ee0f.png" height="300">
-4. Select a shader
-5. Apply a `Content Directory Override`
+4. Select `Load`
+5. Select a shader
+6. Back out to the `Shaders` menu
+7. Click `Save`, click `Save Content Directory Preset`
+9. Back out to the `Quick Menu`, click `Overrides`, and click `Save Content Directory Overrides`
 
 The order they are listed in is the order they take precedence, from most general to most specific.
 
