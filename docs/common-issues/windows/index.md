@@ -5,10 +5,10 @@
 ## Common Issues: EmuDeck for Windows Table of Contents
    
 1. [Controls](#controls)
-   - [General Control Issues](#general-control-issues)
-   - [Device Specific Issues](#device-specific-issues)
-      - [Asus ROG Ally](#asus-rog-ally)
-      - [I have a ROG Ally, my controls do not work!](#i-have-a-rog-ally-my-controls-do-not-work)
+      - [General Control Issues](#general-control-issues)
+      - [Device Specific Issues](#device-specific-issues)
+         - [Asus ROG Ally](#asus-rog-ally)
+         - [I have a ROG Ally, my controls do not work!](#i-have-a-rog-ally-my-controls-do-not-work)
 2. [Emulators](#emulators)
     - [PlayStation 2 games will not launch](#playstation-2-games-will-not-launch)
     - [RetroArch does not have any sound](#retroarch-does-not-have-any-sound)
