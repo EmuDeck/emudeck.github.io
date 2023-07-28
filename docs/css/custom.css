@@ -1,4 +1,4 @@
-@screen and (max-width: 76.25em){
+@media screen and (max-width: 76.25em){
 	.md-sidebar.md-sidebar--primary .md-nav__item--nested nav.md-nav{
 		padding-left: 16px	
 	}
