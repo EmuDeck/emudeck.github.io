@@ -18,7 +18,7 @@
     - [Which emulators are available on EmuDeck for Windows?](#which-emulators-are-available-on-emudeck-for-windows)
 4. [Installation Issues](#installation-issues)
     - [Windows Defender - Wacatac.B!ml virus](#windows-defender---wacatacbml-virus)
-    - [Windows is trying to open the EmuDeck Application through the Windows Store](#windows-is-trying-to-open-the-emudeck-application-through-the-windows-store)
+    - [7zip and git are not being installed](#7zip-and-git-are-not-being-installed)
     - [EmuDeck is stuck on the "checking for updates" message](#emudeck-is-stuck-on-the-checking-for-updates-message)
     - [EmuDeck - I cannot select a drive](#emudeck---i-cannot-select-a-drive)
 5. [Patreon](#patreon)
@@ -207,6 +207,15 @@ Visit the [Supported Emulators](../../emulators/windows/supported-emulators.md) 
 [Back to the Top](#common-issues-emudeck-for-windows-table-of-contents)
 
 If you see "Wacatac.B!ml virus" from Windows Defender, it is a false positive, you may ignore it.
+
+---
+
+### 7zip and git are not being installed
+
+Open CMD and run these commands:
+
+`winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements`
+`winget install -e --id 7zip.7zip --accept-package-agreements`
 
 ---
 
