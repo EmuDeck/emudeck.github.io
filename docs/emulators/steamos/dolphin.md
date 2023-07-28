@@ -468,8 +468,10 @@ For additional information, read Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ***
 
-## How to Configure Wii Games To Use A Gamecube Controller
+### How to Configure Wii Games To Use A Gamecube Controller
 [Back to the Top](#dolphin-table-of-contents)
+
+#### Single Player 
 
 1. Right click a Wii game
 2. Click `Properties`
@@ -485,24 +487,28 @@ For additional information, read Dolphin's "GameINI (Controller Settings)" Wiki 
 6. Click OK and your Wii game should now be using a Gamecube controller profile
     * <img src="https://user-images.githubusercontent.com/108900299/213080943-80187386-77db-4918-b8d8-74a648b2f422.png" height="300">
 
-**Multiplayer**
+#### Multiplayer
 
-Use the following template:
+1. Right click a Wii game
+2. Click `Properties`
+3. Click the `Game Config` tab
+4. Click the `Editor` tab
+5. Under `User Config`, enter the following
 
-```
-[Controls]
-PadType0 = 6
-PadType1 = 6
-PadType2 = 6
-PadType3 = 6
-PadProfile1 = GC_base
-WiimoteSource0 = 0
-WiimoteSource1 = 0
-WiimoteSource2 = 0
-WiimoteSource3 = 0
-```
+            [Controls]
+            PadType0 = 6
+            PadType1 = 6
+            PadType2 = 6
+            PadType3 = 6
+            PadProfile1 = GC_base
+            WiimoteSource0 = 0
+            WiimoteSource1 = 0
+            WiimoteSource2 = 0
+            WiimoteSource3 = 0
 
-For additional information, read Dolphin's "GameINI (Controller Settings)" Wiki Page: [https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings))
+6. Click OK and your Wii game should now be using a Gamecube controller profile
+
+For additional information, read `Dolphin's GameINI (Controller Settings)` Wiki Page: [https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings))
 
 ***
 
