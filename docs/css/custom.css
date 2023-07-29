@@ -1,0 +1,12 @@
+@media screen and (max-width: 76.25em){
+	.md-sidebar.md-sidebar--primary .md-nav__item--nested nav.md-nav{
+		padding-left: 16px	
+	}
+	.md-sidebar.md-sidebar--primary .md-nav__item--nested nav.md-nav .md-nav__list{
+		list-style: circle
+	}
+	
+	.md-header__button.md-logo img, .md-header__button.md-logo svg{
+		height: 3rem
+	}	
+}
