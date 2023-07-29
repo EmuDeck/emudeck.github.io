@@ -126,9 +126,9 @@ Refer to [https://docs.scummvm.org/en/latest/use_scummvm/game_files.html and htt
 **Tutorial:**
 
 1. In `Emulation/roms/scummvm`, rename your game folder to `GAMENAME.scummvm` 
-    * Use https://www.steamgriddb.com/ to find the game page so it can properly match to art in Steam ROM Manager
+    * Use [https://www.steamgriddb.com/](https://www.steamgriddb.com/) to find the game page so Steam ROM Manager can properly scrape art for your game
     * Example:
-        * Maniac Mansion: https://www.steamgriddb.com/game/14212
+        * Maniac Mansion: [https://www.steamgriddb.com/game/14212](https://www.steamgriddb.com/game/14212)
             * Name the game folder `Maniac Mansion (1987).scummvm`
 2. Repeat for each ScummVM game
 3. Your game should now be compatible with Steam ROM Manager
@@ -142,22 +142,30 @@ Example: <img src="https://user-images.githubusercontent.com/108900299/214456141
 ### How to Configure ScummVM to Work With EmulationStation-DE
 [Back to the Top](#scummvm-table-of-contents)
 
-For EmulationStation-DE, once you place a compatible ScummVM game in `Emulation/roms/scummvm`, you need to both create a .scummvm file matching the game's short name and rename the game folder to match that .scummvm file. 
+For EmulationStation-DE, once you place a compatible ScummVM game in `Emulation/roms/scummvm`, you will need to both create a ``.scummvm` file matching the game's short name and rename the game folder to match that `.scummvm` file. 
 
-**Instructions:**
+**Here's How**
 
-1. Open https://www.scummvm.org/compatibility, and note the game's `Short Name` in the `ScummVM ID` column, after the colon 
-    1. Use the game's `Short Name` for these instructions
-    2. Example: Discworld's shortname is `dw`
+1. Open [https://www.scummvm.org/compatibility](https://www.scummvm.org/compatibility), and note down the game's `Short Name` in the `ScummVM ID` column. 
+    * You will see two words, `word1:word2`, in the `ScummVM ID` column, the shortname is `word2` 
+    * For example: Discworld's `ScummVM ID` is `tinsel:dw`, therefore the shortname is `dw`
+        * ![Discworld Short Name](../../assets/scummvm-esde-1.png) 
 2. In `Emulation/roms/scummvm`, rename your game folder to `shortname.scummvm`
-    1. No spaces, all lowercase including the file extension `.scummvm`
-    2. Example: `dw.scummvm`
+    * Replace `shortname` with the shortname you located in Step 1
+    * The folder needs to contain no spaces and all lowercase characters including the file extension `.scummvm`
+    * For Example: `dw.scummvm`
+        * ![Discworld Folder Name](../../assets/scummvm-esde-2.png)
 3. In the game folder, right click and create a new text file
 4. Name it `shortname.scummvm`, matching the folder name exactly
-    1. No spaces, all lowercase including the file extension `.scummvm`
-    2. Example: `dw.scummvm`, matching Sub-Step 2 in Step 2
-5. Save the text file
-6. Repeat for each ScummVM game
+    * Replace `shortname` with the shortname you located in Step 1
+    * The file needs to match the folder name exactly, no spaces, all lowercase characters including the file extension `.scummvm`
+    * For example: `dw.scummvm`, matching the folder example in Step 2
+        * ![Discworld File Name](../../assets/scummvm-esde-3.png)
+5. Right click the file you created in Step 4 and open it in Kate or a text editor of your choice
+6. Write the `shortname` from Step 1 on a single line. Save and exit the text file
+    * For example:
+        * ![Discworld Text Example](../../assets/scummvm-esde-4.png)
+6. Repeat as needed for each ScummVM game
 7. Your game should now show up in and launch directly from EmulationStation-DE
 
 **Note:** 
