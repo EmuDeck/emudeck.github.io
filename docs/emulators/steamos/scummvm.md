@@ -174,7 +174,7 @@ A few examples using folder visualizations:
 `The Dig`
 
 ```
-dig.scummvm/
+dig.scummvm
 ├── DIG.LA0
 ├── DIG.LA1
 ├── DIGMUSIC.BUN
@@ -198,7 +198,7 @@ sky.scummvm
 `The Neverhood`
 
 ```
-neverhood.scummvm/
+neverhood.scummvm
 ├── a.blb
 ├── c.blb
 ├── hd.blb
