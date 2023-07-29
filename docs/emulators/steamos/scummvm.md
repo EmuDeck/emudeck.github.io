@@ -142,7 +142,7 @@ Example: <img src="https://user-images.githubusercontent.com/108900299/214456141
 ### How to Configure ScummVM to Work With EmulationStation-DE
 [Back to the Top](#scummvm-table-of-contents)
 
-For EmulationStation-DE, once you place a compatible ScummVM game in `Emulation/roms/scummvm`, you will need to both create a ``.scummvm` file matching the game's short name and rename the game folder to match that `.scummvm` file. 
+For EmulationStation-DE, once you place a compatible ScummVM game in `Emulation/roms/scummvm`, you will need to both create a `.scummvm` file matching the game's short name and rename the game folder to match that `.scummvm` file. 
 
 **Here's How**
 
