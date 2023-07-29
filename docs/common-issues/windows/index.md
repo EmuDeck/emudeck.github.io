@@ -210,10 +210,10 @@ If you see `Wacatac.B!ml` virus from Windows Defender, it is a false positive, y
 1. Open the Command Prompt, or CMD for short
     * You may open CMD a couple of ways:
         * The easiest may be to search `CMD` in the `Start menu`
-3. Run the below commands, one at a time:
+3. Run the below commands, one line at a time:
 
-                    winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements
-                    winget install -e --id 7zip.7zip --accept-package-agreements
+        winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements
+        winget install -e --id 7zip.7zip --accept-package-agreements
 
 ---
 
