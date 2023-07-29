@@ -169,6 +169,47 @@ For EmulationStation-DE, once you place a compatible ScummVM game in `Emulation/
 6. Repeat as needed for each ScummVM game
 7. Your game should now show up in and launch directly from EmulationStation-DE
 
+A few examples using folder visualizations:
+
+`The Dig`
+
+```
+dig.scummvm/
+├── DIG.LA0
+├── DIG.LA1
+├── DIGMUSIC.BUN
+├── dig.scummvm
+├── DIGVOICE.BUN
+└── VIDEO
+```
+
+`Beneath a Steel Sky`
+
+```
+sky.scummvm
+├── MT32_CONTROL.ROM
+├── MT32_PCM.ROM
+├── SKY.CPT
+├── sky.dnr
+├── sky.dsk
+└── sky.scummvm
+```
+
+`The Neverhood`
+
+```
+neverhood.scummvm/
+├── a.blb
+├── c.blb
+├── hd.blb
+├── i.blb
+├── m.blb
+├── neverhood.dat
+├── neverhood.scummvm
+├── s.blb
+└── t.blb
+```
+
 **Note:** 
 
 * This method is compatible with Steam ROM Manager, but your ROMs may not be parsed  correctly. You may need to create exceptions to properly match your ROMs to their respective SteamGridDB entry. Refer to [How to Fix a Mismatched Entry](../../tools/steamos/steam-rom-manager.md#how-to-fix-a-mismatched-entry) for instructions.
