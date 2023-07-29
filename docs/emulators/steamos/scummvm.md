@@ -157,7 +157,7 @@ For EmulationStation-DE, once you place a compatible ScummVM game in `Emulation/
         * ![Discworld Folder Name](../../assets/scummvm-esde-2.png)
 3. In the game folder, right click and create a new text file
 4. Name it `shortname.scummvm`, matching the folder name exactly
-    * When you create a text file, Linux may attach a `.txt` file extension, replace `.txt` with `scummvm` if this is the case
+    * When you create a text file, Linux may attach a `.txt` file extension, replace `.txt` with `.scummvm` if this is the case
     * Replace `shortname` with the shortname you located in Step 1
     * The file needs to match the folder name exactly, no spaces, all lowercase characters including the file extension `.scummvm`
     * For example: `dw.scummvm`, matching the folder example in Step 2
