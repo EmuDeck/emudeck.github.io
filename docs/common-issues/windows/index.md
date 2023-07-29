@@ -225,7 +225,7 @@ Open CMD and run powershell. If you are getting an error, try: [https://confluen
 
 Try changing your DNS: [https://pureinfotech.com/change-dns-server-address-windows-11/#:~:text=To%20change%20the%20DNS%20address,and%20change%20the%20DNS%20address](https://pureinfotech.com/change-dns-server-address-windows-11/#:~:text=To%20change%20the%20DNS%20address,and%20change%20the%20DNS%20address).
 
-If you are not getting an error, delete the following folder: `USERFOLDER/AppData/Roaming/EmuDeck/backend` and launch EmuDeck again.
+If you are not getting an error, delete the following folder: `%appdata%\Roaming\EmuDeck\backend` and launch EmuDeck again.
 
 ---
 
@@ -271,7 +271,8 @@ Read this Patreon article to link your Patreon account to your Discord, [https:/
 
 [Back to the Top](#common-issues-emudeck-for-windows-table-of-contents)
 
-1. Delete `USERFOLDER/AppData/Roaming/EmuDeck`
-2. Delete `USERFOLDER/emudeck` -> This will delete all the saved games!
-3. Go to Programs and Features inside windows configuration and uninstall EmuDeck.
+1. Delete `%appdata%\Roaming\EmuDeck`
+2. Delete `%USERPROFILE%\emudeck`
+    * ⚠️ **This will delete all of your save files** ⚠️
+3. Open Programs and Features in the `Control Panel` and uninstall EmuDeck
 4. Done!
