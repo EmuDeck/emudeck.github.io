@@ -26,6 +26,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
 
 2. [MAME Tips and Tricks](#mame-tips-and-tricks)
       - [Maintaining ROM Versions](#maintaining-rom-versions)
+      - [How to Determine if a ROM Requires BIOS](#how-to-determine-if-a-rom-requires-bios)
       - [How to Determine if a ROM Requires a CHD File](#how-to-determine-if-a-rom-requires-a-chd-file)
       - [How to Add Custom Bezels](#how-to-add-custom-bezels)
       - [How to Enable Shaders/Scanlines in MAME (Standalone)](https://github.com/dragoonDorise/EmuDeck/wiki/MAME#how-to-enable-shadersscanlines-in-mame-standalone)
@@ -171,6 +172,54 @@ To understand how MAME works, look up the difference between merged and split RO
 Reference image: <img src="https://user-images.githubusercontent.com/108900299/230745173-8be48509-2131-4dc7-b4da-efb96a4b2594.png" height="300">
 
 **Note:** Refer to [https://docs.mamedev.org/usingmame/aboutromsets.html](https://docs.mamedev.org/usingmame/aboutromsets.html), for additional information. 
+
+***
+
+### How to Determine if a ROM Requires BIOS
+
+Some ROMs for MAME may require BIOS to run. For this section, these ROMs will be split into either `System` or `Software` ROMs. To delineate between the two simply, `System` ROMs are typically arcade ROMs and `Software` ROMs are usually computers or video game consoles. 
+
+#### How to Determine if a System ROM Requires BIOS
+
+1. In a folder of your choice, right click anywhere in the folder, and click `Open Terminal here`
+2. Enter:
+    * `flatpak run org.mamedev.MAME -listxml > mame.xml`
+3. This command will create a `mame.xml` file in the folder you chose in Step 1
+4. Right click `mame.xml`, click `Open with Kate` or a text editor of your choice
+5. Search the file (either using `Ctrl` + `F` or by clicking `Edit` --> `Find`) and type in `isbios`
+6. You will see a line that generally looks like the following:
+    * `<machine name="MACHINENAME" sourcefile="PATH/FILENAME" isbios="yes">`
+    * For example
+        * `<machine name="neogeo" sourcefile="neogeo/neogeo.cpp" isbios="yes">`
+7. Let's break this line down, using `neogeo` as an example:
+    * `<machine name="neogeo" sourcefile="neogeo/neogeo.cpp" isbios="yes">`
+        * `isbios="yes"` means BIOS are required for the Neo-Geo MV-6F
+        * The `machine_name=` gives you the name of the BIOS file. BIOS files for `System` ROMs always have a `.zip` file extension. For `neogeo`, the bios will be `neogeo.zip`
+        * The list of files below the `manufacturer` typically comprise the files in a merged `neogeo.zip` file. Using a merged `neogeo.zip` may take up extra space but guarantees you have the BIOS necessary to play any Neo-Geo MV-6F ROM
+8. Place your BIOS in `Emulation/bios` or `Emulation/roms/arcade` (the latter is required if you are playing through EmulationStation-DE)
+
+Recreating this file whenever MAME updates will get you the latest list of which System ROMs require BIOS. 
+
+#### How to Determine if a Software ROM Requires BIOS
+
+1. Open [http://adb.arcadeitalia.net/default.php](http://adb.arcadeitalia.net/default.php)
+2. Search for the name of the console or computer in the search box, respecting punctuation and hyphenation when possible
+3. On the respective console or computer's page, scroll down to `Required Files`, and click `SHOW MAME REQUIRED FILES`
+    * ![Game.com Example](../../assets/mame-required-bios-software-1.png)
+4. Place the file(s) in the list in `Emulation/bios` or the matching ROM folder (the latter is required if you are playing through EmulationStation-DE)
+    * For example, if you are playing `Game.com` through EmulationStation-DE, place `gamecom.zip` in `Emulation/roms/gamecom`
+
+##### How to View Compatibility for Software ROMs
+
+1. Open [http://adb.arcadeitalia.net/default.php](http://adb.arcadeitalia.net/default.php)
+2. Click `SOFTWARE` on the left side
+3. Search for your console or computer in the `SYSTEM` box and click `Search`
+    * For example, Game.com: [http://adb.arcadeitalia.net/?search=mess&machine_name=gamecom%3B](http://adb.arcadeitalia.net/?search=mess&machine_name=gamecom%3B)
+4. You will see a full list of the ROMs for that respective console or computer. The circle color in the top right of each box is the game's compatibility
+    * Green: Supported
+    * Yellow: Imperfect
+        * Some pages may explain the specific issues affecting the game
+    * Red: Not Supported
 
 ***
 
