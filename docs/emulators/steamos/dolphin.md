@@ -1,4 +1,4 @@
-# Dolphin is a Gamecube and Wii emulator.
+# Dolphin is a GameCube and Wii emulator.
 
 Website: [https://dolphin-emu.org/](https://dolphin-emu.org/)
 
@@ -29,20 +29,22 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
     - [How to Share Your Dolphin Controller Profile](#how-to-share-your-dolphin-controller-profile)
     - [How to Set Dolphin Controller Profiles On a Per-Game Basis](#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
-    - [How to Configure Wii Games To Use A Gamecube Controller](#how-to-configure-wii-games-to-use-a-gamecube-controller)
+    - [How to Configure Wii Games To Use A GameCube Controller](#how-to-configure-wii-games-to-use-a-gamecube-controller)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
     - [How to use Riivolution Patches](#how-to-use-riivolution-patches)
     - [How to Configure Real Wiimotes](#how-to-configure-real-wiimotes)
     - [How to Use a Mayflash DolphinBar in Game Mode](#how-to-use-a-mayflash-dolphinbar-in-game-mode)
+    - [How to Set Up GameCube BIOS (Optional)](#how-to-set-up-gamecube-bios)
+    - [How to Set Up the Wii Menu (Optional)](#how-to-set-up-the-wii-menu)
 
 ***
 
 ## Getting Started with Dolphin
 [Back to the Top](#dolphin-table-of-contents)
 
-Dolphin is a fairly straight-forward emulator to set up. Place your Wii ROMs in `Emulation/roms/wii` and your `Gamecube` ROMs in either `Emulation/roms/gc` or `Emulation/roms/gamecube`. No additional setup is required. Read the [Configuration](#dolphin-configuration) section to learn more about Dolphin and its folder locations. 
+Dolphin is a fairly straight-forward emulator to set up. Place your Wii ROMs in `Emulation/roms/wii` and your `GameCube` ROMs in either `Emulation/roms/gc` or `Emulation/roms/gamecube`. No additional setup is required. Read the [Configuration](#dolphin-configuration) section to learn more about Dolphin and its folder locations. 
 
-To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Gamecube or Wii ROMs:
+To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your GameCube or Wii ROMs:
 
 * `EmulationStation-DE`
 * `Nintendo GameCube - Dolphin` or `Nintendo Wii - Dolphin`
@@ -55,35 +57,40 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: Flatpak
 * Config Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu`
-* Gamecube Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
+* GameCube Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
 * Wii Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
-* ROM Location (Gamecube): `Emulation/roms/gc` or `Emulation/roms/gamecube`
+* ROM Location (GameCube): `Emulation/roms/gc` or `Emulation/roms/gamecube`
+    * No BIOS are required to play GameCube ROMs
 * ROM Location (Wii): `Emulation/roms/wii`
-    * No BIOS are required to play Gamecube or Wii ROMs
-* Dolphin does not need any additional BIOS files to run
+    * No BIOS are required to play Wii ROMs
 * Saves (Wii):
     * Symlink: `Emulation/saves/dolphin/Wii`
     * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Wii`
-* Saves (Gamecube):
+* Saves (GameCube):
     * Symlink: `Emulation/saves/dolphin/GC`
     * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC`
 * Save States (Wii):
     * Symlink: `Emulation/saves/dolphin/StateSaves`
     * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
-* Save States (Gamecube):
+* Save States (GameCube):
     * Symlink: `Emulation/saves/dolphin/StateSaves`
     * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
-* Gamecube BIOS (Optional): `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/IPL.bin`
-    * After placing the `IPL.bin` here, you will need to:
-       1. Open the Dolphin emulator
-       2. Open the `Configuration` settings
-       3. Click the `Gamecube` tab 
-       4. uncheck `Skip Main Menu`
-* Wii Menu (Optional): Open the Dolphin emulator, click `Tools` at the top, click `Perform System Update`, select a Region
-    * To use: Click `Tools`, click `Load Wii System Menu...`
-    * The Wii Menu is not required to play Wii ROMs
-    * For further reading: [https://wiki.dolphin-emu.org/index.php?title=Wii_Menu](https://wiki.dolphin-emu.org/index.php?title=Wii_Menu)
-
+* GameCube BIOS (Optional): 
+    * US: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/IPL.bin`
+    * Europe: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/EUR/IPL.bin`
+    * Japan: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/JAP/IPL.bin`
+        1. After placing the `IPL.bin` in the appropriate folder, you will need to:
+            1. Open the Dolphin emulator
+            2. Open the `Configuration` settings
+            3. Click the `GameCube` tab 
+            4. Uncheck `Skip Main Menu`
+* Wii Menu (Optional): 
+    1. To Download:
+        1. Open the Dolphin emulator
+        2. Click `Tools` at the top
+        3. Click `Perform System Update`, select a Region
+    1. To Use: 
+        1. Click `Tools`, click `Load Wii System Menu...`
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
@@ -324,7 +331,7 @@ Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md
 
 To optimize storage, you can use the `EmuDeck Compressor` within EmuDeck.  
 
-The `EmuDeck Compressor` will compress your Gamecube and Wii ROMs from ISO to RVZ.
+The `EmuDeck Compressor` will compress your GameCube and Wii ROMs from ISO to RVZ.
 
 After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update your ROM shortcuts to the newly compressed ROM. 
 
@@ -352,7 +359,7 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 1. Open the Dolphin emulator
 2. Open the `Controller` settings
 3. For each controller you are using: 
-    1. Gamecube: To the right of each Port # under `Gamecube Controllers`, enable `Standard Controller`
+    1. GameCube: To the right of each Port # under `GameCube Controllers`, enable `Standard Controller`
         1. <img src="https://user-images.githubusercontent.com/108900299/210123946-d7c6a1e8-2cff-420d-b51b-0650327d4525.png" height="300">
     2. Wii: To the right of each Port # under `Wii Remotes`, enable `Emulated  Wii Remote`
         1. <img src="https://user-images.githubusercontent.com/108900299/210123969-b8bd7928-ef20-4f8f-a5bf-00285f4d2e8f.png" height="300">
@@ -388,13 +395,13 @@ For a visual, watch the following GIF:
 
 **Preface** 
 
-1. This section goes over how to create a Dolphin controller profile and set it for a specific game. However, you can use this profile for any Gamecube/Wii game. While in game, you can use the following hotkeys to cycle through profiles: 
+1. This section goes over how to create a Dolphin controller profile and set it for a specific game. However, you can use this profile for any GameCube/Wii game. While in game, you can use the following hotkeys to cycle through profiles: 
      1. Wii: `Select` + tilt the `Left Joystick` `Left` or `Right`
-     2. Gamecube: `Select` + tilt the `Left Joystick` `Up` or `Down
-2. EmuDeck currently comes with 6 profiles for Wii and 2 profiles for Gamecube. You can use these as a base to create a profile for your game of choice, using this section's tutorial. 
+     2. GameCube: `Select` + tilt the `Left Joystick` `Up` or `Down
+2. EmuDeck currently comes with 6 profiles for Wii and 2 profiles for GameCube. You can use these as a base to create a profile for your game of choice, using this section's tutorial. 
      1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
      2. Wii: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote)
-     3. Gamecube: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad)
+     3. GameCube: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad)
 
 **Warning:** Creating too many controller configurations may make it difficult to cycle through and pick the one you would like to use. 
 
@@ -404,7 +411,7 @@ For a visual, watch the following GIF:
 
 1. Open the Dolphin emulator, click `Options` at the top, click `Controller Settings`.
 2. Select a system:
-    1. For Gamecube: Click `Configure` to the right of `Port 1 Standard Controller`
+    1. For GameCube: Click `Configure` to the right of `Port 1 Standard Controller`
     2. For Wii: Click `Configure` to the right of `Wii Remote 1 Emulated Wii Remote`
     3. <img src="https://user-images.githubusercontent.com/108900299/196016641-eb5d4e25-048e-480e-8c06-50767f3a3542.png" height="300">
 3. On this screen, configure your controllers however you like. 
@@ -415,7 +422,7 @@ For a visual, watch the following GIF:
 6. Close out of the `Controller Settings` menu. 
 7. To use this profile, choose one of the following methods:
     1. Set it for a specific game: #how-to-set-dolphin-controller-profiles-on-a-per-game-basis
-    2. Select the profile in game, by tilting the `Left Joystick`, `Left` or `Right` (For Wii) or `Up` or `Down` (For Gamecube), until your profile name appears in the top left. 
+    2. Select the profile in game, by tilting the `Left Joystick`, `Left` or `Right` (For Wii) or `Up` or `Down` (For GameCube), until your profile name appears in the top left. 
         1. View the full list of Dolphin hotkeys here: [Hotkeys](#dolphin-hotkeys)
 
 ***
@@ -437,12 +444,12 @@ For a visual, watch the following GIF:
     2. Use one of EmuDeck's included layouts
         1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
         2. Wii: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote)
-        3. Gamecube: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad)
+        3. GameCube: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad)
     3. Create a controller profile in the Dolphin GUI
         1. Tutorial: [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
-2. (Optional) Place your controller profile in either the Gamecube or the Wii Profile folder
+2. (Optional) Place your controller profile in either the GameCube or the Wii Profile folder
     1. Skip this step if you are using an EmuDeck included layout or a profile you created in the Dolphin GUI
-    2. Gamecube Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
+    2. GameCube Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
     3. Wii Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
 3. Open the Dolphin emulator
 4. Right click the game you would like to use this controller profile for, and click `Properties`
@@ -455,7 +462,7 @@ For a visual, watch the following GIF:
             [Controls] 
             WiimoteProfile1 = SelectedProfileName
 
-        **Gamecube:**
+        **GameCube:**
 
             [Controls] 
             PadProfile1 = SelectedProfileName
@@ -468,7 +475,7 @@ For additional information, read Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ***
 
-### How to Configure Wii Games To Use A Gamecube Controller
+### How to Configure Wii Games To Use A GameCube Controller
 [Back to the Top](#dolphin-table-of-contents)
 
 #### Single Player 
@@ -484,7 +491,7 @@ For additional information, read Dolphin's "GameINI (Controller Settings)" Wiki 
          PadProfile1 = GC_base
          WiimoteSource0 = 0
 
-6. Click OK and your Wii game should now be using a Gamecube controller profile
+6. Click OK and your Wii game should now be using a GameCube controller profile
     * <img src="https://user-images.githubusercontent.com/108900299/213080943-80187386-77db-4918-b8d8-74a648b2f422.png" height="300">
 
 #### Multiplayer
@@ -506,7 +513,7 @@ For additional information, read Dolphin's "GameINI (Controller Settings)" Wiki 
             WiimoteSource2 = 0
             WiimoteSource3 = 0
 
-6. Click OK and your Wii game should now be using a Gamecube controller profile
+6. Click OK and your Wii game should now be using a GameCube controller profile
 
 For additional information, read `Dolphin's GameINI (Controller Settings)` Wiki Page: [https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings))
 
@@ -641,3 +648,45 @@ If your Riivolution patch includes additional content, follow the below steps. I
 5. Make sure `Wii Emulator Mode` is toggled on the Mayflash DolphinBar by clicking the `MODE` button (LED 4)
 
 *** 
+
+### How to Set Up GameCube BIOS
+[Back to the Top](#dolphin-table-of-contents)
+
+GameCube BIOS **are not** required to play GameCube games. Adding GameCube BIOS allows you to see the GameCube launch screen when you play GameCube games.
+
+Depending on which region your games are in, select the appropriate BIOS and place in the matching folder below:
+
+**Casing matters**
+
+Japan BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/JAP/IPL.bin`
+US BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/IPL.bin`
+EU BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/EUR/IPL.bin`
+
+After placing your BIOS in the correct place:
+
+1. Open the Dolphin emulator
+2. Open the `Configuration` settings
+3. Click the `GameCube` tab 
+4. Uncheck `Skip Main Menu`
+
+***
+
+### How to Set Up the Wii Menu
+[Back to the Top](#dolphin-table-of-contents)
+
+The Wii Menu **is not** required to play Wii Games.
+
+**To Download**
+
+1. Open the Dolphin emulator
+2. Click `Tools` at the top
+3. Click `Perform System Update`, select a Region
+
+**To Use**
+
+1. Open the Dolphin emulator
+2. Click `Tools`, click `Load Wii System Menu...`
+
+* For further reading: [https://wiki.dolphin-emu.org/index.php?title=Wii_Menu](https://wiki.dolphin-emu.org/index.php?title=Wii_Menu)
+
+***

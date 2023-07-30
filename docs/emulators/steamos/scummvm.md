@@ -168,6 +168,7 @@ For EmulationStation-DE, once you place a compatible ScummVM game in `Emulation/
         * ![Discworld Text Example](../../assets/scummvm-esde-4.png)
 6. Repeat as needed for each ScummVM game
 7. Your game should now show up in and launch directly from EmulationStation-DE
+    * To scrape your games, use ScreenScraper instead of TheGamesDB for best results
 
 A few examples using folder visualizations:
 
