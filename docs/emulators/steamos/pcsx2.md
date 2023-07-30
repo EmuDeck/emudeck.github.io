@@ -510,6 +510,7 @@ If you would like to launch Persona 3 FES directly in Game Mode, follow the belo
 
 1. In Desktop Mode, open Steam ROM Manager
 2. Select the PCSX2 parser on the left and add `|.ELF` to the end of the `User's glob` box. Click `Save` in the bottom left
+    * You may need to change themes to `Deck` or `Classic` first in the `Settings` tab
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/a4fb0a11-476e-4690-8d8d-f1377c6c9330" height="300">
 3. Turn on the PCSX2 parser and parse your games
 4. You will see a large amount of seemingly junk entries from your mod folder, this is expected behavior. You can identify what each entry is by hovering over the text in the top left
