@@ -4,6 +4,14 @@
 
 ***
 
+## Have you tried restarting?
+
+The classic IT solution, works more often than you think. 
+
+Do note that switching between Desktop Mode and Game Mode **is not** a restart. Properly restart your device and see if the issue is resolved. 
+
+***
+
 ## Is everything up to date?
 
 ***
@@ -16,11 +24,21 @@ For more information on updating and which emulators are Flatpaks, AppImages, Bi
 
 Notably, not updating a system library recently caused RetroArch to suddenly stop working. Read [RetroArch does not work anymore - April 30th, 2023](../../common-issues/steamos/index.md#retroarch-does-not-work-anymore---april-30th-2023) for more information. 
 
+***
+
 ## Do you have the correct BIOS or ROM file types?
 
 Visit the [Cheat Sheet](../../cheat-sheet.md) to learn which BIOS and ROM file types you need.
 
 In some cases, `.7z` and `.zip` are **not** correct file formats.
+
+***
+
+## Are you playing in Desktop Mode?
+
+Generally, it is recommended to use Game Mode to play your ROMs. However, if you are in Desktop Mode, make sure to hold the start button for 3 seconds to switch your controller configurations to gamepad configurations. 
+
+With gamepad configurations enabled, your controls will work and you may also use combo hotkeys to exit out of a game. 
 
 ***
 
@@ -49,7 +67,7 @@ You may reset an emulator's configurations in the `Manage Emulators` page.
 
 ***
 
-## Check out the Emulator and Tool pages
+## Have you checked out the various emulator and tool pages?
 
 The wiki has a separate page for each emulator and tool installed by EmuDeck. You can find the emulator pages grouped under their company name on the sidebar. The tool pages can be found under the `Tools` section. Each emulator and tool page has various sections that may go into detail on your question. 
 
@@ -62,8 +80,6 @@ Don't forget, if a page is missing something, you may also contribute to the wik
 If none of the troubleshooting sections above worked for you, gather photos and a log so you can request support in EmuDeck's Discord or Reddit.
 
 If you do not have an easy way of gathering photos, take a few photos with your phone. As long as the information can be captured, the quality of the photo does not matter!
-
-**Here's how to get the EmuDeck Log**
 
 ### How to get the EmuDeck Log
 
