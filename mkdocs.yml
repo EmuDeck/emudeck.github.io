@@ -34,6 +34,13 @@ nav:
             - 'common-issues/windows/index.md'
         - 'EmuDeck for Linux': 
             - 'common-issues/linux/index.md'
+    - Troubleshooting:
+        - 'EmuDeck for SteamOS': 
+            - 'troubleshooting/steamos/index.md'
+        - 'EmuDeck for Windows': 
+            - 'troubleshooting/windows/index.md'
+        - 'EmuDeck for Linux': 
+            - 'troubleshooting/linux/index.md'
     - EmuDeck Maintenance:
         - 'Updating on SteamOS': 'emudeck-maintenance/steamos/updating.md'
         - 'Updating on Windows': 'emudeck-maintenance/windows/updating.md'
