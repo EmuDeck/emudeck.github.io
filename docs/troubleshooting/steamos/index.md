@@ -46,3 +46,47 @@ You may reset an emulator's configurations in the `Manage Emulators` page.
 5. Your selected emulator has been reset.
 
 ***
+
+## Check out the Emulator and Tool pages
+
+The wiki has a separate page for each emulator and tool installed by EmuDeck. You can find them grouped under their company name on the sidebar. Each emulator page has various sections that may go into detail on your question. 
+
+Don't forget, if a page is missing something, you may also contribute to the wiki. Learn how by visiting the [How to Contribute](../../how-to-contribute.md) page. 
+
+***
+
+## Still stuck?
+
+If none of the troubleshooting sections above worked for you, gather photos and a log so you can request support in EmuDeck's Discord or Reddit.
+
+If you do not have an easy way of gathering photos, take a few photos with your phone. As long as the information can be captured, the quality of the photo does not matter!
+
+**Here's how to get the EmuDeck Log**
+
+### How to get the EmuDeck Log
+
+#### Method 1
+
+1. In `Desktop Mode`, open the EmuDeck application
+2. Click `Fetch Log File`
+3. Share the URL with the person providing you support 
+
+#### Method 2
+
+1. Open `/home/deck/emudeck`
+2. Right click `emudeck.log`, click `Share --> Pastebin...`
+    * It may appear blank, you can see the full log by clicking the `raw` button on the Pastebin page
+3. Share the Pastebin URL with the person providing you support
+    * If you do not have a way of sharing URLs easily, share the alphanumerical string at the end of the URL with the person providing you support
+        * You may need to type this manually, however the alphanumerical string is fairly short
+
+***
+
+### How to get the EmuDeck AppImage Log
+
+1. Open `/home/deck/emudeck`
+2. Right click `EmuDeck.AppImage.log`, click `Share --> Pastebin...`
+    * It may appear blank, you can see the full log by clicking the `raw` button on the Pastebin page
+3. Share the Pastebin URL with the person providing you support
+    * If you do not have a way of sharing URLs easily, share the alphanumerical string at the end of the URL with the person providing you support
+        * You may need to type this manually, however the alphanumerical string is fairly short
