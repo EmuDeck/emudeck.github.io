@@ -18,13 +18,13 @@ Notably, not updating a system library recently caused RetroArch to suddenly sto
 
 Visit the [Cheat Sheet](../../cheat-sheet.md) to learn which BIOS and ROM file types you need.
 
-In some cases, `.7z` and `.zip` are **not** the correct formats.
+In some cases, `.7z` and `.zip` are **not** correct file formats.
 
 ***
 
 ## Are your ROMs or BIOS valid?
 
-Do you have a good ROM or BIOS dump? Corrupt, incomplete, or incorrect ROMs or BIOS can be a common reason why your game does not work.
+Do you have a good ROM or BIOS dump? Corrupt, incomplete, or incorrect ROMs or BIOS can be a common reason why your game does not work. Transferring between two systems can be one reason for incomplete ROMs. If your ROM works on another machine, that **does not** mean it will work on the Steam Deck if the transfer was incomplete. 
 
 Read [How to Verify ROMs](../../file-management/steamos/file-management.md#how-to-verify-roms) to learn how to verify your ROMs and BIOS.
 
