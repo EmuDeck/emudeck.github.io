@@ -205,6 +205,14 @@ If you see `Wacatac.B!ml` virus from Windows Defender, it is a false positive, y
 
 ---
 
+### Windows is trying to open the EmuDeck Application through the Windows Store
+
+[Back to the Top](#common-issues-emudeck-for-windows-table-of-contents)
+
+Right click on the file, properties and then check on "allow to run this program"
+
+---
+
 ### 7-Zip and Git are not being installed correctly
 
 1. Open the Command Prompt, or CMD for short
