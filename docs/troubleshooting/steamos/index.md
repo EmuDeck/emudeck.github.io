@@ -51,7 +51,7 @@ You may reset an emulator's configurations in the `Manage Emulators` page.
 
 ## Check out the Emulator and Tool pages
 
-The wiki has a separate page for each emulator and tool installed by EmuDeck. You can find them grouped under their company name on the sidebar. Each emulator page has various sections that may go into detail on your question. 
+The wiki has a separate page for each emulator and tool installed by EmuDeck. You can find the emulator pages grouped under their company name on the sidebar. The tool pages can be found under the `Tools` section. Each emulator and tool page has various sections that may go into detail on your question. 
 
 Don't forget, if a page is missing something, you may also contribute to the wiki. Learn how by visiting the [How to Contribute](../../how-to-contribute.md) page. 
 
