@@ -8,38 +8,38 @@
 
 ## Prerequisites 
 
-## Debian based (Includes Ubuntu, Pop!_OS, Mint, etc.)
+### Arch based (Includes Endeavour, Manjaro, etc.)
 
 ```sh
-sudo apt-get install jq zenity flatpak unzip bash libfuse2 git rsync
+sudo pacman -Sy bash flatpak fuse2 git jq steam unzip zenity     
+```
+
+### Debian based (Includes Ubuntu, Pop!_OS, Mint, etc.)
+
+```sh
+sudo apt-get install bash flatpak git jq libfuse2 rsync unzip zenity      
 ```
 
 Install Steam as directed by your OS.
 
-## Arch based (Includes Endeavour, Manjaro, etc.)
+### Fedora based (Includes RHEL, CentOS, Nobara, etc.)
 
 ```sh
-sudo pacman -Sy steam jq zenity flatpak unzip bash fuse2 git
-```
-
-## Fedora based (Includes RHEL, CentOS, Nobara, etc.)
-
-```sh
-sudo dnf install jq zenity flatpak unzip bash fuse git rsync
+sudo dnf install bash flatpak fuse git jq rsync unzip zenity   
 ```
 
 Install Steam as directed by your OS.
 
-## OpenSUSE based
+### OpenSUSE based
 
 ```sh
-sudo zypper install steam jq zenity flatpak unzip bash libfuse2 git rsync
+sudo zypper install bash flatpak git jq libfuse2 unzip rsync steam zenity
 ```
 
-## Void based
+### Void based
 
 ```sh
-sudo xbps-install -S steam jq zenity flatpak unzip bash fuse git rsync
+sudo xbps-install -S bash flatpak fuse git jq rsync steam unzip zenity
 ```
 
 ***
