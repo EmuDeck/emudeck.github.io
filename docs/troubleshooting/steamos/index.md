@@ -1,4 +1,4 @@
-# Troubleshooting on SteamOS 
+# Troubleshooting on SteamOS
 
 [TOC]
 
@@ -72,6 +72,16 @@ You may reset an emulator's configurations in the `Manage Emulators` page.
 The wiki has a separate page for each emulator and tool installed by EmuDeck. You can find the emulator pages grouped under their company name on the sidebar. The tool pages can be found under the `Tools` section. Each emulator and tool page has various sections that may go into detail on your question. 
 
 Don't forget, if a page is missing something, you may also contribute to the wiki. Learn how by visiting the [How to Contribute](../../how-to-contribute.md) page. 
+
+***
+
+## If you are using an external controller, have you re-arranged the controller order?
+
+If you are using an external controller, you may need to re-arrange the controller order so your external controller is "Player 1". With emulation and on occasion Steam games, re-arranging the controller is necessary for the external controller to be recognized. 
+
+See the video below to learn how to re-arrange the controller order:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7abY3xhAyJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ***
 
