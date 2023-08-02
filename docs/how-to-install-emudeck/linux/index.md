@@ -39,7 +39,9 @@ sudo zypper install bash flatpak git jq libfuse2 unzip rsync steam zenity
 ### Void based
 
 ```sh
-sudo xbps-install -S bash flatpak fuse git jq rsync steam unzip zenity
+sudo xbps-install -Syv void-repo-nonfree void-repo-multilib
+sudo xbps-install -Syv libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit mesa-dri-32bit
+sudo xbps-install -Syv bash flatpak fuse git jq rsync steam unzip zenity jq xmlstarlet
 ```
 
 ***
