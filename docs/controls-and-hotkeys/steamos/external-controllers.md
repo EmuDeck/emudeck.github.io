@@ -11,6 +11,7 @@
 
 3. [Tips and Tricks](#tips-and-tricks)
     - [How to Disable Steam Input](#how-to-disable-steam-input)
+    - [How to Open the Quick Access Menu](#how-to-open-the-quick-access-menu)
     - [Cemu Native: How to Configure Gyro With External Controllers](../../emulators/steamos/cemu/cemu-native.md#how-to-configure-gyro-with-external-controllers)
 
 4. [Controller Compatibility](#controller-compatibility)
@@ -81,6 +82,22 @@ For a video, see below:
     <source src="/videos/how-to-disable-steam-input.mp4" type="video/mp4">
   </video>
 </figure>
+
+***
+
+### How to Open the Quick Access Menu
+[Back to the Top](#external-controllers-table-of-contents)
+
+* Nintendo Switch Controllers: `HOME` + `A`
+* PlayStation Controllers: `PLAYSTATION BUTTON` + `X`
+* Xbox Controllers: `GUIDE BUTTON` + `A`
+* Steam Controllers: `STEAM BUTTON` + `A`
+ 
+If your controller is not in the above list:
+
+To find the button combination, hold the GUIDE button for 3 seconds and look for the QUICK ACCESS MENU button combination in the list.
+
+For a full list of button combinations, hold the GUIDE button for 3 seconds. 
 
 ***
 
