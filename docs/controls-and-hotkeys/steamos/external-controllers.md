@@ -20,7 +20,7 @@
 
 5. [Multiplayer](#multiplayer)
     - [How to Re-Arrange the Controller Order](#how-to-re-arrange-the-controller-order)
-    - [Generic: How to Configure Multiplayer](generic-how-to-configure-multiplayer)
+    - [Generic: How to Configure Multiplayer](#generic-how-to-configure-multiplayer)
     - [Cemu Native: How to Configure Multiplayer](../../emulators/steamos/cemu/cemu-native.md#how-to-configure-multiplayer)
     - [Cemu Proton: How to Configure Multiplayer](../../emulators/steamos/cemu/cemu-proton.md#how-to-configure-multiplayer)
     - [Dolphin: How to Configure Multiplayer](../../emulators/steamos/dolphin.md#how-to-configure-multiplayer)
@@ -85,7 +85,9 @@ For a video, see below:
 
 #### How to Disable Steam Input in Desktop Mode
 
-In Desktop Mode, exit out of Steam. You may exit out of Steam by right clicking the `Steam` icon in your taskbar and clicking `Quit Steam`. Do note that since your controls are tied to Steam being open, your controls will revert to `Lizard Mode`. You can use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse.
+In Desktop Mode, exit out of Steam. You may exit out of Steam by right clicking the `Steam` icon in your taskbar and clicking `Quit Steam`. 
+
+Do note that since your controls are tied to Steam being open, your controls will revert to `Lizard Mode`. You can use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse.
 
 ***
 
