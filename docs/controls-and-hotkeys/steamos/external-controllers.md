@@ -66,7 +66,7 @@ Read the [Preface](#preface) section for more information on how Steam Input int
 
 Disabling Steam Input may allow you to use your external controller's gyro in multiple emulators, including Cemu, Dolphin, Ryujinx, and Yuzu. 
 
-**How to Disable Steam Input**
+#### How to Disable Steam Input in Game Mode
 
 1. Select a game, emulator, or EmulationStation-DE
 2. On the game's page, click the Controller icon
@@ -82,6 +82,10 @@ For a video, see below:
     <source src="/videos/how-to-disable-steam-input.mp4" type="video/mp4">
   </video>
 </figure>
+
+#### How to Disable Steam Input in Desktop Mode
+
+In Desktop Mode, exit out of Steam. You may exit out of Steam by right clicking the `Steam` icon in your taskbar and clicking `Quit Steam`. Do note that since your controls are tied to Steam being open, your controls will revert to `Lizard Mode`. You can use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse.
 
 ***
 
