@@ -67,6 +67,15 @@ Disabling Steam Input may allow you to use your external controller's gyro in mu
 
 **How to Disable Steam Input**
 
+1. Select a game, emulator, or EmulationStation-DE
+2. On the game's page, click the Controller icon
+3. Select your controller tab at the top
+4. Select the Gear icon to the right of `Edit Layout`
+5. Click `Disable Steam Input`
+    * Use this same menu to re-enable Steam Input
+
+For a video, see below:
+
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
     <source src="/videos/how-to-disable-steam-input.mp4" type="video/mp4">
@@ -106,7 +115,21 @@ Link: [https://www.nintendo.com/store/products/nintendo-64-controller/](https://
 
 If you are using external controllers, you may need to re-arrange the controller orders in order for one external controller to be identified as "Player 1" and for the other controllers to correctly be identified with their corresponding user. With emulation and on occasion Steam games, re-arranging the controller is necessary for external controllers to be recognized. 
 
-See the video below to learn how to re-arrange the controller order:
+To re-arrange the controller order:
+
+1. On an external controller, open the `Quick Access` menu
+
+        Nintendo Switch Controllers: HOME + A
+        PlayStation Controllers: PLAYSTATION BUTTON + X
+        Xbox Controllers: GUIDE BUTTON + A
+        Steam Controllers: STEAM BUTTON + A
+        To find the button combination, hold the GUIDE button for 3 seconds and look for the QUICK ACCESS MENU button combination in the list
+
+2. Open the `Quick Settings` menu (Gear icon)
+3. Scroll down to the bottom, click `Rearrange controller order`
+4. Select your controller order
+
+For a video, see below:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7abY3xhAyJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
