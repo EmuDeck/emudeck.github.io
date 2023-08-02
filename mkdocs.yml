@@ -48,6 +48,7 @@ nav:
         - EmuDeck for SteamOS:
             - 'Controls 101': 'controls-and-hotkeys/steamos/controls-101.md' 
             - 'Hotkeys': 'controls-and-hotkeys/steamos/hotkeys.md'
+            - 'External Controllers': 'controls-and-hotkeys/steamos/external-controllers.md'
         - EmuDeck for Windows:  
             - 'Controls 101': 'controls-and-hotkeys/windows/controls-101.md'
             - 'Hotkeys': 'controls-and-hotkeys/windows/hotkeys.md'

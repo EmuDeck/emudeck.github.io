@@ -1,0 +1,120 @@
+# External Controllers
+
+***
+
+## External Controllers Table of Contents
+
+1. [Preface](#preface)
+
+2. [Common Issues](#common-issues)
+    - [8BitDo Ultimate 2.4G Wireless Controller - Double Inputs](#8bitdo-ultimate-24g-wireless-controller---double-inputs)
+
+3. [Tips and Tricks](#tips-and-tricks)
+    - [How to Disable Steam Input](#how-to-disable-steam-input)
+    - [Cemu Native: How to Configure Gyro With External Controllers](../../emulators/steamos/cemu/cemu-native.md#how-to-configure-gyro-with-external-controllers)
+
+4. [Controller Compatibility](#controller-compatibility)
+    - [8BitDo Ultimate 2.4G Wireless Controller](#8bitdo-ultimate-24g-wireless-controller)
+    - [Nintendo Switch Online: Nintendo 64 Controller](#nintendo-switch-online-nintendo-64-controller)
+
+5. [Multiplayer](#multiplayer)
+    - [How to Re-Arrange the Controller Order](#how-to-re-arrange-the-controller-order)
+    - [Generic: How to Configure Multiplayer](generic-how-to-configure-multiplayer)
+    - [Cemu Native: How to Configure Multiplayer](../../emulators/steamos/cemu/cemu-native.md#how-to-configure-multiplayer)
+    - [Cemu Proton: How to Configure Multiplayer](../../emulators/steamos/cemu/cemu-proton.md#how-to-configure-multiplayer)
+    - [Dolphin: How to Configure Multiplayer](../../emulators/steamos/dolphin.md#how-to-configure-multiplayer)
+    - [Yuzu: How to Configure Multiplayer](../../emulators/steamos/yuzu.md#how-to-configure-multiplayer)
+
+
+***
+
+## Preface
+[Back to the Top](#external-controllers-table-of-contents)
+
+Steam Input is the foundation of controls on the Steam Deck. It's what allows EmuDeck to set up a standardized control scheme across emulators. Steam Input allows you to use a controller with any game or emulator. 
+
+However, Steam Input might also conflict with native features of the controller. One example is that Steam Input does not properly expose the gyro for external controllers to emulators. In these cases, you will need to disable Steam Input and allow the controller to "talk" directly to the emulator to properly expose these features. 
+
+This page will cover how to utilize Steam Input with external controllers, and how to use workarounds when Steam Input does not properly expose various features of an external controller. 
+
+***
+
+## Common Issues
+[Back to the Top](#external-controllers-table-of-contents)
+
+***
+
+### 8BitDo Ultimate 2.4G Wireless Controller - Double Inputs
+[Back to the Top](#external-controllers-table-of-contents)
+
+If you are facing issues with the 8BitDo Ultimate 2.4G Wireless Controller having double inputs, you may consider disabling Steam Input for the respective game causing you issue. 
+
+Read [How to Disable Steam Input](#how-to-disable-steam-input) to learn how to disable Steam Input.
+
+***
+
+## Tips and Tricks
+[Back to the Top](#external-controllers-table-of-contents)
+
+***
+
+### How to Disable Steam Input
+[Back to the Top](#external-controllers-table-of-contents)
+
+Read the [Preface](#preface) section for more information on how Steam Input interacts with your controller.
+
+Disabling Steam Input may allow you to use your external controller's gyro in multiple emulators, including Cemu, Dolphin, Ryujinx, and Yuzu. 
+
+**How to Disable Steam Input**
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/how-to-disable-steam-input.mp4" type="video/mp4">
+  </video>
+</figure>
+
+***
+
+## Controller Compatibility
+[Back to the Top](#external-controllers-table-of-contents)
+
+The controller compatibility section discusses the compatibility on various controllers and how well they work on the Steam Deck. 
+
+***
+
+### 8BitDo Ultimate 2.4G Wireless Controller
+[Back to the Top](#external-controllers-table-of-contents)
+
+Link: [https://shop.8bitdo.com/products/8bitdo-ultimate-c-2-4g](https://shop.8bitdo.com/products/8bitdo-ultimate-c-2-4g)
+
+***
+
+### Nintendo Switch Online: Nintendo 64 Controller
+[Back to the Top](#external-controllers-table-of-contents)
+
+Link: [https://www.nintendo.com/store/products/nintendo-64-controller/](https://www.nintendo.com/store/products/nintendo-64-controller/)
+
+***
+
+## Multiplayer
+[Back to the Top](#external-controllers-table-of-contents)
+
+***
+
+### How to Re-Arrange the Controller Order
+[Back to the Top](#external-controllers-table-of-contents)
+
+If you are using external controllers, you may need to re-arrange the controller orders in order for one external controller to be identified as "Player 1" and for the other controllers to correctly be identified with their corresponding user. With emulation and on occasion Steam games, re-arranging the controller is necessary for external controllers to be recognized. 
+
+See the video below to learn how to re-arrange the controller order:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7abY3xhAyJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+***
+
+### Generic: How to Configure Multiplayer
+[Back to the Top](#external-controllers-table-of-contents)
+
+Some emulators may support external controllers out of the box. Connect your controllers using bluetooth, and multiplayer should work right away.
+
+***
