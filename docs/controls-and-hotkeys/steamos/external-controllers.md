@@ -151,10 +151,15 @@ To re-arrange the controller order:
 2. Open the `Quick Settings` menu (Gear icon)
 3. Scroll down to the bottom, click `Rearrange controller order`
 4. Select your controller order
+    * If you are using a single external controller, swap the external controller and the Steam Deck so the external controller is first in the list
 
 For a video, see below:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7abY3xhAyJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/how-to-re-arrange-the-controller-order.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ***
 

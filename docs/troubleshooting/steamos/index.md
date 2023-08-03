@@ -77,11 +77,7 @@ Don't forget, if a page is missing something, you may also contribute to the wik
 
 ## If you are using an external controller, have you re-arranged the controller order?
 
-If you are using an external controller, you may need to re-arrange the controller order so your external controller is "Player 1". With emulation and on occasion Steam games, re-arranging the controller is necessary for the external controller to be recognized. 
-
-See the video below to learn how to re-arrange the controller order:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7abY3xhAyJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+Read the [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) section on the External Controllers page to learn how. 
 
 ***
 
