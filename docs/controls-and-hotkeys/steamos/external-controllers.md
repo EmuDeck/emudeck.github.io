@@ -12,6 +12,7 @@
 3. [Tips and Tricks](#tips-and-tricks)
     - [How to Disable Steam Input](#how-to-disable-steam-input)
     - [How to Open the Quick Access Menu](#how-to-open-the-quick-access-menu)
+    - [How to Re-Arrange the Controller Order](#how-to-re-arrange-the-controller-order)
     - [Cemu Native: How to Configure Gyro With External Controllers](../../emulators/steamos/cemu/cemu-native.md#how-to-configure-gyro-with-external-controllers)
 
 4. [Controller Compatibility](#controller-compatibility)
@@ -19,7 +20,6 @@
     - [Nintendo Switch Online: Nintendo 64 Controller](#nintendo-switch-online-nintendo-64-controller)
 
 5. [Multiplayer](#multiplayer)
-    - [How to Re-Arrange the Controller Order](#how-to-re-arrange-the-controller-order)
     - [Generic: How to Configure Multiplayer](#generic-how-to-configure-multiplayer)
     - [Cemu Native: How to Configure Multiplayer](../../emulators/steamos/cemu/cemu-native.md#how-to-configure-multiplayer)
     - [Cemu Proton: How to Configure Multiplayer](../../emulators/steamos/cemu/cemu-proton.md#how-to-configure-multiplayer)
@@ -107,32 +107,6 @@ For a full list of button combinations, hold the GUIDE button for 3 seconds.
 
 ***
 
-## Controller Compatibility
-[Back to the Top](#external-controllers-table-of-contents)
-
-The controller compatibility section discusses the compatibility on various controllers and how well they work on the Steam Deck. 
-
-***
-
-### 8BitDo Ultimate 2.4G Wireless Controller
-[Back to the Top](#external-controllers-table-of-contents)
-
-Link: [https://shop.8bitdo.com/products/8bitdo-ultimate-c-2-4g](https://shop.8bitdo.com/products/8bitdo-ultimate-c-2-4g)
-
-***
-
-### Nintendo Switch Online: Nintendo 64 Controller
-[Back to the Top](#external-controllers-table-of-contents)
-
-Link: [https://www.nintendo.com/store/products/nintendo-64-controller/](https://www.nintendo.com/store/products/nintendo-64-controller/)
-
-***
-
-## Multiplayer
-[Back to the Top](#external-controllers-table-of-contents)
-
-***
-
 ### How to Re-Arrange the Controller Order
 [Back to the Top](#external-controllers-table-of-contents)
 
@@ -160,6 +134,32 @@ For a video, see below:
     <source src="/videos/how-to-re-arrange-the-controller-order.mp4" type="video/mp4">
   </video>
 </figure>
+
+***
+
+## Controller Compatibility
+[Back to the Top](#external-controllers-table-of-contents)
+
+The controller compatibility section discusses the compatibility on various controllers and how well they work on the Steam Deck. 
+
+***
+
+### 8BitDo Ultimate 2.4G Wireless Controller
+[Back to the Top](#external-controllers-table-of-contents)
+
+Link: [https://shop.8bitdo.com/products/8bitdo-ultimate-c-2-4g](https://shop.8bitdo.com/products/8bitdo-ultimate-c-2-4g)
+
+***
+
+### Nintendo Switch Online: Nintendo 64 Controller
+[Back to the Top](#external-controllers-table-of-contents)
+
+Link: [https://www.nintendo.com/store/products/nintendo-64-controller/](https://www.nintendo.com/store/products/nintendo-64-controller/)
+
+***
+
+## Multiplayer
+[Back to the Top](#external-controllers-table-of-contents)
 
 ***
 
