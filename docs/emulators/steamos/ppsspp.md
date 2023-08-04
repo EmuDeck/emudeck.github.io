@@ -17,7 +17,7 @@ Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://
     - [How to Update PPSSPP](#how-to-update-ppsspp)
     - [How to Launch PPSSPP in Desktop Mode](#how-to-launch-ppsspp-in-desktop-mode)
     - [File Formats](#ppsspp-file-formats)
-    - [How to Manage DLC](#ppsspp-how-to-manage-dlc)
+    - [How to Manage DLC](#how-to-manage-dlc)
     - [Hotkeys](#ppsspp-hotkeys)
 
 2. [PPSSPP Tips and Tricks](#ppsspp-tips-and-tricks)

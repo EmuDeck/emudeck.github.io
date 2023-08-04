@@ -84,7 +84,14 @@ com.github.Rosalie241.RMG
             └── State
 ```
 
+`Emulation/storage/RMG`
 
+```
+RMG
+├── cache
+├── HiResTextures
+└── screenshots
+```
 
 #### Works With
 * Steam ROM Manager
