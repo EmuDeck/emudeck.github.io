@@ -57,7 +57,7 @@
 
 #####  Chart
 
-| Steam Deck       | SNES               |
+| Steam Deck       | OG Xbox            |
 |------------------|--------------------|
 | DPAD Up          | DPAD Up            |
 | DPAD Down        | DPAD Down          |
