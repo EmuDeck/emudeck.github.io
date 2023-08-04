@@ -34,6 +34,16 @@ In some cases, `.7z` and `.zip` are **not** correct file formats.
 
 ***
 
+## Performance unexpectedly bad?
+
+There may be a number of reasons for this, but your first debugging tool should be to ensure that both the frame limiter and the refresh rate are off. Consider turning off half rate shading if you had it previously on. Half rate shading may cause visual glitches as well. 
+
+To find these options, press the QAM ("..." button), press the battery icon, press advanced view. 
+
+**Note:** It's a good idea to use per game profiles if you intend on changing any of these settings.
+
+***
+
 ## Are you playing in Desktop Mode?
 
 Generally, it is recommended to use Game Mode to play your ROMs. However, if you are in Desktop Mode, make sure to hold the start button for 3 seconds to switch your controller configurations to gamepad configurations. 

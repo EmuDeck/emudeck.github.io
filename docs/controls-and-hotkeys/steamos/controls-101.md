@@ -44,10 +44,12 @@
 ***
 
 ### Microsoft Controllers
+[Back to the Top](#controls-101-table-of-contents)
 
 ***
 
 #### OG Xbox
+[Back to the Top](#controls-101-table-of-contents)
 
 **OG Xbox Controller**
 
