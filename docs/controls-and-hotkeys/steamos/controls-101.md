@@ -8,13 +8,15 @@
       - [Steam Deck Button Layout](#steam-deck-button-layout)
 
 2. [Controls 101](#controls-101)
-   - [Nintendo Controllers](#nintendo-controller)
-      - [SNES](#snes)
-      - [Nintendo 64](#nintendo-64)
-      - [Gamecube](#gamecube)
-      - [Wii](#wii)
-   - [Personal Computers](#personal-computers)
-      - [Commodore 64](#commodore-64)
+    - [Microsoft Controllers](#microsoft-controllers)
+        - [OG Xbox](#og-xbox)
+    - [Nintendo Controllers](#nintendo-controllers)
+        - [SNES](#snes)
+        - [Nintendo 64](#nintendo-64)
+        - [Gamecube](#gamecube)
+        - [Wii](#wii)
+    - [Personal Computers](#personal-computers)
+        - [Commodore 64](#commodore-64)
 
 ## Controls 101 Configuration
 [Back to the Top](#controls-101-table-of-contents)
@@ -38,6 +40,33 @@
 
 ## Controls 101
 [Back to the Top](#controls-101-table-of-contents)
+
+***
+
+### Microsoft Controllers
+
+***
+
+#### OG Xbox
+
+**OG Xbox Controller**
+
+![OG Xbox Controller](../../assets/steam-deck-og-xbox.png)
+
+#####  Chart
+
+| Steam Deck       | SNES               |
+|------------------|--------------------|
+| DPAD Up          | DPAD Up            |
+| DPAD Down        | DPAD Down          |
+| DPAD Left        | DPAD Left          |
+| DPAD Right       | DPAD Right         |
+| `A`              | `A `               |
+| `B`              | `B`                |
+| `X`              | `X`                |
+| `Y`              | `Y`                |
+| `L1`             | `White Button`     |
+| `R1`             | `Black Button`     |
 
 ***
 
