@@ -248,7 +248,7 @@ Note: Cannot be *built* on the Steam Deck, but can be built elsewhere and copied
 
          # Install dependencies
          # Example for Arch:
-         sudo pacman -Syu build-essential cmake
+         sudo pacman -Syu --needed base-devel cmake
 
          # Clone Repo
          git clone https://github.com/XboxDev/extract-xiso.git
