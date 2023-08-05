@@ -246,6 +246,7 @@ extra:
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+  - javascripts/custom.js
 extra_css:
   - css/github-permalink-style.css
   - css/github-tables.css
