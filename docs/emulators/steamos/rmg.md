@@ -256,7 +256,7 @@ The Nintendo 64DD was a floppy disk drive peripheral for the Nintendo 64.
 
 See [https://en.wikipedia.org/wiki/64DD#Games](https://en.wikipedia.org/wiki/64DD#Games) for a full list of Nintendo 64DD games. 
 
-Nintendo 64DD requires region specific BIOS. Place the respective BIOS from the list below directly in `Emulation/bios` matching the region of your Nintendo 64DD game
+Nintendo 64DD requires region specific BIOS. Place the respective BIOS from the list below directly in `Emulation/bios` matching the region of your Nintendo 64DD game.
 
 * `64DD_IPL_US.n64`
 * `64DD_IPL_JP.n64`
