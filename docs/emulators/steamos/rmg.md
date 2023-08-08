@@ -275,6 +275,8 @@ For the following games, place the Nintendo 64DD ROM in `Emulation/roms/n64dd`, 
 * Mario Artist: Communication Kit
 * Mario Artist: Polygon Studio
 
+**Note:** Mario Artist is not supported at this time.
+
 ***
 
 **For the F-Zero X Expansion Kit, follow the below steps**
@@ -287,7 +289,7 @@ For the following games, place the Nintendo 64DD ROM in `Emulation/roms/n64dd`, 
 **Optional: How to Add F-Zero X Expansion Kit directly to Steam**
 
 1. Place your base Nintendo 64 `F-Zero X` ROM in `Emulation/roms/n64` and the `F-Zero X Expansion Kit` N64DD ROM in `Emulation/roms/n64dd`
-2. Parse your base `F-Zero X` ROM through the `Nintendo 64 - RMG`
+2. Parse your base `F-Zero X` ROM through the `Nintendo 64 - RMG` parser in Steam ROM Manager
 3. In Desktop Mode, open Steam, select the `F-Zero X` ROM, click the `Gear` icon, click `Properties`
     * ![F-Zero X Expansion Kit 1](../../assets/f-zero-x-expansion-kit-1.png)
 4. Scroll to the end of the `Launch Options` box and add `--disk "/path/to/F-Zero X Expansion Kit"` (write the path with the quotes)
