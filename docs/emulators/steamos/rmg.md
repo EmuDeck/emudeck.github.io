@@ -18,6 +18,7 @@ Github: [https://github.com/Rosalie241/RMG](https://github.com/Rosalie241/RMG)
 2. [RMG Tips and Tricks](#rmg-tips-and-tricks)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Configure VRU](#how-to-configure-vru)
+    - [How to Configure N64DD](#how-to-configure-n64dd)
  
 ***
 
@@ -245,5 +246,52 @@ Since the Steam Deck comes with an internal built in microphone, you can use the
     * ![RMG VRU](../../assets/rmg-vru.png) 
 5. Click `OK` in the bottom right
 6. VRU is now enabled
+
+***
+
+### How to Configure N64DD
+[Back to the Top](#rmg-table-of-contents)
+
+The Nintendo 64DD was a floppy disk drive peripheral for the Nintendo 64.
+
+See [https://en.wikipedia.org/wiki/64DD#Games](https://en.wikipedia.org/wiki/64DD#Games) for a full list of Nintendo 64DD games. 
+
+Nintendo 64DD requires region specific BIOS. Place the respective BIOS from the list below directly in `Emulation/bios` matching the region of your Nintendo 64DD game
+
+* `64DD_IPL_US.n64`
+* `64DD_IPL_JP.n64`
+* `64DD_IPL_DEV.n64`
+
+***
+
+For the following games, place the Nintendo 64DD ROM in `Emulation/roms/n64dd`, no additional set-up is required. Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser or play them directly through EmulationStation-DE.
+
+* Mario Artist: Paint Studio
+* Doshin the Giant
+* Mario Artist: Talent Studio
+* SimCity 64
+* Japan Pro Golf Tour 64
+* Doshin the Giant: Tinkling Toddler Liberation Front! Assemble!
+* Mario Artist: Communication Kit
+* Mario Artist: Polygon Studio
+
+***
+
+**For the F-Zero X Expansion Kit, follow the below steps**
+
+1. Place your base Nintendo 64 `F-Zero X` ROM in `Emulation/roms/n64` and the `F-Zero X Expansion Kit` N64DD ROM in `Emulation/roms/n64dd`
+2. Open Rosalie's Mupen GUI, right click the base `F-Zero X` ROM, click `Play Game With Disk` and select the `F-Zero X Expansion Kit` N64DD ROM in `Emulation/roms/n64dd`
+
+***
+
+**Optional: How to Add F-Zero X Expansion Kit directly to Steam**
+
+1. Place your base Nintendo 64 `F-Zero X` ROM in `Emulation/roms/n64` and the `F-Zero X Expansion Kit` N64DD ROM in `Emulation/roms/n64dd`
+2. Parse your base `F-Zero X` ROM through the `Nintendo 64 - RMG`
+3. In Desktop Mode, open Steam, select the `F-Zero X` ROM, click the `Gear` icon, click `Properties`
+    * ![F-Zero X Expansion Kit 1](../../assets/f-zero-x-expansion-kit-1.png)
+4. Scroll to the end of the `Launch Options` box and add `--disk "/path/to/F-Zero X Expansion Kit"` (write the path with the quotes)
+    * ![F-Zero X Expansion Kit 2](../../assets/f-zero-x-expansion-kit-2.png)
+
 
 ***
