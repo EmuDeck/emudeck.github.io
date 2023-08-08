@@ -264,7 +264,9 @@ Nintendo 64DD requires region specific BIOS. Place the respective BIOS from the 
 
 ***
 
-For the following games, place the Nintendo 64DD ROM in `Emulation/roms/n64dd`, no additional set-up is required. Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser or play them directly through EmulationStation-DE.
+For the following games, place the Nintendo 64DD ROM in `Emulation/roms/n64dd`, **no** additional set-up is required. These games are plug and play. 
+
+Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser in Steam ROM Manager or play them directly through EmulationStation-DE.
 
 * Mario Artist: Paint Studio
 * Doshin the Giant
