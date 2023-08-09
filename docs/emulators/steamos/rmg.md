@@ -269,7 +269,9 @@ Nintendo 64DD requires region specific BIOS. Place the respective BIOS from the 
 
 ***
 
-For the following games, place the Nintendo 64DD ROM in `Emulation/roms/n64dd`, **no** additional set-up is required. These games are plug and play. 
+For the following games, place the Nintendo 64DD ROM in `Emulation/roms/n64` or `Emulation/roms/n64dd`, **no** additional set-up is required. These games are plug and play. 
+
+To play your games directly through Rosalie's Mupen GUI, your ROMs must be placed in `Emulation/roms/n64`. To use Steam ROM Manager or EmulationStation-DE, your ROMs may be either in `Emulation/roms/n64` or `Emulation/roms/n64dd`. 
 
 Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser in Steam ROM Manager or play them directly through EmulationStation-DE.
 
