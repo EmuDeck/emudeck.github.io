@@ -262,6 +262,11 @@ Nintendo 64DD requires region specific BIOS. Place the respective BIOS from the 
 * `64DD_IPL_JP.n64`
 * `64DD_IPL_DEV.n64`
 
+**Note:** 
+
+* The BIOS must be named exactly as above. BIOS with any deviations from the above **will not** work. Make sure you have the proper casing, characters, and spelling. 
+* BIOS must be placed in `Emulation/bios`. If you create a sub-folder, the BIOS will not be picked up and Nintendo 64DD games **will not** work. 
+
 ***
 
 For the following games, place the Nintendo 64DD ROM in `Emulation/roms/n64dd`, **no** additional set-up is required. These games are plug and play. 
