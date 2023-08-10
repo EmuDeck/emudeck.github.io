@@ -293,7 +293,7 @@ Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser in 
 1. Place your base Nintendo 64 `F-Zero X` ROM in `Emulation/roms/n64` and the `F-Zero X Expansion Kit` N64DD ROM in `Emulation/roms/n64dd`
     * The regions for the base ROM and the expansion kit need to match. If you are using the Japanese `F-Zero X Expansion Kit` ROM, you need a Japanese `F-Zero X` ROM
 2. Right click `F-Zero X`, click `Edit Game Settings`
-3. Click the `Core` tab undeer the `Game` tab
+3. Click the `Core` tab under the `Game` tab
 4. Check `Override Core Settings`
 5. Change the `CPU Emulator` to `Cached Interpreter`, close out of the settings menu
 6. Right click the base `F-Zero X` ROM, click `Play Game With Disk` and select the `F-Zero X Expansion Kit` N64DD ROM in `Emulation/roms/n64dd`
