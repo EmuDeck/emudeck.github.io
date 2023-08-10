@@ -284,14 +284,19 @@ Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser in 
 * Mario Artist: Communication Kit
 * Mario Artist: Polygon Studio
 
-**Note:** Mario Artist is not supported at this time.
+**Note:** Mario Artist will boot but the mouse peripheral is not supported at this time.
 
 ***
 
 **For the F-Zero X Expansion Kit, follow the below steps**
 
 1. Place your base Nintendo 64 `F-Zero X` ROM in `Emulation/roms/n64` and the `F-Zero X Expansion Kit` N64DD ROM in `Emulation/roms/n64dd`
-2. Open Rosalie's Mupen GUI, right click the base `F-Zero X` ROM, click `Play Game With Disk` and select the `F-Zero X Expansion Kit` N64DD ROM in `Emulation/roms/n64dd`
+    * The regions for the base ROM and the expansion kit need to match. If you are using the Japanese `F-Zero X Expansion Kit` ROM, you need a Japanese `F-Zero X` ROM
+2. Right click `F-Zero X`, click `Edit Game Settings`
+3. Click the `Core` tab undeer the `Game` tab
+4. Check `Override Core Settings`
+5. Change the `CPU Emulator` to `Cached Interpreter`, close out of the settings menu
+6. Right click the base `F-Zero X` ROM, click `Play Game With Disk` and select the `F-Zero X Expansion Kit` N64DD ROM in `Emulation/roms/n64dd`
 
 ***
 
