@@ -200,24 +200,40 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 ### How to Set Up DSIWare
 [Back to the Top](#melonds-table-of-contents)
 
-1. If you have a game that when extracted is just "00000000", change the extension to ".app" so it becomes "00000000.app". This makes the game recognizable in melonDS.
-2. Place your DSI BIOS in `Emulation/bios`.
+**Preface:** Generally, DSIWare games are named `00000000` with no file extension. This section assumes you have these types of DSIWare ROMs. 
+
+1. Place your DSI BIOS in `Emulation/bios`
     * Read the [Configuration](#melonds-configuration) section for additional detail
-3. Open melonDS. At the main screen, select Config -> Emu Settings
-4. In General: Console type -> DSi (experimental)
-5. In DSi-mode: Point the ARM9 BIOS, ARM7 BIOS, Firmware, and NAND to the files you acquired
-6. At the main screen, select System -> Manage DSi titles
-7. In DSi Title Manager: Import title
-8. Select your 00000000.app as the Executable, then for Metadata select "Download from NUS"
-9. At the main screen, select File -> Boot Firmware
-10. Select your newly-installed DSiWare game and start playing
+2. Place your DSIWare ROMs in `Emulation/roms/nds`
+3. Rename your `00000000` DSIWare ROM to `GAMENAME.app`
+    * Replace `GAMENAME` with the name of the DSIWare game
+    * For example:
+        * Original file name: `00000000`
+        * Updated file name: `X-Scape.app`
+4. In Desktop Mode, open melonDS
+5. At the top, select `Config`, `Emu Settings`
+6. On the `General` tab, change the `Console type` to `DSi (experimental)`, close out of this menu
+    * ![How to Set Up DSIWare](../../assets/how-to-set-up-dsiware-1.png)
+7. At the top, select `System`, `Manage DSi titles`
+8. On the `DSi Title Manager` screen, select `Import title`
+9. Select your `GAMENAME.app` as the `Executable`
+10. Under `Metadata`, select `Download from NUS`, close out of this menu
+11. Select `File`, `Boot Firmware`
+12. Select your newly-installed DSiWare game and start playing
 
 **Steam ROM Manager and EmulationStation-DE**
 
-* You can rename the ROM file from `00000000.app` to `GAMENAME.app` so it can be parsed by Steam ROM Manager and EmulationStation-DE
-    * [SteamGridDB](https://www.steamgriddb.com/) (Steam ROM Manager's source) may not have a game page available for your respective DSIWare game, you can request to create a page here: [https://www.steamgriddb.com/request-game](https://www.steamgriddb.com/request-game)
-      * You will need to login to view this page
-    * [TheGamesDB](https://thegamesdb.net/) and [ScreenScraper](https://www.screenscraper.fr/) (EmulationStation-DE's sources) may not have a game page available for your respective DSIWare game. You may sign up for either website to create a page
+Both EmuDeck's Steam ROM Manager parser for melonDS (Standalone) and EmulationStation-DE support the `.app` file extension. As long as your ROM is in `Emulation/roms/nds`, you may use either option to play your DSIWare ROMs in Game Mode. 
+
+Do note that your ROM may not have art on SteamGridDB or metadata on EmulationStation-DE's scraping websites. Follow the information below if you would like to add art or metadata to one of these websites. 
+
+* Steam ROM Manager
+    * [SteamGridDB](https://www.steamgriddb.com/)
+        * You may request a game page here: [https://www.steamgriddb.com/request-game](https://www.steamgriddb.com/request-game)
+            * You will need to login to view this page
+* EmulationStation-DE
+    * [TheGamesDB](https://thegamesdb.net/) 
+    * [ScreenScraper](https://www.screenscraper.fr/)
 
 ***
 
