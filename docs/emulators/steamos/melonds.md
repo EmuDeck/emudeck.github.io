@@ -205,7 +205,7 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 1. Place your DSI BIOS in `Emulation/bios`
     * Read the [Configuration](#melonds-configuration) section for additional detail
 2. Place your DSIWare ROMs in `Emulation/roms/nds`
-3. Rename your `00000000` DSIWare ROM to `GAMENAME.app`
+3. Right click the ROM in the folder, click `Rename`, rename it from `00000000` to `GAMENAME.app`
     * Replace `GAMENAME` with the name of the DSIWare game
     * For example:
         * Original file name: `00000000`
@@ -221,11 +221,11 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 11. Select `File`, `Boot Firmware`
 12. Select your newly-installed DSiWare game and start playing
 
-**Steam ROM Manager and EmulationStation-DE**
+#### Steam ROM Manager and EmulationStation-DE
 
-Both EmuDeck's Steam ROM Manager parser for melonDS (Standalone) and EmulationStation-DE support the `.app` file extension. As long as your ROM is in `Emulation/roms/nds`, you may use either option to play your DSIWare ROMs in Game Mode. 
+Both EmuDeck's Steam ROM Manager parser for melonDS (Standalone) and EmulationStation-DE support the `.app` file extension. As long as your DSIWare ROMs are in `Emulation/roms/nds`, you may use either option to play your DSIWare ROMs in Game Mode. 
 
-Do note that your ROM may not have art on SteamGridDB or metadata on EmulationStation-DE's scraping websites. Follow the information below if you would like to add art or metadata to one of these websites. 
+Do note that your ROM may not have art on SteamGridDB or metadata on EmulationStation-DE's scraping websites. Follow the links below if you would like to add art or metadata to one of these websites. 
 
 * Steam ROM Manager
     * [SteamGridDB](https://www.steamgriddb.com/)
