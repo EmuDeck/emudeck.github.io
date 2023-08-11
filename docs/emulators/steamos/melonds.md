@@ -205,7 +205,7 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 1. Place your DSI BIOS in `Emulation/bios`
     * Read the [Configuration](#melonds-configuration) section for additional detail
 2. Place your DSIWare ROMs in `Emulation/roms/nds`
-3. Right click the ROM in the folder, click `Rename`, rename it from `00000000` to `GAMENAME.app`
+3. Right click the DSIWare ROM in `Emulation/roms/nds`, click `Rename`, rename it from `00000000` to `GAMENAME.app`
     * Replace `GAMENAME` with the name of the DSIWare game
     * For example:
         * Original file name: `00000000`
