@@ -112,7 +112,7 @@
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/007898fc-3703-4de0-a111-1deca7e8af83" height="300">
 
-**Back:** <img src="https://user-images.githubusercontent.com/108900299/230758433-45ae5fab-c840-4f26-970d-fbe49cbb8dd7.png" height="300">
+**Back:** <img src="https://user-images.githubusercontent.com/108900299/230758433-45ae5fab-c840-4f26-970d-fbe49cbb8dd7.png" width="300">
 
 #####  Chart
 
@@ -175,7 +175,7 @@
 
 <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/7918e637-c028-45ff-8c88-59382b2fc49b" height="300">
 
-**Nunchuk:** <img src="https://user-images.githubusercontent.com/108900299/230758936-23debd00-ee76-4bd4-b89f-df8cbbf96b62.png" height="300">
+**Nunchuk:** <img src="https://user-images.githubusercontent.com/108900299/230758936-23debd00-ee76-4bd4-b89f-df8cbbf96b62.png" width="300">
 
 #####  Chart
 
