@@ -18,6 +18,10 @@
     - [Personal Computers](#personal-computers)
         - [Commodore 64](#commodore-64)
 
+3. [Controls Tips and Tricks](#controls-tips-and-tricks)
+      - [How to Configure Controls](#how-to-configure-controls)
+
+
 ## Controls 101 Configuration
 [Back to the Top](#controls-101-table-of-contents)
 
@@ -35,6 +39,7 @@
 **Back and Top:** 
 
 <img src="https://user-images.githubusercontent.com/108900299/208781519-b3e91fc3-1a71-4aa4-90f2-a49afa727280.png" height="400">
+
 
 ***
 
@@ -198,5 +203,31 @@
 
 ####  Commodore 64
 [Back to the Top](#controls-101-table-of-contents)
+
+***
+
+### Controls Tips and Tricks
+[Back to the Top](#controls-101-table-of-contents)
+
+***
+
+#### How to Configure Controls
+[Back to the Top](#controls-101-table-of-contents)
+
+If you viewed the controls on this page or in general find that EmuDeck's configurations do not line up with your expectations, you may easily change the controls in Desktop Mode.
+
+1. In Desktop Mode, hold the `Start` button for 3 seconds to change to Gamepad configurations
+2. In the Applications Launcher (Steam icon in the bottom left of your taskbar), select an emulator
+3. In the emulator, locate the input configurations menu and configure the controls to your liking
+
+If you are trying to change controls for a RetroArch core, see: [RetroArch: How to Change Controller Layouts on a Per Game Basis](../../emulators/steamos/retroarch.md#how-to-change-controller-layouts-on-a-per-game-basis) or [How to Change Controller Layouts for a System](../../emulators/steamos/retroarch.md#how-to-change-controller-layouts-for-a-system). 
+
+With RetroArch, you may configure controls in either Desktop Mode or Game Mode. If you are configuring controls in Desktop Mode, do not forget to hold the `Start` button for seconds to change to Gamepad configurations.
+
+**General Tips**
+
+* Do note that some emulators may allow you to save these controls as separate profiles so you do not overwrite EmuDeck's defaults
+* The various emulator pages have sections on where to find the respective emulator's configuration files and folders. These folders usually contain the config files for controller layouts, which you may either backup or share with others
+* If you accidentally change an input setting and would like to reset to EmuDeck's defaults, you may do so on the `Manage Emulators` page in the EmuDeck application
 
 ***
