@@ -220,7 +220,7 @@ If you find that EmuDeck's configurations do not line up with your expectations,
 2. In the Applications Launcher (Steam icon in the bottom left of your taskbar), select an emulator
 3. In the emulator, locate the input configurations menu and configure the controls to your liking
 
-If you are trying to change controls for a RetroArch core, see: [RetroArch: How to Change Controller Layouts on a Per Game Basis](../../emulators/steamos/retroarch.md#how-to-change-controller-layouts-on-a-per-game-basis) or [How to Change Controller Layouts for a System](../../emulators/steamos/retroarch.md#how-to-change-controller-layouts-for-a-system). 
+If you are trying to change controls for a RetroArch core, see: [RetroArch: How to Change Controller Layouts on a Per Game Basis](../../emulators/steamos/retroarch.md#how-to-change-controller-layouts-on-a-per-game-basis) or [RetroArch: How to Change Controller Layouts for a System](../../emulators/steamos/retroarch.md#how-to-change-controller-layouts-for-a-system). 
 
 With RetroArch, you may configure controls in either Desktop Mode or Game Mode. If you are configuring controls in Desktop Mode, do not forget to hold the `Start` button for seconds to change to Gamepad configurations.
 
