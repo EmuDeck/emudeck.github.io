@@ -214,7 +214,7 @@
 #### How to Configure Controls
 [Back to the Top](#controls-101-table-of-contents)
 
-If you viewed the controls on this page or in general find that EmuDeck's configurations do not line up with your expectations, you may easily change the controls in Desktop Mode.
+If you find that EmuDeck's configurations do not line up with your expectations, you may easily change the controls in Desktop Mode.
 
 1. In Desktop Mode, hold the `Start` button for 3 seconds to change to Gamepad configurations
 2. In the Applications Launcher (Steam icon in the bottom left of your taskbar), select an emulator
