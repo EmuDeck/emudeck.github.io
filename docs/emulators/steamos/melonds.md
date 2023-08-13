@@ -200,7 +200,7 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 ### How to Set Up DSIWare
 [Back to the Top](#melonds-table-of-contents)
 
-The HNintendo DSI requires DSI specific BIOS. Place **all** of the files from the list below **directly** in `Emulation/bios`.
+The Nintendo DSI requires DSI specific BIOS. Place **all** of the files from the list below **directly** in `Emulation/bios`.
 
 * `dsi_bios9.bin`
 * `dsi_bios7.bin`
