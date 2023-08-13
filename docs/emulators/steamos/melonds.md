@@ -200,10 +200,23 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 ### How to Set Up DSIWare
 [Back to the Top](#melonds-table-of-contents)
 
+The HNintendo DSI requires DSI specific BIOS. Place **all** of the files from the list below **directly** in `Emulation/bios`.
+
+* `dsi_bios9.bin`
+* `dsi_bios7.bin`
+* `dsi_firmware.bin`
+* `dsi_nand.bin`
+
+**Note:** 
+
+* The BIOS must be named exactly as above. BIOS with any deviations from the above **will not** work. Make sure you have the proper casing, characters, and spelling. 
+* BIOS must be placed in `Emulation/bios`. If you create a sub-folder, the BIOS will not be picked up and Nintendo DSI games **will not** work. 
+
+***
+
 **Preface:** Generally, DSIWare games are named `00000000` with no file extension. This section assumes you have these types of DSIWare ROMs. 
 
 1. Place your DSI BIOS in `Emulation/bios`
-    * Read the [Configuration](#melonds-configuration) section for additional detail
 2. Place your DSIWare ROMs in `Emulation/roms/nds`
 3. Right click the DSIWare ROM in `Emulation/roms/nds`, click `Rename`, rename it from `00000000` to `GAMENAME.app`
     * Replace `GAMENAME` with the name of the DSIWare game
@@ -222,6 +235,8 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 11. Under `Metadata`, select `Download from NUS`, close out of this menu
 12. Select `File`, `Boot Firmware`
 13. Select your newly-installed DSiWare game and start playing
+
+***
 
 #### Steam ROM Manager and EmulationStation-DE
 
