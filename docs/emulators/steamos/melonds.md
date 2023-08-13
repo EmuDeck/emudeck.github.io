@@ -212,14 +212,16 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
         * Updated file name: `X-Scape.app`
 4. In Desktop Mode, open melonDS
 5. At the top, select `Config`, `Emu Settings`
-6. On the `General` tab, change the `Console type` to `DSi (experimental)`, close out of this menu
-    * ![How to Set Up DSIWare](../../assets/how-to-set-up-dsiware-1.png)
-7. At the top, select `System`, `Manage DSi titles`
-8. On the `DSi Title Manager` screen, select `Import title`
-9. Select your `GAMENAME.app` as the `Executable`
-10. Under `Metadata`, select `Download from NUS`, close out of this menu
-11. Select `File`, `Boot Firmware`
-12. Select your newly-installed DSiWare game and start playing
+6. On the `General` tab, change the `Console type` to `DSi (experimental)`
+    * ![How to Set Up DSIWare 1](../../assets/how-to-set-up-dsiware-1.png)
+7. On the `DS-mode` tab, check `Use external BIOS/firmware files`, close out of this menu
+    * ![How to Set Up DSIWare 2](../../assets/how-to-set-up-dsiware-2.png)
+8. At the top, select `System`, `Manage DSi titles`
+9. On the `DSi Title Manager` screen, select `Import title`
+10. Select your `GAMENAME.app` as the `Executable`
+11. Under `Metadata`, select `Download from NUS`, close out of this menu
+12. Select `File`, `Boot Firmware`
+13. Select your newly-installed DSiWare game and start playing
 
 #### Steam ROM Manager and EmulationStation-DE
 
