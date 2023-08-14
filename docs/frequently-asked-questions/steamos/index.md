@@ -21,7 +21,7 @@
     - [How do I choose which emulators to install?](#how-do-i-choose-which-emulators-to-install)
     - [How do I remotely control my Steam Deck?](#how-do-i-remotely-control-my-steam-deck)
     - [How do I transfer files to my Steam Deck?](#how-do-i-transfer-files-to-my-steam-deck)
-    - [How do I transfer my initial install of EmuDeck to my SD Card and Vice Versa?](#how-do-I-transfer-my-initial-install-of-EmuDeck-to-my-SD-Card-and-Vice-Versa)
+    - [How do I transfer my initial install of EmuDeck to my SD Card and Vice Versa?](#how-do-i-transfer-my-initial-install-of-emudeck-to-my-sd-card-and-vice-versa)
     - [How do I change the Steam Input Controller Profile?](#how-do-i-change-the-steam-input-controller-profile) 
     - [How to Verify ROMs](#how-to-verify-roms)
     - [Why is my emulator or game muted?](#why-is-my-emulator-or-game-muted)
