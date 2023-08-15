@@ -195,7 +195,7 @@ For some emulators, your ROMs launch using a script created by EmuDeck, which lo
 #### How to Swap Out Emulators
 
 1. Download the version of the emulator you would like to use, from the list above to your `/home/deck/Downloads` folder
-2. Open the respective emulator folder location, using the list above: #list-of-supported-emulators-and-tools
+2. Open the respective emulator folder location, using the list above: [List of Supported Emulators and Tools](#list-of-supported-emulators-and-tools)
 3. Move the downloaded emulator from Step 1 to the folder in Step 2
 3. Rename or delete the original emulator file
     * Rename it so it can be distinguished from your downloaded file
