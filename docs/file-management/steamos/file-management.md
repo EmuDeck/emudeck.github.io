@@ -31,9 +31,13 @@
 
 #### Preface
 
-To reduce the amount of files to manage, it's recommended to use EmuDeck's `Compression Tool`. Place your ROMs as you normally would in their respective folders, open the EmuDeck application on your desktop and run the `Compression Tool`. If you run the compression tool and you ran Steam ROM Manager previously, you will need to re-run Steam ROM Manager after compression to update your shortcuts. If you are following the guide on this page, you can wait until you are finished to re-run Steam ROM Manager. 
+To reduce the amount of files to manage, it's recommended to use EmuDeck's `Compression Tool`. Place your ROMs as you normally would in their respective folders, open the EmuDeck application on your desktop and run the `Compression Tool`. 
 
-Compressing your ROMs makes managing multi-track games a lot simpler. You can create a playlist file (M3U) and place all of your tracks in this file. After creating the playlist file, treat the M3U file as the game (instead of the individual discs) and when the time comes to switch discs, you can use the various emulator quick-menus to seamlessly move onto the next disc. For a full list of hotkeys, see the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page.
+If you run the compression tool and you ran Steam ROM Manager previously, you will need to re-run Steam ROM Manager after compression to update your shortcuts. If you are following the guide on this page, you can wait until you are finished to re-run Steam ROM Manager. 
+
+Compressing your ROMs makes managing multi-track games a lot simpler. You can create a playlist file (M3U) and place all of your tracks in this file. After creating the playlist file, treat the M3U file as the game (instead of the individual discs).
+
+When the time comes to switch discs, you can use the various emulator quick-menus to seamlessly move onto the next disc. For a full list of hotkeys, see the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page.
 
 **Important** 
 
