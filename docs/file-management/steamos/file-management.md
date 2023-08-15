@@ -64,11 +64,13 @@ Fortunately these M3U files are easy to create.
 6. From now on, you can treat the M3U as the game file, and play the respective ROM discs by running the newly created M3U file through one of EmuDeck's included front-ends: Steam shortcuts created by Steam ROM Manager, EmulationStation-DE, or by running the emulator directly
     * Steam ROM Manager:
       * Steam ROM Manager will still parse all of your discs in addition to the M3U file. To solve this, you can hide each disc entry, and only allow Steam ROM Manager to parse the M3U file
-        * Learn more about this method here: https://github.com/dragoonDorise/EmuDeck/wiki/steam-rom-manager#how-to-manage-roms-with-multiple-discs
+        * To learn more, see: [Steam ROM Manager: How to Manage ROMs with Multiple Discs](../../tools/steamos/steam-rom-manager.md#how-to-manage-roms-with-multiple-discs)
     * EmulationStation-DE:
       * EmulationStation-DE will display all of your discs in addition to the M3U file. To solve this issue, EmulationStation-DE allows you to treat directories as files. 
-        * Learn more about this method here: https://github.com/dragoonDorise/EmuDeck/wiki/EmulationStation-DE#how-to-manage-multiple-discs
-    * Alternatively, you can move all of your Multi-Disk games to a new folder, ie. `psx-multidisk`, and keep the .m3u files in the `psx` folder, changing the contents to point to the disks in their new location. This will prevent those disks from being read, as the parsers will not look in the new folders created. **Note:** Not all emulators support absolute pathing
+        * To learn more, see: [EmulationStation-DE: How to Manage ROMs with Multiple Discs](../../tools/steamos/emulationstation-de.md#how-to-manage-multiple-discs)
+    * Alternatively, you can move all of your Multi-Disk games to a new folder
+        * For example: `psx-multidisk`, and keep the .m3u files in the `psx` folder, changing the contents to point to the disks in their new location. This will prevent those disks from being read, as the parsers will not look in the new folders created
+        * **Note:** Not all emulators support absolute pathing
 
 
 Visual Tutorial: 
