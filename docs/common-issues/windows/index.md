@@ -3,7 +3,7 @@
 ---
 
 ## Common Issues: EmuDeck for Windows Table of Contents
-   
+1. [Dependencies](#dependencies)   
 1. [Controls](#controls)
       - [General Control Issues](#general-control-issues)
       - [Device Specific Issues](#device-specific-issues)
@@ -29,6 +29,17 @@
     - [How do I Uninstall EmuDeck for Windows?](#how-do-i-uninstall-emudeck-for-windows)   
 
 ---
+
+## Dependencies
+
+EmuDeck will automatically install all needed dependencies, but in case something was not installed automatically, open CMD and run these commands **one by one** to install everything manually:
+
+```
+winget install -e --id Git.Git --accept-package-agreements --accept-source-agreements
+winget install -e --id 7zip.7zip --accept-package-agreements --accept-source-agreements
+winget install Microsoft.VCRedist.2015+.x64 --accept-package-agreements --accept-source-agreements
+winget install Microsoft.VCRedist.2015+.x86 --accept-package-agreements --accept-source-agreements
+```
 
 ## Controls
 
