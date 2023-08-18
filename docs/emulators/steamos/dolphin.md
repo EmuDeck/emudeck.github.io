@@ -548,7 +548,7 @@ Example, to use OpenGL for only Super Paper Mario:
 
 ***
 
-**Example Use Cases for Custom Game Settings**
+#### Example Use Cases for Custom Game Settings
 
 * Setting Aspect Ratio on a per game basis
 * Setting OpenGL on a per game basis
@@ -556,12 +556,13 @@ Example, to use OpenGL for only Super Paper Mario:
 
 #### Specific Use Cases for Custom Game Settings
 
-* Pokemon Colosseum: Aspect Ratio keeps changing 
-    * Copy and paste the below lines into the INI editor for Pokemon Colosseum
+##### Pokemon Colosseum: Aspect Ratio keeps changing 
 
-            [Video_Settings]
-            wideScreenHack = False
-            AspectRatio = 2
+* Copy and paste the below lines into the INI editor for Pokemon Colosseum
+
+        [Video_Settings]
+        wideScreenHack = False
+        AspectRatio = 2
 
 ***
 ### How to Use Riivolution Patches
