@@ -396,17 +396,18 @@ For a visual, watch the following GIF:
 
 #### Tutorial
 
-1. Open the Dolphin emulator, click `Options` at the top, click `Controller Settings`.
-2. Select a system:
+1. Switch to Desktop Mode. Hold `Start` for 3 seconds to switch to Gamepad configurations
+2. Open the Dolphin emulator, click `Options` at the top, click `Controller Settings`.
+3. Select a system:
     1. For GameCube: Click `Configure` to the right of `Port 1 Standard Controller`
     2. For Wii: Click `Configure` to the right of `Wii Remote 1 Emulated Wii Remote`
     3. <img src="https://user-images.githubusercontent.com/108900299/196016641-eb5d4e25-048e-480e-8c06-50767f3a3542.png" height="300">
-3. On this screen, configure your controllers however you like. 
-4. After you have finished configuring your controls, in the top right under `Profile`, enter the profile name you would like to use. 
-5. Click `Save` to the right.
+4. On this screen, configure your controllers however you like. 
+5. After you have finished configuring your controls, in the top right under `Profile`, enter the profile name you would like to use. 
+6. Click `Save` to the right.
     1. <img src="https://user-images.githubusercontent.com/108900299/196016662-edbef7c2-5e3e-4280-8efb-d1a9eda9df59.png" height="300">
     2. I named my profile `EXAMPLE`
-6. Close out of the `Controller Settings` menu. 
+7. Close out of the `Controller Settings` menu. 
 
 #### How to Use Your Newly Created Controller Profile
 
