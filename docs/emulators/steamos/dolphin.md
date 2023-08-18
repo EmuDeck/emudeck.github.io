@@ -406,7 +406,7 @@ For a visual, watch the following GIF:
 5. After you have finished configuring your controls, in the top right under `Profile`, enter the profile name you would like to use. 
 6. Click `Save` to the right.
     1. <img src="https://user-images.githubusercontent.com/108900299/196016662-edbef7c2-5e3e-4280-8efb-d1a9eda9df59.png" height="300">
-    2. I named my profile `EXAMPLE`
+    2. `EXAMPLE` is the name of the profile being used as an example
 7. Close out of the `Controller Settings` menu. 
 
 #### How to Use Your Newly Created Controller Profile
@@ -420,7 +420,7 @@ To learn more about how to use the pre-configured hotkeys, read below.
 While in game, you can use the following hotkeys to cycle through profiles: 
 
 * Wii: `Select` + tilt the `Left Joystick` `Left` or `Right`
-* GameCube: `Select` + tilt the `Left Joystick` `Up` or `Down
+* GameCube: `Select` + tilt the `Left Joystick` `Up` or `Down`
 
 **Warning:** Creating too many controller configurations may make it difficult to cycle through and pick the one you would like to use. 
 
