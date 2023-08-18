@@ -362,7 +362,7 @@ Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md
 
 Multiplayer for Yuzu is configured out of the box, no additional configuration is needed. 
 
-You may need to set the `Controller Order` in the Steam QAM (`...` button). 
+You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information.
 
 ***
 ### How to Install Mods

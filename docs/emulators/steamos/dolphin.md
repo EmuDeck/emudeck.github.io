@@ -363,6 +363,7 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
         1. <img src="https://user-images.githubusercontent.com/108900299/210123946-d7c6a1e8-2cff-420d-b51b-0650327d4525.png" height="300">
     2. Wii: To the right of each Port # under `Wii Remotes`, enable `Emulated  Wii Remote`
         1. <img src="https://user-images.githubusercontent.com/108900299/210123969-b8bd7928-ef20-4f8f-a5bf-00285f4d2e8f.png" height="300">
+4. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information
 
 ***
 ### How To Install Custom Textures
