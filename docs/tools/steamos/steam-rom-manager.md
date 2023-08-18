@@ -21,7 +21,7 @@ Read the [EmulationStation-DE](../steamos/emulationstation-de.md) page to learn 
     - [How to Launch Steam ROM Manager in Desktop Mode](#how-to-launch-steam-rom-manager-in-desktop-mode)
     - [How to Reset Steam ROM Manager](#how-to-reset-steam-rom-manager) 
 2. [Common Issues](#common-issues)
-    - [I hit the Remove All button in settings but it didn't work](#i-hit-remove-all-from-settings-but-the-entries-werent-removed)
+    - [I hit the "Remove all added app entries" button, but the entries were not removed!](#i-hit-the-remove-all-added-app-entries-button-but-the-entries-were-not-removed)
     - [Help, I just opened Steam ROM Manager and I have no controls!](#help-i-just-opened-steam-rom-manager-and-i-have-no-controls)
     - [Why does Steam ROM Manager have no parsers?](#why-does-steam-rom-manager-have-no-parsers)
     - ["Please shutdown Steam if it is running"](#please-shutdown-steam-if-it-is-running)
@@ -41,6 +41,7 @@ Read the [EmulationStation-DE](../steamos/emulationstation-de.md) page to learn 
     - [How to Customize Artwork for your ROMs](#how-to-customize-artwork-for-your-roms)
     - [How to Change Themes](#how-to-change-themes)
     - [How to Backup Your Image Choices](#how-to-backup-your-image-choices)
+    - [How to Remove ROMs on a Per System Basis](#how-to-remove-roms-on-a-per-system-basis)
 
 ***
 
@@ -127,24 +128,33 @@ The backup file is named: `userConfigurations.json.bak`.
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 ***
-### I hit remove all from settings, but the Entries weren't removed!
+
+### I hit the "Remove all added app entries" button, but the entries were not removed!
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
-If you used the remove all button and entries weren't removed, but they were uncategorized:
+If you clicked the "Remove all added app entries" button and entries were not properly removed as shown in the image below.
 
 <img src="https://user-images.githubusercontent.com/1683513/236879948-2b1efe0e-c8d5-4697-bdaa-e64d49b3b843.png" height="300">
 
+This is due to some backend changes in a recent Steam ROM Manager update. 
 
-This is due to some backend changes in a recent Steam Rom Manager update. The easiest way to deal with this will be to use the remove function.
-Open Steam Rom Manager, make sure all parsers are enabled. Parse, then hit `Remove from Steam`. This should take care of it. For any stragglers you can remove them manually.
+The easiest way to deal with this will be to use the "Remove from Steam" button in Steam ROM Manager.
 
-The other option (removes all non-steam entries, regardless as to how they were added):
+#### Option 1: Remove from Steam button
 
-1. Exit steam
-2. Navigate to `~/.steam/steam/userdata/YOURSTEAMUSERID/`
+Open Steam ROM Manager, make sure all parsers are enabled. Parse, then hit `Remove from Steam` at the bottom of the screen. This should take care of it. For any stragglers you can remove them manually.
+
+See [How to Remove ROMs on a Per System Basis](#how-to-remove-roms-on-a-per-system-basis) to learn how. 
+
+#### Option 2: Nuclear Option
+
+This option **removes** all non-Steam entries, regardless of how they were added to Steam.
+
+1. In Desktop Mode, exit out of Steam
+2. Navigate to `~/.steam/steam/userdata/YOURSTEAMUSERID/`:material-information-outline:{ title="~ refers to your Home folder" }
 3. Delete the `config` folder
 4. Delete the `760` folder
-5. reopen steam and validate it's all clean.
+5. Reopen Steam and validate that your ROMs were properly removed
 
 ***
 
@@ -656,5 +666,22 @@ Common use cases may include:
 3. Select the folder you backed up in [Exporting](#exporting)
     * <img src="https://user-images.githubusercontent.com/108900299/233225392-b1ffabb1-5820-4aec-854c-a949cc1d8bf2.png" height="300">
 4. Steam ROM Manager will import all of your image choices from the respective parsers you enabled in [Exporting](#exporting)
+
+***
+
+### How to Remove ROMs on a Per System Basis
+
+As an example, if you added a large set of GameCube ROMs to your Steam library and would like to remove only the GameCube ROMs, you may do so by using Steam ROM Manager's `Remove from Steam` feature. 
+
+With this feature, you can also remove multiple sets at once. 
+
+**Here's How**
+
+1. Open Steam ROM Manager
+2. Select the parsers corresponding to which systems you would like to remove from your Steam library
+3. Click the `Preview` button
+4. Click `Parse`
+5. Click the `Remove from Steam` button at the bottom of the screen
+    * ![How to Remove ROMs on a Per System Basis](../../assets/how-to-remove-roms-on%20a-per-system-basis.png)    
 
 ***

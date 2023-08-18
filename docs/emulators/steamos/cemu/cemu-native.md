@@ -450,7 +450,7 @@ Visit [Power Tools](../../../emudeck-application/steamos/emudeck-application-101
 3. Right click a game, click `Edit Game Profile`
 4. Click `Controller`
 5. To the right of each Controller (`Controller 2` through `Controller 4`), select the respective `Deck #` profile (Deck 2 for player 2 and so on)
-6. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information
+6. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information
 
 <img src="https://user-images.githubusercontent.com/108900299/226769760-abc659a8-4ddb-420b-9c33-b98043f27756.png" height="300">
 
