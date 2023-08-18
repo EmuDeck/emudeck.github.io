@@ -437,23 +437,37 @@ While in game, you can use the following hotkeys to cycle through profiles:
 ### How to Set Dolphin Controller Profiles On a Per-Game Basis
 [Back to the Top](#dolphin-table-of-contents)
 
-1. Choose a controller profile (use one of the following methods): 
-    1. Download a controller profile with an `.ini` extension type
-        1. [View community layouts](../../community-creations/steamos/community-creations.md#community-dolphin-profiles)
-    2. Use one of EmuDeck's included layouts
-        1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
-        2. Wii: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote)
-        3. GameCube: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad)
-    3. Create a controller profile in the Dolphin GUI
-        1. Tutorial: [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
-2. (Optional) Place your controller profile in either the GameCube or the Wii Profile folder
-    1. Skip this step if you are using an EmuDeck included layout or a profile you created in the Dolphin GUI
-    2. GameCube Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
-    3. Wii Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
-3. Open the Dolphin emulator
-4. Right click the game you would like to use this controller profile for, and click `Properties`
-5. On the `Game Config` tab, press the `Editor` sub-tab
-6. Under `User Config`, enter a controller profile using the following template:
+#### Selecting a Profile
+
+Skip to [Applying the Profile](#applying-the-profile) if you already have a profile in mind. 
+
+Select a controller profile (use one of the following methods): 
+
+* Create a controller profile in the Dolphin GUI
+    * Tutorial: [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
+* Use one of EmuDeck's included layouts
+    * Wii
+        * `Wii_NoController`
+        * `Wii_base_nunchuck`
+        * `Wii_base_nunchuck_with_touchpad`
+        * `Wii_classic_controller`
+        * `Wii_no_attachment`
+        * `Wii_no_attachment_with_touchpad`
+    * GameCube
+        * `GC_base`
+        * `GC_reverse_camera`
+* Download a controller profile with an `.ini` extension type
+    * [View community layouts](../../community-creations/steamos/community-creations.md#community-dolphin-profiles)
+    *  Place your controller profile in either the GameCube or the Wii Profile folder
+        * GameCube Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
+        * Wii Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
+
+#### Applying the Profile
+
+1. Open the Dolphin emulator
+2. Right click the game you would like to use this controller profile for, and click `Properties`
+3. On the `Game Config` tab, press the `Editor` sub-tab
+4. Under `User Config`, enter a controller profile using the following template:
     * For `SelectedProfileName`, only type the name of the profile, not the file path to the profile
 
         **Wii:**
@@ -468,7 +482,7 @@ While in game, you can use the following hotkeys to cycle through profiles:
 
         **Example (using `EXAMPLE` profile):** <img src="https://user-images.githubusercontent.com/108900299/196016424-9ae19f25-3366-4963-bb30-4b3148718961.png" height="300">
 
-7. Exit out, and your game should now be using the selected profile
+5. Exit out, and your game should now be using the selected profile
 
 For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki Page](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)).
 
