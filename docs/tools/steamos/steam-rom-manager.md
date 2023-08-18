@@ -670,6 +670,7 @@ Common use cases may include:
 ***
 
 ### How to Remove ROMs on a Per System Basis
+[Back to the Top](#steam-rom-manager-table-of-contents)
 
 As an example, if you added a large set of GameCube ROMs to your Steam library and would like to remove only the GameCube ROMs, you may do so by using Steam ROM Manager's `Remove from Steam` feature. 
 
