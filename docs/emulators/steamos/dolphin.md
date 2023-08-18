@@ -393,21 +393,7 @@ For a visual, watch the following GIF:
 ### How to Create Dolphin Controller Profiles
 [Back to the Top](#dolphin-table-of-contents)
 
-**Preface** 
-
-1. This section goes over how to create a Dolphin controller profile and set it for a specific game. However, you can use this profile for any GameCube/Wii game. While in game, you can use the following hotkeys to cycle through profiles: 
-     1. Wii: `Select` + tilt the `Left Joystick` `Left` or `Right`
-     2. GameCube: `Select` + tilt the `Left Joystick` `Up` or `Down
-2. EmuDeck currently comes with 6 profiles for Wii and 2 profiles for GameCube. You can use these as a base to create a profile for your game of choice, using this section's tutorial. 
-     1. For a list of EmuDeck's profiles (you do not need to download any of these, use the links as a reference): 
-     2. Wii: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote)
-     3. GameCube: [https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad](https://github.com/dragoonDorise/EmuDeck/tree/main/configs/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad)
-
-**Warning:** Creating too many controller configurations may make it difficult to cycle through and pick the one you would like to use. 
-
-***
-
-**Tutorial**
+#### Tutorial
 
 1. Open the Dolphin emulator, click `Options` at the top, click `Controller Settings`.
 2. Select a system:
@@ -420,10 +406,21 @@ For a visual, watch the following GIF:
     1. <img src="https://user-images.githubusercontent.com/108900299/196016662-edbef7c2-5e3e-4280-8efb-d1a9eda9df59.png" height="300">
     2. I named my profile `EXAMPLE`
 6. Close out of the `Controller Settings` menu. 
-7. To use this profile, choose one of the following methods:
-    1. Set it for a specific game: #how-to-set-dolphin-controller-profiles-on-a-per-game-basis
-    2. Select the profile in game, by tilting the `Left Joystick`, `Left` or `Right` (For Wii) or `Up` or `Down` (For GameCube), until your profile name appears in the top left. 
-        1. View the full list of Dolphin hotkeys here: [Hotkeys](#dolphin-hotkeys)
+
+#### How to Use Your Newly Created Controller Profile
+
+This section went over how to create a Dolphin controller profile. With this newly  created profile, you may either set it for a specific game, see [How to Set Dolphin Controller Profiles On a Per-Game Basis](#how-to-set-dolphin-controller-profiles-on-a-per-game-basis) or use hotkeys to select your newly created profile on the fly. 
+
+To learn more about how to use the pre-configured hotkeys, read below.
+
+##### Hotkeys
+
+While in game, you can use the following hotkeys to cycle through profiles: 
+
+* Wii: `Select` + tilt the `Left Joystick` `Left` or `Right`
+* GameCube: `Select` + tilt the `Left Joystick` `Up` or `Down
+
+**Warning:** Creating too many controller configurations may make it difficult to cycle through and pick the one you would like to use. 
 
 ***
 
@@ -471,7 +468,7 @@ For a visual, watch the following GIF:
 
 7. Exit out, and your game should now be using the selected profile
 
-For additional information, read Dolphin's "GameINI (Controller Settings)" Wiki Page: [https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings))
+For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki Page](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)).
 
 ***
 
@@ -515,7 +512,7 @@ For additional information, read Dolphin's "GameINI (Controller Settings)" Wiki 
 
 6. Click OK and your Wii game should now be using a GameCube controller profile
 
-For additional information, read `Dolphin's GameINI (Controller Settings)` Wiki Page: [https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings))
+For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki Page](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)).
 
 ***
 
@@ -592,15 +589,6 @@ If your Riivolution patch includes additional content, follow the below steps. I
 * Some Riivolution patches may require additional steps. Read any attached instructions or the associated website for further help. 
 * If a Riivolution patch includes extra content, the `root` directory generally means: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/`. Place any additional content from the patch here. This does not apply to all Riivolution patches, read any attached instructions or the associated website for further help. 
 * Linux is case sensitive. If a patch includes extra content and Dolphin is not identifying it, you may want to read the included XML files and folders to look for any casing mismatches. This does not apply to all Riivolution patches, read any attached instructions or the associated website for further help. 
-
-***
-
-**Known Riivolution Patch Fixes**
-
-* Mario Kart Midnight
-    * Open the included `Mario Kart Midnight.xml` in a text editor and  capitalize the `L` in `loader{$__region}.bin`
-* Mario Kart Wii Deluxe
-    * Rename the included `mkwdx` folder to `MKWDX`
 
 
 ***
