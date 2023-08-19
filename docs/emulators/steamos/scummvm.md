@@ -72,7 +72,6 @@ org.scummvm.ScummVM/
 │   └── user-dirs.dirs
 └── data
     └── scummvm
-        └── saves
 ```
 
 #### Works With

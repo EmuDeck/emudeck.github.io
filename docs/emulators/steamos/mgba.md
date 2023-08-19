@@ -14,15 +14,18 @@ Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
 ## mGBA Table of Contents
 
 1. [Getting Started with mGBA](#getting-started-with-mgba)
-      - [Configuration](#mgba-configuration)
-      - [How to Update mGBA](#how-to-update-mgba)
-      - [How to Launch mGBA in Desktop Mode](#how-to-launch-mgba-in-desktop-mode)
-      - [File Formats](#mbga-file-formats)
-      - [Hotkeys](#mgba-hotkeys)
+    - [Configuration](#mgba-configuration)
+    - [How to Update mGBA](#how-to-update-mgba)
+    - [How to Launch mGBA in Desktop Mode](#how-to-launch-mgba-in-desktop-mode)
+    - [File Formats](#mbga-file-formats)
+    - [Hotkeys](#mgba-hotkeys)
 
-2. [mGBA Tips and Tricks](#mgba-tips-and-tricks)
-      - [How to Use the Gyro Sensor](#how-to-use-the-gyro-sensor)
-      - [How to Use the Tilt Sensor](#how-to-use-the-tilt-sensor)
+2. [Common Issues](#common-issues)
+    - [Special Characters](#special-characters)
+
+3. [mGBA Tips and Tricks](#mgba-tips-and-tricks)
+    - [How to Use the Gyro Sensor](#how-to-use-the-gyro-sensor)
+    - [How to Use the Tilt Sensor](#how-to-use-the-tilt-sensor)
 
 
 
@@ -156,6 +159,25 @@ mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input prof
 * [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 * [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
+
+***
+
+## Common Issues
+
+***
+
+### Special Characters
+[Back to the Top](#mgba-table-of-contents)
+
+Files with special characters in the ROM name will not launch from Steam. 
+
+Rename your ROMs by editing the file name directly in the respective ROM folder and remove the special character.
+
+**Known Cases**
+
+* `é` in `Pokémon`
+
+If you used Steam ROM Manager previously, re-run Steam ROM Manager after renaming your ROMs. 
 
 ***
 

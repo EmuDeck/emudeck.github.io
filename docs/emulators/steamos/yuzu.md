@@ -283,9 +283,11 @@ To clear the shader cache:
 ### Special Characters
 [Back to the Top](#yuzu-table-of-contents)
 
-Files with special characters in the ROM name will not launch from Steam. Rename your ROMs and remove the special character.
+Files with special characters in the ROM name will not launch from Steam. 
 
-Known **Cases**:
+Rename your ROMs by editing the file name directly in the respective ROM folder and remove the special character.
+
+**Known Cases**
 
 * `é` in `Pokémon`
 * `'` in `The Legend of Zelda: Link's Awakening`
