@@ -509,11 +509,17 @@ For a visual, watch the following GIF:
 ### How to Manage ROMs with Multiple Discs
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
+#### Preface
+
 If you are using ROMs with multiple discs, it is recommended to create an M3U file and treat this newly created M3U file as the game. To learn more about M3U files, read [How to Manage ROMs with Multiple Discs](../../file-management/steamos/file-management.md#how-to-manage-roms-with-multiple-discs). 
 
 However, your M3U file and disc files will parse as separate entries in Steam ROM Manager. Fortunately, it is easy to hide the discs and only parse the M3U file to keep your Steam library neat and tidy.
 
+##### PCSX2
+
 **Note:** PCSX2 **does not** support M3U files. You can still use this section to hide any additional discs and only parse Disc 1. Read the [PCSX2 - How to Manage Multiple Discs](../../emulators/steamos/pcsx2.md#how-to-manage-multiple-discs) section for additional information. Do note that with **PCSX2** especially, Steam ROM Manager may parse multiple discs as the same file. Read the [Why do some of my multi-disc games not show up in Steam ROM Manager?](#why-do-some-of-my-multi-disc-games-not-show-up-in-steam-rom-manager) section to learn how to fix it. 
+
+***
 
 #### How to Manage ROMs with Multiple Discs
 
