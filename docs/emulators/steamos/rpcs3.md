@@ -25,6 +25,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
 2. [RPCS3 Tips and Tricks](#rpcs3-tips-and-tricks)
     - [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
     - [Special Game Configurations](#special-game-configurations)
+    - [How to Set up the Motion Sensor with External Controllers](#how-to-set-up-the-motion-sensor-with-external-controllers)
 
 ***
 
@@ -239,5 +240,46 @@ Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.m
 Some games will take additional setup, requiring mods or an extensive alteration of settings. The EmuDeck Community Creations page collects these configurations in one centralized location. 
 
 You can submit or view special game configurations here: [Special Game Configurations](../../community-creations/steamos/community-creations.md#rpcs3-playstation-3)
+
+***
+
+### How to Set up the Motion Sensor with External Controllers
+[Back to the Top](#rpcs3-table-of-contents)
+
+The PlayStation 3 controller, or the DualShock 3 notably had "Sixaxis". Sixaxis refers to the motion sensor used in a handful of games. One of the more popular games that utilized Sixaxis was Folklore. For a full list of games, see [https://www.giantbomb.com/sixaxis-support/3015-5310/games/](https://www.giantbomb.com/sixaxis-support/3015-5310/games/).
+
+Recently, RPCS3 implemented support to allow emulating the Sixaxis through evdev, which exposes the gyro in a large variety of modern controllers (including the Nintendo Switch Pro Controller, 8BitDo Ultimate Controller, and the DualSense). 
+
+At this time, the Steam Deck gyro **cannot** be used. But if you own one of these controllers, you may emulate the Sixaxis through RPCS3.
+
+**Here's How**
+
+#### Desktop Mode
+
+1. In Desktop Mode, exit out of Steam
+    * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
+2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
+3. Click the Steam icon in the bottom left of the taskbar and open `RPCS3` 
+4. Click `Pads` at the top
+5. Under the `Player 1` tab, click the Dropdown box below `Devices` and select your controller
+    * To switch back to the default controller layout, make sure `Steam` is open and select `Steam Virtual Gamepad 1`
+6. Click `Save`, and exit out of RPCS3
+
+#### Game Mode
+
+1. In Game Mode, connect your controller
+2. Select your Wii U game 
+3. On the `Play` screen, select the `Controller` icon to the right of the screen 
+4. Select your controller tab at the top
+5. Click the `Gear` icon to the right, and click `Disable Steam Input`
+6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
+
+For a video, see below:
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/how-to-disable-steam-input.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ***
