@@ -24,7 +24,7 @@
                * [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck)
                * [Wiimote Motion Controls With No Attachment](#wiimote-motion-controls-with-no-attachment)
                * [Super Mario Galaxy 1 and 2](#super-mario-galaxy-1-and-2)
-               * [Gyro Steam Deck on Dolphin](#dolphin-config-4)
+               * [Gyro Steam Deck on Dolphin](#gyro-steam-deck-on-dolphin)
                * [Dolphin Config 5](#dolphin-config-5)
 
 2. [Special Game Configurations](#special-game-configurations)
@@ -67,19 +67,19 @@ This section will go over how to share and post your Steam Input Layouts on this
 
 1. Create a new Steam Input Layout in Game Mode. 
 2. After you are finished, press the Gear icon on the controller layout screen, click `Export Layout`, change `Export Type` to `New Personal Save`.
-    1. Visual Reference 1: <img src="https://user-images.githubusercontent.com/108900299/199400389-e35e7877-0dec-4fde-bdea-28104d981dab.png" height="300">
-    2. Visual Reference 2: <img src="https://user-images.githubusercontent.com/108900299/197309794-404dbe92-6509-485a-8b1f-59f71d965584.png" height="300">
-    3. Visual Reference 3: <img src="https://user-images.githubusercontent.com/108900299/199398759-7db86406-0c13-4f68-8545-4857d1a507ea.png" height="300">
+	* <img src="https://user-images.githubusercontent.com/108900299/199400389-e35e7877-0dec-4fde-bdea-28104d981dab.png" height="300">
+	* Visual Reference 2: <img src="https://user-images.githubusercontent.com/108900299/197309794-404dbe92-6509-485a-8b1f-59f71d965584.png" height="300">
+    * Visual Reference 3: <img src="https://user-images.githubusercontent.com/108900299/199398759-7db86406-0c13-4f68-8545-4857d1a507ea.png" height="300">
 3. Switch to Desktop Mode.
 4. Open Konsole. 
 5. In Konsole, enter: `grep --recursive "<yourprofilename>" ~/.steam/steam/userdata`
-    1. Replace `<yourprofilename>` entirely with the profile name you created in Step 1. 
-    2. Visual Reference (Using `Community Creations` as an example): <img src="https://user-images.githubusercontent.com/108900299/199399154-1d4a9e60-f2cd-4a13-bf89-c2fb2fb4280a.png" height="300">
-6. Open the folder path outputted by the command. 
-    1. `~/.steam` is an invisible folder by default, in Dolphin (File Explorer), press the hamburger button in the top right, ☰, press `Show Hidden Files`.  
-7. Copy this template to another folder of your choice.
-    1. Rename the copied file to something descriptive, like the profile name created in Step 1. 
-8. Right click, click `Open with Kwrite` or a text editor of your choice.
+    * Replace `<yourprofilename>` entirely with the profile name you created in Step 1
+    * Using `Community Creations` as an example: <img src="https://user-images.githubusercontent.com/108900299/199399154-1d4a9e60-f2cd-4a13-bf89-c2fb2fb4280a.png" height="300">
+6. Open the folder path outputted by the command
+    * `~/.steam` is an invisible folder by default, in Dolphin (File Explorer), press the hamburger button in the top right, ☰, press `Show Hidden Files`.
+7. Copy this template to another folder of your choice
+    * Rename the copied file to something descriptive, like the profile name created in Step 1
+8. Right click, click click `Open with Kate` or a text editor of your choice
 9. Edit the top part of the file using the following template: 
 
 **Template:**
@@ -123,8 +123,8 @@ This section will go over how to share and post your Steam Input Layouts on this
 ```
 
 10. Create a new section on this page under Steam Input in the `Table of Contents`, refer to `Steam Input Layout 1` as a sample.
-    1. Create a Github Account to edit this page first, if you have not done so already. 
-    2. At the moment, `Steam Input Layout 4` through `Steam Input Layout 7` can be edited and replaced with your templates. 
+	* See [How to Contribute to the EmuDeck Wiki](../../how-to-contribute.md#how-to-contribute-to-the-emudeck-wiki) to learn how
+		* The `Community Creations` page can be found in `docs/community-creations/steamos`
 11. Paste the contents of the file into your newly created section, include a brief description and any prerequisites. 
 12. Place three \` at the top and the bottom of the pasted profile, refer to `Steam Input Layout 1` as a sample.
 13. Save the page.
@@ -143,7 +143,6 @@ After you have selected a profile, you may use the below tutorial to learn how t
 **Tutorial**
 
 1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
-   1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/196857393-76dfa11b-ed76-464a-a665-4970505a848c.png" height="300">
 2. In this folder: `/home/deck/.steam/steam/controller_base/templates`, right click, `Create New`, `Text File`
     1. `.steam` is an invisible folder by default, click the hamburger menu in the top right, click `Show Hidden Files` to un-hide it. 
 3. Paste the contents of a profile you would like to use
@@ -1012,11 +1011,12 @@ Your Wii controller layouts are located here: `/home/deck/.var/app/org.DolphinEm
 **Tutorial**
 
 1. Create a new section on this page under Dolphin in the `Table of Contents`, refer to `Dolphin Config 1` as a sample
-   1. At the moment, `Dolphin Config 4` through `Dolphin Config 6` can be edited and replaced with your templates. 
-2. After locating your profile layout, click `Open with Kwrite`
+	* See [How to Contribute to the EmuDeck Wiki](../../how-to-contribute.md#how-to-contribute-to-the-emudeck-wiki) to learn how
+		* The `Community Creations` page can be found in `docs/community-creations/steamos`
+2. After locating your profile layout, click `Open with Kate` or a text editor of your choice
 3. Either:
-    1. Right click, click `Select All`, right click, click `Copy`
-    2. Press `Ctrl` + `A`, Press `Ctrl` + `C`
+	* Right click, click `Select All`, right click, click `Copy`
+	* Press `Ctrl` + `A`, Press `Ctrl` + `C`
 4. Paste the contents of the file into your newly created section
 5. Place ``` at the top and the bottom of the pasted profile, refer to `Dolphin Config 1` as a sample
 6. Save the page
@@ -1034,13 +1034,12 @@ After you have selected a profile, you may use the below tutorial to learn how t
 **Tutorial**
 
 1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
-    1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/196857393-76dfa11b-ed76-464a-a665-4970505a848c.png" height="300">
 2. In either the `Gamecube` or the `Wii` profile folders, right click, `Create New`, `Text File`
-    1. Gamecube Profile Folder: `home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
-    2. Wii Profile Folder: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
+	* Gamecube Profile Folder: `home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
+    * Wii Profile Folder: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
 3. Paste the contents of a profile you would like to use
 4. Save the profile, either matching the profile name or something descriptive with an `.ini` file extension
-    1. Without the `.ini` file extension, the profile will not work
+    * Without the `.ini` file extension, the profile will not work
 5. You now have successfully downloaded a profile 
 
 **Note:** For instructions on how to set a Dolphin controller profile for a specific game, refer to: [How to Download Dolphin controller profiles and set it for a specific game](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
@@ -1057,7 +1056,7 @@ After you have selected a profile, you may use the below tutorial to learn how t
 * [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck)
 * [Wiimote Motion Controls With No Attachment](#wiimote-motion-controls-with-no-attachment)
 * [Super Mario Galaxy 1 and 2](#super-mario-galaxy-1-and-2)
-* [Gyro Steam Deck on Dolphin](#dolphin-config-4)
+* [Gyro Steam Deck on Dolphin](#gyro-steam-deck-on-dolphin)
 * [Dolphin Config 5](#dolphin-config-5)
 
 ***
