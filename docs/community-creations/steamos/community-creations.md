@@ -100,6 +100,8 @@ You will need to **create** a GitHub account first.
 2. Click the `Pencil` icon in the top right
 3. Create a new section below the most recently added profile section using 5 `#####` hashes for your section with a descriptive and simple title
 	* For example: `##### Nintendo 64 Controller`
+	* You may replace one of the `Steam Input Layout #s` sections as well
+	* Your section will be added to the [Table of Contents](#community-creations-table-of-contents) automatically
 4. Open your Steam Input profile in `Kate` or a text editor of your choice
 5. Paste the contents of the file into your newly created section, include a brief description and any prerequisites 
 6. Place three \` at the top and the bottom of the pasted profile, refer to [Nintendo 64 Controller](#nintendo-64-controller) as an example
@@ -995,6 +997,8 @@ You will need to **create** a GitHub account first.
 2. Click the `Pencil` icon in the top right
 3. Create a new section below the most recently added profile section using 5 `#####` hashes for your section with a descriptive and simple title
 	* For example: `##### Wiimote Motion Controls With Nunchuck`
+	* You may replace one of the `Dolphin Config #s` sections as well
+	* Your section will be added to the [Table of Contents](#community-creations-table-of-contents) automatically
 4. Open your Dolphin profile in `Kate` or a text editor of your choice
 5. Paste the contents of your Dolphin profile into your newly created section, include a brief description and any prerequisites
 6. Place three \``` at the top and the bottom of the pasted profile, refer to [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck) as an example
