@@ -309,7 +309,7 @@ It is recommended you do not use combined games if you want to use shortcuts cre
 ### Why is Mario Kart 8 stuck on the Mii selection screen?
 [Back to the Top](#yuzu-table-of-contents)
 
-Dump and use your firmware and keys from your console following Yuzu's [quickstart guide](https://yuzu-emu.org/help/quickstart/). 
+Dump and use your firmware and keys from your console following [Yuzu's Quickstart Guide](https://yuzu-emu.org/help/quickstart/). 
 
 The firmware **must contain** Mii data. Without it, the game will get stuck on the Mii selection screen.
 
@@ -326,7 +326,7 @@ Once you have dumped your firmware with the proper Mii data and place it in the 
 ### Why is New Super Mario Bros U Deluxe stuck on a black screen?
 [Back to the Top](#yuzu-table-of-contents)
 
-Dump and use your firmware and keys from your console following Yuzu's [quickstart guide](https://yuzu-emu.org/help/quickstart/). 
+Dump and use your firmware and keys from your console following [Yuzu's Quickstart Guide](https://yuzu-emu.org/help/quickstart/). 
 
 The firmware must contain Mii data. Without it, the game will launch into a black screen. 
 
@@ -397,7 +397,7 @@ _This list is not comprehensive_
 
 **Preface**
 
-Read Yuzu's instructions on how to install mods here: https://yuzu-emu.org/help/feature/game-modding/
+For Yuzu's instructions on how to install mods, see: [https://yuzu-emu.org/help/feature/game-modding/](https://yuzu-emu.org/help/feature/game-modding/)
 
 The **folder structure** of a mod **is important**. It should generally look like the following:
 
