@@ -977,6 +977,8 @@ Replace with your Steam Input Layout and a brief description.
 #### How to Share Dolphin Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
+If you are new to Dolphin profiles, be sure to visit the [How to Create Dolphin Controller Profiles](../../emulators/steamos/dolphin.md#how-to-create-dolphin-controller-profiles) section on the Dolphin page to learn how to create one!
+
 This section will go over how to share and post your Dolphin controller layouts on this page. 
 
 ##### How to Locate the Dolphin Profile 
