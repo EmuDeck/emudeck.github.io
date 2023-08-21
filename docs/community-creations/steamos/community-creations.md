@@ -4,41 +4,9 @@
 
 ## Community Creations Table of Contents
 
-1. [Controller Configurations](#controller-configurations)
-      * [Steam Input](#steam-input)
-          * [Getting Started With Steam Input](#getting-started-with-steam-input)
-               * [How to Share Steam Input Layouts](#how-to-share-steam-input-layouts)
-               * [How to Download Steam Input Layouts](#how-to-download-steam-input-layouts)
-               * [How to use Steam Input Layouts](#how-to-use-steam-input-layouts)
-          * [Community Steam Input Profiles](#community-steam-input-profiles)
-               * [Nintendo 64 Controller](#nintendo-64-controller)
-               * [Steam Input Layout 2](#steam-input-layout-2)
-               * [Steam Input Layout 3](#steam-input-layout-3)
-               * [Steam Input Layout 4](#steam-input-layout-4)
-               * [Steam Input Layout 5](#steam-input-layout-5)
-      * [Dolphin](#dolphin)
-          * [Getting Started With Dolphin Profiles](#getting-started-with-dolphin-profiles)
-               * [How to Share Dolphin Profiles](#how-to-share-dolphin-profiles)
-               * [How to Download Dolphin Profiles](#how-to-download-dolphin-profiles)
-          * [Community Dolphin Profiles](#community-dolphin-profiles)
-               * [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck)
-               * [Wiimote Motion Controls With No Attachment](#wiimote-motion-controls-with-no-attachment)
-               * [Super Mario Galaxy 1 and 2](#super-mario-galaxy-1-and-2)
-               * [Gyro Steam Deck on Dolphin](#gyro-steam-deck-on-dolphin)
-               * [Dolphin Config 5](#dolphin-config-5)
+[TOC]
 
-2. [Special Game Configurations](#special-game-configurations)
-      * [RPCS3 (Playstation 3)](#rpcs3-playstation-3)
-          * [Metal Gear Solid 4](#metal-gear-solid-4)
-      * [Yuzu (Nintendo Switch)](#yuzu-nintendo-switch)
-          * [The Legend of Zelda: Link's Awakening](#the-legend-of-zelda-links-awakening)
 
-3. [Tools and Utilities](#tools-and-utilities)
-      1. [How to Set Up SyncThing](#how-to-set-up-syncthing)
-      2. [How to Use ROM Hacks](#how-to-use-rom-hacks)
-
-4. [How to Contribute to EmuDeck](#how-to-contribute-to-emudeck)
-      1. [How to Submit an Emulator Package](#how-to-submit-an-emulator-package)
 ***
 
 ## Controller Configurations
@@ -53,7 +21,7 @@
 
 ***
 
-### Getting Started With Steam Input
+#### Getting Started With Steam Input
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
@@ -130,7 +98,8 @@ You will need to **create** a GitHub account first.
 
 1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md)
 2. Click the `Pencil` icon in the top right
-3. Create a new section on this page under Steam Input in the [Table of Contents](#community-creations-table-of-contents), refer to `Nintendo 64 Controller` as an example
+3. Create a new section below the most recently added profile section using 5 `#####` hashes for your section with a descriptive and simple title
+	* For example: `##### Nintendo 64 Controller`
 4. Open your Steam Input profile in `Kate` or a text editor of your choice
 5. Paste the contents of the file into your newly created section, include a brief description and any prerequisites 
 6. Place three \` at the top and the bottom of the pasted profile, refer to [Nintendo 64 Controller](#nintendo-64-controller) as an example
@@ -160,7 +129,7 @@ After you have selected a profile, you may use the below tutorial to learn how t
 
 ***
 
-#### How to use Steam Input Layouts
+#### How to Use Steam Input Layouts
 [Back to the Top](#community-creations-table-of-contents)
 
 In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whatever name it is currently set to) at the top, and you will see a drop-down menu. When playing a PSX, PSP, 3DS, or Wii U Game, switch to the respective Steam Input Profile.
@@ -171,10 +140,10 @@ For a visual, watch the following GIF (EmuDeck - Duckstation is being used as an
 
 ***
 
-### Community Steam Input Profiles 
+#### Community Steam Input Profiles 
 [Back to the Top](#community-creations-table-of-contents)
 
-#### Community Steam Input Profiles Table of Contents
+##### Community Steam Input Profiles Table of Contents
 
 * [Nintendo 64 Controller](#nintendo-64-controller)
 * [Steam Input Layout 2](#steam-input-layout-2)
@@ -184,7 +153,7 @@ For a visual, watch the following GIF (EmuDeck - Duckstation is being used as an
 
 ***
 
-#### Nintendo 64 Controller
+##### Nintendo 64 Controller
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `Piximator` 
@@ -959,28 +928,28 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 
 ***
 
-#### Steam Input Layout 4
+##### Steam Input Layout 4
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
 
 ***
 
-#### Steam Input Layout 5
+##### Steam Input Layout 5
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
 
 ***
 
-#### Steam Input Layout 6
+##### Steam Input Layout 6
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
 
 ***
 
-#### Steam Input Layout 7
+##### Steam Input Layout 7
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
@@ -991,19 +960,19 @@ Replace with your Steam Input Layout and a brief description.
 [Back to the Top](#community-creations-table-of-contents)
 
 * [How to Create Dolphin Controller Profiles](../../emulators/steamos/dolphin.md#how-to-create-dolphin-controller-profiles)
-* [How to Share Dolphin Profiles](#how-to-share-dolphin-profiles). 
+* [How to Share Dolphin Profiles](#how-to-share-dolphin-profiles) 
 * [How to Download Dolphin Profiles](#how-to-download-dolphin-profiles)
 * [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 
 
 ***
 
-## Getting Started With Dolphin Profiles
+#### Getting Started With Dolphin Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-### How to Share Dolphin Profiles
+#### How to Share Dolphin Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 This section will go over how to share and post your Dolphin controller layouts on this page. 
@@ -1024,7 +993,8 @@ You will need to **create** a GitHub account first.
 
 1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md)
 2. Click the `Pencil` icon in the top right
-3. Create a new section on this page under Dolphin in the [Table of Contents](#community-creations-table-of-contents), refer to `Wiimote Motion Controls With Nunchuck` as an example
+3. Create a new section below the most recently added profile section using 5 `#####` hashes for your section with a descriptive and simple title
+	* For example: `##### Wiimote Motion Controls With Nunchuck`
 4. Open your Dolphin profile in `Kate` or a text editor of your choice
 5. Paste the contents of your Dolphin profile into your newly created section, include a brief description and any prerequisites
 6. Place three \``` at the top and the bottom of the pasted profile, refer to [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck) as an example
@@ -1034,7 +1004,7 @@ You will need to **create** a GitHub account first.
 
 ***
 
-### How to Download Dolphin Profiles
+#### How to Download Dolphin Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 You may select a profile to download by choosing one from the list here: [Community Dolphin Profiles](#community-dolphin-profiles-table-of-contents).
@@ -1056,12 +1026,12 @@ After you have selected a profile, you may use the below tutorial to learn how t
 
 ***
 
-### Community Dolphin Profiles
+#### Community Dolphin Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-#### Community Dolphin Profiles Table of Contents
+##### Community Dolphin Profiles Table of Contents
 
 * [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck)
 * [Wiimote Motion Controls With No Attachment](#wiimote-motion-controls-with-no-attachment)
