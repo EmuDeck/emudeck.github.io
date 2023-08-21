@@ -65,6 +65,8 @@ This section will go over how to share and post your Steam Input Layouts on this
 
 **Tutorial**
 
+##### How to Locate the Steam Input Profile 
+
 1. Create a new Steam Input Layout in Game Mode
 2. After you are finished, press the Gear icon on the controller layout screen, click `Export Layout`, change `Export Type` to `New Personal Save`
 	* <img src="https://user-images.githubusercontent.com/108900299/199400389-e35e7877-0dec-4fde-bdea-28104d981dab.png" height="300">
@@ -76,7 +78,7 @@ This section will go over how to share and post your Steam Input Layouts on this
     * Replace `<yourprofilename>` entirely with the profile name you created in Step 1
     * Using `Community Creations` as an example: <img src="https://user-images.githubusercontent.com/108900299/199399154-1d4a9e60-f2cd-4a13-bf89-c2fb2fb4280a.png" height="300">
 6. Open the folder path outputted by the command
-    * `~/.steam` is an invisible folder by default, in Dolphin (File Explorer), press the hamburger button in the top right, ☰, press `Show Hidden Files`
+    * `~/.steam` is an invisible folder by default, in Dolphin (File Explorer), press the hamburger button in the top right, `☰`, press `Show Hidden Files`
 7. Copy this template to another folder of your choice
     * Rename the copied file to something descriptive, like the profile name created in Step 1
 8. Right click, click click `Open with Kate` or a text editor of your choice
@@ -122,13 +124,19 @@ This section will go over how to share and post your Steam Input Layouts on this
 	"localization"
 ```
 
-10. Create a new section on this page under Steam Input in the `Table of Contents`, refer to `Steam Input Layout 1` as a sample.
-	* See [How to Contribute to the EmuDeck Wiki](../../how-to-contribute.md#how-to-contribute-to-the-emudeck-wiki) to learn how
-		* The `Community Creations` page can be found in `docs/community-creations/steamos`
-11. Paste the contents of the file into your newly created section, include a brief description and any prerequisites. 
-12. Place three \` at the top and the bottom of the pasted profile, refer to [Nintendo 64 Controller](#nintendo-64-controller) as an example
-13. Save the page
-14. You have now successfully shared your profile
+##### How to Share the Steam Input Profile 
+
+You will need to **create** a GitHub account first.
+
+1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md)
+2. Click the `Pencil` icon in the top right
+3. Create a new section on this page under Steam Input in the [Table of Contents](#community-creations-table-of-contents), refer to `Nintendo 64 Controller` as an example
+4. Open your Steam Input profile in `Kate` or a text editor of your choice
+5. Paste the contents of the file into your newly created section, include a brief description and any prerequisites 
+6. Place three \` at the top and the bottom of the pasted profile, refer to [Nintendo 64 Controller](#nintendo-64-controller) as an example
+7. Once you are finished making your changes, click the `Commit changes...` button in the top right
+8. You will be prompted to create a `Pull Request`. Add a little bit of detail about what you added and why
+9. Submit your `Pull Request` when you are ready. When it is reviewed, it will be merged and your changes will automatically be deployed to the website
 
 ***
 
@@ -144,10 +152,10 @@ After you have selected a profile, you may use the below tutorial to learn how t
 
 1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
 2. In this folder: `/home/deck/.steam/steam/controller_base/templates`, right click, `Create New`, `Text File`
-    1. `.steam` is an invisible folder by default, click the hamburger menu in the top right, click `Show Hidden Files` to un-hide it. 
+	* `.steam` is an invisible folder by default, click the hamburger menu in the top right, click `Show Hidden Files` to un-hide it
 3. Paste the contents of a profile you would like to use
 4. Save the profile, matching the profile name in the section exactly, with a `.vdf` file extension
-   1. Without the `.vdf` file extension, the profile will not work
+	* Without the `.vdf` file extension, the profile will not work
 5. You now have successfully downloaded a profile 
 
 ***
@@ -1000,27 +1008,29 @@ Replace with your Steam Input Layout and a brief description.
 
 This section will go over how to share and post your Dolphin controller layouts on this page. 
 
+##### How to Locate the Dolphin Profile 
+
 To begin, locate your profile layout:
 
-Your Gamecube controller layouts are located here: `home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
+Your Gamecube controller profiles are located here: `home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
 
-Your Wii controller layouts are located here: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
+Your Wii controller profiles are located here: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
 
-**Note:** ~/.var is an invisible folder by default. In Dolphin (file manager), click the ☰ (hamburger menu) in the top right, click view hidden files to see these folders.
+**Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders.
 
-**Tutorial**
+##### How to Share the Dolphin Profile
 
-1. Create a new section on this page under Dolphin in the `Table of Contents`, refer to `Dolphin Config 1` as a sample
-	* See [How to Contribute to the EmuDeck Wiki](../../how-to-contribute.md#how-to-contribute-to-the-emudeck-wiki) to learn how
-		* The `Community Creations` page can be found in `docs/community-creations/steamos`
-2. After locating your profile layout, click `Open with Kate` or a text editor of your choice
-3. Either:
-	* Right click, click `Select All`, right click, click `Copy`
-	* Press `Ctrl` + `A`, Press `Ctrl` + `C`
-4. Paste the contents of the file into your newly created section
-5. Place ``` at the top and the bottom of the pasted profile, refer to [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck) as an example
-6. Save the page
-7. You have now successfully shared your profile
+You will need to **create** a GitHub account first.
+
+1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md)
+2. Click the `Pencil` icon in the top right
+3. Create a new section on this page under Dolphin in the [Table of Contents](#community-creations-table-of-contents), refer to `Wiimote Motion Controls With Nunchuck` as an example
+4. Open your Dolphin profile in `Kate` or a text editor of your choice
+5. Paste the contents of your Dolphin profile into your newly created section, include a brief description and any prerequisites
+6. Place three \``` at the top and the bottom of the pasted profile, refer to [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck) as an example
+7. Once you are finished making your changes, click the `Commit changes...` button in the top right
+8. You will be prompted to create a `Pull Request`. Add a little bit of detail about what you added and why
+9. Submit your `Pull Request` when you are ready. When it is reviewed, it will be merged and your changes will automatically be deployed to the website
 
 ***
 
