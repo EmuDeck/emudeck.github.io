@@ -203,11 +203,53 @@ A backup of your original Steam ROM Manager configurations is automatically crea
 ### "Please shutdown Steam if it is running"
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/please-shutdown-steam-if-it-is-running.mp4" type="video/mp4">
+  </video>
+</figure>
+
+If you are on the `Preview` screen in Steam ROM Manager and you get the dreaded "Please shutdown Steam if it is running" message as shown in the video above, here are a couple of tips and tricks to fix it.
+
+#### Preface
+
 This message is a warning to confirm that you have closed Steam. EmuDeck's shortcut for Steam ROM Manager closes out of Steam for you. You may ignore this warning if you are opening through the applications launcher in the bottom left of the taskbar or through the EmuDeck GUI. 
 
-If you are trying to generate an app list and no ROMs are displaying in the app list, read: [Why are my games not showing up in Steam ROM Manager?](#why-are-my-games-not-showing-up-in-steam-rom-manager)
-
 Running Steam ROM Manager external to EmuDeck's script will not exit out of Steam for you. You will need to verify Steam is closed, if you do not use EmuDeck's script. You do not have to worry about this if you are running Steam ROM Manager from its shortcut in the Applications Launcher or the button in the EmuDeck application. 
+
+Issue still not resolved? Try one of the methods below.
+
+##### Method 1: Verify you have the correct file type
+
+Visit the [Cheat Sheet](../../cheat-sheet.md) to learn which file types you need for Steam ROM Manager to properly parse your ROMs.
+
+
+In some cases, `.7z` and `.zip` are **not** the correct file type. With PlayStation 3, do note that `.iso` is **not** an accepted file type. 
+
+
+The [Cheat Sheet](../../cheat-sheet.md) lists the expected file type for the various emulators. 
+
+##### Method 2: Reset Steam ROM Manager
+
+If you are sure you have the correct ROM file type, you may want to try resetting Steam ROM Manager. 
+
+Resetting Steam ROM Manager may be required if you recently moved from your internal SSD to your SD Card or vice versa. It may also be required to ensure that Steam ROM Manager is looking in the correct path for your ROMs. 
+
+Resetting Steam ROM Manager is a simple fix for a wide variety of issues. Doing so gets you back to EmuDeck defaults and gives you a clean slate. 
+
+See [How to Reset Steam ROM Manager](#how-to-reset-steam-rom-manager) to learn how.
+
+##### Method 3: Nuclear Option
+
+If one of Steam ROM Manager's files corrupted, you may need to try the nuclear option. 
+
+This option **removes** all non-Steam entries, regardless of how they were added to Steam.
+
+1. In Desktop Mode, exit out of Steam
+2. Navigate to `~/.steam/steam/userdata/YOURSTEAMUSERID/`:material-information-outline:{ title="~ refers to your Home folder" }
+3. Delete the `config` folder
+4. Delete the `760` folder
+5. Reopen Steam and validate that your ROMs were properly removed
 
 ***
 
