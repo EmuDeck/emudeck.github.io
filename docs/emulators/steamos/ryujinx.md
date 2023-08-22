@@ -39,7 +39,9 @@ If you play a Nintendo Switch game with Miis (example - Mario Kart 8 Deluxe), yo
 
 Read Ryujinx's Quick Start guide to learn how to dump Nintendo Switch keys, firmware, and ROMs: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-%26-Configuration-Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-%26-Configuration-Guide).
 
-Place your ROMs in `Emulation/roms/switch`. Read the [Configuration](#ryujinx-configuration) section to learn more about Ryujinx and its folder locations. 
+Place your ROMs in `Emulation/roms/switch`. Place your `prod.keys` file in `Emulation/bios/ryujinx/keys`. Install your firmware through Ryujinx's GUI. Install your DLC and Updates through Ryujinx's GUI, see [How To Manage DLC and Updates](#how-to-manage-dlc-and-updates) to learn how.  
+
+Read the [Configuration](#ryujinx-configuration) section to learn more about Ryujinx and its folder locations. 
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Nintendo Switch ROMs:
 
@@ -172,9 +174,10 @@ Ryujinx/
 ### How to Manage DLC and Updates
 [Back to the Top](#ryujinx-table-of-contents)
 
-**IMPORTANT:** Do not keep your DLC and Update Files in the ROM folder. Steam ROM Manager will try to parse them and the Steam shortcuts created will not work.
+**IMPORTANT:** Do not keep your DLC and Update Files in the `Emulation/roms/switch` folder. Steam ROM Manager will try to parse them and the Steam shortcuts created will not work.
 
 1. Place updates and DLC files in `Emulation/storage/ryujinx/patchesAndDlc`
+    * It's recommended that you place your DLC and Updates directly in this folder. However, you can create any folder for Ryujinx DLC and Updates as long as it is not `Emulation/roms/switch`
 2. Open Ryujinx, right click the ROM, and click `Manage Title Updates` or `Manage DLC`
     * <img src="https://user-images.githubusercontent.com/108900299/219142644-504c87d3-16a0-44a1-9a18-61c34439120e.png" height="300">
 3. Select `Add`, and navigate to `Emulation/storage/ryujinx/patchesAndDlc`, and select your Update or DLC
