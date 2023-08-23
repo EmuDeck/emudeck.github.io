@@ -60,6 +60,22 @@ Read [How to Verify ROMs](../../file-management/steamos/file-management.md#how-t
 
 ***
 
+## Game unexpectedly muted or missing audio?
+
+Sometimes, games may accidentally mute themselves with no discernible reason. Fortunately, the fix is easy.
+
+1. In Desktop Mode, open the emulator you use to launch the ROM
+    * For example, if your ROM is a PlayStation 2 game, open PCSX2
+2. Open your ROM
+3. If the emulator launched in full screen, hold `R1` and press the `Select` button until you see the desktop or taskbar
+4. Click the `Speaker` icon in your taskbar
+5. Click the `Applications` tab
+6. Click the `Speaker` icon below the application name to unmute the application
+    * A red line through the `Speaker` icon indicates that it is muted. If there is no red line, that means there should be audio outputting from the emulator
+    * ![Game unexpectedly muted or missing audio](../../assets/game-unexpectedly-muted-or-missing-audio.png)
+
+***
+
 ## Have you tried resetting the emulator or tool through EmuDeck?
 
 Sometimes after installing EmuDeck, you may notice an emulator's configurations were not set properly or you tweaked something on accident and you do not remember the default settings. 
