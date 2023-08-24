@@ -33,6 +33,7 @@ We HIGHLY suggest looking to see if a game you wish to emulate has a native PC v
 
 3. [Xenia Tips and Tricks](#xenia-tips-and-tricks)
     - [How to Swap Out Xenia Builds](#how-to-swap-out-xenia-builds)
+    - [How to Swap Between Vulkan and DX12](#how-to-swap-between-vulkan-and-dx12)
 
 
 ***
@@ -397,6 +398,44 @@ Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (release
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
     <source src="/videos/how-to-swap-out-xenia-builds.mp4" type="video/mp4">
+  </video>
+</figure>
+
+***
+
+### How to Swap Between Vulkan and DX12
+[Back to the Top](#xenia-table-of-contents)
+
+Recent (as of August 2023) updates of Proton Experimental increased compatibility for DX12. These updates allow more games to boot through Xenia using DX12. At the moment, EmuDeck sets Xenia to Vulkan by default, but swapping between the two is fairly easy.
+
+**Here's How**
+
+1. Open `Emulation/roms/xbox360`
+2. Right click `xenia-canary.config.toml` and click `Open with Kate` or a text editor of your choice
+3. Locate the `gpu = ""` line
+    * By default through EmuDeck, this line should write `gpu = "vulkan"`
+4. To swap between Vulkan and DX12:
+    * Vulkan:
+        * `gpu = "vulkan"`
+    * DX12:
+        * `gpu ="d3d12"`
+    * `"vulkan"` and `"d3d12"` must be in quotes
+
+**Photos**
+
+Vulkan:
+
+![How to Swap Between Vulkan and DX12: Vulkan](how-to-swap-between-vulkan-and-dx12-1.png)
+
+DX12:
+
+![How to Swap Between Vulkan and DX12: DX12](how-to-swap-between-vulkan-and-dx12-2.png)
+
+**Video**
+
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/how-to-swap-between-vulkan-and-dx12.mp4" type="video/mp4">
   </video>
 </figure>
 
