@@ -69,7 +69,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Xbox Live Arcade ROM Location: `Emulation/roms/xbox360/roms/xbla`
     * Note the second `roms` folder in the path
 * BIOS: No BIOS are required to play Xenia
-* Saves Location: `Emulation/roms/xbox360/content`
+* Saves: `Emulation/roms/xbox360/content`
 
 #### Folder Visualization
 

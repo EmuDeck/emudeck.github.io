@@ -51,6 +51,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * ROM Location: `Emulation/roms/psvita/InstalledGames`
     * `InstalledGames` is a symlink to `Emulation/storage/Vita3K/uxo/app`
 * Firmware: Install firmware through Vita3K's GUI. Read the [Quickstart Guide](https://vita3k.org/quickstart.html) for a tutorial
+* Saves: `Emulation/storage/Vita3K/ux0/user/00/savedata`
+    * Save folders correspond to a game's Title ID. To locate your game's Title ID, open Vita3K, right click a game, and click `Information`
 
 #### Folder Visualization
 

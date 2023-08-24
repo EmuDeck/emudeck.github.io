@@ -67,10 +67,10 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
     * Contains: `cheats`
 * ROMs: Refer to the [Cheat Sheet](../../cheat-sheet.md)
 * BIOS: Refer to the [Cheat Sheet](../../cheat-sheet.md)
-* Saves Location:
+* Saves:
     * Symlink: `Emulation/saves/retroarch/saves`
     * Target Location: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/saves/`
-* Save States Location:
+* Save States:
     * Symlink: `Emulation/saves/retroarch/states`
     * Target Location: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/states/`
 * Systems Location: `Emulation/bios`

@@ -12,6 +12,7 @@
 2. [Managing Emulators and Tools](#managing-emulators-and-tools)
     - [How to Swap out AppImages and Binaries](#how-to-swap-out-appimages-and-binaries)
     - [How to reset an emulator's configurations to EmuDeck's defaults](#how-to-reset-an-emulators-configurations-to-emudecks-defaults)
+    - [Emulator Save Locations](#emulator-save-and-save-state-locations)
 
 3. [Managing Files](#managing-files)
     - [How to Use Symlinks](#how-to-use-symlinks)
@@ -231,6 +232,145 @@ You may reset an emulator's configurations in the `Manage Emulators` page.
 4. Click `Reset configuration`, wait a moment.
     1. Using PCSX2 as an example: <img src="https://user-images.githubusercontent.com/108900299/196877825-0a4fd76f-bed0-487a-95d5-5454e631f920.png" height="200">
 5. Your selected emulator has been reset.
+
+***
+
+### Emulator Save and Save State Locations
+[Back to the Top](#file-management-table-of-contents)
+
+#### Cemu Native
+
+* Saves Location:
+    * Symlink:  `Emulation/saves/Cemu/saves/`
+    * Target: `Emulation/roms/wiiu/mlc01/usr/save`
+
+#### Cemu Proton
+
+* Saves Location:
+    * Symlink:  `Emulation/saves/Cemu/saves/`
+    * Target: `Emulation/roms/wiiu/mlc01/usr/save`
+
+#### Citra
+
+* Saves Location:
+    * Symlink: `Emulation/saves/citra/saves`
+    * Target: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/sdmc`
+* Save States Location:
+    * Symlink: `Emulation/saves/citra/states/`
+    * Target: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/states`
+
+#### Dolphin
+
+* Saves (Wii):
+    * Symlink: `Emulation/saves/dolphin/Wii`
+    * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Wii`
+* Saves (GameCube):
+    * Symlink: `Emulation/saves/dolphin/GC`
+    * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC`
+* Save States (Wii):
+    * Symlink: `Emulation/saves/dolphin/StateSaves`
+    * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
+* Save States (GameCube):
+    * Symlink: `Emulation/saves/dolphin/StateSaves`
+    * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
+
+#### DuckStation
+
+* Saves: `Emulation/saves/duckstation/saves`
+* Save States: `Emulation/saves/duckstation/states`
+
+#### MAME
+
+* Saves: `Emulation/saves/MAME/saves`
+* Save States: `Emulation/saves/MAME/states`
+
+#### melonDS
+
+* Saves: `Emulation/saves/melonds/saves`
+* Save States: `Emulation/saves/melonds/states`
+
+#### mGBA
+
+* Saves: `Emulation/saves/mgba/saves`
+* Save States `Emulation/saves/mgba/states`
+
+#### PCSX2
+
+* Saves: `Emulation/saves/pcsx2/saves`
+* Save States `Emulation/saves/pcsx2/states`
+
+#### PPSSPP
+
+* Saves: 
+    * Symlink: `Emulation/saves/ppsspp/saves`
+    * Target: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SAVEDATA`
+* Save States:
+    * Symlink: `Emulation/saves/ppsspp/states/`
+    * Target: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/PPSSPP_STATE`
+
+#### PrimeHack
+
+* Saves:
+  * Symlink: `Emulation/saves/primehack/Wii`
+  * Target: `/home/deck/.var/app/io.github.shiiion.primehack/data/dolphin-emu/Wii`
+* Save States:
+  * Symlink: `Emulation/saves/primehack/Savestates`
+  * Target: `/home/deck/.var/app/io.github.shiiion.primehack/data/dolphin-emu/StateSaves/`
+
+#### RetroArch
+
+* Saves:
+    * Symlink: `Emulation/saves/retroarch/saves`
+    * Target Location: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/saves/`
+* Save States:
+    * Symlink: `Emulation/saves/retroarch/states`
+    * Target Location: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/states/`
+
+#### Rosalie's Mupen GUI
+
+* Saves: `Emulation/saves/RMG/saves`
+* Save States: `Emulation/saves/RMG/states`
+
+#### RPCS3
+
+* Saves: 
+    * Symlink: `Emulation/saves/rpcs3/saves`
+    * Target: `Emulation/storage/rpcs3/dev_hdd0/home/00000001/savedata`
+
+#### Ryujinx
+
+* Saves:
+    * Symlink: `Emulation/saves/ryujinx/saves`
+    * Target: `/home/deck/.config/Ryujinx/bis/user/save`
+* saveMeta:
+    * Symlink: `Emulation/saves/Ryujinx/saveMeta`
+    * Target: `/home/deck/.config/Ryujinx/bis/user/saveMeta`
+
+#### ScummVM
+
+* Saves: `Emulation/saves/scummvm/saves`
+
+#### Vita3K
+
+* Saves: `Emulation/storage/Vita3K/ux0/user/00/savedata`
+    * Save folders correspond to a game's Title ID. To locate your game's Title ID, open Vita3K, right click a game, and click `Information`
+
+#### Xemu
+
+* Saves:
+    * `Emulation/storage/xemu/xbox_hdd.qcow2`
+        * To access your saves, read [Xemu How to Access Saves](../../emulators/steamos/xemu.md#how-to-access-saves)
+    * `Emulation/storage/xemu/eeprom.bin`
+
+#### Xenia
+
+* Saves: `Emulation/roms/xbox360/content`
+
+#### Yuzu
+
+* Saves:
+    * Symlink: `Emulation/saves/yuzu/`
+    * Target Location: `Emulation/storage/yuzu/nand/user/save/`
 
 ***
 

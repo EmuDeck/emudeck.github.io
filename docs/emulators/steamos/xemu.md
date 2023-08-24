@@ -73,7 +73,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
             * This file is a "pre-built 8G Xbox HDD image, free of any copyrighted content, and only contains a dummy dashboard" provided by Xemu
             * The "Hard Disk Image" is one of the required files mentioned in Xemu's setup documentation
             * You may also choose to provide your own hard disk image. Other hard disk images may include additional features such as FTP
-* Saves Location: `Emulation/storage/xemu/xbox_hdd.qcow2`
+* Saves: `Emulation/storage/xemu/xbox_hdd.qcow2`
     * To access your saves, read [How to Access Saves](#how-to-access-saves)
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders. 
