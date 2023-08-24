@@ -45,7 +45,7 @@ To find these options:
 2. Press the `Battery` icon
 3. Select `Advanced View`
 4. Scroll down and set te `Framerate Limit` to `Off` and `Refresh Rate` to 60
-    * [Performance or audio quality unexpectedly bad](../../assets/performance-or-audio-quality-unexpectedly-bad.png)
+    * ![Performance or audio quality unexpectedly bad](../../assets/performance-or-audio-quality-unexpectedly-bad.png)
 
 These are the recommended settings for emulated games. If you would like to change these settings, use the `Use per-game profile` toggle. This toggle will only apply these settings for the game currently open. 
 
