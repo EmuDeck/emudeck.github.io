@@ -311,11 +311,11 @@ You may reset an emulator's configurations in the `Manage Emulators` page.
 #### PrimeHack
 
 * Saves:
-  * Symlink: `Emulation/saves/primehack/Wii`
-  * Target: `/home/deck/.var/app/io.github.shiiion.primehack/data/dolphin-emu/Wii`
+    * Symlink: `Emulation/saves/primehack/Wii`
+    * Target: `/home/deck/.var/app/io.github.shiiion.primehack/data/dolphin-emu/Wii`
 * Save States:
-  * Symlink: `Emulation/saves/primehack/Savestates`
-  * Target: `/home/deck/.var/app/io.github.shiiion.primehack/data/dolphin-emu/StateSaves/`
+    * Symlink: `Emulation/saves/primehack/Savestates`
+    * Target: `/home/deck/.var/app/io.github.shiiion.primehack/data/dolphin-emu/StateSaves/`
 
 #### RetroArch
 
