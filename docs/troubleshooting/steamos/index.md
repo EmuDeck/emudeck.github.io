@@ -34,13 +34,20 @@ In some cases, `.7z` and `.zip` are **not** correct file formats.
 
 ***
 
-## Performance unexpectedly bad?
+## Performance or audio quality unexpectedly bad?
 
-There may be a number of reasons for this, but your first debugging tool should be to ensure that both the frame limiter and the refresh rate are off. Consider turning off half rate shading if you had it previously on. Half rate shading may cause visual glitches as well. 
+There may be a number of reasons for this, but your first debugging tool should be to ensure that the `Framerate limit` is off and that the `Refresh Rate` is set to 60. 
 
-To find these options, press the QAM ("..." button), press the battery icon, press advanced view. 
+To find these options:
 
-**Note:** It's a good idea to use per game profiles if you intend on changing any of these settings.
+1. In Game Mode, press the QAM (`...` button)
+    * You may need to open the game first to see if you created a per-game profile
+2. Press the `Battery` icon
+3. Select `Advanced View`
+4. Scroll down and set te `Framerate Limit` to `Off` and `Refresh Rate` to 60
+    * [Performance or audio quality unexpectedly bad](../../assets/performance-or-audio-quality-unexpectedly-bad.png)
+
+These are the recommended settings for emulated games. If you would like to change these settings, use the `Use per-game profile` toggle. This toggle will only apply these settings for the game currently open. 
 
 ***
 
