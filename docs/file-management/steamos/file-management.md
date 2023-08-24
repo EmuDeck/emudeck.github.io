@@ -12,7 +12,7 @@
 2. [Managing Emulators and Tools](#managing-emulators-and-tools)
     - [How to Swap out AppImages and Binaries](#how-to-swap-out-appimages-and-binaries)
     - [How to reset an emulator's configurations to EmuDeck's defaults](#how-to-reset-an-emulators-configurations-to-emudecks-defaults)
-    - [Emulator Save Locations](#emulator-save-and-save-state-locations)
+    - [Emulator Save and Save State Locations](#emulator-save-and-save-state-locations)
 
 3. [Managing Files](#managing-files)
     - [How to Use Symlinks](#how-to-use-symlinks)
