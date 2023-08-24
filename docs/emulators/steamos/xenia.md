@@ -414,7 +414,7 @@ Recent (as of August 2023) updates of Proton Experimental increased compatibilit
 2. Right click `xenia-canary.config.toml` and click `Open with Kate` or a text editor of your choice
 3. Locate the `gpu = ""` line
     * By default through EmuDeck, this line should write `gpu = "vulkan"`
-4. To swap between Vulkan and DX12:
+4. To swap between Vulkan and DX12, select one of the two below and write it on the `gpu=""` line:
     * Vulkan:
         * `gpu = "vulkan"`
     * DX12:
