@@ -238,7 +238,7 @@ Features:
 ### Cloud Backup
 [Back to the Top](#emudeck-application-101-table-of-contents)
 
-Visit the [Cloud Saves](../cloud-saves.md) page for more information.
+Visit the [Cloud Saves](cloud-saves.md) page for more information.
 
 ***
 

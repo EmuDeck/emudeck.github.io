@@ -1,8 +1,6 @@
 **Under Construction**
 
-# CloudSync SteamOS
-
-CloudSync: (Early Access only)
+# CloudSync (Early Access only)
 
 CloudSync allows you to sync your saved games between EmuDeck installations.
 
@@ -10,17 +8,18 @@ CloudSync allows you to sync your saved games between EmuDeck installations.
 
 ## CloudSync Table of Contents
 
-- [Getting Started with CloudSync](#getting-started-with-cloud-saves)
+- [Getting Started with CloudSync](#getting-started-with-cloud-sync)
 - [Configuration](#configuration)
 - [List of Cloud Save Services](#list-of-cloud-save-services)
 
 ***
 
 ### Getting Started with CloudSync
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cloud-saves#cloud-saves-table-of-contents)
+[Back to the Top](https://github.com/dragoonDorise/EmuDeckwiki/emudeck-application/windows/cloud-sync#cloud-sync-table-of-contents)
 
 If you have already installed EmuDeck you'll need to:
 
+- Open EmuDeck so your saved folders are modified (we won't delete anything and a backup will be done)
 - Reset SteamRomManager configuration.
 - Parse all your SteamRomManager entries again so they are updated with the new launchers.
 
@@ -29,7 +28,7 @@ Now you can carry on the next step, configure CloudSync.
 ***
 
 ### Configuration
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cloud-saves#cloud-saves-table-of-contents)
+[Back to the Top](https://github.com/dragoonDorise/EmuDeckwiki/emudeck-application/windows/cloud-sync#cloud-sync-table-of-contents)
  
 - Click on the CloudSync link inside of EmuDeck
 - Select your provider and click on Install
@@ -39,8 +38,8 @@ Now you can carry on the next step, configure CloudSync.
  
 ***
 
-### List of Cloud Save Services
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cloud-saves#cloud-saves-table-of-contents)
+### List of Cloud Services
+[Back to the Top](https://github.com/dragoonDorise/EmuDeckwiki/emudeck-application/windows/cloud-sync#cloud-sync-table-of-contents)
 
 - Google Drive
 - Dropbox
