@@ -361,7 +361,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 ***
 
 ### How to Fix !Status or GPU Command Error Messages
-[Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/cemu#cemu-table-of-contents)
+[Back to the Top](#xenia-table-of-contents)
 
 If you get an error message with either `!Status` or `GPU Commands`, you will need to downgrade Xenia to a specific version. Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (released April 2nd, 2023) has the highest compatibility. 
 
@@ -425,11 +425,11 @@ Recent (as of August 2023) updates of Proton Experimental increased compatibilit
 
 Vulkan:
 
-![How to Swap Between Vulkan and DX12: Vulkan](how-to-swap-between-vulkan-and-dx12-1.png)
+![How to Swap Between Vulkan and DX12: Vulkan](../../assets/how-to-swap-between-vulkan-and-dx12-1.png)
 
 DX12:
 
-![How to Swap Between Vulkan and DX12: DX12](how-to-swap-between-vulkan-and-dx12-2.png)
+![How to Swap Between Vulkan and DX12: DX12](../../assets/how-to-swap-between-vulkan-and-dx12-2.png)
 
 **Video**
 

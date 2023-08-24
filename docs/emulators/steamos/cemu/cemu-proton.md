@@ -227,7 +227,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `Cemu.exe` 
-   * Refer to https://github.com/dragoonDorise/EmuDeck/wiki/File-Management#how-to-swap-out-appimages-and-binaries for instructions. 
+   * Refer to [How to Swap Out AppImages and Binaries](../../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 
 ***
 
