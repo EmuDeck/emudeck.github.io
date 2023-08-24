@@ -29,7 +29,6 @@ Brief intro
 ### List of Cloud Services
 [Back to the Top](https://github.com/dragoonDorise/EmuDeck/wiki/emudeck-application/steamos/cloud-saves#cloud-saves-table-of-contents)
 
-
 - Google Drive
 - Dropbox
 - OneDrive
