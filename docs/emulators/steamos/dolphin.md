@@ -499,10 +499,10 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 4. Click the `Editor` tab
 5. Under `User Config`, enter the following
 
-         [Controls]
-         PadType0 = 6
-         PadProfile1 = GC_base
-         WiimoteSource0 = 0
+        [Controls]
+        PadType0 = 6
+        PadProfile1 = GC_base
+        WiimoteSource0 = 0
 
 6. Click OK and your Wii game should now be using a GameCube controller profile
     * <img src="https://user-images.githubusercontent.com/108900299/213080943-80187386-77db-4918-b8d8-74a648b2f422.png" height="300">
@@ -515,16 +515,16 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 4. Click the `Editor` tab
 5. Under `User Config`, enter the following
 
-            [Controls]
-            PadType0 = 6
-            PadType1 = 6
-            PadType2 = 6
-            PadType3 = 6
-            PadProfile1 = GC_base
-            WiimoteSource0 = 0
-            WiimoteSource1 = 0
-            WiimoteSource2 = 0
-            WiimoteSource3 = 0
+        [Controls]
+        PadType0 = 6
+        PadType1 = 6
+        PadType2 = 6
+        PadType3 = 6
+        PadProfile1 = GC_base
+        WiimoteSource0 = 0
+        WiimoteSource1 = 0
+        WiimoteSource2 = 0
+        WiimoteSource3 = 0
 
 6. Click OK and your Wii game should now be using a GameCube controller profile
 
