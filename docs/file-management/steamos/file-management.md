@@ -238,6 +238,10 @@ You may reset an emulator's configurations in the `Manage Emulators` page.
 ### Emulator Save and Save State Locations
 [Back to the Top](#file-management-table-of-contents)
 
+**Note:** Some of the save locations below may include both a `Symlink` and a `Target` location. A `Symlink` is similar to a Windows shorcut, it points to the original location of the file and allows for easier access of that file. If you are backing up save files or interacting with save files, be sure to use the `Target` location. Backing up the `Symlink` location will not preserve the original save files.
+
+Some of the Symlinks below (including RPCS3 and Yuzu) may point to another location within the `Emulation` folder created by EmuDeck. Although backing up the symlink will not preserve these saves, these saves are still localized within your general `Emulation` folder meaning that if your EmuDeck install is on an SD Card or you backed up the entire `Emulation` folder, these saves are safe.
+
 #### Cemu Native
 
 * Saves Location:
