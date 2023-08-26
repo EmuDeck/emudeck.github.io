@@ -30,6 +30,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Share Your Dolphin Controller Profile](#how-to-share-your-dolphin-controller-profile)
     - [How to Set Dolphin Controller Profiles On a Per-Game Basis](#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
     - [How to Configure Wii Games To Use A GameCube Controller](#how-to-configure-wii-games-to-use-a-gamecube-controller)
+    - [How to Configure Wii Games to Use the Trackpad as a Pointer](#how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
     - [How to use Riivolution Patches](#how-to-use-riivolution-patches)
     - [How to Configure Real Wiimotes](#how-to-configure-real-wiimotes)
@@ -529,6 +530,54 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 6. Click OK and your Wii game should now be using a GameCube controller profile
 
 For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki Page](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)).
+
+***
+
+### How to Configure Wii Games to Use the Trackpad as a Pointer
+
+### How to Configure Steam Input
+
+**Note:** You do not need to do this section if you are using EmulationStation-DE. You may skip to [How to Apply the Dolphin Trackpad Profile on the Fly](#how-to-apply-the-dolphin-trackpad-profile-on-the-fly).
+
+1. In Game Mode, open a Wii game
+2. Press the `STEAM` button
+3. Open `Controller settings`
+4. Change the `Current Layout` to `Gamepad with Mouse Trackpad`
+
+### How to Apply the Dolphin Trackpad Profile on the Fly
+
+1. While in game, press `Select` and tilt the `Left Joystick` right until you see `Wii_base_nunchuck_with_touchpad` or `Wii_no_attachment_with_touchpad`
+    * The attachment refers to the Nunchuk. Depending on the game, select the appropriate profile      
+
+**Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Apply the Wii Profile on a Per Game Basis](#how-to-apply-the-wii-profile-on-a-per-game-basis) to learn how. 
+
+### How to Apply the Wii Profile on a Per Game Basis
+
+1. In Desktop Mode, open Dolphin
+2. Right click the game
+3. Click `Properties`
+4. Under the `Game Config` tab, click the `Editor` tab
+5. In the box under the `User Config` section:
+    * If you would like to use the `Wiimote with Nunchuk and Touchpad Support` profile, copy the below template:
+
+            [Controls] 
+            WiimoteProfile1 = Wii_base_nunchuck_with_touchpad
+
+    * If you would like to use the `Wiimote with No Attachment and Touchpad Support` profile, copy the below template:
+
+            [Controls] 
+            WiimoteProfile1 = Wii_no_attachment_with_touchpad
+
+**Photos**
+
+`Wiimote with Nunchuk and Touchpad Support` profile
+
+![How to Configure Wii Games to Use the Trackpad as a Pointer 1](../../assets/how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer-1.png)
+
+`Wiimote with No Attachment and Touchpad Support` profile
+
+![How to Configure Wii Games to Use the Trackpad as a Pointer 2](../../assets/how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer-1.png)
+
 
 ***
 
