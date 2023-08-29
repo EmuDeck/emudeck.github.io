@@ -76,6 +76,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 ***
 
 ### mGBA Folder Locations
+[Back to the Top](#mgba-table-of-contents)
 
 `$HOME/.config/mgba`
 

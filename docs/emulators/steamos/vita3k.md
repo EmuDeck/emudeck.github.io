@@ -63,6 +63,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 ***
 
 ### Vita3K Folder Locations
+[Back to the Top](#vita3k-table-of-contents)
 
 `$HOME/Applications/Vita3K`
 
