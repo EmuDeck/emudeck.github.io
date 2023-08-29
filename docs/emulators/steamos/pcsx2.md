@@ -325,27 +325,29 @@ For example, a `Controllable Party Members` cheat for Persona 3 FES could be nam
 
 This section goes over identifying and creating headers for your cheats. Creating headers is not necessary to do but allows for easier cheat management in PCSX2. Headers allow you to toggle cheats on a per-cheat basis and allow you to identify your various cheats directly in PCSX2's GUI. 
 
+If you would simply like to add the cheat to PCSX2 without adding headers, skip to [How to Use the Cheat File](#how-to-use-the-cheat-file).
+
 1. Download the cheat file
 2. Open it in a text editor of your choice
 3. Check to see if the cheat file has headers at the top of each cheat bundled in the file. 
     * The header is typically the name of the cheat in `[]` with an optional description or author
         * For example: 
-            * ```
+            
                 [Controllable Party Members]
                 author=TGE
                 description=This cheat allows you to control your party members in Persona 3 FES
-                ```
+
 4. If the cheat file does not have headers, you can manually add them
     * The header is not required but allows you to toggle cheats on a per cheat basis in PCSX2
     * **Note:** If a cheat file has multiple sections **for the same cheat**, you can choose to add one header at the top of the file. This header will treat the cheat file as one cheat in PCSX2
     * You can now split cheats out into multiple files
         * Use the format: `CRC-descriptivename.pnach`
     * To add headers, use the following format, note that the author and description fields are optional:
-        * ```
+
             [NAMEOFCHEAT]
             author=NAMEOFAUTHOR
             description=DESCRIPTIONOFCHEAT
-            ```
+
 
 For an example of a full cheat file with a header: [https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/ddcacfaf9a0ebf930d27f95c86507cd89e2db704/94A82AAA-Controllable%2520Party%2520Members.pnach](https://gist.githubusercontent.com/rawdatafeel/4ac815f27ace770a84fe1ad7937355c7/raw/ddcacfaf9a0ebf930d27f95c86507cd89e2db704/94A82AAA-Controllable%2520Party%2520Members.pnach)
 
