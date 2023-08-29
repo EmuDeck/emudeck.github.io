@@ -14,6 +14,7 @@ Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://
 
 1. [Getting Started with PPSSPP](#getting-started-with-ppsspp)
     - [Configuration](#ppsspp-configuration)
+    - [PPSSPP Folder Locations](#ppsspp-folder-locations)
     - [How to Update PPSSPP](#how-to-update-ppsspp)
     - [How to Launch PPSSPP in Desktop Mode](#how-to-launch-ppsspp-in-desktop-mode)
     - [File Formats](#ppsspp-file-formats)
@@ -58,7 +59,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.  
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### PPSSPP Folder Locations
+[Back to the Top](#ppsspp-table-of-contents)
 
 `$HOME/.var/app/org.ppsspp.PPSSPP`
 
@@ -81,10 +89,6 @@ org.ppsspp.PPSSPP
 │   └── user-dirs.dirs
 └── data
 ```
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 

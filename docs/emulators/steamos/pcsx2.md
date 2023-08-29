@@ -16,6 +16,7 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
 
 1. [Getting Started with PCSX2](#getting-started-with-pcsx2)
     - [Configuration](#pcsx2-configuration)
+    - [PCSX2 Folder Locations](#pcsx2-folder-locations)
     - [How to Update PCSX2](#how-to-update-pcsx2)
     - [How to Launch PCSX2 in Desktop Mode](#how-to-launch-pcsx2-in-desktop-mode)
     - [File Formats](#pcsx2-file-formats)
@@ -81,7 +82,15 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Important Info:** Prior to version 0.17.6 of EmuDeck, we used the Flatpak version of PCSX2. This was installed from the discover store. We have since moved away from this release for performance reasons, and usability reasons (menus not opening).
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### PCSX2 Folder Locations
+[Back to the Top](#pcsx2-qt-table-of-contents) 
+
 
 `$HOME/.config/PCSX2`
 
@@ -108,10 +117,6 @@ pcsx2/
 ├── snaps
 └── textures
 ```
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 

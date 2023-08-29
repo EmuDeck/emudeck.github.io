@@ -18,6 +18,7 @@ Quickstart Guide (Skip the HDD requirement, it is pre-included with EmuDeck): [h
 
 1. [Getting Started with Xemu](#getting-started-with-xemu)
     - [Configuration](#xemu-configuration)
+    - [Xemu Folder Locations](#xemu-folder-locations)
     - [How to Update Xemu](#how-to-update-xemu)
     - [How to Launch Xemu in Desktop Mode](#how-to-update-xemu)
     - [File Formats](#xemu-file-formats)
@@ -78,7 +79,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders. 
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### Xemu Folder Locations
+[Back to the Top](#xemu-table-of-contents)
 
 `$HOME/.var/app/app.xemu.xemu`
 
@@ -112,12 +120,6 @@ xemu/
 ├── eeprom.bin
 └── xbox_hdd.qcow2
 ```
-
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
-
 
 ***
 

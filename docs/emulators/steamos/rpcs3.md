@@ -16,6 +16,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
 
 1. [Getting Started with RPCS3](#getting-started-with-rpcs3)
     - [Configuration](#rpcs3-configuration)
+    - [RPCS3 Folder Locations](#rpcs3-folder-locations)
     - [How to Update RPCS3](#how-to-update-rpcs3)
     - [How to Launch RPCS3 in Desktop Mode](#how-to-launch-rpcs3-in-desktop-mode)
     - [File Formats](#rpcs3-file-formats)
@@ -71,7 +72,15 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 * Your game will not show in the RPCS3 UI until you add it manually through the `Add Game` option under `File` in the top left. 
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+    * [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
+
+***
+
+### RPCS3 Folder Locations
+[Back to the Top](#rpcs3-table-of-contents)
 
 `$HOME/.var/app/net.rpcs3.RPCS3`
 
@@ -126,11 +135,6 @@ rpcs3/
     ├── photo
     └── savedata
 ```
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
-    * [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
 
 ***
 

@@ -14,6 +14,7 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
 
 1. [Getting Started with RetroArch](#getting-started-with-retroarch)
     - [Configuration](#retroarch-configuration)
+    - [RetroArch Folder Locations](#retroarch-folder-locations)
     - [How to Update RetroArch And Its Cores](#how-to-update-retroarch-and-its-cores)
     - [How to Launch RetroArch in Desktop Mode](#how-to-launch-retroarch-in-desktop-mode)
     - [A Breakdown of Overrides](#a-breakdown-of-overrides)
@@ -80,7 +81,14 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-#### Folder Visualization
+#### Works With
+* Steam Rom Manager
+* EmulationStation-DE
+
+***
+
+### RetroArch Folder Locations
+[Back to the Top](#retroarch-table-of-contents)
 
 `$HOME/.var/app/org.libretro.RetroArch/config/retroarch`
 
@@ -326,11 +334,6 @@ org.libretro.RetroArch
 │       └── thumbnails
 └── data
 ```
-
-
-#### Works With
-* Steam Rom Manager
-* EmulationStation-DE
 
 ***
 

@@ -14,6 +14,7 @@ ScummVM's Wiki: [https://docs.scummvm.org/en/v2.6.0](https://docs.scummvm.org/en
 
 1. [Getting Started with ScummVM](#getting-started-with-scummvm)
     - [Configuration](#configuration)
+    - [ScummVM Folder Locations](#scummvm-folder-locations)
     - [How to Update ScummVM](#how-to-update-scummvm)
     - [How to Launch ScummVM in Desktop Mode](#how-to-launch-scummvm-in-desktop-mode)
     - [File Formats](#file-formats)
@@ -50,7 +51,15 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager: [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
+* EmulationStation-DE: [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)
+
+
+***
+
+### ScummVM Folder Locations
+[Back to the Top](#scummvm-table-of-contents)
 
 `$HOME/.var/app/org.scummvm.ScummVM`
 
@@ -73,11 +82,6 @@ org.scummvm.ScummVM/
 └── data
     └── scummvm
 ```
-
-#### Works With
-* Steam ROM Manager: [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
-* EmulationStation-DE: [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)
-
 
 ***
 

@@ -17,6 +17,7 @@ Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/h
 
 1. [Getting Started with Yuzu](#getting-started-with-yuzu)
     - [Configuration](#yuzu-configuration)
+    - [Yuzu Folder Locations](#yuzu-folder-locations)
     - [How to Update Yuzu](#how-to-update-yuzu)
     - [How to Launch Yuzu in Desktop Mode](#how-to-launch-yuzu-in-desktop-mode)
     - [File Formats](#yuzu-file-formats)
@@ -105,7 +106,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-#### Folder Visualization
+#### Works with:
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### Yuzu Folder Locations
+[Back to the Top](#yuzu-table-of-contents)
 
 `$HOME/.config/yuzu`
 
@@ -141,11 +149,6 @@ yuzu/
 ├── sdmc
 └── tas
 ```
-
-
-#### Works with:
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 

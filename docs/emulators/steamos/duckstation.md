@@ -12,6 +12,7 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5R
 
 1. [Getting Started with DuckStation](#getting-started-with-duckstation)
       - [Configuration](#duckstation-configuration)
+      - [DuckStation Folder Locations](#duckstation-folder-locations)
       - [How to Update DuckStation](#how-to-update-duckstation)
       - [How to Launch DuckStation in Desktop Mode](#how-to-launch-duckstation-in-desktop-mode)
       - [File Formats](#duckstation-file-formats)
@@ -58,7 +59,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Refer to: [https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models](https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models), for a full list of PSX bios
       * System Models and PSX BIOS have matching names
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### DuckStation Folder Locations
+[Back to the Top](#duckstation-table-of-contents)
 
 `$HOME/.var/app/org.duckstation.DuckStation`
 
@@ -89,10 +97,6 @@ org.duckstation.DuckStation/
         ├── settings.ini
         └── settings.ini.bak
 ```
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 

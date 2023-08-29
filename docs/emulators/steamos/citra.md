@@ -12,6 +12,7 @@ Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
 
 1. [Getting Started with Citra](#getting-started-with-citra)
     - [Configuration](#citra-configuration)
+    - [Citra Folder Locations](#citra-folder-locations)
     - [How to Update Citra](#how-to-update-citra)
     - [How to Launch Citra in Desktop Mode](#how-to-launch-citra-in-desktop-mode)
     - [File Formats](#citra-file-formats)
@@ -61,7 +62,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### Citra Folder Locations
+[Back to the Top](#citra-table-of-contents)
 
 `$HOME/.var/app/org.citra_emu.citra`
 
@@ -92,10 +100,6 @@ org.citra_emu.citra/
         └── sysdata 
 ```
 
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 

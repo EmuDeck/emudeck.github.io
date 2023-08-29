@@ -20,6 +20,7 @@ We HIGHLY suggest looking to see if a game you wish to emulate has a native PC v
 
 1. [Getting Started with Xenia](#getting-started-with-xenia)
     - [Configuration](#xenia-configuration)
+    - [Xenia Folder Locations](#xenia-folder-locations)
     - [How to Download Xenia](#how-to-download-xenia)
     - [How to Update Xenia](#how-to-update-xenia)
     - [How to Launch Xenia in Desktop Mode](#how-to-launch-xenia-in-desktop-mode)
@@ -71,7 +72,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * BIOS: No BIOS are required to play Xenia
 * Saves: `Emulation/roms/xbox360/content`
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### Xenia Folder Locations
+[Back to the Top](#xenia-table-of-contents)
 
 `Emulation/roms/xbox360`
 
@@ -260,11 +268,6 @@ xbox360/
 ├── xenia.config.toml
 └── xenia.log
 ```
-
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 

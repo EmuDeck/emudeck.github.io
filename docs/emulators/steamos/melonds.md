@@ -17,6 +17,7 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
 
 1. [Getting Started with melonDS](#getting-started-with-melonds)
     - [Configuration](#melonds-configuration)
+    - [melonDS Folder Locations](#melonds-folder-locations)
     - [How to Update melonDS](#how-to-update-melonds)
     - [How to Launch melonDS in Desktop Mode](#how-to-launch-melonds-in-desktop-mode)
     - [File Formats](#melonds-file-formats)
@@ -58,7 +59,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show hidden files` to see these folders.  
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### melonDS Folder Locations
+[Back to the Top](#melonds-table-of-contents)
 
 `$HOME/.var/app/net.kuribo64.melonDS`
 
@@ -81,13 +89,6 @@ net.kuribo64.melonDS
     ├── user-places.xbel.bak
     └── user-places.xbel.tbcache
 ```
-
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
-
-
 
 ***
 

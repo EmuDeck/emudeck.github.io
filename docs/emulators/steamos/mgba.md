@@ -15,6 +15,7 @@ Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
 
 1. [Getting Started with mGBA](#getting-started-with-mgba)
     - [Configuration](#mgba-configuration)
+    - [mGBA Folder Locations](#mgba-folder-locations)
     - [How to Update mGBA](#how-to-update-mgba)
     - [How to Launch mGBA in Desktop Mode](#how-to-launch-mgba-in-desktop-mode)
     - [File Formats](#mbga-file-formats)
@@ -68,7 +69,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.  
 
-#### Folder Visualization 
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### mGBA Folder Locations
 
 `$HOME/.config/mgba`
 
@@ -92,10 +99,6 @@ mgba
 └── screenshots
 ```
 
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 

@@ -16,6 +16,7 @@ Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Confi
 
 1. [Getting Started with Ryujinx](#getting-started-with-ryujinx)
     - [Configuration](#ryujinx-configuration)
+    - [Ryujinx Folder Locations](#ryujinx-folder-locations)
     - [How to Update Ryujinx](#how-to-update-ryujinx)
     - [How to Launch Ryujinx in Desktop Mode](#how-to-launch-ryujinx-in-desktop-mode)
     - [File Formats](#ryujinx-file-formats)
@@ -87,7 +88,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### Ryujinx Folder Locations
+[Back to the Top](#ryujinx-table-of-contents)
 
 `$HOME/.config/Ryujinx`
 
@@ -126,10 +134,6 @@ Ryujinx/
     ├── prod.keys
     └── Profiles.json
 ```
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 

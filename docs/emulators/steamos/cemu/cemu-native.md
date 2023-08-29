@@ -19,6 +19,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
 1. [Getting started with Cemu](#getting-started-with-cemu)
     - [Setting up Cemu Questionnaire](#setting-up-cemu-questionnaire)
     - [Configuration](#cemu-native-configuration)
+    - [Cemu Native Folder Locations](#cemu-native-folder-locations)
     - [The Dangers of Proton](#the-dangers-of-proton)
     - [How to Update Cemu](#how-to-update-cemu)
     - [How to Launch Cemu in Desktop Mode](#how-to-launch-cemu-in-desktop-mode)
@@ -126,7 +127,14 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
     * Symlink:  `Emulation/saves/Cemu/saves/`
     * Target: `Emulation/roms/wiiu/mlc01/usr/save`
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### Cemu Native Folder Locations
+[Back to the Top](#cemu-native-table-of-contents)
 
 `$HOME/.config/Cemu/` 
 
@@ -177,9 +185,6 @@ wiiu/mlc01/
     └── title
 ```
 
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 

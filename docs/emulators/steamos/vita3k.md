@@ -14,6 +14,7 @@ Quickstart Guide: [https://vita3k.org/quickstart.html](https://vita3k.org/quicks
 
 1. [Getting Started with Vita3K](#getting-started-with-vita3k)
     - [Configuration](#vita3k-configuration)
+    - [Vita3K Folder Locations](#vita3k-folder-locations)
     - [How to Update Vita3K](#how-to-update-vita3k)
     - [How to Launch Vita3K in Desktop Mode](#how-to-launch-vita3k-in-deskop-mode)
     - [File Formats](#vita3k-file-formats)
@@ -54,7 +55,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Saves: `Emulation/storage/Vita3K/ux0/user/00/savedata`
     * Save folders correspond to a game's Title ID. To locate your game's Title ID, open Vita3K, right click a game, and click `Information`
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+    * Refer to [How to Configure Vita3K to Work With EmulationStation-DE](#how-to-configure-vita3k-to-work-with-emulationstation-de) for instructions
+
+***
+
+### Vita3K Folder Locations
 
 `$HOME/Applications/Vita3K`
 
@@ -112,6 +120,8 @@ Vita3K/
 │   ├── temp
 │   ├── theme
 │   └── user
+│       └──00
+│           └──savedata
 ├── vd0
 ├── vs0
 │   ├── app
@@ -122,10 +132,6 @@ Vita3K/
 └── xmc0
 ```
 
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
-    * Refer to [How to Configure Vita3K to Work With EmulationStation-DE](#how-to-configure-vita3k-to-work-with-emulationstation-de) for instructions
 
 ***
 

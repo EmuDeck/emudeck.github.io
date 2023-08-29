@@ -14,6 +14,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
 
 1. [Getting Started with Dolphin](#getting-started-with-dolphin)
     - [Configuration](#dolphin-configuration)
+    - [Dolphin Folder Locations](#dolphin-folder-locations)
     - [How to Update Dolphin](#how-to-update-dolphin)
     - [How to Launch Dolphin in Desktop Mode](#how-to-launch-dolphin-in-desktop-mode)
     - [File Formats](#dolphin-file-formats)
@@ -95,9 +96,17 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-#### Folder Visualization
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### Dolphin Folder Locations
+[Back to the Top](#dolphin-table-of-contents)
 
 `$HOME/.var/app/org.DolphinEmu.dolphin-emu`
+
 ```
 org.DolphinEmu.dolphin-emu/
 ├── cache
@@ -172,11 +181,6 @@ org.DolphinEmu.dolphin-emu/
             ├── tmp
             └── wfs
 ```
-
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 

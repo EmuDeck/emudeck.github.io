@@ -16,6 +16,7 @@ PrimeHack FAQ: [https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questio
 
 1. [Getting Started with PrimeHack](#getting-started-with-primehack)
     - [Configuration](#primehack-configuration)
+    - [PrimeHack Folder Locations](#primehack-folder-locations)
     - [How to Update PrimeHack](#how-to-update-primehack)
     - [How to Launch PrimeHack in Desktop Mode](#how-to-launch-primehack-in-desktop-mode)
     - [File Formats](#primehack-file-formats)
@@ -63,7 +64,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 * Only `Metroid Prime Trilogy` (Wii)'s controls are configured. The Gamecube versions do not have controls configured at this time
 
-#### Folder Visualization 
+#### Works With
+* Steam ROM Manager
+* EmulationStation-DE
+
+***
+
+### PrimeHack Folder Locations
+[Back to the Top](#primehack-table-of-contents)
 
 `$HOME/.var/app/io.github.shiiion.primehack`
 
@@ -128,11 +136,6 @@ io.github.shiiion.primehack/
             ├── tmp
             └── wfs
 ```
-
-
-#### Works With
-* Steam ROM Manager
-* EmulationStation-DE
 
 ***
 
