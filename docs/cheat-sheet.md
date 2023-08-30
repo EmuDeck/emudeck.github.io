@@ -93,6 +93,8 @@ Here are a list of resources for the various consoles:
 
 BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make or use any additional folders unless otherwise specified on the charts below.
 
+[Skip to the Charts](#cheat-sheets)
+
 Read through the following sections for a quick run-down of when to and when not to place BIOS directly into `Emulation/bios`.
 
 - [Where do I find the Emulation/bios folder?](#where-do-i-find-the-emulationbios-folder)

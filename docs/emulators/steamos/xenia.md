@@ -35,6 +35,8 @@ We HIGHLY suggest looking to see if a game you wish to emulate has a native PC v
 3. [Xenia Tips and Tricks](#xenia-tips-and-tricks)
     - [How to Swap Out Xenia Builds](#how-to-swap-out-xenia-builds)
     - [How to Swap Between Vulkan and DX12](#how-to-swap-between-vulkan-and-dx12)
+    - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
+
 
 
 ***
@@ -441,5 +443,40 @@ DX12:
     <source src="/videos/how-to-swap-between-vulkan-and-dx12.mp4" type="video/mp4">
   </video>
 </figure>
+
+***
+
+### How to Manage Multiple Discs
+[Back to the Top](#xenia-table-of-contents)
+
+Xenia does not support M3U files. 
+
+Xbox 360 Multi-disc games are not all the same. Some Xbox 360 multi-disc games may contain the disc content on Disc 1 and optional content on Disc 2, allowing you to complete the entire game using only Disc 1. Some Xbox 360 multi-disc games are split in parts, requiring you to use all included discs to complete the game. Some may contain the entire game on Disc 1 and allow you to install additional content from the other discs, similar to DLC. 
+
+#### Xbox 360 Games With Optional Content on Separate Discs
+
+You can treat each disc as separate "games", and only need Disc 1 to complete the full base game. 
+
+**List of Games**
+
+* Red Dead Redemption
+    * The entire base game is on Disc 1 and the Undead Nightmare DLC and multiplayer are on Disc 2
+
+#### Xbox 360 Games With Split Parts on Each Disc
+
+Xenia Canary will prompt you to select the next disc after you complete one disc. If you are using Steam ROM Manager, you may elec to only parse Disc 1 and hide any additional discs, see [How to Manage ROMs with Multiple Discs](../../tools/steamos/steam-rom-manager.md#how-to-manage-roms-with-multiple-discs) to learn how.
+
+**List of Games**
+
+* Lost Odyssey
+    * Each disc contains a portion of the full content     
+
+#### Xbox 360 Games With Installable Content on Additional Discs
+
+To download the content on the additional discs and use it on the base disc , you will need to install them and treat them as "DLC". Xenia does not have a way of directly supporting this yet. There may be other ways to accomplish installing the additional content, but this wiki will not cover those methods. 
+
+**List of Games**
+
+* Call of Duty: Advanced Warfare
 
 ***

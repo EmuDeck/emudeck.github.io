@@ -44,6 +44,8 @@ When the time comes to switch discs, you can use the various emulator quick-menu
 
 * PCSX2 does not support M3U files
    * [How to Manage Multiple Discs in PCSX2](../../emulators/steamos/pcsx2.md#how-to-manage-multiple-discs)
+* Xenia does not support M3U files
+    * [How to Manage Multiple Discs in Xenia](../../emulators/steamos/xenia.md#how-to-manage-multiple-discs)
 
 ***
 
