@@ -464,7 +464,7 @@ You can treat each disc as separate "games", and only need Disc 1 to complete th
 
 #### Xbox 360 Games With Split Parts on Each Disc
 
-Xenia Canary will prompt you to select the next disc after you complete one disc. If you are using Steam ROM Manager, you may elec to only parse Disc 1 and hide any additional discs, see [How to Manage ROMs with Multiple Discs](../../tools/steamos/steam-rom-manager.md#how-to-manage-roms-with-multiple-discs) to learn how.
+Xenia Canary will prompt you to select the next disc after you complete one disc. If you are using Steam ROM Manager, you may elect to only parse Disc 1 and hide any additional discs, see [How to Manage ROMs with Multiple Discs](../../tools/steamos/steam-rom-manager.md#how-to-manage-roms-with-multiple-discs) to learn how.
 
 **List of Games**
 
