@@ -1,5 +1,7 @@
 # How to Contribute to EmuDeck
 
+[TOC]
+
 ## How to Contribute to the EmuDeck Wiki
 
 EmuDeck Wiki GitHub Repository: [https://github.com/EmuDeck/emudeck.github.io](https://github.com/EmuDeck/emudeck.github.io)
@@ -49,11 +51,56 @@ This section will use `Dolphin on SteamOS` as an example.
 5. Submit your Pull Request
 6. Once your Pull Request is reviewed, it will be merged and any of your changes will automatically be deployed to the website
 
+***
 
 ## How to Contribute to EmuDeck
+
+### Examples of Pull Requests
+
+#### Homebrew Games
+
+##### Example PR
+
+Game Name: Apotris
+
+* [https://github.com/EmuDeck/emudeck-homebrew/pull/1](https://github.com/EmuDeck/emudeck-homebrew/pull/1)
+* [https://github.com/dragoonDorise/EmuDeck/pull/706](https://github.com/dragoonDorise/EmuDeck/pull/706)
+
+##### Contribution Expectations
+
+On the [EmuDeck Homebrew Repository](https://github.com/EmuDeck/emudeck-homebrew), create a Pull Request with the following items:
+
+* ROM, typically zipped in the respective ROM folder
+* A photo of the title screen in `titlescreens/homebrew`
+* A generic photo of the game in `screenshots/homebrew`
+
+On the [EmuDeck Repository](https://github.com/dragoonDorise/EmuDeckhttps://github.com/dragoonDorise/EmuDeck), create a Pull Request with the following items:
+
+* A JSON file matching the homebrew game name in the respective ROM folder within the `store` folder, using the following format (replace the text in all capital letters)
+
+        {
+        "system": "SYSTEMNAME",
+        "status": "true",
+        "logo": "logo_SYSTEMNAME",
+        "title": "GAMENAME",
+        "url": "XXXX",
+        "file": "https://raw.githubusercontent.com/EmuDeck/emudeck-homebrew/main/SYSTEMNAME/GAMENAME.zip",
+        "description": "FILLINDESCRIPTION",
+        "pictures": {
+            "screenshots": [
+            "https://raw.githubusercontent.com/EmuDeck/emudeck-homebrew/main/downloaded_media/SYSTEMNAME/screenshots/homebrew/GAMENAME.png?raw=true"
+            ],
+            "titlescreens": [
+            "https://raw.githubusercontent.com/EmuDeck/emudeck-homebrew/main/downloaded_media/SYSTEMNAME/titlescreens/homebrew/GAMENAME.png?raw=true"
+            ]
+        },
+        "tags": ["GENRENAME"]
+        }
+
+***
 
 ## How to Contribute to the EmuDeck Application
 
 ***
 
-Thank you for contributing!
+**Thank you for contributing!**
