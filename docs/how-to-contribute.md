@@ -59,7 +59,7 @@ This section will use `Dolphin on SteamOS` as an example.
 
 #### Homebrew Games
 
-##### Example PR
+##### Pull Request Example
 
 Game Name: Apotris
 
