@@ -74,7 +74,7 @@ On the [EmuDeck Homebrew Repository](https://github.com/EmuDeck/emudeck-homebrew
 * A photo of the title screen in `titlescreens/homebrew`
 * A generic photo of the game in `screenshots/homebrew`
 
-On the [EmuDeck Repository](https://github.com/dragoonDorise/EmuDeckhttps://github.com/dragoonDorise/EmuDeck), create a Pull Request with the following items:
+On the [EmuDeck Repository](https://github.com/dragoonDorise/EmuDeck), create a Pull Request with the following items:
 
 * A JSON file matching the homebrew game name in the respective ROM folder within the `store` folder, using the following format (replace the text in all capital letters)
 
