@@ -27,6 +27,7 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [After starting a game it goes back to Steam or EmulationStation-DE?](#after-starting-a-game-it-goes-back-to-steam-or-emulationstation-de)
     - [Why do some of my multi-disc games not show up in Steam ROM Manager?](#why-do-some-of-my-multi-disc-games-not-show-up-in-steam-rom-manager)
 3. [PCSX2 Tips and Tricks](#pcsx2-tips-and-tricks)
+    - [How to Verify ROMs](#how-to-verify-roms)
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
     - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
@@ -234,6 +235,30 @@ To fix this, do one of the following solutions:
 
 ## PCSX2 Tips and Tricks
 [Back to the Top](#pcsx2-qt-table-of-contents) 
+
+***
+
+### How to Verify ROMs
+[Back to the Top](#pcsx2-qt-table-of-contents) 
+
+If you have a ROM that is not launching, you can verify your ROM directly in PCSX2. Verifying your ROM confirms whether you have a good dump or a bad dump. If you have a bad dump, you will need to re-dump your PlayStation 2 ROM, following PCSX2's guide. For the dumping guide, see [https://pcsx2.net/docs/usage/setup/#dumping-ps2-discs-via-imgburn](https://pcsx2.net/docs/usage/setup/#dumping-ps2-discs-via-imgburn). 
+
+If you have a good dump, your issue lies elsewhere. Make sure you have PlayStation 2 BIOS directly in the `Emulation/bios` folder and make sure PCSX2 is up to date. If neither of these resolve your issue, make sure to either check Google or retrieve a PCSX2 log so you can share it with the PCSX2 team. 
+
+#### How to Verify ROMs
+
+**Note:** Make sure PCSX2 is up to date first. Verifying ROMs directly in PCSX2 is a fairly new feature. 
+
+1. Open PCSX2
+2. If you are in Big Picture mode:
+    * Press the square icon in the top right
+    * Click `View` at the top 
+    * Click `Game List`
+3. Right click a game
+4. Click `Properties`
+5. On the `Summary` tab, click `Verify` on the right of the screen and wait a few moments
+6. After a few moments, you will see either a green checkmark or an x in addition to a message indicating if your ROM was verified
+    * ![PCSX2: How to Verify ROMS](../../assets/pcsx2-how-to-verify-roms.png)
 
 ***
 
