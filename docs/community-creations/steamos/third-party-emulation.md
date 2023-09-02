@@ -78,7 +78,7 @@ curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sh -
 ```
 
 ```
-curl -s https://raw.githubusercontent.com/89luca89/distrobox/1.5.0.2/extras/install-podman | sh -s -- --prefix ~/.local
+curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/extras/install-podman | sh -s -- --prefix ~/.local
 ```
 
 #### How to Configure bashrc
@@ -132,7 +132,7 @@ Source: [https://github.com/djyt/cannonball](https://github.com/djyt/cannonball)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
-   * `sudo apt install -y sdl2-dev libboost-dev cmake make`
+    * `sudo apt install -y sdl2-dev libboost-dev cmake make`
 
 #### Setting Up Cannonball
 
@@ -140,20 +140,20 @@ Source: [https://github.com/djyt/cannonball](https://github.com/djyt/cannonball)
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone --recursive https://github.com/djyt/cannonball.git`
+    * `git clone --recursive https://github.com/djyt/cannonball.git`
 4. A `cannonball` folder will be created, `
 5. You  will add your ROM files will be added after the build is finished
 
 #### Building Cannonball
 
 1. In `/home/deck/Applications/Distrobox/cannonball`, right click `Open Terminal Here`, enter:
-   * `distrobox enter ubuntu`
+    * `distrobox enter ubuntu`
 2. Enter: 
-   * `mkdir build`
-   * `mkdir roms`
-   * `cd build`
-   * `cmake --fresh -DTARGET=linux.cmake -DOpenGL_GL_PREFERENCE=GLVND -DCMAKE_BUILD_TYPE="Release" -S ../cmake/`
-  * `make -j4 VERBOSE=1`
+    * `mkdir build`
+    * `mkdir roms`
+    * `cd build`
+    * `cmake --fresh -DTARGET=linux.cmake -DOpenGL_GL_PREFERENCE=GLVND -DCMAKE_BUILD_TYPE="Release" -S ../cmake/`
+    * `make -j4 VERBOSE=1`
 3. Wait for it to finish building
 
 #### Providing ROM Files for Super Cannonball
@@ -191,21 +191,21 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 
 1. In `/home/deck/Applications`, create an `OpenGOAL` folder
 2. Download the latest `tar.gz` from here: [https://github.com/open-goal/jak-project/releases](https://github.com/open-goal/jak-project/releases) and place it in the folder you created in Step 1
-   * Example: Download `opengoal-linux-v0.1.32.tar.gz `
-       * The version number may be different depending on when you are reading this
+    * Example: Download `opengoal-linux-v0.1.32.tar.gz `
+        * The version number may be different depending on when you are reading this
 3. Right click the `tar.gz` file and click `Extract archive here`
-   * This will make it easier to apply updates. When an update is released, you can overwrite the files in this directory
+    * This will make it easier to apply updates. When an update is released, you can overwrite the files in this directory
 4. Place your `Jak and Daxter: The Precursor Legacy` in `/home/deck/Applications/OpenGOAL`
-   * If you use EmuDeck, you may also place it in `Emulation/roms/ps2`
+    * If you use EmuDeck, you may also place it in `Emulation/roms/ps2`
 
 
 #### Installing OpenGOAL
 
 1. In `/home/deck/Applications/OpenGOAL`, right click, click `Open Terminal Here`
 2. Enter: `./extractor "NAMEOFJAKANDDEXTERROM"`
-   * If you have spaces, you will need to use quotes around the ROM name
-   * If you placed your ROM in another directory, you will need to enter the full path
-        * Example: If you placed it in your `Emulation/roms/ps2` folder on your SD card, the command will look like the following: `./extractor "/run/media/mmcblk0p1/Emulation/roms/ps2/NAMEOFJAKANDDEXTERROM"`
+    * If you have spaces, you will need to use quotes around the ROM name
+    * If you placed your ROM in another directory, you will need to enter the full path
+         * Example: If you placed it in your `Emulation/roms/ps2` folder on your SD card, the command will look like the following: `./extractor "/run/media/mmcblk0p1/Emulation/roms/ps2/NAMEOFJAKANDDEXTERROM"`
 3. To play `Jak and Daxter: The Precursor Legacy`, open `/home/deck/Applications/OpenGOAL/gk`
 
 #### How to Install Custom Textures
@@ -217,9 +217,9 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 3. Move the extracted `texture_replacements` folder to `/home/deck/Applications/OpenGOAL/data`
 4. In `/home/deck/Applications/OpenGOAL`, right click, click `Open Terminal Here`
 5. Enter: `./extractor "NAMEOFJAKANDDEXTERROM"`
-   * If you have spaces, you will need to use quotes around the ROM name
-   * If you placed your ROM in another directory, you will need to enter the full path
-      * Example: If you placed it in your `Emulation/roms/ps2` folder on your SD card, the command will look like the following: `./extractor "/run/media/mmcblk0p1/Emulation/roms/ps2/NAMEOFJAKANDDEXTERROM"`
+    * If you have spaces, you will need to use quotes around the ROM name
+    * If you placed your ROM in another directory, you will need to enter the full path
+       * Example: If you placed it in your `Emulation/roms/ps2` folder on your SD card, the command will look like the following: `./extractor "/run/media/mmcblk0p1/Emulation/roms/ps2/NAMEOFJAKANDDEXTERROM"`
 6. Wait
 7. Your custom textures will now be installed
 
@@ -303,16 +303,16 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone --single-branch --branch alpha https://github.com/Render96/Render96ex.git`
+    * `git clone --single-branch --branch alpha https://github.com/Render96/Render96ex.git`
 3. A `Render96ex` folder will be created, place your Super Mario 64 ROM in this folder
 4. Rename the Super Mario 64 ROM to `baserom.us.z64`
 
 #### Building Render96ex
 
 1. In `/home/deck/Applications/Distrobox/Render96ex/`, right click `Open Terminal Here`, enter:
-   * `distrobox enter ubuntu`
+    * `distrobox enter ubuntu`
 2. Enter: 
-   * `make -j4 TEXTURE_FIX=1`
+    * `make -j4 TEXTURE_FIX=1`
 3. Wait for it to finish building
 4. To play Render96ex, open `sm64.us.f3dex2e` in `/home/deck/Applications/Distrobox/Render96ex/build/us_pc`
 
@@ -326,7 +326,7 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 #### How to Install Custom Textures
 
 1. In `/home/deck/Applications/Distrobox/Render96ex/`, right click `Open Terminal Here`, enter:
-   * `git clone https://github.com/pokeheadroom/RENDER96-HD-TEXTURE-PACK.git -b master`
+    * `git clone https://github.com/pokeheadroom/RENDER96-HD-TEXTURE-PACK.git -b master`
 2. Move the `gfx` folder in the newly cloned `RENDER96-HD-TEXTURE-PACK` folder to `/home/deck/Applications/Distrobox/Render96ex/build/us_pc/res`
 
 #### How to Configure Render96ex
@@ -377,8 +377,8 @@ sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
 
 1. In `/home/deck/Applications`, create a `ShipofHarkinian` folder
 2. Download the latest version of `Ship of Harkinian`: [https://www.shipofharkinian.com/](https://www.shipofharkinian.com/) to the folder you created in Step 1
-   * Download links are only available from their Discord
-   * Download the `Linux / SteamDeck (Perfomance Build)`
+    * Download links are only available from their Discord
+    * Download the `Linux / SteamDeck (Perfomance Build)`
 3. Right click the downloaded zip file and click `Extract archive here, detect subfolder`
 4. Move the `soh.AppImage` to `/home/deck/Applications/ShipofHarkinian`
 5. Right click `soh.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
@@ -490,7 +490,7 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
-   * `sudo apt install -y git build-essential pkg-config libusb-1.0-0-dev libsdl2-dev bsdmainutils`
+    * `sudo apt install -y git build-essential pkg-config libusb-1.0-0-dev libsdl2-dev bsdmainutils`
 
 #### Setting Up Super Mario 64 Plus
 
@@ -498,26 +498,26 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone https://github.com/MorsGames/sm64plus`
+    * `git clone https://github.com/MorsGames/sm64plus`
 3. A `sm64plus` folder will be created, place your Super Mario 64 ROM in this folder
 4. Rename the Super Mario 64 ROM to `baserom.us.z64`
 
 #### Building Super Mario 64 Plus
 
 1. In `/home/deck/Applications/Distrobox/sm64plus/`, right click `Open Terminal Here`, enter:
-   * `distrobox enter ubuntu`
+    * `distrobox enter ubuntu`
 2. Enter: 
-   * `make -j4`
+    * `make -j4`
 3. Wait for it to finish building
 4. To play Super Mario 64 Plus, open `sm64.us` in `/home/deck/Applications/Distrobox/sm64plus/build/us_pc`
-   * The game may have missing HUD UI textures, to fix these, read the next section
+    * The game may have missing HUD UI textures, to fix these, read the next section
    
 #### How to Fix the Missing HUD UI textures
 
 1. Download attached `.sh` file
-   * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh)
-   * Right click anywhere on the page, click `Save Page As`
-   * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh)
+    * Right click anywhere on the page, click `Save Page As`
+    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
 3. Right click `SuperMario64Plus.sh`
 4. Click `Properties`
@@ -562,8 +562,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following commands one at a time: 
-   * `sudo apt install libsdl2-dev python3-pip make`
-   * `python3 -m pip install --upgrade pip pillow pyyaml zstandard`
+    * `sudo apt install libsdl2-dev python3-pip make`
+    * `python3 -m pip install --upgrade pip pillow pyyaml zstandard`
 
 #### How to Set Up Super Mario Bros
 
@@ -571,10 +571,10 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone https://github.com/snesrev/smw smb1`
+    * `git clone https://github.com/snesrev/smw smb1`
 3. A `smb1` folder will be created, place your `Super Mario All-Stars` ROM in `/home/deck/Applications/smb1/other`
-   * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
-   * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
+    * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
+    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
 4. Rename the Super Mario World ROM to `smas.sfc`
 
 #### How to Build Super Mario Bros
@@ -593,9 +593,9 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 #### How to Play Super Mario Bros
 
 1. Download attached `.sh` file
-   * Link: [https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/bf8010ff9a055acb478462c5da5b5329e4a3fca4/smb1.sh](https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/bf8010ff9a055acb478462c5da5b5329e4a3fca4/smb1.sh)
-   * Right click anywhere on the page, click `Save Page As`
-   * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/bf8010ff9a055acb478462c5da5b5329e4a3fca4/smb1.sh](https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/bf8010ff9a055acb478462c5da5b5329e4a3fca4/smb1.sh)
+    * Right click anywhere on the page, click `Save Page As`
+    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
 3. Right click `smb1.sh`
 4. Click `Properties`
@@ -633,8 +633,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following commands one at a time: 
-   * `sudo apt install libsdl2-dev python3-pip make`
-   * `python3 -m pip install --upgrade pip pillow pyyaml zstandard`
+    * `sudo apt install libsdl2-dev python3-pip make`
+    * `python3 -m pip install --upgrade pip pillow pyyaml zstandard`
 
 #### How to Set Up Super Mario Bros: The Lost Levels
 
@@ -642,10 +642,10 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone https://github.com/snesrev/smw smbll`
+    * `git clone https://github.com/snesrev/smw smbll`
 3. A `smbll` folder will be created, place your `Super Mario All-Stars ROM` in `/home/deck/Applications/smbll/other`
-   * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
-   * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
+    * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
+    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
 4. Rename the Super Mario World ROM to `smas.sfc`
 
 #### How to Build Super Mario Bros: The Lost Levels
@@ -664,9 +664,9 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 #### How to Play Super Mario Bros: The Lost Levels
 
 1. Download attached `.sh` file
-   * Link: [https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/bda47aaf27d35501c2c32f95d2b3cfe811cfb345/smbll.sh](https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/bda47aaf27d35501c2c32f95d2b3cfe811cfb345/smbll.sh)
-   * Right click anywhere on the page, click `Save Page As`
-   * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/bda47aaf27d35501c2c32f95d2b3cfe811cfb345/smbll.sh](https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/bda47aaf27d35501c2c32f95d2b3cfe811cfb345/smbll.sh)
+    * Right click anywhere on the page, click `Save Page As`
+    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
 3. Right click `smbll.sh`
 4. Click `Properties`
@@ -701,8 +701,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following commands one at a time: 
-   * `sudo apt install libsdl2-dev python3-pip make`
-   * `python3 -m pip install --upgrade pip pillow pyyaml`
+    * `sudo apt install libsdl2-dev python3-pip make`
+    * `python3 -m pip install --upgrade pip pillow pyyaml`
 
 #### How to Set Up Super Mario World
 
@@ -710,18 +710,18 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone https://github.com/snesrev/smw`
+    * `git clone https://github.com/snesrev/smw`
 4. A `smw` folder will be created, place your Super Mario World ROM in `/home/deck/Applications/smw`
-   * SHA256 Hash: `6b47bb75d16514b6a476aa0c73a683a2a4c18765`
-   * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
+    * SHA256 Hash: `6b47bb75d16514b6a476aa0c73a683a2a4c18765`
+    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
 5. Rename the Super Mario World ROM to `smw.sfc`
 
 #### How to Build Super Mario World
 
 1. In `/home/deck/Applications/Distrobox/smw/`, right click `Open Terminal Here`, enter:
-   * `distrobox enter ubuntu`
+    * `distrobox enter ubuntu`
 2. Enter: 
-   * `make`
+    * `make`
 3. Wait for it to finish building
 4. To play Super Mario World, open `smw` in `/home/deck/Applications/Distrobox/smw/`
 
@@ -752,7 +752,7 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
-   * `sudo apt install libsdl2-dev python3-pip make`
+    * `sudo apt install libsdl2-dev python3-pip make`
 
 #### Setting Up Super Metroid
 
@@ -760,16 +760,16 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone --recursive https://github.com/snesrev/sm`
+    * `git clone --recursive https://github.com/snesrev/sm`
 4. A `sm` folder will be created, place your US Super Metroid ROM in `/home/deck/Applications/sm`
 5. Rename the Super Metroid ROM to `sm.smc`
 
 #### Building Super Metroid
 
 1. In `/home/deck/Applications/Distrobox/sm`, right click `Open Terminal Here`, enter:
-   * `distrobox enter ubuntu`
+    * `distrobox enter ubuntu`
 2. Enter: 
-   * `make`
+    * `make`
 3. Wait for it to finish building
 4. To play Super Metroid, open `sm` in `/home/deck/Applications/Distrobox/sm/`
 
@@ -798,7 +798,7 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
-   * `sudo apt install libsdl2-dev python3-pip make`
+    * `sudo apt install libsdl2-dev python3-pip make`
 
 #### Patching Super Metroid Redux
 
@@ -811,16 +811,16 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone --recursive https://github.com/testyourmine/sm-redux`
+    * `git clone --recursive https://github.com/testyourmine/sm-redux`
 4. A `sm-redux` folder will be created, place your patched US Super Metroid ROM in `/home/deck/Applications/sm-redux`
 5. Rename the patched Super Metroid ROM to `sm.smc`
 
 #### Building Super Metroid Redux
 
 1. In `/home/deck/Applications/Distrobox/sm-redux`, right click `Open Terminal Here`, enter:
-   * `distrobox enter ubuntu`
+    * `distrobox enter ubuntu`
 2. Enter: 
-   * `make`
+    * `make`
 3. Wait for it to finish building
 4. To play Super Metroid Redux, open `sm` in `/home/deck/Applications/Distrobox/sm-redux/`
 
@@ -847,8 +847,8 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following commands one at a time: 
-   * `sudo apt install libsdl2-dev python3-pip make`
-   * `python3 -m pip install --upgrade pip pillow pyyaml`
+    * `sudo apt install libsdl2-dev python3-pip make`
+    * `python3 -m pip install --upgrade pip pillow pyyaml`
 
 #### How to Set Up zelda3
 
@@ -856,18 +856,18 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone https://github.com/snesrev/zelda3`
+    * `git clone https://github.com/snesrev/zelda3`
 4. A `zelda3` folder will be created, place your US Link to the Past ROM in `/home/deck/Applications/zelda3/tables`
-   * SHA256 Hash: `66871d66be19ad2c34c927d6b14cd8eb6fc3181965b6e517cb361f7316009cfb`
-   * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
+    * SHA256 Hash: `66871d66be19ad2c34c927d6b14cd8eb6fc3181965b6e517cb361f7316009cfb`
+    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
 5. Rename the Link to the Past ROM to `zelda3.sfc`
 
 #### How to Build zelda3
 
 1. In `/home/deck/Applications/Distrobox/zelda3/`, right click `Open Terminal Here`, enter:
-   * `distrobox enter ubuntu`
+    * `distrobox enter ubuntu`
 2. Enter: 
-   * `make`
+    * `make`
 3. Wait for it to finish building
 4. To play zelda3, open `zelda3` in `/home/deck/Applications/Distrobox/zelda3/`
 
@@ -884,7 +884,7 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 #### How to Customize Sprites
 
 1. In `/home/deck/Applications/Distrobox/zelda3/`, right click `Open Terminal Here`, enter:
-   * `git clone --recursive https://github.com/snesrev/sprites-gfx.git`
+    * `git clone --recursive https://github.com/snesrev/sprites-gfx.git`
 2. In `/home/deck/Applications/Distrobox/zelda3/`, right click `zelda3.ini`, click `Open with Kate` or a text editor of your choice
 3. Remove the `#` at the beginning of this line: `# LinkGraphics = sprites-gfx/snes/zelda3/link/sheets/megaman-x.2.zspr`
 4. Replace `megaman-x.2.zspr` with the sprite of your choice
@@ -895,7 +895,7 @@ For a full list of sprites, visit: [http://alttp.mymm1.com/sprites/](http://altt
 
 1. On [http://alttp.mymm1.com/sprites/](http://alttp.mymm1.com/sprites/), right click the link above the sprite you would like to use, click `Copy Link`
 2. In a new tab, paste the URL
-   * If you press enter, it will download the sprite
+    * If you press enter, it will download the sprite
 3. The sprite file name will be at the end of the URL
 4. Example (Crewmate): [https://alttpr-assets.s3.us-east-2.amazonaws.com/crewmate.2.zspr](https://alttpr-assets.s3.us-east-2.amazonaws.com/crewmate.2.zspr)
 5. In `zelda3.ini`, replace `megaman-x.2.zspr` at the end: `LinkGraphics = sprites-gfx/snes/zelda3/link/sheets/megaman-x.2.zspr` with `crewmate2.zspr`
@@ -912,7 +912,7 @@ Choose a soundtrack from: [https://www.zeldix.net/t791-the-legend-of-zelda-a-lin
 1.  Download `Alternative New Soundtrack For Randomizers by JUD6MENT (updated: Sep 27, 2021)` from: [https://www.zeldix.net/t791-the-legend-of-zelda-a-link-to-the-past](https://www.zeldix.net/t791-the-legend-of-zelda-a-link-to-the-past) to your `/home/deck/Downloads` folder
 2. Right click `Zelda Alternative Soundtrack by JUD6MENT (update Sep-21-2021).zip`, click `Extract archive here, autodetect subfolder`
 3. Rename the newly extracted `Zelda Alternative Soundtrack by JUD6MENT (update Sep-21-2021)` folder to `msu`
-   * `msu` is case sensitive
+    * `msu` is case sensitive
 4. Move the `msu` folder to `/home/deck/Applications/Distrobox/zelda3/`
 5. In `/home/deck/Applications/Distrobox/zelda3/`, right click `zelda3.ini`, click `Open with Kate` or a text editor of your choice
 6. Edit the line: `EnableMSU = false` so it instead writes: `EnableMSU = true`
@@ -971,9 +971,9 @@ cd "/home/deck/Applications/Distrobox/sm"
 - [Super Mario 64 Plus](#super-mario-64-plus)
 
 1. Download attached `.sh` file
-   * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh)
-   * Right click anywhere on the page, click `Save Page As`
-   * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh)
+    * Right click anywhere on the page, click `Save Page As`
+    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
 3. Right click `SuperMario64Plus.sh`
 4. Click `Properties`
@@ -990,7 +990,7 @@ cd "/home/deck/Applications/Distrobox/sm"
 - [Render96ex](#render96ex)
 
 1. In a folder of your choice, create a text file and give it a descriptive name (matching the game name typically) with a `.sh` file extension
-    * For example: `Ship of Harkinian` or `Jak and Dexter: The Precursor Legacy`
+     * For example: `Ship of Harkinian` or `Jak and Dexter: The Precursor Legacy`
 2. Open the text file in a text editor of your choice
 3. Enter the following:
     ```
@@ -1260,10 +1260,10 @@ You will need to **create** a GitHub account first.
 1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/third-party-emulation.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/third-party-emulation.md)
 2. Click the `Pencil` icon in the top right
 3. Create a new section below the most recently added section under the respective category
-	* For example: `##### Paper Mario 64 Decompilation`
-	* Make sure to add your section to the respective section in the [Table of Contents](#third-party-emulation-table-of-contents) as well
+    * For example: `##### Paper Mario 64 Decompilation`
+	 * Make sure to add your section to the respective section in the [Table of Contents](#third-party-emulation-table-of-contents) as well
 4. Write your section
-   * If you are using a Distrobox for your instructions, you may link to [How to Set Up Distrobox](#how-to-set-up-distrobox)
-   * If you are using external script files, embed them in code blocks instead
+    * If you are using a Distrobox for your instructions, you may link to [How to Set Up Distrobox](#how-to-set-up-distrobox)
+    * If you are using external script files, embed them in code blocks instead
 
 ***
