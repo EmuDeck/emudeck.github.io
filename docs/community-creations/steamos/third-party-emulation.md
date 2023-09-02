@@ -1249,3 +1249,5 @@ You will need to **create** a GitHub account first.
 4. Write your section
    * If you are using a Distrobox for your instructions, you may link to [How to Set Up Distrobox](#how-to-set-up-distrobox)
    * If you are using external script files, embed them in code blocks instead
+
+***
