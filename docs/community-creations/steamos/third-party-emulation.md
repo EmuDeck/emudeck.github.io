@@ -466,7 +466,7 @@ _This list is not comprehensive_
 
 1. In the respective `Sonic 1` or `Sonic 2` folders, create a `mod` folder
 2. Download and extract mod(s) to the `mod` folder
-   * A mod folder should typically have a `Data` and a `mod.ini` file
+   * A mod folder should typically have a `Data` folder and a `mod.ini` file
 3. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
 4. Change `DevMenu=false` to `DevMenu=true` and save and close out of the file
 5. While in game, press `Start` and you should see a list of your mod(s)
