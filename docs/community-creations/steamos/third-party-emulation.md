@@ -241,10 +241,10 @@ Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following, one line at a time:
-   * `sudo dpkg --add-architecture i386`
-   * `sudo apt-get update`
+    * `sudo dpkg --add-architecture i386`
+    * `sudo apt-get update`
 4. Enter the following: 
-   * `sudo apt-get install git gcc g++ gcc-multilib g++-multilib make libsdl2-dev zlib1g-dev libsdl2-dev:i386 zlib1g-dev:i386`
+    * `sudo apt-get install git gcc g++ gcc-multilib g++-multilib make libsdl2-dev zlib1g-dev libsdl2-dev:i386 zlib1g-dev:i386`
 
 #### Setting Up Perfect Dark
 
@@ -252,23 +252,23 @@ Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone https://github.com/fgsfdsfgs/perfect_dark.git`
+    * `git clone https://github.com/fgsfdsfgs/perfect_dark.git`
 3. A `perfect_dark` folder will be created
 
 #### Building Perfect Dark
 
 1. In `/home/deck/Applications/Distrobox/perfect_dark`, right click `Open Terminal Here`, enter:
-   * `distrobox enter ubuntu`
+    * `distrobox enter ubuntu`
 2. Enter: 
-   * `make -f Makefile.port TARGET_PLATFORM=i686-linux -j2`
+    * `make -f Makefile.port TARGET_PLATFORM=i686-linux -j2`
 3. Wait for it to finish building
 4. In `/home/deck/Applications/Distrobox/perfect_dark`, create a `bin` folder
 5. In `/home/deck/Applications/Distrobox/perfect_dark/bin`, create a `data` folder
 6. Move `pd.exe` from `/home/deck/Applications/Distrobox/perfect_dark/build/ntsc-final-port` to `/home/deck/Applications/Distrobox/perfect_dark/bin`
 7. Rename `pd.exe` to `pd`
 8. Place your `Perfect Dark` ROM in `/home/deck/Applications/Distrobox/perfect_dark/bin/data`
-   * MD5 Hash: `e03b088b6ac9e0080440efed07c1e40f`
-   * To locate your MD5 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `MD5` and compare it to the above hash. If it is a match, you have a valid ROM. 
+    * MD5 Hash: `e03b088b6ac9e0080440efed07c1e40f`
+    * To locate your MD5 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `MD5` and compare it to the above hash. If it is a match, you have a valid ROM. 
 9. Rename the Perfect Dark ROM to `pd.ntsc-final.z64`
 10. To play Perfect Dark, open `pd` in `/home/deck/Applications/Distrobox/perfect_dark/bin/`
 
@@ -427,25 +427,25 @@ Source: [https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation](https
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
-   * `sudo apt install build-essential git libsdl2-dev libvorbis-dev libogg-dev libglew-dev libdecor-0-dev`
+    * `sudo apt install build-essential git libsdl2-dev libvorbis-dev libogg-dev libglew-dev libdecor-0-dev`
 
 #### Setting Up Sonic 1 and 2
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone --recursive https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation.git`
+    * `git clone --recursive https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation.git`
 3. A `Sonic-1-2-2013-Decompilation` folder will be created
 
 #### Playing Sonic 1 and 2
 
 1. In the `Sonic-1-2-2013-Decompilation` folder, right click `Open Terminal Here`, enter:
-   * `distrobox enter ubuntu`
+    * `distrobox enter ubuntu`
 2. Enter: 
-   * `make -j5`
+    * `make -j5`
 3. In the `Sonic-1-2-2013-Decompilation`, a `bin` folder will be created
 4. If you would like to play both Sonic 1 and 2, make a copy of the `bin` folder directly in the `Sonic-1-2-2013-Decompilation` folder
 5. Rename the original `bin` and the copied folder to Sonic 1 and Sonic 2 respectively
-   * This step is for easier folder management, it is a recommendation and not a requirement
+    * This step is for easier folder management, it is a recommendation and not a requirement
 6. Place the matching `Data.rsdk` in each folder
 7. To play Sonic 1 and 2, open `RSDKv4`
 
@@ -466,7 +466,7 @@ _This list is not comprehensive_
 
 1. In the respective `Sonic 1` or `Sonic 2` folders, create a `mod` folder
 2. Download and extract mod(s) to the `mod` folder
-   * A mod folder should typically have a `Data` folder and a `mod.ini` file
+    * A mod folder should typically have a `Data` folder and a `mod.ini` file
 3. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
 4. Change `DevMenu=false` to `DevMenu=true` and save and close out of the file
 5. While in game, press `Start` and you should see a list of your mod(s)
