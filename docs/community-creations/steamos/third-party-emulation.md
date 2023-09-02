@@ -12,8 +12,10 @@ The guides on this page are not officially supported by EmuDeck. Many require so
     - [Games](#games)
         - [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
         - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
+        - [Perfect Dark](#perfect-dark)
         - [Render96ex](#render96ex)
         - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
+        - [Sonic 1 and 2](#sonic-1-and-2)
         - [Super Mario 64 Plus](#super-mario-64-plus)
         - [Super Mario Bros](#super-mario-bros)
         - [Super Mario Bros: The Lost Levels](#super-mario-bros-the-lost-levels)
@@ -35,6 +37,7 @@ The guides on this page are not officially supported by EmuDeck. Many require so
     - [AM2R](#am2r) 
     - [PokeMMO](#pokemmo) 
 
+4. [How to Contribute to This Page](#how-to-contribute-to-this-page)
 
 ***
 
@@ -222,6 +225,59 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 
 ***
 
+### Perfect Dark
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+#### How to Compile Perfect Dark on the Steam Deck
+
+#### What is This Decompilation?
+
+`A work-in-progress port of the Perfect Dark decompilation to modern platforms.`
+
+Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs/perfect_dark)
+
+#### Installing Prerequisites
+
+1. [Set up a Distrobox](#how-to-set-up-distrobox)
+2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+3. Enter the following, one line at a time:
+   * `sudo dpkg --add-architecture i386`
+   * `sudo apt-get update`
+4. Enter the following: 
+   * `sudo apt-get install git gcc g++ gcc-multilib g++-multilib make libsdl2-dev zlib1g-dev libsdl2-dev:i386 zlib1g-dev:i386`
+
+#### Setting Up Perfect Dark
+
+**Note:** The following folder locations are recommendations. You may choose a different folder location. 
+
+1. In `/home/deck/Applications`, create a `Distrobox` folder
+2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+   * `git clone https://github.com/fgsfdsfgs/perfect_dark.git`
+3. A `perfect_dark` folder will be created
+
+#### Building Perfect Dark
+
+1. In `/home/deck/Applications/Distrobox/perfect_dark`, right click `Open Terminal Here`, enter:
+   * `distrobox enter ubuntu`
+2. Enter: 
+   * `make -f Makefile.port TARGET_PLATFORM=i686-linux -j2`
+3. Wait for it to finish building
+4. In `/home/deck/Applications/Distrobox/perfect_dark`, create a `bin` folder
+5. In `/home/deck/Applications/Distrobox/perfect_dark/bin`, create a `data` folder
+6. Move `pd.exe` from `/home/deck/Applications/Distrobox/perfect_dark/build/ntsc-final-port` to `/home/deck/Applications/Distrobox/perfect_dark/bin`
+7. Rename `pd.exe` to `pd`
+8. Place your `Perfect Dark` ROM in `/home/deck/Applications/Distrobox/perfect_dark/bin/data`
+   * MD5 Hash: `e03b088b6ac9e0080440efed07c1e40f`
+   * To locate your MD5 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `MD5` and compare it to the above hash. If it is a match, you have a valid ROM. 
+9. Rename the Perfect Dark ROM to `pd.ntsc-final.z64`
+10. To play Perfect Dark, open `pd` in `/home/deck/Applications/Distrobox/perfect_dark/bin/`
+
+#### Controls
+
+[https://github.com/fgsfdsfgs/perfect_dark#controls](https://github.com/fgsfdsfgs/perfect_dark#controls)
+
+***
+
 ### Render96ex
 [Back to the Top](#third-party-emulation-table-of-contents)
 
@@ -352,6 +408,54 @@ __This list is not exhaustive__
 3. Depending on the mod or texture pack, you may need to enable it in game as well. Refer to the mod or texture pack for any additional instructions
 
 ***
+
+### Sonic 1 and 2
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+#### How to Compile Sonic 1 and 2 on the Steam Deck
+
+**Note:** To compile Sonic 1 and 2, you will need a legally obtained copy of a `Data.rsdk` file, obtained either from the Sonic 1 and 2 versions on the Android or iOS versions. For instructions, see [Android](https://gamebanana.com/tuts/14492) and [iOS](https://gamebanana.com/tuts/14491).
+
+#### What is This Decompilation?
+
+`A complete decompilation of Retro Engine v4 and the menus from Sonic 1 and 2 (2013).`
+
+Source: [https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation](https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation)
+
+#### Installing Prerequisites
+
+1. [Set up a Distrobox](#how-to-set-up-distrobox)
+2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+3. Enter the following: 
+   * `sudo apt install build-essential git libsdl2-dev libvorbis-dev libogg-dev libglew-dev libdecor-0-dev`
+
+#### Setting Up Sonic 1 and 2
+
+1. In `/home/deck/Applications`, create a `Distrobox` folder
+2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+   * `git clone --recursive https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation.git`
+3. A `Sonic-1-2-2013-Decompilation` folder will be created
+
+#### Playing Sonic 1 and 2
+
+1. In the `Sonic-1-2-2013-Decompilation` folder, right click `Open Terminal Here`, enter:
+   * `distrobox enter ubuntu`
+2. Enter: 
+   * `make -j5`
+3. In the `Sonic-1-2-2013-Decompilation`, a `bin` folder will be created
+4. If you would like to play both Sonic 1 and 2, make a copy of the `bin` folder directly in the `Sonic-1-2-2013-Decompilation` folder
+5. Rename the original `bin` and the copied folder to Sonic 1 and Sonic 2 respectively
+   * This step is for easier folder management, it is a recommendation and not a requirement
+6. Place the matching `Data.rsdk` in each folder
+7. To play Sonic 1 and 2, open `RSDKv4`
+
+#### How to Configure Sonic 1 and 2
+
+1. In the respective Sonic 1 and 2 folder, after launching `RSDKv4` for the first time, a `settings.ini` will be created
+2. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
+3. Customize settings
+
+***
     
 ### Super Mario 64 Plus 
 [Back to the Top](#third-party-emulation-table-of-contents)
@@ -451,10 +555,10 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
    * `git clone https://github.com/snesrev/smw smb1`
-4. A `smb1` folder will be created, place your `Super Mario All-Stars` ROM in `/home/deck/Applications/smb1/other`
+3. A `smb1` folder will be created, place your `Super Mario All-Stars` ROM in `/home/deck/Applications/smb1/other`
    * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
-5. Rename the Super Mario World ROM to `smas.sfc`
+4. Rename the Super Mario World ROM to `smas.sfc`
 
 #### How to Build Super Mario Bros
 
@@ -522,10 +626,10 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
    * `git clone https://github.com/snesrev/smw smbll`
-4. A `smbll` folder will be created, place your `Super Mario All-Stars ROM` in `/home/deck/Applications/smbll/other`
+3. A `smbll` folder will be created, place your `Super Mario All-Stars ROM` in `/home/deck/Applications/smbll/other`
    * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
-5. Rename the Super Mario World ROM to `smas.sfc`
+4. Rename the Super Mario World ROM to `smas.sfc`
 
 #### How to Build Super Mario Bros: The Lost Levels
 
@@ -1130,3 +1234,18 @@ Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
     * Alternatively, use the Steam ROM Manager parser here: [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager) to add it to Steam
 
 ***
+
+### How to Contribute to This Page
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+You will need to **create** a GitHub account first.
+
+1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/third-party-emulation.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/third-party-emulation.md)
+2. Click the `Pencil` icon in the top right
+3. Create a new section below the most recently added section under the respective category
+	* For example: `##### Paper Mario 64 Decompilation`
+	* You may replace one of the `Steam Input Layout #s` sections as well
+	* Make sure to add your section to the respective section in the [Table of Contents](#third-party-emulation-table-of-contents) as well
+4. Write your section
+   * If you are using a Distrobox for your instructions, you may link to [How to Set Up Distrobox](#how-to-set-up-distrobox)
+   * If you are using external script files, embed them in code blocks instead
