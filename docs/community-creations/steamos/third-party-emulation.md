@@ -455,6 +455,23 @@ Source: [https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation](https
 2. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
 3. Customize settings
 
+#### How to Mod Sonic 1 and 2
+
+**Mod Resources**
+
+_This list is not comprehensive_
+
+* [Sonic 1: GameBanana](https://gamebanana.com/mods/465176)
+* [Sonic 2: GameBanana](https://gamebanana.com/mods/459508)
+
+1. In the respective `Sonic 1` or `Sonic 2` folders, create a `mod` folder
+2. Download and extract mod(s) to the `mod` folder
+   * A mod folder should typically have a `Data` and a `mod.ini` file
+3. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
+4. Change `DevMenu=false` to `DevMenu=true` and save and close out of the file
+5. While in game, press `Start` and you should see a list of your mod(s)
+6. To activate/toggle a mod, press `A` on the respective mod
+ 
 ***
     
 ### Super Mario 64 Plus 
