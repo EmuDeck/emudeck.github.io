@@ -1238,9 +1238,9 @@ Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
 #### How to add PokeMMO to Steam
 
 1. Download attached `.sh` file
-   * Link: [https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/c81ef659754832fb20295003d166e44d323aeae4/PokeMMO.sh](https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/c81ef659754832fb20295003d166e44d323aeae4/PokeMMO.sh)
-   * Right click anywhere on the page, click `Save Page As`
-   * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/c81ef659754832fb20295003d166e44d323aeae4/PokeMMO.sh](https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/c81ef659754832fb20295003d166e44d323aeae4/PokeMMO.sh)
+    * Right click anywhere on the page, click `Save Page As`
+    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
 3. Right click `PokeMMO.sh`
 4. Click `Properties`
