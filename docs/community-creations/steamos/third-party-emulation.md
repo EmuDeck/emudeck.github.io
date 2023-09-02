@@ -75,7 +75,7 @@ curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sh -
 ```
 
 ```
-curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/extras/install-podman | sh -s -- --prefix ~/.local
+curl -s https://raw.githubusercontent.com/89luca89/distrobox/1.5.0.2/extras/install-podman | sh -s -- --prefix ~/.local
 ```
 
 #### How to Configure bashrc
@@ -434,7 +434,7 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 
 `A reverse engineered clone of Super Mario Bros.`
 
-Source: [https://github.com/snesrev/smw/tree/smb1](https://github.com/snesrev/smw/tree/smb1)
+Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 #### Installing Prerequisites
 
@@ -450,7 +450,7 @@ Source: [https://github.com/snesrev/smw/tree/smb1](https://github.com/snesrev/sm
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone https://github.com/snesrev/smw.git smb1 -b smb1 --single-branch`
+   * `git clone https://github.com/snesrev/smw smb1`
 4. A `smb1` folder will be created, place your `Super Mario All-Stars` ROM in `/home/deck/Applications/smb1/other`
    * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
@@ -521,7 +521,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-   * `git clone https://github.com/snesrev/smw.git smbll -b smb1 --single-branch`
+   * `git clone https://github.com/snesrev/smw smbll`
 4. A `smbll` folder will be created, place your `Super Mario All-Stars ROM` in `/home/deck/Applications/smbll/other`
    * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
