@@ -1261,7 +1261,6 @@ You will need to **create** a GitHub account first.
 2. Click the `Pencil` icon in the top right
 3. Create a new section below the most recently added section under the respective category
 	* For example: `##### Paper Mario 64 Decompilation`
-	* You may replace one of the `Steam Input Layout #s` sections as well
 	* Make sure to add your section to the respective section in the [Table of Contents](#third-party-emulation-table-of-contents) as well
 4. Write your section
    * If you are using a Distrobox for your instructions, you may link to [How to Set Up Distrobox](#how-to-set-up-distrobox)
