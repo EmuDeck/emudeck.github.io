@@ -180,10 +180,15 @@ N/A
 | Coin for player  | `Select`           |
 | Start for player | `Start`            |
 | Fast Forward     | `Select` + `R2`    |
-| Save State       | `Select` + `R1`    |
 | Load State       | `Select` + `L1`    |
+| Save State       | `Select` + `R1`    |
 | Exit Emulator    | `Select` + `Start` |
+| Exit Emulator    | `STEAM` + `DPad Left` |
+| Quick Menu*       | `STEAM` + `DPad Down` |
 
+**Note:** 
+
+* If you make any changes in the Quick Menu while in game, make sure to use one of the `Exit Emulator` hotkeys to close out of the game to ensure any changes you made are saved. If you use `STEAM` + the `Exit game` button, your changes **will not** be saved.
 
 ***
 
