@@ -372,30 +372,6 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 4. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information
 
 ***
-### How To Install Custom Textures
-[Back to the Top](#dolphin-table-of-contents)
-
-Here's how to install custom textures for Dolphin: 
-
-1. Open the Dolphin emulator, right click the game you would like to install custom textures for, click `Properties`, click the `Info` tab, note down the `GameID`
-2. In the Dolphin emulator, click `Graphics` in the top right (or `Options` > `Graphic Settings`), click `Advanced`, make sure `Load Custom Textures` and `Prefetch Custom Textures` are checked
-    * <img src="https://user-images.githubusercontent.com/108900299/196001664-b2265732-e7e1-41b8-9052-9af087a2dbd3.png" height="300">
-3. Open `$HOME/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Textures`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
-    * If the `Load` and `Textures` folder do not exist, create them
-4. In the `Textures` folder from Step 2, create a folder matching the first 3 characters of the `GameID` from Step 1
-    * Example: `Pokémon XD: Gale of Darkness`
-       * Original Game ID: `GXXP01` (PAL Region)
-       * Folder Name: `GXX`  
-5. Put your texture files directly into this folder
-6. Your texture pack should now be installed 
-    * If the game crashes with custom textures, it is likely too demanding for the Steam Deck. You can turn off `Prefetch Custom Textures` as a workaround, but performance will still take a hit 
-
-For a visual, watch the following GIF:
-
-<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/cf5594f726fed6af2eecf9d4e4c1746018c66e51/GIFs/How%20to%20Install%20Custom%20Textures%20for%20Dolphin.gif?raw=true"/>
-
-***
 
 ### How to Configure Multiplayer Controls
 [Back to the Top](#dolphin-table-of-contents)
@@ -454,6 +430,30 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ***
 
+### How To Install Custom Textures
+[Back to the Top](#dolphin-table-of-contents)
+
+Here's how to install custom textures for Dolphin: 
+
+1. Open the Dolphin emulator, right click the game you would like to install custom textures for, click `Properties`, click the `Info` tab, note down the `GameID`
+2. In the Dolphin emulator, click `Graphics` in the top right (or `Options` > `Graphic Settings`), click `Advanced`, make sure `Load Custom Textures` and `Prefetch Custom Textures` are checked
+    * <img src="https://user-images.githubusercontent.com/108900299/196001664-b2265732-e7e1-41b8-9052-9af087a2dbd3.png" height="300">
+3. Open `$HOME/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Textures`
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * If the `Load` and `Textures` folder do not exist, create them
+4. In the `Textures` folder from Step 2, create a folder matching the first 3 characters of the `GameID` from Step 1
+    * Example: `Pokémon XD: Gale of Darkness`
+       * Original Game ID: `GXXP01` (PAL Region)
+       * Folder Name: `GXX`  
+5. Put your texture files directly into this folder
+6. Your texture pack should now be installed 
+    * If the game crashes with custom textures, it is likely too demanding for the Steam Deck. You can turn off `Prefetch Custom Textures` as a workaround, but performance will still take a hit 
+
+For a visual, watch the following GIF:
+
+<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/cf5594f726fed6af2eecf9d4e4c1746018c66e51/GIFs/How%20to%20Install%20Custom%20Textures%20for%20Dolphin.gif?raw=true"/>
+
+***
 
 ### How to Create Dolphin Controller Profiles
 [Back to the Top](#dolphin-table-of-contents)
