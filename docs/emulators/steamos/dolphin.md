@@ -376,6 +376,8 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 ### How to Configure Multiplayer Controls
 [Back to the Top](#dolphin-table-of-contents)
 
+**IMPORTANT:** Multiplayer controllers are fully configured by EmuDeck. If you simply would like to set up multiplayer, see [How to Configure Multiplayer](#how-to-configure-multiplayer). You **do not** need this section if you are satisfied with the default control layout. This section covers how to reconfigure the controls for Players 2-4 if you would rather use a custom configuration. 
+
 #### Tutorial
 
 1. In Game Mode, connect your controller(s)
