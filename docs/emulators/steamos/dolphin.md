@@ -434,6 +434,7 @@ If you would rather save these settings for a specific game:
         **Wii:**
 
             [Controls] 
+            WiimoteProfile1 = SelectedProfileName
             WiimoteProfile2 = SelectedProfileName
             WiimoteProfile3 = SelectedProfileName
             WiimoteProfile4 = SelectedProfileName
@@ -441,6 +442,7 @@ If you would rather save these settings for a specific game:
         **GameCube:**
 
             [Controls] 
+            PadProfile1 = SelectedProfileName
             PadProfile2 = SelectedProfileName
             PadProfile3 = SelectedProfileName
             PadProfile4 = SelectedProfileName
