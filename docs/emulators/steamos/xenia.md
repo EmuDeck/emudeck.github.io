@@ -36,6 +36,7 @@ We HIGHLY suggest looking to see if a game you wish to emulate has a native PC v
     - [How to Swap Out Xenia Builds](#how-to-swap-out-xenia-builds)
     - [How to Swap Between Vulkan and DX12](#how-to-swap-between-vulkan-and-dx12)
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
+    - [How to Set Up Xbox Live Arcade Games](#how-to-set-up-xbox-live-arcade-games)
 
 
 
@@ -478,5 +479,53 @@ To download the content on the additional discs and use it on the base disc , yo
 **List of Games**
 
 * Call of Duty: Advanced Warfare
+
+***
+
+### How to Set Up Xbox Live Arcade Games
+[Back to the Top](#xenia-table-of-contents)
+
+#### File Format
+
+Xbox Live Arcade ROMs typically come in nested folders with an alphanumerically named file. 
+
+For example, Banjo Kazooie:
+
+```
+Banjo Kazooie
+└── 58410954
+    └── 000D0000
+        └── DA78E477AA5E31A7D01AE8F84109FD4BF89E49E8
+```
+
+The `DA78E477AA5E31A7D01AE8F84109FD4BF89E49E8` file is the game file used to launch Banjo Kazooie. 
+
+To make this format easier to use with both Steam ROM Manager and EmulationStation-DE, rename the game file to match the game name. Using Banjo Kazooie as an example, rename `DA78E477AA5E31A7D01AE8F84109FD4BF89E49E8` to `Banjo Kazooie`. 
+
+Move the newly renamed `Banjo Kazooie` file to `Emulation/roms/xbox360/roms/xbla`. Use the respective parser in Steam ROM Manager or EmulationStation-DE to play your game. You **do not** need any of the additional folders included with the original ROM. You may delete these folders.  
+
+#### Xenia Configuration
+
+In order to play Xbox Live Arcade Games, you also need the full license. Xenia makes activating this license fairly easy.
+
+**Here's How**
+
+1. Open `Emulation/roms/xbox360`
+2. Right click `xenia-canary.config.toml` and click `Open with Kate` or a text editor of your choice
+3. Locate the `license_mask = ` line
+    * By default, this line should write `license_mask = 0`
+4. To activate Xbox Live Arcade ROMs, change the `0` to a `1`:
+    * `license_mask = 1`
+
+**Photos**
+
+Unactivated License:
+
+![How to Set Up Xbox Live Arcade Games: Unactivated](../../assets/how-to-set-up-xbox-live-arcade-games-unactivated.png)
+
+Activated License:
+
+![How to Set Up Xbox Live Arcade Games: Activated](../../assets/how-to-set-up-xbox-live-arcade-games-activated.png)
+
 
 ***
