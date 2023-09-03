@@ -29,6 +29,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
       - [Maintaining ROM Versions](#maintaining-rom-versions)
       - [How to Determine if a ROM Requires BIOS](#how-to-determine-if-a-rom-requires-bios)
       - [How to Determine if a ROM Requires a CHD File](#how-to-determine-if-a-rom-requires-a-chd-file)
+      - [How to Configure Controls on a Per Game Basis](#how-to-configure-controls-on-a-per-game-basis)
       - [How to Add Custom Bezels](#how-to-add-custom-bezels)
       - [How to Enable Shaders/Scanlines in MAME (Standalone)](https://github.com/dragoonDorise/EmuDeck/wiki/MAME#how-to-enable-shadersscanlines-in-mame-standalone)
       - [How to Configure MAME to Work With EmulationStation-DE](#how-to-configure-mame-to-work-with-emulationstation-de)
@@ -154,9 +155,12 @@ BIOS will be searched through 3 folders:
 | Load State       | `Select` + `L1`    |
 | Save State       | `Select` + `R1`    |
 | Exit Emulator    | `Select` + `Start` |
+| Exit Emulator    | `STEAM` + `DPad Left` |
+| Quick Menu*       | `STEAM` + `DPad Down` |
 
 **Note:** 
 
+* If you make any changes in the Quick Menu while in game, make sure to use one of the `Exit Emulator` hotkeys to close out of the game to ensure any changes you made are saved. If you use `STEAM` + the `Exit game` button, your changes **will not** be saved.
 * [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 ***
@@ -251,6 +255,20 @@ To determine if your ROM requires a `.chd` file:
 5. Create a subfolder matching the shortname in `Emulation/roms/arcade` and place the `.chd` file in the subfolder
     * For example, with `sfiii3`, create a `sfiii3` folder in `Emulation/roms/arcade` and place `cap-33s-2.chd` in `Emulation/roms/arcade/sfiii3`
     * Place `sfiii3.zip` directly in `Emulation/roms/arcade`
+
+***
+
+### How to Configure Controls on a Per Game Basis
+[Back to the Top](#mame-table-of-contents)
+
+1. While in game, press `STEAM` and `DPad Down`
+2. Select `Input Settings`
+3. Select `Input Settings (this system)`
+4. Configure controls
+5. To ensure your controls are saved, press `STEAM` and `DPad Left` to exit out of the game
+    * If you press `STEAM` and use the `Exit game` button, your controls will not be saved
+6. Your controls will be saved as a file to `home/deck/.mame/cfg/GAMESHORTNAME.cfg`
+    * You may also share this configuration file with others 
 
 ***
 
