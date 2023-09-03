@@ -423,7 +423,7 @@ If you would rather save these settings for a specific game:
             PadProfile3 = SelectedProfileName
             PadProfile4 = SelectedProfileName
 
-5. Exit out, and your game should now be using the selected profile
+5. Exit out, and your game should now be using the selected profile(s)
 
 For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki Page](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)).
 
