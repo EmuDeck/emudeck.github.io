@@ -26,6 +26,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
+    - [How to Configure Multiplayer Controls](#how-to-configure-multiplayer-controls)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
     - [How to Share Your Dolphin Controller Profile](#how-to-share-your-dolphin-controller-profile)
@@ -396,6 +397,62 @@ For a visual, watch the following GIF:
 
 ***
 
+### How to Configure Multiplayer Controls
+[Back to the Top](#dolphin-table-of-contents)
+
+#### Tutorial
+
+1. In Game Mode, connect your controller(s)
+2. In Game Mode, open the Dolphin emulator
+    * You may need to add the Dolphin emulator to Steam first using the `Emulators` parser in Steam ROM Manager
+3. Click `Options` at the top, click `Controller Settings`.
+4. Select a system:
+    1. For GameCube: Click `Configure` to the right of `Port 2/3/4 Standard Controller`
+    2. For Wii: Click `Configure` to the right of `Wii Remote 2/3/4 Emulated Wii Remote`
+5. On this screen, configure your controllers however you like
+6. Saving settings:
+    * If you would like to save these settings globally, make sure the profile dropdown is blank, and press the `Save` button in the top right
+    * If you would like to save these settings for a specific game, in the top right under `Profile`, enter the profile name you would like to use, and click `Save` to the right
+
+#### How to Use Your Newly Created Controller Profile
+
+If you chose to save your settings globally and you have enabled your multiplayer ports as described in [How to Configure Multiplayer](#how-to-configure-multiplayer), multiplayer should now work with your custom controls.
+
+If you would rather save these settings for a specific game:
+
+**Here's How**
+
+#### Applying the Profile
+
+1. In Desktop Mode, Open the Dolphin emulator
+2. Right click the game you would like to use this controller profile for, and click `Properties`
+3. On the `Game Config` tab, press the `Editor` sub-tab
+4. Under `User Config`, enter a controller profile using the following template:
+    * For `SelectedProfileName`, only type the name of the profile, not the file path to the profile
+    * Replace the `2` at the end of `WiiMoteProfile2` with the number you would like to apply the profile to. If all the profiles are using the same controller layout, you may simply copy and paste, and only replace the `2` with a `3` and so on. 
+
+        **Wii:**
+
+            [Controls] 
+            WiimoteProfile2 = SelectedProfileName
+            WiimoteProfile3 = SelectedProfileName
+            WiimoteProfile4 = SelectedProfileName
+
+        **GameCube:**
+
+            [Controls] 
+            PadProfile2 = SelectedProfileName
+            PadProfile3 = SelectedProfileName
+            PadProfile4 = SelectedProfileName
+
+5. Exit out, and your game should now be using the selected profile
+
+For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki Page](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)).
+
+
+***
+
+
 ### How to Create Dolphin Controller Profiles
 [Back to the Top](#dolphin-table-of-contents)
 
@@ -412,7 +469,7 @@ For a visual, watch the following GIF:
 6. Click `Save` to the right.
     1. <img src="https://user-images.githubusercontent.com/108900299/196016662-edbef7c2-5e3e-4280-8efb-d1a9eda9df59.png" height="300">
     2. `EXAMPLE` is the name of the profile being used as an example
-7. Close out of the `Controller Settings` menu. 
+7. Close out of the `Controller Settings` menu
 
 #### How to Use Your Newly Created Controller Profile
 
