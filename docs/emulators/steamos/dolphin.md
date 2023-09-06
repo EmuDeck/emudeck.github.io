@@ -374,9 +374,8 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 
 **Keep in Mind**
 
-* The Steam Deck profile is set to Port 1, for both GameCube controllers and Wii Remotes
-    * For example, if you are using a Steam Deck and two external controllers, you will need to have three ports enabled
-        * The first port is enabled by default so you will need to enable two additional ports
+* The Steam Deck profile is automatically set to Port 1
+    * For example, if you are using a Steam Deck and two external controllers, you will need to have a total of three ports enabled. However, the first port is enabled by default so you will need to enable two additional ports
 * If you are using an external controller as Port 1, you do not need to re-configure any settings in Dolphin. However, you may need to re-arrange the controller order in Game Mode. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how 
 * If you are facing difficulty with matching controllers to their expected ports in Game Mode, you may need to re-arrange the controller order. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
 * If you are playing Wii games with GameCube controller support, and would like to use the GameCube controllers, you may need to disable the Wii profiles. See [How to Configure Wii Games To Use A GameCube Controller](#multiplayer) to learn how
