@@ -362,14 +362,25 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 
 **Tutorial**
 
+
 1. Open the Dolphin emulator
 2. Open the `Controller` settings
-3. For each controller you are using: 
-    1. GameCube: To the right of each Port # under `GameCube Controllers`, enable `Standard Controller`
-        1. <img src="https://user-images.githubusercontent.com/108900299/210123946-d7c6a1e8-2cff-420d-b51b-0650327d4525.png" height="300">
-    2. Wii: To the right of each Port # under `Wii Remotes`, enable `Emulated  Wii Remote`
-        1. <img src="https://user-images.githubusercontent.com/108900299/210123969-b8bd7928-ef20-4f8f-a5bf-00285f4d2e8f.png" height="300">
-4. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information
+3. For each controller you are using, including Player 1: 
+    * GameCube: To the right of each Port # under `GameCube Controllers`, enable `Standard Controller`
+        * <img src="https://user-images.githubusercontent.com/108900299/210123946-d7c6a1e8-2cff-420d-b51b-0650327d4525.png" height="300">
+    * Wii: To the right of each Port # under `Wii Remotes`, enable `Emulated  Wii Remote`
+        * <img src="https://user-images.githubusercontent.com/108900299/210123969-b8bd7928-ef20-4f8f-a5bf-00285f4d2e8f.png" height="300">
+4. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
+
+**Keep in Mind**
+
+* The Steam Deck profile is set to Port 1, for both GameCube controllers and Wii Remotes
+    * For example, if you are using a Steam Deck and two external controllers, you will need to have three ports enabled
+        * The first port is enabled by default so you will need to enable two additional ports
+* If you are using an external controller as Port 1, you do not need to re-configure any settings in Dolphin. However, you may need to re-arrange the controller order in Game Mode. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how 
+* If you are facing difficulty with matching controllers to their expected ports in Game Mode, you may need to re-arrange the controller order. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
+* If you are playing Wii games with GameCube controller support, and would like to use the GameCube controllers, you may need to disable the Wii profiles. See [How to Configure Wii Games To Use A GameCube Controller](#multiplayer) to learn how
+
 
 ***
 
@@ -383,13 +394,14 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 1. In Game Mode, connect your controller(s)
 2. In Game Mode, open the Dolphin emulator
     * You may need to add the Dolphin emulator to Steam first using the `Emulators` parser in Steam ROM Manager
-3. Click `Options` at the top, click `Controller Settings`.
+3. Click `Options` at the top, click `Controller Settings`
 4. Select a system:
-    1. For GameCube: Click `Configure` to the right of `Port 2/3/4 Standard Controller`
-    2. For Wii: Click `Configure` to the right of `Wii Remote 2/3/4 Emulated Wii Remote`
+    1. For GameCube: Click `Configure` to the right of `Port 1/2/3/4 Standard Controller`
+    2. For Wii: Click `Configure` to the right of `Wii Remote 1/2/3/4 Emulated Wii Remote`
 5. On this screen, configure your controllers however you like
 6. Saving settings:
     * If you would like to save these settings globally, make sure the profile dropdown is blank, and press the `Save` button in the top right
+        * Do note that when you update EmuDeck, any global changes **will be reset** to EmuDeck defaults
     * If you would like to save these settings for a specific game, in the top right under `Profile`, enter the profile name you would like to use, and click `Save` to the right
 
 #### How to Use Your Newly Created Controller Profile
