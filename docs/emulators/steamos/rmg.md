@@ -20,6 +20,7 @@ Github: [https://github.com/Rosalie241/RMG](https://github.com/Rosalie241/RMG)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Configure VRU](#how-to-configure-vru)
     - [How to Configure N64DD](#how-to-configure-n64dd)
+    - [How to Use Cheats](#how-to-use-cheats)
  
 ***
 
@@ -313,5 +314,23 @@ Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser in 
 4. Scroll to the end of the `Launch Options` box and add `--disk "/path/to/F-Zero X Expansion Kit"` (write the path with the quotes)
     * ![F-Zero X Expansion Kit 2](../../assets/f-zero-x-expansion-kit-2.png)
 
+
+***
+
+### How to Use Cheats
+[Back to the Top](#rmg-table-of-contents)
+
+#### Mid-Game
+
+1. While in game, use the left Trackpad and select the `Cheats` icon
+    * Steam Input profiles for Nintendo 64 ROMs and EmulationStation-DE are enabled by default. However, if you do not see the Trackpad menu, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+2. Select which cheats you would like to use
+
+#### Emulator
+
+1. Open Rosalie's Mupen GUI
+2. Right click a game
+3. Click `Edit cheats`
+    * If you would like to add new cheats, it is recommended you do so in Desktop Mode
 
 ***

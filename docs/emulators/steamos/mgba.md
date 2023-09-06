@@ -27,6 +27,7 @@ Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
 3. [mGBA Tips and Tricks](#mgba-tips-and-tricks)
     - [How to Use the Gyro Sensor](#how-to-use-the-gyro-sensor)
     - [How to Use the Tilt Sensor](#how-to-use-the-tilt-sensor)
+    - [How to Use Cheats](#how-to-use-cheats)
 
 
 
@@ -293,5 +294,34 @@ If you used Steam ROM Manager previously, re-run Steam ROM Manager after renamin
 5. Select your controller in the drop-down menu
 6. Click `OK`
 7. Click `Tools`, `Game Pak Sensors`, and test your controller
+
+***
+
+### How to Use Cheats
+[Back to the Top](#mgba-table-of-contents)
+
+**Cheat Resources**
+
+_This list is not comprehensive_
+
+* [https://gamehacking.org](https://gamehacking.org)
+    * [Game Boy](https://gamehacking.org/system/gb)
+    * [Game Boy Color](https://gamehacking.org/system/gbc)
+    * [Game Boy Advance](https://gamehacking.org/system/gba)
+
+#### Desktop Mode
+
+1. In Desktop Mode, open mGBA
+2. Load a game
+3. Click `Tools` at the top
+4. Click `Cheats`
+5. Click `Add New Code`
+6. Add your cheat
+
+#### Game Mode
+
+1. While in game, use the left Trackpad and select the `Cheats` icon
+    * Steam Input profiles for mGBA ROMs and EmulationStation-DE are enabled by default. However, if you do not see the Trackpad menu, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+2. Select which cheats you would like to use
 
 ***

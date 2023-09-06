@@ -22,6 +22,7 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5R
 2. [DuckStation Tips and Tricks](#duckstation-tips-and-tricks)
       - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)
       - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
+      - [How to Use Cheats](#how-to-use-cheats)
 
 
 ***
@@ -163,14 +164,21 @@ DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Inp
 | Quick Menu                | Left Trackpad Touch Menu  |
 | Swap Disc                 | Left Trackpad Touch Menu  |
 | Fast Forward (Toggle)     | Left Trackpad Touch Menu  |
-| Fast Forward (Hold)       | `Select` + `R2`           |
-| Rewind                    | `Select` + `L2`           |
-| Increase Resolution Scale | `Start` + `DPAD Up`       |
-| Decrease Resolution Scale | `Start` + `DPAD Down`     |
-| Toggle Widescreen         | `Start` + `DPAD Right`    |
-| Toggle PGXP               | `Start` + `DPAD Left`     |
-| Toggle SoftwareRendering  | `Start` + `L3`            |
-| Full Screen               | `Select` + `R3`           |  
+| Fast Forward (Hold)       | `Select` + `R2`        |
+| Rewind                    | `Select` + `L2`        |
+| Pause                     | `Select` + `A`         |
+| Toggle Full Screen        | `Select` + `R3`        |
+| Quick Menu                | `Start` + `L3`         |
+| Load State                | `Select` + `L1`        |
+| Save State                | `Select` + `R1`        |
+| Next Save Slot            | `Start` + `R1`         |
+| Previous Save Slot        | `Start` + `L1`         |
+| Increase Resolution Scale | `Start` + `DPad Up`    |
+| Decrease Resolution Scale | `Start` + `DPad Down`  |
+| Toggle Widescreen         | `Start` + `DPad Right` |
+| Toggle PGXP               | `Start` + `DPad Left`  |
+| Toggle Software Rendering | `Start` + `L3`         |
+| Exit                      | `Select` + `Start`     |
 
 **Note:** 
 
@@ -205,5 +213,15 @@ After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update
 M3U files can be used to manage multiple discs for DuckStation. When the time comes to switch discs, use the Left Trackpad Touch Menu Hotkey. A full list of hotkeys and a tutorial on how to use Steam Input profiles can be found here: #hotkeys. 
 
 [Learn how to create an M3U File](../../file-management/steamos/file-management.md#how-to-create-an-m3u-file) 
+
+***
+
+### How to Use Cheats
+[Back to the Top](#duckstation-table-of-contents)
+
+1. While in game, either: press `Start` and `R2` or use the left Trackpad and select the `Quick Menu` icon
+    * Steam Input profiles for PlayStation 1 ROMs and EmulationStation-DE are enabled by default. However, if you do not see the Trackpad menu, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+2. Click `Cheat List`
+3. Select which cheats you would like to use
 
 ***

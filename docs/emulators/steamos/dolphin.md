@@ -28,6 +28,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Configure Multiplayer Controls](#how-to-configure-multiplayer-controls)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
+    - [How to Use Cheats](#how-to-use-cheats)
     - [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
     - [How to Share Your Dolphin Controller Profile](#how-to-share-your-dolphin-controller-profile)
     - [How to Set Dolphin Controller Profiles On a Per-Game Basis](#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
@@ -465,6 +466,20 @@ Here's how to install custom textures for Dolphin:
 For a visual, watch the following GIF:
 
 <img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/cf5594f726fed6af2eecf9d4e4c1746018c66e51/GIFs/How%20to%20Install%20Custom%20Textures%20for%20Dolphin.gif?raw=true"/>
+
+***
+
+### How to Use Cheats
+[Back to the Top](#dolphin-table-of-contents)
+
+1. Open the Dolphin emulator
+2. Right click a game
+3. Click `Properties`
+4. Click `Gecko Codes`
+5. Click `Download Codes` in the bottom right
+6. Select cheat(s)
+
+You may also add cheats to either the `AR Codes` or `Gecko Codes` tab. 
 
 ***
 
