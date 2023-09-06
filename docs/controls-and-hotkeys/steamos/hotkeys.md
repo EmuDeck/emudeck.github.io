@@ -488,14 +488,21 @@ DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Inp
 | Quick Menu                | Left Trackpad Touch Menu  |
 | Swap Disc                 | Left Trackpad Touch Menu  |
 | Fast Forward (Toggle)     | Left Trackpad Touch Menu  |
-| Fast Forward (Hold)       | `Select` + `R2`           |
-| Rewind                    | `Select` + `L2`           |
-| Increase Resolution Scale | `Start` + `DPAD Up`       |
-| Decrease Resolution Scale | `Start` + `DPAD Down`     |
-| Toggle Widescreen         | `Start` + `DPAD Right`    |
-| Toggle PGXP               | `Start` + `DPAD Left`     |
-| Toggle Software Rendering | `Start` + `L3`            |
-| Full Screen               | `Select` + `R3`           |  
+| Fast Forward (Hold)       | `Select` + `R2`        |
+| Rewind                    | `Select` + `L2`        |
+| Pause                     | `Select` + `A`         |
+| Toggle Full Screen        | `Select` + `R3`        |
+| Quick Menu                | `Start` + `L3`         |
+| Load State                | `Select` + `L1`        |
+| Save State                | `Select` + `R1`        |
+| Next Save Slot            | `Start` + `R1`         |
+| Previous Save Slot        | `Start` + `L1`         |
+| Increase Resolution Scale | `Start` + `DPad Up`    |
+| Decrease Resolution Scale | `Start` + `DPad Down`  |
+| Toggle Widescreen         | `Start` + `DPad Right` |
+| Toggle PGXP               | `Start` + `DPad Left`  |
+| Toggle Software Rendering | `Start` + `L3`         |
+| Exit                      | `Select` + `Start`     |  
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
