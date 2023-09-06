@@ -895,7 +895,7 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 
 #### What is this?
 
-A port of `Super Metroid Redux`: https://www.romhacking.net/hacks/4963/, using `a reverse engineered clone of Super Metroid.`
+A port of `Super Metroid Redux`: [https://www.romhacking.net/hacks/4963/](https://www.romhacking.net/hacks/4963/), using `a reverse engineered clone of Super Metroid.`
 
 Source: [https://github.com/testyourmine/sm-redux](https://github.com/testyourmine/sm-redux)
 
