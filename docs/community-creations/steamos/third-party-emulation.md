@@ -86,7 +86,7 @@ curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/extras/install
 #### How to Configure bashrc
 
 1. In Desktop Mode, open the `/home/deck` folder
-   * You may not see the word `deck` in the file path at the top, this is the `home` folder for the `deck` user
+     * You may not see the word `deck` in the file path at the top, this is the `home` folder for the `deck` user
 2. Click the hamburger menu in the top right, `☰`, click `Show Hidden Files`
 3. Right click `.bashrc`, click `Open with Kate` or a file editor of your choice
 4. Add these three lines to the bottom of the `.bashrc` file
