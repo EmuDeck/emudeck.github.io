@@ -1302,16 +1302,18 @@ Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21](
 
 #### What is AM2R?
 
-"It is an unofficial remake of the 1991 Game Boy game Metroid II: Return of Samus in the style of Metroid: Zero Mission (2004)."
+`It is an unofficial remake of the 1991 Game Boy game Metroid II: Return of Samus in the style of Metroid: Zero Mission (2004).`
 
 Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
 
 #### How to Play AM2R
 
-**Note:** You will need a copy of `AM2R_1_1.zip`, this section will not cover how to obtain that file
+**Note:** You will need a copy of `AM2R_1_1.zip`, this section will not cover how to obtain that file.
 
 1. In Desktop Mode, open Discover
 2. Search for AM2R
+     * Flathub page: [https://flathub.org/apps/io.github.am2r_community_developers.AM2RLauncher](https://flathub.org/apps/io.github.am2r_community_developers.AM2RLauncher)
+         * Discover (on the Steam Deck) uses Flathub as its source for applications
 3. Download AM2R
 4. Open AM2R and click the big `Download` button on the main screen
 5. Select `Select AM2R_1_1.zip`, select your file, and play the game
