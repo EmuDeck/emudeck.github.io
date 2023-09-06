@@ -572,7 +572,7 @@ _This list is not comprehensive_
 
 * [https://gamebanana.com/mods/games/6108](https://gamebanana.com/mods/games/6108)
 
-1. In the `bin`` folders, create a `mod` folder
+1. In the `bin` folders, create a `mod` folder
 2. Download and extract mod(s) to the `mod` folder
     * A mod folder should typically have a `Data` folder and a `mod.ini` file
 3. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
