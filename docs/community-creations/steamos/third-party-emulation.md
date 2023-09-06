@@ -1299,6 +1299,7 @@ Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21](
 ***
 
 ### AM2R
+[Back to the Top](#third-party-emulation-table-of-contents)
 
 #### What is AM2R?
 
