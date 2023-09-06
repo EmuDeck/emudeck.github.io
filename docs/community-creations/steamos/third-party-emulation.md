@@ -16,8 +16,8 @@ The guides on this page are not officially supported by EmuDeck. Many require so
         - [Render96ex](#render96ex)
         - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
         - [sm64ex](#sm64ex)
-        - [Sonic CD](#sonic-cd)
         - [Sonic 1 and 2](#sonic-1-and-2)
+        - [Sonic CD](#sonic-cd)
         - [Super Mario 64 Plus](#super-mario-64-plus)
         - [Super Mario Bros](#super-mario-bros)
         - [Super Mario Bros: The Lost Levels](#super-mario-bros-the-lost-levels)
@@ -141,14 +141,14 @@ Source: [https://github.com/djyt/cannonball](https://github.com/djyt/cannonball)
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone --recursive https://github.com/djyt/cannonball.git`
 4. A `cannonball` folder will be created, `
 5. You  will add your ROM files will be added after the build is finished
 
 #### Building Cannonball
 
-1. In `/home/deck/Applications/Distrobox/cannonball`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/cannonball`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `mkdir build`
@@ -253,13 +253,13 @@ Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/fgsfdsfgs/perfect_dark.git`
 3. A `perfect_dark` folder will be created
 
 #### Building Perfect Dark
 
-1. In `/home/deck/Applications/Distrobox/perfect_dark`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/perfect_dark`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `make -f Makefile.port TARGET_PLATFORM=i686-linux -j2`
@@ -304,14 +304,14 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone --single-branch --branch alpha https://github.com/Render96/Render96ex.git`
 3. A `Render96ex` folder will be created, place your Super Mario 64 ROM in this folder
 4. Rename the Super Mario 64 ROM to `baserom.us.z64`
 
 #### Building Render96ex
 
-1. In `/home/deck/Applications/Distrobox/Render96ex/`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/Render96ex/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `make -j4 TEXTURE_FIX=1`
@@ -327,7 +327,7 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 
 #### How to Install Custom Textures
 
-1. In `/home/deck/Applications/Distrobox/Render96ex/`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/Render96ex/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/pokeheadroom/RENDER96-HD-TEXTURE-PACK.git -b master`
 2. Move the `gfx` folder in the newly cloned `RENDER96-HD-TEXTURE-PACK` folder to `/home/deck/Applications/Distrobox/Render96ex/build/us_pc/res`
 
@@ -425,19 +425,19 @@ Source: [https://github.com/sm64pc/sm64ex](https://github.com/sm64pc/sm64ex)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
-    * `sudo apt install build-essential git python3 libglew-dev libsdl2-dev bsdmainutils`
+    * `sudo apt install build-essential git python3 libglew-dev libsdl2-dev bsdmainutils patch`
 
 #### Setting Up sm64ex
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/sm64pc/sm64ex`
 3. A `sm64ex` folder will be created, place your Super Mario 64 ROM in this folder
 4. Rename the Super Mario 64 ROM to `baserom.us.z64`
 
 #### Building sm64ex
 
-1. In the `sm64ex` folder, right click `Open Terminal Here`, enter:
+1. In the `sm64ex` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `make`
@@ -445,65 +445,15 @@ Source: [https://github.com/sm64pc/sm64ex](https://github.com/sm64pc/sm64ex)
 3. Wait for it to finish building
 4. To play `sm64ex`, open `sm64.us.f3dex2e` in `/home/deck/Applications/Distrobox/sm64ex/build/us_pc`
 
-***
+#### How to Apply Patches
 
-### Sonic CD
-[Back to the Top](#third-party-emulation-table-of-contents)
+A 60 FPS patch is included with the GitHub repo for sm64ex. However, you can take what's written here and apply additional patches to sm64ex.
 
-#### How to Compile Sonic CD on the Steam Deck
-
-**Note:** To compile Sonic CD, you will need a legally obtained copy of a `Data.rsdk` file, obtained either from the Sonic CD versions on the Android or iOS versions. For instructions, see [Android](https://gamebanana.com/tuts/14942) and [iOS](https://gamebanana.com/tuts/14491).
-
-#### What is This Decompilation?
-
-`A complete decompilation of Retro Engine v3/Sonic CD.`
-
-Source: [https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)
-
-#### Installing Prerequisites
-
-1. [Set up a Distrobox](#how-to-set-up-distrobox)
-2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
-3. Enter the following: 
-    * `sudo apt install build-essential git libsdl2-dev libvorbis-dev libogg-dev libtheora-dev libglew-dev`
-
-#### Setting Up Sonic CD
-
-1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
-    * `git clone --recursive https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation.git`
-3. A `Sonic-CD-11-Decompilation` folder will be created
-
-#### Building Sonic CD
-
-1. In the `Sonic-CD-11-Decompilation` folder, right click `Open Terminal Here`, enter:
-    * `distrobox enter ubuntu`
-2. Enter: 
-    * `make CXXFLAGS=-O2 -j5`
-3. In the `Sonic-CD-11-Decompilation`, a `bin` folder will be created
-4. Place the `Data.rsdk` you retrieved from [How to Compile Sonic CD on the Steam Deck](#how-to-compile-sonic-cd-on-the-steam-deck) directly into the `bin` folder
-7. To play Sonic CD, open `RSDKv4`
-
-#### How to Configure Sonic CD
-1. In the `bin`, after launching `RSDKv4` for the first time, a `settings.ini` will be created
-2. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
-3. Customize settings
-
-#### How to Mod Sonic CD
-
-**Mod Resources**
-
-_This list is not comprehensive_
-
-* [https://gamebanana.com/mods/games/6108](https://gamebanana.com/mods/games/6108)
-
-1. In the `bin`` folders, create a `mod` folder
-2. Download and extract mod(s) to the `mod` folder
-    * A mod folder should typically have a `Data` folder and a `mod.ini` file
-3. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
-4. Change `DevMenu=false` to `DevMenu=true` and save and close out of the file
-5. While in game, press `Start` and you should see a list of your mod(s)
-6. To activate/toggle a mod, press `A` on the respective mod
+1. In the `/home/deck/Applications/Distrobox/sm64ex/enhancements` folder, right click anywhere in the folder, click `Open Terminal Here`
+2. Enter:
+    * ` git apply 60fps_ex.patch --ignore-whitespace --reject`
+    * `60fps_ex.patch` is the name of the included file. If the file name is different, replace the file name in the above command
+3. You will need to re-build sm64ex for the patches to apply. To do so, enter the Ubuntu distrobox and run `make clean` in the ``/home/deck/Applications/Distrobox/sm64ex` folder
 
 ***
 
@@ -530,13 +480,13 @@ Source: [https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation](https
 #### Setting Up Sonic 1 and 2
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone --recursive https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation.git`
 3. A `Sonic-1-2-2013-Decompilation` folder will be created
 
 #### Building Sonic 1 and 2
 
-1. In the `Sonic-1-2-2013-Decompilation` folder, right click `Open Terminal Here`, enter:
+1. In the `Sonic-1-2-2013-Decompilation` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `make -j5`
@@ -571,6 +521,66 @@ _This list is not comprehensive_
 6. To activate/toggle a mod, press `A` on the respective mod
  
 ***
+
+### Sonic CD
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+#### How to Compile Sonic CD on the Steam Deck
+
+**Note:** To compile Sonic CD, you will need a legally obtained copy of a `Data.rsdk` file, obtained either from the Sonic CD versions on the Android or iOS versions. For instructions, see [Android](https://gamebanana.com/tuts/14942) and [iOS](https://gamebanana.com/tuts/14491).
+
+#### What is This Decompilation?
+
+`A complete decompilation of Retro Engine v3/Sonic CD.`
+
+Source: [https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)
+
+#### Installing Prerequisites
+
+1. [Set up a Distrobox](#how-to-set-up-distrobox)
+2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+3. Enter the following: 
+    * `sudo apt install build-essential git libsdl2-dev libvorbis-dev libogg-dev libtheora-dev libglew-dev`
+
+#### Setting Up Sonic CD
+
+1. In `/home/deck/Applications`, create a `Distrobox` folder
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
+    * `git clone --recursive https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation.git`
+3. A `Sonic-CD-11-Decompilation` folder will be created
+
+#### Building Sonic CD
+
+1. In the `Sonic-CD-11-Decompilation` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
+    * `distrobox enter ubuntu`
+2. Enter: 
+    * `make CXXFLAGS=-O2 -j5`
+3. In the `Sonic-CD-11-Decompilation`, a `bin` folder will be created
+4. Place the `Data.rsdk` you retrieved from [How to Compile Sonic CD on the Steam Deck](#how-to-compile-sonic-cd-on-the-steam-deck) directly into the `bin` folder
+7. To play Sonic CD, open `RSDKv4`
+
+#### How to Configure Sonic CD
+1. In the `bin`, after launching `RSDKv4` for the first time, a `settings.ini` will be created
+2. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
+3. Customize settings
+
+#### How to Mod Sonic CD
+
+**Mod Resources**
+
+_This list is not comprehensive_
+
+* [https://gamebanana.com/mods/games/6108](https://gamebanana.com/mods/games/6108)
+
+1. In the `bin`` folders, create a `mod` folder
+2. Download and extract mod(s) to the `mod` folder
+    * A mod folder should typically have a `Data` folder and a `mod.ini` file
+3. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
+4. Change `DevMenu=false` to `DevMenu=true` and save and close out of the file
+5. While in game, press `Start` and you should see a list of your mod(s)
+6. To activate/toggle a mod, press `A` on the respective mod
+
+***
     
 ### Super Mario 64 Plus 
 [Back to the Top](#third-party-emulation-table-of-contents)
@@ -595,14 +605,14 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/MorsGames/sm64plus`
 3. A `sm64plus` folder will be created, place your Super Mario 64 ROM in this folder
 4. Rename the Super Mario 64 ROM to `baserom.us.z64`
 
 #### Building Super Mario 64 Plus
 
-1. In `/home/deck/Applications/Distrobox/sm64plus/`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/sm64plus/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `make -j4`
@@ -668,7 +678,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/snesrev/smw smb1`
 3. A `smb1` folder will be created, place your `Super Mario All-Stars` ROM in `/home/deck/Applications/smb1/other`
     * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
@@ -677,7 +687,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 #### How to Build Super Mario Bros
 
-1. In `/home/deck/Applications/Distrobox/smb1/other`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/smb1/other`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `python3 extract_smb1.py`
@@ -739,7 +749,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/snesrev/smw smbll`
 3. A `smbll` folder will be created, place your `Super Mario All-Stars ROM` in `/home/deck/Applications/smbll/other`
     * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
@@ -748,7 +758,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 #### How to Build Super Mario Bros: The Lost Levels
 
-1. In `/home/deck/Applications/Distrobox/smbll/other`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/smbll/other`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `python3 extract.py`
@@ -807,7 +817,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/snesrev/smw`
 4. A `smw` folder will be created, place your Super Mario World ROM in `/home/deck/Applications/smw`
     * SHA256 Hash: `6b47bb75d16514b6a476aa0c73a683a2a4c18765`
@@ -816,7 +826,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 #### How to Build Super Mario World
 
-1. In `/home/deck/Applications/Distrobox/smw/`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/smw/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `make`
@@ -857,14 +867,14 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone --recursive https://github.com/snesrev/sm`
 4. A `sm` folder will be created, place your US Super Metroid ROM in `/home/deck/Applications/sm`
 5. Rename the Super Metroid ROM to `sm.smc`
 
 #### Building Super Metroid
 
-1. In `/home/deck/Applications/Distrobox/sm`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/sm`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `make`
@@ -908,14 +918,14 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone --recursive https://github.com/testyourmine/sm-redux`
 4. A `sm-redux` folder will be created, place your patched US Super Metroid ROM in `/home/deck/Applications/sm-redux`
 5. Rename the patched Super Metroid ROM to `sm.smc`
 
 #### Building Super Metroid Redux
 
-1. In `/home/deck/Applications/Distrobox/sm-redux`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/sm-redux`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `make`
@@ -953,7 +963,7 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/snesrev/zelda3`
 4. A `zelda3` folder will be created, place your US Link to the Past ROM in `/home/deck/Applications/zelda3/tables`
     * SHA256 Hash: `66871d66be19ad2c34c927d6b14cd8eb6fc3181965b6e517cb361f7316009cfb`
@@ -962,7 +972,7 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 
 #### How to Build zelda3
 
-1. In `/home/deck/Applications/Distrobox/zelda3/`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/zelda3/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
     * `make`
@@ -981,7 +991,7 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 
 #### How to Customize Sprites
 
-1. In `/home/deck/Applications/Distrobox/zelda3/`, right click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/zelda3/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone --recursive https://github.com/snesrev/sprites-gfx.git`
 2. In `/home/deck/Applications/Distrobox/zelda3/`, right click `zelda3.ini`, click `Open with Kate` or a text editor of your choice
 3. Remove the `#` at the beginning of this line: `# LinkGraphics = sprites-gfx/snes/zelda3/link/sheets/megaman-x.2.zspr`
