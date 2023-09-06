@@ -15,6 +15,8 @@ The guides on this page are not officially supported by EmuDeck. Many require so
         - [Perfect Dark](#perfect-dark)
         - [Render96ex](#render96ex)
         - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
+        - [sm64ex](#sm64ex)
+        - [Sonic CD](#sonic-cd)
         - [Sonic 1 and 2](#sonic-1-and-2)
         - [Super Mario 64 Plus](#super-mario-64-plus)
         - [Super Mario Bros](#super-mario-bros)
@@ -409,6 +411,102 @@ __This list is not exhaustive__
 
 ***
 
+### sm64ex
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+#### What is This Decompilation?
+
+`A fork of sm64-port/sm64-port with additional features.`
+
+Source: [https://github.com/sm64pc/sm64ex](https://github.com/sm64pc/sm64ex)
+
+#### Installing Prerequisites
+
+1. [Set up a Distrobox](#how-to-set-up-distrobox)
+2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+3. Enter the following: 
+    * `sudo apt install build-essential git python3 libglew-dev libsdl2-dev bsdmainutils`
+
+#### Setting Up sm64ex
+
+1. In `/home/deck/Applications`, create a `Distrobox` folder
+2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+    * `git clone https://github.com/sm64pc/sm64ex`
+3. A `sm64ex` folder will be created, place your Super Mario 64 ROM in this folder
+4. Rename the Super Mario 64 ROM to `baserom.us.z64`
+
+#### Building sm64ex
+
+1. In the `sm64ex` folder, right click `Open Terminal Here`, enter:
+    * `distrobox enter ubuntu`
+2. Enter: 
+    * `make`
+3. In the `sm64ex`, a `bin` folder will be created
+3. Wait for it to finish building
+4. To play `sm64ex`, open `sm64.us.f3dex2e` in `/home/deck/Applications/Distrobox/sm64ex/build/us_pc`
+
+***
+
+### Sonic CD
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+#### How to Compile Sonic CD on the Steam Deck
+
+**Note:** To compile Sonic CD, you will need a legally obtained copy of a `Data.rsdk` file, obtained either from the Sonic CD versions on the Android or iOS versions. For instructions, see [Android](https://gamebanana.com/tuts/14942) and [iOS](https://gamebanana.com/tuts/14491).
+
+#### What is This Decompilation?
+
+`A complete decompilation of Retro Engine v3/Sonic CD.`
+
+Source: [https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation](https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation)
+
+#### Installing Prerequisites
+
+1. [Set up a Distrobox](#how-to-set-up-distrobox)
+2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+3. Enter the following: 
+    * `sudo apt install build-essential git libsdl2-dev libvorbis-dev libogg-dev libtheora-dev libglew-dev`
+
+#### Setting Up Sonic CD
+
+1. In `/home/deck/Applications`, create a `Distrobox` folder
+2. In the `Distrobox` folder, right click `Open Terminal Here`, enter:
+    * `git clone --recursive https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation.git`
+3. A `Sonic-CD-11-Decompilation` folder will be created
+
+#### Building Sonic CD
+
+1. In the `Sonic-CD-11-Decompilation` folder, right click `Open Terminal Here`, enter:
+    * `distrobox enter ubuntu`
+2. Enter: 
+    * `make CXXFLAGS=-O2 -j5`
+3. In the `Sonic-CD-11-Decompilation`, a `bin` folder will be created
+4. Place the `Data.rsdk` you retrieved from [How to Compile Sonic CD on the Steam Deck](#how-to-compile-sonic-cd-on-the-steam-deck) directly into the `bin` folder
+7. To play Sonic CD, open `RSDKv4`
+
+#### How to Configure Sonic CD
+1. In the `bin`, after launching `RSDKv4` for the first time, a `settings.ini` will be created
+2. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
+3. Customize settings
+
+#### How to Mod Sonic CD
+
+**Mod Resources**
+
+_This list is not comprehensive_
+
+* [https://gamebanana.com/mods/games/6108](https://gamebanana.com/mods/games/6108)
+
+1. In the `bin`` folders, create a `mod` folder
+2. Download and extract mod(s) to the `mod` folder
+    * A mod folder should typically have a `Data` folder and a `mod.ini` file
+3. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
+4. Change `DevMenu=false` to `DevMenu=true` and save and close out of the file
+5. While in game, press `Start` and you should see a list of your mod(s)
+6. To activate/toggle a mod, press `A` on the respective mod
+
+***
+
 ### Sonic 1 and 2
 [Back to the Top](#third-party-emulation-table-of-contents)
 
@@ -436,7 +534,7 @@ Source: [https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation](https
     * `git clone --recursive https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation.git`
 3. A `Sonic-1-2-2013-Decompilation` folder will be created
 
-#### Playing Sonic 1 and 2
+#### Building Sonic 1 and 2
 
 1. In the `Sonic-1-2-2013-Decompilation` folder, right click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
@@ -528,9 +626,9 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 #### How to Configure Super Mario 64 Plus
 
 1. Open `sm64.us` in `/home/deck/Applications/Distrobox/sm64plus/build/us_pc` at least once so it can generate the `settings.ini` file 
-1. Open the `/home/deck/Applications/Distrobox/sm64plus/build/us_pc` folder
-2. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
-3. Customize settings
+2. Open the `/home/deck/Applications/Distrobox/sm64plus/build/us_pc` folder
+3. Right click `settings.ini`, click `Open with Kate` or a text editor of your choice
+4. Customize settings
 
 **Recommended Settings**
 
@@ -939,13 +1037,17 @@ This section will use a simple script file to launch the various decompilations 
 
 **For the following games:**
 
-- [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
+- [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
+- [Perfect Dark](#perfect-dark)
+- [sm64ex](#sm64ex)
+- [Sonic CD](#sonic-cd)
+- [Sonic 1 and 2](#sonic-1-and-2)
 - [Super Mario Bros](#super-mario-bros)
 - [Super Mario Bros: The Lost Levels](#super-mario-bros-the-lost-levels)
 - [Super Mario World](#super-mario-world)
 - [Super Metroid](#super-metroid)
 - [Super Metroid Redux](#super-metroid-redux)
-- [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
+- [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
 
 1. In a folder of your choice, create a text file and give it a descriptive name (matching the game name typically) with a `.sh` file extension
     * For example: `Super Metroid.sh` or `The Legend of Zelda: A Link to the Past.sh`
