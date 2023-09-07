@@ -369,13 +369,14 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 ### How to Fix !Status or GPU Command Error Messages
 [Back to the Top](#xenia-table-of-contents)
 
-If you get an error message with either `!Status` or `GPU Commands`, you will need to downgrade Xenia to a specific version. Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (released April 2nd, 2023) has the highest compatibility. 
+If you get an error message with either `!Status` or `GPU Commands`, you can try one of the below solutions:
 
-There is an open issue on the Xenia GitHub tracking this issue: https://github.com/xenia-canary/xenia-canary/issues/158. Consider subscribing to the issue to keep up to date with the latest progress. 
+* Try DX12. Recent updates have massively improved compatibility with DX12. Currently, EmuDeck sets Vulkan as the default. See [How to Swap Between Vulkan and DX12](#how-to-swap-between-vulkan-and-dx12) to learn how to swap between the two 
+* Ddowngrade Xenia to a specific version. Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (released April 2nd, 2023) has the highest compatibility 
+    * There is an open issue on the Xenia GitHub tracking this issue: https://github.com/xenia-canary/xenia-canary/issues/158. Consider subscribing to the issue to keep up to date with the latest progress
+    * To downgrade to build `e9d1e51_canary_experimental`, read: [How to Swap Out Xenia Builds](#how-to-swap-out-xenia-builds), this section specifically covers downgrading to the `e9d1e51_canary_experimental` build
 
-However, downgrading to this build is not guaranteed to fix your issue. Xenia on Linux, through Proton, is still in a highly experimental state. Many games do not work. Xbox Live Arcade Games currently have the highest compatibility. 
-
-To downgrade to build `e9d1e51_canary_experimental`, read: [How to Swap Out Xenia Builds](#how-to-swap-out-xenia-builds), this section specifically covers downgrading to the `e9d1e51_canary_experimental` build. 
+However, do keep in mind that neither of the above solutions is guaranteed to fix your issue. Xenia on Linux, through Proton, is still in a highly experimental state. Many games do not work. Xbox Live Arcade Games currently have the highest compatibility. 
 
 ***
 
