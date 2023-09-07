@@ -424,18 +424,18 @@ If you would rather save these settings for a specific game:
         **Wii:**
 
             [Controls] 
+            WiimoteProfile0 = SelectedProfileName
             WiimoteProfile1 = SelectedProfileName
             WiimoteProfile2 = SelectedProfileName
             WiimoteProfile3 = SelectedProfileName
-            WiimoteProfile4 = SelectedProfileName
 
         **GameCube:**
 
             [Controls] 
+            PadProfile0 = SelectedProfileName
             PadProfile1 = SelectedProfileName
             PadProfile2 = SelectedProfileName
             PadProfile3 = SelectedProfileName
-            PadProfile4 = SelectedProfileName
 
 5. Exit out, and your game should now be using the selected profile(s)
 
