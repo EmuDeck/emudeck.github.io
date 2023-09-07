@@ -17,7 +17,6 @@ The guides on this page are not officially supported by EmuDeck. Many require so
         - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
         - [sm64ex](#sm64ex)
         - [Sonic 1 and 2](#sonic-1-and-2)
-        - [Sonic 3 A.I.R.](#sonic-3-air)
         - [Sonic CD](#sonic-cd)
         - [Super Mario 64 Plus](#super-mario-64-plus)
         - [Super Mario Bros](#super-mario-bros)
@@ -38,8 +37,9 @@ The guides on this page are not officially supported by EmuDeck. Many require so
 
 3. [Emulation Related Games](#emulation-related-games)
     - [AM2R](#am2r) 
-    - [PokeMMO](#pokemmo) 
-
+    - [PokeMMO](#pokemmo)
+    - [Sonic 3 A.I.R.](#sonic-3-air)
+ 
 4. [How to Contribute to This Page](#how-to-contribute-to-this-page)
 
 ***
@@ -529,75 +529,6 @@ _This list is not comprehensive_
 5. While in game, press `Start` and you should see a list of your mod(s)
 6. To activate/toggle a mod, press `A` on the respective mod
  
-***
-
-### Sonic 3 A.I.R.
-[Back to the Top](#third-party-emulation-table-of-contents)
-
-#### Preface
-
-To play Sonic 3 A.I.R., you will need an original and legal copy of Sonic 3 & Knuckles from the Steam version of Sonic 3 & Knuckles. This section will not cover how to obtain that file. For more information, see [https://docs.google.com/document/d/1oSud8dJHvdfrYbkGCfllAOp3JuTks7z4K5SwtVkXkx0/edit#heading=h.ux87lw254eyd](https://docs.google.com/document/d/1oSud8dJHvdfrYbkGCfllAOp3JuTks7z4K5SwtVkXkx0/edit#heading=h.ux87lw254eyd).
-
-Sonic 3 A.I.R. has a comprehensive manual covering many of the features and settings in the game. See [https://sonic3air.org/Manual.pdf](https://sonic3air.org/Manual.pdf). 
-
-#### What is Sonic 3 A.I.R.
-
-` A fan-made widescreen remaster of Sonic 3 & Knuckles.`
-
-Source: [https://sonic3air.org/](https://sonic3air.org/)
-
-#### Setting Up Sonic 3 A.I.R.
-
-1. In Desktop Mode, open Discover
-2. Search for Sonic 3: Angel Island Revisited
-     * Flathub page: [https://flathub.org/apps/org.sonic3air.Sonic3AIR](https://flathub.org/apps/org.sonic3air.Sonic3AIR)
-         * Discover (on the Steam Deck) uses Flathub as its source for applications
-3. Download Sonic 3: Angel Island Revisited
-4. Open Sonic 3: Angel Island Revisited
-5. Select your `Sonic 3 & Knuckles` game file
-    * The Steam version is typically named: `Sonic_Knuckles_wSonic3.bin`
-    * For more information, read the Linux section on the manual: [https://sonic3air.org/Manual.pdf](https://sonic3air.org/Manual.pdf)
-
-`Sonic 3: Angel Island Revisited` Folder and File Locations
-
-`/home/deck/.var/app/org.sonic3air.Sonic3AIR`      
-
-```
-org.sonic3air.Sonic3AIR/
-├── cache
-├── config
-└── data
-    └── Sonic3AIR
-        ├── logfile.txt
-        ├── mods
-        ├── settings_input.json
-        ├── settings.json
-        └── Sonic_Knuckles_wSonic3.bin
-```
-
-#### How to Configure Sonic 3 A.I.R.
-
-1. Open the `/home/deck/.var/app/org.sonic3air.Sonic3AIR/data/Sonic3AIR` folder
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
-2. Right click `settings.json` or `settings_input.json`, click `Open with Kate` or a text editor of your choice
-    * `settings.json` is specifically for game settings
-    * `settings_input.json` is specifically for game controls
-3. Customize settings
-
-#### How to Mod Sonic 3 A.I.R.
-
-**Mod Resources**
-
-_This list is not comprehensive_
-
-* [https://gamebanana.com/mods/games/6878](https://gamebanana.com/mods/games/6878)
-
-1. Open the `/home/deck/.var/app/org.sonic3air.Sonic3AIR/data/Sonic3AIR` folder
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
-2. Download and extract mod(s) to the `mod` folder
-    * A mod folder should typically have a `Data` folder and a `mod.ini` file
-3. To activate/toggle the mod(s), open Sonic 3 A.I.R.. On the main menu, click the `Mods` button
-
 ***
 
 ### Sonic CD
@@ -1446,6 +1377,75 @@ Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
 7. Use `PokeMMO.sh` to open SM64Plus
 8. In Desktop Mode, right click `PokeMMO.sh`, click `Add to Steam`
     * Alternatively, use the Steam ROM Manager parser here: [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager) to add it to Steam
+
+***
+
+### Sonic 3 A.I.R.
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+#### Preface
+
+To play Sonic 3 A.I.R., you will need an original and legal copy of Sonic 3 & Knuckles from the Steam version of Sonic 3 & Knuckles. This section will not cover how to obtain that file. For more information, see [https://docs.google.com/document/d/1oSud8dJHvdfrYbkGCfllAOp3JuTks7z4K5SwtVkXkx0/edit#heading=h.ux87lw254eyd](https://docs.google.com/document/d/1oSud8dJHvdfrYbkGCfllAOp3JuTks7z4K5SwtVkXkx0/edit#heading=h.ux87lw254eyd).
+
+Sonic 3 A.I.R. has a comprehensive manual covering many of the features and settings in the game. See [https://sonic3air.org/Manual.pdf](https://sonic3air.org/Manual.pdf). 
+
+#### What is Sonic 3 A.I.R.
+
+`A fan-made widescreen remaster of Sonic 3 & Knuckles.`
+
+Source: [https://sonic3air.org/](https://sonic3air.org/)
+
+#### Setting Up Sonic 3 A.I.R.
+
+1. In Desktop Mode, open Discover
+2. Search for Sonic 3: Angel Island Revisited
+     * Flathub page: [https://flathub.org/apps/org.sonic3air.Sonic3AIR](https://flathub.org/apps/org.sonic3air.Sonic3AIR)
+         * Discover (on the Steam Deck) uses Flathub as its source for applications
+3. Download Sonic 3: Angel Island Revisited
+4. Open Sonic 3: Angel Island Revisited
+5. Select your `Sonic 3 & Knuckles` game file
+    * The Steam version is typically named: `Sonic_Knuckles_wSonic3.bin`
+    * For more information, read the Linux section on the manual: [https://sonic3air.org/Manual.pdf](https://sonic3air.org/Manual.pdf)
+
+`Sonic 3: Angel Island Revisited` Folder and File Locations
+
+`/home/deck/.var/app/org.sonic3air.Sonic3AIR`      
+
+```
+org.sonic3air.Sonic3AIR/
+├── cache
+├── config
+└── data
+    └── Sonic3AIR
+        ├── logfile.txt
+        ├── mods
+        ├── settings_input.json
+        ├── settings.json
+        └── Sonic_Knuckles_wSonic3.bin
+```
+
+#### How to Configure Sonic 3 A.I.R.
+
+1. Open the `/home/deck/.var/app/org.sonic3air.Sonic3AIR/data/Sonic3AIR` folder
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+2. Right click `settings.json` or `settings_input.json`, click `Open with Kate` or a text editor of your choice
+    * `settings.json` is specifically for game settings
+    * `settings_input.json` is specifically for game controls
+3. Customize settings
+
+#### How to Mod Sonic 3 A.I.R.
+
+**Mod Resources**
+
+_This list is not comprehensive_
+
+* [https://gamebanana.com/mods/games/6878](https://gamebanana.com/mods/games/6878)
+
+1. Open the `/home/deck/.var/app/org.sonic3air.Sonic3AIR/data/Sonic3AIR` folder
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+2. Download and extract mod(s) to the `mod` folder
+    * A mod folder should typically have a `Data` folder and a `mod.ini` file
+3. To activate/toggle the mod(s), open Sonic 3 A.I.R.. On the main menu, click the `Mods` button
 
 ***
 
