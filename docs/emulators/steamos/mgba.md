@@ -196,6 +196,8 @@ If you used Steam ROM Manager previously, re-run Steam ROM Manager after renamin
 ### How to Use the Gyro Sensor
 [Back to the Top](#mgba-table-of-contents)
 
+**IMPORTANT:** As of September 2023, there is a bug with rumble while using gyro. Keeping rumble enabled will severly impact your framerate. Open the mGBA emulator and disable the rumble feature if you intend on using gyro.
+
 **Supported Games**
 
 * WarioWare: Twisted! 
