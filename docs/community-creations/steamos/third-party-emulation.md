@@ -1439,6 +1439,7 @@ org.sonic3air.Sonic3AIR/
 
 _This list is not comprehensive_
 
+* [https://sonic3air.boards.net/board/6/mod-releases](https://sonic3air.boards.net/board/6/mod-releases)
 * [https://gamebanana.com/mods/games/6878](https://gamebanana.com/mods/games/6878)
 
 1. Open the `/home/deck/.var/app/org.sonic3air.Sonic3AIR/data/Sonic3AIR` folder
