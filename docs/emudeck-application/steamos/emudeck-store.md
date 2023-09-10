@@ -35,7 +35,7 @@ Please contact us on on our [Discord](https://discord.gg/b9F7GpXtFP), if:
 
 1. Open the EmuDeck application on your desktop
 2. Click the `EmuDeck Store` button
-3. Select your homebrew gams
+3. Select your homebrew games
 
 **In Game Mode**
 

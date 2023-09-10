@@ -38,7 +38,11 @@ Quickstart Guide (Skip the HDD requirement, it is pre-included with EmuDeck): [h
     - [How to Apply Zink](#how-to-apply-zink)
         - [How to Apply Zink to Steam ROM Manager Shortcuts](#how-to-apply-zink-to-steam-rom-manager-shortcuts)
         - [How to Apply Zink to EmulationStation-DE Games](#how-to-apply-zink-to-emulationstation-de-games)
+    - [vs_position_always_invariant=true](#vs_position_always_invarianttrue)
+        - [How to Apply vs_position_always_invariant=true to Steam ROM Manager Shortcuts](#how-to-apply-vs_position_always_invarianttrue-to-steam-rom-manager-shortcuts)
+        - [How to Apply vs_position_always_invariant=true to EmulationStation-DE Games](#how-to-apply-vs_position_always_invarianttrue-to-emulationstation-de-games)
     - [How to Access Saves](#how-to-access-saves)
+
 
 ***
 
@@ -311,7 +315,11 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
 - [How to Apply Zink to Steam ROM Manager Shortcuts](#how-to-apply-zink-to-steam-rom-manager-shortcuts)
 - [How to Apply Zink to EmulationStation-DE Games](#how-to-apply-zink-to-emulationstation-de-games)
 
+**Practical Uses of Zink**
 
+* Fixes graphical issues
+* Improves performance in some games (may worsen in others)
+* Fixes black screen issues in some games
 
 #### How to Apply Zink to Steam ROM Manager Shortcuts
 [Back to the Top](#how-to-apply-zink)
@@ -345,6 +353,51 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
 
 ***
 
+### vs_position_always_invariant=true
+[Back to the Top](#xemu-table-of-contents)
+
+For more information on what `vs_position_always_invariant=true` is, see [https://gitlab.freedesktop.org/mesa/mesa/-/commit/9b577f2a887968483b88b629673d3f9904a179ff](https://gitlab.freedesktop.org/mesa/mesa/-/commit/9b577f2a887968483b88b629673d3f9904a179ff).
+
+Setting `vs_position_always_invariant=true` for Xemu games can be considered an alternative option to the [How to Apply Zink](#how-to-apply-zink) section. Zink may cause performance issues or graphical issues. If that is the case, you can try the steps in this section. However, applying `vs_position_always_invariant=true` may also cause its own set of performance or graphical issues.
+ 
+**Practical Uses of `vs_position_always_invariant=true`**
+
+* Fixes black screen issues
+    * Games with black screen issues (Not an exhaustive list)
+        * Burnout 3 and Phantom Dust   
+
+Read one of the below sections to learn how to apply Zink to your Xbox games:
+
+- [How to Apply vs_position_always_invariant=true to Steam ROM Manager Shortcuts](#how-to-apply-vs_position_always_invarianttrue-to-steam-rom-manager-shortcuts)
+- [How to Apply vs_position_always_invariant=true to EmulationStation-DE Games](#how-to-apply-vs_position_always_invarianttrue-to-emulationstation-de-games)
+
+#### How to Apply vs_position_always_invariant=true to Steam ROM Manager Shortcuts
+
+1. In Desktop Mode, open Steam
+2. Select an Xbox Game shortcut in Steam
+3. Click the `Gear` icon 
+    * <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
+4. Click `Properties` 
+5. In the `Launch Options` box, enter: `vs_position_always_invariant=true %command%`
+6. `vs_position_always_invariant=true` will now be applied to this specific game's Steam shortcut, repeat for each game you would like to apply `vs_position_always_invariant=true`
+
+#### How to Apply vs_position_always_invariant=true to EmulationStation-DE Games
+
+1. In Desktop Mode, open the `Emulation/roms/xbox` folder
+2. Right click anywhere in the folder, click `Create New --> Text File`
+    * <img src="https://user-images.githubusercontent.com/108900299/226739494-0e7b44c7-0fcf-4f9b-820a-8fa3351cfcfc.png" height="300">
+3. Match the name of the text file to the game you are applying `vs_position_always_invariant=true` to and change the file extension to `.esprefix`
+    * For example: 
+        * ROM Name: `Conker - Live & Reloaded.iso`
+        * New text file name: `Conker - Live & Reloaded.esprefix`
+    * <img src="https://user-images.githubusercontent.com/108900299/226740001-1738684d-854c-4466-86f3-96e14ac1bfb0.png" height="300">
+4. Open the newly created text file in Kate or a text editor of your choice
+5. On a single line, write: 
+    * `vs_position_always_invariant=true`
+6. `vs_position_always_invariant=true` will now be applied to this specific game in EmulationStation-DE, repeat for each game you would like to apply `vs_position_always_invariant=true`
+
+***
+
 ### How to Access Saves
 [Back to the Top](#xemu-table-of-contents)
 
@@ -357,3 +410,4 @@ Download [https://github.com/Ryzee119/LithiumX/releases/tag/v0.9.1](https://gith
 Follow the instructions here: [https://xemu.app/docs/ftp/](https://xemu.app/docs/ftp/), to access the saves in the `xbox_hdd.qcow2` file. 
 
 ***
+
