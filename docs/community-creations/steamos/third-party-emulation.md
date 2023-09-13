@@ -74,15 +74,14 @@ This section will go over setting up a Distrobox, which you will utilize through
 
 This will require your sudo password for the setup
 
-1. In Desktop Mode, open Konsole and enter the following two lines, one at a time
-
-```
-curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sh -s -- --prefix ~/.local
-```
-
-```
-curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/extras/install-podman | sh -s -- --prefix ~/.local
-```
+1. In Desktop Mode, open Konsole and enter the following line
+    * `curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sh -s -- --prefix ~/.local`
+2. Download `podman-launcher-amd64` from [https://github.com/89luca89/podman-launcher/releases](https://github.com/89luca89/podman-launcher/releases) to your `/home/deck/Downloads` folder
+3. Rename `podman-launcher-amd64` to `podman`
+    * Casing and spelling are important
+4. Right click `podman`, click `Properties`, click `Permissions`, check `Is executable`
+5. Move the `podman` file to `/home/deck/.local/bin/`
+    * `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders
 
 #### How to Configure bashrc
 
@@ -96,19 +95,17 @@ curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/extras/install
 # Uncomment the line below if you know that you are using xhost
 #xhost +si:localuser:$USER
 export PATH=$PATH:$HOME/.local/bin
-export PATH=$PATH:$HOME/.local/podman/bin
 ```
 
 5. Save the `.bashrc` file and exit
-5. If you had a terminal open previously (Konsole), close out of it and re-open before proceeding to the next section
+6. If you had a terminal open previously (Konsole), close out of it and re-open before proceeding to the next section
 
 #### How to Set Up Distrobox
 
 1. Open Konsole
-2. Create an Ubuntu distrobox: `distrobox create --name ubuntu -i ubuntu:22.10`
+2. Create an Ubuntu distrobox: `distrobox create --name ubuntu -i ubuntu:23.04`
 3. Type in `y` to confirm and press enter
-4. Press enter on the `docker.io...` line, typically the first line
-5. To enter the distrobox, open Konsole and enter: `distrobox enter ubuntu`
+4. To enter the distrobox, open Konsole and enter: `distrobox enter ubuntu`
     * You will need to enter the distrobox when compiling the various games on this page. You can identify when you are in a distrobox by looking at the lefthand side of Konsole. Using the distrobox created by this guide, it will say `deck@ubuntu` 
 
 
@@ -666,7 +663,7 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 
 ### How to Compile Super Mario Bros on the Steam Deck
 
-**Note:** This section requires a legal copy of a `Super Mario All-Stars` ROM for the SNES. 
+**Note:** This section requires a legal copy of `Super Mario World` and `Super Mario All-Stars` ROMs for the SNES. 
 
 #### What is this?
 
@@ -680,7 +677,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following commands one at a time: 
     * `sudo apt install libsdl2-dev python3-pip make`
-    * `python3 -m pip install --upgrade pip pillow pyyaml zstandard`
+    * `sudo apt install python3-zstandard`
 
 #### How to Set Up Super Mario Bros
 
@@ -693,19 +690,23 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
     * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
     * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
 4. Rename the Super Mario World ROM to `smas.sfc`
+5. Place your `Super Mario World` ROM in `/home/deck/Distrobox/Applications/smbll`
+    * SHA256 Hash: `6b47bb75d16514b6a476aa0c73a683a2a4c18765`
+    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
+6. Rename the `Super Mario World` ROM to `smw.sfc`
 
 #### How to Build Super Mario Bros
 
 1. In `/home/deck/Applications/Distrobox/smb1/other`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
-    * `python3 extract_smb1.py`
+    * `python3 extract.py`
 3. Change directories to `/home/deck/Applications/Distrobox/smb1` by entering the following:
     * `cd ..`  
     * If you are not comfortable with the terminal, you may also open a terminal in `/home/deck/Applications/Distrobox/smb1`, enter the distrobox again by entering: `distrobox enter ubuntu`
 4. Enter:
     * `make` 
-3. Wait for it to finish building
+5. Wait for it to finish building
 
 #### How to Play Super Mario Bros
 
@@ -737,7 +738,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 #### How to Compile Super Mario Bros: The Lost Levels on the Steam Deck
 
-**Note:** This section requires a legal copy of a `Super Mario All-Stars` ROM for the SNES. 
+**Note:** This section requires a legal copy of `Super Mario World` and `Super Mario All-Stars` ROMs for the SNES. 
 
 #### What is this?
 
@@ -750,8 +751,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following commands one at a time: 
-    * `sudo apt install libsdl2-dev python3-pip make`
-    * `python3 -m pip install --upgrade pip pillow pyyaml zstandard`
+    * `sudo apt install libsdl2-dev python3-pip make git`
+    * `sudo apt install python3-zstandard`
 
 #### How to Set Up Super Mario Bros: The Lost Levels
 
@@ -760,10 +761,14 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/snesrev/smw smbll`
-3. A `smbll` folder will be created, place your `Super Mario All-Stars ROM` in `/home/deck/Applications/smbll/other`
+3. A `smbll` folder will be created, place your `Super Mario All-Stars` ROM in `/home/deck/Distrobox/Applications/smbll/other`
     * SHA256 Hash: `c05817c5b7df2fbfe631563e0b37237156a8f6b6`
     * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
-4. Rename the Super Mario World ROM to `smas.sfc`
+4. Rename the `Super Mario All-Stars` ROM to `smas.sfc`
+5. Place your `Super Mario World` ROM in `/home/deck/Distrobox/Applications/smbll`
+    * SHA256 Hash: `6b47bb75d16514b6a476aa0c73a683a2a4c18765`
+    * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
+6. Rename the `Super Mario World` ROM to `smw.sfc`
 
 #### How to Build Super Mario Bros: The Lost Levels
 
@@ -776,7 +781,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
     * If you are not comfortable with the terminal, you may also open a terminal in `/home/deck/Applications/Distrobox/smbll`, enter the distrobox again by entering: `distrobox enter ubuntu`
 4. Enter:
     * `make` 
-3. Wait for it to finish building
+5. Wait for it to finish building
 
 #### How to Play Super Mario Bros: The Lost Levels
 
@@ -818,8 +823,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following commands one at a time: 
-    * `sudo apt install libsdl2-dev python3-pip make`
-    * `python3 -m pip install --upgrade pip pillow pyyaml`
+    * `sudo apt install libsdl2-dev python3-pip make git`
+    * `sudo apt install python3-zstandard`
 
 #### How to Set Up Super Mario World
 
@@ -869,7 +874,7 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
-    * `sudo apt install libsdl2-dev python3-pip make`
+    * `sudo apt install libsdl2-dev python3-pip make git`
 
 #### Setting Up Super Metroid
 
@@ -915,8 +920,8 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following: 
-    * `sudo apt install libsdl2-dev python3-pip make`
-
+    * `sudo apt install libsdl2-dev python3-pip make git`
+ 
 #### Patching Super Metroid Redux
 
 1. Download the patch here: [https://www.romhacking.net/hacks/4963/](https://www.romhacking.net/hacks/4963/)
@@ -963,9 +968,9 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
-3. Enter the following commands one at a time: 
-    * `sudo apt install libsdl2-dev python3-pip make`
-    * `python3 -m pip install --upgrade pip pillow pyyaml`
+3. Enter the following commands one line at a time: 
+    * `sudo apt install libsdl2-dev python3-pip make git`
+    * `sudo apt install python3-zstandard python3-yaml python3-pillow`
 
 #### How to Set Up zelda3
 
