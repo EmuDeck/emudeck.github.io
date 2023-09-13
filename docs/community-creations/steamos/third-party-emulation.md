@@ -711,7 +711,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 #### How to Play Super Mario Bros
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/bf8010ff9a055acb478462c5da5b5329e4a3fca4/smb1.sh](https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/bf8010ff9a055acb478462c5da5b5329e4a3fca4/smb1.sh)
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/79bf538b66e4025e577fb9dba9c37560f5f26631/smb1.sh](https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/79bf538b66e4025e577fb9dba9c37560f5f26631/smb1.sh)
     * Right click anywhere on the page, click `Save Page As`
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
@@ -786,7 +786,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 #### How to Play Super Mario Bros: The Lost Levels
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/bda47aaf27d35501c2c32f95d2b3cfe811cfb345/smbll.sh](https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/bda47aaf27d35501c2c32f95d2b3cfe811cfb345/smbll.sh)
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/f537fd54b6cef235ef4c896b6ba56bba4f3f2f95/smbll.sh](https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/f537fd54b6cef235ef4c896b6ba56bba4f3f2f95/smbll.sh)
     * Right click anywhere on the page, click `Save Page As`
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
@@ -1097,7 +1097,7 @@ cd "/home/deck/Applications/Distrobox/sm"
 - [Super Mario 64 Plus](#super-mario-64-plus)
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh)
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/b3ea9d23cfa37cad6d6e7a0d4b3ab26e408441e4/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/b3ea9d23cfa37cad6d6e7a0d4b3ab26e408441e4/SuperMario64Plus.sh)
     * Right click anywhere on the page, click `Save Page As`
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
@@ -1371,7 +1371,7 @@ Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
 #### How to add PokeMMO to Steam
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/c81ef659754832fb20295003d166e44d323aeae4/PokeMMO.sh](https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/c81ef659754832fb20295003d166e44d323aeae4/PokeMMO.sh)
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/e03292153a3d2f07b1b1ad0517fc92875a01df78/PokeMMO.sh](https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/e03292153a3d2f07b1b1ad0517fc92875a01df78/PokeMMO.sh)
     * Right click anywhere on the page, click `Save Page As`
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
