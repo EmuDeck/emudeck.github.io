@@ -1254,7 +1254,8 @@ This section specifically applies to:
 2. Resolve any conflicts
     * If it states an ini file is in conflict, rename the pre-existing ini file and add a `.bak` at the end of the file name
         * For example: `smw.ini.bak`  
-3. Rebuild the game
+3. Re-build the game
+    * You may need to do `make clean` first using a terminal in the root of the project folder
     * You may reference the various sections to re-build the game. The steps will be identical 
 
 
