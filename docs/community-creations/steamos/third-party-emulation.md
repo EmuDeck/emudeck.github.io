@@ -1183,14 +1183,17 @@ This section will use a simple script file to launch the various decompilations 
         "/path/to/gameexecutable"
 
 4. Edit the path to where your game executable is located
+    * For example:
 
-For example:
-
-```
-#!/bin/bash
-cd "/home/deck/Applications/Distrobox/sm"
-"/home/deck/Applications/Distrobox/sm/sm"
-```
+            #!/bin/bash
+            cd "/home/deck/Applications/Distrobox/sm"
+            "/home/deck/Applications/Distrobox/sm/sm"
+            
+5. Save and exit out of the file
+6. Right click the newly created file
+7. Click `Properties`
+8. Click `Permissions`
+9. Check `Is Executable`
 
 **Note:** For `Super Mario Bros` and `Super Mario Bros: The Lost Levels`, you will also need to include the path to the respective game file in addition to the `smw` executable. For more information, see [How to Play Super Mario Bros](#how-to-play-super-mario-bros) and [How to Play Super Mario Bros: The Lost Levels](#how-to-play-super-mario-bros-the-lost-levels).
 
@@ -1221,18 +1224,21 @@ cd "/home/deck/Applications/Distrobox/sm"
      * For example: `Ship of Harkinian` or `Jak and Dexter: The Precursor Legacy`
 2. Open the text file in a text editor of your choice
 3. Enter the following:
-    ```
-    #!/bin/sh
-    "/path/to/gameexecutable"
-    ```
+
+        #!/bin/sh
+        "/path/to/gameexecutable"
+
 4. Edit the path to where your game executable is located
+    * For example:
 
-For example:
+            #!/bin/sh
+            "/home/deck/Applications/OpenGoal/gk"
 
-```
-#!/bin/sh
-"/home/deck/Applications/OpenGoal/gk"
-```
+5. Save and exit out of the file
+6. Right click the newly created file
+7. Click `Properties`
+8. Click `Permissions`
+9. Check `Is Executable`
 
 #### How to Utilize Script Files with EmulationStation-DE
 
