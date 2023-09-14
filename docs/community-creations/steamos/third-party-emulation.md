@@ -1210,9 +1210,6 @@ This section will use a simple script file to launch the various decompilations 
 4. Click `Properties`
 5. Click `Permissions`
 6. Check `Is Executable`
-7. Use `SuperMario64Plus.sh` to open SM64Plus
-8. In Desktop Mode, right click `SuperMario64Plus.sh`, click `Add to Steam`
-
 
 **For the following games:**
 
