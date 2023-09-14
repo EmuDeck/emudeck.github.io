@@ -927,6 +927,34 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 
 * Set `Fullscreen` to `1`
 
+#### How to Mod Super Mario World
+
+1. In `/home/deck/Applications/Distrobox/smw/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
+    * `distrobox enter ubuntu`
+2. Enter:
+    * `git clone https://github.com/snesrev/smw_hacks.git`
+3. Enter:
+    * `pip install --break-system-packages --user bsdiff4`
+4. Select a mod:
+    * You do not need to download any additional content from the links below. They are strictly for additional context on what the mod entails
+    * You can only have one mod active at a time. These mods will override the base Super Mario World game
+    * [Return to Dinosaur Land](https://www.smwcentral.net/?a=details&id=4990&p=section)
+        * Enter:
+            * `python3 assets/restool.py --hack=return_dino_land`  
+    * [SMW with Levels from NSMB](https://www.smwcentral.net/?p=section&a=details&id=32487)
+        * Enter:
+            * `python3 assets/restool.py --hack=nsmb`
+    * [Super Mario World Enhanced](https://www.smwcentral.net/?a=details&id=5922&p=section)
+        * Enter:
+            * `python3 assets/restool.py --hack=enhanced`
+    * [Super Mario World Redrawn](https://www.romhacking.net/hacks/6771/)
+        * Enter:
+            * `python3 assets/restool.py --hack=redrawn`
+    * To remove a mod and play vanilla Super Mario World
+        * Enter:
+            * `python3 assets/restool.py`
+5. To play the mod you selected, open `smw` in `/home/deck/Applications/Distrobox/smw/` 
+
 ***
 
 ### Super Metroid
