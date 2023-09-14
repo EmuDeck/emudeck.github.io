@@ -1176,12 +1176,12 @@ This section will use a simple script file to launch the various decompilations 
 1. In a folder of your choice, create a text file and give it a descriptive name (matching the game name typically) with a `.sh` file extension
     * For example: `Super Metroid.sh` or `The Legend of Zelda: A Link to the Past.sh`
 2. Open the text file in a text editor of your choice
-3. Enter the following:
-    ```
-    #!/bin/sh
-    cd /path/to/game"
-    "/path/to/gameexecutable"
-    ```
+3. Enter the following (including the quotes):
+
+        #!/bin/sh
+        cd "/path/to/game"
+        "/path/to/gameexecutable"
+
 4. Edit the path to where your game executable is located
 
 For example:
@@ -1191,6 +1191,8 @@ For example:
 cd "/home/deck/Applications/Distrobox/sm"
 "/home/deck/Applications/Distrobox/sm/sm"
 ```
+
+**Note:** For `Super Mario Bros` and `Super Mario Bros: The Lost Levels`, you will also need to include the path to the respective game file in addition to the `smw` executable. For more information, see [How to Play Super Mario Bros](#how-to-play-super-mario-bros) and [How to Play Super Mario Bros: The Lost Levels](#how-to-play-super-mario-bros-the-lost-levels).
 
 **For the following games:**
 
