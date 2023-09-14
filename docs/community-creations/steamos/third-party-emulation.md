@@ -9,6 +9,7 @@ The guides on this page are not officially supported by EmuDeck. Many require so
 1. [Decompilations and Reverse Engineered PC Ports](#decompilations-and-reverse-engineered-pc-ports)
     - [Getting Started with Decompilations and Reverse Engineered PC Ports](#getting-started-with-decompilations-and-reverse-engineered-pc-ports)
         - [How to Set up Distrobox](#how-to-set-up-distrobox)
+        - [Terminal Tips and Tricks](#terminal-tips-and-tricks)
     - [Games](#games)
         - [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
         - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
@@ -16,6 +17,7 @@ The guides on this page are not officially supported by EmuDeck. Many require so
         - [Render96ex](#render96ex)
         - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
         - [sm64ex](#sm64ex)
+        - [sm64ex-coop](#sm64ex-coop)
         - [Sonic 1 and 2](#sonic-1-and-2)
         - [Sonic CD](#sonic-cd)
         - [Super Mario 64 Plus](#super-mario-64-plus)
@@ -89,10 +91,10 @@ This will require your sudo password for the setup
      * You may not see the word `deck` in the file path at the top, this is the `home` folder for the `deck` user
 2. Click the hamburger menu in the top right, `☰`, click `Show Hidden Files`
 3. Right click `.bashrc`, click `Open with Kate` or a file editor of your choice
-4. Add these three lines to the bottom of the `.bashrc` file
+4. Add these lines to the bottom of the `.bashrc` file
 
 ```
-# Uncomment the line below if you know that you are using xhost
+# Uncomment the xhost line below if you know that you are using xhost
 #xhost +si:localuser:$USER
 export PATH=$PATH:$HOME/.local/bin
 ```
@@ -104,10 +106,36 @@ export PATH=$PATH:$HOME/.local/bin
 
 1. Open Konsole
 2. Create an Ubuntu distrobox: `distrobox create --name ubuntu -i ubuntu:23.04`
-3. Type in `y` to confirm and press enter
-4. To enter the distrobox, open Konsole and enter: `distrobox enter ubuntu`
+3. To enter the distrobox, open Konsole and enter: `distrobox enter ubuntu`
     * You will need to enter the distrobox when compiling the various games on this page. You can identify when you are in a distrobox by looking at the lefthand side of Konsole. Using the distrobox created by this guide, it will say `deck@ubuntu` 
 
+***
+
+### Terminal Tips and Tricks
+
+* `cd`
+    * Change directories
+* `cd ..` or `cd -`
+    * Change into the previous directory
+* `Tab` button
+    * Auto complete file and path names
+* `ls` or `ll` 
+    * List all of the folders and files in the current directory
+* `~` can be used in place of `home`
+    * For example, if you have a folder in your `Applications` that you would like to navigate to, you can use `cd ~/Applications` instead of typing `cd /home/deck/Applications`
+* `mkdir`
+    * Create folders
+    * For example: `mkdir foldername`   
+* `Ctrl` + `C`
+    * Terminate a running process
+* `Up` arrow key button
+    * Repeat last used command
+* `Ctrl` + `L`
+    * Clear the screen 
+* `Ctrl` + `U`
+    * Clear current input
+* `Ctrl` + `A`
+    * Jump to beginning of the line
 
 ***
 
@@ -439,7 +467,6 @@ Source: [https://github.com/sm64pc/sm64ex](https://github.com/sm64pc/sm64ex)
     * `distrobox enter ubuntu`
 2. Enter: 
     * `make`
-3. In the `sm64ex`, a `bin` folder will be created
 3. Wait for it to finish building
 4. To play `sm64ex`, open `sm64.us.f3dex2e` in `/home/deck/Applications/Distrobox/sm64ex/build/us_pc`
 
@@ -460,6 +487,50 @@ A 60 FPS patch is included with the GitHub repo for sm64ex. However, you can tak
     * ` git apply 60fps_ex.patch --ignore-whitespace --reject`
     * `60fps_ex.patch` is the name of the included file. If the file name is different, replace the file name in the above command
 3. You will need to re-build sm64ex for the patches to apply. To do so, enter the Ubuntu distrobox and run `make clean` in the ``/home/deck/Applications/Distrobox/sm64ex` folder
+
+***
+
+### sm64ex-coop
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+#### What is This Decompilation?
+
+`Online multiplayer mod for SM64 that synchronizes all entities and every level for multiple players. Fork of sm64pc/sm64ex.`
+
+Source: [https://github.com/djoslin0/sm64ex-coop](https://github.com/djoslin0/sm64ex-coop)
+
+#### Installing Prerequisites
+
+1. [Set up a Distrobox](#how-to-set-up-distrobox)
+2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+3. Enter the following: 
+    * `sudo apt install build-essential git python3 libglew-dev libsdl2-dev libz-dev bsdmainutils`
+
+#### Setting Up sm64ex-coop
+
+1. In `/home/deck/Applications`, create a `Distrobox` folder
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
+    * `git clone https://github.com/djoslin0/sm64ex-coop.git`
+3. A `sm64ex-coop` folder will be created, place your Super Mario 64 ROM in this folder
+4. Rename the Super Mario 64 ROM to `baserom.us.z64`
+
+#### Building sm64ex-coop
+
+1. In the `sm64ex-coop` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
+    * `distrobox enter ubuntu`
+2. Enter: 
+    * `make -j4`
+3. Wait for it to finish building
+4. To play `sm64ex-coop`, open `sm64.us.f3dex2e` in `/home/deck/Applications/Distrobox/sm64ex-coop/build/us_pc`
+
+#### How to Configure sm64ex-coop
+
+1. Open `sm64.us.f3dex2e` in `/home/deck/Applications/Distrobox/sm64ex-coop/build/us_pc`
+2. On the main menu, click `Options`
+
+#### How to Play Multiplayer
+
+See [https://github.com/djoslin0/sm64ex-coop/wiki/Hosting-and-Joining](https://github.com/djoslin0/sm64ex-coop/wiki/Hosting-and-Joining).
 
 ***
 
@@ -1064,6 +1135,7 @@ This section will use a simple script file to launch the various decompilations 
 - [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
 - [Perfect Dark](#perfect-dark)
 - [sm64ex](#sm64ex)
+- [sm64ex-coop](#sm64ex-coop)
 - [Sonic CD](#sonic-cd)
 - [Sonic 1 and 2](#sonic-1-and-2)
 - [Super Mario Bros](#super-mario-bros)
@@ -1111,9 +1183,9 @@ cd "/home/deck/Applications/Distrobox/sm"
 
 **For the following games:**
 
-- [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
 - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
 - [Render96ex](#render96ex)
+- [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
 
 1. In a folder of your choice, create a text file and give it a descriptive name (matching the game name typically) with a `.sh` file extension
      * For example: `Ship of Harkinian` or `Jak and Dexter: The Precursor Legacy`
@@ -1233,19 +1305,20 @@ For example:
 
 This section specifically applies to: 
 
+- [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
+- [Perfect Dark](#perfect-dark)
 - [Render96ex](#render96ex)
 - [Super Mario 64 Plus](#super-mario-64-plus)
-- [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
-- [Perfect Dark](#perfect-dark)
 - [sm64ex](#sm64ex)
-- [Sonic CD](#sonic-cd)
+- [sm64ex-coop](#sm64ex-coop)
 - [Sonic 1 and 2](#sonic-1-and-2)
+- [Sonic CD](#sonic-cd)
 - [Super Mario Bros](#super-mario-bros)
 - [Super Mario Bros: The Lost Levels](#super-mario-bros-the-lost-levels)
 - [Super Mario World](#super-mario-world)
 - [Super Metroid](#super-metroid)
 - [Super Metroid Redux](#super-metroid-redux)
-- [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
+- [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
 
 1. In the respective folder, open a terminal and enter:
     * `git pull origin main`
@@ -1338,6 +1411,20 @@ Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
 4. Open AM2R and click the big `Download` button on the main screen
 5. Select `Select AM2R_1_1.zip`, select your file, and play the game
 
+#### How to add AM2R to Steam
+
+1. Download attached `.sh` file
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/a708bbfe9c162250e51b741d6aea8de1/raw/e8751109b4d5d9f7a74c209c033c81dd6fb4fbde/AM2R.sh](https://gist.githubusercontent.com/rawdatafeel/a708bbfe9c162250e51b741d6aea8de1/raw/e8751109b4d5d9f7a74c209c033c81dd6fb4fbde/AM2R.sh)
+    * Right click anywhere on the page, click `Save Page As`
+2. Place in `/home/deck/Applications`
+3. Right click `AM2R.sh`
+4. Click `Properties`
+5. Click `Permissions`
+6. Check `Is Executable`
+7. Use `AM2R.sh` to open AM2R
+8. In Desktop Mode, right click `AM2R.sh`, click `Add to Steam`
+    * Alternatively, use the Steam ROM Manager parser here: [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager) to add it to Steam
+
 ***
 
 ### PokeMMO
@@ -1380,7 +1467,7 @@ Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
 4. Click `Properties`
 5. Click `Permissions`
 6. Check `Is Executable`
-7. Use `PokeMMO.sh` to open SM64Plus
+7. Use `PokeMMO.sh` to open PokeMMO
 8. In Desktop Mode, right click `PokeMMO.sh`, click `Add to Steam`
     * Alternatively, use the Steam ROM Manager parser here: [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager) to add it to Steam
 
@@ -1453,6 +1540,20 @@ _This list is not comprehensive_
 2. Download and extract mod(s) to the `mod` folder
     * A mod folder should typically have a `Data` folder and a `mod.ini` file
 3. To activate/toggle the mod(s), open Sonic 3 A.I.R.. On the main menu, click the `Mods` button
+
+#### How to add Sonic 3 A.I.R. to Steam
+
+1. Download attached `.sh` file
+    * Link: [https://gist.githubusercontent.com/rawdatafeel/a36e86ede582766ea5b7a03787dc796a/raw/593fb18893f48ccee85ffdf7f915a842b0add85e/Sonic3AIR.sh](https://gist.githubusercontent.com/rawdatafeel/a36e86ede582766ea5b7a03787dc796a/raw/593fb18893f48ccee85ffdf7f915a842b0add85e/Sonic3AIR.sh)
+    * Right click anywhere on the page, click `Save Page As`
+2. Place in `/home/deck/Applications`
+3. Right click `Sonic3AIR.sh`
+4. Click `Properties`
+5. Click `Permissions`
+6. Check `Is Executable`
+7. Use `Sonic3AIR.sh` to open Sonic 3 A.I.R.
+8. In Desktop Mode, right click `Sonic3AIR.sh`, click `Add to Steam`
+    * Alternatively, use the Steam ROM Manager parser here: [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager) to add it to Steam
 
 ***
 
