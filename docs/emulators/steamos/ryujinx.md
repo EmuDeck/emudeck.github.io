@@ -135,6 +135,13 @@ Ryujinx/
     └── Profiles.json
 ```
 
+`Emulation/bios/Ryujinx`
+
+```
+ryujinx/
+└── keys -> /home/deck/.config/Ryujinx/system
+```
+
 ***
 
 ### How to Update Ryujinx

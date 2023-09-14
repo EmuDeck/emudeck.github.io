@@ -145,9 +145,25 @@ yuzu/
 ├── dump
 ├── load
 ├── nand
+│   └── user
+│       ├── Contents
+│       │   ├── placehld
+│       │   └── registered  
+│       ├── save
+│       │   ├── 0000000000000000
+│       │   └── cache
+│       └── temp
 ├── screenshots
 ├── sdmc
 └── tas
+```
+
+`Emulation/bios/yuzu`
+
+```
+yuzu/
+├── firmware -> /run/media/SDCARDNAME/Emulation/storage/yuzu/nand/system/Contents/registered/
+└── keys -> /home/deck/.local/share/yuzu/keys/
 ```
 
 ***
