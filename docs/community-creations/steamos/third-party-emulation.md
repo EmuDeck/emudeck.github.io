@@ -404,9 +404,8 @@ sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
 **Note:** The following folder locations are recommendations. You can choose a different folder location.
 
 1. In `/home/deck/Applications`, create a `ShipofHarkinian` folder
-2. Download the latest version of `Ship of Harkinian`: [https://www.shipofharkinian.com/](https://www.shipofharkinian.com/) to the folder you created in Step 1
-    * Download links are only available from their Discord
-    * Download the `Linux / SteamDeck (Perfomance Build)`
+2. Download the latest `Linux-Performance` version of `Ship of Harkinian`: [https://github.com/HarbourMasters/Shipwright/releases](https://github.com/HarbourMasters/Shipwright/releases) to the folder you created in Step 1
+    * Download the `SoH-VERSION-NAME-Linux-Performance.zip` file
 3. Right click the downloaded zip file and click `Extract archive here, detect subfolder`
 4. Move the `soh.AppImage` to `/home/deck/Applications/ShipofHarkinian`
 5. Right click `soh.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
@@ -425,6 +424,7 @@ sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
 __This list is not exhaustive__
 
 * [https://gamebanana.com/games/16121](https://gamebanana.com/games/16121)
+* [https://evilgames.eu/texture-packs/oot-reloaded.htm](https://evilgames.eu/texture-packs/oot-reloaded.htm)
 
 **How to Install Custom Textures and Mods**
 
