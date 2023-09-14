@@ -1302,6 +1302,7 @@ For example:
 ***
 
 ### How to Update Decompilations and Reverse Engineered PC Ports
+[Back to the Top](#third-party-emulation-table-of-contents)
 
 This section specifically applies to: 
 
