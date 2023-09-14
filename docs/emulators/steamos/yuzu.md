@@ -162,7 +162,7 @@ yuzu/
 
 ```
 yuzu/
-├── firmware -> /run/media/SDCARDNAME/Emulation/storage/yuzu/nand/system/Contents/registered/
+├── firmware -> Emulation/storage/yuzu/nand/system/Contents/registered/
 └── keys -> /home/deck/.local/share/yuzu/keys/
 ```
 
