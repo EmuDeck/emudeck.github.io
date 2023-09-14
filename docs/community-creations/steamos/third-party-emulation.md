@@ -1195,7 +1195,16 @@ This section will use a simple script file to launch the various decompilations 
 8. Click `Permissions`
 9. Check `Is Executable`
 
-**Note:** For `Super Mario Bros` and `Super Mario Bros: The Lost Levels`, you will also need to include the path to the respective game file in addition to the `smw` executable. For more information, see [How to Play Super Mario Bros](#how-to-play-super-mario-bros) and [How to Play Super Mario Bros: The Lost Levels](#how-to-play-super-mario-bros-the-lost-levels).
+**Note:** 
+
+* If your path is in the `home` directory, you may also replace `/home/$USER` (`home/deck` if you are on a Steam Deck) with `$HOME` 
+    * For example:
+
+            #!/bin/bash
+            cd "$HOME/Applications/Distrobox/sm"
+            "$HOME/Applications/Distrobox/sm/sm"
+    
+* For `Super Mario Bros` and `Super Mario Bros: The Lost Levels`, you will also need to include the path to the respective game file in addition to the `smw` executable. For more information, see [How to Play Super Mario Bros](#how-to-play-super-mario-bros) and [How to Play Super Mario Bros: The Lost Levels](#how-to-play-super-mario-bros-the-lost-levels).
 
 **For the following games:**
 
@@ -1236,6 +1245,14 @@ This section will use a simple script file to launch the various decompilations 
 7. Click `Properties`
 8. Click `Permissions`
 9. Check `Is Executable`
+
+**Note:** 
+
+* If your path is in the `home` directory, you may also replace `/home/$USER` (`home/deck` if you are on a Steam Deck) with `$HOME` 
+    * For example:
+
+            #!/bin/sh
+            "$HOME/Applications/OpenGoal/gk"
 
 #### How to Utilize Script Files with EmulationStation-DE
 
