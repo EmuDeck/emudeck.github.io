@@ -57,7 +57,7 @@ This section will use `Dolphin on SteamOS` as an example.
 
 If you notice a new update with an emulator or tool significantly impacts its functionality, you may edit the wiki to bring notice and suggest possible temporary solutions. 
 
-To do so, add a section to the [Known Issues](./known-issues/steamos/index.md) page with a date of when the issue occurred. To edit the page, visit [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/known-issues/steamos/index.md] and see [How to Contribute Using GitHub's Web Editor](#how-to-contribute-using-githubs-web-editor) to learn how.
+To do so, add a section to the [Known Issues](./known-issues/steamos/index.md) page with a date of when the issue occurred. To edit the page, visit [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/known-issues/steamos/index.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/known-issues/steamos/index.md) and see [How to Contribute Using GitHub's Web Editor](#how-to-contribute-using-githubs-web-editor) to learn how.
 
 After editing the page, you may also use GitHub's web editor to edit the `main.html` file in the `overrides` folder, [https://github.com/EmuDeck/emudeck.github.io/blob/main/overrides/main.html](https://github.com/EmuDeck/emudeck.github.io/blob/main/overrides/main.html) to include an announcement at the top of the website alerting users to the issue on the [Known Issues](./known-issues/steamos/index.md) page.
 
