@@ -159,7 +159,6 @@ theme:
     - navigation.sections
     - content.code.copy
     - content.code.annotate
-    - header.autohide
     - announce.dismiss
     logo: assets/logo.png
     favicon: images/favicon.png
