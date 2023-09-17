@@ -51,6 +51,30 @@ This section will use `Dolphin on SteamOS` as an example.
 5. Submit your Pull Request
 6. Once your Pull Request is reviewed, it will be merged and any of your changes will automatically be deployed to the website
 
+### Examples of Wiki Contributions
+
+#### New Issues With Emulators
+
+If you notice a new update with an emulator or tool significantly impacts its functionality, you may edit the wiki to bring notice and suggest possible temporary solutions. 
+
+To do so, add a section to the [Known Issues](./known-issues/steamos/index.md) page with a date of when the issue occurred. To edit the page, visit [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/known-issues/steamos/index.md] and see [How to Contribute Using GitHub's Web Editor](#how-to-contribute-using-githubs-web-editor) to learn how.
+
+After editing the page, you may also use GitHub's web editor to edit the `main.html` file in the `overrides` folder, [https://github.com/EmuDeck/emudeck.github.io/blob/main/overrides/main.html](https://github.com/EmuDeck/emudeck.github.io/blob/main/overrides/main.html) to include an announcement at the top of the website alerting users to the issue on the [Known Issues](./known-issues/steamos/index.md) page.
+
+As an example for how `main.html` might be formatted, see below:
+
+```
+{% extends "base.html" %}
+
+{% block announce %}
+ANNOUNCEMENT: Audio is not working in the latest version of DuckStation, visit <a href="https://emudeck.github.io/known-issues/steamos/#duckstation-audio-not-working-september-16th-2023">https://emudeck.github.io/known-issues/steamos/#duckstation-audio-not-working-september-16th-2023</a> for a solution.
+{% endblock %}
+```
+
+Only the text between `{% block announce %}` and `{% endblock %}` needs to be updated when a new major issue occurs. To link to a page, `<a href="linktopage">repeatsamelinkhere</a>`. Example: `<a href="https://www.google.com/">https://www.google.com/</a>`.
+
+Once the issue is resolved, you may edit the same section on the [Known Issues](./known-issues/steamos/index.md) including when it was resolved. You do not need to remove the section.
+
 ***
 
 ## How to Contribute to EmuDeck
