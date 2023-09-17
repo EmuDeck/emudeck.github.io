@@ -22,7 +22,7 @@ It is recommended you monitor and **use the Discover store** to update any syste
 
 For more information on updating and which emulators are Flatpaks, AppImages, Binaries, and Windows Executables, visit the [Updating](../../emudeck-maintenance/steamos/updating.md) page.
 
-Notably, not updating a system library recently caused RetroArch to suddenly stop working. Read [RetroArch does not work anymore - April 30th, 2023](../../common-issues/steamos/index.md#retroarch-does-not-work-anymore---april-30th-2023) for more information. 
+Notably, not updating a system library recently caused RetroArch to suddenly stop working. Read [RetroArch does not work anymore - April 30th, 2023](../../known-issues/steamos/index.md#retroarch-does-not-work-anymore---april-30th-2023) for more information. 
 
 ***
 

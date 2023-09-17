@@ -27,13 +27,13 @@ nav:
             - 'frequently-asked-questions/windows/index.md' 
         - 'EmuDeck for Linux': 
             - 'frequently-asked-questions/linux/index.md' 
-    - Common Issues:
+    - Known Issues:
         - 'EmuDeck for SteamOS': 
-            - 'common-issues/steamos/index.md'
+            - 'known-issues/steamos/index.md'
         - 'EmuDeck for Windows': 
-            - 'common-issues/windows/index.md'
+            - 'known-issues/windows/index.md'
         - 'EmuDeck for Linux': 
-            - 'common-issues/linux/index.md'
+            - 'known-issues/linux/index.md'
     - Troubleshooting:
         - 'EmuDeck for SteamOS': 
             - 'troubleshooting/steamos/index.md'
@@ -53,7 +53,6 @@ nav:
             - 'Controls 101': 'controls-and-hotkeys/windows/controls-101.md'
             - 'Hotkeys': 'controls-and-hotkeys/windows/hotkeys.md'
     - EmuDeck Application:
-        - 'Cloud Saves': 'emudeck-application/cloud-saves.md'
         - 'EmuDeck for SteamOS': 
             - 'EmuDeck Application 101': 'emudeck-application/steamos/emudeck-application-101.md'
             - 'EmuDeck Store': 'emudeck-application/steamos/emudeck-store.md'
@@ -160,6 +159,8 @@ theme:
     - navigation.sections
     - content.code.copy
     - content.code.annotate
+    - header.autohide
+    - announce.dismiss
     logo: assets/logo.png
     favicon: images/favicon.png
     font:

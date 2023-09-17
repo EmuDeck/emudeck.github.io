@@ -16,7 +16,7 @@
 
 3. [Managing Files](#managing-files)
     - [How to Use Symlinks](#how-to-use-symlinks)
-    - [How to transfer files to a Steam Deck](#how-to-transfer-files-to-a-steam-deck)
+    - [How to Transfer Files to a Steam Deck](#how-to-transfer-files-to-a-steam-deck)
 
 ***
 
@@ -423,7 +423,7 @@ When you have your original folder or file and the destination ready, drag the o
 
 ***
 
-### How to transfer files to a Steam Deck
+### How to Transfer Files to a Steam Deck
 [Back to the Top](#file-management-table-of-contents)
 
 #### Preface
