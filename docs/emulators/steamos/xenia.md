@@ -33,10 +33,12 @@ We HIGHLY suggest looking to see if a game you wish to emulate has a native PC v
     - [How to Fix !Status or GPU Command Error Messages](#how-to-fix-status-or-gpu-command-error-messages)
 
 3. [Xenia Tips and Tricks](#xenia-tips-and-tricks)
+    - [Troubleshooting Tips](#troubleshooting-tips)
     - [How to Swap Out Xenia Builds](#how-to-swap-out-xenia-builds)
     - [How to Swap Between Vulkan and DX12](#how-to-swap-between-vulkan-and-dx12)
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Set Up Xbox Live Arcade Games](#how-to-set-up-xbox-live-arcade-games)
+    - [How to Delete Xenia's Prefix](#how-to-delete-xenias-prefix)
 
 
 
@@ -385,6 +387,18 @@ However, do keep in mind that neither of the above solutions is guaranteed to fi
 
 ***
 
+### Troubleshooting Tips
+[Back to the Top](#xenia-table-of-contents)
+
+* If you are getting a `!Status or GPU Command Error Messages`, read [How to Fix !Status or GPU Command Error Messages](#how-to-fix-status-or-gpu-command-error-messages)
+* If you are still on an older version of Xenia, try updating to the latest version and use DX12 instead of Vulkan, see [How to Swap Between Vulkan and DX12](#how-to-swap-between-vulkan-and-dx12)
+* If Xenia was working perfectly fine and suddenly stopped working, see [How to Delete Xenia's Prefix](#how-to-delete-xenias-prefix)
+* If you are noticing game specific issues, search for your game on Xenia's game compatibility database, [https://github.com/xenia-project/game-compatibility/issues](https://github.com/xenia-project/game-compatibility/issues) and see if users have suggested any solutions
+    * If you need to make any edits to the configuration file, open `xenia-canary.config.toml` in `Emulation/roms/xbox360`
+* If you are playing Xbox Live Arcade Games, make sure to read [How to Set Up Xbox Live Arcade Games](#how-to-set-up-xbox-live-arcade-games)
+
+***
+
 ### How to Swap Out Xenia Builds
 [Back to the Top](#xenia-table-of-contents)
 
@@ -528,5 +542,29 @@ Activated License:
 
 ![How to Set Up Xbox Live Arcade Games: Activated](../../assets/how-to-set-up-xbox-live-arcade-games-activated.png)
 
+
+***
+
+### How to Delete Xenia's Prefix
+[Back to the Top](#xenia-table-of-contents)
+
+Since Xenia is packaged as a Windows application and has no Linux version widely available, EmuDeck downloads and runs Xenia through Proton using a script. All of Xenia's important files (saves and configurations) are localized to Xenia's folder in `Emulation/roms/xbox360`. 
+
+However, running Xenia through Proton will still create a prefix (a sort of Windows virtual C:Drive). If you notice Xenia suddenly stops working (after it was previously working), you may try deleting the prefix. Deleting the prefix will not delete any of your saves or configurations since these are localized to the `Emulation/roms/xbox360` folder.
+
+#### How to Delete Xenia's Prefix
+
+1. In Desktop Mode, open Xenia
+    * [How to Launch Xenia in Desktop Mode](#how-to-launch-xenia-in-desktop-mode)
+    * It does not matter if Xenia actually opens on this step. If opening Xenia does not do anything, proceed to Step 2
+2. Open the `Emulation/tools` folder
+3. Right click `proton-launch.log` and click `Open with Kate` or a text editor of your choice
+4. Locate the `PFX: ` line
+    * For example: `PFX: /home/deck/.local/share/Steam/steamapps/compatdata/3322499838`
+5. Navigate to the path on the `PFX: ` line in Dolphin
+6. Delete the numerical folder at the end of the path
+    * For example, with `PFX: /home/deck/.local/share/Steam/steamapps/compatdata/3322499838`, delete the folder named `3322499838` in `/home/deck/.local/share/Steam/steamapps/compatdata`
+7. Re-open Xenia in Desktop Mode to re-generate the prefix
+8. Close out of Xenia and you may continue playing in Game Mode
 
 ***
