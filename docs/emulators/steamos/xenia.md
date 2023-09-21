@@ -552,7 +552,7 @@ Since Xenia is packaged as a Windows application and has no Linux version widely
 
 However, running Xenia through Proton will still create a prefix (a sort of Windows virtual C:Drive). If you notice Xenia suddenly stops working (after it was previously working), you may try deleting the prefix. Deleting the prefix will not delete any of your saves or configurations since these are localized to the `Emulation/roms/xbox360` folder.
 
-If you changed Xenia's Proton version in `Emulation/tools/launchers/xenia.sh`, it's also recommended to delete the prefix. 
+**IMPORTANT:** If you changed Xenia's Proton version in `Emulation/tools/launchers/xenia.sh`, and notice Xenia suddenly stops working, it's recommended to delete the prefix. Deleting the prefix will "flush" Xenia and give it a clean slate (while retaining saves and configurations) with your newly selected Proton version. 
 
 #### How to Delete Xenia's Prefix
 
