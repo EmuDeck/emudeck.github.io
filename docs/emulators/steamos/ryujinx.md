@@ -340,4 +340,6 @@ If you used Steam ROM Manager previously, re-run Steam ROM Manager after renamin
 
 If your controller gyro does not work after the above steps, reset Ryujinx's configuration in the EmuDeck application on the Manage Emulators page and try again. 
 
+
+
 ***
