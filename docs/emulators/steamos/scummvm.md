@@ -140,12 +140,12 @@ Depending on your preferred front-end (adding ROMs to Steam through Steam ROM Ma
 * If you like to **mix and match** between Steam (through Steam ROM Manager) and EmulationStation-DE, it is recommended you use EmulationStation-DE's method of structuring ScummVM ROMs 
     * Using this method will likely cause your ROMs to not be parsed correctly in Steam ROM Manager, see [How to Fix a Mismatched Entry](../../tools/steamos/steam-rom-manager.md#how-to-fix-a-mismatched-entry) to fix any potential mismatches
 
-### How to Configure ScummVM to Work With EmulationStation-DE
+#### How to Configure ScummVM to Work With EmulationStation-DE
 [Back to the Top](#scummvm-table-of-contents)
 
 To configure ScummVM games with **EmulationStation-DE**, you will need to place a compatible ScummVM game in `Emulation/roms/scummvm`. Afterwards, you will need to create a `.scummvm` file matching the game's short name and rename the game folder to match that newly created `.scummvm` file. 
 
-#### How to Configure ScummVM to Work With EmulationStation-DE
+##### How to Configure ScummVM to Work With EmulationStation-DE
 
 1. Open [https://www.scummvm.org/compatibility](https://www.scummvm.org/compatibility), and note down the game's `Short Name` in the `ScummVM ID` column. 
     * You will see two words, `word1:word2`, in the `ScummVM ID` column, the shortname is `word2` 
@@ -209,7 +209,7 @@ neverhood.scummvm
 
 ***
 
-### How to Configure ScummVM to Work With Steam ROM Manager
+#### How to Configure ScummVM to Work With Steam ROM Manager
 [Back to the Top](#scummvm-table-of-contents)
 
 To configure ScummVM games with **Steam ROM Manager**, you will need to place a compatible ScummVM game in `Emulation/roms/scummvm`, and rename the game folder to add a `.scummvm` file extension. 
@@ -220,7 +220,7 @@ In order for Steam ROM Manager to scrape the game, the name of the game folder i
 
 If a page does not currently exist for your ScummVM game, request one at [https://www.steamgriddb.com/request-game](https://www.steamgriddb.com/request-game). Make sure to upload art as well once your page has been approved. 
 
-#### How to Configure ScummVM to Work With Steam ROM Manager
+##### How to Configure ScummVM to Work With Steam ROM Manager
 
 1. In `Emulation/roms/scummvm`, rename your game folder to `GAMENAME.scummvm` 
     * Use [https://www.steamgriddb.com/](https://www.steamgriddb.com/) to locate the game page so Steam ROM Manager can properly scrape art for your game
