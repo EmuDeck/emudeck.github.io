@@ -39,6 +39,7 @@ Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/h
     - [How to Install Mods](#how-to-install-mods)
     - [Special Game Configurations](#special-game-configurations)
     - [How to Set Up Early Access](#how-to-set-up-early-access)
+    - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
 
 
 ***
@@ -505,3 +506,44 @@ EmuDeck 2.1 added an option to enable Yuzu (Early Access).
 6. Whenever you launch Yuzu, it will now use the `Early Access` version
 
 *** 
+
+### How to Configure Gyro With External Controllers
+[Back to the Top](#yuzu-table-of-contents)
+
+#### Desktop Mode
+
+1. In Desktop Mode, exit out of Steam
+    * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
+    * You may also connect an external keyboard and mouse
+2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
+3. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
+    * You may also find this menu by opening `System Settings` and clicking `Display and Monitor`
+4. Click the `Upside Down` configuration under `Orientation`
+5. Open Yuzu
+6. Click `Emulation` at the top, click `Configure`
+7. Click `Controls` on the left
+8. Under `Input Device`, select your external controller
+9. Under `Motion 1` at the bottom, click `[Not Set]` or `sdl` and shake your controller
+10. Exit out of Yuzu
+11. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
+    * You may also find this menu by opening `System Settings` and clicking `Display and Monitor`
+12. Click the `90 Counterclockwise` configuration under `Orientation`
+13. Switch to `Game Mode`
+
+#### Game Mode
+
+1. In Game Mode, connect your controller
+2. Select your Wii U game 
+3. On the `Play` screen, select the `Controller` icon to the right of the screen 
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+4. Select your controller tab at the top
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+5. Click the `Gear` icon to the right, and click `Disable Steam Input`
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
+    * You may need to restart first for this setting to properly apply
+6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
+
+If your controller gyro does not work after the above steps, reset Yuzu's configuration in the EmuDeck application on the Manage Emulators page and try again. 
+
+***

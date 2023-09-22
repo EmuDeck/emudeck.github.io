@@ -14,8 +14,11 @@
     - [How to Open the Quick Access Menu](#how-to-open-the-quick-access-menu)
     - [How to Re-Arrange the Controller Order](#how-to-re-arrange-the-controller-order)
     - [Cemu Native: How to Configure Gyro With External Controllers](../../emulators/steamos/cemu/cemu-native.md#how-to-configure-gyro-with-external-controllers)
+    - [RPCS3: How to Set up the Motion Sensor with External Controllers](../../emulators/steamos/rpcs3.md#how-to-set-up-the-motion-sensor-with-external-controllers)
+    - [Yuzu: How to Configure Gyro With External Controllers](../../emulators/steamos/yuzu.md#how-to-configure-gyro-with-external-controllers)
 
 4. [Controller Compatibility](#controller-compatibility)
+    - [8BitDo Mod Kit for Original N64 Controller](#8bitdo-mod-kit-for-original-n64-controller)
     - [8BitDo Ultimate 2.4G Wireless Controller](#8bitdo-ultimate-24g-wireless-controller)
     - [Nintendo Switch Online: Nintendo 64 Controller](#nintendo-switch-online-nintendo-64-controller)
 
@@ -35,6 +38,8 @@
 Steam Input is the foundation of controls on the Steam Deck. It's what allows EmuDeck to set up a standardized control scheme across emulators. Steam Input allows you to use a controller with any game or emulator. 
 
 However, Steam Input might also conflict with native features of the controller. One example is that Steam Input does not properly expose the gyro for external controllers to emulators. In these cases, you will need to disable Steam Input and allow the controller to "talk" directly to the emulator to properly expose these features. 
+
+You may need to restart to ensure Steam Input is properly disabled. 
 
 This page will cover how to utilize Steam Input with external controllers, and how to use workarounds when Steam Input does not properly expose various features of an external controller. 
 
@@ -74,6 +79,7 @@ Disabling Steam Input may allow you to use your external controller's gyro in mu
 4. Select the Gear icon to the right of `Edit Layout`
 5. Click `Disable Steam Input`
     * Use this same menu to re-enable Steam Input
+    * You may need to restart first for this setting to properly apply
 
 For a video, see below:
 
@@ -141,6 +147,22 @@ For a video, see below:
 [Back to the Top](#external-controllers-table-of-contents)
 
 The controller compatibility section discusses the compatibility on various controllers and how well they work on the Steam Deck. 
+
+***
+
+***
+
+### 8BitDo Mod Kit for Original N64 Controller
+
+Link: [https://shop.8bitdo.com/products/8bitdo-mod-kit-for-original-n64-controller](https://shop.8bitdo.com/products/8bitdo-mod-kit-for-original-n64-controller)
+
+**How to Configure 8BitDo Mod Kit for Original N64 Controller With RetroArch**
+
+1. Set controller to switch mode
+2. Disable Steam Input for RetroArch or whichever game you are opening through RetroArch
+3. Download configuration and place in `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/autoconfig/sdl2/`
+    * [Nintendo_N64_Controller.cfg](../../configuration-files/Nintendo_N64_Controller.cfg)
+4. Forget / Reconnect controller Bluetooth every time you connect the controller
 
 ***
 

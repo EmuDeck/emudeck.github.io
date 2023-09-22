@@ -277,6 +277,7 @@ At this time, the Steam Deck gyro **cannot** be used. But if you own one of thes
 4. Select your controller tab at the top
 5. Click `Reorder Controllers` and move your external controller to the top
 6. Click the `Gear` icon to the right, and click `Disable Steam Input`
+    * You may need to restart first for this setting to properly apply
 7. Your controller's gyro will now work for this selected game, repeat as needed for your other games
 
 For a video, see below:

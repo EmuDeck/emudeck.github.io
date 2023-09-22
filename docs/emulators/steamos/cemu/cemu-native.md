@@ -426,6 +426,7 @@ Some external controllers, including the Sony DualSense and the Nintendo Switch 
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
 5. Click the `Gear` icon to the right, and click `Disable Steam Input`
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
+    * You may need to restart first for this setting to properly apply
 6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
 
 #### Post-Configuration
