@@ -15,6 +15,7 @@
     - [How to Re-Arrange the Controller Order](#how-to-re-arrange-the-controller-order)
     - [Cemu Native: How to Configure Gyro With External Controllers](../../emulators/steamos/cemu/cemu-native.md#how-to-configure-gyro-with-external-controllers)
     - [RPCS3: How to Set up the Motion Sensor with External Controllers](../../emulators/steamos/rpcs3.md#how-to-set-up-the-motion-sensor-with-external-controllers)
+    - [Ryujinx: How to Configure Gyro With External Controllers](../../emulators/steamos/ryujinx.md#how-to-configure-gyro-with-external-controllers)
     - [Yuzu: How to Configure Gyro With External Controllers](../../emulators/steamos/yuzu.md#how-to-configure-gyro-with-external-controllers)
 
 4. [Controller Compatibility](#controller-compatibility)

@@ -534,7 +534,7 @@ EmuDeck 2.1 added an option to enable Yuzu (Early Access).
 #### Game Mode
 
 1. In Game Mode, connect your controller
-2. Select your Wii U game 
+2. Select your Nintendo Switch game 
 3. On the `Play` screen, select the `Controller` icon to the right of the screen 
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
 4. Select your controller tab at the top
