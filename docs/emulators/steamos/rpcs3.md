@@ -26,7 +26,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
 2. [RPCS3 Tips and Tricks](#rpcs3-tips-and-tricks)
     - [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
     - [Special Game Configurations](#special-game-configurations)
-    - [How to Set up the Motion Sensor with External Controllers](#how-to-set-up-the-motion-sensor-with-external-controllers)
+    - [How to Set Up the Motion Sensor with External Controllers](#how-to-set-up-the-motion-sensor-with-external-controllers)
 
 ***
 
