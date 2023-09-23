@@ -22,6 +22,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
 
 2. [Dolphin Tips and Tricks](#dolphin-tips-and-tricks)
     - [How to Configure Gyro](#how-to-configure-gyro)
+    - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
     - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
@@ -323,6 +324,62 @@ If you are choosing to create your own profile:
 
 For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
 
+
+***
+
+### How to Configure Gyro With External Controllers
+[Back to the Top](#dolphin-table-of-contents)
+
+#### Desktop Mode
+
+1. In Desktop Mode, exit out of Steam
+    * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
+    * You may also connect an external keyboard and mouse
+2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
+3. Open Dolphin
+4. Open the `Controllers` menu
+5. Select `Configure` to the right of `Wii Remote 1`
+    * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
+6. Under `Device`, select your external controller
+7. Remap your controls
+    * Since you are not using Steam Input, you will need to remap all of your controls for your controller
+8. Select the `Motion Input` tab
+9. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `L2`
+10. Make sure your controller is selected in the drop-down menu at the top
+11. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
+12. Select the matching input to the button you clicked in Step 7
+13. Press `Clear` in the bottom right
+14. Press `Select` in the top right
+15. Press `OK` in the bottom right
+16. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
+17. After you are finished, give your profile a name in the top right and save it as a new profile
+18. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
+
+#### Game Mode
+
+1. In Game Mode, connect your controller
+2. Select your Wii game 
+3. On the `Play` screen, select the `Controller` icon to the right of the screen 
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+4. Select your controller tab at the top
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+5. Click the `Gear` icon to the right, and click `Disable Steam Input`
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
+    * You may need to restart first for this setting to properly apply
+6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
+
+#### Post-Configuration
+
+To restore the default Steam Deck controls:
+
+1. Open Dolphin
+2. Open the `Controllers` menu
+3. Select `Configure` to the right of `Wii Remote 1`
+    * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
+4. Select `evdev/0/Microsoft X-Box 360 Pad 0` under `Devices`
+5. Select `Wii_base_nunchuck` under `Profile` and click `Load`
+6. Click `Close` and exit out of Dolphin
 
 ***
 

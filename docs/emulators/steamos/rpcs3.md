@@ -288,4 +288,14 @@ For a video, see below:
   </video>
 </figure>
 
+#### Post-Configuration
+
+To restore the default Steam Deck controls:
+
+1. Open RPCS3
+2. Click `Pads` at the top
+3. Under the `Player 1` tab, click the Dropdown box below `Devices` and select `Steam Virtual Gamepad 1`
+4. Select `SDL` under `Handlers`
+5. Click `Save`, and exit out of RPCS3
+
 ***
