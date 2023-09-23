@@ -390,11 +390,12 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 7. Click `Controls` on the left
 8. Under `Input Device`, select your external controller
 9. Under `Motion 1` at the bottom, click `[Not Set]` or `sdl` and shake your controller
-10. Exit out of Yuzu
-11. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
+10. (Optional), you may also choose to save your layout as a unique profile. With this profile, you can choose to apply it on a per-game basis
+11. Exit out of Yuzu
+12. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
     * You may also find this menu by opening `System Settings` and clicking `Display and Monitor`
-12. Click the `90 Counterclockwise` configuration under `Orientation`
-13. Switch to `Game Mode`
+13. Click the `90 Counterclockwise` configuration under `Orientation`
+14. Switch to `Game Mode`
 
 #### Game Mode
 

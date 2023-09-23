@@ -22,6 +22,7 @@ Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
     - [Why did my game suddenly stop working?](#why-did-my-game-suddenly-stop-working)
 3. [Citra Tips and Tricks](#citra-tips-and-tricks)
     - [How to Configure Gyro](#how-to-configure-gyro)
+    - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Use Cheats](#how-to-use-cheats)
@@ -217,6 +218,53 @@ To clear the shader cache:
 Gyro for Citra requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
 Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
+
+***
+
+### How to Configure Gyro With External Controllers
+[Back to the Top](#citra-table-of-contents)
+
+#### Desktop Mode
+
+1. In Desktop Mode, exit out of Steam
+    * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
+    * You may also connect an external keyboard and mouse
+2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
+3. Open Citra
+4. Click `Emulation` at the top, click `Configure`
+5. Click `Controls` on the left
+6. Click `New` to the right of `Profile` and give it a unique name
+7. Click `Motion / Touch..` in the bottom left
+8. To the right of `Motion Provider`, select `SDL` in the drop-down menu
+9. Click `Configure` and follow the instructions
+10. Click `OK`
+11. Click `OK` again and exit out of Citra
+12. Switch to `Game Mode`
+
+#### Game Mode
+
+1. In Game Mode, connect your controller
+2. Select your Nintendo 3DS game 
+3. On the `Play` screen, select the `Controller` icon to the right of the screen 
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+4. Select your controller tab at the top
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+5. Click the `Gear` icon to the right, and click `Disable Steam Input`
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
+    * You may need to restart first for this setting to properly apply
+6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
+
+#### Post-Configuration
+
+To restore the default Steam Deck controls:
+
+1. Open Citra
+2. Click `Emulation` at the top, click `Configure`
+3. Click `Controls` on the left
+4. To the right of `Profile`, select `SD-Default` in the drop-down menu
+5. Click `OK` and exit out of Citra
+
 
 ***
 
