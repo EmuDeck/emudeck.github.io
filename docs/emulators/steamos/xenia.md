@@ -414,7 +414,7 @@ You may need to re-arrange the controller order in Game Mode for your controller
 
 Xenia, through Proton/Wine, is currently in an experimental state. Updates may break or affect the emulator in unexpected ways. If an update does break certain games launching from Xenia, it is easy to swap out the build for an older one so you can continue playing.
 
-Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (released April 2nd, 2023) has the highest compatibility. This section will go over how to swap out the latest build of Xenia Canary for `e9d1e51_canary_experimental`. However, you can take what is written here and apply it to future builds of Xenia Canary as well.
+Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (released April 2nd, 2023) has the highest compatibility with **Vulkan**. D3D12 works on the latest versions of Xenia Canary. This section will go over how to swap out the latest build of Xenia Canary for `e9d1e51_canary_experimental`. However, you can take what is written here and apply it to future builds of Xenia Canary as well.
 
 **Tutorial**
 
@@ -527,7 +527,9 @@ The `DA78E477AA5E31A7D01AE8F84109FD4BF89E49E8` file is the game file used to lau
 
 To make this format easier to use with both Steam ROM Manager and EmulationStation-DE, rename the game file to match the game name. Using Banjo Kazooie as an example, rename `DA78E477AA5E31A7D01AE8F84109FD4BF89E49E8` to `Banjo Kazooie`. 
 
-Move the newly renamed `Banjo Kazooie` file to `Emulation/roms/xbox360/roms/xbla`. Use the respective parser in Steam ROM Manager or EmulationStation-DE to play your game. You **do not** need any of the additional folders included with the original ROM. You may delete these folders.  
+Move the newly renamed `Banjo Kazooie` file to `Emulation/roms/xbox360/roms/xbla`. **Note the second roms folder.** 
+
+Use the `Microsoft Xbox 360 - Xenia - XBLA` parser in Steam ROM Manager or EmulationStation-DE to play your game. You **do not** need any of the additional folders included with the original ROM. You may delete these folders.  
 
 #### Xenia Configuration
 
