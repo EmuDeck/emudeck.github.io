@@ -35,6 +35,7 @@ Quickstart Guide (Skip the HDD requirement, it is pre-included with EmuDeck): [h
         - [Method 4: extract-iso (Linux)](#method-4-extract-iso-linux)
         - [Method 5: extract-iso (Mac)](#method-5-extract-iso-mac)
         - [Method 6: dd](#method-6-dd-linux)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Apply Zink](#how-to-apply-zink)
         - [How to Apply Zink to Steam ROM Manager Shortcuts](#how-to-apply-zink-to-steam-rom-manager-shortcuts)
         - [How to Apply Zink to EmulationStation-DE Games](#how-to-apply-zink-to-emulationstation-de-games)
@@ -296,6 +297,24 @@ Note: Cannot be *built* on the Steam Deck, but can be built elsewhere and copied
 **Note:** May not work on Steam Deck, needs testing.
 
 Refer to Xemu's wiki for instructions, [https://xemu.app/docs/disc-images/#about-redump-isos](https://xemu.app/docs/disc-images/#about-redump-isos. )
+
+***
+
+### How to Configure Multiplayer
+[Back to the Top](#xemu-table-of-contents)
+
+Xemu comes with a nifty auto-map feature that makes setting up multiplayer a breeze. To set up multiplayer, you simply need to enable the additional ports.
+
+1. Open Xemu
+2. Open the `Input` settings
+3. For each controller you are using for Player 2, 3, and 4, click the respective tab
+    * You do not need to adjust any settings for Player 1
+4. In the drop-down menu
+    * Player 2: `Steam Virtual Gamepad 2`      
+    * Player 3: `Steam Virtual Gamepad 3`      
+    * Player 4: `Steam Virtual Gamepad 4`
+5. After you are finished enabling any additional players, exit out of Xemu and you may open your game either directly as a shortcut in Steam or through EmulationStation-DE    
+6. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
 
 ***
 

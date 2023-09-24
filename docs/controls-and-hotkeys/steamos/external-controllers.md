@@ -28,10 +28,20 @@
     - [Nintendo Switch Online: Nintendo 64 Controller](#nintendo-switch-online-nintendo-64-controller)
 
 5. [Multiplayer](#multiplayer)
-    - [Generic: How to Configure Multiplayer](#generic-how-to-configure-multiplayer)
     - [Cemu Native: How to Configure Multiplayer](../../emulators/steamos/cemu/cemu-native.md#how-to-configure-multiplayer)
     - [Cemu Proton: How to Configure Multiplayer](../../emulators/steamos/cemu/cemu-proton.md#how-to-configure-multiplayer)
     - [Dolphin: How to Configure Multiplayer](../../emulators/steamos/dolphin.md#how-to-configure-multiplayer)
+    - [DuckStation: How to Configure Multiplayer](../../emulators/steamos/duckstation.md#how-to-configure-multiplayer)
+    - [MAME: How to Configure Multiplayer](../../emulators/steamos/mame.md#how-to-configure-multiplayer)
+    - [melonDS: How to Configure Multiplayer](../../emulators/steamos/melonds.md#how-to-configure-multiplayer)
+    - [mGBA: How to Configure Multiplayer](../../emulators/steamos/mgba.md#how-to-configure-multiplayer)
+    - [PCSX2: How to Configure Multiplayer](../../emulators/steamos/pcsx2.md#how-to-configure-multiplayer)
+    - [RetroArch: How to Configure Multiplayer](../../emulators/steamos/retroarch.md#how-to-configure-multiplayer)
+    - [Rosalie's Mupen GUI: How to Configure Multiplayer](../../emulators/steamos/rmg.md#how-to-configure-multiplayer)
+    - [RPCS3: How to Configure Multiplayer](../../emulators/steamos/rpcs3.md#how-to-configure-multiplayer)
+    - [Ryujinx: How to Configure Multiplayer](../../emulators/steamos/ryujinx.md#how-to-configure-multiplayer)
+    - [Xemu: How to Configure Multiplayer](../../emulators/steamos/xemu.md#how-to-configure-multiplayer)
+    - [Xenia: How to Configure Multiplayer](../../emulators/steamos/xenia.md#how-to-configure-multiplayer)
     - [Yuzu: How to Configure Multiplayer](../../emulators/steamos/yuzu.md#how-to-configure-multiplayer)
 
 
@@ -187,13 +197,5 @@ Link: [https://www.nintendo.com/store/products/nintendo-64-controller/](https://
 
 ## Multiplayer
 [Back to the Top](#external-controllers-table-of-contents)
-
-***
-
-### Generic: How to Configure Multiplayer
-[Back to the Top](#external-controllers-table-of-contents)
-
-Some emulators may support external controllers out of the box. Connect your controllers using bluetooth, and multiplayer should work right away.
-
 
 ***

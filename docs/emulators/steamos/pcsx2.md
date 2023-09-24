@@ -30,6 +30,7 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Verify ROMs](#how-to-verify-roms)
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
     - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Switch to Folder Memory Cards](#how-to-switch-to-folder-memory-cards)
     - [How to use Cheats](#how-to-use-cheats)
@@ -280,6 +281,16 @@ The `EmuDeck Compressor` will compress your Playstation 2 ROMs from ISO or BIN/C
 After running the `EmuDeck Compression Tool`, re-run Steam ROM Manager to update your ROM shortcuts to the newly compressed ROM. 
 
 **Visual Reference:** <img src="https://user-images.githubusercontent.com/108900299/198798630-9cf85bc5-ff42-45c4-bceb-7fc4ac740c3c.png" height="300">
+
+***
+
+### How to Configure Multiplayer
+[Back to the Top](#pcsx2-qt-table-of-contents) 
+
+Multiplayer for PCSX2 is configured out of the box, no additional configuration is needed. 
+
+You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information.
+
 
 ***
 

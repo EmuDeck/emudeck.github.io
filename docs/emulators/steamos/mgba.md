@@ -25,9 +25,11 @@ Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
     - [Special Characters](#special-characters)
 
 3. [mGBA Tips and Tricks](#mgba-tips-and-tricks)
+    - [c](#how-to-configure-multiplayer)
     - [How to Use the Gyro Sensor](#how-to-use-the-gyro-sensor)
     - [How to Use the Tilt Sensor](#how-to-use-the-tilt-sensor)
     - [How to Use Cheats](#how-to-use-cheats)
+
 
 
 
@@ -189,6 +191,22 @@ If you used Steam ROM Manager previously, re-run Steam ROM Manager after renamin
 ## mGBA Tips and Tricks
 [Back to the Top](#mgba-table-of-contents)
 
+***
+
+### How to Configure Multiplayer
+[Back to the Top](#mgba-table-of-contents)
+
+This section is strictly referring to local multiplayer. mGBA multiplayer on the Steam Deck can only be done in Desktop Mode.
+
+1. In Desktop Mode, open mGBA
+2. Click `File`, click `New multiplayer window`
+3. On each window of mGBA, click `Tools`, `Settings`
+4. Select `Controllers` on the left and select your controller in the drop-down menu
+    * Steam Deck/Player 1: `Microsoft X-Box 360 pad 0`
+    * Player 2: `Microsoft X-Box 360 pad 1`
+    * Player 3: `Microsoft X-Box 360 pad 2`
+    * Player 4: `Microsoft X-Box 360 pad 3`
+5. Open the game in each mGBA window and you will be able to play multiplayer
 
 
 ***

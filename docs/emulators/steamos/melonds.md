@@ -1,6 +1,6 @@
 # melonDS is a Nintendo DS emulator.
 
-Website: [https://melonds.kuribo64.net/](https://github.com/mgba-emu/mgba)
+Website: [https://melonds.kuribo64.net/](https://melonds.kuribo64.net/)
 
 melonDS' FAQ: [https://melonds.kuribo64.net/faq.php](https://melonds.kuribo64.net/faq.php)
 
@@ -24,6 +24,7 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
     - [Hotkeys](#melonds-hotkeys)
 
 2. [melonDS Tips and Tricks](#melonds-tips-and-tricks)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Set up DSIWare](#how-to-set-up-dsiware)
     - [How to Play Nintendo DS Games in Book Mode](#how-to-play-nintendo-ds-games-in-book-mode)
@@ -152,6 +153,25 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 
 ## melonDS Tips and Tricks
 [Back to the Top](#melonds-table-of-contents)
+
+***
+
+### How to Configure Multiplayer
+[Back to the Top](#melonds-table-of-contents)
+
+This section is strictly referring to local multiplayer. melonDS multiplayer on the Steam Deck can only be done in Desktop Mode.
+
+1. In Desktop Mode, open melonDS
+2. Click `System`, click `Multiplayer`, `Launch new instance`
+3. On each window of melonDS, click `Config`, `Input and hotkeys`
+4. In the drop-down menu to the right of `Joystick`, select your controller
+    * Steam Deck/Player 1: `Microsoft X-Box 360 pad 0`
+    * Player 2: `Microsoft X-Box 360 pad 1`
+    * Player 3: `Microsoft X-Box 360 pad 2`
+    * Player 4: `Microsoft X-Box 360 pad 3`
+5. Open the game in each melonDS window and you will be able to play multiplayer
+
+You can determine which melonDS window corresponds to what player by looking at the menu bar at the top. Each new melonDS window will have a corresponding `(#)`.
 
 ***
 

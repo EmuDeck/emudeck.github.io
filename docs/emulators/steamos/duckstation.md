@@ -23,6 +23,8 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5R
       - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)
       - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
       - [How to Use Cheats](#how-to-use-cheats)
+      - [How to Configure Multiplayer](#how-to-configure-multiplayer)
+
 
 
 ***
@@ -223,5 +225,15 @@ M3U files can be used to manage multiple discs for DuckStation. When the time co
     * Steam Input profiles for PlayStation 1 ROMs and EmulationStation-DE are enabled by default. However, if you do not see the Trackpad menu, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Click `Cheat List`
 3. Select which cheats you would like to use
+
+***
+
+### How to Configure Multiplayer
+[Back to the Top](#duckstation-table-of-contents)
+
+Multiplayer for DuckStation is configured out of the box, no additional configuration is needed. 
+
+You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information.
+
 
 ***

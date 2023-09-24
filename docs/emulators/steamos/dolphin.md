@@ -416,7 +416,7 @@ M3U files can be used to manage multiple discs for Dolphin. With the `Change Dis
 ### How to Configure Multiplayer
 [Back to the Top](#dolphin-table-of-contents)
 
-EmuDeck configures multiplayer out of the box. You do not need to configure the controls. However, to properly setup multiplayer, you will need to enable the additional ports.
+EmuDeck configures multiplayer out of the box. You do not need to configure the controls. However, to properly set up multiplayer, you will need to enable the additional ports.
 
 **Tutorial**
 

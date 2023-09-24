@@ -25,6 +25,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
 
 2. [RPCS3 Tips and Tricks](#rpcs3-tips-and-tricks)
     - [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [Special Game Configurations](#special-game-configurations)
     - [How to Set Up the Motion Sensor with External Controllers](#how-to-set-up-the-motion-sensor-with-external-controllers)
 
@@ -235,6 +236,30 @@ You may also do this on a per-game basis if you are using a mix of folders and P
 
 Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3), for additional information. 
 
+
+***
+
+### How to Configure Multiplayer
+[Back to the Top](#rpcs3-table-of-contents)
+
+RPCS3 comes with a nifty auto-map feature that makes setting up multiplayer a breeze. To set up multiplayer, you simply need to enable the additional ports.
+
+1. Open RPCS3
+2. Open the `Pads` menu in the `Settings`
+3. For each controller you are using for Player 2, 3, 4, etc, click the respective tab
+    * You do not need to adjust any settings for Player 1
+4. Under `Handlers`, select `SDL` for each player you are enabling
+5. Under `Devices`
+    * Player 2: `Steam Virtual Gamepad 2`      
+    * Player 3: `Steam Virtual Gamepad 3`      
+    * Player 4: `Steam Virtual Gamepad 4`
+    * Player 5: `Steam Virtual Gamepad 5`
+    * Player 6: `Steam Virtual Gamepad 6`
+    * Player 7: `Steam Virtual Gamepad 7`
+6. Using `Player 2` as an example:
+    * On the `Player 2` configuration screen, after you have selected the appropriate `Device` and `Handler`, click `Refresh` to the right of `Handler`
+7. After you are finished enabling any additional players, click `Save` and you may open your game either directly as a shortcut in Steam or through EmulationStation-DE    
+8. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
 
 ***
 

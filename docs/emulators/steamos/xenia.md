@@ -34,6 +34,7 @@ We HIGHLY suggest looking to see if a game you wish to emulate has a native PC v
 
 3. [Xenia Tips and Tricks](#xenia-tips-and-tricks)
     - [Troubleshooting Tips](#troubleshooting-tips)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Swap Out Xenia Builds](#how-to-swap-out-xenia-builds)
     - [How to Swap Between Vulkan and DX12](#how-to-swap-between-vulkan-and-dx12)
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
@@ -396,6 +397,15 @@ However, do keep in mind that neither of the above solutions is guaranteed to fi
 * If you are noticing game specific issues, search for your game on Xenia's game compatibility database, [https://github.com/xenia-project/game-compatibility/issues](https://github.com/xenia-project/game-compatibility/issues) and see if users have suggested any solutions
     * If you need to make any edits to the configuration file, open `xenia-canary.config.toml` in `Emulation/roms/xbox360`
 * If you are playing Xbox Live Arcade Games, make sure to read [How to Set Up Xbox Live Arcade Games](#how-to-set-up-xbox-live-arcade-games)
+
+***
+
+### How to Configure Multiplayer
+[Back to the Top](#xenia-table-of-contents)
+
+Multiplayer for Xenia is configured out of the box, no additional configuration is needed. 
+
+You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information.
 
 ***
 

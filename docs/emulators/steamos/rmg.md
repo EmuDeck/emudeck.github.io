@@ -17,6 +17,7 @@ Github: [https://github.com/Rosalie241/RMG](https://github.com/Rosalie241/RMG)
     - [Hotkeys](#rmg-hotkeys)
 
 2. [RMG Tips and Tricks](#rmg-tips-and-tricks)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Configure VRU](#how-to-configure-vru)
     - [How to Configure N64DD](#how-to-configure-n64dd)
@@ -171,6 +172,31 @@ RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profi
 
 ## RMG Tips and Tricks
 [Back to the Top](#rmg-table-of-contents)
+
+***
+
+### How to Configure Multiplayer
+[Back to the Top](#rmg-table-of-contents)
+
+EmuDeck configures multiplayer out of the box. You do not need to configure the controls. To set up multiplayer, you simply need to enable the additional ports.
+
+**Tutorial**
+
+1. Open Rosalie's Mupen GUI
+2. Open the `Input` settings
+3. For each controller you are using for Player 2, 3, and 4, click the respective tab
+    * You do not need to adjust any settings for Player 1
+4. Under `Input Device`
+    * Player 2: `Steam Virtual Gamepad 1`      
+    * Player 3: `Steam Virtual Gamepad 2`      
+    * Player 4: `Steam Virtual Gamepad 3`
+5. Under `Profile`
+    * Player 2: `steamdeck2`      
+    * Player 3: `steamdeck3`      
+    * Player 4: `steamdeck4`  
+6. After you are finished enabling any additional players, click `OK` and you may open your game either directly as a shortcut in Steam or through EmulationStation-DE    
+7. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
+
 
 ***
 

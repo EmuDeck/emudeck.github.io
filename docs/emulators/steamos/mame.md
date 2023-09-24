@@ -27,6 +27,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
 
 2. [MAME Tips and Tricks](#mame-tips-and-tricks)
       - [Maintaining ROM Versions](#maintaining-rom-versions)
+      - [How to Configure Multiplayer](#how-to-configure-multiplayer)
       - [How to Determine if a ROM Requires BIOS](#how-to-determine-if-a-rom-requires-bios)
       - [How to Determine if a ROM Requires a CHD File](#how-to-determine-if-a-rom-requires-a-chd-file)
       - [How to Configure Controls on a Per Game Basis](#how-to-configure-controls-on-a-per-game-basis)
@@ -182,6 +183,15 @@ Reference image: <img src="https://user-images.githubusercontent.com/108900299/2
 **Note:** Refer to [https://docs.mamedev.org/usingmame/aboutromsets.html](https://docs.mamedev.org/usingmame/aboutromsets.html), for additional information. 
 
 ***
+
+### How to Configure Multiplayer
+
+Multiplayer for MAME is configured out of the box, no additional configuration is needed. 
+
+You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information.
+
+***
+
 
 ### How to Determine if a ROM Requires BIOS
 

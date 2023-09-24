@@ -27,6 +27,7 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
 3. [RetroArch Tips and Tricks](#retroarch-tips-and-tricks)
     - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)   
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Change Shaders](#how-to-change-shaders)
         - [How to Download/Update Shaders](#how-to-downloadupdate-shaders)
         - [How to apply shaders if shaders are already applied](#how-to-apply-shaders-if-shaders-are-already-applied)
@@ -505,6 +506,15 @@ When the time comes to switch discs:
 
 1. Press L3 and R3 together
 2. Select manage discs
+
+***
+
+### How to Configure Multiplayer
+[Back to the Top](#retroarch-table-of-contents)
+
+Multiplayer for RetroArch is configured out of the box, no additional configuration is needed. 
+
+You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information.
 
 ***
 

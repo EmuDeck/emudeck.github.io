@@ -27,6 +27,7 @@ Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Confi
     - [How to Configure Gyro](#how-to-configure-gyro)
     - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Install Mods](#how-to-install-mods)
     - [Special Characters](#special-characters)
 
@@ -282,6 +283,30 @@ To restore the default Steam Deck controls:
 [Back to the Top](#ryujinx-table-of-contents)
 
 Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
+
+***
+
+### How to Configure Multiplayer
+[Back to the Top](#ryujinx-table-of-contents)
+
+Ryujinx comes with a nifty auto-map feature that makes setting up multiplayer a breeze. To set up multiplayer, you simply need to enable the additional ports.
+
+1. Open Ryujinx
+2. Open the `Input` settings in the `Settings` menu
+3. For each controller you are using for Player 2, 3, 4, etc, click the respective `Configure` button
+    * You do not need to adjust any settings for Player 1
+4. Under `Input Device`
+    * Player 2: `Steam Virtual Gamepad 1`      
+    * Player 3: `Steam Virtual Gamepad 2`      
+    * Player 4: `Steam Virtual Gamepad 3`
+    * Player 5: `Steam Virtual Gamepad 4`
+    * Player 6: `Steam Virtual Gamepad 5`
+    * Player 7: `Steam Virtual Gamepad 6`
+    * Player 8: `Steam Virtual Gamepad 7`
+5. Using `Player 2` as an example:
+    * On the `Player 2` configuration screen, after you have selected the appropriate `Input Device`, select your preferred `Controller Type` and click `Load` to the right of `Profile`
+6. After you are finished enabling any additional players, click `Save` and you may open your game either directly as a shortcut in Steam or through EmulationStation-DE    
+7. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
 
 ***
 
