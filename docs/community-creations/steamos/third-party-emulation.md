@@ -264,47 +264,27 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 
 Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs/perfect_dark)
 
-**Note:** This section covers how to build Perfect Dark. The GitHub repository does provide a pre-built binary of Perfect Dark, but it does not work out of the box on the Steam Deck. The pre-built binary provided on the GitHub _may_ work with some additional tinkering, but this section will specifically focus on building it instead. 
-
-#### Installing Prerequisites
-
-1. [Set up a Distrobox](#how-to-set-up-distrobox)
-2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
-3. Enter the following, one line at a time:
-    * `sudo dpkg --add-architecture i386`
-    * `sudo apt-get update`
-4. Enter the following: 
-    * `sudo apt-get install git gcc g++ gcc-multilib g++-multilib make libsdl2-dev zlib1g-dev libsdl2-dev:i386 zlib1g-dev:i386`
-
 #### Setting Up Perfect Dark
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
-1. In `/home/deck/Applications`, create a `Distrobox` folder
-2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
-    * `git clone https://github.com/fgsfdsfgs/perfect_dark.git`
-3. A `perfect_dark` folder will be created
-
-#### Building Perfect Dark
-
-1. In `/home/deck/Applications/Distrobox/perfect_dark`, right click anywhere in the folder, click `Open Terminal Here`, enter:
-    * `distrobox enter ubuntu`
-2. Enter: 
-    * `make -f Makefile.port TARGET_PLATFORM=i686-linux -j2`
-3. Wait for it to finish building
-4. In `/home/deck/Applications/Distrobox/perfect_dark`, create a `bin` folder
-5. In `/home/deck/Applications/Distrobox/perfect_dark/bin`, create a `data` folder
-6. Move `pd.exe` from `/home/deck/Applications/Distrobox/perfect_dark/build/ntsc-final-port` to `/home/deck/Applications/Distrobox/perfect_dark/bin`
-7. Rename `pd.exe` to `pd`
-8. Place your `Perfect Dark` ROM in `/home/deck/Applications/Distrobox/perfect_dark/bin/data`
+1. Download the `i686-linux` version from [https://github.com/fgsfdsfgs/perfect_dark#download](https://github.com/fgsfdsfgs/perfect_dark#download) to your `Downloads` folder
+2. Right click `pd-i686-linux.zip`, click `Extract archive here, autodetect subfolder`
+3. Move the newly extracted `pd-i686-linux` folder to `/home/deck/Applications`
+4. Place your `Perfect Dark` ROM in `/home/deck/Applications/pd-i686-linux/data`
     * MD5 Hash: `e03b088b6ac9e0080440efed07c1e40f`
-    * To locate your MD5 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `MD5` and compare it to the above hash. If it is a match, you have a valid ROM. 
-9. Rename the Perfect Dark ROM to `pd.ntsc-final.z64`
-10. To play Perfect Dark, open `pd` in `/home/deck/Applications/Distrobox/perfect_dark/bin/`
+    * To locate your MD5 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `MD5` and compare it to the above hash. If it is a match, you have a valid ROM 5
+5. Right click `pd`, click `Add to Steam`
+    * After adding it to `Steam`, you may rename the shortcut
+6. In Desktop Mode still, open `Steam`, and locate your newly added `Perfect Dark` shortcut
+7. Click the `Gear` icon, click `Properties`, `Compatibility`
+8. Check `Force the use of a Steam Play compatibility tool`
+9. Select `Steam Linux Runtime 1.0 (scout)` 
+10. To play `Perfect Dark`, open it through Steam
 
 #### How to Configure Perfect Dark
 
-1. Open `pd` in `/home/deck/Applications/Distrobox/perfect_dark/bin/` at least once so it can generate the configuration file 
+1. Open `Perfect Dark` through Steam at least once so it can generate the configuration file 
 2. Open the `/home/deck/.local/share/perfectdark` folder
     * `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 3. Right click `pd.ini`, click `Open with Kate` or a text editor of your choice
@@ -1177,7 +1157,6 @@ This section will use a simple script file to launch the various decompilations 
 **For the following games:**
 
 - [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
-- [Perfect Dark](#perfect-dark)
 - [sm64ex](#sm64ex)
 - [sm64ex-coop](#sm64ex-coop)
 - [Sonic CD](#sonic-cd)
@@ -1373,7 +1352,6 @@ This section will use a simple script file to launch the various decompilations 
 This section specifically applies to: 
 
 - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
-- [Perfect Dark](#perfect-dark)
 - [Render96ex](#render96ex)
 - [Super Mario 64 Plus](#super-mario-64-plus)
 - [sm64ex](#sm64ex)
