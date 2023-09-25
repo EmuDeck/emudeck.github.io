@@ -264,6 +264,8 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 
 Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs/perfect_dark)
 
+**Note:** This section covers how to build Perfect Dark. The GitHub repository does provide a pre-built binary of Perfect Dark, but it does not work out of the box on the Steam Deck. The pre-built binary provided on the GitHub _may_ work with some additional tinkering, but this section will specifically focus on building it instead. 
+
 #### Installing Prerequisites
 
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
@@ -299,6 +301,20 @@ Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs
     * To locate your MD5 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `MD5` and compare it to the above hash. If it is a match, you have a valid ROM. 
 9. Rename the Perfect Dark ROM to `pd.ntsc-final.z64`
 10. To play Perfect Dark, open `pd` in `/home/deck/Applications/Distrobox/perfect_dark/bin/`
+
+#### How to Configure Perfect Dark
+
+1. Open `pd` in `/home/deck/Applications/Distrobox/perfect_dark/bin/` at least once so it can generate the configuration file 
+2. Open the `/home/deck/.local/share/perfectdark` folder
+    * `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+3. Right click `pd.ini`, click `Open with Kate` or a text editor of your choice
+4. Customize settings
+
+**Recommended Settings**
+
+* Set `DefaultWidth` to `800`
+* Set `DefaultHeight` to `1200`
+* Set `DefaultFullscreen` to `1`
 
 #### Controls
 
