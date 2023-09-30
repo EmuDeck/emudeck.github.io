@@ -446,7 +446,7 @@ EmuDeck configures multiplayer out of the box. You do not need to configure the 
 
 **IMPORTANT:** Multiplayer controllers are fully configured by EmuDeck. If you simply would like to set up multiplayer, see [How to Configure Multiplayer](#how-to-configure-multiplayer). You **do not** need this section if you are satisfied with the default control layout. This section covers how to reconfigure the controls for Players 2-4 if you would rather use a custom configuration. 
 
-#### Tutorial
+#### How to Create Multiplayer Profiles
 
 1. In Game Mode, connect your controller(s)
 2. In Game Mode, open the Dolphin emulator
@@ -469,7 +469,7 @@ If you would rather save these settings for a specific game:
 
 **Here's How**
 
-#### Applying the Profile
+#### How to Apply Multiplayer Profiles On A Per Game Basis
 
 1. In Desktop Mode, Open the Dolphin emulator
 2. Right click the game you would like to use this controller profile for, and click `Properties`
@@ -481,18 +481,18 @@ If you would rather save these settings for a specific game:
         **Wii:**
 
             [Controls] 
-            WiimoteProfile0 = SelectedProfileName
             WiimoteProfile1 = SelectedProfileName
             WiimoteProfile2 = SelectedProfileName
             WiimoteProfile3 = SelectedProfileName
+            WiimoteProfile4 = SelectedProfileName
 
         **GameCube:**
 
             [Controls] 
-            PadProfile0 = SelectedProfileName
             PadProfile1 = SelectedProfileName
             PadProfile2 = SelectedProfileName
             PadProfile3 = SelectedProfileName
+            PadProfile4 = SelectedProfileName
 
 5. Exit out, and your game should now be using the selected profile(s)
 
@@ -586,9 +586,9 @@ While in game, you can use the following hotkeys to cycle through profiles:
 ### How to Set Dolphin Controller Profiles On a Per-Game Basis
 [Back to the Top](#dolphin-table-of-contents)
 
-#### Selecting a Profile
+#### How to Select or Create a Profile
 
-Skip to [Applying the Profile](#applying-the-profile) if you already have a profile in mind. 
+Skip to [How to Apply Profiles on a Per Game Basis](#how-to-apply-profiles-on-a-per-game-basis) if you already have a profile in mind. 
 
 Select a controller profile (use one of the following methods): 
 
@@ -611,7 +611,7 @@ Select a controller profile (use one of the following methods):
         * GameCube Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
         * Wii Profiles: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
 
-#### Applying the Profile
+#### How to Apply Profiles on a Per Game Basis
 
 1. Open the Dolphin emulator
 2. Right click the game you would like to use this controller profile for, and click `Properties`
@@ -632,6 +632,38 @@ Select a controller profile (use one of the following methods):
         **Example (using `EXAMPLE` profile):** <img src="https://user-images.githubusercontent.com/108900299/196016424-9ae19f25-3366-4963-bb30-4b3148718961.png" height="300">
 
 5. Exit out, and your game should now be using the selected profile
+
+If you are using one of EmuDeck's included profiles, here are a few examples:
+
+#### Examples of Per Game Wii Profiles
+
+If you would like a game to use the Wii Classic Controller:
+
+```
+[Controls] 
+WiimoteProfile1 = Wii_classic_controller
+```
+
+If you would like a game to use a Wiimote with no attachment:
+
+```
+[Controls] 
+WiimoteProfile1 = Wii_no_attachment
+```
+
+If you would like to use a Wiimote with a Nunchuck while using the right trackpad as a pointer:
+
+```
+[Controls] 
+WiimoteProfile1 = Wii_base_nunchuck_with_touchpad
+```
+
+#### Examples of Per Game GameCube Profiles
+
+```
+[Controls] 
+PadProfile1 = GC_base
+```
 
 For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki Page](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)).
 
