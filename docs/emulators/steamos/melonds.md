@@ -18,7 +18,7 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
 1. [Getting Started with melonDS](#getting-started-with-melonds)
     - [Configuration](#melonds-configuration)
     - [melonDS Folder Locations](#melonds-folder-locations)
-    - [How to Download melonDS (Standalone)](#how-to-download-xenia)
+    - [How to Download melonDS (Standalone)](#how-to-download-melonds-standalone)
     - [How to Update melonDS](#how-to-update-melonds)
     - [How to Launch melonDS in Desktop Mode](#how-to-launch-melonds-in-desktop-mode)
     - [File Formats](#melonds-file-formats)
