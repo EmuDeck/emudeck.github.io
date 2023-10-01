@@ -95,6 +95,7 @@ net.kuribo64.melonDS
 ***
 
 ### How to Download melonDS (Standalone)
+[Back to the Top](#melonds-table-of-contents)
 
 1. In Desktop Mode, open the EmuDeck application
 2. Click the `Manage Emulators` button

@@ -107,6 +107,7 @@ mgba
 ***
 
 ### How to Download mGBA (Standalone)
+[Back to the Top](#mgba-table-of-contents)
 
 1. In Desktop Mode, open the EmuDeck application
 2. Click the `Manage Emulators` button
