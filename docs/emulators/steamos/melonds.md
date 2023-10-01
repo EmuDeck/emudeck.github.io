@@ -18,6 +18,7 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
 1. [Getting Started with melonDS](#getting-started-with-melonds)
     - [Configuration](#melonds-configuration)
     - [melonDS Folder Locations](#melonds-folder-locations)
+    - [How to Download melonDS (Standalone)](#how-to-download-xenia)
     - [How to Update melonDS](#how-to-update-melonds)
     - [How to Launch melonDS in Desktop Mode](#how-to-launch-melonds-in-desktop-mode)
     - [File Formats](#melonds-file-formats)
@@ -90,6 +91,27 @@ net.kuribo64.melonDS
     ├── user-places.xbel.bak
     └── user-places.xbel.tbcache
 ```
+
+***
+
+### How to Download melonDS (Standalone)
+
+1. In Desktop Mode, open the EmuDeck application
+2. Click the `Manage Emulators` button
+3. Click `melonDS`
+4. Click `Install`
+5. melonDS (Standalone) will be installed
+    * To open melonDS in Desktop Mode, see [How to Launch melonDS in Desktop Mode](#how-to-launch-melonds-in-desktop-mode)
+
+To use melonDS to launch your ROMs in Game Mode:
+
+* Use Steam ROM Manager and select the `Nintendo DS - melonDS` parser
+    * The RetroArch parser is named: `Nintendo DS - Retroarch - melonDS`
+    * The melonDS (Standalone) parser is named: `Nintendo DS - melonDS`
+* Use Steam ROM Manager and select the `EmulationStation-DE` parser
+    * To switch to melonDS (Standalone) in EmulationStation-DE, see [EmulationStation-DE: How to Select a Different Emulator for a System](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-for-a-system)
+
+**No** additional setup is required with Steam ROM Manager and EmulationStation-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
 
 ***
 
