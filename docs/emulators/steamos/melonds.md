@@ -104,7 +104,7 @@ net.kuribo64.melonDS
 5. melonDS (Standalone) will be installed
     * To open melonDS in Desktop Mode, see [How to Launch melonDS in Desktop Mode](#how-to-launch-melonds-in-desktop-mode)
 
-To use melonDS to launch your ROMs in Game Mode:
+To use **melonDS (Standalone)** to launch your ROMs in Game Mode:
 
 * Use Steam ROM Manager and select the `Nintendo DS - melonDS` parser
     * The RetroArch parser is named: `Nintendo DS - Retroarch - melonDS`

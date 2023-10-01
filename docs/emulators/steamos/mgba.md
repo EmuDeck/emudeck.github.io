@@ -116,7 +116,7 @@ mgba
 5. mGBA (Standalone) will be installed
     * To open mGBA in Desktop Mode, see [How to Launch mGBA in Desktop Mode](#how-to-launch-mgba-in-desktop-mode)
 
-To use mGBA to launch your ROMs in Game Mode:
+To use **mGBA (Standalone)** to launch your ROMs in Game Mode:
 
 * Use Steam ROM Manager and select the `Nintendo Game Boy - mGBA`, `Nintendo Game Boy Color - mGBA` or `Nintendo Game Boy Advance - mGBA` parser corresponding to the system of your ROM
     * The RetroArch parsers is named: 
