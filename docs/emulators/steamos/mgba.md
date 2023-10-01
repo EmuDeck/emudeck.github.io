@@ -103,6 +103,30 @@ mgba
 └── screenshots
 ```
 
+***
+
+### How to Download mGBA (Standalone)
+
+1. In Desktop Mode, open the EmuDeck application
+2. Click the `Manage Emulators` button
+3. Click `mgBA`
+4. Click `Install`
+5. mGBA (Standalone) will be installed
+    * To open mGBA in Desktop Mode, see [How to Launch mGBA in Desktop Mode](#how-to-launch-mgba-in-desktop-mode)
+
+To use mGBA to launch your ROMs in Game Mode:
+
+* Use Steam ROM Manager and select the `Nintendo Game Boy - mGBA`, `Nintendo Game Boy Color - mGBA` or `Nintendo Game Boy Advance - mGBA` parser corresponding to the system of your ROM
+    * The RetroArch parsers is named: 
+        * `Nintendo GameBoy Advance - Retroarch - mGBA`
+    * The mGBA (Standalone) parsers are named: 
+        * `Nintendo Game Boy - mGBA`
+        * `Nintendo Game Boy Color - mGBA` 
+        * `Nintendo Game Boy Advance - mGBA`
+* Use Steam ROM Manager and select the `EmulationStation-DE` parser
+    * To switch to mGBA (Standalone) in EmulationStation-DE, see [EmulationStation-DE: How to Select a Different Emulator for a System](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-for-a-system)
+
+**No** additional setup is required with Steam ROM Manager and EmulationStation-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
 
 ***
 
