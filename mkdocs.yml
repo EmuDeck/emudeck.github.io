@@ -65,8 +65,6 @@ nav:
         - EmulationStation-DE:
             - 'EmulationStation-DE on SteamOS': 'tools/steamos/emulationstation-de.md'
             - 'EmulationStation-DE on Windows': 'tools/windows/emulationstation-de.md'
-        - Cloud Services:
-            - 'Cloud Services on SteamOS': 'tools/steamos/cloud-services.md'
     - Emulators:
         - Supported Emulators:
             - Supported Emulators on SteamOS: 'emulators/steamos/supported-emulators.md'
@@ -199,6 +197,9 @@ markdown_extensions:
             options:
             custom_icons: 
                 - overrides/.icons
+    - pymdownx.arithmatex:
+        generic: true
+    - pymdownx.keys
     - def_list
     - sane_lists
     - attr_list
@@ -213,6 +214,7 @@ markdown_extensions:
     - pymdownx.tasklist
     # Adds highlighting and subscript and superscript
     - pymdownx.caret
+    - pymdownx.details
     - pymdownx.mark
     - pymdownx.tilde
     - pymdownx.highlight:
@@ -221,6 +223,11 @@ markdown_extensions:
         pygments_lang_class: true        
         use_pygments: true
     - pymdownx.inlinehilite
+    - admonition
+    - footnotes
+    - pymdownx.smartsymbols
+    - pymdownx.tabbed:
+        alternate_style: true
 # plugins section, search is an included plugin but if adding any new plugins, needs to be stated here as well
 plugins:
     - search:
@@ -259,7 +266,3 @@ extra_css:
 #        - accept
 #        - reject
 #        - manage
-
-    
-
-

@@ -1,6 +1,6 @@
 ---
 search:
-  boost: 400 
+  exclude: true
 ---
 
 # The Cheat Sheet is Your Tool to Success.

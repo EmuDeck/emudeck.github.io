@@ -1,3 +1,8 @@
+---
+search:
+  exclude: true
+---
+
 **Under Construction**
 
 # Cloud Saves

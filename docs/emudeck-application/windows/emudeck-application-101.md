@@ -106,7 +106,7 @@ Features:
 ### CloudSync
 [Back to the Top](#emudeck-application-101-table-of-contents)
 
-Visit the [CloudSync](cloud-sync.md) page for more information.
+Visit the [CloudSync](cloud-sync-on-windows.md) page for more information.
 
 ***
 

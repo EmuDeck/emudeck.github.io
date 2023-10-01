@@ -1,0 +1,6 @@
+---
+search:
+  exclude: true
+---
+
+# ares

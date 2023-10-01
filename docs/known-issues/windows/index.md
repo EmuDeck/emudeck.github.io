@@ -124,7 +124,7 @@ Make sure to note the following:
 - Opening ROMs and emulators through Armoury Crate directly will not work
 - Select `Gamepad` mode specifically in the `Command Center`, do not use `Automatic`
 
-![Gamepad Mode](/assets/rog-ally-front-gamepadmode.jpg)
+![Gamepad Mode](../../assets/rog-ally-front-gamepadmode.jpg)
 
 If the above does not work, you may try resetting your emulators on the Manage Emulators page or run through a Quick/Custom Reset on the home screen of the EmuDeck application.
 

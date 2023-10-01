@@ -499,7 +499,7 @@ In order to use Cemu Native through EmulationStation-DE, you will have to enable
 ***
 
 ### How to Optimize Breath of the Wild
-[Back to the Top](-proton#cemu-table-of-contents)
+[Back to the Top](#cemu-native-table-of-contents)
 
 **IMPORTANT:** You need Version 208 of Breath of the Wild to use FPS++. Read [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates) to learn how to install game updates for Cemu. 
 

@@ -1,3 +1,8 @@
+---
+search:
+  boost: 400 
+---
+
 # File Management, learn how to manage your files like a wizard.
 
 ***
