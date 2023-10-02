@@ -16,7 +16,7 @@ sudo pacman -Sy bash flatpak fuse2 git jq steam unzip zenity
 
 ### ChimeraOS
 
-No additional prerequisites need to be installed. For ChimeraOS tweaks to ensure EmuDeck works properly, see [ChimeraOS](#chimeraos). 
+No additional prerequisites need to be installed. For ChimeraOS tweaks to ensure EmuDeck works properly, see [ChimeraOS Tweaks](#chimeraos-tweaks). 
 
 ### Debian based (Includes Ubuntu, Pop!_OS, Mint, etc.)
 
