@@ -14,6 +14,10 @@
 sudo pacman -Sy bash flatpak fuse2 git jq steam unzip zenity     
 ```
 
+### ChimeraOS
+
+No additional prerequisites need to be installed. For ChimeraOS tweaks to ensure EmuDeck works properly, see [ChimeraOS](#chimeraos). 
+
 ### Debian based (Includes Ubuntu, Pop!_OS, Mint, etc.)
 
 ```sh
@@ -48,17 +52,45 @@ sudo xbps-install -Syv bash flatpak fuse git jq rsync steam unzip zenity jq xmls
 
 ## Text Guides
 
-### Arch
+### Distro Agnostic 
+
+1. Open a terminal and enter the following:
 
 ```sh
 curl -L https://raw.githubusercontent.com/dragoonDorise/EmuDeck/main/install.sh | bash
 ```
 
-Alternatively, use the [AUR Package](https://aur.archlinux.org/packages/emudeck) with the AUR helper of your choice.
+### Arch
 
-### Debian/Ubuntu
+Either use the [Distro Agnostic](#distro-agnostic] guide or use the [AUR Package](https://aur.archlinux.org/packages/emudeck) with the AUR helper of your choice.
 
-### Fedora
+***
 
+## Distro Specific Guides
+
+### ChimeraOS
+
+[https://github.com/ChimeraOS/chimeraos/wiki/EmuDeck](https://github.com/ChimeraOS/chimeraos/wiki/EmuDeck)
+
+***
+
+## Tested and Working Linux Distros
+
+Any distro **not listed** in the table below **has not** been tested. 
+
+Key
+* Check mark/✓: Works great without any issue
+* Tilde/~: Works but requires additional set up
+* X mark/x: Does not work
+
+| Distro      | Compatibility                 |
+|-------------|-------------------------------|
+| Arch        | ✓                             |
+| ChimeraOS   | ~ See [ChimeraOS](#chimeraos) |
+| EndeavourOS | ✓                             |
+| Fedora      | ✓                             |
+| Nobara      | ✓                             |
+| Ubuntu      | ✓                             |
+| Void Linux  | ✓                             |
 
 ***
