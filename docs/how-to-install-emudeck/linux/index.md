@@ -78,7 +78,8 @@ Either use the [Distro Agnostic](#distro-agnostic) guide or use the [AUR Package
 
 Any distro **not listed** in the table below **has not** been tested. 
 
-Key
+**Key**
+
 * Check mark/✓: Works great without any issue
 * Tilde/~: Works but requires additional set up
 * X mark/x: Does not work
