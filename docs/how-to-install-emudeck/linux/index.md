@@ -68,7 +68,7 @@ Either use the [Distro Agnostic](#distro-agnostic) guide or use the [AUR Package
 
 ## Distro Specific Guides
 
-### ChimeraOS
+### ChimeraOS Tweaks
 
 [https://github.com/ChimeraOS/chimeraos/wiki/EmuDeck](https://github.com/ChimeraOS/chimeraos/wiki/EmuDeck)
 
@@ -86,7 +86,7 @@ Key
 | Distro      | Compatibility                 |
 |-------------|-------------------------------|
 | Arch        | ✓                             |
-| ChimeraOS   | ~ See [ChimeraOS](#chimeraos) |
+| ChimeraOS   | ~ See [ChimeraOS Tweaks](#chimeraos-tweaks) |
 | EndeavourOS | ✓                             |
 | Fedora      | ✓                             |
 | Nobara      | ✓                             |
