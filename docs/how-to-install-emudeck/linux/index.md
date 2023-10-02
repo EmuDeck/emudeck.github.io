@@ -62,7 +62,7 @@ curl -L https://raw.githubusercontent.com/dragoonDorise/EmuDeck/main/install.sh 
 
 ### Arch
 
-Either use the [Distro Agnostic](#distro-agnostic] guide or use the [AUR Package](https://aur.archlinux.org/packages/emudeck) with the AUR helper of your choice.
+Either use the [Distro Agnostic](#distro-agnostic) guide or use the [AUR Package](https://aur.archlinux.org/packages/emudeck) with the AUR helper of your choice.
 
 ***
 
