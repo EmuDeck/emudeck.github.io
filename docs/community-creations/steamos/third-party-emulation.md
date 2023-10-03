@@ -96,7 +96,7 @@ This will require your sudo password for the setup
 ```
 # Uncomment the xhost line below if you know that you are using xhost
 #xhost +si:localuser:$USER
-export PATH=$PATH:$HOME/.local/bin
+export PATH=$HOME/.local/bin:$PATH
 ```
 
 5. Save the `.bashrc` file and exit
