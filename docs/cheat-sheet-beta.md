@@ -236,9 +236,10 @@ It mostly comes down to preference.
 
 
 
-| Console/System | ROM Folder Name |               RetroArch Core (Click for Libretro Article)               |        File Types        |   BIOS Files   |
+| Console/System | ROM Folder Name |               Emulator (Click for Link)               |        File Types        |   BIOS Files   |
 |:--------------:|:-----------:|:-----------------------------------------------------------------------:|:------------------------:|:--------------:|
 | Atari 2600     | atari2600   | [RetroArch Stella](https://docs.libretro.com/library/stella/)           | .7z .a26   .bin   .zip   | N/A            |
+| **Atari 2600 (Standalone)**     | atari2600   | **[ares (Standalone)](https://ares-emu.net/compatibility)**           | .7z .a26   .bin   .zip   | N/A            |
 | Atari Lynx     | lynx        | [RetroArch Beetle Lynx](https://docs.libretro.com/library/beetle_lynx/) | .7z   .lnx   .bin   .zip | `lynxboot.img` |
 
 ***
@@ -273,12 +274,20 @@ It mostly comes down to preference.
 
 ***
 
-| Console/System | ROM Folder Name | RetroArch Core (Click for Libretro Article) | File Types | BIOS Files |
+| Console/System | ROM Folder Name | Emulator (Click for Link) | File Types | BIOS Files |
 |:---:|:---:|:---:|:---:|:---:|
-| 3DO | 3do | [RetroArch Opera](https://docs.libretro.com/library/opera/) | .iso .chd `.cue and bin` | `panafz1.bin` |
+| Panasonic 3DO | 3do | [RetroArch Opera](https://docs.libretro.com/library/opera/) | .iso .chd `.cue and bin` | `panafz1.bin` |
 | NEC TurboGrafx-16 / PC Engine | `tg16` or `pcengine` | [RetroArch Beetle PCE](https://docs.libretro.com/library/beetle_pce_fast/) | .pce  `.cue and .bin`  .ccd  .iso   .img  .bin  .chd | `syscard1.pce` `syscard2.pce` `syscard3.pce` `gexpress.pce` |
 | NEC TurboGrafx-16 CD / PC Engine CD | `tg-cd` or `pcenginecd` | [RetroArch Beetle PCE](https://docs.libretro.com/library/beetle_pce_fast/) | .pce  `.cue and .bin`  .ccd  .iso   .img  .bin  .chd | `syscard1.pce` `syscard2.pce` `syscard3.pce` `gexpress.pce` |
-| Wonderswan & Color | wonderswan | [RetroArch Beetle Cygne](https://docs.libretro.com/library/beetle_cygne/) | .7z  .pc2  .ws  .wsc  .zip | N/A |
+| Bandai Wonderswan | wonderswan | [RetroArch Beetle Cygne](https://docs.libretro.com/library/beetle_cygne/) | .7z  .pc2  .ws  .wsc  .zip | N/A |
+| Bandai Wonderswan Color | wonderswancolor | [RetroArch Beetle Cygne](https://docs.libretro.com/library/beetle_cygne/) | .7z  .pc2  .ws  .wsc  .zip | N/A |
+| **Bandai Wonderswan (Standalone)** | wonderswan | **[ares (Standalone)](https://ares-emu.net/compatibility)**  | .7z  .pc2  .ws  .wsc  .zip | N/A |
+| **Bandai Wonderswan Color (Standalone)** | wonderswancolor |**[ares (Standalone)](https://ares-emu.net/compatibility)**  | .7z  .pc2  .ws  .wsc  .zip | N/A |
+| **Benesse Pocket Challenge V2 (Standalone)** | wonderswan | **[ares (Standalone)](https://ares-emu.net/compatibility)**  | .7z  .pc2  .ws  .wsc  .zip | N/A |
+| **ColecoVision (Standalone)** | colecovision | **[ares (Standalone)](https://ares-emu.net/compatibility)**  | .7z  .pc2  .ws  .wsc  .zip | `colecovision.rom` |
+
+
+
 
 ***
 
