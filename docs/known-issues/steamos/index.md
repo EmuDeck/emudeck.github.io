@@ -10,16 +10,7 @@
 
 ## DuckStation - audio not working - September 16th, 2023
 
-Sound is currently not working in the September 16th update of DuckStation. To fix this issue, you will need to downgrade to the August 12th version of DuckStation. This version is also the last known version with working RetroAchievements. 
-
-**How to Downgrade Versions**
-
-1. In Desktop Mode, open `Konsole`
-2. Enter:
-    * `flatpak update --commit=ec6989adcad90287cb19c355627bc75f88fba690be62c4fe01f7d41653555dfd org.duckstation.DuckStation`
-        * If the above does not work, enter:
-            * `sudo flatpak update --commit=ec6989adcad90287cb19c355627bc75f88fba690be62c4fe01f7d41653555dfd org.duckstation.DuckStation`
-3. Wait a few moments, DuckStation will be downgraded to the August 12th version
+The September 16th update of the DuckStation Flatpak did not have working audio. If you have not updated DuckStation in a while and the emulator does not have sound, you will need to open Discover in Desktop Mode and update DuckStation. RetroAcheivements will also fully work on the latest versions of DuckStation. 
 
 ***
 
