@@ -319,8 +319,10 @@ If you are choosing to create your own profile:
     * ![Dolphin Gyro Example 1](../../assets/dolphin-gyro.png) 
 13. Press `OK` in the bottom right
 14. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
-15. After you are finished, give your profile a name in the top right and save it as a new profile
-16. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
+15. (Optional) To use the Steam Deck gyro as a pointer (moving the Steam Deck itself), check `Enable` under the Pointer section on the left on the `Motion Input` tab
+    * Consider clicking `Recenter` and tinkering with the settings here to calibrate the pointer
+16. After you are finished, give your profile a name in the top right and save it as a new profile
+17. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
 
 For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
 
@@ -356,8 +358,10 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 13. Press `Select` in the top right
 14. Press `OK` in the bottom right
 15. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
-16. After you are finished, give your profile a name in the top right and save it as a new profile
-17. To select this profile, open the controller menu, select the profile name in the drop-down menu and click `Load`
+16. (Optional) To use the controller gyro as a pointer (moving the controller itself), check `Enable` under the Pointer section on the left on the `Motion Input` tab
+    * Consider clicking `Recenter` and tinkering with the settings here to calibrate the pointer
+17. After you are finished, give your profile a name in the top right and save it as a new profile
+18. To select this profile, open the controller menu, select the profile name in the drop-down menu and click `Load`
 
 **Note:** Different games have different preferences for Nunchuk and Motionplus support. Under the `General and Options` tab, you may uncheck `Attach MotionPlus` and select the appropriate extension in the drop-down menu and create a new profile for each circumstance. 
 
