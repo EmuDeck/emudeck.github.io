@@ -343,11 +343,12 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
     * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
 6. Under `Device`, select `evdev/0/yourexternalcontrollername`
     * Some external controllers may show up as `Wireless Controller`
-    * For example: `evdev/0/Wireless Controller`
+    * For example: `evdev/0/Nintendo Switch Controller` or `evdev/0/Wireless Controller`
 7. Select the `Motion Input` tab
 8. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `L2`
-9. Select `evdev/0/yourexternalcontrollername Motion Sensors` in the drop-down menu at the top
-    * For example: `evdev/0/Wireless Controller Motionm Sensors`
+9. Select `evdev/0/yourexternalcontrollername` in the drop-down menu at the top
+    * For example: `evdev/0/Nintendo Switch Controller`
+    * For some controllers, it may be under `evdev/0/Wireless Controller Motion Sensors`
 10. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
 11. Select the matching input to the button you clicked in Step 7
     * ![How to Configure Gyro With External Controllers](../../assets/dolphin-external-controller-gyro.png)
