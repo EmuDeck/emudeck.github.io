@@ -341,20 +341,24 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 4. Open the `Controllers` menu
 5. Select `Configure` to the right of `Wii Remote 1`
     * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
-6. Under `Device`, select your external controller
-7. Remap your controls
-    * Since you are not using Steam Input, you will need to remap all of your controls for your controller
-8. Select the `Motion Input` tab
-9. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `L2`
-10. Make sure your controller is selected in the drop-down menu at the top
-11. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
-12. Select the matching input to the button you clicked in Step 7
-13. Press `Clear` in the bottom right
-14. Press `Select` in the top right
-15. Press `OK` in the bottom right
-16. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
-17. After you are finished, give your profile a name in the top right and save it as a new profile
-18. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
+6. Under `Device`, select `evdev/0/yourexternalcontrollername`
+    * Some external controllers may show up as `Wireless Controller`
+    * For example: `evdev/0/Wireless Controller`
+7. Select the `Motion Input` tab
+8. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `L2`
+9. Select `evdev/0/yourexternalcontrollername Motion Sensors` in the drop-down menu at the top
+    * For example: `evdev/0/Wireless Controller Motionm Sensors`
+10. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
+11. Select the matching input to the button you clicked in Step 7
+    * ![How to Configure Gyro With External Controllers](../../assets/dolphin-external-controller-gyro.png)
+12. Press `Clear` in the bottom right
+13. Press `Select` in the top right
+14. Press `OK` in the bottom right
+15. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
+16. After you are finished, give your profile a name in the top right and save it as a new profile
+17. To select this profile, open the controller menu, select the profile name in the drop-down menu and click `Load`
+
+**Note:** Different games have different preferences for Nunchuk and Motionplus support. Under the `General and Options` tab, you may uncheck `Attach MotionPlus` and select the appropriate extension in the drop-down menu and create a new profile for each circumstance. 
 
 #### Game Mode
 
