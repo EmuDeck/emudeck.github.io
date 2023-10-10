@@ -40,7 +40,6 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Set Dolphin Controller Profiles On a Per-Game Basis](#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
 
-
 5. [Dolphin Unique Controller Configurations](#dolphin-unique-controller-configurations)
     - [How to Configure Wii Games To Use A GameCube Controller](#how-to-configure-wii-games-to-use-a-gamecube-controller)
     - [How to Configure Wii Games to Use the Trackpad as a Pointer](#how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer)
@@ -825,7 +824,10 @@ Example, to use OpenGL for only Super Paper Mario:
 ### How to Configure Wii Games To Use A GameCube Controller
 [Back to the Top](#dolphin-table-of-contents)
 
-#### Single Player 
+- [How to Configure Wii Games To Use A GameCube Controller: Single Player](#how-to-configure-wii-games-to-use-a-gamecube-controller-single-player)
+- [How to Configure Wii Games To Use A GameCube Controller: Multiplayer](#how-to-configure-wii-games-to-use-a-gamecube-controller-multiplayer)
+
+#### How to Configure Wii Games To Use A GameCube Controller: Single Player 
 
 1. Right click a Wii game
 2. Click `Properties`
@@ -841,7 +843,7 @@ Example, to use OpenGL for only Super Paper Mario:
 6. Click OK and your Wii game should now be using a GameCube controller profile
     * <img src="https://user-images.githubusercontent.com/108900299/213080943-80187386-77db-4918-b8d8-74a648b2f422.png" height="300">
 
-#### Multiplayer
+#### How to Configure Wii Games To Use A GameCube Controller: Multiplayer
 
 1. Right click a Wii game
 2. Click `Properties`
