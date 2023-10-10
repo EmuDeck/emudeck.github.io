@@ -870,7 +870,7 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ### How to Configure Wii Games to Use the Trackpad as a Pointer
 
-### How to Configure Steam Input
+#### How to Configure Steam Input
 
 **Note:** You do not need to do this section if you are using EmulationStation-DE. You may skip to [How to Apply the Dolphin Trackpad Profile on the Fly](#how-to-apply-the-dolphin-trackpad-profile-on-the-fly).
 
@@ -879,14 +879,14 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 3. Open `Controller settings`
 4. Change the `Current Layout` to `Gamepad with Mouse Trackpad`
 
-### How to Apply the Dolphin Trackpad Profile on the Fly
+#### How to Apply the Dolphin Trackpad Profile on the Fly
 
 1. While in game, press `Select` and tilt the `Left Joystick` right until you see `Wii_base_nunchuck_with_touchpad` or `Wii_no_attachment_with_touchpad`
     * The attachment refers to the Nunchuk. Depending on the game, select the appropriate profile      
 
 **Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Apply the Wii Profile on a Per Game Basis](#how-to-apply-the-wii-profile-on-a-per-game-basis) to learn how. 
 
-### How to Apply the Wii Profile on a Per Game Basis
+#### How to Apply the Wii Profile on a Per Game Basis
 
 1. In Desktop Mode, open Dolphin
 2. Right click the game
@@ -919,13 +919,13 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 ### How to Configure Wii Games to Use the Classic Controller
 [Back to the Top](#dolphin-table-of-contents)
 
-### How to Apply the Classic Profile on the Fly
+#### How to Apply the Classic Profile on the Fly
 
 1. While in game, press `Select` and tilt the `Left Joystick` right until you see `wii_classic_controller`   
 
 **Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Apply the Classic Profile on a Per Game Basis](#how-to-apply-the-classic-profile-on-a-per-game-basis) to learn how. 
 
-### How to Apply the Classic Profile on a Per Game Basis
+#### How to Apply the Classic Profile on a Per Game Basis
 
 1. In Desktop Mode, open Dolphin
 2. Right click the game
@@ -947,13 +947,13 @@ If you open a Wii game and get an error message with something similar to: " Ple
 
 Here's how to **resolve the error** and remove the Nunchuk:
 
-### How to Remove the Unsupported Extension Controller on the Fly
+#### How to Remove the Unsupported Extension Controller on the Fly
 
 1. While in game, press `Select` and tilt the `Left Joystick` right until you see `Wii_no_attachment`   
 
 **Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Remove the Unsupported Extension Controller on a Per Game Basis](#how-to-remove-the-unsupported-extension-controller-on-a-per-game-basis) to learn how. 
 
-### How to Remove the Unsupported Extension Controller on a Per Game Basis
+#### How to Remove the Unsupported Extension Controller on a Per Game Basis
 
 1. In Desktop Mode, open Dolphin
 2. Right click the game
