@@ -6,8 +6,6 @@ Github: [https://github.com/dolphin-emu/dolphin](https://dolphin-emu.org/)
 
 Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/compat/)
 
-
-
 ***
 
 ## Dolphin Table of Contents
@@ -19,6 +17,8 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Launch Dolphin in Desktop Mode](#how-to-launch-dolphin-in-desktop-mode)
     - [File Formats](#dolphin-file-formats)
     - [Hotkeys](#dolphin-hotkeys)
+    - [How to Set Up GameCube BIOS (Optional)](#how-to-set-up-gamecube-bios)
+    - [How to Set Up the Wii Menu (Optional)](#how-to-set-up-the-wii-menu)
 
 2. [Dolphin Tips and Tricks](#dolphin-tips-and-tricks)
     - [How to Configure Gyro](#how-to-configure-gyro)
@@ -28,19 +28,26 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Configure Multiplayer Controls](#how-to-configure-multiplayer-controls)
-    - [How to Install Custom Textures](#how-to-install-custom-textures)
+
+3. [Dolphin Cheats, Modding, and Texture Packs](#dolphin-cheats-modding-and-texture-packs)
     - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Install Custom Textures](#how-to-install-custom-textures)
+    - [How to use Riivolution Patches](#how-to-use-riivolution-patches)
+
+4. [How to Navigate Dolphin Settings](#how-to-navigate-dolphin-settings)
     - [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
     - [How to Share Your Dolphin Controller Profile](#how-to-share-your-dolphin-controller-profile)
     - [How to Set Dolphin Controller Profiles On a Per-Game Basis](#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
+    - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
+
+
+5. [Dolphin Unique Controller Configurations](#dolphin-unique-controller-configurations)
     - [How to Configure Wii Games To Use A GameCube Controller](#how-to-configure-wii-games-to-use-a-gamecube-controller)
     - [How to Configure Wii Games to Use the Trackpad as a Pointer](#how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer)
-    - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
-    - [How to use Riivolution Patches](#how-to-use-riivolution-patches)
+    - [How to Configure Wii Games to Use the Classic Controller](#how-to-configure-wii-games-to-use-the-classic-controller)
+    - [How to Remove the Unsupported Extension Controller](#how-to-remove-the-unsupported-extension-controller)
     - [How to Configure Real Wiimotes](#how-to-configure-real-wiimotes)
     - [How to Use a Mayflash DolphinBar in Game Mode](#how-to-use-a-mayflash-dolphinbar-in-game-mode)
-    - [How to Set Up GameCube BIOS (Optional)](#how-to-set-up-gamecube-bios)
-    - [How to Set Up the Wii Menu (Optional)](#how-to-set-up-the-wii-menu)
 
 ***
 
@@ -272,6 +279,48 @@ org.DolphinEmu.dolphin-emu/
 **Note:** 
 
 * [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
+
+***
+
+### How to Set Up GameCube BIOS
+[Back to the Top](#dolphin-table-of-contents)
+
+GameCube BIOS **are not** required to play GameCube games. Adding GameCube BIOS allows you to see the GameCube launch screen when you play GameCube games.
+
+Depending on which region your games are in, select the appropriate BIOS and place in the matching folder below:
+
+**Casing matters**
+
+* Japan BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/JAP/IPL.bin`
+* US BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/IPL.bin`
+* EU BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/EUR/IPL.bin`
+
+After placing your BIOS in the correct place:
+
+1. Open the Dolphin emulator
+2. Open the `Configuration` settings
+3. Click the `GameCube` tab 
+4. Uncheck `Skip Main Menu`
+
+***
+
+### How to Set Up the Wii Menu
+[Back to the Top](#dolphin-table-of-contents)
+
+The Wii Menu **is not** required to play Wii Games.
+
+**To Download**
+
+1. Open the Dolphin emulator
+2. Click `Tools` at the top
+3. Click `Perform System Update`, select a Region
+
+**To Use**
+
+1. Open the Dolphin emulator
+2. Click `Tools`, click `Load Wii System Menu...`
+
+* For further reading: [https://wiki.dolphin-emu.org/index.php?title=Wii_Menu](https://wiki.dolphin-emu.org/index.php?title=Wii_Menu)
 
 ***
 
@@ -510,6 +559,25 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ***
 
+## Dolphin Cheats, Modding, and Texture Packs
+[Back to the Top](#dolphin-table-of-contents)
+
+***
+
+### How to Use Cheats
+[Back to the Top](#dolphin-table-of-contents)
+
+1. Open the Dolphin emulator
+2. Right click a game
+3. Click `Properties`
+4. Click `Gecko Codes`
+5. Click `Download Codes` in the bottom right
+6. Select cheat(s)
+
+You may also add cheats to either the `AR Codes` or `Gecko Codes` tab. 
+
+***
+
 ### How To Install Custom Textures
 [Back to the Top](#dolphin-table-of-contents)
 
@@ -535,17 +603,54 @@ For a visual, watch the following GIF:
 
 ***
 
-### How to Use Cheats
+### How to Use Riivolution Patches
 [Back to the Top](#dolphin-table-of-contents)
 
-1. Open the Dolphin emulator
-2. Right click a game
-3. Click `Properties`
-4. Click `Gecko Codes`
-5. Click `Download Codes` in the bottom right
-6. Select cheat(s)
+**Note:** You will need the base game of the respective Riivolution patch to apply the patch. For example, the Riivolution patch `Newer Super Mario Bros. Wii` requires a copy of the `New Super Mario Bros. Wii` ROM in `Emulation/roms/wii`. 
 
-You may also add cheats to either the `AR Codes` or `Gecko Codes` tab. 
+#### Riivolution Patch - Content
+
+If your Riivolution patch includes additional content, follow the below steps. If not, skip to the next section. 
+
+1. Place your Riivolution content folder in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load`
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+
+**This may not apply to all Riivolution patches, read any attached instructions or the associated website for further help.**
+
+#### Riivolution Patch - XML File
+
+1. Place your Riivolution patch file in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Riivolution/`
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * A Riivolution patch file is generally a `.xml` file
+2. Open the Dolphin Emulator 
+3. Right click the base game and select `Start with Riivolution patches...`
+    * <img src="https://user-images.githubusercontent.com/108900299/209005481-c5f7922b-e5b4-4f94-96ab-e3f281648f5d.png" height="300">
+4. Click `Open Riivolution XML...` and select a Riivolution patch
+5. Click `Save as Preset...`
+    * <img src="https://user-images.githubusercontent.com/108900299/209005702-5af85a1e-52cb-4e6a-999b-5a5210acfecc.png" height="300">
+6. Name the preset with a `.json` file extension
+    * The file name of the JSON file is up to you. However, it is recommended you match the JSON file as closely as possible to the Riivolution patch name so Steam ROM Manager and EmulationStation-DE can scrape the appropriate game art or game info
+    * <img src="https://user-images.githubusercontent.com/108900299/209005860-46fa8e50-97d8-4174-ad04-350928e3d789.png" height="300">
+7. Save your preset file with a `.json` file extension to `Emulation/roms/wii`
+    * <img src="https://user-images.githubusercontent.com/108900299/236645287-aceeabe8-c7dc-4770-af5d-ea32ac6aab8f.png" height="300">
+    * If the bottom left box to append `.json` does not exist, you can instead type the full name and add `.json` manually at the end of the full name. For example, `Newer Super Mario Bros. Wii`, type `Newer Super Mario Bros. Wii.json` into the box
+8. Your Riivolution patch will now be playable as a stand-alone game
+    * Parse it through Steam ROM Manager or play it through EmulationStation-DE
+
+***
+
+**Keep in Mind**
+
+* Some Riivolution patches may require additional steps. Read any attached instructions or the associated website for further help. 
+* If a Riivolution patch includes extra content, the `root` directory generally means: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/`. Place any additional content from the patch here. This does not apply to all Riivolution patches, read any attached instructions or the associated website for further help. 
+* Linux is case sensitive. If a patch includes extra content and Dolphin is not identifying it, you may want to read the included XML files and folders to look for any casing mismatches. This does not apply to all Riivolution patches, read any attached instructions or the associated website for further help. 
+
+
+***
+
+## How to Navigate Dolphin Settings
+[Back to the Top](#dolphin-table-of-contents)
+
 
 ***
 
@@ -678,6 +783,45 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ***
 
+### How to Set Game Settings On a Per-Game Basis
+[Back to the Top](#dolphin-table-of-contents)
+
+1. In Desktop Mode, Open the Dolphin emulator
+2. Right click a game
+3. Click `Properties`
+4. Click the `Editor` tab
+5. Under `User Config`, add your configurations, use: [https://wiki.dolphin-emu.org/index.php?title=GameINI](https://wiki.dolphin-emu.org/index.php?title=GameINI) for a full list
+    1. You also need to include the headers. For example, any settings under the `[Core]` section need to include `[Core]` preceding the respective setting(s)
+
+Example, to use OpenGL for only Super Paper Mario:
+
+<img src="https://user-images.githubusercontent.com/108900299/210124198-a64c005b-74fe-402d-93b3-dd501e814f15.png" height="300">
+
+***
+
+#### Example Use Cases for Custom Game Settings
+
+* Setting Aspect Ratio on a per game basis
+* Setting OpenGL on a per game basis
+* Setting Widescreen Hacks on a per game basis
+
+#### Specific Use Cases for Custom Game Settings
+
+##### Pokemon Colosseum: Aspect Ratio keeps changing 
+
+* Copy and paste the below lines into the INI editor for Pokemon Colosseum
+
+        [Video_Settings]
+        wideScreenHack = False
+        AspectRatio = 2
+
+***
+
+## Dolphin Unique Controller Configurations
+[Back to the Top](#dolphin-table-of-contents)
+
+***
+
 ### How to Configure Wii Games To Use A GameCube Controller
 [Back to the Top](#dolphin-table-of-contents)
 
@@ -770,81 +914,53 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ***
 
-### How to Set Game Settings On a Per-Game Basis
+### How to Configure Wii Games to Use the Classic Controller
 [Back to the Top](#dolphin-table-of-contents)
 
-1. In Desktop Mode, Open the Dolphin emulator
-2. Right click a game
+### How to Apply the Classic Profile on the Fly
+
+1. While in game, press `Select` and tilt the `Left Joystick` right until you see `wii_classic_controller`   
+
+**Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Apply the Classic Profile on a Per Game Basis](#how-to-apply-the-classic-profile-on-a-per-game-basis) to learn how. 
+
+### How to Apply the Classic Profile on a Per Game Basis
+
+1. In Desktop Mode, open Dolphin
+2. Right click the game
 3. Click `Properties`
-4. Click the `Editor` tab
-5. Under `User Config`, add your configurations, use: [https://wiki.dolphin-emu.org/index.php?title=GameINI](https://wiki.dolphin-emu.org/index.php?title=GameINI) for a full list
-    1. You also need to include the headers. For example, any settings under the `[Core]` section need to include `[Core]` preceding the respective setting(s)
+4. Under the `Game Config` tab, click the `Editor` tab
+5. In the box under the `User Config` section:
 
-Example, to use OpenGL for only Super Paper Mario:
-
-<img src="https://user-images.githubusercontent.com/108900299/210124198-a64c005b-74fe-402d-93b3-dd501e814f15.png" height="300">
+            [Controls] 
+            WiimoteProfile1 = Wii_classic_controller
 
 ***
 
-#### Example Use Cases for Custom Game Settings
-
-* Setting Aspect Ratio on a per game basis
-* Setting OpenGL on a per game basis
-* Setting Widescreen Hacks on a per game basis
-
-#### Specific Use Cases for Custom Game Settings
-
-##### Pokemon Colosseum: Aspect Ratio keeps changing 
-
-* Copy and paste the below lines into the INI editor for Pokemon Colosseum
-
-        [Video_Settings]
-        wideScreenHack = False
-        AspectRatio = 2
-
-***
-### How to Use Riivolution Patches
+### How to Remove the Unsupported Extension Controller
 [Back to the Top](#dolphin-table-of-contents)
 
-**Note:** You will need the base game of the respective Riivolution patch to apply the patch. For example, the Riivolution patch `Newer Super Mario Bros. Wii` requires a copy of the `New Super Mario Bros. Wii` ROM in `Emulation/roms/wii`. 
+If you open a Wii game and get an error message with something similar to: " Please remove the unsupported extension controller" or "The external extension controller connected to the Wii remote is not compatible with this title.", generally this error is referring to the Nunchuk. 
 
-#### Riivolution Patch - Content
+![How to Remove the Unsupported Extension Controller](../../assets/how-to-remove-the-unsupported-extension-controller.png)
 
-If your Riivolution patch includes additional content, follow the below steps. If not, skip to the next section. 
+Here's how to **resolve the error** and remove the Nunchuk:
 
-1. Place your Riivolution content folder in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+### How to Remove the Unsupported Extension Controller on the Fly
 
-**This may not apply to all Riivolution patches, read any attached instructions or the associated website for further help.**
+1. While in game, press `Select` and tilt the `Left Joystick` right until you see `Wii_no_attachment`   
 
-#### Riivolution Patch - XML File
+**Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Remove the Unsupported Extension Controller on a Per Game Basis](#how-to-remove-the-unsupported-extension-controller-on-a-per-game-basis) to learn how. 
 
-1. Place your Riivolution patch file in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Riivolution/`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
-    * A Riivolution patch file is generally a `.xml` file
-2. Open the Dolphin Emulator 
-3. Right click the base game and select `Start with Riivolution patches...`
-    * <img src="https://user-images.githubusercontent.com/108900299/209005481-c5f7922b-e5b4-4f94-96ab-e3f281648f5d.png" height="300">
-4. Click `Open Riivolution XML...` and select a Riivolution patch
-5. Click `Save as Preset...`
-    * <img src="https://user-images.githubusercontent.com/108900299/209005702-5af85a1e-52cb-4e6a-999b-5a5210acfecc.png" height="300">
-6. Name the preset with a `.json` file extension
-    * The file name of the JSON file is up to you. However, it is recommended you match the JSON file as closely as possible to the Riivolution patch name so Steam ROM Manager and EmulationStation-DE can scrape the appropriate game art or game info
-    * <img src="https://user-images.githubusercontent.com/108900299/209005860-46fa8e50-97d8-4174-ad04-350928e3d789.png" height="300">
-7. Save your preset file with a `.json` file extension to `Emulation/roms/wii`
-    * <img src="https://user-images.githubusercontent.com/108900299/236645287-aceeabe8-c7dc-4770-af5d-ea32ac6aab8f.png" height="300">
-    * If the bottom left box to append `.json` does not exist, you can instead type the full name and add `.json` manually at the end of the full name. For example, `Newer Super Mario Bros. Wii`, type `Newer Super Mario Bros. Wii.json` into the box
-8. Your Riivolution patch will now be playable as a stand-alone game
-    * Parse it through Steam ROM Manager or play it through EmulationStation-DE
+### How to Remove the Unsupported Extension Controller on a Per Game Basis
 
-***
+1. In Desktop Mode, open Dolphin
+2. Right click the game
+3. Click `Properties`
+4. Under the `Game Config` tab, click the `Editor` tab
+5. In the box under the `User Config` section:
 
-**Keep in Mind**
-
-* Some Riivolution patches may require additional steps. Read any attached instructions or the associated website for further help. 
-* If a Riivolution patch includes extra content, the `root` directory generally means: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/`. Place any additional content from the patch here. This does not apply to all Riivolution patches, read any attached instructions or the associated website for further help. 
-* Linux is case sensitive. If a patch includes extra content and Dolphin is not identifying it, you may want to read the included XML files and folders to look for any casing mismatches. This does not apply to all Riivolution patches, read any attached instructions or the associated website for further help. 
-
+            [Controls] 
+            WiimoteProfile1 = Wii_no_attachment
 
 ***
 
@@ -892,44 +1008,3 @@ If your Riivolution patch includes additional content, follow the below steps. I
 
 *** 
 
-### How to Set Up GameCube BIOS
-[Back to the Top](#dolphin-table-of-contents)
-
-GameCube BIOS **are not** required to play GameCube games. Adding GameCube BIOS allows you to see the GameCube launch screen when you play GameCube games.
-
-Depending on which region your games are in, select the appropriate BIOS and place in the matching folder below:
-
-**Casing matters**
-
-* Japan BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/JAP/IPL.bin`
-* US BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/IPL.bin`
-* EU BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/EUR/IPL.bin`
-
-After placing your BIOS in the correct place:
-
-1. Open the Dolphin emulator
-2. Open the `Configuration` settings
-3. Click the `GameCube` tab 
-4. Uncheck `Skip Main Menu`
-
-***
-
-### How to Set Up the Wii Menu
-[Back to the Top](#dolphin-table-of-contents)
-
-The Wii Menu **is not** required to play Wii Games.
-
-**To Download**
-
-1. Open the Dolphin emulator
-2. Click `Tools` at the top
-3. Click `Perform System Update`, select a Region
-
-**To Use**
-
-1. Open the Dolphin emulator
-2. Click `Tools`, click `Load Wii System Menu...`
-
-* For further reading: [https://wiki.dolphin-emu.org/index.php?title=Wii_Menu](https://wiki.dolphin-emu.org/index.php?title=Wii_Menu)
-
-***
