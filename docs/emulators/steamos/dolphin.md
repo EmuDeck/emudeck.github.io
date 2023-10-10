@@ -383,6 +383,11 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 #### Desktop Mode
 
 1. In Desktop Mode, exit out of Steam
+    * You may exit out of Steam a couple of different ways:
+        * Right click the `Steam` icon in your taskbar and click `Exit Steam`
+        * Open Steam, click the `Steam` button in the top left, click `Exit`
+        * Open a terminal (Konsole) and enter `killall -9 steam`
+        * Do note that clicking the the `X` button in the top right of the Steam window **will not** exit out of Steam
     * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
     * You may also connect an external keyboard and mouse
 2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
