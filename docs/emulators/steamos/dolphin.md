@@ -416,7 +416,7 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 17. After you are finished, give your profile a name in the top right and save it as a new profile
 18. To select this profile, open the controller menu, select the profile name in the drop-down menu and click `Load`
 
-**Note:** Different games have different preferences for Nunchuk and Motionplus support. Under the `General and Options` tab, you may uncheck `Attach MotionPlus` and select the appropriate extension in the drop-down menu and create a new profile for each circumstance. 
+**Note:** Different games have different preferences for Nunchuk and Motionplus support. Under the `General and Options` tab, you may uncheck `Attach MotionPlus` and select the appropriate extension in the drop-down menu. Be sue to create and save a new profile for each circumstance to quickly load the different profiles as needed. 
 
 #### Game Mode
 
