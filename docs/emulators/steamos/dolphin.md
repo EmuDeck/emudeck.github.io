@@ -933,8 +933,8 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 4. Under the `Game Config` tab, click the `Editor` tab
 5. In the box under the `User Config` section:
 
-            [Controls] 
-            WiimoteProfile1 = Wii_classic_controller
+        [Controls] 
+        WiimoteProfile1 = Wii_classic_controller
 
 ***
 
@@ -961,8 +961,8 @@ Here's how to **resolve the error** and remove the Nunchuk:
 4. Under the `Game Config` tab, click the `Editor` tab
 5. In the box under the `User Config` section:
 
-            [Controls] 
-            WiimoteProfile1 = Wii_no_attachment
+        [Controls] 
+        WiimoteProfile1 = Wii_no_attachment
 
 ***
 
