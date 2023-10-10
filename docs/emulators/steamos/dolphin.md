@@ -382,7 +382,8 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 
 #### Desktop Mode
 
-1. In Desktop Mode, exit out of Steam
+1. Switch to Desktop Mode
+2. Exit out of Steam
     * You may exit out of Steam a couple of different ways:
         * Right click the `Steam` icon in your taskbar and click `Exit Steam`
         * Open Steam, click the `Steam` button in the top left, click `Exit`

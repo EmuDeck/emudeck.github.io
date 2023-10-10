@@ -285,7 +285,8 @@ At this time, the Steam Deck gyro **cannot** be used. But if you own one of thes
 
 #### Desktop Mode
 
-1. In Desktop Mode, exit out of Steam
+1. Switch to Desktop Mode
+2. Exit out of Steam
     * You may exit out of Steam a couple of different ways:
         * Right click the `Steam` icon in your taskbar and click `Exit Steam`
         * Open Steam, click the `Steam` button in the top left, click `Exit`
