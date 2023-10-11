@@ -400,6 +400,8 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 6. Under `Device`, select `evdev/0/yourexternalcontrollername`
     * Some external controllers may show up as `Wireless Controller`
     * For example: `evdev/0/Nintendo Switch Controller` or `evdev/0/Wireless Controller`
+    * This section will use `evdev` but you may also use and tinker with `SDL` instead. External controller gyro will work with either the `evdev` or `SDL` driver options. Do note that if you use `SDL` for your input driver, you will need to fully remap your controls. To select `SDL` or `evdev` in the Dolphin controller menu, select your preferred input driver in the `Device` drop-down menu
+        * For example, if you would like to use SDL for the PlayStation 5 DualSense controller, select `SDL/0/PS5 Controller` in the drop-down menu
 7. Select the `Motion Input` tab
 8. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `L2`
 9. Select `evdev/0/yourexternalcontrollername` in the drop-down menu at the top
@@ -413,11 +415,12 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 14. Press `OK` in the bottom right
 15. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
 16. (Optional) To use the controller gyro as a pointer (moving the controller itself), check `Enable` under the Pointer section on the left on the `Motion Input` tab
-    * Consider clicking `Recenter` and tinkering with the settings here to calibrate the pointer
+    * Make sure to click `Recenter` and tinker with the settings here to calibrate the pointer
+    * You may also want to consider disabling `Auto-hide` under the `Point` section on the `Motion simulation tab`
 17. After you are finished, give your profile a name in the top right and save it as a new profile
 18. To select this profile, open the controller menu, select the profile name in the drop-down menu and click `Load`
 
-**Note:** Different games have different preferences for Nunchuk and Motionplus support. Under the `General and Options` tab, you may uncheck `Attach MotionPlus` and select the appropriate extension in the drop-down menu. Be sue to create and save a new profile for each circumstance to quickly load the different profiles as needed. 
+**Note:** Different games have different preferences for Nunchuk and Motionplus support. Under the `General and Options` tab, you may uncheck `Attach MotionPlus` and select the appropriate extension in the drop-down menu. Be sure to create and save a new profile for each circumstance to quickly load the different profiles as needed. 
 
 #### Game Mode
 
