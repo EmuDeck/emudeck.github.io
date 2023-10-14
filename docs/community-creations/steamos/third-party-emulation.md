@@ -118,6 +118,8 @@ export PATH=$HOME/.local/bin:$PATH
 
 * `cd`
     * Change directories
+    * For example, if you are working in a folder in terminal and need to change to a subfolder, enter `cd subfoldername`
+        * You can press tab to auto-complete the sub-folder name as well
 * `cd ..` or `cd -`
     * Change into the previous directory
 * `Tab` button
