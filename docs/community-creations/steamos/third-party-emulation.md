@@ -108,6 +108,7 @@ export PATH=$HOME/.local/bin:$PATH
 
 1. Open Konsole
 2. Create an Ubuntu distrobox: `distrobox create --name ubuntu -i ubuntu:23.04`
+    * If you get multiple options after inputting this command, select the `docker.io/library/ubuntu:##.##` image by pressing enter on the respective line
 3. To enter the distrobox, open Konsole and enter: `distrobox enter ubuntu`
     * You will need to enter the distrobox when compiling the various games on this page. You can identify when you are in a distrobox by looking at the lefthand side of Konsole. Using the distrobox created by this guide, it will say `deck@ubuntu` 
 
