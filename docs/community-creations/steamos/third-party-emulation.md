@@ -1619,5 +1619,12 @@ You will need to **create** a GitHub account first.
 4. Write your section
     * If you are using a Distrobox for your instructions, you may link to [How to Set Up Distrobox](#how-to-set-up-distrobox)
     * If you are using external script files, embed them in code blocks instead
+5. Once you are finished making your changes, click the `Commit changes...` button in the top right
+    * ![How to Contribute to the Wiki 2](../../assets/how-to-contribute-2.png)
+6. You will be prompted to create a Pull Request. Add a little bit of detail about what you added and why
+    * ![How to Contribute to the Wiki 3](../../assets/how-to-contribute-3.png)
+    * You will not see the option to `Commit directly to the main branch` so do not worry about inadvertently making any changes
+7. Submit your Pull Request
+8. Once your Pull Request is reviewed, it will be merged and any of your changes will automatically be deployed to this page
 
 ***
