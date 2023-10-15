@@ -285,8 +285,15 @@ At this time, the Steam Deck gyro **cannot** be used. But if you own one of thes
 
 #### Desktop Mode
 
-1. In Desktop Mode, exit out of Steam
+1. Switch to Desktop Mode
+2. Exit out of Steam
+    * You may exit out of Steam a couple of different ways:
+        * Right click the `Steam` icon in your taskbar and click `Exit Steam`
+        * Open Steam, click the `Steam` button in the top left, click `Exit`
+        * Open a terminal (Konsole) and enter `killall -9 steam`
+        * Do note that clicking the the `X` button in the top right of the Steam window **will not** exit out of Steam
     * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
+    * You may also connect an external keyboard and mouse
 2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
 3. Click the Steam icon in the bottom left of the taskbar and open `RPCS3` 
 4. Click `Pads` at the top

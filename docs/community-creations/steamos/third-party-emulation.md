@@ -76,8 +76,10 @@ This section will go over setting up a Distrobox, which you will utilize through
 
 This will require your sudo password for the setup
 
-1. In Desktop Mode, open Konsole and enter the following line
+1. In Desktop Mode, open Konsole and enter the following lines, one at a time
     * `curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sh -s -- --prefix ~/.local`
+    * `sudo touch /etc/subuid /etc/subgid`
+    * `sudo usermod --add-subuid 100000-165535 --add-subgid 100000-165535 $USER`
 2. Download `podman-launcher-amd64` from [https://github.com/89luca89/podman-launcher/releases](https://github.com/89luca89/podman-launcher/releases) to your `/home/deck/Downloads` folder
 3. Rename `podman-launcher-amd64` to `podman`
     * Casing and spelling are important
@@ -106,6 +108,7 @@ export PATH=$HOME/.local/bin:$PATH
 
 1. Open Konsole
 2. Create an Ubuntu distrobox: `distrobox create --name ubuntu -i ubuntu:23.04`
+    * If you get multiple options after inputting this command, select the `docker.io/library/ubuntu:##.##` image by pressing enter on the respective line
 3. To enter the distrobox, open Konsole and enter: `distrobox enter ubuntu`
     * You will need to enter the distrobox when compiling the various games on this page. You can identify when you are in a distrobox by looking at the lefthand side of Konsole. Using the distrobox created by this guide, it will say `deck@ubuntu` 
 
@@ -115,6 +118,8 @@ export PATH=$HOME/.local/bin:$PATH
 
 * `cd`
     * Change directories
+    * For example, if you are working in a folder in terminal and need to change to a subfolder, enter `cd subfoldername`
+        * You can press tab to auto-complete the sub-folder name as well
 * `cd ..` or `cd -`
     * Change into the previous directory
 * `Tab` button
@@ -1064,8 +1069,7 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 1. [Set up a Distrobox](#how-to-set-up-distrobox)
 2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
 3. Enter the following commands one line at a time: 
-    * `sudo apt install libsdl2-dev python3-pip make git`
-    * `sudo apt install python3-zstandard python3-yaml python3-pillow`
+    * `sudo apt install libsdl2-dev python3-pip make git python3-zstandard python3-yaml python3-pillow`
 
 #### How to Set Up zelda3
 
@@ -1074,7 +1078,7 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 1. In `/home/deck/Applications`, create a `Distrobox` folder
 2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/snesrev/zelda3`
-4. A `zelda3` folder will be created, place your US Link to the Past ROM in `/home/deck/Applications/zelda3/tables`
+4. A `zelda3` folder will be created, place your US Link to the Past ROM in `/home/deck/Applications/zelda3`
     * SHA256 Hash: `66871d66be19ad2c34c927d6b14cd8eb6fc3181965b6e517cb361f7316009cfb`
     * To locate your SHA256 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `SHA1` and compare it to the above hash. If it is a match, you have a valid ROM
 5. Rename the Link to the Past ROM to `zelda3.sfc`

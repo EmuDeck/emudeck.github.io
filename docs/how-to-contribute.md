@@ -81,6 +81,10 @@ Once the issue is resolved, you may edit the same section on the [Known Issues](
 
 ### Examples of Pull Requests
 
+#### Steam Input Profiles
+
+##### How to Export and Share Steam Input Profiles
+
 #### Homebrew Games
 
 ##### Pull Request Example

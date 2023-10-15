@@ -6,8 +6,6 @@ Github: [https://github.com/dolphin-emu/dolphin](https://dolphin-emu.org/)
 
 Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/compat/)
 
-
-
 ***
 
 ## Dolphin Table of Contents
@@ -19,6 +17,8 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Launch Dolphin in Desktop Mode](#how-to-launch-dolphin-in-desktop-mode)
     - [File Formats](#dolphin-file-formats)
     - [Hotkeys](#dolphin-hotkeys)
+    - [How to Set Up GameCube BIOS (Optional)](#how-to-set-up-gamecube-bios)
+    - [How to Set Up the Wii Menu (Optional)](#how-to-set-up-the-wii-menu)
 
 2. [Dolphin Tips and Tricks](#dolphin-tips-and-tricks)
     - [How to Configure Gyro](#how-to-configure-gyro)
@@ -28,19 +28,25 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Configure Multiplayer Controls](#how-to-configure-multiplayer-controls)
-    - [How to Install Custom Textures](#how-to-install-custom-textures)
+
+3. [Dolphin Cheats, Modding, and Texture Packs](#dolphin-cheats-modding-and-texture-packs)
     - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Install Custom Textures](#how-to-install-custom-textures)
+    - [How to use Riivolution Patches](#how-to-use-riivolution-patches)
+
+4. [How to Navigate Dolphin Settings](#how-to-navigate-dolphin-settings)
     - [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
     - [How to Share Your Dolphin Controller Profile](#how-to-share-your-dolphin-controller-profile)
     - [How to Set Dolphin Controller Profiles On a Per-Game Basis](#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
+    - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
+
+5. [Dolphin Unique Controller Configurations](#dolphin-unique-controller-configurations)
     - [How to Configure Wii Games To Use A GameCube Controller](#how-to-configure-wii-games-to-use-a-gamecube-controller)
     - [How to Configure Wii Games to Use the Trackpad as a Pointer](#how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer)
-    - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
-    - [How to use Riivolution Patches](#how-to-use-riivolution-patches)
+    - [How to Configure Wii Games to Use the Classic Controller](#how-to-configure-wii-games-to-use-the-classic-controller)
+    - [How to Remove the Unsupported Extension Controller](#how-to-remove-the-unsupported-extension-controller)
     - [How to Configure Real Wiimotes](#how-to-configure-real-wiimotes)
     - [How to Use a Mayflash DolphinBar in Game Mode](#how-to-use-a-mayflash-dolphinbar-in-game-mode)
-    - [How to Set Up GameCube BIOS (Optional)](#how-to-set-up-gamecube-bios)
-    - [How to Set Up the Wii Menu (Optional)](#how-to-set-up-the-wii-menu)
 
 ***
 
@@ -275,6 +281,48 @@ org.DolphinEmu.dolphin-emu/
 
 ***
 
+### How to Set Up GameCube BIOS
+[Back to the Top](#dolphin-table-of-contents)
+
+GameCube BIOS **are not** required to play GameCube games. Adding GameCube BIOS allows you to see the GameCube launch screen when you play GameCube games.
+
+Depending on which region your games are in, select the appropriate BIOS and place in the matching folder below:
+
+**Casing matters**
+
+* Japan BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/JAP/IPL.bin`
+* US BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/IPL.bin`
+* EU BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/EUR/IPL.bin`
+
+After placing your BIOS in the correct place:
+
+1. Open the Dolphin emulator
+2. Open the `Configuration` settings
+3. Click the `GameCube` tab 
+4. Uncheck `Skip Main Menu`
+
+***
+
+### How to Set Up the Wii Menu
+[Back to the Top](#dolphin-table-of-contents)
+
+The Wii Menu **is not** required to play Wii Games.
+
+**To Download**
+
+1. Open the Dolphin emulator
+2. Click `Tools` at the top
+3. Click `Perform System Update`, select a Region
+
+**To Use**
+
+1. Open the Dolphin emulator
+2. Click `Tools`, click `Load Wii System Menu...`
+
+* For further reading: [https://wiki.dolphin-emu.org/index.php?title=Wii_Menu](https://wiki.dolphin-emu.org/index.php?title=Wii_Menu)
+
+***
+
 ## Dolphin Tips and Tricks
 [Back to the Top](#dolphin-table-of-contents)
 
@@ -319,8 +367,10 @@ If you are choosing to create your own profile:
     * ![Dolphin Gyro Example 1](../../assets/dolphin-gyro.png) 
 13. Press `OK` in the bottom right
 14. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
-15. After you are finished, give your profile a name in the top right and save it as a new profile
-16. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
+15. (Optional) To use the Steam Deck gyro as a pointer (moving the Steam Deck itself), check `Enable` under the Pointer section on the left on the `Motion Input` tab
+    * Consider clicking `Recenter` and tinkering with the settings here to calibrate the pointer
+16. After you are finished, give your profile a name in the top right and save it as a new profile
+17. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
 
 For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
 
@@ -332,7 +382,13 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 
 #### Desktop Mode
 
-1. In Desktop Mode, exit out of Steam
+1. Switch to Desktop Mode
+2. Exit out of Steam
+    * You may exit out of Steam a couple of different ways:
+        * Right click the `Steam` icon in your taskbar and click `Exit Steam`
+        * Open Steam, click the `Steam` button in the top left, click `Exit`
+        * Open a terminal (Konsole) and enter `killall -9 steam`
+        * Do note that clicking the the `X` button in the top right of the Steam window **will not** exit out of Steam
     * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
     * You may also connect an external keyboard and mouse
 2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
@@ -341,20 +397,30 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 4. Open the `Controllers` menu
 5. Select `Configure` to the right of `Wii Remote 1`
     * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
-6. Under `Device`, select your external controller
-7. Remap your controls
-    * Since you are not using Steam Input, you will need to remap all of your controls for your controller
-8. Select the `Motion Input` tab
-9. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `L2`
-10. Make sure your controller is selected in the drop-down menu at the top
-11. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
-12. Select the matching input to the button you clicked in Step 7
-13. Press `Clear` in the bottom right
-14. Press `Select` in the top right
-15. Press `OK` in the bottom right
-16. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
+6. Under `Device`, select `evdev/0/yourexternalcontrollername`
+    * Some external controllers may show up as `Wireless Controller`
+    * For example: `evdev/0/Nintendo Switch Controller` or `evdev/0/Wireless Controller`
+    * This section will use `evdev` but you may also use and tinker with `SDL` instead. External controller gyro will work with either the `evdev` or `SDL` driver options. Do note that if you use `SDL` for your input driver, you will need to fully remap your controls. To select `SDL` or `evdev` in the Dolphin controller menu, select your preferred input driver in the `Device` drop-down menu
+        * For example, if you would like to use SDL for the PlayStation 5 DualSense controller, select `SDL/0/PS5 Controller` in the drop-down menu
+7. Select the `Motion Input` tab
+8. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `L2`
+9. Select `evdev/0/yourexternalcontrollername` in the drop-down menu at the top
+    * For example: `evdev/0/Nintendo Switch Controller`
+    * For some controllers, it may be under `evdev/0/Wireless Controller Motion Sensors`
+10. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
+11. Select the matching input to the button you clicked in Step 7
+    * ![How to Configure Gyro With External Controllers](../../assets/dolphin-external-controller-gyro.png)
+12. Press `Clear` in the bottom right
+13. Press `Select` in the top right
+14. Press `OK` in the bottom right
+15. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
+16. (Optional) To use the controller gyro as a pointer (moving the controller itself), check `Enable` under the Pointer section on the left on the `Motion Input` tab
+    * Make sure to click `Recenter` and tinker with the settings here to calibrate the pointer
+    * You may also want to consider disabling `Auto-hide` under the `Point` section on the `Motion simulation tab`
 17. After you are finished, give your profile a name in the top right and save it as a new profile
-18. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
+18. To select this profile, open the controller menu, select the profile name in the drop-down menu and click `Load`
+
+**Note:** Different games have different preferences for Nunchuk and Motionplus support. Under the `General and Options` tab, you may uncheck `Attach MotionPlus` or select the appropriate extension in the drop-down menu. Be sure to create and save a new profile for each circumstance to quickly load the different profiles as needed. 
 
 #### Game Mode
 
@@ -501,6 +567,25 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ***
 
+## Dolphin Cheats, Modding, and Texture Packs
+[Back to the Top](#dolphin-table-of-contents)
+
+***
+
+### How to Use Cheats
+[Back to the Top](#dolphin-table-of-contents)
+
+1. Open the Dolphin emulator
+2. Right click a game
+3. Click `Properties`
+4. Click `Gecko Codes`
+5. Click `Download Codes` in the bottom right
+6. Select cheat(s)
+
+You may also add cheats to either the `AR Codes` or `Gecko Codes` tab. 
+
+***
+
 ### How To Install Custom Textures
 [Back to the Top](#dolphin-table-of-contents)
 
@@ -526,17 +611,54 @@ For a visual, watch the following GIF:
 
 ***
 
-### How to Use Cheats
+### How to Use Riivolution Patches
 [Back to the Top](#dolphin-table-of-contents)
 
-1. Open the Dolphin emulator
-2. Right click a game
-3. Click `Properties`
-4. Click `Gecko Codes`
-5. Click `Download Codes` in the bottom right
-6. Select cheat(s)
+**Note:** You will need the base game of the respective Riivolution patch to apply the patch. For example, the Riivolution patch `Newer Super Mario Bros. Wii` requires a copy of the `New Super Mario Bros. Wii` ROM in `Emulation/roms/wii`. 
 
-You may also add cheats to either the `AR Codes` or `Gecko Codes` tab. 
+#### Riivolution Patch - Content
+
+If your Riivolution patch includes additional content, follow the below steps. If not, skip to the next section. 
+
+1. Place your Riivolution content folder in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load`
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+
+**This may not apply to all Riivolution patches, read any attached instructions or the associated website for further help.**
+
+#### Riivolution Patch - XML File
+
+1. Place your Riivolution patch file in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Riivolution/`
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * A Riivolution patch file is generally a `.xml` file
+2. Open the Dolphin Emulator 
+3. Right click the base game and select `Start with Riivolution patches...`
+    * <img src="https://user-images.githubusercontent.com/108900299/209005481-c5f7922b-e5b4-4f94-96ab-e3f281648f5d.png" height="300">
+4. Click `Open Riivolution XML...` and select a Riivolution patch
+5. Click `Save as Preset...`
+    * <img src="https://user-images.githubusercontent.com/108900299/209005702-5af85a1e-52cb-4e6a-999b-5a5210acfecc.png" height="300">
+6. Name the preset with a `.json` file extension
+    * The file name of the JSON file is up to you. However, it is recommended you match the JSON file as closely as possible to the Riivolution patch name so Steam ROM Manager and EmulationStation-DE can scrape the appropriate game art or game info
+    * <img src="https://user-images.githubusercontent.com/108900299/209005860-46fa8e50-97d8-4174-ad04-350928e3d789.png" height="300">
+7. Save your preset file with a `.json` file extension to `Emulation/roms/wii`
+    * <img src="https://user-images.githubusercontent.com/108900299/236645287-aceeabe8-c7dc-4770-af5d-ea32ac6aab8f.png" height="300">
+    * If the bottom left box to append `.json` does not exist, you can instead type the full name and add `.json` manually at the end of the full name. For example, `Newer Super Mario Bros. Wii`, type `Newer Super Mario Bros. Wii.json` into the box
+8. Your Riivolution patch will now be playable as a stand-alone game
+    * Parse it through Steam ROM Manager or play it through EmulationStation-DE
+
+***
+
+**Keep in Mind**
+
+* Some Riivolution patches may require additional steps. Read any attached instructions or the associated website for further help. 
+* If a Riivolution patch includes extra content, the `root` directory generally means: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/`. Place any additional content from the patch here. This does not apply to all Riivolution patches, read any attached instructions or the associated website for further help. 
+* Linux is case sensitive. If a patch includes extra content and Dolphin is not identifying it, you may want to read the included XML files and folders to look for any casing mismatches. This does not apply to all Riivolution patches, read any attached instructions or the associated website for further help. 
+
+
+***
+
+## How to Navigate Dolphin Settings
+[Back to the Top](#dolphin-table-of-contents)
+
 
 ***
 
@@ -669,98 +791,6 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ***
 
-### How to Configure Wii Games To Use A GameCube Controller
-[Back to the Top](#dolphin-table-of-contents)
-
-#### Single Player 
-
-1. Right click a Wii game
-2. Click `Properties`
-3. Click the `Game Config` tab
-4. Click the `Editor` tab
-5. Under `User Config`, enter the following
-
-        [Controls]
-        PadType0 = 6
-        PadProfile1 = GC_base
-        WiimoteSource0 = 0
-
-6. Click OK and your Wii game should now be using a GameCube controller profile
-    * <img src="https://user-images.githubusercontent.com/108900299/213080943-80187386-77db-4918-b8d8-74a648b2f422.png" height="300">
-
-#### Multiplayer
-
-1. Right click a Wii game
-2. Click `Properties`
-3. Click the `Game Config` tab
-4. Click the `Editor` tab
-5. Under `User Config`, enter the following
-
-        [Controls]
-        PadType0 = 6
-        PadType1 = 6
-        PadType2 = 6
-        PadType3 = 6
-        PadProfile1 = GC_base
-        WiimoteSource0 = 0
-        WiimoteSource1 = 0
-        WiimoteSource2 = 0
-        WiimoteSource3 = 0
-
-6. Click OK and your Wii game should now be using a GameCube controller profile
-
-For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki Page](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)).
-
-***
-
-### How to Configure Wii Games to Use the Trackpad as a Pointer
-
-### How to Configure Steam Input
-
-**Note:** You do not need to do this section if you are using EmulationStation-DE. You may skip to [How to Apply the Dolphin Trackpad Profile on the Fly](#how-to-apply-the-dolphin-trackpad-profile-on-the-fly).
-
-1. In Game Mode, open a Wii game
-2. Press the `STEAM` button
-3. Open `Controller settings`
-4. Change the `Current Layout` to `Gamepad with Mouse Trackpad`
-
-### How to Apply the Dolphin Trackpad Profile on the Fly
-
-1. While in game, press `Select` and tilt the `Left Joystick` right until you see `Wii_base_nunchuck_with_touchpad` or `Wii_no_attachment_with_touchpad`
-    * The attachment refers to the Nunchuk. Depending on the game, select the appropriate profile      
-
-**Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Apply the Wii Profile on a Per Game Basis](#how-to-apply-the-wii-profile-on-a-per-game-basis) to learn how. 
-
-### How to Apply the Wii Profile on a Per Game Basis
-
-1. In Desktop Mode, open Dolphin
-2. Right click the game
-3. Click `Properties`
-4. Under the `Game Config` tab, click the `Editor` tab
-5. In the box under the `User Config` section:
-    * If you would like to use the `Wiimote with Nunchuk and Touchpad Support` profile, copy the below template:
-
-            [Controls] 
-            WiimoteProfile1 = Wii_base_nunchuck_with_touchpad
-
-    * If you would like to use the `Wiimote with No Attachment and Touchpad Support` profile, copy the below template:
-
-            [Controls] 
-            WiimoteProfile1 = Wii_no_attachment_with_touchpad
-
-**Photos**
-
-`Wiimote with Nunchuk and Touchpad Support` profile
-
-![How to Configure Wii Games to Use the Trackpad as a Pointer 1](../../assets/how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer-1.png)
-
-`Wiimote with No Attachment and Touchpad Support` profile
-
-![How to Configure Wii Games to Use the Trackpad as a Pointer 2](../../assets/how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer-1.png)
-
-
-***
-
 ### How to Set Game Settings On a Per-Game Basis
 [Back to the Top](#dolphin-table-of-contents)
 
@@ -794,48 +824,154 @@ Example, to use OpenGL for only Super Paper Mario:
         AspectRatio = 2
 
 ***
-### How to Use Riivolution Patches
+
+## Dolphin Unique Controller Configurations
 [Back to the Top](#dolphin-table-of-contents)
-
-**Note:** You will need the base game of the respective Riivolution patch to apply the patch. For example, the Riivolution patch `Newer Super Mario Bros. Wii` requires a copy of the `New Super Mario Bros. Wii` ROM in `Emulation/roms/wii`. 
-
-#### Riivolution Patch - Content
-
-If your Riivolution patch includes additional content, follow the below steps. If not, skip to the next section. 
-
-1. Place your Riivolution content folder in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
-
-**This may not apply to all Riivolution patches, read any attached instructions or the associated website for further help.**
-
-#### Riivolution Patch - XML File
-
-1. Place your Riivolution patch file in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Riivolution/`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
-    * A Riivolution patch file is generally a `.xml` file
-2. Open the Dolphin Emulator 
-3. Right click the base game and select `Start with Riivolution patches...`
-    * <img src="https://user-images.githubusercontent.com/108900299/209005481-c5f7922b-e5b4-4f94-96ab-e3f281648f5d.png" height="300">
-4. Click `Open Riivolution XML...` and select a Riivolution patch
-5. Click `Save as Preset...`
-    * <img src="https://user-images.githubusercontent.com/108900299/209005702-5af85a1e-52cb-4e6a-999b-5a5210acfecc.png" height="300">
-6. Name the preset with a `.json` file extension
-    * The file name of the JSON file is up to you. However, it is recommended you match the JSON file as closely as possible to the Riivolution patch name so Steam ROM Manager and EmulationStation-DE can scrape the appropriate game art or game info
-    * <img src="https://user-images.githubusercontent.com/108900299/209005860-46fa8e50-97d8-4174-ad04-350928e3d789.png" height="300">
-7. Save your preset file with a `.json` file extension to `Emulation/roms/wii`
-    * <img src="https://user-images.githubusercontent.com/108900299/236645287-aceeabe8-c7dc-4770-af5d-ea32ac6aab8f.png" height="300">
-    * If the bottom left box to append `.json` does not exist, you can instead type the full name and add `.json` manually at the end of the full name. For example, `Newer Super Mario Bros. Wii`, type `Newer Super Mario Bros. Wii.json` into the box
-8. Your Riivolution patch will now be playable as a stand-alone game
-    * Parse it through Steam ROM Manager or play it through EmulationStation-DE
 
 ***
 
-**Keep in Mind**
+### How to Configure Wii Games To Use A GameCube Controller
+[Back to the Top](#dolphin-table-of-contents)
 
-* Some Riivolution patches may require additional steps. Read any attached instructions or the associated website for further help. 
-* If a Riivolution patch includes extra content, the `root` directory generally means: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/`. Place any additional content from the patch here. This does not apply to all Riivolution patches, read any attached instructions or the associated website for further help. 
-* Linux is case sensitive. If a patch includes extra content and Dolphin is not identifying it, you may want to read the included XML files and folders to look for any casing mismatches. This does not apply to all Riivolution patches, read any attached instructions or the associated website for further help. 
+- [How to Configure Wii Games To Use A GameCube Controller: Single Player](#how-to-configure-wii-games-to-use-a-gamecube-controller-single-player)
+- [How to Configure Wii Games To Use A GameCube Controller: Multiplayer](#how-to-configure-wii-games-to-use-a-gamecube-controller-multiplayer)
 
+#### How to Configure Wii Games To Use A GameCube Controller: Single Player 
+
+1. Right click a Wii game
+2. Click `Properties`
+3. Click the `Game Config` tab
+4. Click the `Editor` tab
+5. Under `User Config`, enter the following
+
+        [Controls]
+        PadType0 = 6
+        PadProfile1 = GC_base
+        WiimoteSource0 = 0
+
+6. Click OK and your Wii game should now be using a GameCube controller profile
+    * <img src="https://user-images.githubusercontent.com/108900299/213080943-80187386-77db-4918-b8d8-74a648b2f422.png" height="300">
+
+#### How to Configure Wii Games To Use A GameCube Controller: Multiplayer
+
+1. Right click a Wii game
+2. Click `Properties`
+3. Click the `Game Config` tab
+4. Click the `Editor` tab
+5. Under `User Config`, enter the following
+
+        [Controls]
+        PadType0 = 6
+        PadType1 = 6
+        PadType2 = 6
+        PadType3 = 6
+        PadProfile1 = GC_base
+        WiimoteSource0 = 0
+        WiimoteSource1 = 0
+        WiimoteSource2 = 0
+        WiimoteSource3 = 0
+
+6. Click OK and your Wii game should now be using a GameCube controller profile
+
+For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki Page](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)).
+
+***
+
+### How to Configure Wii Games to Use the Trackpad as a Pointer
+
+#### How to Configure Steam Input
+
+**Note:** You do not need to do this section if you are using EmulationStation-DE. You may skip to [How to Apply the Dolphin Trackpad Profile on the Fly](#how-to-apply-the-dolphin-trackpad-profile-on-the-fly).
+
+1. In Game Mode, open a Wii game
+2. Press the `STEAM` button
+3. Open `Controller settings`
+4. Change the `Current Layout` to `Gamepad with Mouse Trackpad`
+
+#### How to Apply the Dolphin Trackpad Profile on the Fly
+
+1. While in game, press `Select` and tilt the `Left Joystick` right until you see `Wii_base_nunchuck_with_touchpad` or `Wii_no_attachment_with_touchpad`
+    * The attachment refers to the Nunchuk. Depending on the game, select the appropriate profile      
+
+**Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Apply the Wii Profile on a Per Game Basis](#how-to-apply-the-wii-profile-on-a-per-game-basis) to learn how. 
+
+#### How to Apply the Wii Profile on a Per Game Basis
+
+1. In Desktop Mode, open Dolphin
+2. Right click the game
+3. Click `Properties`
+4. Under the `Game Config` tab, click the `Editor` tab
+5. In the box under the `User Config` section:
+    * If you would like to use the `Wiimote with Nunchuk and Touchpad Support` profile, copy the below template:
+
+            [Controls] 
+            WiimoteProfile1 = Wii_base_nunchuck_with_touchpad
+
+    * If you would like to use the `Wiimote with No Attachment and Touchpad Support` profile, copy the below template:
+
+            [Controls] 
+            WiimoteProfile1 = Wii_no_attachment_with_touchpad
+
+**Photos**
+
+`Wiimote with Nunchuk and Touchpad Support` profile
+
+![How to Configure Wii Games to Use the Trackpad as a Pointer 1](../../assets/how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer-1.png)
+
+`Wiimote with No Attachment and Touchpad Support` profile
+
+![How to Configure Wii Games to Use the Trackpad as a Pointer 2](../../assets/how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer-1.png)
+
+
+***
+
+### How to Configure Wii Games to Use the Classic Controller
+[Back to the Top](#dolphin-table-of-contents)
+
+#### How to Apply the Classic Profile on the Fly
+
+1. While in game, press `Select` and tilt the `Left Joystick` right until you see `wii_classic_controller`   
+
+**Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Apply the Classic Profile on a Per Game Basis](#how-to-apply-the-classic-profile-on-a-per-game-basis) to learn how. 
+
+#### How to Apply the Classic Profile on a Per Game Basis
+
+1. In Desktop Mode, open Dolphin
+2. Right click the game
+3. Click `Properties`
+4. Under the `Game Config` tab, click the `Editor` tab
+5. In the box under the `User Config` section:
+
+        [Controls] 
+        WiimoteProfile1 = Wii_classic_controller
+
+***
+
+### How to Remove the Unsupported Extension Controller
+[Back to the Top](#dolphin-table-of-contents)
+
+If you open a Wii game and get an error message with something similar to: " Please remove the unsupported extension controller" or "The external extension controller connected to the Wii remote is not compatible with this title.", generally this error is referring to the Nunchuk. 
+
+![How to Remove the Unsupported Extension Controller](../../assets/how-to-remove-the-unsupported-extension-controller.png)
+
+Here's how to **resolve the error** and remove the Nunchuk:
+
+#### How to Remove the Unsupported Extension Controller on the Fly
+
+1. While in game, press `Select` and tilt the `Left Joystick` right until you see `Wii_no_attachment`   
+
+**Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Remove the Unsupported Extension Controller on a Per Game Basis](#how-to-remove-the-unsupported-extension-controller-on-a-per-game-basis) to learn how. 
+
+#### How to Remove the Unsupported Extension Controller on a Per Game Basis
+
+1. In Desktop Mode, open Dolphin
+2. Right click the game
+3. Click `Properties`
+4. Under the `Game Config` tab, click the `Editor` tab
+5. In the box under the `User Config` section:
+
+        [Controls] 
+        WiimoteProfile1 = Wii_no_attachment
 
 ***
 
@@ -883,44 +1019,3 @@ If your Riivolution patch includes additional content, follow the below steps. I
 
 *** 
 
-### How to Set Up GameCube BIOS
-[Back to the Top](#dolphin-table-of-contents)
-
-GameCube BIOS **are not** required to play GameCube games. Adding GameCube BIOS allows you to see the GameCube launch screen when you play GameCube games.
-
-Depending on which region your games are in, select the appropriate BIOS and place in the matching folder below:
-
-**Casing matters**
-
-* Japan BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/JAP/IPL.bin`
-* US BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/IPL.bin`
-* EU BIOS Location: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/EUR/IPL.bin`
-
-After placing your BIOS in the correct place:
-
-1. Open the Dolphin emulator
-2. Open the `Configuration` settings
-3. Click the `GameCube` tab 
-4. Uncheck `Skip Main Menu`
-
-***
-
-### How to Set Up the Wii Menu
-[Back to the Top](#dolphin-table-of-contents)
-
-The Wii Menu **is not** required to play Wii Games.
-
-**To Download**
-
-1. Open the Dolphin emulator
-2. Click `Tools` at the top
-3. Click `Perform System Update`, select a Region
-
-**To Use**
-
-1. Open the Dolphin emulator
-2. Click `Tools`, click `Load Wii System Menu...`
-
-* For further reading: [https://wiki.dolphin-emu.org/index.php?title=Wii_Menu](https://wiki.dolphin-emu.org/index.php?title=Wii_Menu)
-
-***

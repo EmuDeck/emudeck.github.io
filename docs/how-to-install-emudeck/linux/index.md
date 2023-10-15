@@ -14,7 +14,19 @@
 sudo pacman -Sy bash flatpak fuse2 git jq steam unzip zenity     
 ```
 
+### Bazzite
+
+[https://github.com/ublue-os/bazzite](https://github.com/ublue-os/bazzite)
+
+[https://universal-blue.org/images/bazzite/installation/](https://universal-blue.org/images/bazzite/installation/)
+
+No additional prerequisites need to be installed. 
+
+Install EmuDeck through Bazzite's portal. 
+
 ### ChimeraOS
+
+[https://chimeraos.org/](https://chimeraos.org/)
 
 No additional prerequisites need to be installed. For ChimeraOS tweaks to ensure EmuDeck works properly, see [ChimeraOS Tweaks](#chimeraos-tweaks). 
 
@@ -63,6 +75,10 @@ curl -L https://raw.githubusercontent.com/dragoonDorise/EmuDeck/main/install.sh 
 ### Arch
 
 Either use the [Distro Agnostic](#distro-agnostic) guide or use the [AUR Package](https://aur.archlinux.org/packages/emudeck) with the AUR helper of your choice.
+
+### Bazzite
+
+Install EmuDeck through Bazzite's portal. 
 
 ***
 
