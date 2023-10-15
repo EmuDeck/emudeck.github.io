@@ -246,3 +246,15 @@ _This list is not exhaustive_
 
 ***
 
+### How to Contribute to This Page
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+You will need to **create** a GitHub account first.
+
+1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/tools-and-guides.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/tools-and-guides.md)
+2. Click the `Pencil` icon in the top right
+3. Create a new section below the most recently added section under the respective category
+    * Your section will automatically be added to the Table of Contents
+4. Write your section
+
+***
