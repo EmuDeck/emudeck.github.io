@@ -253,8 +253,16 @@ You will need to **create** a GitHub account first.
 
 1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/tools-and-guides.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/tools-and-guides.md)
 2. Click the `Pencil` icon in the top right
-3. Create a new section below the most recently added section under the respective category
+3. Create a new section header below the most recently added section under the respective category using three `###` and the name of the section after the three `###`
+	* For example, `### My Great Guide to Unlocking the Secrets of the Steam Deck!`
     * Your section will automatically be added to the Table of Contents
-4. Write your section
+4. Write your section under your newly created header
+5. Once you are finished making your changes, click the `Commit changes...` button in the top right
+    * ![How to Contribute to the Wiki 2](../../assets/how-to-contribute-2.png)
+6. You will be prompted to create a Pull Request. Add a little bit of detail about what you added and why
+    * ![How to Contribute to the Wiki 3](../../assets/how-to-contribute-3.png)
+    * You will not see the option to `Commit directly to the main branch` so do not worry about inadvertently making any changes
+7. Submit your Pull Request
+8. Once your Pull Request is reviewed, it will be merged and any of your changes will automatically be deployed to this page
 
 ***
