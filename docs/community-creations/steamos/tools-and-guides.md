@@ -246,7 +246,7 @@ _This list is not exhaustive_
 
 ***
 
-### How to Contribute to This Page
+## How to Contribute to This Page
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 You will need to **create** a GitHub account first.
