@@ -249,7 +249,7 @@ _This list is not exhaustive_
 ## How to Contribute to This Page
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-You will need to **create** a GitHub account first.
+You will need to **create** a GitHub account first. To sign up for GitHub, see [https://github.com/signup](https://github.com/signup).
 
 1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/tools-and-guides.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/tools-and-guides.md)
 2. Click the `Pencil` icon in the top right
