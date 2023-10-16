@@ -14,13 +14,13 @@ Send a quick message on EmuDeck's Discord stating what needs to be edited or add
 
 ### Option 2: Opening an Issue
 
-You will need to create a GitHub account to open an issue.
+You will need to create a GitHub account to open an issue. To sign up for GitHub, see [https://github.com/signup](https://github.com/signup).
 
 Once you have created an account, you can visit this page: [https://github.com/EmuDeck/emudeck.github.io/issues](https://github.com/EmuDeck/emudeck.github.io/issues) and submit an issue. 
 
 ### Option 3: Editing the Markdown files
 
-You will need to create a GitHub account to open a Pull Request.
+You will need to create a GitHub account to open a Pull Request. To sign up for GitHub, see [https://github.com/signup](https://github.com/signup).
 
 Markdown is a fairly straightforward markup language. If you are not familiar, you can take a quick look at the documents in the `docs` folder. 
 
