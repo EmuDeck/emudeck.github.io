@@ -87,6 +87,12 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 ### Xenia Folder Locations
 [Back to the Top](#xenia-table-of-contents)
 
+These file locations apply regardless of where you chose to install EmuDeck (to your internal SSD, to your SD Card, or elsewhere). Some emulator configuration files will be located on the internal SSD as listed below. 
+
+`$HOME` refers to your home folder. If you are on a Steam Deck, this folder will be named `/home/deck` (you will likely not see `deck` in the file path when navigating using the file manager). 
+
+Paths beginning with `Emulation/..` correspond to your EmuDeck install location. If you installed on an SD Card, your path may be `/run/media/mmcblk0p1/Emulation/roms/..`. If you installed on your internal SSD, your path may be `/home/deck/Emulation/roms/..`
+
 `Emulation/roms/xbox360`
 
 ```
