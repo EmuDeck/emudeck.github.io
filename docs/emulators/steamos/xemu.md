@@ -157,6 +157,16 @@ xemu/
 * .iso (xiso formatted)
     * [How to Convert ROMs to XISO Format](#how-to-convert-roms-to-xiso-format)
 
+#### What is the xiso format?
+
+From Xemu:
+
+"xemu requires game discs to be in the form of xiso images. These are generally saved with a .iso extension, but are not the same as typical ISO images." 
+
+Put simply, xiso ROMs are ISOs stripped of their video partition. 
+
+Typically, you will start with an ISO ROM that has an `.iso` file extension. In order to use this ROM in Xemu, you will need to select one of the methods in the [How to Convert ROMs to XISO Format](#how-to-convert-roms-to-xiso-format) section to convert it to the xiso ROM format. 
+
 ***
 
 ## Xemu Common Issues
