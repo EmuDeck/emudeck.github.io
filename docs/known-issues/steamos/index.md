@@ -11,9 +11,7 @@
 
 ## PCSX2 - not launching - October 26th, 2023
 
-A recent update of PCSX2 also included updates to its required libraries. With the stable version of SteamOS nearly being a year old, SteamOS' libraries are now outdated, causing PCSX2 to not work. These libraries will be updated as part of the SteamOS 3.5 update, which will allow new versions of PCSX2 to work again. If you are okay with SteamOS being unstable, you may update to SteamOS Preview to fix PCSX2. There is no current timeline of when SteamOS 3.5 will release officially.
-
-However, if you prefer to stay on Stable SteamOS, you may revert to an older version of PCSX2 to continue playing.
+A recent update of PCSX2 also included updates to its required libraries. With the stable version of SteamOS being nearly a year old, SteamOS' libraries are now outdated. Without these updates libraries, newer versions of PCSX2 will not work. In order to continue using PCSX2 on Stable SteamOS, you will need to revert to an older version to continue playing.
 
 **Here's How**
 
