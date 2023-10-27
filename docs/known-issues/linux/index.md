@@ -1,2 +1,2 @@
-# Common Issues: EmuDeck for Linux
+# Known Issues: EmuDeck for Linux
  

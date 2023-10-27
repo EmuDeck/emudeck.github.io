@@ -1,4 +1,4 @@
-# Common Issues: EmuDeck for SteamOS
+# Known Issues: EmuDeck for SteamOS
 
 **Note:** Each section of this page includes the date it was added to this page in its header. 
 
@@ -11,15 +11,21 @@
 
 ## PCSX2 - not launching - October 26th, 2023
 
-If you recently updated PCSX2 and it no longer launches, this is because SteamOS' libraries are outdated. These libraries will be updated as part of the SteamOS 3.5 update. If you are okay with SteamOS being unstable, you may update it to Preview to fix PCSX2. However, if you prefer to stay on Stable SteamOS, you may revert to an older version of PCSX2 to continue playing.
+A recent update of PCSX2 also included updates to its required libraries. With the stable version of SteamOS nearly being a year old, SteamOS' libraries are now outdated, causing PCSX2 to not work. These libraries will be updated as part of the SteamOS 3.5 update, which will allow new versions of PCSX2 to work again. If you are okay with SteamOS being unstable, you may update to SteamOS Preview to fix PCSX2. There is no current timeline of when SteamOS 3.5 will release officially.
+
+However, if you prefer to stay on Stable SteamOS, you may revert to an older version of PCSX2 to continue playing.
 
 **Here's How**
 
-1. Download `pcsx2-v1.7.5129-linux-appimage-x64-Qt.AppImage` from: [https://github.com/PCSX2/pcsx2/releases/tag/v1.7.5129](https://github.com/PCSX2/pcsx2/releases/tag/v1.7.5129) your `/home/deck/Downloads` folder
+1. Download `pcsx2-v1.7.5129-linux-appimage-x64-Qt.AppImage` from: [https://github.com/PCSX2/pcsx2/releases/tag/v1.7.5129](https://github.com/PCSX2/pcsx2/releases/tag/v1.7.5129) to your `/home/deck/Downloads` folder
 2. Rename `pcsx2-v1.7.5129-linux-appimage-x64-Qt.AppImage` to `pcsx2-Qt.AppImage`
 3. Move the downloaded emulator from Step 1 to `/home/deck/Applications` and overwrite the current `pcsx2-Qt.AppImage` file
 4. Right click `pcsx2-Qt.AppImage`, click `Properties`, click `Permissions`, check `Is executable`
 5. Your games will now launch using `v1.7.5129`, stay on this version until SteamOS 3.5 is released
+
+Follow [https://store.steampowered.com/news/app/1675200](https://store.steampowered.com/news/app/1675200) for news on SteamOS updates. Look for articles titled `Steam Deck OS #.#.# Update: Date`. As an example, the latest SteamOS Stable update: [https://store.steampowered.com/news/app/1675200/view/3687939575938360686](https://store.steampowered.com/news/app/1675200/view/3687939575938360686). 
+
+***
 
 ## DuckStation - audio not working - September 16th, 2023
 

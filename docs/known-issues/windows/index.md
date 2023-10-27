@@ -1,4 +1,4 @@
-# Common Issues: EmuDeck for Windows
+# Known Issues: EmuDeck for Windows
 
 ---
 
