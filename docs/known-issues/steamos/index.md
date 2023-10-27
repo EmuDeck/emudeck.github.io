@@ -8,6 +8,19 @@
 
 ***
 
+
+## PCSX2 - not launching - October 26th 2023
+
+If you recently updated PCSX2 and it no longer launches, this is because SteamOS' libraries are outdated. These libraries will be updated as part of the SteamOS 3.5 update. If you are okay with SteamOS being unstable, you may update it to Preview to fix PCSX2. However, if you prefer to stay on Stable SteamOS, you may revert to an older version of PCSX2 to continue playing.
+
+**Here's How**
+
+1. Download `pcsx2-v1.7.5129-linux-appimage-x64-Qt.AppImage` from: [https://github.com/PCSX2/pcsx2/releases/tag/v1.7.5129](https://github.com/PCSX2/pcsx2/releases/tag/v1.7.5129) your `/home/deck/Downloads` folder
+2. Rename `pcsx2-v1.7.5129-linux-appimage-x64-Qt.AppImage` to `pcsx2-Qt.AppImage`
+3. Move the downloaded emulator from Step 1 to `/home/deck/Applications` and overwrite the current `pcsx2-Qt.AppImage` file
+4. Right click `pcsx2-Qt.AppImage`, click `Properties`, click `Permissions`, check `Is executable`
+5. Your games will now launch using `v1.7.5129`, stay on this version until SteamOS 3.5 is released
+
 ## DuckStation - audio not working - September 16th, 2023
 
 The September 16th update of the DuckStation Flatpak did not have working audio. If you have not updated DuckStation in a while and the emulator does not have sound, you will need to open Discover in Desktop Mode and update DuckStation. RetroAcheivements will also fully work on the latest versions of DuckStation. 
