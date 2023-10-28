@@ -11,7 +11,7 @@
 
 ## PCSX2 - not launching - October 26th, 2023
 
-**Note:** The below is **irrelevant**. Update PCSX2 to the latest version. A workaround has been included in the emulator to ensure PCSX2 works on systems with older libraries. You **do not** need to revert PCSX2 to an older version. The below will be kept to explain specifically what happened. 
+**Note:** The information below is **now irrelevant**. Update PCSX2 to the latest version. A workaround has been included in the emulator to ensure PCSX2 works on systems with older libraries. You **do not** need to revert PCSX2 to an older version. The below will be kept to explain specifically what happened. 
 
 **You do not** need to revert PCSX2 to an older version. 
 
