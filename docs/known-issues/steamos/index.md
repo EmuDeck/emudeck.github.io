@@ -11,7 +11,7 @@
 
 ## PCSX2 - not launching - October 26th, 2023
 
-A recent update of PCSX2 also included updates to its required libraries. With the stable version of SteamOS being nearly a year old, SteamOS' libraries are now outdated. Without these updates libraries, newer versions of PCSX2 will not work. In order to continue using PCSX2 on Stable SteamOS, you will need to revert to an older version to continue playing.
+A recent update of PCSX2 also included updates to its required libraries. With the stable version of SteamOS being nearly a year old, SteamOS' libraries are now outdated. Without these updated libraries, newer versions of PCSX2 will not work. In order to continue using PCSX2 on Stable SteamOS, you will need to revert to an older version to continue playing.
 
 **Here's How**
 
@@ -19,9 +19,9 @@ A recent update of PCSX2 also included updates to its required libraries. With t
 2. Rename `pcsx2-v1.7.5129-linux-appimage-x64-Qt.AppImage` to `pcsx2-Qt.AppImage`
 3. Move the downloaded emulator from Step 1 to `/home/deck/Applications` and overwrite the current `pcsx2-Qt.AppImage` file
 4. Right click `pcsx2-Qt.AppImage`, click `Properties`, click `Permissions`, check `Is executable`
-5. Your games will now launch using `v1.7.5129`, stay on this version until SteamOS 3.5 is released
+5. Your games will now launch using `v1.7.5129`, stay on this version for the foreseeable future
 
-Follow [https://store.steampowered.com/news/app/1675200](https://store.steampowered.com/news/app/1675200) for news on SteamOS updates. Look for articles titled `Steam Deck OS #.#.# Update: Date`. As an example, the latest SteamOS Stable update: [https://store.steampowered.com/news/app/1675200/view/3687939575938360686](https://store.steampowered.com/news/app/1675200/view/3687939575938360686). 
+**Note:** Although SteamOS Preview (SteamOS 3.5 as of October 26th, 2023) does have slightly more updated libraries than SteamOS Stable (SteamOS 3.4 as of October 26th, 2023), these libraries are still too old for the latest versions of PCSX2. It is uncertain whether or not a SteamOS 3.5 dot release (Ex - SteamOS 3.5.1) or SteamOS 3.6 will include the prequisite libraries for the latest version of PCSX2 to run. 
 
 ***
 
