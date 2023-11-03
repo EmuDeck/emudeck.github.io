@@ -21,6 +21,8 @@ Quickstart Guide: [https://vita3k.org/quickstart.html](https://vita3k.org/quicks
 
 2. [Vita3K Tips and Tricks](#vita3k-tips-and-tricks)
     - [How to Configure Vita3K to Work With EmulationStation-DE](#how-to-configure-vita3k-to-work-with-emulationstation-de)
+    - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
+
 
 ***
 
@@ -206,5 +208,74 @@ Vita3K/
 7. Your game should now show up in and launch directly from EmulationStation-DE
 
 For additional detail, read EmulationStation-DE's section on Vita3K: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-vita](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-vita)
+
+***
+
+### How to Configure Gyro With External Controllers
+[Back to the Top](#citra-table-of-contents)
+
+**Supported Games**
+
+_This list is not comprehensive_
+
+* Assassin's Creed: Liberation
+* Borderlands 2 
+* Chronovolt
+* Criminal Girls 2: Party Favors
+* Gravity Rush
+* Killzone Mercenary 
+* Little Deviants
+* Plants vs. Zombies
+* Resident Evil: Revelations 2
+* Sonic & All-Stars Racing: Transformed
+* Super Stardust Delta
+* Uncharted Golden Abyss
+* VitaQuake
+
+#### Desktop Mode
+
+1. Switch to Desktop Mode
+2. Exit out of Steam
+    * You may exit out of Steam a couple of different ways:
+        * Right click the `Steam` icon in your taskbar and click `Exit Steam`
+        * Open Steam, click the `Steam` button in the top left, click `Exit`
+        * Open a terminal (Konsole) and enter `killall -9 steam`
+        * Do note that clicking the the `X` button in the top right of the Steam window **will not** exit out of Steam
+    * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
+    * You may also connect an external keyboard and mouse
+2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
+3. Open Vita3K  
+4. Click `Controls` at the top, click `Controllers`
+5. Make sure your external controller is listed here and that you see `Gamepad has motion support` at the bottom of this screen
+    * ![Vita3K: How to Configure Gyro With External Controllers](../../assets/vita3k-how-to-configure-gyro-with-external-controllers.png)
+6. Close out of the controller screen and Vita3K
+7. Switch to `Game Mode`
+
+#### Game Mode
+
+1. In Game Mode, connect your controller
+2. Select your PlayStation Vita game 
+3. On the `Play` screen, select the `Controller` icon to the right of the screen 
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+4. Select your controller tab at the top
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+5. Click the `Gear` icon to the right, and click `Disable Steam Input`
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
+    * You may need to restart first for this setting to properly apply
+6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
+
+#### Post-Configuration
+
+To restore the default Steam Deck controls:
+
+1. Select your PlayStation Vita game 
+2. On the `Play` screen, select the `Controller` icon to the right of the screen 
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+3. Select your controller tab at the top
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+4. Click the `Gear` icon to the right, and click `Enable Steam Input`
+    * You may need to restart first for this setting to properly apply
+5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
 
 ***
