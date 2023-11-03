@@ -376,6 +376,31 @@ Gyro for Yuzu requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via E
 
 Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) to learn how to install and utilize SteamDeckGyroDSU. 
 
+#### How to Diagnose Gyro
+
+Gyro with Yuzu on the Steam Deck can be a little finnicky. Prior to following the steps below, make sure you have already tried resetting Yuzu's configurations to EmuDeck's defaults in the EmuDeck application. 
+If that still does not resolve the issue, you can take a look in the Yuzu settings and try to to set the gyro controls yourself. 
+
+**Here's How**
+
+1. Switch to Desktop Mode
+2. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
+    * You may also find this menu by opening `System Settings` and clicking `Display and Monitor`
+3. Click the `Upside Down` configuration under `Orientation`
+    * This setting will switch your Steam Deck to "Portrait Mode", hold your Steam Deck sideways for this section to navigate the various settings
+4. Open Yuzu
+6. Click `Emulation` at the top, click `Configure`
+7. Click `Controls` on the left
+8. Make sure the `emudeck` profile is selected in the `Profile` drop-down menu in the top right
+9. Under `Motion 1` at the bottom, click `[Not Set]` or `sdl` and shake your Steam Deck
+10. Click `OK` in the bottom right
+11. Exit out of Yuzu
+12. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
+    * You may also find this menu by opening `System Settings` and clicking `Display and Monitor`
+13. Click the `90 Counterclockwise` configuration under `Orientation`
+14. Switch to `Game Mode` and test gyro controls
+    * Make sure you have already read the instructions on the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) page to learn how to install and utilize SteamDeckGyroDSU in Game Mode
+
 ***
 
 ### How to Configure Gyro With External Controllers
@@ -397,17 +422,19 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 3. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
     * You may also find this menu by opening `System Settings` and clicking `Display and Monitor`
 4. Click the `Upside Down` configuration under `Orientation`
+    * This setting will switch your Steam Deck to "Portrait Mode", hold your Steam Deck sideways for this section to navigate the various settings
 5. Open Yuzu
 6. Click `Emulation` at the top, click `Configure`
 7. Click `Controls` on the left
 8. Under `Input Device`, select your external controller
 9. Under `Motion 1` at the bottom, click `[Not Set]` or `sdl` and shake your controller
 10. (Optional), you may also choose to save your layout as a unique profile. With this profile, you can choose to apply it on a per-game basis
-11. Exit out of Yuzu
-12. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
+11. Click `OK` in the bottom right
+12. Exit out of Yuzu
+13. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
     * You may also find this menu by opening `System Settings` and clicking `Display and Monitor`
-13. Click the `90 Counterclockwise` configuration under `Orientation`
-14. Switch to `Game Mode`
+14. Click the `90 Counterclockwise` configuration under `Orientation`
+15. Switch to `Game Mode`
 
 #### Game Mode
 
@@ -431,8 +458,11 @@ To restore the default Steam Deck controls:
 1. Open Yuzu
 2. Click `Emulation` at the top, click `Configure`
 3. Click `Controls` on the left
+4. Under the `Profile` drop-down menu in the top right, select `emudeck`
+    * The EmuDeck configured controls should now auto-populate
 4. Select `Steam Virtual Gamepad 0` under `Input Device`
-5. Exit out of Yuzu
+5. Click `OK` in the bottom right
+6. Exit out of Yuzu
 
 ***
 
