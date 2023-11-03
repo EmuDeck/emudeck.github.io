@@ -312,6 +312,16 @@ This section is strictly referring to local multiplayer. mGBA multiplayer on the
 6. Click `OK`
 7. Click `Tools`, `Game Pak Sensors`, and test your controller
 
+#### Post-Configuration
+
+To restore the default Steam Deck controls:
+
+1. Open mGBA in Desktop Mode
+2. Click `Tools`
+3. Click `Settings`
+4. Click `Controllers` on the left
+5. Select `Microsoft X-Box 360 pad 0` in the drop-down menu
+
 
 ***
 
@@ -346,6 +356,17 @@ This section is strictly referring to local multiplayer. mGBA multiplayer on the
 5. Select your controller in the drop-down menu
 6. Click `OK`
 7. Click `Tools`, `Game Pak Sensors`, and test your controller
+
+#### Post-Configuration
+
+To restore the default Steam Deck controls:
+
+1. Open mGBA in Desktop Mode
+2. Click `Tools`
+3. Click `Settings`
+4. Click `Controllers` on the left
+5. Select `Microsoft X-Box 360 pad 0` in the drop-down menu
+
 
 ***
 
