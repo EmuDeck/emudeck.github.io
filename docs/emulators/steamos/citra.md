@@ -277,7 +277,7 @@ To restore the default Steam Deck controls:
 4. To the right of `Profile`, select `SD-Default` in the drop-down menu
 5. Click `OK` and exit out of Citra
 
-To restore Steam Input:
+(Optional) To restore Steam Input:
 
 1. Select your Nintendo 3DS game 
 2. On the `Play` screen, select the `Controller` icon to the right of the screen 

@@ -453,7 +453,7 @@ To restore the default Steam Deck controls:
 5. Select `Wii_base_nunchuck` under `Profile` and click `Load`
 6. Click `Close` and exit out of Dolphin
 
-To restore Steam Input:
+(Optional) To restore Steam Input:
 
 1. Select your Wii game 
 2. On the `Play` screen, select the `Controller` icon to the right of the screen 

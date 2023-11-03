@@ -269,6 +269,10 @@ _This list is not comprehensive_
 
 To restore the default Steam Deck controls:
 
+Once you disconnect your controller, your Steam Deck controls should work again. If you would like your controller to remain connected, you may need to re-enable Steam Input for your controller so you can use the `Re-order Controllers` feature.
+
+**How to Re-Enable Steam Input**
+
 1. Select your PlayStation Vita game 
 2. On the `Play` screen, select the `Controller` icon to the right of the screen 
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">

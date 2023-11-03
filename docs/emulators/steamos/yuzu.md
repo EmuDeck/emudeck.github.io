@@ -470,7 +470,7 @@ To restore the default Steam Deck controls:
 5. Click `OK` in the bottom right
 6. Exit out of Yuzu
 
-To restore Steam Input:
+(Optional) To restore Steam Input:
 
 1. Select your Nintendo Switch game 
 2. On the `Play` screen, select the `Controller` icon to the right of the screen 

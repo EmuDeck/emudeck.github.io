@@ -336,7 +336,7 @@ To restore the default Steam Deck controls:
 4. Select `SDL` under `Handlers`
 5. Click `Save`, and exit out of RPCS3
 
-To restore Steam Input:
+(Optional) To restore Steam Input:
 
 1. Select your PlayStation 3 game 
 2. On the `Play` screen, select the `Controller` icon to the right of the screen 

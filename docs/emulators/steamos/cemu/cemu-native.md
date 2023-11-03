@@ -445,7 +445,7 @@ To switch back to the Steam Deck controls, select the `Deck-Gamepad-Gyro` profil
 
 <img src="https://github-production-user-asset-6210df.s3.amazonaws.com/108900299/242173410-54e3d6fb-a38b-499e-ba1a-f65e809ef439.png" height="300">
 
-To restore Steam Input:
+(Optional) To restore Steam Input:
 
 1. Select your Nintendo Wii U game 
 2. On the `Play` screen, select the `Controller` icon to the right of the screen 
