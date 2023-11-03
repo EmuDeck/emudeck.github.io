@@ -261,13 +261,21 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 ### Perfect Dark
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-#### How to Compile Perfect Dark on the Steam Deck
-
 #### What is This Decompilation?
 
 `A work-in-progress port of the Perfect Dark decompilation to modern platforms.`
 
 Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs/perfect_dark)
+
+#### Installing Prerequisites
+
+1. [Set up a Distrobox](#how-to-set-up-distrobox)
+2. Enter the distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+3. Enter the following, one line at a time:
+    * `sudo dpkg --add-architecture i386`
+    * `sudo apt-get update`
+4. Enter the following: 
+    * `sudo apt-get install git gcc g++ gcc-multilib g++-multilib make libsdl2-dev zlib1g-dev libsdl2-dev:i386 zlib1g-dev:i386`
 
 #### Setting Up Perfect Dark
 
@@ -276,21 +284,34 @@ Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs
 1. Download the `i686-linux` version from [https://github.com/fgsfdsfgs/perfect_dark#download](https://github.com/fgsfdsfgs/perfect_dark#download) to your `Downloads` folder
 2. Right click `pd-i686-linux.zip`, click `Extract archive here, autodetect subfolder`
 3. Move the newly extracted `pd-i686-linux` folder to `/home/deck/Applications`
-4. Place your `Perfect Dark` ROM in `/home/deck/Applications/pd-i686-linux/data`
+4. Right click `pd`
+5. Click `Properties`
+6. Click `Permissions`
+7. Check `Is Executable`
+8. Place your `Perfect Dark` ROM in `/home/deck/Applications/pd-i686-linux/data`
     * MD5 Hash: `e03b088b6ac9e0080440efed07c1e40f`
     * To locate your MD5 Hash, right click your ROM, click `Properties`, click `Checksums`, click `Calculate` to the left of `MD5` and compare it to the above hash. If it is a match, you have a valid ROM 5
-5. Right click `pd`, click `Add to Steam`
-    * After adding it to `Steam`, you may rename the shortcut
-6. In Desktop Mode still, open `Steam`, and locate your newly added `Perfect Dark` shortcut
-7. Click the `Gear` icon, click `Properties`, `Compatibility`
-8. Check `Force the use of a Steam Play compatibility tool`
-9. Select `Steam Linux Runtime 1.0 (scout)` 
-10. To play `Perfect Dark`, open it through Steam
+9. In order to properly launch Perfect Dark, proceed to the next section
+
+#### How to Launch Perfect Dark
+
+1. Download attached `.sh` file
+    * [https://gist.githubusercontent.com/rawdatafeel/5337756f78b3c42f0a532ff360b85273/raw/dc79b7a5d734e8f0c10b6456080d63f255dfecba/PerfectDark.sh](https://gist.githubusercontent.com/rawdatafeel/5337756f78b3c42f0a532ff360b85273/raw/dc79b7a5d734e8f0c10b6456080d63f255dfecba/PerfectDark.sh)
+    * Right click anywhere on the page, click `Save Page As`
+    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
+2. Place in `/home/deck/Applications`
+    * If you are using EmulationStation-DE or Steam ROM Manager, place in `Emulation/roms/desktop` instead
+        * See [How to Add Decompilations and Reverse Engineered PC Ports to Steam](#how-to-add-decompilations-and-reverse-engineered-pc-ports-to-steam) for instructions
+3. Right click `PerfectDark.sh`
+4. Click `Properties`
+5. Click `Permissions`
+6. Check `Is Executable`
+7. Use `PerfectDark.sh` to open Perfect Dark
 
 #### How to Configure Perfect Dark
 
-1. Open `Perfect Dark` through Steam at least once so it can generate the configuration file 
-2. Open the `/home/deck/.local/share/perfectdark` folder
+1. Open `PerfectDark.sh` at least once so it can generate the `pd.ini` file 
+2. Open the `/home/deck/.local/share/perfectdark/` folder
     * `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 3. Right click `pd.ini`, click `Open with Kate` or a text editor of your choice
 4. Customize settings
@@ -705,6 +726,8 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
     * Right click anywhere on the page, click `Save Page As`
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
+    * If you are using EmulationStation-DE or Steam ROM Manager, place in `Emulation/roms/desktop` instead
+        * See [How to Add Decompilations and Reverse Engineered PC Ports to Steam](#how-to-add-decompilations-and-reverse-engineered-pc-ports-to-steam) for instructions
 3. Right click `SuperMario64Plus.sh`
 4. Click `Properties`
 5. Click `Permissions`
@@ -1213,11 +1236,26 @@ This section will use a simple script file to launch the various decompilations 
     * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/b3ea9d23cfa37cad6d6e7a0d4b3ab26e408441e4/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/b3ea9d23cfa37cad6d6e7a0d4b3ab26e408441e4/SuperMario64Plus.sh)
     * Right click anywhere on the page, click `Save Page As`
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
-2. Place in `/home/deck/Applications`
+2. Place in `Emulation/roms/desktop`
 3. Right click `SuperMario64Plus.sh`
 4. Click `Properties`
 5. Click `Permissions`
 6. Check `Is Executable`
+
+**For the following games:**
+
+- [Perfect Dark](#perfect-dark)
+
+1. Download attached `.sh` file
+    * [https://gist.githubusercontent.com/rawdatafeel/5337756f78b3c42f0a532ff360b85273/raw/dc79b7a5d734e8f0c10b6456080d63f255dfecba/PerfectDark.sh](https://gist.githubusercontent.com/rawdatafeel/5337756f78b3c42f0a532ff360b85273/raw/dc79b7a5d734e8f0c10b6456080d63f255dfecba/PerfectDark.sh)
+    * Right click anywhere on the page, click `Save Page As`
+    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
+2. Place in `Emulation/roms/desktop`
+3. Right click `PerfectDark.sh`
+4. Click `Properties`
+5. Click `Permissions`
+6. Check `Is Executable`
+7. Use `PerfectDark.sh` to open Perfect Dark
 
 **For the following games:**
 
@@ -1380,6 +1418,30 @@ This section specifically applies to:
     * You may need to do `make clean` first using a terminal in the root of the project folder
     * You may reference the various sections to re-build the game. The steps will be identical 
 
+This section specifically applies to: 
+
+- [Perfect Dark](#perfect-dark)
+- [Ship of Harkinian](#ship-of-harkinian-ocarina-of-time)
+
+Perfect Dark 
+
+1. Download the `i686-linux` version from [https://github.com/fgsfdsfgs/perfect_dark#download](https://github.com/fgsfdsfgs/perfect_dark#download) to your `Downloads` folder
+2. Right click `pd-i686-linux.zip`, click `Extract archive here, autodetect subfolder`
+3. Move the newly extracted `pd-i686-linux` folder to `/home/deck/Applications`
+4. Overwrite the current `pd` file
+5. Right click `pd`
+6. Click `Properties`
+7. Click `Permissions`
+8. Check `Is Executable`
+
+Ship of Harkinian
+
+1. Download the latest `Linux-Performance` version of `Ship of Harkinian`: [https://github.com/HarbourMasters/Shipwright/releases](https://github.com/HarbourMasters/Shipwright/releases) to the folder you created in Step 1
+    * Download the `SoH-VERSION-NAME-Linux-Performance.zip` file
+2. Right click the downloaded zip file and click `Extract archive here, detect subfolder`
+3. Move the `soh.AppImage` to `/home/deck/Applications/ShipofHarkinian`
+4. Overwrite the current `soh.AppImage` file
+5. Right click `soh.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
 
 ***
 
