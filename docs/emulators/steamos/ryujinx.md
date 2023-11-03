@@ -289,6 +289,17 @@ To restore the default Steam Deck controls:
 6. Click `Load` on the right side of the screen
 7. Click `Save` and exit out of Ryujinx
 
+To restore Steam Input:
+
+1. Select your Nintendo Switch game 
+2. On the `Play` screen, select the `Controller` icon to the right of the screen 
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
+3. Select your controller tab at the top
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
+4. Click the `Gear` icon to the right, and click `Enable Steam Input`
+    * You may need to restart first for this setting to properly apply
+5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
+
 ***
 
 ### How to Optimize Performance (Power Tools)
