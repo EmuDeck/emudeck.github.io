@@ -383,23 +383,29 @@ If that still does not resolve the issue, you can take a look in the Yuzu settin
 
 **Here's How**
 
-1. Switch to Desktop Mode
-2. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
-    * You may also find this menu by opening `System Settings` and clicking `Display and Monitor`
-3. Click the `Upside Down` configuration under `Orientation`
-    * This setting will switch your Steam Deck to "Portrait Mode", hold your Steam Deck sideways for this section to navigate the various settings
-4. Open Yuzu
-6. Click `Emulation` at the top, click `Configure`
-7. Click `Controls` on the left
-8. Make sure the `emudeck` profile is selected in the `Profile` drop-down menu in the top right
-9. Under `Motion 1` at the bottom, click `[Not Set]` or `sdl` and shake your Steam Deck
-10. Click `OK` in the bottom right
-11. Exit out of Yuzu
-12. Right click anywhere on the blank space on your desktop and click `Configure Display Settings`
-    * You may also find this menu by opening `System Settings` and clicking `Display and Monitor`
-13. Click the `90 Counterclockwise` configuration under `Orientation`
-14. Switch to `Game Mode` and test gyro controls
-    * Make sure you have already read the instructions on the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) page to learn how to install and utilize SteamDeckGyroDSU in Game Mode
+1. Add Yuzu to Steam so you may open it in Game Mode  
+    * You may add Yuzu to Steam by using the `Emulators` parser in Steam ROM Manager
+2. Install and configure gyro for the Yuzu shortcut in Game Mode
+    * Read the instructions on the [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) page to learn how to install and utilize SteamDeckGyroDSU in Game Mode
+3. In Game Mode, on the Yuzu shortcut, click the `Gear` icon
+4. Select `Properties`
+5. Scroll down to `Game Resolution`
+6. Change it to `3840x2160`
+7. Enable `Set resolution for internal and external display`
+8. In Game Mode, open Yuzu
+9. Click `Emulation` at the top, click `Configure`
+10. Click `Controls` on the left
+11. Make sure the `emudeck` profile is selected in the `Profile` drop-down menu in the top right
+12. Under `Motion 1` at the bottom, click `[Not Set]` or `sdl` and shake your Steam Deck
+13. Click `OK` in the bottom right
+14. Exit out of Yuzu
+15. In Game Mode, on the Yuzu shortcut, click the `Gear` icon
+16. Select `Properties`
+17. Scroll down to `Game Resolution`
+18. Change it to `Default`
+19. Disable `Set resolution for internal and external display`
+20. Test gyro on a Nintendo Switch game using Yuzu in Game Mode
+    * You may do so by opening the game through Yuzu directly, adding the game as a shortcut through Steam ROM Manager, or opening the game through EmulationStation-DE
 
 ***
 
