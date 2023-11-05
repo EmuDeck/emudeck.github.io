@@ -1665,86 +1665,86 @@ Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#h
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/7b816803-7bd4-4758-bb04-140d447e4aa1" height="300"> 
 3. Paste the below block of text between the `},` and the `]`
     
-    {
-        "parserType": "Glob",
-        "configTitle": "Sega Model 2 - Model 2 Emulator",
-        "steamDirectory": "${steamdirglobal}",
-        "steamCategory": "${Sega Model 2}",
-        "romDirectory": "${romsdirglobal}/model2/roms",
-        "executableArgs": "\"${fileName}\"",
-        "executableModifier": "\"${exePath}\"",
-        "startInDirectory": "",
-        "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
-        "imageProviders": [
-            "SteamGridDB"
-        ],
-        "onlineImageQueries": "${${fuzzyTitle}}",
-        "imagePool": "${fuzzyTitle}",
-        "userAccounts": {
-            "specifiedAccounts": ""
-        },
-        "executable": {
-            "path": "/run/media/mmcblk0p1/Emulation/tools/launchers/model-2.sh",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserInputs": {
-            "glob": "${title}@(.zip|.ZIP)"
-        },
-        "titleFromVariable": {
-            "limitToGroups": "${MAME}",
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "tryToMatchTitle": true
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
-        },
-        "imageProviderAPIs": {
-            "SteamGridDB": {
-                "nsfw": false,
-                "humor": false,
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": [],
-                "imageMotionTypes": [
-                    "static"
-                ]
+            {
+                "parserType": "Glob",
+                "configTitle": "Sega Model 2 - Model 2 Emulator",
+                "steamDirectory": "${steamdirglobal}",
+                "steamCategory": "${Sega Model 2}",
+                "romDirectory": "${romsdirglobal}/model2/roms",
+                "executableArgs": "\"${fileName}\"",
+                "executableModifier": "\"${exePath}\"",
+                "startInDirectory": "",
+                "titleModifier": "${fuzzyTitle}",
+                "fetchControllerTemplatesButton": null,
+                "removeControllersButton": null,
+                "imageProviders": [
+                    "SteamGridDB"
+                ],
+                "onlineImageQueries": "${${fuzzyTitle}}",
+                "imagePool": "${fuzzyTitle}",
+                "userAccounts": {
+                    "specifiedAccounts": ""
+                },
+                "executable": {
+                    "path": "/run/media/mmcblk0p1/Emulation/tools/launchers/model-2.sh",
+                    "shortcutPassthrough": false,
+                    "appendArgsToExecutable": true
+                },
+                "parserInputs": {
+                    "glob": "${title}@(.zip|.ZIP)"
+                },
+                "titleFromVariable": {
+                    "limitToGroups": "${MAME}",
+                    "caseInsensitiveVariables": false,
+                    "skipFileIfVariableWasNotFound": false,
+                    "tryToMatchTitle": true
+                },
+                "fuzzyMatch": {
+                    "replaceDiacritics": true,
+                    "removeCharacters": true,
+                    "removeBrackets": true
+                },
+                "controllers": {
+                    "ps4": null,
+                    "ps5": null,
+                    "xbox360": null,
+                    "xboxone": null,
+                    "switch_joycon_left": null,
+                    "switch_joycon_right": null,
+                    "switch_pro": null,
+                    "neptune": null
+                },
+                "imageProviderAPIs": {
+                    "SteamGridDB": {
+                        "nsfw": false,
+                        "humor": false,
+                        "styles": [],
+                        "stylesHero": [],
+                        "stylesLogo": [],
+                        "stylesIcon": [],
+                        "imageMotionTypes": [
+                            "static"
+                        ]
+                    }
+                },
+                "defaultImage": {
+                    "tall": "",
+                    "long": "",
+                    "hero": "",
+                    "logo": "",
+                    "icon": "/home/deck/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
+                },
+                "localImages": {
+                    "tall": "",
+                    "long": "",
+                    "hero": "",
+                    "logo": "",
+                    "icon": ""
+                },
+                "parserId": "169890088467987948",
+                "version": 15,
+                "disabled": false
             }
-        },
-        "defaultImage": {
-            "tall": "",
-            "long": "",
-            "hero": "",
-            "logo": "",
-            "icon": "/home/deck/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
-        },
-        "localImages": {
-            "tall": "",
-            "long": "",
-            "hero": "",
-            "logo": "",
-            "icon": ""
-        },
-        "parserId": "169890088467987948",
-        "version": 15,
-        "disabled": false
-    }
 
 4. Open Steam ROM Manager, click the `Settings` button, change the theme to `Classic` or Deck`
 5. Select the `Sega Model 2 - Model 2 Emulator` parser on the left 
@@ -1800,85 +1800,85 @@ After placing ROMs in `Emulation/roms/model3`, open `EmulationStation-DE` in Gam
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/7b816803-7bd4-4758-bb04-140d447e4aa1" height="300"> 
 3. Paste the below block of text between the `},` and the `]`
     
-    {
-        "parserType": "Glob",
-        "configTitle": "Sega Model 3 - Supermodel",
-        "steamDirectory": "${steamdirglobal}",
-        "steamCategory": "${Sega Model 3}",
-        "romDirectory": "${romsdirglobal}/model3",
-        "executableArgs": "run com.supermodel3.Supermodel \"${filePath}\"",
-        "executableModifier": "\"${exePath}\"",
-        "startInDirectory": "",
-        "titleModifier": "${fuzzyTitle}",
-        "fetchControllerTemplatesButton": null,
-        "removeControllersButton": null,
-        "imageProviders": [
-            "SteamGridDB"
-        ],
-        "onlineImageQueries": "${${fuzzyTitle}}",
-        "imagePool": "${fuzzyTitle}",
-        "userAccounts": {
-            "specifiedAccounts": ""
-        },
-        "executable": {
-            "path": "/usr/bin/flatpak",
-            "shortcutPassthrough": false,
-            "appendArgsToExecutable": true
-        },
-        "parserInputs": {
-            "glob": "${title}@(.zip|.ZIP)"
-        },
-        "titleFromVariable": {
-            "limitToGroups": "${MAME}",
-            "caseInsensitiveVariables": false,
-            "skipFileIfVariableWasNotFound": false,
-            "tryToMatchTitle": true
-        },
-        "fuzzyMatch": {
-            "replaceDiacritics": true,
-            "removeCharacters": true,
-            "removeBrackets": true
-        },
-        "controllers": {
-            "ps4": null,
-            "ps5": null,
-            "xbox360": null,
-            "xboxone": null,
-            "switch_joycon_left": null,
-            "switch_joycon_right": null,
-            "switch_pro": null,
-            "neptune": null
-        },
-        "imageProviderAPIs": {
-            "SteamGridDB": {
-                "nsfw": false,
-                "humor": false,
-                "styles": [],
-                "stylesHero": [],
-                "stylesLogo": [],
-                "stylesIcon": [],
-                "imageMotionTypes": [
-                    "static"
-                ]
-            }
-        },
-        "defaultImage": {
-            "tall": "",
-            "long": "",
-            "hero": "",
-            "logo": "",
-            "icon": "/home/deck/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
-        },
-        "localImages": {
-            "tall": "",
-            "long": "",
-            "hero": "",
-            "logo": "",
-            "icon": ""
-        },
-        "parserId": "169922790806455368",
-        "version": 15
-    }
+        {
+            "parserType": "Glob",
+            "configTitle": "Sega Model 3 - Supermodel",
+            "steamDirectory": "${steamdirglobal}",
+            "steamCategory": "${Sega Model 3}",
+            "romDirectory": "${romsdirglobal}/model3",
+            "executableArgs": "run com.supermodel3.Supermodel \"${filePath}\"",
+            "executableModifier": "\"${exePath}\"",
+            "startInDirectory": "",
+            "titleModifier": "${fuzzyTitle}",
+            "fetchControllerTemplatesButton": null,
+            "removeControllersButton": null,
+            "imageProviders": [
+                "SteamGridDB"
+            ],
+            "onlineImageQueries": "${${fuzzyTitle}}",
+            "imagePool": "${fuzzyTitle}",
+            "userAccounts": {
+                "specifiedAccounts": ""
+            },
+            "executable": {
+                "path": "/usr/bin/flatpak",
+                "shortcutPassthrough": false,
+                "appendArgsToExecutable": true
+            },
+            "parserInputs": {
+                "glob": "${title}@(.zip|.ZIP)"
+            },
+            "titleFromVariable": {
+                "limitToGroups": "${MAME}",
+                "caseInsensitiveVariables": false,
+                "skipFileIfVariableWasNotFound": false,
+                "tryToMatchTitle": true
+            },
+            "fuzzyMatch": {
+                "replaceDiacritics": true,
+                "removeCharacters": true,
+                "removeBrackets": true
+            },
+            "controllers": {
+                "ps4": null,
+                "ps5": null,
+                "xbox360": null,
+                "xboxone": null,
+                "switch_joycon_left": null,
+                "switch_joycon_right": null,
+                "switch_pro": null,
+                "neptune": null
+            },
+            "imageProviderAPIs": {
+                "SteamGridDB": {
+                    "nsfw": false,
+                    "humor": false,
+                    "styles": [],
+                    "stylesHero": [],
+                    "stylesLogo": [],
+                    "stylesIcon": [],
+                    "imageMotionTypes": [
+                        "static"
+                    ]
+                }
+            },
+            "defaultImage": {
+                "tall": "",
+                "long": "",
+                "hero": "",
+                "logo": "",
+                "icon": "/home/deck/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
+            },
+            "localImages": {
+                "tall": "",
+                "long": "",
+                "hero": "",
+                "logo": "",
+                "icon": ""
+            },
+            "parserId": "169922790806455368",
+            "version": 15
+        }
 
 4. Toggle the `Sega Model 2 - Model 2 Emulator` parser and generate an app list to add your games to Steam
     * **Note:** Your ROMs should be zipped 
