@@ -13,6 +13,7 @@ The guides on this page are not officially supported by EmuDeck. Many require so
     - [Games](#games)
         - [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
         - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
+        - [OpenGOAL: Jak II](#opengoal-jak-ii)
         - [Perfect Dark](#perfect-dark)
         - [Render96ex](#render96ex)
         - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
@@ -212,7 +213,7 @@ No particular reconfiguration is needed for the Steam Deck. The game will defaul
 ### OpenGOAL: Jak and Dexter: The Precursor Legacy
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-#### What is OpenGOAL?
+#### What is OpenGOAL: Jak and Dexter: The Precursor Legacy?
 
 `OpenGOAL is an unofficial port of Jak and Daxter: The Precursor Legacy for Windows and Linux.`
 
@@ -223,40 +224,141 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
 1. In `/home/deck/Applications`, create an `OpenGOAL` folder
-2. Download the latest `tar.gz` from here: [https://github.com/open-goal/jak-project/releases](https://github.com/open-goal/jak-project/releases) and place it in the folder you created in Step 1
-    * Example: Download `opengoal-linux-v0.1.32.tar.gz `
+2. Place your `Jak and Dexter: The Precursor Legacy` ISO directly in the newly created `OpenGOAL` folder
+3. Download the latest `amd64.AppImage` from here: [https://github.com/open-goal/launcher/releases/tag/v2.3.6](https://github.com/open-goal/launcher/releases/tag/v2.3.6) and place it in the folder you created in Step 1
+    * Example: Download `open-goal-launcher_2.3.6_amd64.AppImage` 
         * The version number may be different depending on when you are reading this
-3. Right click the `tar.gz` file and click `Extract archive here`
-    * This will make it easier to apply updates. When an update is released, you can overwrite the files in this directory
-4. Place your `Jak and Daxter: The Precursor Legacy` in `/home/deck/Applications/OpenGOAL`
-    * If you use EmuDeck, you may also place it in `Emulation/roms/ps2`
-
+4. Right click `open-goal-launcher_#.#.#_amd64.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
 
 #### Installing OpenGOAL
 
-1. In `/home/deck/Applications/OpenGOAL`, right click, click `Open Terminal Here`
-2. Enter: `./extractor "NAMEOFJAKANDDEXTERROM"`
-    * If you have spaces, you will need to use quotes around the ROM name
-    * If you placed your ROM in another directory, you will need to enter the full path
-         * Example: If you placed it in your `Emulation/roms/ps2` folder on your SD card, the command will look like the following: `./extractor "/run/media/mmcblk0p1/Emulation/roms/ps2/NAMEOFJAKANDDEXTERROM"`
-3. To play `Jak and Daxter: The Precursor Legacy`, open `/home/deck/Applications/OpenGOAL/gk`
+1. In `/home/deck/Applications/OpenGOAL`, double click `open-goal-launcher_#.#.#_amd64.AppImage` to open it
+2. Click `Set Version`, click the `Download` icon on the row with the latest version at the top
+3. Click the circle icon on the left to select the version and click `Save` in the top right
+4. On the left side, select `Jak and Dexter`
+5. On the bottom right, click `Install via ISO` and select your `Jak and Dexter: The Precursor Legacy` ISO
+6. The application will begin to decompile your game, this may take a few moments 
+7. Once it is finished decompiling, press `Continue`
+8. To play your game, open this launcher, select `Jak and Dexter` on the left, and click `Play` in the bottom right
+    * The launcher does not work in Game Mode. See [How to Add OpenGOAL: Jak and Dexter: The Precursor Legacy to Steam](#how-to-add-opengoal-jak-and-dexter-the-precursor-legacy-to-steam) to learn how to play the game directly in Steam
 
 #### How to Install Custom Textures
 
-**Note:** After placing your custom textures, you will need to run the extractor again, some steps will be identical to the previous section. 
+**Note:** Texture packs need to be zipped in order to be installed from the launcher. This section will use `texture_replacements.zip` from [https://www.youtube.com/watch?v=lX1gBO1INZ4](https://www.youtube.com/watch?v=lX1gBO1INZ4) as an example.
 
-1. Download the custom textures from the pinned comment on this Youtube Video: [https://www.youtube.com/watch?v=lX1gBO1INZ4](https://www.youtube.com/watch?v=lX1gBO1INZ4) to your `/home/deck/Downloads` folder
-2. Right click `texture_replacements.zip` and click `Extract archive here, autodetect subfolder`
-3. Move the extracted `texture_replacements` folder to `/home/deck/Applications/OpenGOAL/data`
-4. In `/home/deck/Applications/OpenGOAL`, right click, click `Open Terminal Here`
-5. Enter: `./extractor "NAMEOFJAKANDDEXTERROM"`
-    * If you have spaces, you will need to use quotes around the ROM name
-    * If you placed your ROM in another directory, you will need to enter the full path
-       * Example: If you placed it in your `Emulation/roms/ps2` folder on your SD card, the command will look like the following: `./extractor "/run/media/mmcblk0p1/Emulation/roms/ps2/NAMEOFJAKANDDEXTERROM"`
-6. Wait
-7. Your custom textures will now be installed
+1. Download the custom textures from the pinned comment on this Youtube Video: [https://www.youtube.com/watch?v=lX1gBO1INZ4](https://www.youtube.com/watch?v=lX1gBO1INZ4) to `/home/deck/Applications/OpenGOAL`
+2. Double click `open-goal-launcher_#.#.#_amd64.AppImage` to open it
+3. On the left side, select `Jak and Dexter`
+4. On the bottom right, select `Features`, `Texture Packs`
+5. Click `Add New Pack` 
+6. Select `texture_replacements.zip` and wait a few moments
+7. Your texture pack will appear below in its own box. Click the red `Disabled` button to enable your texture pack
+8. Click `Apply Texture Changes` in the top right and wait a few moments
+9. Your custom textures will now be installed
+
+#### How to Add OpenGOAL: Jak and Dexter: The Precursor Legacy to Steam
+
+1. In `/home/deck/Applications/OpenGOAL`, right click anywhere in the blank space, click `Create New` > `Text File`
+2. Name it `Jak and Dexter: The Precursor Legacy.sh` 
+3. At the top of the text file, write `#!/bin/bash`
+4. In `/home/deck/Applications/OpenGOAL`, double click `open-goal-launcher_#.#.#_amd64.AppImage` to open it
+5. On the left side, select `Jak and Dexter`
+6. On the bottom right, click the `Gear` icon, and click `Copy Game Executable Command`
+7. In the text file you created in Step 1, right click anywhere below `#!/bin/bash` and click `Paste`
+8. Save the text file and exit out
+9. Right click your newly created text file, click `Properties`, click `Permissions`, check `Is Executable`
+10. Right click the text file, click `Add to Steam`
+    * If you are using EmulationStation-DE or Steam ROM Manager, place in `Emulation/roms/desktop` instead
+        * See [How to Add Decompilations and Reverse Engineered PC Ports to Steam](#how-to-add-decompilations-and-reverse-engineered-pc-ports-to-steam) for further detail
+
+Your text file should look similar to the text below:
+
+Text file name: 
+`Jak and Dexter: The Precursor Legacy.sh`
+Text file contents:
+```
+/home/deck/Applications/OpenGOAL/versions/official/v0.2.0/gk -v --proj-path /home/deck/Applications/OpenGOAL/active/jak1/data --game jak1 -- -boot -fakeiso
+```
 
 ***
+
+### OpenGOAL: Jak II
+
+#### Preface
+
+The folders in this section will be repeated from [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy). If you have already installed Jak and Dexter: The Precursor Legacy, you may use the same folders and launcher to install Jak II. 
+
+#### What is OpenGOAL: Jak II?
+
+`OpenGOAL is an unofficial port of Jak II for Windows and Linux.`
+
+Source: [https://opengoal.dev/](https://opengoal.dev/)
+
+#### Setting up OpenGOAL
+
+**Note:** The following folder locations are recommendations. You may choose a different folder location. 
+
+1. In `/home/deck/Applications`, create an `OpenGOAL` folder
+2. Place your `Jak II` ISO directly in the newly created `OpenGOAL` folder
+3. Download the latest `amd64.AppImage` from here: [https://github.com/open-goal/launcher/releases/tag/v2.3.6](https://github.com/open-goal/launcher/releases/tag/v2.3.6) and place it in the folder you created in Step 1
+    * Example: Download `open-goal-launcher_2.3.6_amd64.AppImage` 
+        * The version number may be different depending on when you are reading this
+4. Right click `open-goal-launcher_#.#.#_amd64.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
+
+#### Installing OpenGOAL
+
+If you already installed OpenGOAL: Jak and Dexter: The Precursor Legacy, you do not need to do Steps 2 and 3 again. 
+
+1. In `/home/deck/Applications/OpenGOAL`, double click `open-goal-launcher_#.#.#_amd64.AppImage` to open it
+2. Click `Set Version`, click the `Download` icon on the row with the latest version at the top
+3. Click the circle icon on the left to select the version and click `Save` in the top right
+4. On the left side, select `Jak II`
+5. On the bottom right, click `Install via ISO` and select your `Jak II` ISO
+6. The application will begin to decompile your game, this may take a few moments 
+7. Once it is finished decompiling, press `Continue`
+8. To play your game, open this launcher, select `Jak II` on the left, and click `Play` in the bottom right
+    * The launcher does not work in Game Mode. See [How to Add OpenGOAL: Jak II to Steam](#how-to-add-opengoal-jak-ii-to-steam) to learn how to play the game directly in Steam
+
+#### How to Install Custom Textures
+
+**Note:** Texture packs need to be zipped in order to be installed from the launcher. This section will use `texture_replacements.zip` from [https://www.youtube.com/watch?v=lX1gBO1INZ4](https://www.youtube.com/watch?v=lX1gBO1INZ4) as an example.
+
+1. Download the custom textures from the pinned comment on this Youtube Video: [https://www.youtube.com/watch?v=lX1gBO1INZ4](https://www.youtube.com/watch?v=lX1gBO1INZ4) to `/home/deck/Applications/OpenGOAL`
+2. Double click `open-goal-launcher_#.#.#_amd64.AppImage` to open it
+3. On the left side, select `Jak II`
+4. On the bottom right, select `Features`, `Texture Packs`
+5. Click `Add New Pack` 
+6. Select `texture_replacements.zip` and wait a few moments
+7. Your texture pack will appear below in its own box. Click the red `Disabled` button to enable your texture pack
+8. Click `Apply Texture Changes` in the top right and wait a few moments
+9. Your custom textures will now be installed
+
+#### How to Install Mods
+
+#### How to Add OpenGOAL: Jak II to Steam
+
+1. In `/home/deck/Applications/OpenGOAL`, right click anywhere in the blank space, click `Create New` > `Text File`
+2. Name it `Jak II.sh` 
+3. At the top of the text file, write `#!/bin/bash`
+4. In `/home/deck/Applications/OpenGOAL`, double click `open-goal-launcher_#.#.#_amd64.AppImage` to open it
+5. On the left side, select `Jak II`
+6. On the bottom right, click the `Gear` icon, and click `Copy Game Executable Command`
+7. In the text file you created in Step 1, right click anywhere below `#!/bin/bash` and click `Paste`
+8. Save the text file and exit out
+9. Right click your newly created text file, click `Properties`, click `Permissions`, check `Is Executable`
+10. Right click the text file, click `Add to Steam`
+    * If you are using EmulationStation-DE or Steam ROM Manager, place in `Emulation/roms/desktop` instead
+        * See [How to Add Decompilations and Reverse Engineered PC Ports to Steam](#how-to-add-decompilations-and-reverse-engineered-pc-ports-to-steam) for further detail
+
+Your text file should look similar to the text below:
+
+Text file name: 
+`Jak II.sh`
+Text file contents:
+```
+/home/deck/Applications/OpenGOAL/versions/official/v0.2.0/gk -v --proj-path /home/deck/Applications/OpenGOAL/active/jak2/data --game jak2 -- -boot -fakeiso
+```
+
 
 ### Perfect Dark
 [Back to the Top](#third-party-emulation-table-of-contents)
@@ -1176,14 +1278,35 @@ Choose a soundtrack from: [https://www.zeldix.net/t791-the-legend-of-zelda-a-lin
 
 This section will use a simple script file to launch the various decompilations and reverse engineered ports on this page. You will need to create a script file per game. 
 
-
 #### How to Create Script Files
 
-**Here's How:**
+- [Script Files: Group 1](#script-files-group-1)
+    - [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
+    - [Render96ex](#render96ex)
+    - [sm64ex](#sm64ex)
+    - [sm64ex-coop](#sm64ex-coop)
+    - [Sonic CD](#sonic-cd)
+    - [Sonic 1 and 2](#sonic-1-and-2)
+    - [Super Mario Bros](#super-mario-bros)
+    - [Super Mario Bros: The Lost Levels](#super-mario-bros-the-lost-levels)
+    - [Super Mario World](#super-mario-world)
+    - [Super Metroid](#super-metroid)
+    - [Super Metroid Redux](#super-metroid-redux)
+    - [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
+- [Script Files: Group 2](#script-files-group-2)
+    - [Super Mario 64 Plus](#super-mario-64-plus)
+- [Script Files: Group 3](#script-files-group-3)
+    - [Perfect Dark](#perfect-dark)
+- [Script Files: Group 4](#script-files-group-4)
+    - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
+- [Script Files: Group 5](#script-files-group-5)
+    - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
+    - [OpenGOAL: Jak II](#opengoal-jak-ii)
 
-**For the following games:**
+#### Script Files: Group 1
 
 - [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
+- [Render96ex](#render96ex)
 - [sm64ex](#sm64ex)
 - [sm64ex-coop](#sm64ex-coop)
 - [Sonic CD](#sonic-cd)
@@ -1195,7 +1318,7 @@ This section will use a simple script file to launch the various decompilations 
 - [Super Metroid Redux](#super-metroid-redux)
 - [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
 
-1. In a folder of your choice, create a text file and give it a descriptive name (matching the game name typically) with a `.sh` file extension
+1. In `Emulation/roms/desktop`, right click anywhere in the blank space, click `Create New` > `Text File` and give the text file a descriptive name (matching the game name typically) with a `.sh` file extension
     * For example: `Super Metroid.sh` or `The Legend of Zelda: A Link to the Past.sh`
 2. Open the text file in a text editor of your choice
 3. Enter the following (including the quotes):
@@ -1228,7 +1351,7 @@ This section will use a simple script file to launch the various decompilations 
     
 * For `Super Mario Bros` and `Super Mario Bros: The Lost Levels`, you will also need to include the path to the respective game file in addition to the `smw` executable. For more information, see [How to Play Super Mario Bros](#how-to-play-super-mario-bros) and [How to Play Super Mario Bros: The Lost Levels](#how-to-play-super-mario-bros-the-lost-levels).
 
-**For the following games:**
+#### Script Files: Group 2
 
 - [Super Mario 64 Plus](#super-mario-64-plus)
 
@@ -1242,7 +1365,7 @@ This section will use a simple script file to launch the various decompilations 
 5. Click `Permissions`
 6. Check `Is Executable`
 
-**For the following games:**
+#### Script Files: Group 3
 
 - [Perfect Dark](#perfect-dark)
 
@@ -1257,13 +1380,12 @@ This section will use a simple script file to launch the various decompilations 
 6. Check `Is Executable`
 7. Use `PerfectDark.sh` to open Perfect Dark
 
-**For the following games:**
+#### Script Files: Group 4
 
-- [Render96ex](#render96ex)
 - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
 
 1. In a folder of your choice, create a text file and give it a descriptive name (matching the game name typically) with a `.sh` file extension
-     * For example: `Ship of Harkinian` or `Jak and Dexter: The Precursor Legacy`
+     * For example: `Ship of Harkinian.sh`
 2. Open the text file in a text editor of your choice
 3. Enter the following:
 
@@ -1274,7 +1396,7 @@ This section will use a simple script file to launch the various decompilations 
     * For example:
 
             #!/bin/sh
-            "/home/deck/Applications/OpenGoal/gk"
+            "/home/deck/Applications/ShipofHarkinian/soh.appimage"
 
 5. Save and exit out of the file
 6. Right click the newly created file
@@ -1288,7 +1410,22 @@ This section will use a simple script file to launch the various decompilations 
     * For example:
 
             #!/bin/sh
-            "$HOME/Applications/OpenGoal/gk"
+            "$HOME/Applications/ShipofHarkinian/soh.appimage"
+
+#### Script Files: Group 5
+
+- [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
+- [OpenGOAL: Jak II](#opengoal-jak-ii)
+
+1. In `Emulation/roms/desktop`, right click anywhere in the blank space, click `Create New` > `Text File`
+2. Name it matching the respective Jak and Dexter game 
+3. At the top of the text file, write `#!/bin/bash`
+4. In `/home/deck/Applications/OpenGOAL`, double click `open-goal-launcher_#.#.#_amd64.AppImage` to open it
+5. On the left side, select the matching Jak and Dexter game you created the script file for in Step 2 
+6. On the bottom right, click the `Gear` icon, and click `Copy Game Executable Command`
+7. In the text file you created in Step 1, right click anywhere below `#!/bin/bash` and click `Paste`
+8. Save the text file and exit out
+9. Right click your newly created text file, click `Properties`, click `Permissions`, check `Is Executable`
 
 #### How to Utilize Script Files with EmulationStation-DE
 
@@ -1390,7 +1527,28 @@ This section will use a simple script file to launch the various decompilations 
 ### How to Update Decompilations and Reverse Engineered PC Ports
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-This section specifically applies to: 
+[Updating: Group 1](#updating-group-1)
+    - [Render96ex](#render96ex)
+    - [Super Mario 64 Plus](#super-mario-64-plus)
+    - [sm64ex](#sm64ex)
+    - [sm64ex-coop](#sm64ex-coop)
+    - [Sonic 1 and 2](#sonic-1-and-2)
+    - [Sonic CD](#sonic-cd)
+    - [Super Mario Bros](#super-mario-bros)
+    - [Super Mario Bros: The Lost Levels](#super-mario-bros-the-lost-levels)
+    - [Super Mario World](#super-mario-world)
+    - [Super Metroid](#super-metroid)
+    - [Super Metroid Redux](#super-metroid-redux)
+    - [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
+[Updating: Group 2](#updating-group-2)
+    - [Perfect Dark](#perfect-dark)
+[Updating: Group 3](#updating-group-3)
+    - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)   
+[Updating: Group 4](#updating-group-4)
+    - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
+    - [OpenGOAL: Jak II](#opengoal-jak-ii)
+
+#### Updating: Group 1
 
 - [Render96ex](#render96ex)
 - [Super Mario 64 Plus](#super-mario-64-plus)
@@ -1421,7 +1579,9 @@ This section specifically applies to:
 - [Perfect Dark](#perfect-dark)
 - [Ship of Harkinian](#ship-of-harkinian-ocarina-of-time)
 
-**Perfect Dark**
+#### Updating: Group 2
+
+- [Perfect Dark](#perfect-dark)
 
 1. Download the `i686-linux` version from [https://github.com/fgsfdsfgs/perfect_dark#download](https://github.com/fgsfdsfgs/perfect_dark#download) to your `Downloads` folder
 2. Right click `pd-i686-linux.zip`, click `Extract archive here, autodetect subfolder`
@@ -1432,7 +1592,9 @@ This section specifically applies to:
 7. Click `Permissions`
 8. Check `Is Executable`
 
-**Ship of Harkinian**
+#### Updating: Group 3
+
+- [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
 
 1. Download the latest `Linux-Performance` version of `Ship of Harkinian`: [https://github.com/HarbourMasters/Shipwright/releases](https://github.com/HarbourMasters/Shipwright/releases) to the folder you created in Step 1
     * Download the `SoH-VERSION-NAME-Linux-Performance.zip` file
@@ -1440,6 +1602,20 @@ This section specifically applies to:
 3. Move the `soh.AppImage` to `/home/deck/Applications/ShipofHarkinian`
 4. Overwrite the current `soh.AppImage` file
 5. Right click `soh.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
+6. When a new OTR is required, delete the current OTR files in `/home/deck/Applications/ShipofHarkinian` and re-run the `soh.AppImage` file by double clicking it to generate new OTR files
+    * See [https://www.shipofharkinian.com/faq#what-do-the-release-numbers-mean](https://www.shipofharkinian.com/faq#what-do-the-release-numbers-mean) for details
+
+#### Updating: Group 4
+
+- [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
+- [OpenGOAL: Jak II](#opengoal-jak-ii)
+
+1. In `/home/deck/Applications/OpenGOAL`, double click `open-goal-launcher_#.#.#_amd64.AppImage` to open it
+2. On the left, select the `Gear` icon, click `Versions` at the top, click the `Download` icon on the top-most row (usually will also have the most recent date)
+3. Click the circle icon on the left to select the version and click `Save` in the top right
+4. Click the game you would like to update on the left
+5. You will receive a message requesting you to update the game, click `Update Game` and wait a few moments
+6. Your game will now be updated to the latest version 
 
 ***
 
