@@ -35,7 +35,8 @@ The guides on this page are not officially supported by EmuDeck. Many require so
 2. [Emulators](#emulators)
     - [BlueMaxima's Flashpoint](#bluemaximas-flashpoint)
     - [Hypseus Singe](#hypseus-singe)
-    - [Supermodel: Model 3 Emulator](#supermodel-model-3-emulator)
+    - [Sega Model 2: Model 2 Emulator](#sega-model-2-model-2-emulator)
+    - [Sega Model 3: Supermodel](#sega-model-3-supermodel)
     - [Super Smash Bros: Project+](#super-smash-bros-project)
 
 3. [Emulation Related Games](#emulation-related-games)
@@ -1638,28 +1639,249 @@ Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#h
 
 ***
 
-### Supermodel: Model 3 Emulator
+### Sega Model 2: Model 2 Emulator
+
+#### Setting up Model 2 Emulator
+
+1. Open [https://github.com/PhoenixInteractiveNL/emuDownloadCenter/wiki/Emulator-m2emulator](https://github.com/PhoenixInteractiveNL/emuDownloadCenter/wiki/Emulator-m2emulator) and download `1.1a` to the `Emulation/roms/model2` folder
+2. Create an additional `roms` folder in `Emulation/roms/model2`
+3. Download attached `.sh` file to the `Emulation/tools/launchers` folder
+    * ![model-2.sh](../../configuration-files/model-2.sh)
+4. Download [https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll](https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll) to the `Emulation/roms/model2` folder
+5. Rename `d3dcompiler_47_32.dll` to `d3dcompiler_47.dll`
+6. You may now launch the Model 2 emulator by double clicking `model-2.sh` in `Emulation/tools/launchers`
+
+#### EmulationStation-DE
+
+1. Download attached `.sh` file to your `Downloads` folder
+    * ![model-2-esde.sh](../../configuration-files/model-2-esde.sh)
+2. Double click `model-2-esde.sh` to run it 
+3. EmulationStation-DE will now be configured for Model 2
+
+#### Steam ROM Manager
+
+1. In `/home/deck/.config/steam-rom-manager/userData/`, open `userConfigurations.json` in a text editor of your choice
+2. Scroll to the very bottom of the text file, you will see a `}` and a `]`, add a comma to `}`
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/7b816803-7bd4-4758-bb04-140d447e4aa1" height="300"> 
+3. Paste the below block of text between the `},` and the `]`
+    
+    {
+        "parserType": "Glob",
+        "configTitle": "Sega Model 2 - Model 2 Emulator",
+        "steamDirectory": "${steamdirglobal}",
+        "steamCategory": "${Sega Model 2}",
+        "romDirectory": "${romsdirglobal}/model2/roms",
+        "executableArgs": "\"${fileName}\"",
+        "executableModifier": "\"${exePath}\"",
+        "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "fetchControllerTemplatesButton": null,
+        "removeControllersButton": null,
+        "imageProviders": [
+            "SteamGridDB"
+        ],
+        "onlineImageQueries": "${${fuzzyTitle}}",
+        "imagePool": "${fuzzyTitle}",
+        "userAccounts": {
+            "specifiedAccounts": ""
+        },
+        "executable": {
+            "path": "/run/media/mmcblk0p1/Emulation/tools/launchers/model-2.sh",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "parserInputs": {
+            "glob": "${title}@(.zip|.ZIP)"
+        },
+        "titleFromVariable": {
+            "limitToGroups": "${MAME}",
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false,
+            "tryToMatchTitle": true
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
+        "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "xbox360": null,
+            "xboxone": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
+            "switch_pro": null,
+            "neptune": null
+        },
+        "imageProviderAPIs": {
+            "SteamGridDB": {
+                "nsfw": false,
+                "humor": false,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static"
+                ]
+            }
+        },
+        "defaultImage": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": "/home/deck/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
+        },
+        "localImages": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": ""
+        },
+        "parserId": "169890088467987948",
+        "version": 15,
+        "disabled": false
+    }
+
+4. Open Steam ROM Manager, click the `Settings` button, change the theme to `Classic` or Deck`
+5. Select the `Sega Model 2 - Model 2 Emulator` parser on the left 
+6. Scroll down to the `Executable` box on the right. If the box is not red, you are all set, proceed to Step 9
+7. If the box is highlighted with a red outline, click `Browse` and navigate to where your `model-2.sh` is located
+8. Click `Save` in the bottom left
+9. Toggle the `Sega Model 2 - Model 2 Emulator` parser and generate an app list to add your games to Steam
+
+#### How to Configure Controls
+
+1. In Desktop Mode, open `model-2.sh` in `Emulation/tools/launchers`
+2. Load a game by clicking `Emulator` in the top left, `Load ROM`, and selecting your ROM
+3. Hold `Start` for three seconds to switch to Gamepad configs
+4. Click `Game` at the top, click `Configure Controls`
+5. Configure controls
+
+You may also try the pre-configured pack from Launchbox: [https://forums.launchbox-app.com/files/file/3926-sega-model-2-emulator-everything-pre-configured-inc-controls-for-pc-controller-mouse-light-guns-test-menus-configured-analogue-inputs-calibrated-free-play-all-games-in-english-2-player-mouse-support-no-screen-flash/?_fromLogin=1](https://forums.launchbox-app.com/files/file/3926-sega-model-2-emulator-everything-pre-configured-inc-controls-for-pc-controller-mouse-light-guns-test-menus-configured-analogue-inputs-calibrated-free-play-all-games-in-english-2-player-mouse-support-no-screen-flash/?_fromLogin=1) but there is a chance that the configuration files included **may** not work. 
+
+***
+
+### Sega Model 3: Supermodel
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 **Note:** The following folder locations are required so EmulationStation-DE can properly recognize the emulator and your ROMs. 
 
 Prerequisites: 
 
-* EmulationStation-DE 2.0
+* EmulationStation-DE 2.2
 
 #### Setting up Supermodel
 
-1. Download `Supermodel` from: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE-DEV.md#arcade-and-neo-geo](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE-DEV.md#arcade-and-neo-geo), under `Sega Model 3` to your `/home/deck/Downloads` folder
-2. Right click `Supermodel_2022-10-07.tar.gz`, click `Extract > Extract archive here`
-3. Move the `Config` and `NVRAM` folders from the extracted folder in Step 2 to `Emulation/roms/model3`
-4. In `/home/deck/Applications`, create a `Supermodel` folder
-5. Move the `supermodel` file from the extracted folder in Step 2 to `/home/deck/Applications/Supermodel`
+1. In Desktop Mode, open Discover
+2. Search for Supermodel and download it
+3. Search for Flatseal and download it
+4. Open Flatseal and select `Supermodel` on the left
+5. Scroll down to `Filesystem` and enable `All system files filesystem=host`
+6. Download attached `.sh` file to your `Downloads` folder
+    * ![Supermodel Configurator](../../configuration-files/supermodel-configurator.sh)
+7. Double click `supermodel-configurator.sh` to run it
+    * You can confirm it worked by checking if a `.supermodel` folder was created in your `home` folder
+        * `~/.supermodel` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders 
 
-#### Running Supermodel
+#### EmulationStation-DE
 
-1. After placing ROMs in `Emulation/roms/model3`, open `EmulationStation-DE` in Game Mode, and run your Supermodel 3 ROMs
+After placing ROMs in `Emulation/roms/model3`, open `EmulationStation-DE` in Game Mode, and run your Supermodel 3 ROMs.
 
 **Note:** Your ROMs should be zipped
+
+#### Steam ROM Manager
+
+1. In `/home/deck/.config/steam-rom-manager/userData/`, open `userConfigurations.json` in a text editor of your choice
+2. Scroll to the very bottom of the text file, you will see a `}` and a `]`, add a comma to `}`
+    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/7b816803-7bd4-4758-bb04-140d447e4aa1" height="300"> 
+3. Paste the below block of text between the `},` and the `]`
+    
+    {
+        "parserType": "Glob",
+        "configTitle": "Sega Model 3 - Supermodel",
+        "steamDirectory": "${steamdirglobal}",
+        "steamCategory": "${Sega Model 3}",
+        "romDirectory": "${romsdirglobal}/model3",
+        "executableArgs": "run com.supermodel3.Supermodel \"${filePath}\"",
+        "executableModifier": "\"${exePath}\"",
+        "startInDirectory": "",
+        "titleModifier": "${fuzzyTitle}",
+        "fetchControllerTemplatesButton": null,
+        "removeControllersButton": null,
+        "imageProviders": [
+            "SteamGridDB"
+        ],
+        "onlineImageQueries": "${${fuzzyTitle}}",
+        "imagePool": "${fuzzyTitle}",
+        "userAccounts": {
+            "specifiedAccounts": ""
+        },
+        "executable": {
+            "path": "/usr/bin/flatpak",
+            "shortcutPassthrough": false,
+            "appendArgsToExecutable": true
+        },
+        "parserInputs": {
+            "glob": "${title}@(.zip|.ZIP)"
+        },
+        "titleFromVariable": {
+            "limitToGroups": "${MAME}",
+            "caseInsensitiveVariables": false,
+            "skipFileIfVariableWasNotFound": false,
+            "tryToMatchTitle": true
+        },
+        "fuzzyMatch": {
+            "replaceDiacritics": true,
+            "removeCharacters": true,
+            "removeBrackets": true
+        },
+        "controllers": {
+            "ps4": null,
+            "ps5": null,
+            "xbox360": null,
+            "xboxone": null,
+            "switch_joycon_left": null,
+            "switch_joycon_right": null,
+            "switch_pro": null,
+            "neptune": null
+        },
+        "imageProviderAPIs": {
+            "SteamGridDB": {
+                "nsfw": false,
+                "humor": false,
+                "styles": [],
+                "stylesHero": [],
+                "stylesLogo": [],
+                "stylesIcon": [],
+                "imageMotionTypes": [
+                    "static"
+                ]
+            }
+        },
+        "defaultImage": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": "/home/deck/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
+        },
+        "localImages": {
+            "tall": "",
+            "long": "",
+            "hero": "",
+            "logo": "",
+            "icon": ""
+        },
+        "parserId": "169922790806455368",
+        "version": 15
+    }
+
+4. Toggle the `Sega Model 2 - Model 2 Emulator` parser and generate an app list to add your games to Steam
+    * **Note:** Your ROMs should be zipped 
 
 ***
 
