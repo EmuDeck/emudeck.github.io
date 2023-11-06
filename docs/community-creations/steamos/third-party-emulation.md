@@ -1748,7 +1748,7 @@ Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#h
                 "disabled": false
             }
 
-4. Open Steam ROM Manager, click the `Settings` button, change the theme to `Classic` or Deck`
+4. Open Steam ROM Manager, click the `Settings` button, change the theme to `Classic` or `Deck`
 5. Select the `Sega Model 2 - Model 2 Emulator` parser on the left 
 6. Scroll down to the `Executable` box on the right. If the box is not red, you are all set, proceed to Step 9
 7. If the box is highlighted with a red outline, click `Browse` and navigate to where your `model-2.sh` is located
