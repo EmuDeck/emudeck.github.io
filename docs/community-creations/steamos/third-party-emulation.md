@@ -275,9 +275,14 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 Your text file should look similar to the text below:
 
 Text file name: 
+
 `Jak and Dexter: The Precursor Legacy.sh`
+
 Text file contents:
+
 ```
+#!/bin/bash
+
 /home/deck/Applications/OpenGOAL/versions/official/v0.2.0/gk -v --proj-path /home/deck/Applications/OpenGOAL/active/jak1/data --game jak1 -- -boot -fakeiso
 ```
 
@@ -322,14 +327,14 @@ If you already installed OpenGOAL: Jak and Dexter: The Precursor Legacy, you do 
 
 #### How to Install Custom Textures
 
-**Note:** Texture packs need to be zipped in order to be installed from the launcher. This section will use `texture_replacements.zip` from [https://www.youtube.com/watch?v=lX1gBO1INZ4](https://www.youtube.com/watch?v=lX1gBO1INZ4) as an example.
+**Note:** Texture packs need to be zipped in order to be installed from the launcher.
 
-1. Download the custom textures from the pinned comment on this Youtube Video: [https://www.youtube.com/watch?v=lX1gBO1INZ4](https://www.youtube.com/watch?v=lX1gBO1INZ4) to `/home/deck/Applications/OpenGOAL`
+1. Download a texture pack of your choice
 2. Double click `open-goal-launcher_#.#.#_amd64.AppImage` to open it
 3. On the left side, select `Jak II`
 4. On the bottom right, select `Features`, `Texture Packs`
 5. Click `Add New Pack` 
-6. Select `texture_replacements.zip` and wait a few moments
+6. Select your zipped texture pack and wait a few moments
 7. Your texture pack will appear below in its own box. Click the red `Disabled` button to enable your texture pack
 8. Click `Apply Texture Changes` in the top right and wait a few moments
 9. Your custom textures will now be installed
@@ -354,9 +359,14 @@ If you already installed OpenGOAL: Jak and Dexter: The Precursor Legacy, you do 
 Your text file should look similar to the text below:
 
 Text file name: 
+
 `Jak II.sh`
+
 Text file contents:
+
 ```
+#!/bin/bash
+
 /home/deck/Applications/OpenGOAL/versions/official/v0.2.0/gk -v --proj-path /home/deck/Applications/OpenGOAL/active/jak2/data --game jak2 -- -boot -fakeiso
 ```
 
