@@ -39,15 +39,19 @@ search:
 
 [Skip the Preface](#how-to-create-an-m3u-file)
 
-To reduce the amount of files to manage, it's recommended to use EmuDeck's `Compression Tool`. Place your ROMs as you normally would in their respective folders, open the EmuDeck application on your desktop and run the `Compression Tool`. 
+An M3U File is a "playlist" for ROMs with multiple discs. Like a music playlist, the first ROM is the "first track", the second is the "second track" and so on. 
 
-If you run the compression tool and you ran Steam ROM Manager previously, you will need to re-run Steam ROM Manager after compression to update your shortcuts. If you are following the guide on this page, you can wait until you are finished to re-run Steam ROM Manager. 
+Emulators will typically treat the M3U file itself as the ROM and auto-play the playlist (each disc) as you progress through the game. This section will cover how to create those M3U files so you can handle those multi-disc games like an emulator aficionado. 
 
-Compressing your ROMs makes managing multi-track games a lot simpler. You can create a playlist file (M3U) and place all of your tracks in this file. After creating the playlist file, treat the M3U file as the game (instead of the individual discs).
+##### Quick Tips
 
-When the time comes to switch discs, you can use the various emulator quick-menus to seamlessly move onto the next disc. For a full list of hotkeys, see the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page.
+* Compress your ROMs
+    * Open the EmuDeck application on your desktop and run the `Compression Tool` to `.chd`. Compression will make managing your ROM folder and creating your M3Us infinitely easier
+    * Re-run Steam ROM Manager after compressing your ROMs (this can be done after you have finished creating an M3U file)
+* After you have created an M3U file, use the various emulator quick-menus to seamlessly move onto the next disc 
+    * For a full list of hotkeys, see the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page
 
-#### Emulators without M3U Support
+##### Emulators without M3U Support
 
 * PCSX2 does not support M3U files
     * [How to Manage Multiple Discs in PCSX2](../../emulators/steamos/pcsx2.md#how-to-manage-multiple-discs)
@@ -63,6 +67,7 @@ When the time comes to switch discs, you can use the various emulator quick-menu
 - [Video](#video-how-to-create-an-m3u-file)
 
 ##### Quick and Dirty Guide
+[Back to the Top](#how-to-create-an-m3u-file)
 
 1. In your ROM folder, right click, click `Create New Text File`
 2. Name it `GAMENAME.m3u`
@@ -78,6 +83,7 @@ For how to use the M3U with Steam ROM Manager, see [Steam ROM Manager: How to Ma
 For how to use the M3U with EmulationStation-DE, see [EmulationStation-DE: How to Manage ROMs with Multiple Discs](../../tools/steamos/emulationstation-de.md#how-to-manage-multiple-discs)
 
 ##### In-Depth Guide
+[Back to the Top](#how-to-create-an-m3u-file)
 
 **Here's How:**
 
@@ -104,6 +110,7 @@ For how to use the M3U with EmulationStation-DE, see [EmulationStation-DE: How t
             * **Note:** Not all emulators support absolute pathing
 
 ##### Video: How to Create an M3U File
+[Back to the Top](#how-to-create-an-m3u-file)
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
