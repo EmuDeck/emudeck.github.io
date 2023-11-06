@@ -109,10 +109,12 @@ export PATH=$HOME/.local/bin:$PATH
 #### How to Set Up Distrobox
 
 1. Open Konsole
-2. Create an Ubuntu Distrobox: `distrobox create --name ubuntu -i ubuntu:23.04`
-    * If you get multiple options after inputting this command, select the `docker.io/library/ubuntu:##.##` image by pressing enter on the respective line
-3. To enter the Distrobox, open Konsole and enter: `distrobox enter ubuntu`
-    * You will need to enter the Distrobox when compiling the various games on this page. You can identify when you are in a Distrobox by looking at the lefthand side of Konsole. Using the Distrobox created by this guide, it will say `deck@ubuntu` 
+2. Create an Ubuntu Distrobox: 
+    * `distrobox create --name ubuntu -i ubuntu:23.04`
+        * If you get multiple options after inputting this command, select the `docker.io/library/ubuntu:##.##` image by pressing enter on the respective line
+3. To enter the Distrobox, open Konsole and enter: 
+    * `distrobox enter ubuntu`
+        * You will need to enter the Distrobox when compiling the various games on this page. You can identify when you are in a Distrobox by looking at the lefthand side of Konsole. Using the Distrobox created by this guide, it will say `deck@ubuntu` 
 
 ***
 
@@ -165,7 +167,8 @@ Source: [https://github.com/djyt/cannonball](https://github.com/djyt/cannonball)
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following: 
     * `sudo apt install -y sdl2-dev libboost-dev cmake make`
 
@@ -381,7 +384,8 @@ Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following, one line at a time:
     * `sudo dpkg --add-architecture i386`
     * `sudo apt-get update`
@@ -455,8 +459,10 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
-3. Enter the following: `sudo apt install -y git build-essential pkg-config libusb-1.0-0-dev libsdl2-dev bsdmainutils libglew-dev`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
+3. Enter the following: 
+    * `sudo apt install -y git build-essential pkg-config libusb-1.0-0-dev libsdl2-dev bsdmainutils libglew-dev`
 
 #### Setting Up Render96ex
 
@@ -494,8 +500,6 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 
 1. While in game, press `Start`, press `R1`
 2. Configure settings
-
-
 
 ***
 
@@ -582,7 +586,8 @@ Source: [https://github.com/sm64pc/sm64ex](https://github.com/sm64pc/sm64ex)
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following: 
     * `sudo apt install build-essential git python3 libglew-dev libsdl2-dev bsdmainutils patch`
 
@@ -618,7 +623,7 @@ A 60 FPS patch is included with the GitHub repo for sm64ex. However, you can tak
 1. In the `/home/deck/Applications/Distrobox/sm64ex/enhancements` folder, right click anywhere in the folder, click `Open Terminal Here`
 2. Enter:
     * ` git apply 60fps_ex.patch --ignore-whitespace --reject`
-    * `60fps_ex.patch` is the name of the included file. If the file name is different, replace the file name in the above command
+        * `60fps_ex.patch` is the name of the included file. If the file name is different, replace the file name in the above command
 3. You will need to re-build sm64ex for the patches to apply. To do so, enter the Ubuntu Distrobox and run `make clean` in the ``/home/deck/Applications/Distrobox/sm64ex` folder
 
 ***
@@ -635,7 +640,8 @@ Source: [https://github.com/djoslin0/sm64ex-coop](https://github.com/djoslin0/sm
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following: 
     * `sudo apt install build-essential git python3 libglew-dev libsdl2-dev libz-dev bsdmainutils`
 
@@ -683,7 +689,8 @@ Source: [https://github.com/Rubberduckycooly/Sonic-1-2-2013-Decompilation](https
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following: 
     * `sudo apt install build-essential git libsdl2-dev libvorbis-dev libogg-dev libglew-dev libdecor-0-dev`
 
@@ -748,7 +755,8 @@ Source: [https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation](https://
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering:
+    * `distrobox enter ubuntu`
 3. Enter the following: 
     * `sudo apt install build-essential git libsdl2-dev libvorbis-dev libogg-dev libtheora-dev libglew-dev`
 
@@ -806,7 +814,8 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following: 
     * `sudo apt install -y git build-essential pkg-config libusb-1.0-0-dev libsdl2-dev bsdmainutils`
 
@@ -880,7 +889,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following commands one at a time: 
     * `sudo apt install libsdl2-dev python3-pip make`
     * `sudo apt install python3-zstandard`
@@ -955,7 +965,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following commands one at a time: 
     * `sudo apt install libsdl2-dev python3-pip make git`
     * `sudo apt install python3-zstandard`
@@ -1027,7 +1038,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following commands one at a time: 
     * `sudo apt install libsdl2-dev python3-pip make git`
     * `sudo apt install python3-zstandard`
@@ -1106,7 +1118,8 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following: 
     * `sudo apt install libsdl2-dev python3-pip make git`
 
@@ -1152,7 +1165,8 @@ Source: [https://github.com/snesrev/sm](https://github.com/snesrev/sm)
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following: 
     * `sudo apt install libsdl2-dev python3-pip make git`
  
@@ -1201,7 +1215,8 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 #### Installing Prerequisites
 
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
-2. Enter the Distrobox by opening Konsole and entering: `distrobox enter ubuntu`
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
 3. Enter the following commands one line at a time: 
     * `sudo apt install libsdl2-dev python3-pip make git python3-zstandard python3-yaml python3-pillow`
 
