@@ -1647,8 +1647,8 @@ Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#h
 2. Create an additional `roms` folder in `Emulation/roms/model2`
 3. Download attached `.sh` file to the `Emulation/tools/launchers` folder
     * [model-2.sh](../../configuration-files/model-2.sh)
-4. Download [https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll](https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll) to the `Emulation/roms/model2` folder
-5. Right click `model-2.sh`, click `Properties`, click `Permissions`, check `Is executable`
+4. Right click `model-2.sh`, click `Properties`, click `Permissions`, check `Is executable`
+5. Download [https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll](https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll) to the `Emulation/roms/model2` folder
 6. Rename `d3dcompiler_47_32.dll` to `d3dcompiler_47.dll`
 7. You may now launch the Model 2 emulator by double clicking `model-2.sh` in `Emulation/tools/launchers`
 
