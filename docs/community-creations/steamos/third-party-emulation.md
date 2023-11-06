@@ -1652,28 +1652,62 @@ Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#h
 #### Setting up Model 2 Emulator
 
 1. Open [https://github.com/PhoenixInteractiveNL/emuDownloadCenter/wiki/Emulator-m2emulator](https://github.com/PhoenixInteractiveNL/emuDownloadCenter/wiki/Emulator-m2emulator) and download `1.1a` to the `Emulation/roms/model2` folder
-2. Create an additional `roms` folder in `Emulation/roms/model2`
-3. Download attached `.sh` file to the `Emulation/tools/launchers` folder
+2. Right click `1.1a`, click `Extract` > `Extract archive here`
+    * Extract `1.1a.7z` directly to `Emulation/roms/model2`, if it creates a sub-folder, move the contents directly to `Emulation/roms/model2`
+3. Create an additional `roms` folder in `Emulation/roms/model2`
+4. Download attached `.sh` file to the `Emulation/tools/launchers` folder
     * [model-2.sh](../../configuration-files/model-2.sh)
-4. Right click `model-2.sh`, click `Properties`, click `Permissions`, check `Is executable`
-5. Download [https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll](https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll) to the `Emulation/roms/model2` folder
-6. Rename `d3dcompiler_47_32.dll` to `d3dcompiler_47.dll`
-7. You may now launch the Model 2 emulator by double clicking `model-2.sh` in `Emulation/tools/launchers`
+5. Right click `model-2.sh`, click `Properties`, click `Permissions`, check `Is executable`
+6. Download [https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll](https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll) to the `Emulation/roms/model2` folder
+7. Rename `d3dcompiler_47_32.dll` to `d3dcompiler_47.dll`
+8. **Place** your **zipped** ROMs in `Emulation/roms/model2/roms`
+9. You may now launch the Model 2 emulator by double clicking `model-2.sh` in `Emulation/tools/launchers`
+
+The `Emulation/roms/model2` folder should look similar to the tree output below:
+
+`srallyc.zip` in `Emulation/roms/model2/roms` is being used as a ROM example. It will not be included with the Model 2 emulator.
+
+```
+Emulation/
+└── roms
+    └── model2
+        ├── d3dcompiler_47.dll
+        ├── EMULATOR.EXE
+        ├── EMULATOR.INI
+        ├── emulator_multicpu.exe
+        ├── README.TXT
+        ├── roms
+        │   └── srallyc.zip
+        └── scripts
+            ├── common.lua
+            ├── daytona.lua
+            ├── daytona.pat
+            ├── mode_1.ps
+            ├── mode_2.ps
+            ├── model2.lua
+            ├── model2lua.txt
+            ├── srallycb.lua
+            └── srallyc.lua
+```
 
 #### EmulationStation-DE
+
+**Place** your ROMs in `Emulation/roms/model2/roms`
 
 1. Download attached `.sh` file to your `Downloads` folder
     * [model-2-esde.sh](../../configuration-files/model-2-esde.sh)
 2. Right click `model-2-esde.sh`, click `Properties`, click `Permissions`, check `Is executable`
 3. Double click `model-2-esde.sh` to run it 
-4. EmulationStation-DE will now be configured for Model 2
+4. **Place** your **zipped** ROMs in `Emulation/roms/model2/roms`
+5. EmulationStation-DE will now be configured for Model 2
 
 #### Steam ROM Manager
 
-1. In `/home/deck/.config/steam-rom-manager/userData/`, open `userConfigurations.json` in a text editor of your choice
-2. Scroll to the very bottom of the text file, you will see a `}` and a `]`, add a comma to `}`
+1. **Place** your **zipped** ROMs in `Emulation/roms/model2/roms`
+2. In `/home/deck/.config/steam-rom-manager/userData/`, open `userConfigurations.json` in a text editor of your choice
+3. Scroll to the very bottom of the text file, you will see a `}` and a `]`, add a comma to `}`
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/7b816803-7bd4-4758-bb04-140d447e4aa1" height="300"> 
-3. Paste the below block of text between the `},` and the `]`
+4. Paste the below block of text between the `},` and the `]`
     
             {
                 "parserType": "Glob",
@@ -1756,12 +1790,13 @@ Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#h
                 "disabled": false
             }
 
-4. Open Steam ROM Manager, click the `Settings` button, change the theme to `Classic` or `Deck`
-5. Select the `Sega Model 2 - Model 2 Emulator` parser on the left 
-6. Scroll down to the `Executable` box on the right. If the box is not red, you are all set, proceed to Step 9
-7. If the box is highlighted with a red outline, click `Browse` and navigate to where your `model-2.sh` is located
-8. Click `Save` in the bottom left
-9. Toggle the `Sega Model 2 - Model 2 Emulator` parser and generate an app list to add your games to Steam
+5. Open Steam ROM Manager, click the `Settings` button, change the theme to `Classic` or `Deck`
+6. Select the `Sega Model 2 - Model 2 Emulator` parser on the left 
+7. Scroll down to the `Executable` box on the right. If the box is not red, you are all set, proceed to Step 10
+8. If the box is highlighted with a red outline, click `Browse` and navigate to where your `model-2.sh` is located
+9. Click `Save` in the bottom left
+10. Toggle the `Sega Model 2 - Model 2 Emulator` parser and generate an app list to add your games to Steam
+    * Make sure your ROMs are in `Emulation/roms/model2/roms`
 
 #### How to Configure Controls
 
