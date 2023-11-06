@@ -339,8 +339,6 @@ If you already installed OpenGOAL: Jak and Dexter: The Precursor Legacy, you do 
 8. Click `Apply Texture Changes` in the top right and wait a few moments
 9. Your custom textures will now be installed
 
-#### How to Install Mods
-
 #### How to Add OpenGOAL: Jak II to Steam
 
 1. In `/home/deck/Applications/OpenGOAL`, right click anywhere in the blank space, click `Create New` > `Text File`
