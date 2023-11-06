@@ -1281,7 +1281,7 @@ This section will use a simple script file to launch the various decompilations 
 
 #### How to Create Script Files
 
-- [Script Files: Group 1](#script-files-group-1)
+1. [Script Files: Group 1](#script-files-group-1)
     - [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
     - [Render96ex](#render96ex)
     - [sm64ex](#sm64ex)
@@ -1294,13 +1294,13 @@ This section will use a simple script file to launch the various decompilations 
     - [Super Metroid](#super-metroid)
     - [Super Metroid Redux](#super-metroid-redux)
     - [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
-- [Script Files: Group 2](#script-files-group-2)
+2. [Script Files: Group 2](#script-files-group-2)
     - [Super Mario 64 Plus](#super-mario-64-plus)
-- [Script Files: Group 3](#script-files-group-3)
+3. [Script Files: Group 3](#script-files-group-3)
     - [Perfect Dark](#perfect-dark)
-- [Script Files: Group 4](#script-files-group-4)
+4. [Script Files: Group 4](#script-files-group-4)
     - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
-- [Script Files: Group 5](#script-files-group-5)
+5. [Script Files: Group 5](#script-files-group-5)
     - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
     - [OpenGOAL: Jak II](#opengoal-jak-ii)
 
@@ -1528,7 +1528,7 @@ This section will use a simple script file to launch the various decompilations 
 ### How to Update Decompilations and Reverse Engineered PC Ports
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-[Updating: Group 1](#updating-group-1)
+1. [Updating: Group 1](#updating-group-1)
     - [Render96ex](#render96ex)
     - [Super Mario 64 Plus](#super-mario-64-plus)
     - [sm64ex](#sm64ex)
@@ -1541,11 +1541,11 @@ This section will use a simple script file to launch the various decompilations 
     - [Super Metroid](#super-metroid)
     - [Super Metroid Redux](#super-metroid-redux)
     - [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
-[Updating: Group 2](#updating-group-2)
+2. [Updating: Group 2](#updating-group-2)
     - [Perfect Dark](#perfect-dark)
-[Updating: Group 3](#updating-group-3)
+3. [Updating: Group 3](#updating-group-3)
     - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)   
-[Updating: Group 4](#updating-group-4)
+4. [Updating: Group 4](#updating-group-4)
     - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
     - [OpenGOAL: Jak II](#opengoal-jak-ii)
 
