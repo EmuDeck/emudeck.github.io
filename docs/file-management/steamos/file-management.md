@@ -75,6 +75,7 @@ Emulators will typically treat the M3U file itself as the ROM and auto-play the 
 3. Right click the text file, click `Open with Kate` or a text editor of your choice
 4. Place the full file name of each ROM disc including the file extension on a separate line
     * If your ROM file extensions are `.cue` and `.bin`, only write the `.cue` files in the M3U file
+        * For Dreamcast, only write the `.gdi` files
 5. Save and close out of the text file
 6. From now on, you can treat the newly created M3U file as the game file
 
@@ -93,8 +94,9 @@ For how to use the M3U with EmulationStation-DE, see [EmulationStation-DE: How t
     * For example, with the game: `The Legend of Dragoon`, you may name the M3U file, `The Legend of Dragoon.m3u` so Steam ROM Manager or EmulationStation-DE can locate the appropriate art. However, if you name it `LoD.m3u` as an example, neither tool will know to match `LoD` to `Legend of Dragoon`
 3. Right click the text file, click `Open with Kate` or a text editor of your choice
 4. Place the full file name of each ROM disc including the file extension on a separate line
-    * **IMPORTANT:** If you are using both `.bin` and `.cue` files, only place the `.cue` files in the M3U file. It is recommended you use the EmuDeck compression tool for easier file management 
-      * Example (Using D2 for the Dreamcast):
+    * **IMPORTANT:** If you are using both `.bin` and `.cue` files, only write the `.cue` files in the M3U file. If you are using both `.gdi` and `.bin` files, only write the `.gdi` files in the M3U file 
+        * It is recommended you use the EmuDeck compression tool for easier file management 
+    * Example (Using D2 for the Dreamcast):
         * Folder: <img src="https://user-images.githubusercontent.com/108900299/211213411-713804bb-8d96-4b21-9b0a-afd40d461d3b.png" height="300">
         * M3U File: <img src="https://user-images.githubusercontent.com/108900299/211213427-05c57715-8bc5-443d-9824-8ae410bc6859.png" height="300">
 5. Save and close out of the text file
