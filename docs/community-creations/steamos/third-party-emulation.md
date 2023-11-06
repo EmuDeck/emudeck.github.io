@@ -1648,15 +1648,17 @@ Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#h
 3. Download attached `.sh` file to the `Emulation/tools/launchers` folder
     * [model-2.sh](../../configuration-files/model-2.sh)
 4. Download [https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll](https://raw.githubusercontent.com/mozilla/fxc2/master/dll/d3dcompiler_47_32.dll) to the `Emulation/roms/model2` folder
-5. Rename `d3dcompiler_47_32.dll` to `d3dcompiler_47.dll`
-6. You may now launch the Model 2 emulator by double clicking `model-2.sh` in `Emulation/tools/launchers`
+5. Right click `model-2.sh`, click `Properties`, click `Permissions`, check `Is executable`
+6. Rename `d3dcompiler_47_32.dll` to `d3dcompiler_47.dll`
+7. You may now launch the Model 2 emulator by double clicking `model-2.sh` in `Emulation/tools/launchers`
 
 #### EmulationStation-DE
 
 1. Download attached `.sh` file to your `Downloads` folder
     * [model-2-esde.sh](../../configuration-files/model-2-esde.sh)
-2. Double click `model-2-esde.sh` to run it 
-3. EmulationStation-DE will now be configured for Model 2
+2. Right click `model-2-esde.sh`, click `Properties`, click `Permissions`, check `Is executable`
+3. Double click `model-2-esde.sh` to run it 
+4. EmulationStation-DE will now be configured for Model 2
 
 #### Steam ROM Manager
 
@@ -1782,8 +1784,9 @@ Prerequisites:
 4. Open Flatseal and select `Supermodel` on the left
 5. Scroll down to `Filesystem` and enable `All system files filesystem=host`
 6. Download attached `.sh` file to your `Downloads` folder
-    * [Supermodel Configurator](../../configuration-files/supermodel-configurator.sh)
-7. Double click `supermodel-configurator.sh` to run it
+    * [supermodel-configurator.sh](../../configuration-files/supermodel-configurator.sh)
+7. Right click `supermodel-configurator.sh`, click `Properties`, click `Permissions`, check `Is executable`
+8. Double click `supermodel-configurator.sh` to run it
     * You can confirm it worked by checking if a `.supermodel` folder was created in your `home` folder
         * `~/.supermodel` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders 
 
