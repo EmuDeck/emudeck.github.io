@@ -1883,7 +1883,7 @@ After placing ROMs in `Emulation/roms/model3`, open `EmulationStation-DE` in Gam
             "version": 15
         }
 
-4. Toggle the `Sega Model 2 - Model 2 Emulator` parser and generate an app list to add your games to Steam
+4. Toggle the `Sega Model 3 - Supermodel` parser and generate an app list to add your games to Steam
     * **Note:** Your ROMs should be zipped 
 
 ***
