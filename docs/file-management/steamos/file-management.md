@@ -16,7 +16,7 @@ search:
 
 2. [Managing Emulators and Tools](#managing-emulators-and-tools)
     - [How to Swap out AppImages and Binaries](#how-to-swap-out-appimages-and-binaries)
-    - [How to reset an emulator's configurations to EmuDeck's defaults](#how-to-reset-an-emulators-configurations-to-emudecks-defaults)
+    - [How to Reset an Emulator's Configurations to EmuDeck's Defaults](#how-to-reset-an-emulators-configurations-to-emudecks-defaults)
     - [Emulator Save and Save State Locations](#emulator-save-and-save-state-locations)
 
 3. [Managing Files](#managing-files)
@@ -37,6 +37,8 @@ search:
 
 #### Preface
 
+[Skip the Preface](#how-to-create-an-m3u-file)
+
 To reduce the amount of files to manage, it's recommended to use EmuDeck's `Compression Tool`. Place your ROMs as you normally would in their respective folders, open the EmuDeck application on your desktop and run the `Compression Tool`. 
 
 If you run the compression tool and you ran Steam ROM Manager previously, you will need to re-run Steam ROM Manager after compression to update your shortcuts. If you are following the guide on this page, you can wait until you are finished to re-run Steam ROM Manager. 
@@ -45,10 +47,10 @@ Compressing your ROMs makes managing multi-track games a lot simpler. You can cr
 
 When the time comes to switch discs, you can use the various emulator quick-menus to seamlessly move onto the next disc. For a full list of hotkeys, see the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page.
 
-**Important** 
+#### Emulators without M3U Support
 
 * PCSX2 does not support M3U files
-   * [How to Manage Multiple Discs in PCSX2](../../emulators/steamos/pcsx2.md#how-to-manage-multiple-discs)
+    * [How to Manage Multiple Discs in PCSX2](../../emulators/steamos/pcsx2.md#how-to-manage-multiple-discs)
 * Xenia does not support M3U files
     * [How to Manage Multiple Discs in Xenia](../../emulators/steamos/xenia.md#how-to-manage-multiple-discs)
 
@@ -56,9 +58,26 @@ When the time comes to switch discs, you can use the various emulator quick-menu
 
 #### How to Create an M3U File
 
-When it comes time to switch discs, various emulators have an option or a button to switch from one disc to the next. An M3U file allow you to manage ROMS with multiple discs and continue playing without any hiccup. 
+- [Quick and Dirty Guide](#quick-and-dirty-guide)
+- [In-Depth Guide](#in-depth-guide)
+- [Video](#video-how-to-create-an-m3u-file)
 
-Fortunately these M3U files are easy to create. 
+##### Quick and Dirty Guide
+
+1. In your ROM folder, right click, click `Create New Text File`
+2. Name it `GAMENAME.m3u`
+    * Replace GAMENAME with the game name
+3. Right click the text file, click `Open with Kate` or a text editor of your choice
+4. Place the full file name of each ROM disc including the file extension on a separate line
+    * If your ROM file extensions are `.cue` and `.bin`, only write the `.cue` files in the M3U file
+5. Save and close out of the text file
+6. From now on, you can treat the newly created M3U file as the game file
+
+For how to use the M3U with Steam ROM Manager, see [Steam ROM Manager: How to Manage ROMs with Multiple Discs](../../tools/steamos/steam-rom-manager.md#how-to-manage-roms-with-multiple-discs)
+
+For how to use the M3U with EmulationStation-DE, see [EmulationStation-DE: How to Manage ROMs with Multiple Discs](../../tools/steamos/emulationstation-de.md#how-to-manage-multiple-discs)
+
+##### In-Depth Guide
 
 **Here's How:**
 
@@ -73,19 +92,18 @@ Fortunately these M3U files are easy to create.
         * Folder: <img src="https://user-images.githubusercontent.com/108900299/211213411-713804bb-8d96-4b21-9b0a-afd40d461d3b.png" height="300">
         * M3U File: <img src="https://user-images.githubusercontent.com/108900299/211213427-05c57715-8bc5-443d-9824-8ae410bc6859.png" height="300">
 5. Save and close out of the text file
-6. From now on, you can treat the M3U as the game file, and play the respective ROM discs by running the newly created M3U file through one of EmuDeck's included front-ends: Steam shortcuts created by Steam ROM Manager, EmulationStation-DE, or by running the emulator directly
+6. From now on, you can treat the newly created M3U file as the game file, and play the respective ROM discs by running the newly created M3U file through one of EmuDeck's included front-ends: Steam shortcuts created by Steam ROM Manager, EmulationStation-DE, or by running the emulator directly
     * Steam ROM Manager:
-      * Steam ROM Manager will still parse all of your discs in addition to the M3U file. To solve this, you can hide each disc entry, and only allow Steam ROM Manager to parse the M3U file
-        * To learn more, see: [Steam ROM Manager: How to Manage ROMs with Multiple Discs](../../tools/steamos/steam-rom-manager.md#how-to-manage-roms-with-multiple-discs)
+        * Steam ROM Manager will still parse all of your discs in addition to the M3U file. To solve this, you can hide each disc entry, and only allow Steam ROM Manager to parse the M3U file
+            * To learn more, see: [Steam ROM Manager: How to Manage ROMs with Multiple Discs](../../tools/steamos/steam-rom-manager.md#how-to-manage-roms-with-multiple-discs)
     * EmulationStation-DE:
-      * EmulationStation-DE will display all of your discs in addition to the M3U file. To solve this issue, EmulationStation-DE allows you to treat directories as files. 
-        * To learn more, see: [EmulationStation-DE: How to Manage ROMs with Multiple Discs](../../tools/steamos/emulationstation-de.md#how-to-manage-multiple-discs)
+        * EmulationStation-DE will display all of your discs in addition to the M3U file. To solve this issue, EmulationStation-DE allows you to treat directories as files. 
+            * To learn more, see: [EmulationStation-DE: How to Manage ROMs with Multiple Discs](../../tools/steamos/emulationstation-de.md#how-to-manage-multiple-discs)
     * Alternatively, you can move all of your Multi-Disk games to a new folder
         * For example: `psx-multidisk`, and keep the .m3u files in the `psx` folder, changing the contents to point to the disks in their new location. This will prevent those disks from being read, as the parsers will not look in the new folders created
-        * **Note:** Not all emulators support absolute pathing
+            * **Note:** Not all emulators support absolute pathing
 
-
-Visual Tutorial: 
+##### Video: How to Create an M3U File
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
@@ -224,7 +242,7 @@ Watch the following GIF for a visual (Yuzu is being used as an example in this G
 
 ***
 
-### How to reset an emulator's configurations to EmuDeck's defaults
+### How to Reset an Emulator's Configurations to EmuDeck's Defaults
 [Back to the Top](#file-management-table-of-contents)
 
 Sometimes after installing EmuDeck, you may notice an emulator's configurations were not set properly or you tweaked something on accident and you do not remember the default settings. 
