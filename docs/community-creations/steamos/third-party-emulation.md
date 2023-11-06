@@ -1652,7 +1652,7 @@ Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#h
 #### Setting up Model 2 Emulator
 
 1. Open [https://github.com/PhoenixInteractiveNL/emuDownloadCenter/wiki/Emulator-m2emulator](https://github.com/PhoenixInteractiveNL/emuDownloadCenter/wiki/Emulator-m2emulator) and download `1.1a` to the `Emulation/roms/model2` folder
-2. Right click `1.1a`, click `Extract` > `Extract archive here`
+2. Right click `1.1a.7z`, click `Extract` > `Extract archive here`
     * Extract `1.1a.7z` directly to `Emulation/roms/model2`, if it creates a sub-folder, move the contents directly to `Emulation/roms/model2`
 3. Create an additional `roms` folder in `Emulation/roms/model2`
 4. Download attached `.sh` file to the `Emulation/tools/launchers` folder
