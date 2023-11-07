@@ -314,7 +314,8 @@ Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md
 
 Ryujinx comes with a nifty auto-map feature that makes setting up multiplayer a breeze. To set up multiplayer, you simply need to enable the additional ports.
 
-1. Open Ryujinx
+1. In **Game Mode**, open Ryujinx
+    * You may add Ryujinx to Steam by using the `Emulators` parser in Steam ROM Manager
 2. Open the `Input` settings in the `Settings` menu
 3. For each controller you are using for Player 2, 3, 4, etc, click the respective `Configure` button
     * You do not need to adjust any settings for Player 1
