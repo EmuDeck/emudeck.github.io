@@ -1598,11 +1598,6 @@ This section will use a simple script file to launch the various decompilations 
     * You may need to do `make clean` first using a terminal in the root of the project folder
     * You may reference the various sections to re-build the game. The steps will be identical 
 
-This section specifically applies to: 
-
-- [Perfect Dark](#perfect-dark)
-- [Ship of Harkinian](#ship-of-harkinian-ocarina-of-time)
-
 #### Updating: Group 2
 
 - [Perfect Dark](#perfect-dark)
@@ -1663,6 +1658,7 @@ Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#h
 ***
 
 ### Sega Model 2: Model 2 Emulator
+[Back to the Top](#third-party-emulation-table-of-contents)
 
 #### Setting up Model 2 Emulator
 
