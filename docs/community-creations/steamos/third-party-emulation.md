@@ -411,8 +411,7 @@ Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs
 #### How to Launch Perfect Dark
 
 1. Download attached `.sh` file
-    * [https://gist.githubusercontent.com/rawdatafeel/5337756f78b3c42f0a532ff360b85273/raw/dc79b7a5d734e8f0c10b6456080d63f255dfecba/PerfectDark.sh](https://gist.githubusercontent.com/rawdatafeel/5337756f78b3c42f0a532ff360b85273/raw/dc79b7a5d734e8f0c10b6456080d63f255dfecba/PerfectDark.sh)
-    * Right click anywhere on the page, click `Save Page As`
+    * [PerfectDark.sh](../../configuration-files/PerfectDark.sh)
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
     * If you are using EmulationStation-DE or Steam ROM Manager, place in `Emulation/roms/desktop` instead
@@ -842,8 +841,7 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 #### How to Fix the Missing HUD UI textures
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/0f7e619465a4349da98b5c7899a8e998037a9876/SuperMario64Plus.sh)
-    * Right click anywhere on the page, click `Save Page As`
+    * [SuperMario64Plus.sh](../../configuration-files/SuperMario64Plus.sh)
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
     * If you are using EmulationStation-DE or Steam ROM Manager, place in `Emulation/roms/desktop` instead
@@ -927,8 +925,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 #### How to Play Super Mario Bros
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/79bf538b66e4025e577fb9dba9c37560f5f26631/smb1.sh](https://gist.githubusercontent.com/rawdatafeel/2dcf2e3a19d42fab86c1c67590d51025/raw/79bf538b66e4025e577fb9dba9c37560f5f26631/smb1.sh)
-    * Right click anywhere on the page, click `Save Page As`
+    * [smb1.sh](../../configuration-files/smb1.sh)
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
 3. Right click `smb1.sh`
@@ -1003,8 +1000,7 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 #### How to Play Super Mario Bros: The Lost Levels
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/f537fd54b6cef235ef4c896b6ba56bba4f3f2f95/smbll.sh](https://gist.githubusercontent.com/rawdatafeel/279ab67a552f665599b8cbda530a6cfa/raw/f537fd54b6cef235ef4c896b6ba56bba4f3f2f95/smbll.sh)
-    * Right click anywhere on the page, click `Save Page As`
+    * [smbll.sh](../../configuration-files/smbll.sh)
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
 3. Right click `smbll.sh`
@@ -1347,7 +1343,7 @@ This section will use a simple script file to launch the various decompilations 
 2. Open the text file in a text editor of your choice
 3. Enter the following (including the quotes):
 
-        #!/bin/sh
+        #!/bin/bash
         cd "/path/to/game"
         "/path/to/gameexecutable"
 
@@ -1380,8 +1376,7 @@ This section will use a simple script file to launch the various decompilations 
 - [Super Mario 64 Plus](#super-mario-64-plus)
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/b3ea9d23cfa37cad6d6e7a0d4b3ab26e408441e4/SuperMario64Plus.sh](https://gist.githubusercontent.com/rawdatafeel/b3933e82b913175f2b7cad60f9c6f2b5/raw/b3ea9d23cfa37cad6d6e7a0d4b3ab26e408441e4/SuperMario64Plus.sh)
-    * Right click anywhere on the page, click `Save Page As`
+    * [SuperMario64Plus.sh](../../configuration-files/SuperMario64Plus.sh)
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `Emulation/roms/desktop`
 3. Right click `SuperMario64Plus.sh`
@@ -1394,8 +1389,7 @@ This section will use a simple script file to launch the various decompilations 
 - [Perfect Dark](#perfect-dark)
 
 1. Download attached `.sh` file
-    * [https://gist.githubusercontent.com/rawdatafeel/5337756f78b3c42f0a532ff360b85273/raw/dc79b7a5d734e8f0c10b6456080d63f255dfecba/PerfectDark.sh](https://gist.githubusercontent.com/rawdatafeel/5337756f78b3c42f0a532ff360b85273/raw/dc79b7a5d734e8f0c10b6456080d63f255dfecba/PerfectDark.sh)
-    * Right click anywhere on the page, click `Save Page As`
+    * [PerfectDark.sh](../../configuration-files/PerfectDark.sh)
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `Emulation/roms/desktop`
 3. Right click `PerfectDark.sh`
@@ -1413,13 +1407,13 @@ This section will use a simple script file to launch the various decompilations 
 2. Open the text file in a text editor of your choice
 3. Enter the following:
 
-        #!/bin/sh
+        #!/bin/bash
         "/path/to/gameexecutable"
 
 4. Edit the path to where your game executable is located
     * For example:
 
-            #!/bin/sh
+            #!/bin/bash
             "/home/deck/Applications/ShipofHarkinian/soh.appimage"
 
 5. Save and exit out of the file
@@ -1433,7 +1427,7 @@ This section will use a simple script file to launch the various decompilations 
 * If your path is in the `home` directory, you may also replace `/home/$USER` (`home/deck` if you are on a Steam Deck) with `$HOME` 
     * For example:
 
-            #!/bin/sh
+            #!/bin/bash
             "$HOME/Applications/ShipofHarkinian/soh.appimage"
 
 #### Script Files: Group 5
@@ -1978,8 +1972,7 @@ Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
 #### How to add AM2R to Steam
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/a708bbfe9c162250e51b741d6aea8de1/raw/e8751109b4d5d9f7a74c209c033c81dd6fb4fbde/AM2R.sh](https://gist.githubusercontent.com/rawdatafeel/a708bbfe9c162250e51b741d6aea8de1/raw/e8751109b4d5d9f7a74c209c033c81dd6fb4fbde/AM2R.sh)
-    * Right click anywhere on the page, click `Save Page As`
+    * [AM2R.sh](../../configuration-files/AM2R.sh)
 2. Place in `/home/deck/Applications`
 3. Right click `AM2R.sh`
 4. Click `Properties`
@@ -2023,8 +2016,7 @@ Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
 #### How to add PokeMMO to Steam
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/e03292153a3d2f07b1b1ad0517fc92875a01df78/PokeMMO.sh](https://gist.githubusercontent.com/rawdatafeel/c499a7c8313067c2af4dc9afc785eed0/raw/e03292153a3d2f07b1b1ad0517fc92875a01df78/PokeMMO.sh)
-    * Right click anywhere on the page, click `Save Page As`
+    * [PokeMMO.sh](../../configuration-files/PokeMMO.sh)
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
 3. Right click `PokeMMO.sh`
@@ -2108,8 +2100,7 @@ _This list is not comprehensive_
 #### How to add Sonic 3 A.I.R. to Steam
 
 1. Download attached `.sh` file
-    * Link: [https://gist.githubusercontent.com/rawdatafeel/a36e86ede582766ea5b7a03787dc796a/raw/593fb18893f48ccee85ffdf7f915a842b0add85e/Sonic3AIR.sh](https://gist.githubusercontent.com/rawdatafeel/a36e86ede582766ea5b7a03787dc796a/raw/593fb18893f48ccee85ffdf7f915a842b0add85e/Sonic3AIR.sh)
-    * Right click anywhere on the page, click `Save Page As`
+    * [Sonic3AIR.sh](../../configuration-files/Sonic3AIR.sh)
 2. Place in `/home/deck/Applications`
 3. Right click `Sonic3AIR.sh`
 4. Click `Properties`
