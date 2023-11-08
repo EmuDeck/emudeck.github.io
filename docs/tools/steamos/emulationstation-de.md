@@ -6,13 +6,13 @@ EmuDeck installs EmulationStation-DE, which allows you to manage your ROMs throu
 
 Website: [https://es-de.org/](https://es-de.org/)
 
-EmulationStation-DE's Wiki: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md)
+**EmulationStation-DE Important Links**
 
-EmulationStation-DE's FAQ: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
+* User Guide: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md)
+* FAQ: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
+* Releases: [https://gitlab.com/es-de/emulationstation-de/-/packages/](https://gitlab.com/es-de/emulationstation-de/-/packages/)
 
-Emulation-Station-DE Releases: [https://gitlab.com/es-de/emulationstation-de/-/packages/](https://gitlab.com/es-de/emulationstation-de/-/packages/)
-
-EmulationStation-DE currently scrapes art from [https://thegamesdb.net/](https://thegamesdb.net/) and [https://www.screenscraper.fr/](https://www.screenscraper.fr/)
+EmulationStation-DE currently scrapes art from [https://thegamesdb.net/](https://thegamesdb.net/) and [https://www.screenscraper.fr/](https://www.screenscraper.fr/).
 
 Read the [Steam ROM Manager](../steamos/steam-rom-manager.md) page to learn more about Steam Rom Manager and how it can be used in tandem with EmulationStation-DE!
 
@@ -23,6 +23,7 @@ Read the [Steam ROM Manager](../steamos/steam-rom-manager.md) page to learn more
 
 1. [Getting started with EmulationStation-DE](#getting-started-with-emulationstation-de)
     - [Configuration](#emulationstation-de-configuration)
+    - [EmulationStation-DE Folder Locations](#emulationstation-de-folder-locations)
     - [How to Update EmulationStation-DE](#how-to-update-emulationstation-de)
     - [How to Launch EmulationStation-DE in Desktop Mode](#how-to-launch-emulationstation-de-in-desktop-mode)
     - [How to add EmulationStation-DE to your Steam Library](#how-to-add-emulationstation-de-to-your-steam-library)
@@ -48,9 +49,65 @@ Read the [Steam ROM Manager](../steamos/steam-rom-manager.md) page to learn more
 * Executable Location: `Emulation/tools/EmulationStation-DE-x64_SteamDeck.AppImage`
 * Scraped Media Location: `Emulation/tools/downloaded_media`
 * Config Location: `/home/deck/.emulationstation`
-   * Contains: `collections`, `custom_systems`, `gamelists`, `scrapers`, `scripts`, and `themes`
 
 Note: `~/.emulationstation` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.
+
+***
+
+### EmulationStation-DE Folder Locations
+[Back to the Top](#emulationstation-de-table-of-contents)
+
+These file locations apply regardless of where you chose to install EmuDeck (to your internal SSD, to your SD Card, or elsewhere). Some emulator configuration files will be located on the internal SSD as listed below. 
+
+`$HOME` refers to your home folder. If you are on a Steam Deck, this folder will be named `/home/deck` (you will likely not see `deck` in the file path when navigating using the file manager). 
+
+Paths beginning with `Emulation/..` correspond to your EmuDeck install location. If you installed on an SD Card, your path may be `/run/media/mmcblk0p1/Emulation/roms/..`. If you installed on your internal SSD, your path may be `/home/deck/Emulation/roms/..`
+
+Do note that some of these paths have been adjusted from EmulationStation-DE's defaults. If you are reading EmulationStation-DE's [User Guide](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md), make sure to also use the below file locations as a reference.
+
+`$HOME/.emulationstation`
+
+```
+.emulationstation
+├── collections
+├── custom_systems
+│   └── es_systems.xml
+├── es_log.txt
+├── es_settings.xml
+├── gamelists
+│   ├── atarilynx
+│   │   └── gamelist.xml
+│   ├── gc
+│   │   └── gamelist.xml
+│   ├── n3ds
+│   │   └── gamelist.xml
+│   ├── nds
+│   │   └── gamelist.xml
+│   ├── ps2
+│   │   └── gamelist.xml
+│   ├── psp
+│   │   └── gamelist.xml
+│   ├── psx
+│   │   └── gamelist.xml
+│   ├── saturn
+│   │   └── gamelist.xml
+│   ├── scummvm
+│   │   └── gamelist.xml
+│   └── wii
+│       └── gamelist.xml
+└── themes
+    └── epic-noir-revisited-es-de
+```
+
+`Emulation/tools/downloaded_media`
+
+This folder will also have your scraped media in folders corresponding to the system name.
+
+```
+downloaded_media/
+└── CLEANUP
+```
+
 
 ***
 
