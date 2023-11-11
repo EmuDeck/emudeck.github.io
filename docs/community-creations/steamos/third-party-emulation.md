@@ -289,6 +289,9 @@ Text file contents:
 /home/deck/Applications/OpenGOAL/versions/official/v0.2.0/gk -v --proj-path /home/deck/Applications/OpenGOAL/active/jak1/data --game jak1 -- -boot -fakeiso
 ```
 
+**Note:** You will need to update this shortcut whenever you update OpenGOAL. 
+
+
 ***
 
 ### OpenGOAL: Jak II
@@ -371,6 +374,7 @@ Text file contents:
 /home/deck/Applications/OpenGOAL/versions/official/v0.2.0/gk -v --proj-path /home/deck/Applications/OpenGOAL/active/jak2/data --game jak2 -- -boot -fakeiso
 ```
 
+**Note:** You will need to update this shortcut whenever you update OpenGOAL. 
 
 ### Perfect Dark
 [Back to the Top](#third-party-emulation-table-of-contents)
@@ -1445,6 +1449,8 @@ This section will use a simple script file to launch the various decompilations 
 8. Save the text file and exit out
 9. Right click your newly created text file, click `Properties`, click `Permissions`, check `Is Executable`
 
+**Note:** You will need to update this shortcut whenever you update OpenGOAL. 
+
 #### How to Utilize Script Files with EmulationStation-DE
 
 1. Place your script files in `Emulation/roms/desktop`
@@ -1629,6 +1635,9 @@ This section will use a simple script file to launch the various decompilations 
 4. Click the game you would like to update on the left
 5. You will receive a message requesting you to update the game, click `Update Game` and wait a few moments
 6. Your game will now be updated to the latest version 
+
+**Note:** Do not forget to update the shortcut as well whenever you update OpenGOAL. 
+
 
 ***
 
