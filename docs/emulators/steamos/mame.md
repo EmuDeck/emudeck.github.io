@@ -10,9 +10,6 @@ MAME FAQ: [https://docs.mamedev.org/usingmame/commonissues.html](https://docs.ma
 
 Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name refers to): [http://adb.arcadeitalia.net/default.php](http://adb.arcadeitalia.net/default.php)
 
-
-
-
 ***
 
 ## MAME Table of Contents
@@ -82,6 +79,8 @@ These file locations apply regardless of where you chose to install EmuDeck (to 
 `$HOME` refers to your home folder. If you are on a Steam Deck, this folder will be named `/home/deck` (you will likely not see `deck` in the file path when navigating using the file manager). 
 
 Paths beginning with `Emulation/..` correspond to your EmuDeck install location. If you installed on an SD Card, your path may be `/run/media/mmcblk0p1/Emulation/roms/..`. If you installed on your internal SSD, your path may be `/home/deck/Emulation/roms/..`
+
+**Note:** Folders with a `.` (`.mame`, `.var`, `.local`, `.config`, etc.) at the beginning are hidden by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
 `$HOME/.mame`
 

@@ -124,6 +124,8 @@ Paths beginning with `Emulation/..` correspond to your EmuDeck install location.
 
 DLC and Updates are installed to the **NAND**. The NAND is localized to your EmuDeck install. If you installed EmuDeck to your internal SSD, your NAND is on your internal SSD. If you installed EmuDeck to an SD Card or an External Hard Drive, your NAND is on the removable storage device. 
 
+**Note:** Folders with a `.` (`.var`, `.local`, `.config`, etc.) at the beginning are hidden by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
+
 `$HOME/.config/yuzu`
 
 ```
