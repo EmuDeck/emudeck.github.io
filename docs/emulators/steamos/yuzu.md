@@ -223,7 +223,7 @@ Ryujinx expects your DLC and update files to stay permanently in a folder, eithe
 
 DLC and Updates are installed directly through the Yuzu menu. 
 
-DLC and Updates are installed to the **NAND**. The NAND is localized to your EmuDeck install. If you installed EmuDeck to your internal SSD, your NAND is on your internal SSD. If you installed EmuDeck to an SD Card or an External Hard Drive, your NAND is on the removable storage device. 
+DLC and Updates are installed to the **NAND**. The NAND is localized to your EmuDeck install. If you installed EmuDeck to your internal SSD, your NAND is on your internal SSD. If you installed EmuDeck to an SD Card or an External Hard Drive, your NAND is on the removable storage device. For specific folder locations, see [Yuzu Folder Locations](#yuzu-folder-locations).
 
 **Quick Tutorial**
 
