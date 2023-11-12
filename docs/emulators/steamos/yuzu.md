@@ -122,6 +122,8 @@ These file locations apply regardless of where you chose to install EmuDeck (to 
 
 Paths beginning with `Emulation/..` correspond to your EmuDeck install location. If you installed on an SD Card, your path may be `/run/media/mmcblk0p1/Emulation/roms/..`. If you installed on your internal SSD, your path may be `/home/deck/Emulation/roms/..`
 
+DLC and Updates are installed to the **NAND**. The NAND is localized to your EmuDeck install. If you installed EmuDeck to your internal SSD, your NAND is on your internal SSD. If you installed EmuDeck to an SD Card or an External Hard Drive, your NAND is on the removable storage device. 
+
 `$HOME/.config/yuzu`
 
 ```
@@ -220,6 +222,8 @@ yuzu/
 Ryujinx expects your DLC and update files to stay permanently in a folder, either in a folder of your choice, or in `Emulation/storage/ryujinx/patchesAndDlc`. For further detail, read: [Ryujinx: How to Manage DLC and Updates](../steamos/ryujinx.md#how-to-manage-dlc-and-updates). 
 
 DLC and Updates are installed directly through the Yuzu menu. 
+
+DLC and Updates are installed to the **NAND**. The NAND is localized to your EmuDeck install. If you installed EmuDeck to your internal SSD, your NAND is on your internal SSD. If you installed EmuDeck to an SD Card or an External Hard Drive, your NAND is on the removable storage device. 
 
 **Quick Tutorial**
 
