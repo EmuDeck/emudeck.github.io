@@ -28,6 +28,7 @@ PrimeHack FAQ: [https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questio
     - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Configure PrimeHack to work with EmulationStation-DE](#how-to-configure-primehack-to-work-with-emulationstation-de)
+    - [How to Roll Back PrimeHack to an Older Version](#how-to-roll-back-primehack-to-an-older-version)
 
 ***
 
@@ -287,5 +288,20 @@ Here's how to install custom textures for PrimeHack:
 You need to move your `Metroid Prime Trilogy` ROM to `Emulation/roms/wii` and choose an alternative emulator for the ROM in EmulationStation-DE.
 
 For further instructions, refer to: [How to Select a Different Emulator on a Per Game Basis](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-on-a-per-game-basis). 
+
+***
+
+### How to Roll Back PrimeHack to an Older Version
+[Back to the Top](#primehack-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub io.github.shiiion.primehack`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here io.github.shiiion.primehack`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here io.github.shiiion.primehack`
 
 ***

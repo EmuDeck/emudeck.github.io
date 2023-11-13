@@ -43,7 +43,7 @@ Quickstart Guide (Skip the HDD requirement, it is pre-included with EmuDeck): [h
         - [How to Apply vs_position_always_invariant=true to Steam ROM Manager Shortcuts](#how-to-apply-vs_position_always_invarianttrue-to-steam-rom-manager-shortcuts)
         - [How to Apply vs_position_always_invariant=true to EmulationStation-DE Games](#how-to-apply-vs_position_always_invarianttrue-to-emulationstation-de-games)
     - [How to Access Saves](#how-to-access-saves)
-
+    - [How to Roll Back Xemu to an Older Version](#how-to-roll-back-xemu-to-an-older-version)
 
 ***
 
@@ -448,3 +448,17 @@ Follow the instructions here: [https://xemu.app/docs/ftp/](https://xemu.app/docs
 
 ***
 
+### How to Roll Back Xemu to an Older Version
+[Back to the Top](#xemu-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub app.xemu.xemu`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here app.xemu.xemu`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here app.xemu.xemu`
+
+***

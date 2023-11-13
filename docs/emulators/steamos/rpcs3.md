@@ -28,6 +28,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [Special Game Configurations](#special-game-configurations)
     - [How to Set Up the Motion Sensor with External Controllers](#how-to-set-up-the-motion-sensor-with-external-controllers)
+    - [How to Roll Back RPCS3 to an Older Version](#how-to-roll-back-rpcs3-to-an-older-version)
 
 ***
 
@@ -348,5 +349,20 @@ To restore the default Steam Deck controls:
 4. Click the `Gear` icon to the right, and click `Enable Steam Input`
     * You may need to restart first for this setting to properly apply
 5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
+
+***
+
+### How to Roll Back RPCS3 to an Older Version
+[Back to the Top](#rpcs3-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub net.rpcs3.RPCS3`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here net.rpcs3.RPCS3`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here net.rpcs3.RPCS3`
 
 ***

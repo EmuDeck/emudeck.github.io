@@ -24,6 +24,7 @@ Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://
 2. [PPSSPP Tips and Tricks](#ppsspp-tips-and-tricks)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Roll Back PPSSPP to an Older Version](#how-to-roll-back-ppsspp-to-an-older-version)
 
 ***
 
@@ -300,5 +301,20 @@ _This list is not exhaustive_
 7. scroll down the list of cheats and enable the cheat(s) you added to the `.ini` file
     1. <img src="https://user-images.githubusercontent.com/108900299/214390274-8832ce4e-50d9-4844-8d39-35f1d233a4c6.png" height="300">
 8. Return to game and your cheat(s) should now be enabled
+
+***
+
+### How to Roll Back PPSSPP to an Older Version
+[Back to the Top](#ppsspp-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub org.ppsspp.PPSSPP`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here org.ppsspp.PPSSPP`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here org.ppsspp.PPSSPP`
 
 ***

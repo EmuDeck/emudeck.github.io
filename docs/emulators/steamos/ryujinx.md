@@ -30,7 +30,7 @@ Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Confi
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Install Mods](#how-to-install-mods)
     - [Special Characters](#special-characters)
-    - [How to Rollback Ryujinx to an Older Version](#how-to-rollback-ryujinx-to-an-older-version)
+    - [How to Roll Back Ryujinx to an Older Version](#how-to-roll-back-ryujinx-to-an-older-version)
 
 ***
 
@@ -406,7 +406,7 @@ If you used Steam ROM Manager previously, re-run Steam ROM Manager after renamin
 
 ***
 
-### How to Rollback Ryujinx to an Older Version
+### How to Roll Back Ryujinx to an Older Version
 [Back to the Top](#ryujinx-table-of-contents)
 
 #### Preface
@@ -419,7 +419,7 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 * The emulator name at the beginning of the file. Anything after the emulator name is ignored. 
     * For example, if the latest version of the emulator is `1351` and you would like to downgrade to `1349`. When you download version `1349`, you could rename it to `EMULATORNAME-1349.AppImage`, and EmuDeck's script will ignore the `-1349` in the file name, allowing you to record which versions of the emulator you are using through the file name. 
 
-#### How to Rollback Ryujinx
+#### How to Roll Back Ryujinx
 
 1. Download the version of the emulator you would like to use from Ryujinx's GitHub: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
 2. Move the downloaded emulator from Step 1 to `/home/deck/Applications`

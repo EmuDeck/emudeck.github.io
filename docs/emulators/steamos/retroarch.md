@@ -36,6 +36,7 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
     - [How to Change Controller Layouts for a System](#how-to-change-controller-layouts-for-a-system)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
     - [How to Change Settings On a Per-Core Basis](#how-to-change-settings-on-a-per-core-basis)
+    - [How to Roll Back RetroArch to an Older Version](#how-to-roll-back-retroarch-to-an-older-version)
 
 4. [RetroArch Cores](#retroarch-cores)
     * [Flycast](#flycast)
@@ -644,6 +645,21 @@ How to Change Settings On a Per-Core Basis
 4. Select Overrides
 5. Select Save Content Directory Overrides
 ```
+
+***
+
+### How to Roll Back RetroArch to an Older Version
+[Back to the Top](#retroarch-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub org.libretro.RetroArch`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here org.libretro.RetroArch`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here org.libretro.RetroArch`
 
 ***
 

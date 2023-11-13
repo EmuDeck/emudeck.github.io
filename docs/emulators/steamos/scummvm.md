@@ -23,6 +23,7 @@ ScummVM's Wiki: [https://docs.scummvm.org/en/v2.6.0](https://docs.scummvm.org/en
     - [How to Configure ScummVM to Work with Steam ROM Manager and EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de-and-steam-rom-manager)
         - [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
         - [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)
+    - [How to Roll Back ScummVM to an Older Version](#how-to-roll-back-scummvm-to-an-older-version)
 
 ***
 
@@ -239,5 +240,20 @@ If a page does not currently exist for your ScummVM game, request one at [https:
 3. Your game should now be compatible with Steam ROM Manager
 
 Example: <img src="https://user-images.githubusercontent.com/108900299/214456141-c58df2c4-679f-41e3-ac68-f7c850567f9e.png" height="300">
+
+***
+
+### How to Roll Back ScummVM to an Older Version
+[Back to the Top](#scummvm-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub org.scummvm.ScummVM`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here org.scummvm.ScummVM`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here org.scummvm.ScummVM`
 
 ***

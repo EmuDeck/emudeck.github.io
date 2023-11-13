@@ -38,7 +38,7 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Mod Persona 3 FES](#how-to-mod-persona-3-fes)
-    - [How to Rollback PCSX2 to an Older Version](#how-to-rollback-pcsx2-to-an-older-version)
+    - [How to Roll Back PCSX2 to an Older Version](#how-to-rollback-pcsx2-to-an-older-version)
 ***
 
 ### Getting Started with PCSX2
@@ -583,7 +583,7 @@ If you would like to launch Persona 3 FES directly in Game Mode, follow the belo
 
 *** 
 
-### How to Rollback PCSX2 to an Older Version
+### How to Roll Back PCSX2 to an Older Version
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 #### Preface
@@ -596,7 +596,7 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 * The emulator name at the beginning of the file. Anything after the emulator name is ignored. 
     * For example, if the latest version of the emulator is `1351` and you would like to downgrade to `1349`. When you download version `1349`, you could rename it to `EMULATORNAME-1349.AppImage`, and EmuDeck's script will ignore the `-1349` in the file name, allowing you to record which versions of the emulator you are using through the file name. 
 
-#### How to Rollback PCSX2
+#### How to Roll Back PCSX2
 
 1. Download the version of the emulator you would like to use from PCSX2's GitHub: [https://pcsx2.net/downloads/#nightly-anchor](https://pcsx2.net/downloads/#nightly-anchor)
 2. Move the downloaded emulator from Step 1 to `/home/deck/Applications`

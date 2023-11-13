@@ -40,7 +40,7 @@ Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/h
     - [How to Install Mods](#how-to-install-mods)
     - [Special Game Configurations](#special-game-configurations)
     - [How to Set Up Early Access](#how-to-set-up-early-access)4
-    - [How to Rollback Yuzu to an Older Version](#how-to-rollback-yuzu-to-an-older-version)
+    - [How to Roll Back Yuzu to an Older Version](#how-to-roll-back-yuzu-to-an-older-version)
 
 
 ***
@@ -626,7 +626,7 @@ EmuDeck 2.1 added an option to enable Yuzu (Early Access).
 
 *** 
 
-### How to Rollback Yuzu to an Older Version
+### How to Roll Back Yuzu to an Older Version
 [Back to the Top](#yuzu-table-of-contents)
 
 #### Preface
@@ -639,7 +639,7 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 * The emulator name at the beginning of the file. Anything after the emulator name is ignored. 
     * For example, if the latest version of the emulator is `1351` and you would like to downgrade to `1349`. When you download version `1349`, you could rename it to `EMULATORNAME-1349.AppImage`, and EmuDeck's script will ignore the `-1349` in the file name, allowing you to record which versions of the emulator you are using through the file name. 
 
-#### How to Rollback Yuzu
+#### How to Roll Back Yuzu
 
 1. Download the version of the emulator you would like to use from Yuzu's GitHub: [https://github.com/yuzu-emu/yuzu-mainline/releases](https://github.com/yuzu-emu/yuzu-mainline/releases)
 2. Move the downloaded emulator from Step 1 to `/home/deck/Applications`

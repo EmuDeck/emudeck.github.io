@@ -22,6 +22,7 @@ Github: [https://github.com/Rosalie241/RMG](https://github.com/Rosalie241/RMG)
     - [How to Configure VRU](#how-to-configure-vru)
     - [How to Configure N64DD](#how-to-configure-n64dd)
     - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Roll Back RMG to an Older Version](#how-to-roll-back-rmg-to-an-older-version)
  
 ***
 
@@ -366,5 +367,20 @@ Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser in 
 2. Right click a game
 3. Click `Edit cheats`
     * If you would like to add new cheats, it is recommended you do so in Desktop Mode
+
+***
+
+### How to Roll Back RMG to an Older Version
+[Back to the Top](#rmg-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub com.github.Rosalie241.RMG`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here com.github.Rosalie241.RMG`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here com.github.Rosalie241.RMG`
 
 ***

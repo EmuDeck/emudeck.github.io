@@ -30,6 +30,7 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
     - [How to Set up DSIWare](#how-to-set-up-dsiware)
     - [How to Play Nintendo DS Games in Book Mode](#how-to-play-nintendo-ds-games-in-book-mode)
     - [How to Customize the Screen Layout](#how-to-customize-the-screen-layout)
+    - [How to Roll Back melonDS to an Older Version](#how-to-roll-back-melonds-to-an-older-version)
 
 ***
 
@@ -370,5 +371,20 @@ If you configured the settings and you decide you would like to reset to EmuDeck
             ScreenAspectBot=4           
 
 4. Back up this file to a secure location. If/when your melonDS configs are reset on an EmuDeck update, you may paste this section into the `melonDS.ini` to restore your custom layout
+
+***
+
+### How to Roll Back melonDS to an Older Version
+[Back to the Top](#melonds-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub net.kuribo64.melonDS`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here net.kuribo64.melonDS`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here net.kuribo64.melonDS`
 
 ***

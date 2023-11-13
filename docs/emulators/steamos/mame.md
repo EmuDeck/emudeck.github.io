@@ -31,6 +31,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
       - [How to Add Custom Bezels](#how-to-add-custom-bezels)
       - [How to Enable Shaders/Scanlines in MAME (Standalone)](https://github.com/dragoonDorise/EmuDeck/wiki/MAME#how-to-enable-shadersscanlines-in-mame-standalone)
       - [How to Configure MAME to Work With EmulationStation-DE](#how-to-configure-mame-to-work-with-emulationstation-de)
+      - [How to Roll Back MAME to an Older Version](#how-to-roll-back-mame-to-an-older-version)
 
 ***
 
@@ -327,3 +328,18 @@ In order to use MAME (Standalone) for EmulationStation-DE, make sure you are sel
 4. Scroll down to `Arcade` and select `MAME [Standalone]`
 
 *** 
+
+### How to Roll Back MAME to an Older Version
+[Back to the Top](#mame-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub org.mamedev.MAME`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here org.mamedev.MAME`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here org.mamedev.MAME`
+
+***

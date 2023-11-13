@@ -30,7 +30,7 @@ Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
     - [How to Use the Gyro Sensor](#how-to-use-the-gyro-sensor)
     - [How to Use the Tilt Sensor](#how-to-use-the-tilt-sensor)
     - [How to Use Cheats](#how-to-use-cheats)
-    - [How to Rollback mGBA to an Older Version](#how-to-rollback-mgba-to-an-older-version)
+    - [How to Roll Back mGBA to an Older Version](#how-to-roll-back-mgba-to-an-older-version)
 
 
 
@@ -402,7 +402,7 @@ _This list is not comprehensive_
 
 ***
 
-### How to Rollback mGBA to an Older Version
+### How to Roll Back mGBA to an Older Version
 [Back to the Top](#mgba-table-of-contents)
 
 #### Preface
@@ -415,7 +415,7 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 * The emulator name at the beginning of the file. Anything after the emulator name is ignored. 
     * For example, if the latest version of the emulator is `1351` and you would like to downgrade to `1349`. When you download version `1349`, you could rename it to `EMULATORNAME-1349.AppImage`, and EmuDeck's script will ignore the `-1349` in the file name, allowing you to record which versions of the emulator you are using through the file name. 
 
-#### How to Rollback mGBA
+#### How to Roll Back mGBA
 
 1. Download the version of the emulator you would like to use from mGBA's GitHub: [https://github.com/mgba-emu/mgba/releases](https://github.com/mgba-emu/mgba/releases)
 2. Move the downloaded emulator from Step 1 to `/home/deck/Applications`

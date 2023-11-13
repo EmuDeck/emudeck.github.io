@@ -24,8 +24,7 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5R
       - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
       - [How to Use Cheats](#how-to-use-cheats)
       - [How to Configure Multiplayer](#how-to-configure-multiplayer)
-
-
+      - [How to Roll Back DuckStation to an Older Version](#how-to-roll-back-duckstation-to-an-older-version)
 
 ***
 
@@ -243,5 +242,20 @@ Multiplayer for DuckStation is configured out of the box, no additional configur
 
 You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information.
 
+
+***
+
+### How to Roll Back DuckStation to an Older Version
+[Back to the Top](#duckstation-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub org.duckstation.DuckStation`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit code_here org.duckstation.DuckStation`
+    * Replace `put_commit code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit code_here org.duckstation.DuckStation`
 
 ***

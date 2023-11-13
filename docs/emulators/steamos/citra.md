@@ -28,6 +28,7 @@ Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Configure Bottom Screen as PiP](#how-to-configure-bottom-screen-as-pip)
     - [How to Configure Bottom Screen With Opacity](#how-to-configure-bottom-screen-with-opacity)
+    - [How to Roll Back Citra to an Older Version](#how-to-roll-back-citra-to-an-older-version)
 
 ***
 
@@ -577,5 +578,20 @@ swap_screen\default=true
 upright_screen=false
 upright_screen\default=true
 ```
+
+***
+
+### How to Roll Back Citra to an Older Version
+[Back to the Top](#citra-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub org.citra_emu.citra`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here org.citra_emu.citra`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here org.citra_emu.citra`
 
 ***

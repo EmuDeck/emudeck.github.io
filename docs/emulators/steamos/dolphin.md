@@ -47,6 +47,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Remove the Unsupported Extension Controller](#how-to-remove-the-unsupported-extension-controller)
     - [How to Configure Real Wiimotes](#how-to-configure-real-wiimotes)
     - [How to Use a Mayflash DolphinBar in Game Mode](#how-to-use-a-mayflash-dolphinbar-in-game-mode)
+    - [### How to Roll Back Dolphin to an Older Version](#how-to-roll-back-dolphin-to-an-older-version)
 
 ***
 
@@ -1038,3 +1039,17 @@ Here's how to **resolve the error** and remove the Nunchuk:
 
 *** 
 
+### How to Roll Back Dolphin to an Older Version
+[Back to the Top](#dolphin-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub org.DolphinEmu.dolphin-emu`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here org.DolphinEmu.dolphin-emu`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here org.DolphinEmu.dolphin-emu`
+
+***
