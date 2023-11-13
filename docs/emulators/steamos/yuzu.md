@@ -39,7 +39,8 @@ Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/h
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Install Mods](#how-to-install-mods)
     - [Special Game Configurations](#special-game-configurations)
-    - [How to Set Up Early Access](#how-to-set-up-early-access)
+    - [How to Set Up Early Access](#how-to-set-up-early-access)4
+    - [How to Rollback Yuzu to an Older Version](#how-to-rollback-yuzu-to-an-older-version)
 
 
 ***
@@ -624,3 +625,26 @@ EmuDeck 2.1 added an option to enable Yuzu (Early Access).
 6. Whenever you launch Yuzu, it will now use the `Early Access` version
 
 *** 
+
+### How to Rollback Yuzu to an Older Version
+[Back to the Top](#yuzu-table-of-contents)
+
+#### Preface
+
+Your ROMs launch using a script created by EmuDeck, `yuzu.sh` in `Emulation/tools/launchers`.
+
+The script launches the corresponding emulator in `/home/deck/Applications` and **specifically looks** for two traits:
+
+* The most recently downloaded version of the emulator in `/home/deck/Applications`, based on the file/release date.
+* The emulator name at the beginning of the file. Anything after the emulator name is ignored. 
+    * For example, if the latest version of the emulator is `1351` and you would like to downgrade to `1349`. When you download version `1349`, you could rename it to `EMULATORNAME-1349.AppImage`, and EmuDeck's script will ignore the `-1349` in the file name, allowing you to record which versions of the emulator you are using through the file name. 
+
+#### How to Rollback Yuzu
+
+1. Download the version of the emulator you would like to use from Yuzu's GitHub: [https://github.com/yuzu-emu/yuzu-mainline/releases](https://github.com/yuzu-emu/yuzu-mainline/releases)
+2. Move the downloaded emulator from Step 1 to `/home/deck/Applications`
+3. (Optional) Rename or delete the original emulator file
+4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
+5. Your games will now launch using the version of the emulator you downloaded
+
+***

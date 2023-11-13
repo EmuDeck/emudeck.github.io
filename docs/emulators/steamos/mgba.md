@@ -30,6 +30,7 @@ Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
     - [How to Use the Gyro Sensor](#how-to-use-the-gyro-sensor)
     - [How to Use the Tilt Sensor](#how-to-use-the-tilt-sensor)
     - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Rollback mGBA to an Older Version](#how-to-rollback-mgba-to-an-older-version)
 
 
 
@@ -398,5 +399,28 @@ _This list is not comprehensive_
 1. While in game, use the left Trackpad and select the `Cheats` icon
     * Steam Input profiles for mGBA ROMs and EmulationStation-DE are enabled by default. However, if you do not see the Trackpad menu, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Select which cheats you would like to use
+
+***
+
+### How to Rollback mGBA to an Older Version
+[Back to the Top](#mgba-table-of-contents)
+
+#### Preface
+
+Your ROMs launch using a script created by EmuDeck, `mgba.sh` in `Emulation/tools/launchers`.
+
+The script launches the corresponding emulator in `/home/deck/Applications` and **specifically looks** for two traits:
+
+* The most recently downloaded version of the emulator in `/home/deck/Applications`, based on the file/release date.
+* The emulator name at the beginning of the file. Anything after the emulator name is ignored. 
+    * For example, if the latest version of the emulator is `1351` and you would like to downgrade to `1349`. When you download version `1349`, you could rename it to `EMULATORNAME-1349.AppImage`, and EmuDeck's script will ignore the `-1349` in the file name, allowing you to record which versions of the emulator you are using through the file name. 
+
+#### How to Rollback mGBA
+
+1. Download the version of the emulator you would like to use from mGBA's GitHub: [https://github.com/mgba-emu/mgba/releases](https://github.com/mgba-emu/mgba/releases)
+2. Move the downloaded emulator from Step 1 to `/home/deck/Applications`
+3. (Optional) Rename or delete the original emulator file
+4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
+5. Your games will now launch using the version of the emulator you downloaded
 
 ***

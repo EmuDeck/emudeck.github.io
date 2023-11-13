@@ -236,14 +236,14 @@ For some emulators, your ROMs launch using a script created by EmuDeck, which lo
 1. Download the version of the emulator you would like to use, from the list above to your `/home/deck/Downloads` folder
 2. Open the respective emulator folder location, using the list above: [List of Supported Emulators and Tools](#list-of-supported-emulators-and-tools)
 3. Move the downloaded emulator from Step 1 to the folder in Step 2
-3. Rename or delete the original emulator file
+4. Rename or delete the original emulator file
     * Rename it so it can be distinguished from your downloaded file
         * A Few Examples: 
             * Rename `Yuzu.AppImage` to `Yauzu.AppImage`
             * Rename `Yuzu.AppImage` to add a `.bak` to the end of the file extension, `Yuzu.AppImage.bak` 
             * Rename `Yuzu.AppImage` to add the version number. For example, if the latest version is 1351, rename it to `Yuzu-1351.AppImage`
-4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
-5. Your games will now launch using the version of the emulator you downloaded
+5. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
+6. Your games will now launch using the version of the emulator you downloaded
 
 Watch the following GIF for a visual (Yuzu is being used as an example in this GIF):
 

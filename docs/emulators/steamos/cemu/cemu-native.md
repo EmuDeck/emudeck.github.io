@@ -40,6 +40,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
     - [How to Use the Wii U Pro Controller Configuration](#how-to-use-the-wii-u-pro-controller-configuration)
     - [How to Configure Cemu Native to Work With EmulationStation-DE](#how-to-configure-cemu-native-to-work-with-emulationstation-de)
     - [How to Optimize Breath of the Wild](#how-to-optimize-breath-of-the-wild)
+    - [How to Rollback Cemu to an Older Version](#how-to-rollback-cemu-to-an-older-version)
 
 ***
 
@@ -550,3 +551,26 @@ After doing the steps in the above two sections, Breath of the Wild will run at 
 
 
 *** 
+
+### How to Rollback Cemu to an Older Version
+[Back to the Top](#cemu-native-table-of-contents)
+
+#### Preface
+
+Your ROMs launch using a script created by EmuDeck, `cemu.sh` in `Emulation/tools/launchers`.
+
+The script launches the corresponding emulator in `/home/deck/Applications` and **specifically looks** for two traits:
+
+* The most recently downloaded version of the emulator in `/home/deck/Applications`, based on the file/release date.
+* The emulator name at the beginning of the file. Anything after the emulator name is ignored. 
+    * For example, if the latest version of the emulator is `1351` and you would like to downgrade to `1349`. When you download version `1349`, you could rename it to `EMULATORNAME-1349.AppImage`, and EmuDeck's script will ignore the `-1349` in the file name, allowing you to record which versions of the emulator you are using through the file name. 
+
+#### How to Rollback Cemu
+
+1. Download the version of the emulator you would like to use from Cemu's GitHub: [https://github.com/cemu-project/Cemu/releases](https://github.com/cemu-project/Cemu/releases)
+2. Move the downloaded emulator from Step 1 to `/home/deck/Applications`
+3. (Optional) Rename or delete the original emulator file
+4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
+5. Your games will now launch using the version of the emulator you downloaded
+
+***
