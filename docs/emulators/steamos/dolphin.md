@@ -28,6 +28,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Configure Multiplayer Controls](#how-to-configure-multiplayer-controls)
+    - [How to Roll Back Dolphin to an Older Version](#how-to-roll-back-dolphin-to-an-older-version)
 
 3. [Dolphin Cheats, Modding, and Texture Packs](#dolphin-cheats-modding-and-texture-packs)
     - [How to Use Cheats](#how-to-use-cheats)
@@ -47,7 +48,8 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Remove the Unsupported Extension Controller](#how-to-remove-the-unsupported-extension-controller)
     - [How to Configure Real Wiimotes](#how-to-configure-real-wiimotes)
     - [How to Use a Mayflash DolphinBar in Game Mode](#how-to-use-a-mayflash-dolphinbar-in-game-mode)
-    - [How to Roll Back Dolphin to an Older Version](#how-to-roll-back-dolphin-to-an-older-version)
+    - [Dolphin Community Controller Profiles](#dolphin-community-controller-profiles)
+        - [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
 
 ***
 
@@ -584,6 +586,20 @@ If you would rather save these settings for a specific game:
 
 For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki Page](https://wiki.dolphin-emu.org/index.php?title=GameINI_(Controller_Settings)).
 
+*** 
+
+### How to Roll Back Dolphin to an Older Version
+[Back to the Top](#dolphin-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub org.DolphinEmu.dolphin-emu`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here org.DolphinEmu.dolphin-emu`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here org.DolphinEmu.dolphin-emu`
 
 ***
 
@@ -1039,17 +1055,11 @@ Here's how to **resolve the error** and remove the Nunchuk:
 
 *** 
 
-### How to Roll Back Dolphin to an Older Version
+
+
+### Dolphin Community Controller Profiles
 [Back to the Top](#dolphin-table-of-contents)
 
-1. In Desktop Mode, open `Konsole`
-2. To see a list of prior versions of the emulator, type:
-    * `flatpak remote-info --log flathub org.DolphinEmu.dolphin-emu`
-    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
-3. To downgrade to the version you want:
-    * `flatpak update --commit=put_commit_code_here org.DolphinEmu.dolphin-emu`
-    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
-    * If this line does not work, you may need to type:
-        * `sudo flatpak update --commit=put_commit_code_here org.DolphinEmu.dolphin-emu`
+* [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2) 
 
 ***
