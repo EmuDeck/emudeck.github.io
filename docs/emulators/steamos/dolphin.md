@@ -47,7 +47,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Remove the Unsupported Extension Controller](#how-to-remove-the-unsupported-extension-controller)
     - [How to Configure Real Wiimotes](#how-to-configure-real-wiimotes)
     - [How to Use a Mayflash DolphinBar in Game Mode](#how-to-use-a-mayflash-dolphinbar-in-game-mode)
-    - [### How to Roll Back Dolphin to an Older Version](#how-to-roll-back-dolphin-to-an-older-version)
+    - [How to Roll Back Dolphin to an Older Version](#how-to-roll-back-dolphin-to-an-older-version)
 
 ***
 

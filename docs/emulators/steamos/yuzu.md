@@ -39,7 +39,7 @@ Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/h
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Install Mods](#how-to-install-mods)
     - [Special Game Configurations](#special-game-configurations)
-    - [How to Set Up Early Access](#how-to-set-up-early-access)4
+    - [How to Set Up Early Access](#how-to-set-up-early-access)
     - [How to Roll Back Yuzu to an Older Version](#how-to-roll-back-yuzu-to-an-older-version)
 
 
