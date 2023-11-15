@@ -924,14 +924,14 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 3. Open `Controller settings`
 4. Change the `Current Layout` to `Gamepad with Mouse Trackpad`
 
-#### How to Apply the Dolphin Trackpad Profile on the Fly
+#### How to Apply the Trackpad as a Pointer Profile on the Fly
 
 1. While in game, press `Select` and tilt the `Left Joystick` right until you see `Wii_base_nunchuck_with_touchpad` or `Wii_no_attachment_with_touchpad`
     * The attachment refers to the Nunchuk. Depending on the game, select the appropriate profile      
 
 **Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Apply the Wii Profile on a Per Game Basis](#how-to-apply-the-wii-profile-on-a-per-game-basis) to learn how. 
 
-#### How to Apply the Wii Profile on a Per Game Basis
+#### How to Apply the Trackpad as a Pointer Profile on a Per Game Basis
 
 1. In Desktop Mode, open Dolphin
 2. Right click the game
