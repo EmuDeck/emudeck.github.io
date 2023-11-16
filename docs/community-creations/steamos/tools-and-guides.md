@@ -199,6 +199,58 @@ Now if I can figure out a way to share prefixes between non-steam games so that 
 
 ***
 
+### How to Set Up PKHeX
+[Back to the Top](#community-creations-table-of-contents)
+
+This section will cover how to download and set up PKHeX. For the GitHub repo, see [https://github.com/kwsch/PKHeX](https://github.com/kwsch/PKHeX).
+
+PKHeX is a "Pokémon core series save editor, programmed in C#."
+
+#### Set up Folders
+
+1. In Desktop Mode, open Konsole
+2. Enter:
+    * `mkdir -p $HOME/Games/Lutris/PKHeX/pfx`
+    * This command will create a couple of **empty** folders to make managing and installing PKHeX easier
+3. Download the latest version of PKHeX from [https://projectpokemon.org/home/files/file/1-pkhex/](https://projectpokemon.org/home/files/file/1-pkhex/) to `$HOME/Games/Lutris/PKHeX`
+    * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/PKHeX`
+3. Right click `PKHeX (23.10.11).zip`, click `Extract`, `Extract Archive Here`
+
+#### Set up Lutris
+
+1. In Desktop Mode, open Discover and download Lutris
+2. Open Lutris
+3. Click the `+` button in the top left of the Lutris application
+4. Click `Add locally installed game`
+5. On the `Game Info` tab:
+    * Name: PKHeX
+    * Sort Name: Leave Blank
+    * Runner: Wine (Runs Windows games)
+    * Release Year: Leave Blank
+6. On the `Game Options` tab:
+    * Executable: Click the `Browse` button and navigate to the `PKHeX.exe` file in `$HOME/Games/Lutris/PKHeX`
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/PKHeX`
+    * Arguments: Leave Blank
+    * Working Directory: Leave Blank
+    * Wine Prefix: Click the `Browse` button and select the `$HOME/Games/Lutris/PKHeX/pfx` folder
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/PKHeX/pfx`
+7. On the `Runner options` tab:
+    * Wine version: System (8.0.2) (default)
+    * Leave everything else at defaults
+8. Click the `Save` button in the top right
+9. Single click the `PKHeX` tile in Lutris, click the `Wine` icon at the bottom of the Lutris application, click `Winetricks`
+10. Click `Select the default wineprefix`
+11. Click `Install a Windows DLL or component`
+12. Locate `dotnet7 MS.NET Runtime 7.0 LTS` in the list
+13. Check the box to the left of `dotnet7 MS.NET Runtime 7.0 LTS` and click `OK`, wait a few moments for it to install
+14. To open PKHeX, open Lutris, select the PKHeX tile, and click `Play`
+
+If PKHeX initially opens in a tiny window, click the `Stop` button in Lutris to force close it. Re-open PKHeX and the window should return to normal.
+
+If you would like to add PKHeX to Game Mode, you may right click the PKHeX tile in Lutris and click `Create steam shortcut`.
+
+***
+
 ### How to Use ROM Hacks
 [Back to the Top](#community-creations-table-of-contents)
 
