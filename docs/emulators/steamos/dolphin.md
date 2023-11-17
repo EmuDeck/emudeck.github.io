@@ -89,22 +89,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Save States (GameCube):
     * Symlink: `Emulation/saves/dolphin/StateSaves`
     * Target: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/StateSaves`
-* GameCube BIOS (Optional): 
-    * US: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/USA/IPL.bin`
-    * Europe: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/EUR/IPL.bin`
-    * Japan: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/GC/JAP/IPL.bin`
-        1. After placing the `IPL.bin` in the appropriate folder, you will need to:
-            1. Open the Dolphin emulator
-            2. Open the `Configuration` settings
-            3. Click the `GameCube` tab 
-            4. Uncheck `Skip Main Menu`
-* Wii Menu (Optional): 
-    1. To Download:
-        1. Open the Dolphin emulator
-        2. Click `Tools` at the top
-        3. Click `Perform System Update`, select a Region
-    1. To Use: 
-        1. Click `Tools`, click `Load Wii System Menu...`
+* GameCube BIOS (Optional): See [How to Set Up GameCube BIOS (Optional)](#how-to-set-up-gamecube-bios)
+* Wii Menu (Optional): See [How to Set Up the Wii Menu (Optional)](#how-to-set-up-the-wii-menu)
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
@@ -317,20 +303,31 @@ After placing your BIOS in the correct place:
 ### How to Set Up the Wii Menu
 [Back to the Top](#dolphin-table-of-contents)
 
+#### How to Set Up the Wii Menu
+
 The Wii Menu **is not** required to play Wii Games.
 
 **To Download**
 
 1. Open the Dolphin emulator
 2. Click `Tools` at the top
-3. Click `Perform System Update`, select a Region
+3. Click `Perform System Update`, select a region of your choice
 
 **To Use**
 
 1. Open the Dolphin emulator
 2. Click `Tools`, click `Load Wii System Menu...`
 
-* For further reading: [https://wiki.dolphin-emu.org/index.php?title=Wii_Menu](https://wiki.dolphin-emu.org/index.php?title=Wii_Menu)
+#### How to Add the Wii Menu to Steam
+
+1. Download attached `.sh` file to a folder of your choice
+    * [dolphin-wii-menu.sh](../../configuration-files/dolphin-wii-menu.sh)
+2. Right click `dolphin-wii-menu.sh`, click `Properties`, click `Permissions`, check `Is Executable`
+3. Right click `dolphin-wii-menu.sh`, click `Add to Steam`
+
+If you are using EmulationStation-DE, you may place `dolphin-wii-menu.sh` in `Emulation/roms/desktop` instead.
+
+For further reading, see [https://wiki.dolphin-emu.org/index.php?title=Wii_Menu](https://wiki.dolphin-emu.org/index.php?title=Wii_Menu).
 
 ***
 
