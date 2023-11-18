@@ -41,6 +41,7 @@ Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/h
     - [Special Game Configurations](#special-game-configurations)
     - [How to Set Up Early Access](#how-to-set-up-early-access)
     - [How to Roll Back Yuzu to an Older Version](#how-to-roll-back-yuzu-to-an-older-version)
+    - [How to Select Between Yuzu and Ryujinx in Game Mode](#how-to-select-between-yuzu-and-ryujinx-in-game-mode)
 
 
 ***
@@ -646,5 +647,18 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 3. (Optional) Rename or delete the original emulator file
 4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
 5. Your games will now launch using the version of the emulator you downloaded
+
+***
+
+### How to Select Between Yuzu and Ryujinx in Game Mode
+[Back to the Top](#yuzu-table-of-contents)
+
+If you are using Steam ROM Manager and would like to run some games through Yuzu and others through Ryujinx, you may use Steam ROM Manager's exception manager to selectively run your games in your preferred emulator. 
+
+For further instructions, see [Steam ROM Manager: How to Hide ROMs on a Per Parser Basis](../../tools/steamos/steam-rom-manager.md#how-to-hide-roms-on-a-per-parser-basis).
+
+If you are using EmulationStation-DE, you may use EmulationStation-DE's alternative emulators feature to select on a per-game basis which to run through Yuzu and which to run through Ryujinx.
+
+For further instruction, see [EmulationStation-DE: How to Select a Different Emulator on a Per-Game Basis](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-on-a-per-game-basis).
 
 ***

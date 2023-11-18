@@ -31,6 +31,7 @@ Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Confi
     - [How to Install Mods](#how-to-install-mods)
     - [Special Characters](#special-characters)
     - [How to Roll Back Ryujinx to an Older Version](#how-to-roll-back-ryujinx-to-an-older-version)
+    - [How to Select Between Yuzu and Ryujinx in Game Mode](#how-to-select-between-yuzu-and-ryujinx-in-game-mode)
 
 ***
 
@@ -429,3 +430,15 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 
 ***
 
+### How to Select Between Yuzu and Ryujinx in Game Mode
+[Back to the Top](#ryujinx-table-of-contents)
+
+If you are using Steam ROM Manager and would like to run some games through Yuzu and others through Ryujinx, you may use Steam ROM Manager's exception manager to selectively run your games in your preferred emulator. 
+
+For further instructions, see [Steam ROM Manager: How to Hide ROMs on a Per Parser Basis](../../tools/steamos/steam-rom-manager.md#how-to-hide-roms-on-a-per-parser-basis).
+
+If you are using EmulationStation-DE, you may use EmulationStation-DE's alternative emulators feature to select on a per-game basis which to run through Yuzu and which to run through Ryujinx.
+
+For further instruction, see [EmulationStation-DE: How to Select a Different Emulator on a Per-Game Basis](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-on-a-per-game-basis).
+
+***
