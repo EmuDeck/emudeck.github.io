@@ -172,12 +172,18 @@ Vita3K/
 ### Vita3K File Formats
 [Back to the Top](#vita3k-table-of-contents)
 
-* .pkg
-* NoNpDrm
-* Manually decrypted games
-* Installed `.vpk`
+* `.pkg`
+    * Install through Vita3K's GUI
+* `.zip`
+    * Install through Vita3K's GUI
+* Manually decrypted games in the form of a folder
+    * Place these folders in `Emulation/roms/psvita/InstalledGames`
+* `.vpk`
+    * Install through Vita3K's GUI
 
-**Note:** Vitamin dumps are not supported and Maidump is unstable.
+**Note:** Vitamin dumps (VPK) are not officially supported and may not work as expected. 
+
+To learn how to dump your games, see [https://vita3k.org/quickstart.html](https://vita3k.org/quickstart.html).
 
 ***
 
