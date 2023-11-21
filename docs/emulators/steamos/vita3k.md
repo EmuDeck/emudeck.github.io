@@ -31,11 +31,11 @@ Quickstart Guide: [https://vita3k.org/quickstart.html](https://vita3k.org/quicks
 
 In order to play a game on Vita3K, you will need to install firmware through the Vita3K UI. In desktop mode, open Vita3K, either in the application menu or through its shortcut in `Emulation/tools/launchers/vita3k.sh`. In Vita3K, click  `File`, click `Install Firmware`. Firmware is provided legally by Sony. 
 
-Follow Vita3K's quickstart guide: https://vita3k.org/quickstart.html
+Make sure to check out Vita3K's quickstart guide: [https://vita3k.org/quickstart.html](https://vita3k.org/quickstart.html).
 
 Read the [Configuration](#vita3k-configuration) section to learn more about Vita3K and its folder locations. 
 
-To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your PSVita ROMs:
+To launch your ROMs in Game Mode, first install your ROMs through Vita3K if you are using the `.zip` or `.pkg` file formats. For more information, see the [File Formats](#vita3k-file-formats) section. Afterwards, you may use Steam ROM Manager and use one of the following parsers to play your PlayStation Vita ROMs:
 
 * `EmulationStation-DE`
 * `Sony PlayStation Vita Installed PKG` 
