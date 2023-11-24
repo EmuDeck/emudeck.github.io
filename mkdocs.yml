@@ -124,6 +124,9 @@ nav:
         - Yuzu (Nintendo Switch):
             - 'Yuzu on SteamOS': 'emulators/steamos/yuzu.md'
             - 'Yuzu on Windows': 'emulators/windows/yuzu.md'
+    - Save Management:
+        - Save Management on SteamOS: 'file-management/steamos/save-management.md'
+        - File Management on Windows: 'file-management/windows/save-management.md'
     - File Management:
         - File Management on SteamOS: 'file-management/steamos/file-management.md'
         - File Management on Windows: 'file-management/windows/file-management.md'

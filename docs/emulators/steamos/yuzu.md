@@ -31,6 +31,7 @@ Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/h
     - [Combined XCI Files](#combined-xci-files)
     - [Why is Mario Kart 8 stuck on the Mii selection screen?](#why-is-mario-kart-8-stuck-on-the-mii-selection-screen)
     - [Why is New Super Mario Bros U Deluxe stuck on a black screen?](#why-is-new-super-mario-bros-u-deluxe-stuck-on-a-black-screen)
+    - [Save Data Disappeared](#save-data-disappeared)
 
 2. [Yuzu Tips and Tricks](#yuzu-tips-and-tricks)
     - [How to Configure Gyro](#how-to-configure-gyro)
@@ -369,6 +370,30 @@ If the game is stuck on a black screen, that means your firmware **does not** co
 After you dump your firmware with Mii data, place it in `Emulation/bios/yuzu/firmware`.
 
 Once you have dumped your firmware with the proper Mii data and place it in the correct folder, the game will proceed and you will be able to play.  
+
+***
+
+### Save Data Disappeared
+[Back to the Top](#yuzu-table-of-contents)
+
+If your save data disappeared, it's likely because yuzu reset your local profiles, taking the data with them. This data is still present, but the profile IDs were reset.
+
+In order to get the data back: 
+
+1. In Desktop Mode, open the `Emulation/storage/yuzu/nand/user/save/0000000000000000` folder
+    * In this folder, you will find more than one folder with alphanumerical names. These are the profile IDs for your save files
+2. In Desktop Mode, open Yuzu, right click on a game, click on `Open Save Data Location` 
+3. If you look at the path, you will see you are in one of the alphanumerical folders from Step 1. This folder is the ID of your **current profile**, and where you should be placing your recovered saves
+
+Now that you know which is the new save file, the other folders are for any old profiles you had.
+
+If you only had one profile, there should be one other folder, and you can just transfer the saves over.
+
+If you had two or more profiles, the best way to find out which was which was transfer a save from one game to the new folder and see which save it happens to be.
+
+Inside each profile's folder are one or several game-specific folders, each named after their game-id, which you can find under the game's name in the Yuzu application (for example, Tears of the Kingdom ID is 0100F2C0115B6000). These correspond to the respective game's save data, and moving them over to the new profile folder will make the save work in the new conditions.
+
+If you had more than one profile, you will need to also create new profiles for each old one you had, and place the save files from each folder accordingly.
 
 ***
 
