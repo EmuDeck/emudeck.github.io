@@ -456,11 +456,11 @@ For more information: [https://docs.libretro.com/guides/overrides/](https://docs
 | Neo Geo Pocket & Color    | [RetroArch Beetle NeoPop](https://docs.libretro.com/library/beetle_neopop/)                                               |
 | Nintendo 64               | [RetroArch Mupen64plus-Next](https://docs.libretro.com/library/mupen64plus/)                                              |
 | Nintendo DS               | [RetroArch melonDS](https://docs.libretro.com/library/melonds/)                                                           |
-| Nintendo Gameboy          | [RetroArch SameBoy](https://docs.libretro.com/library/sameboy/)                                                           |
-| Nintendo GameBoy          | [RetroArch Gambatte](https://docs.libretro.com/library/gambatte/)                                                         |
-| Nintendo GameBoy Advance  | [RetroArch mGBA core](https://docs.libretro.com/library/mgba/)                                                            |
-| Nintendo GameBoy Color    | [RetroArch SameBoy](https://docs.libretro.com/library/sameboy/)                                                           |
-| Nintendo GameBoy Color    | [RetroArch Gambatte](https://docs.libretro.com/library/gambatte/)                                                         |
+| Nintendo Game Boy          | [RetroArch SameBoy](https://docs.libretro.com/library/sameboy/)                                                           |
+| Nintendo Game Boy          | [RetroArch Gambatte](https://docs.libretro.com/library/gambatte/)                                                         |
+| Nintendo Game Boy Advance  | [RetroArch mGBA core](https://docs.libretro.com/library/mgba/)                                                            |
+| Nintendo Game Boy Color    | [RetroArch SameBoy](https://docs.libretro.com/library/sameboy/)                                                           |
+| Nintendo Game Boy Color    | [RetroArch Gambatte](https://docs.libretro.com/library/gambatte/)                                                         |
 | Nintendo NES              | [RetroArch Mesen](https://docs.libretro.com/library/mesen/)                                                               |
 | Nintendo NES              | [RetroArch Nestopia](https://docs.libretro.com/library/nestopia_ue/)                                                      |
 | Pico-8                    | [RetroArch Pico-8](https://github.com/Jakz/retro8)                                                                        |
@@ -540,7 +540,7 @@ You may need to re-arrange the controller order in Game Mode for your controller
 
 #### How to apply shaders if shaders are already applied
 
-1. Load content that has a shader applied automatically
+1. Open a game in Game Mode that has a shader applied automatically
 2. Open the Quick Menu with L3 and R3
 3. Select `Shaders`
     * <img src="https://user-images.githubusercontent.com/1683513/174447565-be119f1e-38a3-4297-9248-ae3fcc48ee0f.png" height="300">
@@ -556,7 +556,7 @@ You may need to re-arrange the controller order in Game Mode for your controller
 
 #### How to apply shaders if shaders are not already applied
 
-1. Load content that has a shader applied automatically
+1. Open a game in Game Mode
 2. Open the Quick Menu with L3 and R3
 3. Select `Shaders`
     * <img src="https://user-images.githubusercontent.com/1683513/174447565-be119f1e-38a3-4297-9248-ae3fcc48ee0f.png" height="300">
@@ -570,7 +570,9 @@ The order they are listed in is the order they take precedence, from most genera
 
 1. Global = Everything.
 2. Core = Anything run by a specific core.
-3. Content Directory = Any ROM in a specific directory. 
+    * Keep in mind that some cores run multiple systems. For example, the Gambatte RetroArch core plays both Game Boy and Game Boy color games. If you use the Core override, it will apply to both systems.
+3. Content Directory = Any ROM in a specific directory.
+    * The folders can be found in your `Emulation` folder, on the storage device you selected for EmuDeck.
     * These are used for the EmuDeck applied shaders.
 4. Game = that specific ROM.
 
