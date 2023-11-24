@@ -30,8 +30,9 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Change Shaders](#how-to-change-shaders)
         - [How to Download/Update Shaders](#how-to-downloadupdate-shaders)
-        - [How to apply shaders if shaders are already applied](#how-to-apply-shaders-if-shaders-are-already-applied)
-        - [How to apply shaders if shaders are not already applied](#how-to-apply-shaders-if-shaders-are-not-already-applied)
+        - [How to Apply New Shaders if Shaders Are Already Applied](#how-to-apply-new-shaders-if-shaders-are-already-applied)
+        - [How to Apply Shaders if Shaders Are Not Already Applied](#how-to-apply-shaders-if-shaders-are-not-already-applied)
+        - [Override Precedence](#override-precedence)
     - [How to Change Controller Layouts on a Per Game Basis](#how-to-change-controller-layouts-on-a-per-game-basis)
     - [How to Change Controller Layouts for a System](#how-to-change-controller-layouts-for-a-system)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
@@ -538,7 +539,7 @@ You may need to re-arrange the controller order in Game Mode for your controller
 3. Select `Online Updater`
 4. Select `Update Slang Shaders` 
 
-#### How to apply shaders if shaders are already applied
+#### How to Apply New Shaders if Shaders Are Already Applied
 
 1. Open a game in Game Mode that has a shader applied automatically
 2. Open the Quick Menu with L3 and R3
@@ -554,7 +555,7 @@ You may need to re-arrange the controller order in Game Mode for your controller
 6. If you want to select a different shader, open the `Shaders` menu again, and select your preferred settings/shaders. When you are satisfied, select the `Save` button, and click `Save Content Directory Preset`
     * <img src="https://user-images.githubusercontent.com/1683513/174447945-3929b8d0-cb9f-45f8-9e15-18d172703cd7.png" height="300">
 
-#### How to apply shaders if shaders are not already applied
+#### How to Apply Shaders if Shaders Are Not Already Applied
 
 1. Open a game in Game Mode
 2. Open the Quick Menu with L3 and R3
@@ -565,6 +566,8 @@ You may need to re-arrange the controller order in Game Mode for your controller
 6. Back out to the `Shaders` menu
 7. Click `Save`, click `Save Content Directory Preset`
 9. Back out to the `Quick Menu`, click `Overrides`, and click `Save Content Directory Overrides`
+
+#### Override Precedence
 
 The order they are listed in is the order they take precedence, from most general to most specific.
 
