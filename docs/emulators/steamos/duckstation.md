@@ -134,7 +134,7 @@ org.duckstation.DuckStation/
 ### DuckStation File Formats
 [Back to the Top](#duckstation-table-of-contents)
 
-* .cue 
+* .cue and .bin
 * .chd 
 * .ecm 
 * .iso 
