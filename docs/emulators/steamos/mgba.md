@@ -26,7 +26,7 @@ Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
     - [Special Characters](#special-characters)
 
 3. [mGBA Tips and Tricks](#mgba-tips-and-tricks)
-    - [c](#how-to-configure-multiplayer)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Use the Gyro Sensor](#how-to-use-the-gyro-sensor)
     - [How to Use the Tilt Sensor](#how-to-use-the-tilt-sensor)
     - [How to Use Cheats](#how-to-use-cheats)
