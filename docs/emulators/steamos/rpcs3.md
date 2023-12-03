@@ -235,8 +235,7 @@ The Linux version of the software mentioned in the above article can be found he
 7. Example, using Demon Souls: 
     * **Original Line:** `Exec="/app/bin/rpcs3" --no-gui "%%RPCS3_GAMEID%%:BLUS30443"`
         * ![Original Line](../../assets/how-to-configure-rpcs3-with-emulationstation-de-original-line.png)
-    * **Updated Line:** `Exec="/usr/bin/flatpak" run net.rpcs3.RPCS3 --no-gui "%%RPCS3_GAMEID%%:BLUS30443"`
-        * ![Updated Line](../../assets/how-to-configure-rpcs3-with-emulationstation-de-updated-line.png)
+    * **Updated Line:** `Exec="/usr/bin/flatpak" run net.rpcs3.RPCS3 --no-gui "%RPCS3_GAMEID%:BLUS30443"`
 8. Your game should now show up in and launch directly from EmulationStation-DE 
 
 If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in EmulationStation-DE for PlayStation 3 to `RPCS3 Shortcut [Standalone]`. 
