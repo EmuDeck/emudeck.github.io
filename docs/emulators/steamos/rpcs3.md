@@ -244,7 +244,7 @@ The Linux version of the software mentioned in the above article can be found he
     * Under `Application Preference Order`, click `RPCS3`
     * Click `Remove` on the right
     * Click `Apply` in the bottom left and click `OK`
-    * Your game should now launch directly 
+    * The desktop file will not work in Desktop Mode, but will launch the game directly either through a terminal or through EmulationStation-DE 
 10. Your game should now show up in and launch directly from EmulationStation-DE 
 
 If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in EmulationStation-DE for PlayStation 3 to `RPCS3 Shortcut [Standalone]`. 
