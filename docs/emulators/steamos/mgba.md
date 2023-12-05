@@ -346,7 +346,7 @@ To restore the default Steam Deck controls:
 
 #### How to Configure the Tilt Sensor for the Steam Deck
 
-mGBA does not support the Steam Deck tilt sensor at this time. Instead, you may either use a patch to remove the requirement for the tilt sensor or use an external controller.
+mGBA does not support using the Steam Deck's accelerometer for the tilt sensor at this time. Instead, you may either use a patch to remove the requirement for the tilt sensor or use an external controller.
 
 ***
 
