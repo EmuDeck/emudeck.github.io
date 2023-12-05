@@ -333,8 +333,9 @@ To restore the default Steam Deck controls:
 
 **Supported Games**
 
-* Yoshi Topsy-Turvy 
 * Kirby Tilt 'n' Tumble
+* Koro Koro Puzzle Happy Panechu!
+* Yoshi Topsy-Turvy 
 
 **Note:** For WarioWare: Twisted!, use the gyro sensor instead. Read: [How to Use the Gyro Sensor](#how-to-use-the-gyro-sensor) for instructions. 
 
@@ -345,7 +346,18 @@ To restore the default Steam Deck controls:
 
 #### How to Configure the Tilt Sensor for the Steam Deck
 
-**Not sure if this is fully possible yet, if you have a way of doing it, edit this page or send a message on the Discord.**
+mGBA does not support the Steam Deck tilt sensor at this time. Instead, you may either use a patch to remove the requirement for the tilt sensor or use an external controller.
+
+#### Tilt Sensor Patches
+
+To learn how to use these patches, see [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks).
+
+* Kirby Tilt 'n' Tumble
+    * [https://gbatemp.net/threads/kirby-tilt-n-tumble-gbc-tilt-fix-accelerometer-removal-patch.605800/](https://gbatemp.net/threads/kirby-tilt-n-tumble-gbc-tilt-fix-accelerometer-removal-patch.605800/)
+* Koro Koro Puzzle Happy Panechu!
+    * [https://gbatemp.net/threads/yoshitt-warioware-korokoro-no-tilt-patches.584171/](https://gbatemp.net/threads/yoshitt-warioware-korokoro-no-tilt-patches.584171/) 
+* Yoshi Topsy-Turvy 
+    * [https://gbatemp.net/threads/yoshitt-warioware-korokoro-no-tilt-patches.584171/](https://gbatemp.net/threads/yoshitt-warioware-korokoro-no-tilt-patches.584171/) 
 
 ***
 

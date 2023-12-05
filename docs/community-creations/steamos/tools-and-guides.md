@@ -293,6 +293,7 @@ _This list is not exhaustive_
 5. For the bottom field, `Patch File`, browse to your patch
 6. Click `Apply Patch` 
 7. Save this newly patched ROM, rename it to match the ROM Hack, and place it in the respective system folder within `Emulation/roms`
+8. Treat the patched ROM file as its own distinct game from the original ROM file, you may use either Steam ROM Manager or EmulationStation-DE to play your newly patched ROM
 
 
 
