@@ -12,7 +12,7 @@ Xenia's Quickstart Guide: [https://github.com/xenia-project/xenia/wiki/Quickstar
 
 **IMPORTANT:** Xenia does not currently run well on Linux/SteamOS. Most games will not boot or will not be playable. This emulator is currently in an experimental state for Linux/SteamOS.
 
-We HIGHLY suggest looking to see if a game you wish to emulate has a native PC version on Steam, Lutris, etc. or has a PS3 version than can be run with RPCS3 instead.
+It's HIGHLY recommended to see if a game you wish to emulate has a native PC version on Steam, Lutris, etc. or has a PS3 version than can be run with RPCS3 instead.
 
 ***
 
@@ -300,8 +300,6 @@ Xenia cannot be installed on your initial installation of EmuDeck. It can only b
 
 **No** additional setup is required with Steam ROM Manager and EmulationStation-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
 
-
-
 ***
 
 ### How to Update Xenia
@@ -380,12 +378,10 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 If you get an error message with either `!Status` or `GPU Commands`, you can try one of the below solutions:
 
+* Update Xenia to the latest version. This issue was fixed on December 5th, 2023. For more information, see [[https://github.com/xenia-canary/xenia-canary/issues/158](https://github.com/xenia-canary/xenia-canary/issues/158)]([https://github.com/xenia-canary/xenia-canary/issues/158](https://github.com/xenia-canary/xenia-canary/issues/158))
 * Try DX12. Recent updates have massively improved compatibility with DX12. Currently, EmuDeck sets Vulkan as the default. See [How to Swap Between Vulkan and DX12](#how-to-swap-between-vulkan-and-dx12) to learn how to swap between the two 
-* Ddowngrade Xenia to a specific version. Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (released April 2nd, 2023) has the highest compatibility 
-    * There is an open issue on the Xenia GitHub tracking this issue: https://github.com/xenia-canary/xenia-canary/issues/158. Consider subscribing to the issue to keep up to date with the latest progress
-    * To downgrade to build `e9d1e51_canary_experimental`, read: [How to Swap Out Xenia Builds](#how-to-swap-out-xenia-builds), this section specifically covers downgrading to the `e9d1e51_canary_experimental` build
 
-However, do keep in mind that neither of the above solutions is guaranteed to fix your issue. Xenia on Linux, through Proton, is still in a highly experimental state. Many games do not work. Xbox Live Arcade Games currently have the highest compatibility. 
+However, do keep in mind that the above solutions are **not** guaranteed to fix your issue. Xenia on Linux, through Proton, is still in a highly experimental state. Many games do not work. Xbox Live Arcade Games currently have the highest compatibility. 
 
 ***
 
@@ -420,7 +416,7 @@ You may need to re-arrange the controller order in Game Mode for your controller
 
 Xenia, through Proton/Wine, is currently in an experimental state. Updates may break or affect the emulator in unexpected ways. If an update does break certain games launching from Xenia, it is easy to swap out the build for an older one so you can continue playing.
 
-Currently (as of April 26th, 2023), build `e9d1e51_canary_experimental` (released April 2nd, 2023) has the highest compatibility with **Vulkan**. D3D12 works on the latest versions of Xenia Canary. This section will go over how to swap out the latest build of Xenia Canary for `e9d1e51_canary_experimental`. However, you can take what is written here and apply it to future builds of Xenia Canary as well.
+This section will go over how to swap out the latest build of Xenia Canary for `e9d1e51_canary_experimental` as an example. However, you can take what is written here and apply it to any build of Xenia Canary as well.
 
 **Tutorial**
 
