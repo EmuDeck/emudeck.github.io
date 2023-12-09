@@ -23,6 +23,7 @@ Quickstart Guide: [https://vita3k.org/quickstart.html](https://vita3k.org/quicks
     - [How to Configure Vita3K to Work With EmulationStation-DE](#how-to-configure-vita3k-to-work-with-emulationstation-de)
     - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
+    - [How to Install English Patches](#how-to-install-english-patches)
 
 
 ***
@@ -311,21 +312,57 @@ _This list is not exhaustive_
 **How to Install Custom Textures**
 
 1. In Desktop Mode, open `/home/deck/.local/share/Vita3K/`
-    1. `~/.local` is an invisible folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
+    * `~/.local` is an invisible folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
 2. Create a `textures` folder here, casing matters
 3. In the `textures` folder, create an `import` folder, casing matters
 4. Place your downloaded texture pack folder (containing the texture files) directly in the newly created `import` folder
     * The texture pack folder should match the game's Title ID
         * To locate your game's Title ID, open Vita3K, right click a game, and click `Information`
 5. In Desktop Mode, open Vita3K:
-    * At the top, click `Configuration`, `Settings`, `GPU`
-    * Check `Import Textures` under `Texture Replacement`
-    * Click `Save` and close out of the settings menu
-    * You may also do this on a per game basis:
-        * Right click the game: 
-            * Click `Custom Config`, `Create`, `GPU,`
-            * Check `Import Textures` under `Texture Replacement`
-            * Click `Save` and close out of the settings menu  
+    1. At the top, click `Configuration`, `Settings`, `GPU`
+    2. Check `Import Textures` under `Texture Replacement`
+    3. Click `Save` and close out of the settings menu
+        * You may also do this on a per game basis:
+            1. Right click the game
+            2. Click `Custom Config`, `Create`, `GPU,`
+            3. Check `Import Textures` under `Texture Replacement`
+            4. Click `Save` and close out of the settings menu  
 6. Your texture pack will now be applied
+
+***
+
+### How to Install English Patches
+[Back to the Top](#vita3k-table-of-contents)
+
+**English Patch Sources**
+
+_This list is not exhaustive_
+
+* [https://github.com/lifebottle/Tales-of-Innocence-R](https://github.com/lifebottle/Tales-of-Innocence-R)
+* [https://gbatemp.net/threads/release-trails-in-the-sky-fc-evolution-english-patch.472727/](https://gbatemp.net/threads/release-trails-in-the-sky-fc-evolution-english-patch.472727/)
+
+***
+
+This section will use the Tales of Innocence R English Patch as an example. Instructions may differ depending on what patch you are using, but generally you will be able to apply the below instructions to any English patch. 
+
+1. In Desktop Mode, open Vita3K and install your game
+    * Skip this step if you have already installed your game
+2. Download the English patch and extract it to a folder of your choice
+    * For Tales of Innocence R English Patch, download the "
+toir_patch-DecryptedWithComputer" version from [https://github.com/lifebottle/Tales-of-Innocence-R/releases](https://github.com/lifebottle/Tales-of-Innocence-R/releases)
+3. On the Steam Deck, open [https://www.romhacking.net/hash/](https://www.romhacking.net/hash/) on a web browser of your choice
+4. If your English patch extracted folder includes a `eboot.xdelta` file:
+    1. `ROM Hack:` Click `Browse` and navigate to `Emulation/storage/Vita3K/uxo/app/GAMETITLEID` and select the `eboot.bin` file
+        * To locate your game's Title ID, open Vita3K, right click a game, and click `Information`
+    2. `Patch File`: Navigate to your extracted English patch folder from Step 2 and select the `eboot.xdelta` file
+    3. Click `Apply Patch`, `romhacking.net` will save your patched `eboot.bin` to your `GAMETITLEID` folder
+    4. Either delete or rename the original `eboot.bin` file and rename the newly patched `eboot (patched).bin` file to `eboot.bin`
+4. If your English patch extracted folder includes a `toidata_release.xdelta` file:
+    1. `ROM Hack:` Click `Browse` and navigate to `Emulation/storage/Vita3K/uxo/app/GAMETITLEID` and select the `toidata_release.l7c` file
+        * To locate your game's Title ID, open Vita3K, right click a game, and click `Information`
+    2. `Patch File`: Navigate to your extracted English patch folder from Step 2 and select the `toidata_release.xdelta` file
+    3. Click `Apply Patch`, `romhacking.net` will save your patched `toidata_release.l7c` to your `GAMETITLEID` folder
+    4. Either delete or rename the original `toidata_release.l7c` file and rename the newly patched `toidata_release (patched).l7c` file to `toidata_release.l7c`
+5. Your English patch will now be applied
 
 ***
