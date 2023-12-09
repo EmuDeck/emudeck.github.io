@@ -22,6 +22,7 @@ Quickstart Guide: [https://vita3k.org/quickstart.html](https://vita3k.org/quicks
 2. [Vita3K Tips and Tricks](#vita3k-tips-and-tricks)
     - [How to Configure Vita3K to Work With EmulationStation-DE](#how-to-configure-vita3k-to-work-with-emulationstation-de)
     - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
+    - [How to Install Custom Textures](#how-to-install-custom-textures)
 
 
 ***
@@ -75,31 +76,34 @@ Paths beginning with `Emulation/..` correspond to your EmuDeck install location.
 
 **Note:** Folders with a `.` (`.var`, `.local`, `.config`, etc.) at the beginning are hidden by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-`$HOME/Applications/Vita3K`
+`$HOME/.config/Vita3K`
 
 ```
 Vita3K/
-├── cache
-│   ├── app_compat_db.xml
-│   └── shaders
 ├── config.yml
-├── config.yml.bak
-├── data
-│   ├── config
-│   ├── fonts
-│   └── image
-├── imgui.ini
+└── config.yml.bak
+```
+
+`$HOME/.local/share/Vita3K`
+
+```
+Vita3K/
 ├── lang
-├── libcrypto.so.3
-├── libssl.so.3
+│   └── user
+│       └── PLACE USER LANG HERE.txt
+├── textures
+│   └── import
+│
+└── Vita3K
+```
+
+`$HOME/.cache/Vita3K`
+
+```
+Vita3K
 ├── shaderlog
-├── shaders-builtin
-│   ├── opengl
-│   └── vulkan
-├── texturelog
-├── update-vita3k.sh
-├── Vita3K
-└── vita3k.log
+├── shaders
+└── texturelog
 ```
 
 `Emulation/storage/Vita3K`
@@ -220,7 +224,7 @@ For additional detail, read EmulationStation-DE's section on Vita3K: [https://gi
 ***
 
 ### How to Configure Gyro With External Controllers
-[Back to the Top](#citra-table-of-contents)
+[Back to the Top](#vita3k-table-of-contents)
 
 **Supported Games**
 
@@ -289,5 +293,39 @@ Once you disconnect your controller, your Steam Deck controls should work again.
 4. Click the `Gear` icon to the right, and click `Enable Steam Input`
     * You may need to restart first for this setting to properly apply
 5. The controls will be reverted to Steam Input and the Steam Deck controls will be restored
+
+***
+
+### How to Install Custom Textures
+[Back to the Top](#vita3k-table-of-contents)
+
+**Texture Pack Sources**
+
+_This list is not exhaustive_
+
+* [https://old.reddit.com/r/tales/comments/17ogjtr/tales_of_innocence_r_hd_fan_project_english/](https://old.reddit.com/r/tales/comments/17ogjtr/tales_of_innocence_r_hd_fan_project_english/)
+
+***
+
+
+**How to Install Custom Textures**
+
+1. In Desktop Mode, open `/home/deck/.local/share/Vita3K/`
+    1. `~/.local` is an invisible folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
+2. Create a `textures` folder here, casing matters
+3. In the `textures` folder, create an `import` folder, casing matters
+4. Place your downloaded texture pack folder (containing the texture files) directly in the newly created `import` folder
+    * The texture pack folder should match the game's Title ID
+        * To locate your game's Title ID, open Vita3K, right click a game, and click `Information`
+5. In Desktop Mode, open Vita3K:
+    * At the top, click `Configuration`, `Settings`, `GPU`
+    * Check `Import Textures` under `Texture Replacement`
+    * Click `Save` and close out of the settings menu
+    * You may also do this on a per game basis:
+        * Right click the game: 
+            * Click `Custom Config`, `Create`, `GPU,`
+            * Check `Import Textures` under `Texture Replacement`
+            * Click `Save` and close out of the settings menu  
+6. Your texture pack will now be applied
 
 ***

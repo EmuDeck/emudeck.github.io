@@ -236,6 +236,7 @@ _This list is not exhaustive_
     3. Note down the Game ID to the right of your game
 4. Place the texture folder (containing the texture files) directly in this newly created folder
     1. Example (Using Kingdom Hearts: Birth by Sleep): <img src="https://user-images.githubusercontent.com/108900299/210125679-ee345b47-33d3-4bf1-bf15-49bcbc2e97bb.png" height="300">
+5. Your texture pack will now be applied
 
 ***
 
