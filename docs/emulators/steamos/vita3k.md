@@ -305,6 +305,7 @@ Once you disconnect your controller, your Steam Deck controls should work again.
 _This list is not exhaustive_
 
 * [https://old.reddit.com/r/tales/comments/17ogjtr/tales_of_innocence_r_hd_fan_project_english/](https://old.reddit.com/r/tales/comments/17ogjtr/tales_of_innocence_r_hd_fan_project_english/)
+    * For updates to this texture pack, you will need to join their Discord. For the link, see the top of the GitHub page: [https://github.com/lifebottle/Tales-of-Innocence-R](https://github.com/lifebottle/Tales-of-Innocence-R)
 
 ***
 
@@ -363,6 +364,12 @@ toir_patch-DecryptedWithComputer" version from [https://github.com/lifebottle/Ta
     2. `Patch File`: Navigate to your extracted English patch folder from Step 2 and select the `toidata_release.xdelta` file
     3. Click `Apply Patch`, `romhacking.net` will save your patched `toidata_release.l7c` to your `GAMETITLEID` folder
     4. Either delete or rename the original `toidata_release.l7c` file and rename the newly patched `toidata_release (patched).l7c` file to `toidata_release.l7c`
-5. Your English patch will now be applied
+5. If your English patch extracted folder includes a `data.psarc.xdelta` file:
+    1. `ROM Hack:` Click `Browse` and navigate to `Emulation/storage/Vita3K/uxo/app/GAMETITLEID/gamedata` and select the `data.psarc` file
+        * To locate your game's Title ID, open Vita3K, right click a game, and click `Information`
+    2. `Patch File`: Navigate to your extracted English patch folder from Step 2 and select the `data.psarc.xdelta` file
+    3. Click `Apply Patch`, `romhacking.net` will save your patched `data.psarc` to your `GAMETITLEID` folder
+    4. Either delete or rename the original `data.psarc` file and rename the newly patched `data (patched).psarc` file to `data.psarc`
+6. Your English patch will now be applied
 
 ***
