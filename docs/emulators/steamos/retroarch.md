@@ -408,8 +408,8 @@ For more information: [https://docs.libretro.com/guides/overrides/](https://docs
 | Menu               | `L3` + `R3`             |
 | Exit               | `Select` + `Start `     |
 | Pause/Unpause      | `Select` + `A`          |
-| Fast Forward       | `Select` + `R2`         |
-| Rewind             | `Select` + `L1`         |
+| Fast Forward (Toggle)       | `Select` + `R2`         |
+| Rewind             | `Select` + `L2`         |
 | Save State         | `Select` + `R1`         |
 | Load State         | `Select` + `L1`         |
 | Next Save Slot     | `Select` + `DPAD Right` |
