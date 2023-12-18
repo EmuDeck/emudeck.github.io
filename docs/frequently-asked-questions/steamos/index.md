@@ -26,6 +26,7 @@
     - [How to Verify ROMs](#how-to-verify-roms)
     - [Why is my emulator or game muted?](#why-is-my-emulator-or-game-muted)
     - [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
+    - [Why does EmuDeck say my install path is "not writable"?](#why-does-emudeck-say-my-install-path-is-not-writable)
 
 
 2. [EmuDeck Tips and Tricks](#emudeck-tips-and-tricks)
@@ -733,7 +734,13 @@ These systems will have a set default. However, you can change which emulator or
 3. Select Alternative Emulators
 4. Scroll down to the system you would like to configure, press B, and select your preferred emulator
 
+***
 
+### Why does EmuDeck say my install path is "not writable"?
+[Back to the Top](#frequently-asked-questions-table-of-contents)
+
+See [Path not writable?](../../troubleshooting/steamos/index.md#path-not-writable)
+ 
 ***
 
 ## EmuDeck Tips and Tricks

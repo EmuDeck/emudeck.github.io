@@ -67,6 +67,24 @@ Read [How to Verify ROMs](../../file-management/steamos/file-management.md#how-t
 
 ***
 
+## Path not writable?
+
+If you are seeing an error message that states your path is not writable, this typically means that you have a space in your SD Card name.
+
+To fix this issue:
+
+1. Open the `KDE Partition Manager` in Desktop Mode 
+    * You may need to set a sudo password first. To do so, open `Konsole`, type `passwd`, and enter a password. It will not be visible for security reasons. After pressing enter, you will be prompted to type it again to confirm
+2. Locate your SD Card or external drive and right click, click `Unmount`
+3. Click `Properties`
+4. In the `Label` box, give your SD Card or external drive a name **wihout** a space
+5. Click `OK`
+6. Locate your SD Card or external drive and right click, click `Mount`
+7. Re-run EmuDeck and your SD Card or external drive will be writable
+
+
+***
+
 ## Game unexpectedly muted or missing audio?
 
 Sometimes, games may accidentally mute themselves with no discernible reason. Fortunately, the fix is easy.
