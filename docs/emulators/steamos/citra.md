@@ -307,7 +307,8 @@ Here's how to install custom textures for Citra:
 
 #### Citra Configuration
 
-1. Open the Citra emulator. Click `Emulation` in the top left. Click `Configuration`, `Graphics`, and check both `Use Custom Textures` and `Async Custom Texture Loading`
+1. In Desktop Mode, open Citra
+2. Click `Emulation` in the top left. Click `Configuration`, `Graphics`, and check both `Use Custom Textures` and `Async Custom Texture Loading`
     * <img src="https://user-images.githubusercontent.com/108900299/236593948-5a918187-27a7-4f5f-ac64-3b3147be8825.png" height="300">
 
 **Note:** `Preload Custom Textures` is no longer recommended. Leave `Preload Custom Textures` off
@@ -316,7 +317,7 @@ Here's how to install custom textures for Citra:
 
 **Note:** Your texture pack may already come properly named and packaged with the correct `TitleID` and texture files. You may place the included texture pack folder directly into `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/load/textures`. You do not need the following section if this is the case.
 
-1. Open [https://3ds.jdbye.com/?details=USA&split=0&display=0](https://3ds.jdbye.com/?details=USA&split=0&display=0) in a browser
+1. In Desktop Mode, open [https://3ds.jdbye.com/?details=USA&split=0&display=0](https://3ds.jdbye.com/?details=USA&split=0&display=0) in a browser
 2. Note down the `Title ID` for the game
     * For example, The Legend of Zelda: Majora's Mask 3D's (US) Title ID is: `0004000000125500` 
 3. Open `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/load/textures`

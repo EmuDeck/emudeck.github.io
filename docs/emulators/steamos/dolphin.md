@@ -624,10 +624,10 @@ You may also add cheats to either the `AR Codes` or `Gecko Codes` tab.
 
 Here's how to install custom textures for Dolphin: 
 
-1. Open the Dolphin emulator, right click the game you would like to install custom textures for, click `Properties`, click the `Info` tab, note down the `GameID`
+1. In Desktop Mode, open the Dolphin emulator, right click the game you would like to install custom textures for, click `Properties`, click the `Info` tab, note down the `GameID`
 2. In the Dolphin emulator, click `Graphics` in the top right (or `Options` > `Graphic Settings`), click `Advanced`, make sure `Load Custom Textures` and `Prefetch Custom Textures` are checked
     * <img src="https://user-images.githubusercontent.com/108900299/196001664-b2265732-e7e1-41b8-9052-9af087a2dbd3.png" height="300">
-3. Open `$HOME/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Textures`
+3. Open the `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Textures` folder
     * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
     * If the `Load` and `Textures` folder do not exist, create them
 4. In the `Textures` folder from Step 2, create a folder matching the first 3 characters of the `GameID` from Step 1
