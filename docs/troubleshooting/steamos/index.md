@@ -69,7 +69,7 @@ Read [How to Verify ROMs](../../file-management/steamos/file-management.md#how-t
 
 ## Path not writable?
 
-If you are seeing an error message that states your path is not writable, this typically means that you have a space in your SD Card name.
+If you are seeing an error message that states your path is not writable, this typically means that you have a space in your SD Card or external drive name.
 
 To fix this issue:
 
