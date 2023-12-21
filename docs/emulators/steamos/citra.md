@@ -373,48 +373,49 @@ Citra allows you to configure the bottom screen as a sort of PiP (Picture in Pic
 3. Locate the `[Layout]` section
 4. Replace the content of the `[Layout]` section with the below text:
 
-         
-         [Layout]
-         anaglyph_shader_name=dubois (builtin)
-         anaglyph_shader_name\default=true
-         custom_bottom_bottom=800
-         custom_bottom_bottom\default=true
-         custom_bottom_left=520
-         custom_bottom_left\default=true
-         custom_bottom_right=760
-         custom_bottom_right\default=true
-         custom_bottom_top=620
-         custom_bottom_top\default=true
-         custom_layout=true
-         custom_layout\default=true
-         custom_second_layer_opacity=33
-         custom_second_layer_opacity\default=true
-         custom_top_bottom=784
-         custom_top_bottom\default=true
-         custom_top_left=0
-         custom_top_left\default=true
-         custom_top_right\default=true
-         custom_top_top=16
-         custom_top_top\default=true
-         factor_3d=0
-         factor_3d\default=true
-         filter_mode=true
-         filter_mode\default=true
-         large_screen_proportion=@Variant(\0\0\0\x87@\x80\0\0)
-         large_screen_proportion\default=true
-         layout_option=1
-         layout_option\default=false
-         mono_render_option=0
-         mono_render_option\default=true
-         pp_shader_name=none (builtin)
-         pp_shader_name\default=true
-         render_3d=0
-         render_3d\default=true
-         swap_screen=false
-         swap_screen\default=true
-         upright_screen=false
-         upright_screen\default=true
-         
+
+        [Layout]
+        anaglyph_shader_name=dubois (builtin)
+        anaglyph_shader_name\default=true
+        custom_bottom_bottom=800
+        custom_bottom_bottom\default=false
+        custom_bottom_left=520
+        custom_bottom_left\default=false
+        custom_bottom_right=760
+        custom_bottom_right\default=false
+        custom_bottom_top=620
+        custom_bottom_top\default=false
+        custom_layout=true
+        custom_layout\default=false
+        custom_second_layer_opacity=33
+        custom_second_layer_opacity\default=false
+        custom_top_bottom=784
+        custom_top_bottom\default=false
+        custom_top_left=0
+        custom_top_left\default=false
+        custom_top_right=1280
+        custom_top_right\default=false
+        custom_top_top=16
+        custom_top_top\default=false
+        factor_3d=0
+        factor_3d\default=true
+        filter_mode=true
+        filter_mode\default=true
+        large_screen_proportion=4
+        large_screen_proportion\default=false
+        layout_option=1
+        layout_option\default=false
+        mono_render_option=0
+        mono_render_option\default=true
+        pp_shader_name=none (builtin)
+        pp_shader_name\default=true
+        render_3d=0
+        render_3d\default=true
+        swap_screen=false
+        swap_screen\default=true
+        upright_screen=false
+        upright_screen\default=true
+                
 
 5. (Optional) To move the PiP screen up, try setting `custom_top_top=0` and `custom_top_bottom=768`
 6. Save and exit out of the text file, Citra will now be using the bottom screen as PiP
@@ -488,47 +489,47 @@ A recent update of Citra allows the ability to set the opacity on the bottom scr
 4. Replace the content of the `[Layout]` section with the below text:
 
          
-         [Layout]
-         anaglyph_shader_name=dubois (builtin)
-         anaglyph_shader_name\default=true
-         custom_bottom_bottom=800
-         custom_bottom_bottom\default=true
-         custom_bottom_left=520
-         custom_bottom_left\default=true
-         custom_bottom_right=760
-         custom_bottom_right\default=true
-         custom_bottom_top=620
-         custom_bottom_top\default=true
-         custom_layout=true
-         custom_layout\default=true
-         custom_second_layer_opacity=33
-         custom_second_layer_opacity\default=true
-         custom_top_bottom=784
-         custom_top_bottom\default=true
-         custom_top_left=0
-         custom_top_left\default=true
-         custom_top_right=1280
-         custom_top_right\default=true
-         custom_top_top=16
-         custom_top_top\default=true
-         factor_3d=0
-         factor_3d\default=true
-         filter_mode=true
-         filter_mode\default=true
-         large_screen_proportion=@Variant(\0\0\0\x87@\x80\0\0)
-         large_screen_proportion\default=true
-         layout_option=1
-         layout_option\default=false
-         mono_render_option=0
-         mono_render_option\default=true
-         pp_shader_name=none (builtin)
-         pp_shader_name\default=true
-         render_3d=0
-         render_3d\default=true
-         swap_screen=false
-         swap_screen\default=true
-         upright_screen=false
-         upright_screen\default=true
+        [Layout]
+        anaglyph_shader_name=dubois (builtin)
+        anaglyph_shader_name\default=true
+        custom_bottom_bottom=800
+        custom_bottom_bottom\default=false
+        custom_bottom_left=520
+        custom_bottom_left\default=false
+        custom_bottom_right=760
+        custom_bottom_right\default=false
+        custom_bottom_top=620
+        custom_bottom_top\default=false
+        custom_layout=true
+        custom_layout\default=false
+        custom_second_layer_opacity=33
+        custom_second_layer_opacity\default=false
+        custom_top_bottom=784
+        custom_top_bottom\default=false
+        custom_top_left=0
+        custom_top_left\default=false
+        custom_top_right=1280
+        custom_top_right\default=false
+        custom_top_top=16
+        custom_top_top\default=false
+        factor_3d=0
+        factor_3d\default=true
+        filter_mode=true
+        filter_mode\default=true
+        large_screen_proportion=4
+        large_screen_proportion\default=false
+        layout_option=1
+        layout_option\default=false
+        mono_render_option=0
+        mono_render_option\default=true
+        pp_shader_name=none (builtin)
+        pp_shader_name\default=true
+        render_3d=0
+        render_3d\default=true
+        swap_screen=false
+        swap_screen\default=true
+        upright_screen=false
+        upright_screen\default=true
          
 
 5. To adjust the PiP opacity, the opacity can be any integer between 1-100
