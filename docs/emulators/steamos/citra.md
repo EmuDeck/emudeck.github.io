@@ -26,9 +26,12 @@ Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Use Cheats](#how-to-use-cheats)
-    - [How to Configure Bottom Screen as PiP](#how-to-configure-bottom-screen-as-pip)
-    - [How to Configure Bottom Screen With Opacity](#how-to-configure-bottom-screen-with-opacity)
     - [How to Roll Back Citra to an Older Version](#how-to-roll-back-citra-to-an-older-version)
+4. [Custom Screen Layouts](#custom-screen-layouts)
+    - [How to Configure Bottom Screen as PiP](#how-to-configure-bottom-screen-as-pip)
+    - [How to Configure Bottom Screen With PiP and Opacity](#how-to-configure-bottom-screen-with-pip-and-opacity)
+    - [How to Configure Bottom Screen as PiP in the Top Right Corner](#how-to-configure-bottom-screen-as-pip-in-the-top-right-corner)
+
 
 ***
 
@@ -358,6 +361,26 @@ _This list is not exhaustive_
 
 ***
 
+### How to Roll Back Citra to an Older Version
+[Back to the Top](#citra-table-of-contents)
+
+1. In Desktop Mode, open `Konsole`
+2. To see a list of prior versions of the emulator, type:
+    * `flatpak remote-info --log flathub org.citra_emu.citra`
+    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+3. To downgrade to the version you want:
+    * `flatpak update --commit=put_commit_code_here org.citra_emu.citra`
+    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
+    * If this line does not work, you may need to type:
+        * `sudo flatpak update --commit=put_commit_code_here org.citra_emu.citra`
+
+***
+
+## Custom Screen Layouts
+[Back to the Top](#citra-table-of-contents)
+
+***
+
 ### How to Configure Bottom Screen as PiP
 [Back to the Top](#citra-table-of-contents)
 
@@ -469,7 +492,7 @@ upright_screen\default=true
 
 ***
 
-### How to Configure Bottom Screen With Opacity
+### How to Configure Bottom Screen With PiP and Opacity
 [Back to the Top](#citra-table-of-contents)
 
 Credit: `NexLevel`
@@ -583,17 +606,111 @@ upright_screen\default=true
 
 ***
 
-### How to Roll Back Citra to an Older Version
+### How to Configure Bottom Screen as PiP in the Top Right Corner
 [Back to the Top](#citra-table-of-contents)
 
-1. In Desktop Mode, open `Konsole`
-2. To see a list of prior versions of the emulator, type:
-    * `flatpak remote-info --log flathub org.citra_emu.citra`
-    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
-3. To downgrade to the version you want:
-    * `flatpak update --commit=put_commit_code_here org.citra_emu.citra`
-    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
-    * If this line does not work, you may need to type:
-        * `sudo flatpak update --commit=put_commit_code_here org.citra_emu.citra`
+Picture: 
+
+![How to Configure Bottom Screen as PiP in the Top Right Corner](../../assets/how-to-configure-bottom-screen-as-pip-in-the-top-right-corner.png)
+
+Credit: `busywait`
+
+1. Open the folder: `/home/deck/.var/app/org.citra_emu.citra/config/citra-emu/`
+    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+2. Right click `qt-config.ini`, and click `Open with Kate` or a text editor of your choice
+3. Locate the `[Layout]` section
+4. Replace the content of the `[Layout]` section with the below text:
+
+         
+        [Layout]
+        anaglyph_shader_name=dubois (builtin)
+        anaglyph_shader_name\default=true
+        custom_bottom_bottom=240
+        custom_bottom_bottom\default=false
+        custom_bottom_left=960
+        custom_bottom_left\default=false
+        custom_bottom_right=1280
+        custom_bottom_right\default=false
+        custom_bottom_top=0
+        custom_bottom_top\default=false
+        custom_layout=true
+        custom_layout\default=false
+        custom_second_layer_opacity=80
+        custom_second_layer_opacity\default=false
+        custom_top_bottom=800
+        custom_top_bottom\default=false
+        custom_top_left=0
+        custom_top_left\default=true
+        custom_top_right=1200
+        custom_top_right\default=false
+        custom_top_top=32
+        custom_top_top\default=false
+        factor_3d=0
+        factor_3d\default=true
+        filter_mode=true
+        filter_mode\default=true
+        large_screen_proportion=4
+        large_screen_proportion\default=true
+        layout_option=1
+        layout_option\default=false
+        mono_render_option=0
+        mono_render_option\default=true
+        pp_shader_name=none (builtin)
+        pp_shader_name\default=true
+        render_3d=0
+        render_3d\default=true
+        swap_screen=false
+        swap_screen\default=true
+        upright_screen=false
+        upright_screen\default=true
+         
+5. Save and close out of the text file
+6. Citra will now apply your custom layout
+
+**Note:** To revert back to defaults, the default `[Layout]` section is: 
+
+```
+[Layout]
+anaglyph_shader_name=dubois (builtin)
+anaglyph_shader_name\default=true
+custom_bottom_bottom=480
+custom_bottom_bottom\default=true
+custom_bottom_left=40
+custom_bottom_left\default=true
+custom_bottom_right=360
+custom_bottom_right\default=true
+custom_bottom_top=240
+custom_bottom_top\default=true
+custom_layout=false
+custom_layout\default=true
+custom_second_layer_opacity=100
+custom_second_layer_opacity\default=true
+custom_top_bottom=240
+custom_top_bottom\default=true
+custom_top_left=0
+custom_top_left\default=true
+custom_top_right=400
+custom_top_right\default=true
+custom_top_top=0
+custom_top_top\default=true
+factor_3d=0
+factor_3d\default=true
+filter_mode=true
+filter_mode\default=true
+large_screen_proportion=@Variant(\0\0\0\x87@\x80\0\0)
+large_screen_proportion\default=true
+layout_option=2
+layout_option\default=false
+mono_render_option=0
+mono_render_option\default=true
+pp_shader_name=none (builtin)
+pp_shader_name\default=true
+render_3d=0
+render_3d\default=true
+swap_screen=false
+swap_screen\default=true
+upright_screen=false
+upright_screen\default=true
+```
 
 ***
