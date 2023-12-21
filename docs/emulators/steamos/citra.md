@@ -643,7 +643,7 @@ Credit: `busywait`
         custom_top_left\default=true
         custom_top_right=1200
         custom_top_right\default=false
-        custom_top_top=32
+        custom_top_top=80
         custom_top_top\default=false
         factor_3d=0
         factor_3d\default=true
