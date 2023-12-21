@@ -392,7 +392,7 @@ Citra allows you to configure the bottom screen as a sort of PiP (Picture in Pic
         custom_top_bottom=784
         custom_top_bottom\default=false
         custom_top_left=0
-        custom_top_left\default=false
+        custom_top_left\default=true
         custom_top_right=1280
         custom_top_right\default=false
         custom_top_top=16
@@ -402,7 +402,7 @@ Citra allows you to configure the bottom screen as a sort of PiP (Picture in Pic
         filter_mode=true
         filter_mode\default=true
         large_screen_proportion=4
-        large_screen_proportion\default=false
+        large_screen_proportion\default=true
         layout_option=1
         layout_option\default=false
         mono_render_option=0
@@ -507,7 +507,7 @@ A recent update of Citra allows the ability to set the opacity on the bottom scr
         custom_top_bottom=784
         custom_top_bottom\default=false
         custom_top_left=0
-        custom_top_left\default=false
+        custom_top_left\default=true
         custom_top_right=1280
         custom_top_right\default=false
         custom_top_top=16
@@ -517,7 +517,7 @@ A recent update of Citra allows the ability to set the opacity on the bottom scr
         filter_mode=true
         filter_mode\default=true
         large_screen_proportion=4
-        large_screen_proportion\default=false
+        large_screen_proportion\default=true
         layout_option=1
         layout_option\default=false
         mono_render_option=0
