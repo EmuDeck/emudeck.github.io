@@ -401,8 +401,8 @@ Citra allows you to configure the bottom screen as a sort of PiP (Picture in Pic
         factor_3d\default=true
         filter_mode=true
         filter_mode\default=true
-        large_screen_proportion=4
-        large_screen_proportion\default=true
+        large_screen_proportion=@Variant(\0\0\0\x87@\x80\0\0)
+        large_screen_proportion\default=false
         layout_option=1
         layout_option\default=false
         mono_render_option=0
@@ -516,8 +516,8 @@ A recent update of Citra allows the ability to set the opacity on the bottom scr
         factor_3d\default=true
         filter_mode=true
         filter_mode\default=true
-        large_screen_proportion=4
-        large_screen_proportion\default=true
+        large_screen_proportion=@Variant(\0\0\0\x87@\x80\0\0)
+        large_screen_proportion\default=false
         layout_option=1
         layout_option\default=false
         mono_render_option=0
