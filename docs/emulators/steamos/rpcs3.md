@@ -261,6 +261,8 @@ Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.m
 
 RPCS3 comes with a nifty auto-map feature that makes setting up multiplayer a breeze. To set up multiplayer, you simply need to enable the additional ports.
 
+**Note:** If you are in Desktop Mode, make sure that Steam is open. 
+
 1. Open RPCS3
 2. Open the `Pads` menu in the `Settings`
 3. For each controller you are using for Player 2, 3, 4, etc, click the respective tab
