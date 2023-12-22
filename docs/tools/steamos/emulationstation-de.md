@@ -34,6 +34,7 @@ Read the [Steam ROM Manager](../steamos/steam-rom-manager.md) page to learn more
     - [How to Select a Different Emulator for a System](#how-to-select-a-different-emulator-for-a-system)
     - [How to Select a Different Emulator on a Per-Game Basis](#how-to-select-a-different-emulator-on-a-per-game-basis)
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
+    - [How to Manage Multiple BIN and CUE files](#how-to-manage-multiple-bin-and-cue-files)
     - [How to Download Themes](#how-to-download-themes)
 
 ***
@@ -252,6 +253,11 @@ Watch the following GIF for a visual:
 ### How to Manage Multiple Discs
 [Back to the Top](#emulationstation-de-table-of-contents)
 
+Before selecting one of the methods below, it is highly recommended you use the EmuDeck compressor to compress your ROMs to a single compressed file (the file format varies depending on which system you are emulating). 
+
+Do note that if you are using multi-disc games, the EmuDeck Compressor will instead create a compressed file per disc (combining the BIN and CUE files of each disc). You will still need to read through this section to learn how to "convert" these multi-disc games into a single entry. 
+
+Regardless of whether or not you choose to compress your games, the two methods below will cover how to tidy your files in EmulationStation-DE and ensure that you only have **one entry** per game. 
 
 ***
 
@@ -264,7 +270,7 @@ Watch the following GIF for a visual:
 
 **Note:**
 
-* This method is not compatible with Steam ROM Manager
+* This method is not compatible with Steam ROM Manager. You may instead use [Method 2: Create an M3U file and hide each of the disc entries in EmulationStation-DE](#method-2-create-an-m3u-file-and-hide-each-of-the-disc-entries-in-emulationstation-de)
 * Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#directories-interpreted-as-files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#directories-interpreted-as-files) for additional information
 
 ***
@@ -276,6 +282,35 @@ Watch the following GIF for a visual:
     * <img src="https://user-images.githubusercontent.com/108900299/220525893-83723351-a594-4f40-b106-0170085139cd.png" height="300">
 3. For each disc entry, press select, press `Edit This Game's Metadata`, scroll down, toggle on `Hidden`, press `Save`, `Apply`
 4. Repeat for each disc entry
+
+***
+
+### How to Manage Multiple BIN and CUE files
+[Back to the Top](#emulationstation-de-table-of-contents)
+
+This section is intended only for single disc games. If your game contains multiple discs, see [How to Manage Multiple Discs](#how-to-manage-multiple-discs).
+
+Before selecting one of the methods below, it is highly recommended you use the EmuDeck compressor to compress your ROMs to a single compressed file (the file format varies depending on which system you are emulating). 
+
+If you choose to compress your games, the section below is **not necessary**.  
+
+#### Method 1:  Directories interpreted as files (Recommended)
+
+See [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#directories-interpreted-as-files](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#directories-interpreted-as-files) to learn how. 
+
+Do note that this method is not compatible with Steam ROM Manager. You may instead use [Method 2: Hide each of the BIN entries in EmulationStation-DE](#method-2-hide-each-of-the-bin-entries-in-emulationstation-de).
+
+***
+
+#### Method 2: Hide each of the BIN entries in EmulationStation-DE
+
+If you are using BIN and CUE files, you will need to hide the BIN files and only keep the CUE entry. The CUE contains the information required to run each BIN file. 
+
+1. In EmulationStation-DE, press `Start`, `Other Settings`, toggle `Show Hidden Games` off
+    * <img src="https://user-images.githubusercontent.com/108900299/220525893-83723351-a594-4f40-b106-0170085139cd.png" height="300">
+2. For each BIN entry, press select, press `Edit This Game's Metadata`, scroll down, toggle on `Hidden`, press `Save`, `Apply`
+3. Repeat for each BIN entry
+
 
 ***
 
