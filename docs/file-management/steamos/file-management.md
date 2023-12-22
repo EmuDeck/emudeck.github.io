@@ -993,6 +993,7 @@ EmuDeck/
 `$HOME/.steam/steam/controller_base/templates/`
 
 ```
+templates
 ├── cemu_controller_config.vdf
 ├── citra_controller_config.vdf
 ├── duckstation_controller_config.vdf
