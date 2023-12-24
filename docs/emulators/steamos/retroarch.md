@@ -28,6 +28,8 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
     - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)   
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
+    - [How to Change RetroArch Global Settings](#how-to-change-retroarch-global-settings)
+    - [How to Change RetroArch Hotkeys](#how-to-change-retroarch-hotkeys)
     - [How to Change Shaders](#how-to-change-shaders)
         - [How to Download/Update Shaders](#how-to-downloadupdate-shaders)
         - [How to Apply New Shaders if Shaders Are Already Applied](#how-to-apply-new-shaders-if-shaders-are-already-applied)
@@ -525,6 +527,34 @@ When the time comes to switch discs:
 Multiplayer for RetroArch is configured out of the box, no additional configuration is needed. 
 
 You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) for more information.
+
+***
+
+### How to Change RetroArch Global Settings
+[Back to the Top](#retroarch-table-of-contents)
+
+This section is specifically for **global** settings. Global settings cover options like drivers, video output, etc. For core specific settings, see [How to Change Settings On a Per-Core Basis](#how-to-change-settings-on-a-per-core-basis).
+
+1. Open RetroArch **without** any content loaded
+2. Select the `Settings` tab
+3. Configure your preferred settings
+4. After you are finished, back out and click the `Main Menu` tab 
+5. Click `Configuration File`
+6. Click `Save Current Configuration`
+
+***
+
+### How to Change RetroArch Hotkeys
+[Back to the Top](#retroarch-table-of-contents)
+
+1. Open RetroArch **without** any content loaded
+2. Select the `Settings` tab
+3. Click `Input`
+4. Click `Hotkeys`
+5. Configure your preferred hotkeys
+6. After you are finished, back out and click the `Main Menu` tab 
+7. Click `Configuration File`
+8. Click `Save Current Configuration`
 
 ***
 
