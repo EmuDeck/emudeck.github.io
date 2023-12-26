@@ -38,7 +38,7 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Mod Persona 3 FES](#how-to-mod-persona-3-fes)
-    - [How to Roll Back PCSX2 to an Older Version](#how-to-rollback-pcsx2-to-an-older-version)
+    - [How to Roll Back PCSX2 to an Older Version](#how-to-roll-back-pcsx2-to-an-older-version)
 ***
 
 ### Getting Started with PCSX2
@@ -598,7 +598,7 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 
 #### How to Roll Back PCSX2
 
-1. Download the version of the emulator you would like to use from PCSX2's GitHub: [https://pcsx2.net/downloads/#nightly-anchor](https://pcsx2.net/downloads/#nightly-anchor)
+1. Download the version of the emulator you would like to use from PCSX2's website: [https://pcsx2.net/downloads/#nightly-anchor](https://pcsx2.net/downloads/#nightly-anchor) or GitHub: [https://github.com/PCSX2/pcsx2/releases](https://github.com/PCSX2/pcsx2/releases)
 2. Move the downloaded emulator from Step 1 to `/home/deck/Applications`
 3. (Optional) Rename or delete the original emulator file
 4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
