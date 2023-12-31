@@ -77,7 +77,7 @@ To fix this issue:
     * You may need to set a sudo password first. To do so, open `Konsole`, type `passwd`, and enter a password. It will not be visible for security reasons. After pressing enter, you will be prompted to type it again to confirm
 2. Locate your SD Card or external drive and right click, click `Unmount`
 3. Click `Properties`
-4. In the `Label` box, give your SD Card or external drive a name **wihout** a space
+4. In the `Label` box, give your SD Card or external drive a name **without** a space
 5. Click `OK`
 6. Locate your SD Card or external drive and right click, click `Mount`
 7. Re-run EmuDeck and your SD Card or external drive will be writable
