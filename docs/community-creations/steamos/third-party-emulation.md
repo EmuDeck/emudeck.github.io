@@ -1412,12 +1412,14 @@ This section will use a simple script file to launch the various decompilations 
 3. Enter the following:
 
         #!/bin/bash
+        cd "/path/to/folderofgameexecutable"
         "/path/to/gameexecutable"
 
-4. Edit the path to where your game executable is located
+4. Edit the paths to where your game executable is located
     * For example:
 
             #!/bin/bash
+            cd "/home/deck/Applications/ShipofHarkinian"
             "/home/deck/Applications/ShipofHarkinian/soh.appimage"
 
 5. Save and exit out of the file
