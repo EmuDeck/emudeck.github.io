@@ -41,6 +41,7 @@ The guides on this page are not officially supported by EmuDeck. Many require so
 
 3. [Emulation Related Games](#emulation-related-games)
     - [AM2R](#am2r) 
+    - [Link's Awakening DX HD](#links-awakening-dx-hd)
     - [PokeMMO](#pokemmo)
     - [Sonic 3 A.I.R.](#sonic-3-air)
  
