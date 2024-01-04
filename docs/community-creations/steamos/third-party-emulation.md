@@ -512,13 +512,13 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 
 #### What is Ship of Harkinian?
 
-An unofficial PC port of The Legend of Zelda Ocarina of Time
+`An unofficial PC port of The Legend of Zelda Ocarina of Time.`
 
 Source: [https://www.shipofharkinian.com/](https://www.shipofharkinian.com/)
 
 #### Supported Legend of Zelda: Ocarina of Time ROMs
 
-**Note:** You will need one of the following ROMs before you can proceed with the tutorial
+**Note:** You will need one of the following ROMs before you can proceed with the tutorial.
 
 #### Ocarina of Time Debug PAL GC (not Master Quest)
 > Currently the recommended option
