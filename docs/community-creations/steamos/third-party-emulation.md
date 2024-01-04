@@ -393,7 +393,7 @@ Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs
 3. Enter the following, one line at a time:
     * `sudo dpkg --add-architecture i386`
     * `sudo apt-get update`
-4. Enter the following: 
+4. Enter the following command: 
     * `sudo apt-get install git gcc g++ gcc-multilib g++-multilib make libsdl2-dev zlib1g-dev libsdl2-dev:i386 zlib1g-dev:i386`
 
 #### Setting Up Perfect Dark
@@ -760,7 +760,7 @@ Source: [https://github.com/Rubberduckycooly/Sonic-CD-11-Decompilation](https://
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
 2. Enter the Distrobox by opening Konsole and entering:
     * `distrobox enter ubuntu`
-3. Enter the following: 
+3. Enter the following command: 
     * `sudo apt install build-essential git libsdl2-dev libvorbis-dev libogg-dev libtheora-dev libglew-dev`
 
 #### Setting Up Sonic CD
@@ -819,7 +819,7 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
 2. Enter the Distrobox by opening Konsole and entering: 
     * `distrobox enter ubuntu`
-3. Enter the following: 
+3. Enter the following command: 
     * `sudo apt install -y git build-essential pkg-config libusb-1.0-0-dev libsdl2-dev bsdmainutils`
 
 #### Setting Up Super Mario 64 Plus
@@ -893,9 +893,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
 2. Enter the Distrobox by opening Konsole and entering: 
     * `distrobox enter ubuntu`
-3. Enter the following commands one at a time: 
-    * `sudo apt install libsdl2-dev python3-pip make`
-    * `sudo apt install python3-zstandard`
+3. Enter the following command: 
+    * `sudo apt install libsdl2-dev python3-pip make python3-zstandard`
 
 #### How to Set Up Super Mario Bros
 
@@ -968,9 +967,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
 2. Enter the Distrobox by opening Konsole and entering: 
     * `distrobox enter ubuntu`
-3. Enter the following commands one at a time: 
-    * `sudo apt install libsdl2-dev python3-pip make git`
-    * `sudo apt install python3-zstandard`
+3. Enter the following command: 
+    * `sudo apt install libsdl2-dev python3-pip make git python3-zstandard`
 
 #### How to Set Up Super Mario Bros: The Lost Levels
 
@@ -1040,9 +1038,8 @@ Source: [https://github.com/snesrev/smw](https://github.com/snesrev/smw)
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
 2. Enter the Distrobox by opening Konsole and entering: 
     * `distrobox enter ubuntu`
-3. Enter the following commands one at a time: 
-    * `sudo apt install libsdl2-dev python3-pip make git`
-    * `sudo apt install python3-zstandard`
+3. Enter the following command: 
+    * `sudo apt install libsdl2-dev python3-pip make git python3-zstandard`
 
 #### How to Set Up Super Mario World
 
@@ -1991,7 +1988,74 @@ Source: [https://en.wikipedia.org/wiki/AM2R](https://en.wikipedia.org/wiki/AM2R)
 6. Check `Is Executable`
 7. Use `AM2R.sh` to open AM2R
 8. In Desktop Mode, right click `AM2R.sh`, click `Add to Steam`
-    * Alternatively, use the Steam ROM Manager parser here: [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager) to add it to Steam
+    * Alternatively, place `AM2R.sh` in `Emulation/roms/desktop` and use EmulationStation-DE or the Steam ROM Manager parser here: [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager)
+
+***
+
+### Link's Awakening DX HD
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+#### What is Link's Awakening DX HD?
+
+`Dive into the enchanting world of The Legend of Zelda: Link's Awakening DX as you've never experienced it before, with this meticulously crafted PC version that breathes new life into this classic adventure. Immerse yourself in the nostalgia of Koholint Island with enhanced graphics and widescreen support, bringing the charming landscapes and characters to vivid detail on your modern PC display.`
+
+Source: [https://gbatemp.net/threads/fanmade-pc-port-of-the-legend-of-zelda-links-awakening-remakes-the-game-in-hd-with-widescreen-support.644566/](https://gbatemp.net/threads/fanmade-pc-port-of-the-legend-of-zelda-links-awakening-remakes-the-game-in-hd-with-widescreen-support.644566/)
+
+#### How to Set Up Link's Awakening DX HD
+
+**Note:** You will need a copy of `Link's Awakening DX HD`, this section will not cover how to locate it. Shortly after Link's Awakening DX HD released, it received a takedown notice by Nintendo and its official itch.io page with the game download was shut down. 
+
+##### Link's Awakening DX HD
+
+1. Open `Konsole`
+2. Enter:
+    * `mkdir -p $HOME/Games/Links_Awakening_DX_HD/pfx`
+    * This command will create a couple of **empty** folders to make managing and installing Link's Awakening DX HD easier
+3. Place your game files directly in `$HOME/Games/Links_Awakening_DX_HD`
+    * If you are on a Steam Deck, this path may be `/home/deck/Games/Links_Awakening_DX_HD`
+
+##### Lutris
+
+1. In Desktop Mode, open Discover
+2. Search for Lutris
+     * Flathub page: [https://flathub.org/apps/net.lutris.Lutris](https://flathub.org/apps/net.lutris.Lutris)
+         * Discover (on the Steam Deck) uses Flathub as its source for applications
+3. Download Lutris
+4. Open Lutris and click the `Wine` button on the left, click the `Manage versions` button
+5. Download `wine-ge-8-25`
+6. Close out of the `Manage versions` menu and click the `+` button in the top left
+6. Click `Add locally installed game`
+7. `Game Info` tab:
+    * Name: `Link's Awakening DX HD`
+    * Sort name: Leave blank
+    * Runner: `Wine (runs Windows games)`
+    * Release year: Leave blank
+8. Game options:
+    * Executable: Click the `Browse` button and navigate to the `Link's Awakening DX HD.exe` file in `$HOME/Games/Links_Awakening_DX_HD`
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Links_Awakening_DX_HD/Link's Awakening DX HD.exe`
+    * Arguments: Leave blank
+    * Working directory: Leave blank
+    * Wine prefix: Click the `Browse` button and select the `pfx` folder in `$HOME/Games/Links_Awakening_DX_HD`
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Links_Awakening_DX_HD/pfx`
+    * Prefix architecture: `Auto (default)`
+9. Runner options:
+    * Wine version: `wine-ge-8-25-x86-64`
+    * You do not need to adjust any additional settings on this tab
+10. Click `Save` in the top right
+11. Single click `Link's Awakening DX HD` in Lutris and click the `Wine` icon at the bottom of the screen, click `Winetricks`
+12. Click `Select the default wineprefix` and click `OK`
+13. Select `Install a Windows DLL or component` and click `OK`
+14. Select `dotnetdesktop6` under the `Package` column and click `OK`, wait for it to finish installing
+15. Close out of winetricks
+16. To play Link's Awakening DX HD, open Lutris, click the Link's Awakening DX HD square and click `Play` in the bottom middle of the screen
+
+#### How to add Link's Awakening DX HD to Steam
+
+1. Open Lutris
+2. Right click Link's Awakening DX HD, click `Create desktop shortcut`
+3. A shortcut of Link's Awakening DX HD will be added to your desktop
+4. On your desktop, right click `Link's Awakening DX HD` and click `Add to Steam`
+    * Alternatively, move this desktop file to `Emulation/roms/desktop` and use EmulationStation-DE or the Steam ROM Manager parser here: [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager)
 
 ***
 
