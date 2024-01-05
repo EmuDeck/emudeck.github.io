@@ -243,7 +243,10 @@ PKHeX is a "Pokémon core series save editor, programmed in C#."
 11. Click `Install a Windows DLL or component`
 12. Locate `dotnet7 MS.NET Runtime 7.0 LTS` in the list
 13. Check the box to the left of `dotnet7 MS.NET Runtime 7.0 LTS` and click `OK`, wait a few moments for it to install
-14. To open PKHeX, open Lutris, select the PKHeX tile, and click `Play`
+14. Locate `dotnetdesktop7` in the list 
+15. Check the box to the left of `dotnetdesktop7` and click `OK`, wait a few moments for it to install
+16. Close out of winetricks
+17. To open PKHeX, open Lutris, select the PKHeX tile, and click `Play`
 
 If PKHeX initially opens in a tiny window, click the `Stop` button in Lutris to force close it. Re-open PKHeX and the window should return to normal.
 
