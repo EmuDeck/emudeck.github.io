@@ -259,6 +259,16 @@ Emulator configurations and saves when installed on Linux are typically stored i
 
 **Here's How**
 
+##### Flatseal
+
+1. In Desktop Mode, open Discover and download Flatseal
+2. Open Flatseal and click Lutris on the left hand side of the screen
+3. Scroll down to Filesystem and enable `All user files`
+4. Close out of Flatseal and proceed to the next screen
+
+
+##### Lutris
+
 1. Open Lutris
 2. Single click the `PKHeX` tile in Lutris, click the `Wine` icon at the bottom of the Lutris application, click `Wine configuration`
 3. Click the `Drives` tab, check `Show dot files`, click `Apply`, `OK`
