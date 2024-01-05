@@ -257,7 +257,7 @@ Emulator configurations and saves when installed on Linux are typically stored i
 
 1. Open Lutris
 2. Single click the `PKHeX` tile in Lutris, click the `Wine` icon at the bottom of the Lutris application, click `Wine configuration`
-3. Click the `Drives` tab, check `Show dot files`, click `OK`
+3. Click the `Drives` tab, check `Show dot files`, click `Apply`, `OK`
 4. Open PKHeX and navigate to your saves
     * See the [Save Management](../../save-management/steamos/save-management.md) page for specific save locations
 
