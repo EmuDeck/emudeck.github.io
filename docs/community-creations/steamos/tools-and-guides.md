@@ -249,6 +249,18 @@ If PKHeX initially opens in a tiny window, click the `Stop` button in Lutris to 
 
 If you would like to add PKHeX to Game Mode, you may right click the PKHeX tile in Lutris and click `Create steam shortcut`.
 
+#### How to Access Saves
+
+Emulator configurations and saves when installed on Linux are typically stored in hidden folders (such as RetroArch). To access these saves requires a little bit of extra work. 
+
+**Here's How**
+
+1. Open Lutris
+2. Single click the `PKHeX` tile in Lutris, click the `Wine` icon at the bottom of the Lutris application, click `Wine configuration`
+3. Click the `Drives` tab, check `Show dot files`, click `OK`
+4. Open PKHeX and navigate to your saves
+    * See the [Save Management](../../save-management/steamos/save-management.md) page for specific save locations
+
 ***
 
 ### How to Use ROM Hacks

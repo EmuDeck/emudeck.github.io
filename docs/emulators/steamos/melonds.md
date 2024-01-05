@@ -31,6 +31,7 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
     - [How to Play Nintendo DS Games in Book Mode](#how-to-play-nintendo-ds-games-in-book-mode)
     - [How to Customize the Screen Layout](#how-to-customize-the-screen-layout)
     - [How to Roll Back melonDS to an Older Version](#how-to-roll-back-melonds-to-an-older-version)
+    - [PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
 
 ***
 
