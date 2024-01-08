@@ -28,17 +28,18 @@
 
 1. If you are using an SD Card, format your SD Card in Game Mode on SteamOS. SD Cards need to be formatted as ext4 (or btrfs) to be compatible with EmuDeck.
     * **Skip** this step if you have already formatted your SD Card 
-2. Switch to Desktop Mode by pressing the `STEAM` button, then the `Power` button, and select `Switch to Desktop`. Download the [EmuDeck Installer](https://www.emudeck.com/#download). 
-3. Copy the installer to your Steam Deck's desktop. Run the EmuDeck Installer.
-4. Copy your games to the `Emulation/roms` folder created by the installer. Open Steam ROM Manager through EmuDeck. Each parser corresponds to an emulator or tool. Enable which parsers you would like to use.
+2. Switch to Desktop Mode. Pressing the `STEAM` button, then select Power and choose `Switch to Desktop`.
+3. Download the [EmuDeck Installer](https://www.emudeck.com/#download). 
+4. Copy the installer to your Steam Deck's desktop. Run the EmuDeck Installer.
+5. Copy your games to the `Emulation/roms` folder created by the installer. Open Steam ROM Manager through EmuDeck. Each parser corresponds to an emulator or tool. Enable which parsers you would like to use.
     * Copy your BIOS to `Emulation/bios`
     * Refer to the [Cheat Sheet](../../cheat-sheet.md) for which folders correspond to which systems, a full list of ROM file types, and expected BIOS
-5. After you have selected your parsers: 
+6. After you have selected your parsers: 
     * Click on `Preview`
     * Click `Parse`
     * Wait for all the images to download
     * Click `Save apps to Steam`. The first time may take a few moments, After it saves successfully, your selected ROMs and tools will be added to your Steam library.
-6. Close Steam ROM Manager. Click `Return to Game Mode` on your desktop and your EmuDeck install is now complete!
+7. Close Steam ROM Manager. Click `Return to Game Mode` on your desktop and your EmuDeck install is now complete!
 
 **EmulationStation-DE:** Interested in using EmulationStation-DE as a front-end? Select the EmulationStationDE parser in Steam ROM Manager. Mix and match. Add some of your ROMs to your Steam library and manage the rest in EmulationStation-DE! 
 
