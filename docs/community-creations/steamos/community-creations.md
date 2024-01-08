@@ -1396,7 +1396,11 @@ Options/Upright Wiimote = `Full Axis 2+`
 ##### New Super Mario Bros Wii
 [Back to the Top](#community-creations-table-of-contents)
 
-(Requires StemDeckGyroDSU) Comfortable button mapping for NSMB Wii, with run/hold set to X, jump to A, and spin/pickup to the right trigger. In-game gyro platforms can be tilted by tilting the Deck.
+Credit: `drone1313`
+
+**REQUIRES STEAMDECKGYRODSU TO BE INSTALLED**
+
+Comfortable button mapping for NSMB Wii, with run/hold set to X, jump to A, and spin/pickup to the right trigger. In-game gyro platforms can be tilted by tilting the Deck.
 
 ```
 [Profile]
