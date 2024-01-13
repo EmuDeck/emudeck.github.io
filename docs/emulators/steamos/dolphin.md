@@ -17,6 +17,9 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Launch Dolphin in Desktop Mode](#how-to-launch-dolphin-in-desktop-mode)
     - [File Formats](#dolphin-file-formats)
     - [Hotkeys](#dolphin-hotkeys)
+    - [Controls 101](../../controls-and-hotkeys/steamos/controls-101.md)
+        - [Gamecube](../../controls-and-hotkeys/steamos/controls-101.md#gamecube)
+        - [Wii](../../controls-and-hotkeys/steamos/controls-101.md#wii)
     - [How to Set Up GameCube BIOS (Optional)](#how-to-set-up-gamecube-bios)
     - [How to Set Up the Wii Menu (Optional)](#how-to-set-up-the-wii-menu)
 
@@ -45,10 +48,16 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Configure Wii Games To Use A GameCube Controller](#how-to-configure-wii-games-to-use-a-gamecube-controller)
     - [How to Configure Wii Games to Use the Trackpad as a Pointer](#how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer)
     - [How to Configure Wii Games to Use the Classic Controller](#how-to-configure-wii-games-to-use-the-classic-controller)
+    - [How to Configure Wii Games to Use the Sideways Wiimote Configuration](#how-to-configure-wii-games-to-use-the-sideways-wiimote-configuration)
     - [How to Remove the Unsupported Extension Controller](#how-to-remove-the-unsupported-extension-controller)
     - [How to Configure Real Wiimotes](#how-to-configure-real-wiimotes)
     - [How to Use a Mayflash DolphinBar in Game Mode](#how-to-use-a-mayflash-dolphinbar-in-game-mode)
     - [Dolphin Community Controller Profiles](#dolphin-community-controller-profiles)
+        - [Gyro Steam Deck on Dolphin](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
+        - [Wiimote Motion Controls With No Attachment](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
+        - [Wiimote Motion Controls With Nunchuck](../../community-creations/steamos/community-creations.md#wiimote-motion-controls-with-nunchuck)
+        - [New Super Mario Bros Wii](../../community-creations/steamos/community-creations.md#new-super-mario-bros-wii)
+        - [Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini)
         - [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
 
 ***
@@ -980,6 +989,32 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ***
 
+### How to Configure Wii Games to Use the Sideways Wiimote Configuration
+
+#### How to Apply the Sideways Wiimote Configuration on the Fly
+
+1. While in game, press `Select` + `R3`. This hotkey will enable the "Sideways Wiimote" configuration. 
+
+You may also need to detach the nunchuk. While in game, press `Select` + `Left Stick Down` to attach/detach the nunchuk. 
+
+**Note:** You will need to do this each time you open the game. However, you may apply this profile specifically to this game so it automatically loads the profile when the game is launched. Read the next section [How to Apply the Sideways Wiimote Configuration on a Per Game Basis](#how-to-apply-the-sideways-wiimote-configuration-on-a-per-game-basis) to learn how. 
+
+#### How to Apply the Sideways Wiimote Configuration on a Per Game Basis
+
+1. Download the configuration from the "Community Creations" page, [Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini)
+    * See [How to Download Dolphin Profiles](../../community-creations/steamos/community-creations.md#how-to-download-dolphin-profiles) for instructions on where to place the downloaded file
+2. In Desktop Mode, open Dolphin
+3. Right click the game
+4. Click `Properties`
+5. Under the `Game Config` tab, click the `Editor` tab
+6. In the box under the `User Config` section:
+
+        [Controls] 
+        WiimoteProfile1 = sideways_wiimote_with_no_attachment.ini
+
+
+***
+
 ### How to Remove the Unsupported Extension Controller
 [Back to the Top](#dolphin-table-of-contents)
 
@@ -1057,6 +1092,11 @@ Here's how to **resolve the error** and remove the Nunchuk:
 ### Dolphin Community Controller Profiles
 [Back to the Top](#dolphin-table-of-contents)
 
-* [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2) 
+- [Gyro Steam Deck on Dolphin](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
+- [Wiimote Motion Controls With No Attachment](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
+- [Wiimote Motion Controls With Nunchuck](../../community-creations/steamos/community-creations.md#wiimote-motion-controls-with-nunchuck)
+- [New Super Mario Bros Wii](../../community-creations/steamos/community-creations.md#new-super-mario-bros-wii)
+- [Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini)
+- [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
 
 ***
