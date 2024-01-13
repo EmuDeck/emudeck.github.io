@@ -1061,7 +1061,8 @@ This config is basically the Nunchuck config, with modifications to enable prope
 
 _You are advised to examine the motion inputs so you can learn how to get SDGyroDSU to work properly with Dolphin. It's kind of a pain, since Dolphin registers it as a separate controller from the buttons. This config features workarounds so the issue is resolved._
 
-**Download:** ![Wii_base_nunchuck_with_true_motion.ini](../../community-creations-files/Wii_base_nunchuck_with_true_motion.ini)
+**Download:** [Wii_base_nunchuck_with_true_motion.ini](../../community-creations-files/Wii_base_nunchuck_with_true_motion.ini){:download}
+
 
 Profile Name: `Wii_base_nunchuck_with_true_motion.ini`
 
@@ -1156,13 +1157,15 @@ Credit: `Trick Trigger`
 
 **REQUIRES STEAMDECKGYRODSU TO BE INSTALLED**
 
-[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu){:download}
+
 
 This config is the Nunchuck config with no attachment, and modifications to enable proper, true motion controls. Keep in mind that I swapped some buttons around, so you might want to tweak it if you do that.
 
 _You are advised to examine the motion inputs so you can learn how to get SDGyroDSU to work properly with Dolphin. It's kind of a pain, since Dolphin registers it as a separate controller from the buttons. This config features workarounds so the issue is resolved._
 
-**Download:** ![Wii_no_attachment_with_true_motion.ini](../../community-creations-files/Wii_no_attachment_with_true_motion.ini)
+**Download:** [Wii_no_attachment_with_true_motion.ini](../../community-creations-files/Wii_no_attachment_with_true_motion.ini){:download}
+
 
 Profile Name: `Wii_no_attachment_with_true_motion.ini`
 
@@ -1263,7 +1266,8 @@ Credit: `Jigs`
 
 ***
 
-**Download:** ![wiigalaxy.ini](../../community-creations-files/wiigalaxy.ini)
+**Download:** [wiigalaxy.ini](../../community-creations-files/wiigalaxy.ini){:download}
+
 
 **Tweaked Settings**
 
@@ -1306,7 +1310,7 @@ This config is basically the one default on dolphin when you install it with Emu
 
 _You are advised to examine the motion inputs so you can learn how to get SDGyroDSU to work properly with Dolphin. It's kind of a pain, since Dolphin registers it as a separate controller from the buttons. This config features workarounds so the issue is resolved._
 
-**Download:** ![Gyro_SteamDeck_on_Dolphin.ini](../../community-creations-files/Gyro_SteamDeck_on_Dolphin.ini)
+**Download:** [Gyro_SteamDeck_on_Dolphin.ini](../../community-creations-files/Gyro_SteamDeck_on_Dolphin.ini){:download}
 
 
 Profile Name: `Gyro_SteamDeck_on_Dolphin.ini`
@@ -1416,7 +1420,8 @@ Credit: `drone1313`
 
 Comfortable button mapping for NSMB Wii, with run/hold set to X, jump to A, and spin/pickup to the right trigger. In-game gyro platforms can be tilted by tilting the Deck.
 
-**Download:** ![nsmbwii.ini](../../community-creations-files/nsmbwii.ini)
+**Download:** [nsmbwii.ini](../../community-creations-files/nsmbwii.ini){:download}
+
 
 Profile Name: `nsmbwii.ini`
 
@@ -1524,7 +1529,7 @@ Options/Sideways Wiimote = True
 
 Credit: `Ghost of Christmas Yet to Come`
 
-**Download:** ![Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini)
+**Download:** [Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini){:download}
 
 Profile Name: `sideways_wiimote_with_no_attachment.ini`
 
