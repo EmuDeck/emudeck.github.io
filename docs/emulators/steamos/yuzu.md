@@ -35,6 +35,7 @@ Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/h
 
 2. [Yuzu Tips and Tricks](#yuzu-tips-and-tricks)
     - [How to Configure Gyro](#how-to-configure-gyro)
+        - [How to Diagnose Gyro](#how-to-diagnose-gyro)
     - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
