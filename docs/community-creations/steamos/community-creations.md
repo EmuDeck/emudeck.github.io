@@ -2170,7 +2170,7 @@ Credit: `Jigs`
 
 Attach profile to Super Mario Galaxy 1 and 2 specifically to automatically apply the profile when you open either game.
 
-![Super Mario Galaxy 1 and 2: Jigs](../../assets/super-mario-galaxy-1-and-2-jigs.png) 
+![Super Mario Galaxy 1 and 2: Jigs](../../assets/super-mario-galaxy-1-and-2-jigs.png){: style="height:300px;width:300px"} 
 
 ###### Steam Input Profile
 
