@@ -531,9 +531,17 @@ On your other device, install Steam Link: [https://store.steampowered.com/remote
 
 ***
 
-#### Method 3: Barrier
+#### Method 3: KDE Connect
 
-In desktop mode, click the start menu, open Discover (an included flatpak store), and install Barrier. On your other device, install Barrier: [https://github.com/debauchee/barrier](https://github.com/debauchee/barrier). 
+In desktop mode, click the start menu, open KDE Connect (a built in application). On your other device, install KDE Connect. 
+
+* [Android](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp)
+* Windows
+    * [Microsoft Store](https://apps.microsoft.com/detail/9N93MRMSXBF0?rtc=1&hl=en-us&gl=US)
+    * [Installer](https://kdeconnect.kde.org/download.html)
+* [Mac](https://binary-factory.kde.org/view/MacOS/job/kdeconnect-kde_Nightly_macos/)
+* [IOS](https://apps.apple.com/us/app/kde-connect/id1580245991)
+* Linux, avaiable through most package managers
 
 ***
 
