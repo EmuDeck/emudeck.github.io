@@ -373,14 +373,25 @@ Either parse your Nintendo 64DD games through the `Nintendo 64 - RMG` parser in 
 ### How to Roll Back RMG to an Older Version
 [Back to the Top](#rmg-table-of-contents)
 
+If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
+
 1. In Desktop Mode, open `Konsole`
 2. To see a list of prior versions of the emulator, type:
     * `flatpak remote-info --log flathub com.github.Rosalie241.RMG`
-    * Each version will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
-3. To downgrade to the version you want:
+3. If Konsole prompts you to select `system` or `user`, enter `2` to select `user` 
+4. Konsole will list a list of previous versions for the flatpak. The important line for each version is the `Commit: ` line. The `Commit: ` line will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
+    * Using Citra as an example:
+        * ![How to Roll Back Flatpaks: 1](../../assets/how-to-roll-back-flatpaks-1.png)
+5. To downgrade to the version you want:
     * `flatpak update --commit=put_commit_code_here com.github.Rosalie241.RMG`
     * Replace `put_commit_code_here` with the actual code you located in Step 2. 
-    * If this line does not work, you may need to type:
-        * `sudo flatpak update --commit=put_commit_code_here com.github.Rosalie241.RMG`
+        * Using Citra as an example:
+            * ![How to Roll Back Flatpaks: 2](../../assets/how-to-roll-back-flatpaks-2.png)
+
+If the above steps did not work and you are getting an error message along the lines of `Flatpak not installed`, your Flatpak is likely installed at the system level instead. Select one of the below solutions:
+
+Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
+
+Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub com.github.Rosalie241.RMG` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here com.github.Rosalie241.RMG`. 
 
 ***
