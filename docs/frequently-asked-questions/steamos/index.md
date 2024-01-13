@@ -541,7 +541,7 @@ In desktop mode, click the start menu, open KDE Connect (a built in application)
     * [Installer](https://kdeconnect.kde.org/download.html)
 * [Mac](https://binary-factory.kde.org/view/MacOS/job/kdeconnect-kde_Nightly_macos/)
 * [IOS](https://apps.apple.com/us/app/kde-connect/id1580245991)
-* Linux, avaiable through most package managers
+* Linux, available through most package managers
 
 ***
 
