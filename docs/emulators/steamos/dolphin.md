@@ -57,7 +57,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
         - [Wiimote Motion Controls With No Attachment](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
         - [Wiimote Motion Controls With Nunchuck](../../community-creations/steamos/community-creations.md#wiimote-motion-controls-with-nunchuck)
         - [New Super Mario Bros Wii](../../community-creations/steamos/community-creations.md#new-super-mario-bros-wii)
-        - [Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini)
+        - [Sideways Wiimote With No Attachment](../../community-creations/steamos/community-creations.md#sideways-wiimote-with-no-attachment)
         - [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
 
 ***
@@ -1001,7 +1001,7 @@ You may also need to detach the nunchuk. While in game, press `Select` + `Left S
 
 #### How to Apply the Sideways Wiimote Configuration on a Per Game Basis
 
-1. Download the configuration from the "Community Creations" page, [Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini)
+1. Download the configuration from the "Community Creations" page, [Sideways Wiimote With No Attachment](../../community-creations/steamos/community-creations.md#sideways-wiimote-with-no-attachment)
     * See [How to Download Dolphin Profiles](../../community-creations/steamos/community-creations.md#how-to-download-dolphin-profiles) for instructions on where to place the downloaded file
 2. In Desktop Mode, open Dolphin
 3. Right click the game
@@ -1096,7 +1096,7 @@ Here's how to **resolve the error** and remove the Nunchuk:
 - [Wiimote Motion Controls With No Attachment](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
 - [Wiimote Motion Controls With Nunchuck](../../community-creations/steamos/community-creations.md#wiimote-motion-controls-with-nunchuck)
 - [New Super Mario Bros Wii](../../community-creations/steamos/community-creations.md#new-super-mario-bros-wii)
-- [Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini)
+- [Sideways Wiimote With No Attachment](../../community-creations/steamos/community-creations.md#sideways-wiimote-with-no-attachment)
 - [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
 
 ***
