@@ -1044,6 +1044,7 @@ After you have selected a profile, you may use the below tutorial to learn how t
 * [Super Mario Galaxy 1 and 2](#super-mario-galaxy-1-and-2)
 * [Gyro Steam Deck on Dolphin](#gyro-steam-deck-on-dolphin)
 * [New Super Mario Bros Wii](#new-super-mario-bros-wii)
+* [Sideways Wiimote With No Attachment](#sideways-wiimote-with-no-attachment)
 
 ***
 
@@ -1059,6 +1060,8 @@ Credit: `TrickTrigger`
 This config is basically the Nunchuck config, with modifications to enable proper, true motion controls. This can be easily converted into a standalone Wii Remote config with motion by simply removing the Nunchuck in the Dolphin menu, but keep in mind that I swapped some buttons around, so you might want to tweak it if you do that.
 
 _You are advised to examine the motion inputs so you can learn how to get SDGyroDSU to work properly with Dolphin. It's kind of a pain, since Dolphin registers it as a separate controller from the buttons. This config features workarounds so the issue is resolved._
+
+**Download:** [Wii_base_nunchuck_with_true_motion.ini](../../community-creations-files/Wii_base_nunchuck_with_true_motion.ini)
 
 Profile Name: `Wii_base_nunchuck_with_true_motion.ini`
 
@@ -1143,6 +1146,7 @@ D-Pad/Right = `Axis 6+`
 Hotkeys/Upright Toggle = SELECT&THUMBR
 ```
 
+
 ***
 
 ##### Wiimote Motion Controls With No Attachment
@@ -1157,6 +1161,8 @@ Credit: `Trick Trigger`
 This config is the Nunchuck config with no attachment, and modifications to enable proper, true motion controls. Keep in mind that I swapped some buttons around, so you might want to tweak it if you do that.
 
 _You are advised to examine the motion inputs so you can learn how to get SDGyroDSU to work properly with Dolphin. It's kind of a pain, since Dolphin registers it as a separate controller from the buttons. This config features workarounds so the issue is resolved._
+
+**Download:** [Wii_no_attachment_with_true_motion.ini](../../community-creations-files/Wii_no_attachment_with_true_motion.ini)
 
 Profile Name: `Wii_no_attachment_with_true_motion.ini`
 
@@ -1247,6 +1253,7 @@ Hotkeys/Sideways Toggle = SELECT&THUMBR
 ```
 
 
+
 ***
 
 ##### Super Mario Galaxy 1 and 2
@@ -1255,6 +1262,8 @@ Hotkeys/Sideways Toggle = SELECT&THUMBR
 Credit: `Jigs`
 
 ***
+
+**Download:** [wiigalaxy.ini](../../community-creations-files/wiigalaxy.ini)
 
 **Tweaked Settings**
 
@@ -1273,7 +1282,7 @@ Credit: `Jigs`
 
 ***
 
-**Download:** [https://cdn.discordapp.com/attachments/977206955871440966/977207020220448808/wiigalaxy.ini](https://cdn.discordapp.com/attachments/977206955871440966/977207020220448808/wiigalaxy.ini)
+
 
 ***
 
@@ -1296,6 +1305,9 @@ I used the text of Trick Trigger from the profile he shared as a template so her
 This config is basically the one default on dolphin when you install it with EmuDeck, but it detects as default Xbox 360 gamepad (in game it's in reality steam deck's controlls). So, this config just adds to Xbox 360 controller detected the gyro inputs of the steam deck with help of steam deck gyrodsu.
 
 _You are advised to examine the motion inputs so you can learn how to get SDGyroDSU to work properly with Dolphin. It's kind of a pain, since Dolphin registers it as a separate controller from the buttons. This config features workarounds so the issue is resolved._
+
+**Download:** [Gyro_SteamDeck_on_Dolphin.ini](../../community-creations-files/Gyro_SteamDeck_on_Dolphin.ini)
+
 
 Profile Name: `Gyro_SteamDeck_on_Dolphin.ini`
 
@@ -1391,6 +1403,8 @@ Rumble/Motor = Strong
 Options/Upright Wiimote = `Full Axis 2+`
 ``` 
 
+
+
 ***
 
 ##### New Super Mario Bros Wii
@@ -1401,6 +1415,10 @@ Credit: `drone1313`
 **REQUIRES STEAMDECKGYRODSU TO BE INSTALLED**
 
 Comfortable button mapping for NSMB Wii, with run/hold set to X, jump to A, and spin/pickup to the right trigger. In-game gyro platforms can be tilted by tilting the Deck.
+
+**Download:** [nsmbwii.ini](../../community-creations-files/nsmbwii.ini)
+
+Profile Name: `nsmbwii.ini`
 
 ```
 [Profile]
@@ -1498,7 +1516,111 @@ Options/Upright Wiimote = `Full Axis 2+`
 Options/Sideways Wiimote = True
 ```
 
-**Download** (https://www.mediafire.com/file/g2f50984tqu7lfo/nsmbwii.ini/file) 
+
+***
+
+### Sideways Wiimote With No Attachment
+[Back to the Top](#community-creations-table-of-contents)
+
+Credit: `Ghost of Christmas Yet to Come`
+
+**Download:** [Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini)
+
+Profile Name: `sideways_wiimote_with_no_attachment.ini`
+
+```
+[Profile]
+Device = SDL/0/Microsoft X-Box 360 pad 0
+Buttons/A = `Button 0`
+Buttons/B = `Button 1`
+Buttons/1 = `Button 3`
+Buttons/2 = `Button 2`
+Buttons/- = `Button 6`
+Buttons/+ = `Button 7`
+Buttons/Home = Return
+D-Pad/Up = `Axis 7-`
+D-Pad/Down = `Axis 7+`
+D-Pad/Left = `Axis 6-`
+D-Pad/Right = `Axis 6+`
+IR/Vertical Offset = 12.
+IR/Total Yaw = 19.
+IR/Total Pitch = 22.
+IR/Auto-Hide = True
+IR/Up = `Axis 4-`
+IR/Down = `Axis 4+`
+IR/Left = `Axis 3-`
+IR/Right = `Axis 3+`
+IR/Hide = `Button 10`
+IR/Calibration = 100.00 101.96 108.24 112.67 116.44 114.62 108.11 101.96 100.00 101.96 108.11 113.10 115.81 113.90 108.24 101.96 100.00 101.96 108.24 114.93 115.13 115.19 108.24 101.96 100.00 101.96 108.13 112.88 112.20 110.97 108.24 101.96
+Shake/X = TL
+Shake/Y = TL
+Shake/Z = TL
+Tilt/Forward = `Full Axis 2+`&`Full Axis 1-`
+Tilt/Backward = `Full Axis 2+`&`Full Axis 1+`
+Tilt/Left = `Full Axis 2+`&`Full Axis 0-`
+Tilt/Right = `Full Axis 2+`&`Full Axis 0+`
+Tilt/Modifier/Range = 50.
+IMUIR/Enabled = False
+IMUAccelerometer/Up = `Accel Up`
+IMUAccelerometer/Down = `Accel Down`
+IMUAccelerometer/Left = `Accel Left`
+IMUAccelerometer/Right = `Accel Right`
+IMUAccelerometer/Forward = `Accel Forward`
+IMUAccelerometer/Backward = `Accel Backward`
+IMUGyroscope/Pitch Up = `Gyro Pitch Up`
+IMUGyroscope/Pitch Down = `Gyro Pitch Down`
+IMUGyroscope/Roll Left = `Gyro Roll Left`
+IMUGyroscope/Roll Right = `Gyro Roll Right`
+IMUGyroscope/Yaw Left = `Gyro Yaw Left`
+IMUGyroscope/Yaw Right = `Gyro Yaw Right`
+Hotkeys/Sideways Toggle = @(`Button 6`+`Button 10`)
+Extension/Attach MotionPlus = False
+Nunchuk/Buttons/C = THUMBR
+Nunchuk/Buttons/Z = TR
+Nunchuk/Stick/Up = `Axis 1-`
+Nunchuk/Stick/Down = `Axis 1+`
+Nunchuk/Stick/Left = `Axis 0-`
+Nunchuk/Stick/Right = `Axis 0+`
+Nunchuk/Stick/Modifier/Range = 50.
+Nunchuk/Stick/Calibration = 100.00 101.96 107.70 111.02 112.30 107.98 106.91 101.96 100.00 101.96 108.24 113.14 114.55 111.79 108.24 101.96 100.00 101.96 108.24 113.60 114.92 113.33 108.24 101.96 100.00 101.96 108.24 110.60 109.10 108.88 108.24 101.96
+Nunchuk/Shake/X = `Click 2`
+Nunchuk/Shake/Y = `Click 2`
+Nunchuk/Tilt/Modifier/Range = 50.
+Classic/Buttons/A = `Button 2`
+Classic/Buttons/B = `Button 0`
+Classic/Buttons/X = `Button 1`
+Classic/Buttons/Y = `Button 3`
+Classic/Buttons/ZL = `Button 4`
+Classic/Buttons/ZR = `Button 5`
+Classic/Buttons/- = `Button 6`
+Classic/Buttons/+ = `Button 7`
+Classic/Left Stick/Up = `Axis 1-`
+Classic/Left Stick/Down = `Axis 1+`
+Classic/Left Stick/Left = `Axis 0-`
+Classic/Left Stick/Right = `Axis 0+`
+Classic/Left Stick/Modifier/Range = 50.
+Classic/Left Stick/Calibration = 100.00 101.96 107.63 112.05 110.67 111.78 105.49 101.89 100.00 101.96 108.24 112.08 112.34 109.50 107.04 101.96 100.00 101.96 106.95 114.00 115.73 117.91 108.24 101.96 100.00 101.96 108.24 106.97 109.81 109.07 108.24 101.96
+Classic/Right Stick/Up = `Axis 4-`
+Classic/Right Stick/Down = `Axis 4+`
+Classic/Right Stick/Left = `Axis 3-`
+Classic/Right Stick/Right = `Axis 3+`
+Classic/Right Stick/Modifier/Range = 50.
+Classic/Right Stick/Calibration = 100.00 101.96 107.60 112.29 113.04 111.78 108.24 101.96 100.00 101.96 108.24 109.67 111.62 109.71 104.61 101.96 100.00 101.96 108.12 116.15 116.97 117.85 107.67 101.96 100.00 101.96 108.24 107.11 107.45 110.21 108.24 101.96
+Classic/Triggers/L = `Full Axis 2+`
+Classic/Triggers/R = `Full Axis 5+`
+Classic/Triggers/L-Analog = `Full Axis 2+`
+Classic/Triggers/R-Analog = `Full Axis 5+`
+Guitar/Stick/Modifier/Range = 50.
+Drums/Stick/Modifier/Range = 50.
+Turntable/Stick/Modifier/Range = 50.
+uDraw/Stylus/Modifier/Range = 50.
+Drawsome/Stylus/Modifier/Range = 50.
+Rumble/Motor = Strong
+Options/Upright Wiimote = `Full Axis 2+`
+Options/Sideways Wiimote = True
+```
+
+
 
 ***
 
