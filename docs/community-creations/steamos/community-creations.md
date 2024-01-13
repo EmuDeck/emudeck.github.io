@@ -933,9 +933,9 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 
 Credit: `drone1313`
 
-Used in tandem with the Super Mario Galaxy profile, [Super Mario Galaxy 1 and 2](#super-mario-galaxy-1-and-2), for the Dolphin emulator.
+Used in tandem with the Super Mario Galaxy profile, [Super Mario Galaxy 1 and 2](#super-mario-galaxy-1-and-2), for the Dolphin emulator. If you download the profile, it will show up for any shortcut (EmulationStation-DE included) added to Steam. 
 
-If you have added Super Mario Galaxy or Super Mario Galaxy 2 to Steam through Steam ROM Manager, you may also select the below profile in the `Community Layouts` tab.
+Alternatively, if you have added Super Mario Galaxy or Super Mario Galaxy 2 to Steam through Steam ROM Manager, you may also select the below profile in the `Community Layouts` tab. If you select this method, you do not need to download the below profile. 
 
 **Download:** [mysmg.vdf](../../community-creations-files/mysmg.vdf){:download="mysmg.vdf"}
 
@@ -2174,7 +2174,7 @@ Attach profile to Super Mario Galaxy 1 and 2 specifically to automatically apply
 
 ###### Steam Input Profile
 
-Select the `My SMG` profile in the `Community Layouts` tab, designed to be used in tandem with this profile. This profile will only show up if you have added Super Mario Galaxy or Super Mario Galaxy 2 to Steam through Steam ROM Manager. Alternatively, you may download the profile and it will show up for any shortcut (EmulationStation-DE included) in the [My SMG](#my-smg) section. 
+Select the `My SMG` profile in the `Community Layouts` tab, designed to be used in tandem with this profile. This profile will only show up if you have added Super Mario Galaxy or Super Mario Galaxy 2 to Steam through Steam ROM Manager. Alternatively, you may download the profile in the [My SMG](#my-smg) section and it will show up for any shortcut (EmulationStation-DE included) added to Steam.
 
 ***
 
