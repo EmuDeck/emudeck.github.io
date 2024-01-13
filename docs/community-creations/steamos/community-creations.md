@@ -2166,8 +2166,13 @@ Credit: `Jigs`
 
 **Optional**
 
-* Attach profile to Super Mario Galaxy 1 and 2 specifically to automatically apply the profile when you open either game: <img src="https://user-images.githubusercontent.com/108900299/211655773-8b315ecd-c203-4c95-be0a-09355f7d6d51.png" height="400">
-* Select the `My SMG` profile in the `Community Layouts` tab, designed to be used in tandem with this profile. This profile will only show up if you have added Super Mario Galaxy or Super Mario Galaxy 2 to Steam through Steam ROM Manager. Alternatively, you may download the profile and it will show up for any shortcut (EmulationStation-DE included) in the [My SMG](#my-smg) section. 
+###### Dolphin Game Profile
+
+Attach profile to Super Mario Galaxy 1 and 2 specifically to automatically apply the profile when you open either game: ![Super Mario Galaxy 1 and 2: Jigs](../../assets/super-mario-galaxy-1-and-2-jigs.png) 
+
+###### Steam Input Profile
+
+Select the `My SMG` profile in the `Community Layouts` tab, designed to be used in tandem with this profile. This profile will only show up if you have added Super Mario Galaxy or Super Mario Galaxy 2 to Steam through Steam ROM Manager. Alternatively, you may download the profile and it will show up for any shortcut (EmulationStation-DE included) in the [My SMG](#my-smg) section. 
 
 ***
 
