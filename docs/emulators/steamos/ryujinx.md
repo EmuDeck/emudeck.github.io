@@ -425,7 +425,7 @@ The script launches the corresponding emulator in `/home/deck/Applications/publi
 1. Download the version of the emulator you would like to use from Ryujinx's GitHub: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
 2. Move the downloaded emulator from Step 1 to `/home/deck/Applications/publish`
 3. (Optional) Rename or delete the original emulator file
-4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
+4. One at a time, right click `Ryujinx` and `Ryujinx.sh`, click `Properties`, click `Permissions`, check `Is executable`
 5. Your games will now launch using the version of the emulator you downloaded
 
 ***
