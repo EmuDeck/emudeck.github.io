@@ -536,8 +536,10 @@ You may need to re-arrange the controller order in Game Mode for your controller
 
 ### How to Change RetroArch Global Settings
 [Back to the Top](#retroarch-table-of-contents)
-f
+
 This section is specifically for **global** settings. Global settings cover options like drivers, video output, etc. For core specific settings, see [How to Change Settings On a Per-Core Basis](#how-to-change-settings-on-a-per-core-basis).
+
+Using the `Save Configuration on Exit` feature is **not recommended**. This feature makes it easy to mistakenly change configurations.
 
 1. Open RetroArch **without** any content loaded
 2. Select the `Settings` tab
