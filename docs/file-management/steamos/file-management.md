@@ -13,6 +13,7 @@ search:
 1. [Managing ROM Files](#managing-rom-files)
     - [How to Manage ROMs with Multiple Discs](#how-to-manage-roms-with-multiple-discs)
     - [How to Verify ROMs](#how-to-verify-roms)
+    - [How to Create CUE files](#how-to-create-cue-files)
 
 2. [Managing Emulators and Tools](#managing-emulators-and-tools)
     - [How to Swap out AppImages and Binaries](#how-to-swap-out-appimages-and-binaries)
@@ -188,6 +189,30 @@ Alternatively, you may also use No-Intro's DAT-o-MATIC, [https://datomatic.no-in
 1. Open [https://datomatic.no-intro.org/](https://datomatic.no-intro.org/) and search for your ROM
 2. Note down the MD5 Checksum on DAT-o-MATIC and compare it to your ROM
 3. If the MD5 Checksum is a match, your ROM is valid
+
+***
+
+### How to Create CUE Files
+[Back to the Top](#file-management-table-of-contents)
+
+"A cue sheet, or cue file, is a metadata file which describes how the tracks of a CD or DVD are laid out. Cue sheets are stored as plain text files and commonly have a ".cue" filename extension." 
+
+Source: [https://emulation.gametechwiki.com/index.php/Cue_sheet_(.cue)](https://emulation.gametechwiki.com/index.php/Cue_sheet_(.cue))
+
+Typically `CUE` files are paired with `BIN` files. You will have one `CUE` file paired with `BIN` files. The `CUE` file is important for multiple reasons. Firstly, tells the emulator in which order to play each `BIN` file. Secondly, if you are compressing your ROMs into the `CHD` file format, the `CUE` file is used as a reference by the compression tool. Without the `CUE` file, the compression tool cannot compress and convert your ROM to CHD. 
+
+If you are missing a `CUE` file, you will need to create one. If you renamed any of your `BIN` files, you will need to either edit your `CUE` file in a text editor of your choice or recreate it. 
+
+Fortunately creating `CUE` files is easy. 
+
+**Here's How**
+
+1. In Desktop Mode, open [https://nielsbuus.dk/pg/psx_cue_maker/](https://nielsbuus.dk/pg/psx_cue_maker/)
+2. Drag all of your `BIN` files to the box that writes `Drop your .bin files here!`
+3. Create a new text file using a text editor of your choice and copy the outputted text in the white box below into the newly created text file
+2. Save the newly created text file and name it `GAMENAME.cue`
+    * The file name of the `CUE` file is up to you. However, it is recommended you match the `CUE` file as closely as possible to the game name so Steam ROM Manager and EmulationStation-DE can scrape the appropriate game art or game info
+4. Move your newly created `CUE` file to the same folder as the `BIN` files corresponding to the `CUE` file
 
 ***
 

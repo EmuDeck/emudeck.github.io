@@ -149,6 +149,12 @@ A couple of good websites to get you started:
 * [https://cemu.cfw.guide/using-dumpling.html](https://cemu.cfw.guide/using-dumpling.html)
 * [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/help/quickstart/)
 
+## Are you missing a CUE file?
+
+See [How to Create CUE Files](../../file-management/steamos/file-management.md#how-to-create-cue-files) for more information.
+
+***
+
 ## Still stuck?
 
 If none of the troubleshooting sections above worked for you, gather photos and a log so you can request support in EmuDeck's Discord or Reddit.

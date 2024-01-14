@@ -25,6 +25,7 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5R
       - [How to Use Cheats](#how-to-use-cheats)
       - [How to Configure Multiplayer](#how-to-configure-multiplayer)
       - [How to Roll Back DuckStation to an Older Version](#how-to-roll-back-duckstation-to-an-older-version)
+      - [How to Create CUE files](../../file-management/steamos/file-management.md#how-to-create-cue-files)
 
 ***
 
@@ -270,3 +271,4 @@ Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, sel
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub org.duckstation.DuckStation` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here org.duckstation.DuckStation`. 
 
 ***
+
