@@ -212,7 +212,7 @@ PKHeX is a "Pokémon core series save editor, programmed in C#."
 2. Enter:
     * `mkdir -p $HOME/Games/Lutris/PKHeX/pfx`
     * This command will create a couple of **empty** folders to make managing and installing PKHeX easier
-3. Download PKHeX from [https://projectpokemon.org/home/files/file/1-pkhex/?do=download&version=8064&csrfKey=04fbf5a8f7e41b9536827b602ad6f7ed](https://projectpokemon.org/home/files/file/1-pkhex/?do=download&version=8064&csrfKey=04fbf5a8f7e41b9536827b602ad6f7ed) to `$HOME/Games/Lutris/PKHeX`
+3. Open the PKHeX download page: [https://projectpokemon.org/home/files/file/1-pkhex/](https://projectpokemon.org/home/files/file/1-pkhex/), click `See changelog`, click `23.10.11`, click the `Download` button to the right of `With version 23.10.11:`, download PKHeX to `$HOME/Games/Lutris/PKHeX`
     * Newer versions of PKHEX require dotnet 8 which is too new for these installation instructions
     * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/PKHeX`
 3. Right click `PKHeX (23.10.11).zip`, click `Extract`, `Extract Archive Here`
@@ -263,8 +263,9 @@ Emulator configurations and saves when installed on Linux are typically stored i
 
 1. In Desktop Mode, open Discover and download Flatseal
 2. Open Flatseal and click Lutris on the left hand side of the screen
-3. Scroll down to Filesystem and enable `All user files`
-4. Close out of Flatseal and proceed to the next screen
+3. Scroll down to Filesystem
+4. Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `~/.var/app`
+5. Close out of Flatseal and proceed to the next screen
 
 
 ##### Lutris
