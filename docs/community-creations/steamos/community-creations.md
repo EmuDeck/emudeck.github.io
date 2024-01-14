@@ -2416,7 +2416,7 @@ Options/Sideways Wiimote = True
 
 ***
 
-### Sideways Wiimote With No Attachment
+##### Sideways Wiimote With No Attachment
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `Ghost of Christmas Yet to Come`
