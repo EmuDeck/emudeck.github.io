@@ -414,16 +414,16 @@ If you used Steam ROM Manager previously, re-run Steam ROM Manager after renamin
 
 Your ROMs launch using a script created by EmuDeck, `ryujinx.sh` in `Emulation/tools/launchers`.
 
-The script launches the corresponding emulator in `/home/deck/Applications` and **specifically looks** for two traits:
+The script launches the corresponding emulator in `/home/deck/Applications/publish` and **specifically looks** for two traits:
 
-* The most recently downloaded version of the emulator in `/home/deck/Applications`, based on the file/release date.
+* The most recently downloaded version of the emulator in `/home/deck/Applications/publish`, based on the file/release date.
 * The emulator name at the beginning of the file. Anything after the emulator name is ignored. 
     * For example, if the latest version of the emulator is `1351` and you would like to downgrade to `1349`. When you download version `1349`, you could rename it to `EMULATORNAME-1349.AppImage`, and EmuDeck's script will ignore the `-1349` in the file name, allowing you to record which versions of the emulator you are using through the file name. 
 
 #### How to Roll Back Ryujinx
 
 1. Download the version of the emulator you would like to use from Ryujinx's GitHub: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
-2. Move the downloaded emulator from Step 1 to `/home/deck/Applications`
+2. Move the downloaded emulator from Step 1 to `/home/deck/Applications/publish`
 3. (Optional) Rename or delete the original emulator file
 4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
 5. Your games will now launch using the version of the emulator you downloaded
