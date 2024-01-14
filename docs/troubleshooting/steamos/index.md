@@ -132,6 +132,23 @@ Read the [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/ste
 
 ***
 
+## Do you have a good dump of your game?
+
+If your ROM is corrupted or incomplete, these can be common reasons for why your game may not be working.
+
+See [How to Verify ROMs](../../file-management/steamos/file-management.md#how-to-verify-roms) to learn how to verify your ROM. 
+
+If your ROM is not valid, you may need to re-dump. You can find dumping guides on the various emulator websites. 
+
+A couple of good websites to get you started:
+
+* [https://dumping.guide/start](https://dumping.guide/start)
+* [https://wiki.no-intro.org/index.php?title=Dumping_Guides](https://wiki.no-intro.org/index.php?title=Dumping_Guides)
+* [http://wiki.redump.org/index.php?title=Dumping_Guides](http://wiki.redump.org/index.php?title=Dumping_Guides)
+* [https://3ds.hacks.guide/](https://3ds.hacks.guide/)
+* [https://cemu.cfw.guide/using-dumpling.html](https://cemu.cfw.guide/using-dumpling.html)
+* [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/help/quickstart/)
+
 ## Still stuck?
 
 If none of the troubleshooting sections above worked for you, gather photos and a log so you can request support in EmuDeck's Discord or Reddit.
