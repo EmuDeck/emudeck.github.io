@@ -23,6 +23,7 @@ Github: [https://github.com/Rosalie241/RMG](https://github.com/Rosalie241/RMG)
     - [How to Configure N64DD](#how-to-configure-n64dd)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Roll Back RMG to an Older Version](#how-to-roll-back-rmg-to-an-older-version)
+    - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
  
 ***
 
