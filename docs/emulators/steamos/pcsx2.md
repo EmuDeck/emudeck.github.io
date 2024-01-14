@@ -39,6 +39,8 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Mod Persona 3 FES](#how-to-mod-persona-3-fes)
     - [How to Roll Back PCSX2 to an Older Version](#how-to-roll-back-pcsx2-to-an-older-version)
+    - [How to Set Up mymc](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-mymc)
+
 ***
 
 ### Getting Started with PCSX2

@@ -265,7 +265,7 @@ Emulator configurations and saves when installed on Linux are typically stored i
 2. Open Flatseal and click Lutris on the left hand side of the screen
 3. Scroll down to Filesystem
 4. Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `~/.var/app`
-5. Close out of Flatseal and proceed to the next screen
+5. Close out of Flatseal and proceed to the next section
 
 
 ##### Lutris
@@ -275,6 +275,53 @@ Emulator configurations and saves when installed on Linux are typically stored i
 3. Click the `Drives` tab, check `Show dot files`, click `Apply`, `OK`
 4. Open PKHeX and navigate to your saves
     * See the [Save Management](../../save-management/steamos/save-management.md) page for specific save locations
+
+***
+
+### How to Set Up mymc
+[Back to the Top](#community-creations-table-of-contents)
+
+This section will cover how to download and set up mymc. For the website, see [http://www.csclub.uwaterloo.ca:11068/mymc/](http://www.csclub.uwaterloo.ca:11068/mymc/).
+
+```
+mymc is a public domain utility for working with PlayStation 2 memory card images (.ps2) as used by the PlayStation 2 emulator PCSX2. It allows save files in the MAX Drive (.max), EMS (.psu), SharkPort (.sps), X-Port (.xps) and Code Breaker (.cbs) formats to be imported directly into these images. It can also export save files in either the MAX Drive and EMS formats.
+```
+
+#### Set up Folders
+
+1. In Desktop Mode, open Konsole
+2. Enter:
+    * `mkdir -p $HOME/Games/Lutris/mymc/pfx`
+    * This command will create a couple of **empty** folders to make managing and installing mymc easier
+3. Download the latest version of mymc from the bottom of the page at [http://www.csclub.uwaterloo.ca:11068/mymc/](http://www.csclub.uwaterloo.ca:11068/mymc/) to `$HOME/Games/Lutris/mymc`
+3. Right click `mymc-alpha-#.#.zip`, click `Extract`, `Extract Archive Here`
+    * The `#.#` refer to the version numbers which may vary depending on when you download mymc
+
+#### Set up Lutris
+
+1. In Desktop Mode, open Discover and download Lutris
+2. Open Lutris
+3. Click the `+` button in the top left of the Lutris application
+4. Click `Add locally installed game`
+5. On the `Game Info` tab:
+    * Name: mymc
+    * Sort Name: Leave Blank
+    * Runner: Wine (Runs Windows games)
+    * Release Year: Leave Blank
+6. On the `Game Options` tab:
+    * Executable: Click the `Browse` button and navigate to the `mymc-gui.exe` file in `$HOME/Games/Lutris/mymc`
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/mymc`
+    * Arguments: Leave Blank
+    * Working Directory: Leave Blank
+    * Wine Prefix: Click the `Browse` button and select the `$HOME/Games/Lutris/mymc/pfx` folder
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/mymc/pfx`
+7. On the `Runner options` tab:
+    * Wine version: System (8.0.2) (default)
+    * Leave everything else at defaults
+8. Click the `Save` button in the top right
+9. To open mymc, open Lutris, select the mymc tile, and click `Play`
+
+If you would like to add mymc to Game Mode, you may right click the mymc tile in Lutris and click `Create steam shortcut`.
 
 ***
 
