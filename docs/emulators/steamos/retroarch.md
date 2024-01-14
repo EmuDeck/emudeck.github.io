@@ -40,7 +40,8 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
     - [How to Change Settings On a Per-Core Basis](#how-to-change-settings-on-a-per-core-basis)
     - [How to Roll Back RetroArch to an Older Version](#how-to-roll-back-retroarch-to-an-older-version)
-
+    - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
+    
 4. [RetroArch Cores](#retroarch-cores)
     * [Flycast](#flycast)
         * [How to Install Custom Textures For Flycast](#how-to-install-custom-textures-for-flycast)

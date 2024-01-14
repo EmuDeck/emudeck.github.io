@@ -31,6 +31,7 @@ Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
     - [How to Use the Tilt Sensor](#how-to-use-the-tilt-sensor)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Roll Back mGBA to an Older Version](#how-to-roll-back-mgba-to-an-older-version)
+    - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
 
 
 
