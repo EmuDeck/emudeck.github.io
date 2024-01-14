@@ -36,7 +36,8 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
 3. [Dolphin Cheats, Modding, and Texture Packs](#dolphin-cheats-modding-and-texture-packs)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
-    - [How to use Riivolution Patches](#how-to-use-riivolution-patches)
+    - [How to Use Riivolution Patches](#how-to-use-riivolution-patches)
+    - [How to Install UniversalDynamicInput](#how-to-install-universaldynamicinput)
 
 4. [How to Navigate Dolphin Settings](#how-to-navigate-dolphin-settings)
     - [How to Create Dolphin Controller Profiles](#how-to-create-dolphin-controller-profiles)
@@ -681,7 +682,7 @@ If your Riivolution patch includes additional content, follow the below steps. I
 #### Riivolution Patch - XML File
 
 1. Place your Riivolution patch file in  `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load/Riivolution/`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * `~/.var` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
     * A Riivolution patch file is generally a `.xml` file
 2. Open the Dolphin Emulator 
 3. Right click the base game and select `Start with Riivolution patches...`
@@ -708,6 +709,30 @@ If your Riivolution patch includes additional content, follow the below steps. I
 
 
 ***
+
+### How to Install UniversalDynamicInput
+[Back to the Top](#dolphin-table-of-contents)
+
+```
+UniversalDynamicInput is a custom button package for Dolphin emulator.
+It uses dynamic input textures to create custom buttons in real time.
+Unlike traditional button packs, you can change the control settings at any time,
+the in-game buttons are automatically updated to match the controller and setting you're using.
+Another advantage is that there are no problems with other texture packs.
+```
+
+Source: [https://github.com/Venomalia/UniversalDynamicInput](https://github.com/Venomalia/UniversalDynamicInput)
+
+To Install:
+
+**Note:** If you are using any per-game controller profiles, these will conflict with UniversalDynamicInput. Disable the per-game controller profile. Once you have installed UniversalDynamicInput and launched the respective game at least **once**, you may re-enable the per-game profile.
+
+1. Download the latest `DynamicInputTextures.7z` on this page: [https://github.com/Venomalia/UniversalDynamicInput/releases](https://github.com/Venomalia/UniversalDynamicInput/releases) to a folder of your choice
+2. Right click `DynamicInputTextures.7z`, click `Extract`, `Extract archive here, detect subfolder`
+3. Move the newly extracted `DynamicInputTextures` folder to `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/data/dolphin-emu/Load`
+    * `~/.var` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+3. UniversalDynamicInput is now installed
+
 
 ## How to Navigate Dolphin Settings
 [Back to the Top](#dolphin-table-of-contents)
