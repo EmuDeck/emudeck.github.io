@@ -25,7 +25,8 @@ Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://
 2. [PPSSPP Tips and Tricks](#ppsspp-tips-and-tricks)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Use Cheats](#how-to-use-cheats)
-    - [How to Roll Back PPSSPP to an Older Version](#how-to-roll-back-ppsspp-to-an-older-version)
+    - [How to Roll Back PPSSPP to an Older Version](#how-to-roll-back-ppsspp-to-an-older-version)\
+    - [How to Use the Original PSP Font](#how-to-use-the-original-psp-font)
 
 ***
 
@@ -327,5 +328,21 @@ If the above steps did not work and you are getting an error message along the l
 Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
 
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub org.ppsspp.PPSSPP` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here org.ppsspp.PPSSPP`. 
+
+***
+
+### How to Use the Original PSP Font
+[Back to the Top](#ppsspp-table-of-contents)
+
+Legally, PPSSPP cannot use the original PPSSPP font and instead uses an open source font, "Roboto-Condensed". However, switching to the original PPSSPP font is easy. 
+
+Before proceeding with the below steps, dump the original font from a PSP. You can find the font in the `flash0/font` folder.
+
+1. Open the `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP` folder
+    * `~/.var` is a hidden folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
+2. Create a `flash0` folder in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP`
+3. Create a `font` folder in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/flash0`
+4. Place your fonts in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/flash0/font`
+5. Your fonts are now installed
 
 ***
