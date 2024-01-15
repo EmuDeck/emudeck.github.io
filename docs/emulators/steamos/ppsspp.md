@@ -172,7 +172,7 @@ Rock Band Unplugged requires additional configuration to enable DLC and addition
 
 1. In `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp`, create a `GAME` folder if one does not exist already
 2. Place DLC folder (to enable additional music tracks) in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/game`
-3. In ``/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp`, create a `seplugins` folder if one does not exist already
+3. In `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp`, create a `seplugins` folder if one does not exist already
 4. In `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/seplugins`, right click anywhere, click `Create New`, `Text File`, and name it `game.txt`
 5. Open `game.txt` with a text editor of your choice and write `ms0:/seplugins/nploader.prx 1`, save and exit out of `game.txt`
 6. Open [https://github.com/codestation/nploader](https://github.com/codestation/nploader) in a browser of your choice, click the green `Code` button, click `Download ZIP`, extract to a folder of your choice
