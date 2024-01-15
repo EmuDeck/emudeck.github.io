@@ -19,6 +19,7 @@ Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://
     - [How to Launch PPSSPP in Desktop Mode](#how-to-launch-ppsspp-in-desktop-mode)
     - [File Formats](#ppsspp-file-formats)
     - [How to Manage DLC](#how-to-manage-dlc)
+        - [Rock Band Unplugged DLC and Music Management](#rock-band-unplugged-dlc-and-music-management)
     - [Hotkeys](#ppsspp-hotkeys)
 
 2. [PPSSPP Tips and Tricks](#ppsspp-tips-and-tricks)
@@ -169,16 +170,13 @@ Rock Band Unplugged requires additional configuration to enable DLC and addition
 
 **How to Configure the Memstick Folder for Rock Band Unplugged**
 
-* Folder: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/GAME`
-    * Create a `GAME` folder if one does not exist already
-    * Place DLC folder (to enable additional music tracks) in this folder
-* Folder: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/seplugins`
-    * Create a `seplugins` folder if one does not exist already
-    * Place plugin contents directly into this folder
-* File: `game.txt`, placed in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/seplugins`
-    * Create a `game.txt` file and place in this folder
-    * Contents of the `game.txt` file: `ms0:/seplugins/nploader.prx 1`
-
+1. In `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp`, create a `GAME` folder if one does not exist already
+2. Place DLC folder (to enable additional music tracks) in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/game`
+3. In ``/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp`, create a `seplugins` folder if one does not exist already
+4. In `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/seplugins`, right click anywhere, click `Create New`, `Text File`, and name it `game.txt`
+5. Open `game.txt` with a text editor of your choice and write `ms0:/seplugins/nploader.prx 1`, save and exit out of `game.txt`
+6. Open [https://github.com/codestation/nploader](https://github.com/codestation/nploader) in a browser of your choice, click the green `Code` button, click `Download ZIP`, extract to a folder of your choice
+7. Move the contents of the extracted folder in Step 6 directly to `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/seplugins`
 
 ***
 
