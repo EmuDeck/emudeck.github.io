@@ -171,7 +171,7 @@ Rock Band Unplugged requires additional configuration to enable DLC and addition
 **How to Configure the Memstick Folder for Rock Band Unplugged**
 
 1. In `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp`, create a `GAME` folder if one does not exist already
-2. Place DLC folder (to enable additional music tracks) in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/game`
+2. Place DLC folder (to enable additional music tracks) in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/GAME`
 3. In `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp`, create a `seplugins` folder if one does not exist already
 4. In `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/seplugins`, right click anywhere, click `Create New`, `Text File`, and name it `game.txt`
 5. Open `game.txt` with a text editor of your choice and write `ms0:/seplugins/nploader.prx 1`, save and exit out of `game.txt`
