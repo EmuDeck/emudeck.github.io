@@ -177,6 +177,7 @@ Rock Band Unplugged requires additional configuration to enable DLC and addition
 5. Open `game.txt` with a text editor of your choice and write `ms0:/seplugins/nploader.prx 1`, save and exit out of `game.txt`
 6. Open [https://github.com/codestation/nploader](https://github.com/codestation/nploader) in a browser of your choice, click the green `Code` button, click `Download ZIP`, extract to a folder of your choice
 7. Move the contents of the extracted folder in Step 6 directly to `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/seplugins`
+8. Rock Band Unplugged DLC and additional music are now enabled
 
 ***
 
