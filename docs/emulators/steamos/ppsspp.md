@@ -25,7 +25,7 @@ Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://
 2. [PPSSPP Tips and Tricks](#ppsspp-tips-and-tricks)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Use Cheats](#how-to-use-cheats)
-    - [How to Roll Back PPSSPP to an Older Version](#how-to-roll-back-ppsspp-to-an-older-version)\
+    - [How to Roll Back PPSSPP to an Older Version](#how-to-roll-back-ppsspp-to-an-older-version)
     - [How to Use the Original PSP Font](#how-to-use-the-original-psp-font)
 
 ***
