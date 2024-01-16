@@ -222,7 +222,7 @@ This indicates a bad dump. Please validate and redump your game files.
 
 This usually means you haven't placed your bios in the right place.
 
-Where to place your BIOS: [Configuration](#configuration)
+Where to place your BIOS: [Configuration](#pcsx2-configuration)
 
 ***
 
