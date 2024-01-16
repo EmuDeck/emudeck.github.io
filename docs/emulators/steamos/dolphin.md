@@ -928,7 +928,6 @@ Example, to use OpenGL for only Super Paper Mario:
         WiimoteSource0 = 0
 
 6. Click OK and your Wii game should now be using a GameCube controller profile
-    * <img src="https://user-images.githubusercontent.com/108900299/213080943-80187386-77db-4918-b8d8-74a648b2f422.png" height="300">
 
 #### How to Configure Wii Games To Use A GameCube Controller: Multiplayer
 
