@@ -32,6 +32,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Configure Multiplayer Controls](#how-to-configure-multiplayer-controls)
     - [How to Roll Back Dolphin to an Older Version](#how-to-roll-back-dolphin-to-an-older-version)
+    - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
 
 3. [Dolphin Cheats, Modding, and Texture Packs](#dolphin-cheats-modding-and-texture-packs)
     - [How to Use Cheats](#how-to-use-cheats)
@@ -60,6 +61,10 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
         - [New Super Mario Bros Wii](../../community-creations/steamos/community-creations.md#new-super-mario-bros-wii)
         - [Sideways Wiimote With No Attachment](../../community-creations/steamos/community-creations.md#sideways-wiimote-with-no-attachment)
         - [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
+
+6. [Custom Game Settings](#custom-game-settings)
+    - [Pokémon Colosseum: Black Floors](#pokémon-colosseum-black-floors)
+    - [Pokémon XD: Gale of Darkness: Aspect Ratio Keeps Changing](#pokémon-xd-gale-of-darkness-aspect-ratio-keeps-changing)
 
 ***
 
@@ -891,16 +896,6 @@ Example, to use OpenGL for only Super Paper Mario:
 * Setting OpenGL on a per game basis
 * Setting Widescreen Hacks on a per game basis
 
-#### Specific Use Cases for Custom Game Settings
-
-##### Pokemon Colosseum: Aspect Ratio keeps changing 
-
-* Copy and paste the below lines into the INI editor for Pokemon Colosseum
-
-        [Video_Settings]
-        wideScreenHack = False
-        AspectRatio = 2
-
 ***
 
 ## Dolphin Unique Controller Configurations
@@ -1133,5 +1128,44 @@ Here's how to **resolve the error** and remove the Nunchuk:
 - [New Super Mario Bros Wii](../../community-creations/steamos/community-creations.md#new-super-mario-bros-wii)
 - [Sideways Wiimote With No Attachment](../../community-creations/steamos/community-creations.md#sideways-wiimote-with-no-attachment)
 - [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
+
+***
+
+## Custom Game Settings
+[Back to the Top](#dolphin-table-of-contents)
+
+Before proceeding with this section, see [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis) for instructions on how to apply the below settings.
+
+***
+
+### Pokémon Colosseum: Black Floors
+
+1. In Desktop Mode, open the Dolphin emulator
+2. Right click Pokémon Colosseum, click `Properties`
+3. Click `Editor`
+4. Copy and paste the below lines into the INI editor
+
+        [Video_Settings]
+        wideScreenHack = False
+
+If you would still like to play Pokémon Colosseum in 16:19, you may want to use of the AR codes from Dolphin's wiki. See [https://wiki.dolphin-emu.org/index.php?title=Pok%C3%A9mon_Colosseum](https://wiki.dolphin-emu.org/index.php?title=Pok%C3%A9mon_Colosseum) for a list of AR codes. 
+
+**Source:** [https://wiki.dolphin-emu.org/index.php?title=Pok%C3%A9mon_Colosseum](https://wiki.dolphin-emu.org/index.php?title=Pok%C3%A9mon_Colosseum)
+
+***
+
+### Pokémon XD: Gale of Darkness: Aspect Ratio Keeps Changing
+[Back to the Top](#dolphin-table-of-contents)
+
+1. In Desktop Mode, open the Dolphin emulator
+2. Right click Pokémon XD: Gale of Darkness, click `Properties`
+3. Click `Editor`
+4. Copy and paste the below lines into the INI editor
+
+        [Video_Settings]
+        wideScreenHack = False
+        AspectRatio = 2
+
+**Source:** [https://wiki.dolphin-emu.org/index.php?title=Pok%C3%A9mon_XD:_Gale_of_Darkness](https://wiki.dolphin-emu.org/index.php?title=Pok%C3%A9mon_XD:_Gale_of_Darkness)       
 
 ***
