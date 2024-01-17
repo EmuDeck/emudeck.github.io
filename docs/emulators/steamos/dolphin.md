@@ -395,6 +395,8 @@ If you are choosing to create your own profile:
 16. After you are finished, give your profile a name in the top right and save it as a new profile
 17. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
 
+**Note:** If you are having issues with the gyro pointer/cursor not appearing or behaving erratically, you may also want to consider disabling `Auto-hide` under the `Point` section on the `Motion simulation tab`.
+
 For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-emu.org/index.php?title=Motion_evdev](https://wiki.dolphin-emu.org/index.php?title=Motion_evdev).
 
 
