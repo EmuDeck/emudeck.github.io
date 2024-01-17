@@ -27,6 +27,8 @@ Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Roll Back PPSSPP to an Older Version](#how-to-roll-back-ppsspp-to-an-older-version)
     - [How to Use the Original PSP Font](#how-to-use-the-original-psp-font)
+    - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
+
 
 ***
 
