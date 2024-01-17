@@ -63,8 +63,8 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
         - [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
 
 6. [Custom Game Settings](#custom-game-settings)
-    - [Pokémon Colosseum: Black Floors](#pokémon-colosseum-black-floors)
-    - [Pokémon XD: Gale of Darkness: Aspect Ratio Keeps Changing](#pokémon-xd-gale-of-darkness-aspect-ratio-keeps-changing)
+    - [Pokemon Colosseum: Black Floors](#pokemon-colosseum-black-floors)
+    - [Pokemon XD: Gale of Darkness: Aspect Ratio Keeps Changing](#pokemon-xd-gale-of-darkness-aspect-ratio-keeps-changing)
 
 ***
 
@@ -1138,7 +1138,8 @@ Before proceeding with this section, see [How to Set Game Settings On a Per-Game
 
 ***
 
-### Pokémon Colosseum: Black Floors
+### Pokemon Colosseum: Black Floors
+[Back to the Top](#dolphin-table-of-contents)
 
 1. In Desktop Mode, open the Dolphin emulator
 2. Right click Pokémon Colosseum, click `Properties`
@@ -1154,7 +1155,7 @@ If you would still like to play Pokémon Colosseum in 16:19, you may want to use
 
 ***
 
-### Pokémon XD: Gale of Darkness: Aspect Ratio Keeps Changing
+### Pokemon XD: Gale of Darkness: Aspect Ratio Keeps Changing
 [Back to the Top](#dolphin-table-of-contents)
 
 1. In Desktop Mode, open the Dolphin emulator
