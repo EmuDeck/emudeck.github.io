@@ -24,6 +24,8 @@ ScummVM's Wiki: [https://docs.scummvm.org/en/v2.6.0](https://docs.scummvm.org/en
         - [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
         - [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)
     - [How to Roll Back ScummVM to an Older Version](#how-to-roll-back-scummvm-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
+
 
 ***
 
@@ -268,4 +270,26 @@ Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, sel
 
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub org.scummvm.ScummVM` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here org.scummvm.ScummVM`.
 
+***
+
+### How to Configure Language Settings
+[Back to the Top](#scummvm-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open ScummVM
+2. Click `Global Options`
+3. Click the `GUI` tab
+4. To the right of `GUI Language`, select your preferred language in the drop-down menu
+
+#### In-Game
+
+1. In Desktop Mode, open ScummVM
+2. Click `Add Game...`
+3. Locate your game folder and click `Choose`
+4. Work through the prompts and select your preferred language on the `Game` screen
+5. If you added your game without selecting your preferred language, click your game in the list, click `Game Options...`
+6. Click the `Game` tab
+7. To the right of `Language`, select your preferred language in the drop-down menu
+ 
 ***

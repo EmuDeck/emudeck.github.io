@@ -39,6 +39,7 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Mod Persona 3 FES](#how-to-mod-persona-3-fes)
     - [How to Roll Back PCSX2 to an Older Version](#how-to-roll-back-pcsx2-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Set Up mymc](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-mymc)
 
 ***
@@ -605,5 +606,29 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 3. (Optional) Rename or delete the original emulator file
 4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
 5. Your games will now launch using the version of the emulator you downloaded
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#pcsx2-qt-table-of-contents) 
+
+#### UI
+
+1. In Desktop Mode, open PCSX2
+2. At the top, click `Settings`, click `Interface`
+3. Click the `Interface` tab
+4. To the right of `Language`, select your preferred language in the drop-down menu
+
+#### In-Game
+
+1. In Desktop Mode, open PCSX2
+2. At the top, click `Settings`, click `BIOS`
+3. Uncheck `Fast Boot` under `Options and Patches`
+4. Close out of the `BIOS` settings
+5. At the top, click `System`
+6. Click `Start BIOS`
+7. Select `System Configuration`
+8. Scroll down to `Language`
+9. Select your preferred language
 
 ***

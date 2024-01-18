@@ -23,6 +23,7 @@ Github: [https://github.com/Rosalie241/RMG](https://github.com/Rosalie241/RMG)
     - [How to Configure N64DD](#how-to-configure-n64dd)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Roll Back RMG to an Older Version](#how-to-roll-back-rmg-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
  
 ***
@@ -394,5 +395,22 @@ If the above steps did not work and you are getting an error message along the l
 Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
 
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub com.github.Rosalie241.RMG` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here com.github.Rosalie241.RMG`. 
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#rmg-table-of-contents)
+
+#### In-Game
+
+Some games may not have language options. For a full list of which games have language options, click one of the below links.
+
+* NTSC-U: [http://micro-64.com/database/languagesntsc.shtml](http://micro-64.com/database/languagesntsc.shtml)
+* PAL: [http://micro-64.com/database/languagespal.shtml](http://micro-64.com/database/languagespal.shtml)
+
+1. Launch a game that supports your preferred language
+2. Depending on the game:
+    * Select your preferred language on the initial launch of the game
+    * In the main menu of the game, open the Options menu and select your preferred language
 
 ***

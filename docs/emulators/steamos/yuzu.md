@@ -44,6 +44,7 @@ Quickstart guide: [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/h
     - [How to Set Up Early Access](#how-to-set-up-early-access)
     - [How to Roll Back Yuzu to an Older Version](#how-to-roll-back-yuzu-to-an-older-version)
     - [How to Select Between Yuzu and Ryujinx in Game Mode](#how-to-select-between-yuzu-and-ryujinx-in-game-mode)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 
 ***
@@ -685,5 +686,26 @@ For further instructions, see [Steam ROM Manager: How to Hide ROMs on a Per Pars
 If you are using EmulationStation-DE, you may use EmulationStation-DE's alternative emulators feature to select on a per-game basis which to run through Yuzu and which to run through Ryujinx.
 
 For further instructions, see [EmulationStation-DE: How to Select a Different Emulator on a Per-Game Basis](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-on-a-per-game-basis).
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#yuzu-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open Yuzu
+2. At the top, click `Emulation`, click `Configure`
+3. On the left, click the `General` tab
+4. Click the `UI` tab
+5. To the right of `Interface Language`, select your preferred language in the drop-down menu
+
+#### In-Game
+
+1. In Desktop Mode, open Yuzu
+2. At the top, click `Emulation`, click `Configure`
+3. On the left, click the `System` tab
+4. Click the `System` tab
+5. To the right of `Language`, select your preferred language in the drop-down menu
 
 ***

@@ -29,6 +29,7 @@ PrimeHack FAQ: [https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questio
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Configure PrimeHack to work with EmulationStation-DE](#how-to-configure-primehack-to-work-with-emulationstation-de)
     - [How to Roll Back PrimeHack to an Older Version](#how-to-roll-back-primehack-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 ***
 
@@ -316,5 +317,41 @@ Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, sel
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub io.github.shiiion.primehack` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here io.github.shiiion.primehack`. 
 
 
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#primehack-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open PrimeHack
+2. At the top, click `Options`, click `Configuration`
+3. Click the `Interface` tab
+4. Under `User Interface`, select your preferred language in the drop-down menu
+
+#### In-Game
+
+1. In Desktop Mode, open PrimeHack
+2. Right click "Metroid Prime: Trilogy"
+3. Click `Properties`
+4. Click the `Game Config` tab
+5. Click the `Editor` tab
+6. In the box, type the following:
+
+        [Wii]
+        Language = 1
+
+7. Replace the `0` with the language you would like to use:
+    * 0 = Japanese
+    * 1 = English
+    * 2 = German
+    * 3 = French
+    * 4 = Spanish
+    * 5 = Italian
+    * 6 = Dutch
+    * 7 = Simplified Chinese
+    * 8 = Traditional Chinese
+    * 9 = Korean
 
 ***

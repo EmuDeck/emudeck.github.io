@@ -32,6 +32,7 @@ Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Confi
     - [Special Characters](#special-characters)
     - [How to Roll Back Ryujinx to an Older Version](#how-to-roll-back-ryujinx-to-an-older-version)
     - [How to Select Between Yuzu and Ryujinx in Game Mode](#how-to-select-between-yuzu-and-ryujinx-in-game-mode)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 ***
 
@@ -440,5 +441,21 @@ For further instructions, see [Steam ROM Manager: How to Hide ROMs on a Per Pars
 If you are using EmulationStation-DE, you may use EmulationStation-DE's alternative emulators feature to select on a per-game basis which to run through Yuzu and which to run through Ryujinx.
 
 For further instructions, see [EmulationStation-DE: How to Select a Different Emulator on a Per-Game Basis](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-on-a-per-game-basis).
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#ryujinx-table-of-contents)
+
+#### UI
+
+Changing Ryujinx's interface language is **only possible** on the Avalonia GUI. At this time, EmuDeck does not download the Avalonia GUI. If you would like to download Avalonia, you may do so from Ryujinx's GitHub, [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases). Extract and overwrite the files in `/home/deck/Applications/publish` to default to the new GUI.
+
+#### In-Game
+
+1. In Desktop Mode, open Ryujinx
+2. At the top, click `Options`, click `Settings`
+3. Click the `System` tab
+4. To the right of `System Language`, select your preferred language in the drop-down menu
 
 ***

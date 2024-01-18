@@ -26,6 +26,7 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5R
       - [How to Configure Multiplayer](#how-to-configure-multiplayer)
       - [How to Roll Back DuckStation to an Older Version](#how-to-roll-back-duckstation-to-an-older-version)
       - [How to Create CUE files](../../file-management/steamos/file-management.md#how-to-create-cue-files)
+      - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 ***
 
@@ -272,3 +273,27 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ***
 
+### How to Configure Language Settings
+[Back to the Top](#duckstation-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open DuckStation
+2. At the top, click `Settings`
+3. Click `Language`
+4. Select your preferred language in the drop-down menu
+
+#### In-Game
+
+Some games may not have language options. For a full list of which games have language options, click one of the below links.
+
+* PAL: [https://psxdatacenter.com/pal_list.html](https://psxdatacenter.com/pal_list.html)
+* United States: [https://psxdatacenter.com/ntsc-u_list.html](https://psxdatacenter.com/ntsc-u_list.html)
+* Japan: [https://psxdatacenter.com/ntsc-j_list.html](https://psxdatacenter.com/ntsc-j_list.html)
+
+1. Launch a game that supports your preferred language
+2. Depending on the game:
+    * Select your preferred language on the initial launch of the game
+    * In the main menu of the game, open the Options menu and select your preferred language
+
+***

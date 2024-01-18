@@ -31,6 +31,7 @@ Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
     - [How to Use the Tilt Sensor](#how-to-use-the-tilt-sensor)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Roll Back mGBA to an Older Version](#how-to-roll-back-mgba-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
 
@@ -440,3 +441,21 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 5. Your games will now launch using the version of the emulator you downloaded
 
 ***
+
+### How to Configure Language Settings
+[Back to the Top](#mgba-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open mGBA
+2. At the top, click `Tools`, click `Settings`
+3. Click the `Interface` tab
+4. To the right of `Language`, select your preferred language in the drop-down menu
+
+#### In-Game
+
+Languages are cartridge-specific. For example, if you want to play Golden Sun in French, you will need to dump a Golden Sun cartridge from France.
+
+
+***
+

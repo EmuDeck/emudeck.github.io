@@ -41,6 +41,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
     - [How to Configure Cemu Native to Work With EmulationStation-DE](#how-to-configure-cemu-native-to-work-with-emulationstation-de)
     - [How to Optimize Breath of the Wild](#how-to-optimize-breath-of-the-wild)
     - [How to Roll Back Cemu to an Older Version](#how-to-roll-back-cemu-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 ***
 
@@ -572,5 +573,23 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 3. (Optional) Rename or delete the original emulator file
 4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
 5. Your games will now launch using the version of the emulator you downloaded
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#cemu-native-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open Cemu
+2. Click `Options` at the top
+3. Under `Interface`, click the `Language` drop-down menu and select your preferred language
+4. Restart Cemu
+
+#### In-Game
+
+1. In Desktop Mode, open Cemu
+2. Click `Options` at the to
+3. Click `Console language` and select your preferred language
 
 ***

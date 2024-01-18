@@ -28,6 +28,7 @@ Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Roll Back Citra to an Older Version](#how-to-roll-back-citra-to-an-older-version)
     - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
 4. [Custom Screen Layouts](#custom-screen-layouts)
     - [How to Configure Bottom Screen as PiP](#how-to-configure-bottom-screen-as-pip)
     - [How to Configure Bottom Screen With PiP and Opacity](#how-to-configure-bottom-screen-with-pip-and-opacity)
@@ -384,6 +385,27 @@ If the above steps did not work and you are getting an error message along the l
 Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
 
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub org.citra_emu.citra` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here org.citra_emu.citra`. 
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#citra-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open Citra
+2. At the top, click `Emulation`, click `Configure`
+3. On the left hand-side of the screen, click `General`
+4. Click the `UI` tab
+5. Under `General`, select your preferred language in the drop-down menu
+
+#### In Game
+
+1. In Desktop Mode, open Citra
+2. At the top, click `Emulation`, click `Configure`
+3. On the left hand-side of the screen, click `System`
+4. Click the `System` tab
+5. Under `System Settings`, select your preferred language in the drop-down menu
 
 ***
 

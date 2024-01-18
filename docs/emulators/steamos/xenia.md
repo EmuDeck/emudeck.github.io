@@ -40,6 +40,7 @@ It's HIGHLY recommended to see if a game you wish to emulate has a native PC ver
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Set Up Xbox Live Arcade Games](#how-to-set-up-xbox-live-arcade-games)
     - [How to Delete Xenia's Prefix](#how-to-delete-xenias-prefix)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 
 
@@ -582,5 +583,32 @@ However, running Xenia through Proton will still create a prefix (a sort of Wind
     * For example, with `PFX: /home/deck/.local/share/Steam/steamapps/compatdata/3322499838`, delete the folder named `3322499838` in `/home/deck/.local/share/Steam/steamapps/compatdata`
 7. Re-open Xenia in Desktop Mode to re-generate the prefix
 8. Close out of Xenia and you may continue playing in Game Mode
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#xenia-table-of-contents)
+
+1. In Desktop Mode, open the `Emulation/roms/xbox360` folder
+2. Right click `xenia-canary.config.toml` and click `Open with Kate` or a text editor of your choice
+3. Scroll down to the `XConfig` section, locate `user_language = 1`
+4. Replace `1` with your preferred language:
+    * 1=en  
+    * 2=ja  
+    * 3=de  
+    * 4=fr  
+    * 5=es  
+    * 6=it  
+    * 7=ko  
+    * 8=zh
+    * 9=pt 
+    * 11=pl 
+    * 12=ru 
+    * 13=sv 
+    * 14=tr 
+    * 15=nb 
+    * 16=nl 
+    * 17=zh
+5. Save and exit out of the text file
 
 ***

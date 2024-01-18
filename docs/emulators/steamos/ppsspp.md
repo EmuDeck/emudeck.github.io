@@ -27,6 +27,7 @@ Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Roll Back PPSSPP to an Older Version](#how-to-roll-back-ppsspp-to-an-older-version)
     - [How to Use the Original PSP Font](#how-to-use-the-original-psp-font)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
 
 
@@ -346,5 +347,37 @@ Before proceeding with the below steps, dump the original font from a PSP. You c
 3. Create a `font` folder in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/flash0`
 4. Place your fonts in `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/flash0/font`
 5. Your fonts are now installed
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#ppsspp-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open PPSSPP
+2. On the right, click `Settings`
+3. Click the `System` tab
+4. To the right of `Language`, select your preferred language in the drop-down menu
+
+#### In-Game
+
+1. In Desktop Mode, open the `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SYSTEM` folder
+2. Right click `ppsspp.ini` and click `Open with Kate` or a text editor of your choice
+3. Under the `[SystemParam]` section, locate `Language = 1`
+4. Replace `en_US` with your preferred language:
+    * JAPANESE 0
+    * ENGLISH 1
+    * FRENCH 2
+    * SPANISH 3
+    * GERMAN 4
+    * ITALIAN 5
+    * DUTCH 6
+    * PORTUGUESE 7
+    * RUSSIAN 8
+    * KOREAN 9
+    * CHINESE_TRADITIONAL 10
+    * CHINESE_SIMPLIFIED 11
+5. Save and exit out of the text file
 
 ***

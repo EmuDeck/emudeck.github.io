@@ -32,6 +32,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
       - [How to Enable Shaders/Scanlines in MAME (Standalone)](https://github.com/dragoonDorise/EmuDeck/wiki/MAME#how-to-enable-shadersscanlines-in-mame-standalone)
       - [How to Configure MAME to Work With EmulationStation-DE](#how-to-configure-mame-to-work-with-emulationstation-de)
       - [How to Roll Back MAME to an Older Version](#how-to-roll-back-mame-to-an-older-version)
+      - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 ***
 
@@ -352,5 +353,17 @@ If the above steps did not work and you are getting an error message along the l
 Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
 
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub org.mamedev.MAME` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here org.mamedev.MAME`. 
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#mame-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open MAME
+2. At the bottom, click `General Settings`
+3. Click `Customize UI`
+4. Click `Language`, select your preferred language in the drop-down menu
 
 ***

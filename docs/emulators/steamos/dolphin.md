@@ -32,6 +32,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Configure Multiplayer Controls](#how-to-configure-multiplayer-controls)
     - [How to Roll Back Dolphin to an Older Version](#how-to-roll-back-dolphin-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
 
 3. [Dolphin Cheats, Modding, and Texture Packs](#dolphin-cheats-modding-and-texture-packs)
@@ -625,6 +626,64 @@ If the above steps did not work and you are getting an error message along the l
 Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
 
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub org.DolphinEmu.dolphin-emu` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here org.DolphinEmu.dolphin-emu`. 
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#dolphin-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open Dolphin
+2. At the top, click `Options`, click `Configuration`
+3. Click the `Interface` tab
+4. Under `User Interface`, select your preferred language in the drop-down menu
+
+#### In-Game
+
+##### Gamecube
+
+1. In Desktop Mode, open Dolphin
+2. Right click the game you would like to set the language for
+3. Click `Properties`
+4. Click the `Game Config` tab
+5. Click the `Editor` tab
+6. In the box, type the following:
+
+        [Core]
+        GameCubeLanguage = 0
+
+7. Replace the `0` with the language you would like to use:
+    * 0 = English/Japanese
+    * 1 = German
+    * 2 = French
+    * 3 = Spanish
+    * 4 = Italian
+    * 5 = Dutch
+
+##### Wii
+
+1. In Desktop Mode, open Dolphin
+2. Right click the game you would like to set the language for
+3. Click `Properties`
+4. Click the `Game Config` tab
+5. Click the `Editor` tab
+6. In the box, type the following:
+
+        [Wii]
+        Language = 1
+
+7. Replace the `0` with the language you would like to use:
+    * 0 = Japanese
+    * 1 = English
+    * 2 = German
+    * 3 = French
+    * 4 = Spanish
+    * 5 = Italian
+    * 6 = Dutch
+    * 7 = Simplified Chinese
+    * 8 = Traditional Chinese
+    * 9 = Korean
 
 ***
 

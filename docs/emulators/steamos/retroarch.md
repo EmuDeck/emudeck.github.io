@@ -40,6 +40,7 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
     - [How to Change Settings On a Per-Core Basis](#how-to-change-settings-on-a-per-core-basis)
     - [How to Roll Back RetroArch to an Older Version](#how-to-roll-back-retroarch-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Create CUE files](../../file-management/steamos/file-management.md#how-to-create-cue-files)
     - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
@@ -712,6 +713,32 @@ If the above steps did not work and you are getting an error message along the l
 Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
 
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub com.github.Rosalie241.RMG` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here com.github.Rosalie241.RMG`. 
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#retroarch-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open RetroArch
+2. Click the `Main Menu` tab
+3. Click `Online Updater`
+4. Click `Update Assets`
+5. Back out of the `Online Updater`
+6. Click the `Settings` tab
+7. Click `User`
+8. Click `Language`
+9. Select your preferred language in the drop-down menu
+10. Back out of the `Settings` tab
+11. Click the `Main Menu` tab
+12. Click `Configuration File`
+13. Click `Save Current Configuration`
+
+#### In-Game
+
+Varies depending on the core and ROM.
+
 
 ***
 

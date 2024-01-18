@@ -44,6 +44,7 @@ Quickstart Guide (Skip the HDD requirement, it is pre-included with EmuDeck): [h
         - [How to Apply vs_position_always_invariant=true to EmulationStation-DE Games](#how-to-apply-vs_position_always_invarianttrue-to-emulationstation-de-games)
     - [How to Access Saves](#how-to-access-saves)
     - [How to Roll Back Xemu to an Older Version](#how-to-roll-back-xemu-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 ***
 
@@ -442,7 +443,7 @@ Your save files are located here: `Emulation/storage/xemu/xbox_hdd.qcow2`
 
 **How to Access Saves**
 
-Download [https://github.com/Ryzee119/LithiumX/releases/tag/v0.9.1](https://github.com/Ryzee119/LithiumX/releases/tag/v0.9.1), extract the zip file, and launch the ISO in Xemu.
+Download [https://github.com/Ryzee119/LithiumX/releases](https://github.com/Ryzee119/LithiumX/releases), extract the zip file, and launch the ISO in Xemu.
 
 Follow the instructions here: [https://xemu.app/docs/ftp/](https://xemu.app/docs/ftp/), to access the saves in the `xbox_hdd.qcow2` file. 
 
@@ -471,5 +472,31 @@ If the above steps did not work and you are getting an error message along the l
 Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
 
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub app.xemu.xemu` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here app.xemu.xemu`.
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#xemu-table-of-contents)
+
+#### In-Game
+
+You will need to dump and use the official Xbox dashboard to configure the Xbox language settings. The default dashboard included with EmuDeck is "an unsigned "dummy" dashboard" with limited capability. 
+
+For more information, see [https://xemu.app/docs/dashboard/](https://xemu.app/docs/dashboard/).
+
+You may also use an open-source dashboard to configure Xbox language settings.
+
+**Here's How**
+
+1. In Desktop Mode, open [https://github.com/dracc/NevolutionX/releases](https://github.com/dracc/NevolutionX/releases) in a browser of your choice
+2. Download the latest version of `nevox_hdd.zip`
+3. Extract `nevox_hdd.zip` to a folder of your choice
+4. Rename the extracted `nevox_hdd.qcow2` file to `xbox_hdd.qcow2`
+5. Move the newly renamed `xbox_hdd.qcow2` to `Emulation/storage/xemu` and overwrite the current `xbox_hdd.qcow2`
+6. In Desktop Mode, open Xemu
+7. Wait for NevolutionX to load
+8. Click `Settings`
+9. Click `Language selec`t
+10. Select your preferred language in the list 
 
 ***

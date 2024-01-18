@@ -31,6 +31,7 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
     - [How to Play Nintendo DS Games in Book Mode](#how-to-play-nintendo-ds-games-in-book-mode)
     - [How to Customize the Screen Layout](#how-to-customize-the-screen-layout)
     - [How to Roll Back melonDS to an Older Version](#how-to-roll-back-melonds-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
     
@@ -399,5 +400,26 @@ If the above steps did not work and you are getting an error message along the l
 Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
 
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub net.kuribo64.melonDS` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here net.kuribo64.melonDS`. 
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#melonds-table-of-contents)
+
+Some games may not have language options. For a full list of which games have language options, download the DS Database from GamesTDB, [https://www.gametdb.com/DS/Downloads](https://www.gametdb.com/DS/Downloads) and open it in a text editor of your choice. 
+
+Before proceeding with the below section, you will need to place Nintendo DS BIOS in the `Emulation/bios` folder.
+
+1. In Desktop Mode, open melonDS
+2. At the top, click `Config`
+3. Click `Emu settings`
+4. Click `DS-Mode`, check `Use external BIOS/firmware files`
+5. Close out of the `Emu settings` window
+6. Click `File`, click `Boot firmware`
+7. Click the DS icon at the bottom of the screen
+8. Click the gear icon
+9. Click the globe icon
+10. Select your preferred language
+
 
 ***

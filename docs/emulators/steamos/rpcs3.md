@@ -29,6 +29,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
     - [Special Game Configurations](#special-game-configurations)
     - [How to Set Up the Motion Sensor with External Controllers](#how-to-set-up-the-motion-sensor-with-external-controllers)
     - [How to Roll Back RPCS3 to an Older Version](#how-to-roll-back-rpcs3-to-an-older-version)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 ***
 
@@ -387,5 +388,17 @@ If the above steps did not work and you are getting an error message along the l
 Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
 
 Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub net.rpcs3.RPCS3` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here net.rpcs3.RPCS3`. 
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#rpcs3-table-of-contents)
+
+#### In-Game
+
+1. In Desktop Mode, open RPCS3
+2. At the top, click `Configuration`, click `System`
+3. Below `Console Language`, select your preferred language in the drop-down menu
+
 
 ***

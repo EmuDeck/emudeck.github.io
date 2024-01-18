@@ -24,6 +24,7 @@ Quickstart Guide: [https://vita3k.org/quickstart.html](https://vita3k.org/quicks
     - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Install English Patches](#how-to-install-english-patches)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 
 ***
@@ -374,5 +375,27 @@ toir_patch-DecryptedWithComputer" version from [https://github.com/lifebottle/Ta
         * If the website saves your file elsewhere, move it to your `GAMETITLEID` folder
     4. Either delete or rename the original `data.psarc` file and rename the newly patched `data (patched).psarc` file to `data.psarc`
 6. Your English patch will now be applied
+
+***
+
+### How to Configure Language Settings
+[Back to the Top](#vita3k-table-of-contents)
+
+#### UI
+
+1. In Desktop Mode, open Vita3K
+2. At the top, click `Configuration`
+3. Click `Settings`
+4. Click the `GUI` tab
+5. To the left of `GUI Language`, select your preferred language in the drop-down menu
+
+#### In-Game
+
+1. In Desktop Mode, open Vita3K
+2. Open the `Settings` application, click `Start`
+    * The `Settings` application will be in your game list. By default it will look like a toolbag with a green background
+3. Click `Language`
+4. Click `System Language`
+5. Select your preferred language in the drop-down menu
 
 ***
