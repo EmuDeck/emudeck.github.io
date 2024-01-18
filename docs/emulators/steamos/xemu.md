@@ -45,6 +45,8 @@ Quickstart Guide (Skip the HDD requirement, it is pre-included with EmuDeck): [h
     - [How to Access Saves](#how-to-access-saves)
     - [How to Roll Back Xemu to an Older Version](#how-to-roll-back-xemu-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
+    - [How to Set Up XboxEepromEditor](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-xboxeepromeditor)
+
 
 ***
 
@@ -480,28 +482,23 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 #### In-Game
 
-The default dashboard included with EmuDeck is "an unsigned "dummy" dashboard" with limited capability and **cannot** change language settings. 
+Download and set up XboxEepromEditor. For instructions, see[How to Set Up XboxEepromEditor](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-xboxeepromeditor).
 
-You will need to either:
-
-* Dump and use the official Xbox dashboard to configure the Xbox language settings. 
-* Use an open source dashboard to configure Xbox language settings.
-
-#### Official Xbox Dashboard
-
-For more information and instructions on how to dump an official Xbox dashboard, see [https://xemu.app/docs/dashboard/](https://xemu.app/docs/dashboard/) and [https://xemu.app/docs/required-files/](https://xemu.app/docs/required-files/).
-
-#### Open Source Dashboard
-
-1. In Desktop Mode, open [https://github.com/dracc/NevolutionX/releases](https://github.com/dracc/NevolutionX/releases) in a browser of your choice
-2. Download the latest version of `nevox_hdd.zip`
-3. Extract `nevox_hdd.zip` to a folder of your choice
-4. Rename the extracted `nevox_hdd.qcow2` file to `xbox_hdd.qcow2`
-5. Move the newly renamed `xbox_hdd.qcow2` to `Emulation/storage/xemu` and overwrite the current `xbox_hdd.qcow2`
-6. In Desktop Mode, open Xemu
-7. Wait for NevolutionX to load
-8. Click `Settings`
-9. Click `Language select`
-10. Select your preferred language in the list 
+1. Open XboxEepromEditor
+2. In the top left, click `File`, `Open`
+3. Click the `/` and navigate to your `Emulation/storage/xemu` folder
+    * If your EmuDeck install is on an SD Card, your path will typically begin with `/run/,media...`
+    * If your EmuDeck install is on your internal SSD, your path will typically begin with `/home/deck..`
+4. Select the `eeprom.bin` file
+5. Under the `Security` tab, select your preferred regions
+    * Some regions may have more language options than others
+6. Under the `General` tab, select your preferred language
+7. After you have made your changes, click `File`, click `Save As`
+8. In the `File Name` box, type `eeprom.bin`
+9. Click the `/` and navigate to your `Emulation/storage/xemu` folder
+    * If your EmuDeck install is on an SD Card, your path will typically begin with `/run/,media...`
+    * If your EmuDeck install is on your internal SSD, your path will typically begin with `/home/deck..`
+10. Click `Save` and click `Yes` on the `File already exists, do you want to replace it?` prompt 
+11. Your preferred language settings will now be applied in Xemu
 
 ***
