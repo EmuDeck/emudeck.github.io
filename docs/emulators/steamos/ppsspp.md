@@ -213,6 +213,7 @@ PPSSPP comes with a Steam Input profile for Hotkeys. Activate the Steam Input pr
 ***
 
 ### How to Install Custom Textures
+[Back to the Top](#ppsspp-table-of-contents)
 
 **Preface** 
 
