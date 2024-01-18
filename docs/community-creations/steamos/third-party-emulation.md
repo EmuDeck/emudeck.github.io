@@ -246,8 +246,8 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 
 1. In `/home/deck/Applications`, create an `OpenGOAL` folder
 2. Place your `Jak and Dexter: The Precursor Legacy` ISO directly in the newly created `OpenGOAL` folder
-3. Download the latest `amd64.AppImage` from here: [https://github.com/open-goal/launcher/releases/tag/v2.3.6](https://github.com/open-goal/launcher/releases/tag/v2.3.6) and place it in the folder you created in Step 1
-    * Example: Download `open-goal-launcher_2.3.6_amd64.AppImage` 
+3. Download the latest `amd64.AppImage` from here: [https://github.com/open-goal/launcher/releases/latest](https://github.com/open-goal/launcher/releases/latest) and place it in the folder you created in Step 1
+    * Example: Download `open-goal-launcher_#.#.#_amd64.AppImage` 
         * The version number may be different depending on when you are reading this
 4. Right click `open-goal-launcher_#.#.#_amd64.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
 
@@ -329,8 +329,8 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 
 1. In `/home/deck/Applications`, create an `OpenGOAL` folder
 2. Place your `Jak II` ISO directly in the newly created `OpenGOAL` folder
-3. Download the latest `amd64.AppImage` from here: [https://github.com/open-goal/launcher/releases/tag/v2.3.6](https://github.com/open-goal/launcher/releases/tag/v2.3.6) and place it in the folder you created in Step 1
-    * Example: Download `open-goal-launcher_2.3.6_amd64.AppImage` 
+3. Download the latest `amd64.AppImage` from here: [https://github.com/open-goal/launcher/releases/latest](https://github.com/open-goal/launcher/releases/latest) and place it in the folder you created in Step 1
+    * Example: Download `open-goal-launcher_#.#.#_amd64.AppImage` 
         * The version number may be different depending on when you are reading this
 4. Right click `open-goal-launcher_#.#.#_amd64.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
 
