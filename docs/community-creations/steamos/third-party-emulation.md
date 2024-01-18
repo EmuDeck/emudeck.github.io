@@ -79,18 +79,30 @@ This section will go over setting up a Distrobox, which you will utilize through
 
 This will require your sudo password for the setup
 
-1. In Desktop Mode, open Konsole and enter the following lines, one at a time
-    * `curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sh -s -- --prefix ~/.local`
-    * `sudo touch /etc/subuid /etc/subgid`
-    * `sudo usermod --add-subuid 100000-165535 --add-subgid 100000-165535 $USER`
-2. Download `podman-launcher-amd64` from [https://github.com/89luca89/podman-launcher/releases](https://github.com/89luca89/podman-launcher/releases) to your `/home/deck/Downloads` folder
-3. Rename `podman-launcher-amd64` to `podman`
+ 1. In Desktop Mode, open Konsole and enter the following lines, one at a time
+```sh
+curl -s https://raw.githubusercontent.com/89luca89/distrobox/main/install | sh -s -- --prefix ~/.local
+```
+```sh
+sudo touch /etc/subuid /etc/subgid
+```
+```sh
+sudo usermod --add-subuid 100000-165535 --add-subgid 100000-165535 $USER
+```
+2. Download a supported container manager. For most people, [lilipod](https://github.com/89luca89/lilipod) is more than enough and can be obtained by downloading `lilipod-linux-amd64` from [https://github.com/89luca89/lilipod/releases/latest](https://github.com/89luca89/lilipod/releases/latest)
+    * Alternatively, you can use [podman](https://github.com/89luca89/podman-launcher/releases) if you need more than what lilipod offers
+3. Rename `lilipod-linux-amd64` to `lilipod`. If using podman, rename `podman-launcher-amd64` to `podman`
     * Casing and spelling are important
-4. Right click `podman`, click `Properties`, click `Permissions`, check `Is executable`
-5. Move the `podman` file to `/home/deck/.local/bin/`
+4. Right click `lilipod` or `podman`, click `Properties`, click `Permissions`, and ensure `Is executable` is checked
+5. Move the `lilipod` or `podman` file to `/home/deck/.local/bin/`
     * `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders
 
 #### How to Configure bashrc
+
+!!! info "Note"
+    
+    These instructions are for the default shell
+    If you are using another shell, replace `.bashrc` with the rc of your appropriate shell
 
 1. In Desktop Mode, open the `/home/deck` folder
      * You may not see the word `deck` in the file path at the top, this is the `home` folder for the `deck` user
@@ -98,7 +110,7 @@ This will require your sudo password for the setup
 3. Right click `.bashrc`, click `Open with Kate` or a file editor of your choice
 4. Add these lines to the bottom of the `.bashrc` file
 
-```
+```sh
 # Uncomment the xhost line below if you know that you are using xhost
 #xhost +si:localuser:$USER
 export PATH=$HOME/.local/bin:$PATH
@@ -110,12 +122,16 @@ export PATH=$HOME/.local/bin:$PATH
 #### How to Set Up Distrobox
 
 1. Open Konsole
-2. Create an Ubuntu Distrobox: 
+2. Create a Distrobox of a distro of your choice. In this example, we will use Ubuntu: 
     * `distrobox create --name ubuntu -i ubuntu:23.04`
         * If you get multiple options after inputting this command, select the `docker.io/library/ubuntu:##.##` image by pressing enter on the respective line
 3. To enter the Distrobox, open Konsole and enter: 
     * `distrobox enter ubuntu`
         * You will need to enter the Distrobox when compiling the various games on this page. You can identify when you are in a Distrobox by looking at the lefthand side of Konsole. Using the Distrobox created by this guide, it will say `deck@ubuntu` 
+
+!!! info "Other Distros"
+
+    You can see a list of all available distros compatible with Distrobox [here](https://github.com/89luca89/distrobox/blob/main/docs/compatibility.md#containers-distros)
 
 ***
 
@@ -284,7 +300,7 @@ Text file name:
 
 Text file contents:
 
-```
+```sh
 #!/bin/bash
 
 /home/deck/Applications/OpenGOAL/versions/official/v0.2.0/gk -v --proj-path /home/deck/Applications/OpenGOAL/active/jak1/data --game jak1 -- -boot -fakeiso
@@ -369,7 +385,7 @@ Text file name:
 
 Text file contents:
 
-```
+```sh
 #!/bin/bash
 
 /home/deck/Applications/OpenGOAL/versions/official/v0.2.0/gk -v --proj-path /home/deck/Applications/OpenGOAL/active/jak2/data --game jak2 -- -boot -fakeiso
@@ -522,18 +538,18 @@ Source: [https://www.shipofharkinian.com/](https://www.shipofharkinian.com/)
 
 #### Ocarina of Time Debug PAL GC (not Master Quest)
 > Currently the recommended option
-```
+```yaml
 Build team: `zelda@srd022j`
 Build date: `03-02-21 00:49:18` (year-month-day)
 sha1: cee6bc3c2a634b41728f2af8da54d9bf8cc14099
 ```
 #### Ocarina of Time PAL GameCube
 > May lead to crashes and instability
-```
+```yaml
 sha1: 0227d7c0074f2d0ac935631990da8ec5914597b4
 ```
 #### Ocarina of Time Debug PAL GC MQ (Dungeons will be Master Quest)
-```
+```yaml
 Build team: `zelda@srd022j`
 Build date: `03-02-21 00:16:31` (year-month-day)
 sha1: 079b855b943d6ad8bd1eb026c0ed169ecbdac7da (Produced by decomp)
