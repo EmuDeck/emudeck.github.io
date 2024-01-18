@@ -482,7 +482,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 #### In-Game
 
-Download and set up XboxEepromEditor. For instructions, see[How to Set Up XboxEepromEditor](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-xboxeepromeditor).
+Download and set up XboxEepromEditor. For instructions, see [How to Set Up XboxEepromEditor](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-xboxeepromeditor).
 
 1. Open XboxEepromEditor
 2. In the top left, click `File`, `Open`
