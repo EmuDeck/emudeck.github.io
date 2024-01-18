@@ -399,7 +399,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 4. Click the `UI` tab
 5. Under `General`, select your preferred language in the drop-down menu
 
-#### In Game
+#### In-Game
 
 1. In Desktop Mode, open Citra
 2. At the top, click `Emulation`, click `Configure`

@@ -406,6 +406,8 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 ### How to Configure Language Settings
 [Back to the Top](#melonds-table-of-contents)
 
+#### In-Game
+
 Some games may not have language options. For a full list of which games have language options, download the DS Database from GamesTDB, [https://www.gametdb.com/DS/Downloads](https://www.gametdb.com/DS/Downloads) and open it in a text editor of your choice. 
 
 Before proceeding with the below section, you will need to place Nintendo DS BIOS in the `Emulation/bios` folder.

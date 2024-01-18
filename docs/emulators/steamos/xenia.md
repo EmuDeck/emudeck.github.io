@@ -589,6 +589,8 @@ However, running Xenia through Proton will still create a prefix (a sort of Wind
 ### How to Configure Language Settings
 [Back to the Top](#xenia-table-of-contents)
 
+#### In-Game
+
 1. In Desktop Mode, open the `Emulation/roms/xbox360` folder
 2. Right click `xenia-canary.config.toml` and click `Open with Kate` or a text editor of your choice
 3. Scroll down to the `XConfig` section, locate `user_language = 1`
