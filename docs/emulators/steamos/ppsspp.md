@@ -231,7 +231,7 @@ _This list is not exhaustive_
 **How to Install Custom Textures**
 
 1. In Desktop Mode, open PPSSPP, click the `Games` tab, click the `Gear` icon, Toggle `Show ID`. 
-    * ![How to Install Custom Textures: PPSSPP-1](../../assets/ppsspp-how-to-install-custom-textures-3.png)
+    * ![How to Install Custom Textures: PPSSPP-1](../../assets/ppsspp-how-to-install-custom-textures-1.png)
 2. Click the "three lines" icon to the left of the `Gear` icon. Note down the Game ID to the right of your game 
     * ![How to Install Custom Textures: PPSSPP-2](../../assets/ppsspp-how-to-install-custom-textures-2.png)
 3. In PPSSPP, click the `Settings` button, click the `Tools` tab,, click `Developer tools`, check `Replace textures`
