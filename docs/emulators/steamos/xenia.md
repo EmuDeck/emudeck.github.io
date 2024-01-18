@@ -379,7 +379,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 
 If you get an error message with either `!Status` or `GPU Commands`, you can try one of the below solutions:
 
-* Update Xenia to the latest version. This issue was fixed on December 5th, 2023. For more information, see [[https://github.com/xenia-canary/xenia-canary/issues/158](https://github.com/xenia-canary/xenia-canary/issues/158)]([https://github.com/xenia-canary/xenia-canary/issues/158](https://github.com/xenia-canary/xenia-canary/issues/158))
+* Update Xenia to the latest version. This issue was fixed on December 5th, 2023. For more information, see [https://github.com/xenia-canary/xenia-canary/issues/158](https://github.com/xenia-canary/xenia-canary/issues/158)
 * Try DX12. Recent updates have massively improved compatibility with DX12. Currently, EmuDeck sets Vulkan as the default. See [How to Swap Between Vulkan and DX12](#how-to-swap-between-vulkan-and-dx12) to learn how to swap between the two 
 
 However, do keep in mind that the above solutions are **not** guaranteed to fix your issue. Xenia on Linux, through Proton, is still in a highly experimental state. Many games do not work. Xbox Live Arcade Games currently have the highest compatibility. 
