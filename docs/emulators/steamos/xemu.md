@@ -490,7 +490,7 @@ Download and set up XboxEepromEditor. For instructions, see [How to Set Up XboxE
     * If your EmuDeck install is on an SD Card, your path will typically begin with `/run/,media...`
     * If your EmuDeck install is on your internal SSD, your path will typically begin with `/home/deck..`
 4. Select the `eeprom.bin` file
-5. Under the `Security` tab, select your preferred regions
+5. Under the `Security` tab, select your preferred region
     * Some regions may have more language options than others
 6. Under the `General` tab, select your preferred language
 7. After you have made your changes, click `File`, click `Save As`
