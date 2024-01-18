@@ -77,7 +77,7 @@ This section will go over setting up a Distrobox, which you will utilize through
 
 #### How to Install Distrobox
 
-This will require your sudo password for the setup
+**Note:** This section will require using sudo. 
 
  1. In Desktop Mode, open Konsole and enter the following lines, one at a time
 ```sh
@@ -121,13 +121,18 @@ export PATH=$HOME/.local/bin:$PATH
 
 #### How to Set Up Distrobox
 
+The various sections on this page will assume you are using the Ubuntu distrobox created in the section below. However, if you prefer, you may also create a Debian distrobox (the commands will mostly be identical) or use a distro of your choice (you will need to figure out how to install the various dependencies).
+
 1. Open Konsole
 2. Create a Distrobox of a distro of your choice. In this example, we will use Ubuntu: 
     * `distrobox create --name ubuntu -i ubuntu:23.04`
+        * `--name ubuntu` assigns a name to the distrobox, replace `ubuntu` with your preferred name
+        * `-i ubuntu:23:04` selects a distro, replace `ubuntu:23:04` with your preferred distro
         * If you get multiple options after inputting this command, select the `docker.io/library/ubuntu:##.##` image by pressing enter on the respective line
 3. To enter the Distrobox, open Konsole and enter: 
     * `distrobox enter ubuntu`
-        * You will need to enter the Distrobox when compiling the various games on this page. You can identify when you are in a Distrobox by looking at the lefthand side of Konsole. Using the Distrobox created by this guide, it will say `deck@ubuntu` 
+        * This command enters the distrobox (assigned by name in Step 2), replace `ubuntu` with the name you typed in Step 2 
+        * You will need to enter the Distrobox when compiling the various games on this page. You can identify when you are in a Distrobox by looking at the lefthand side of Konsole. Using the Distrobox created by this guide, it will say `deck@ubuntu`
 
 !!! info "Other Distros"
 
