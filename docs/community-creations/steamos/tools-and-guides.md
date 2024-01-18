@@ -2,6 +2,8 @@
 
 ***
 
+## Tools and Guides Table of Contents
+
 [TOC]
 
 ***
@@ -11,6 +13,7 @@
 ***
 
 ### How to Set Up SyncThing
+[Back to the Top](#tools-and-guides-table-of-contents)
 
 [SyncThing](https://syncthing.net/) is a free self hosted "cloud" solution. There are limitations, the biggest here with the steam deck and the way EmuDeck moves/renames folders and the use of symlinks which is a “virtual file or folder” that can point to another. This is VERY nice, but due to the nature of differing filesystems, there is a reason SyncThing does not support this, and this tutorial avoids symlinks. Emudeck does make a few changes where syncing is not as straightforward as it could be, simply because the devs changed the default folder via the emulator. PCSX2 savestates and memcard folders are not only named differently from default but also moved from their default directory.
  
@@ -200,7 +203,7 @@ Now if I can figure out a way to share prefixes between non-steam games so that 
 ***
 
 ### How to Set Up PKHeX
-[Back to the Top](#community-creations-table-of-contents)
+[Back to the Top](#tools-and-guides-table-of-contents)
 
 This section will cover how to download and set up PKHeX. For the GitHub repo, see [https://github.com/kwsch/PKHeX](https://github.com/kwsch/PKHeX).
 
@@ -221,33 +224,34 @@ PKHeX is a "Pokémon core series save editor, programmed in C#."
 
 1. In Desktop Mode, open Discover and download Lutris
 2. Open Lutris
-3. Click the `+` button in the top left of the Lutris application
-4. Click `Add locally installed game`
-5. On the `Game Info` tab:
+3. Click the `Wine` button on the left, click the little page icon to the right, download `Lutris-7-2.2`
+4. Click the `+` button in the top left of the Lutris application
+5. Click `Add locally installed game`
+6. On the `Game Info` tab:
     * Name: PKHeX
     * Sort Name: Leave Blank
     * Runner: Wine (Runs Windows games)
     * Release Year: Leave Blank
-6. On the `Game Options` tab:
+7. On the `Game Options` tab:
     * Executable: Click the `Browse` button and navigate to the `PKHeX.exe` file in `$HOME/Games/Lutris/PKHeX`
         * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/PKHeX`
     * Arguments: Leave Blank
     * Working Directory: Leave Blank
     * Wine Prefix: Click the `Browse` button and select the `$HOME/Games/Lutris/PKHeX/pfx` folder
         * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/PKHeX/pfx`
-7. On the `Runner options` tab:
-    * Wine version: System (8.0.2) (default)
+8. On the `Runner options` tab:
+    * Wine version: `Lutris-7-2.2-x86_64`
     * Leave everything else at defaults
-8. Click the `Save` button in the top right
-9. Single click the `PKHeX` tile in Lutris, click the `Wine` icon at the bottom of the Lutris application, click `Winetricks`
-10. Click `Select the default wineprefix`
-11. Click `Install a Windows DLL or component`
-12. Locate `dotnet7 MS.NET Runtime 7.0 LTS` in the list
-13. Check the box to the left of `dotnet7 MS.NET Runtime 7.0 LTS` and click `OK`, wait a few moments for it to install
-14. Locate `dotnetdesktop7` in the list 
-15. Check the box to the left of `dotnetdesktop7` and click `OK`, wait a few moments for it to install
-16. Close out of winetricks
-17. To open PKHeX, open Lutris, select the PKHeX tile, and click `Play`
+9. Click the `Save` button in the top right
+10. Single click the `PKHeX` tile in Lutris, click the `Wine` icon at the bottom of the Lutris application, click `Winetricks`
+11. Click `Select the default wineprefix`
+12. Click `Install a Windows DLL or component`
+13. Locate `dotnet7 MS.NET Runtime 7.0 LTS` in the list
+14. Check the box to the left of `dotnet7 MS.NET Runtime 7.0 LTS` and click `OK`, wait a few moments for it to install
+15. Locate `dotnetdesktop7` in the list 
+16. Check the box to the left of `dotnetdesktop7` and click `OK`, wait a few moments for it to install
+17. Close out of winetricks
+18. To open PKHeX, open Lutris, select the PKHeX tile, and click `Play`
 
 If PKHeX initially opens in a tiny window, click the `Stop` button in Lutris to force close it. Re-open PKHeX and the window should return to normal.
 
@@ -280,7 +284,7 @@ Emulator configurations and saves when installed on Linux are typically stored i
 ***
 
 ### How to Set Up mymc
-[Back to the Top](#community-creations-table-of-contents)
+[Back to the Top](#tools-and-guides-table-of-contents)
 
 This section will cover how to download and set up mymc. For the website, see [http://www.csclub.uwaterloo.ca:11068/mymc/](http://www.csclub.uwaterloo.ca:11068/mymc/).
 
@@ -300,32 +304,112 @@ This section will cover how to download and set up mymc. For the website, see [h
 
 1. In Desktop Mode, open Discover and download Lutris
 2. Open Lutris
-3. Click the `+` button in the top left of the Lutris application
-4. Click `Add locally installed game`
-5. On the `Game Info` tab:
+3. Click the `Wine` button on the left, click the little page icon to the right, download `Lutris-7-2.2`
+4. Click the `+` button in the top left of the Lutris application
+5. Click `Add locally installed game`
+6. On the `Game Info` tab:
     * Name: mymc
     * Sort Name: Leave Blank
     * Runner: Wine (Runs Windows games)
     * Release Year: Leave Blank
-6. On the `Game Options` tab:
+7. On the `Game Options` tab:
     * Executable: Click the `Browse` button and navigate to the `mymc-gui.exe` file in `$HOME/Games/Lutris/mymc`
         * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/mymc`
     * Arguments: Leave Blank
     * Working Directory: Leave Blank
     * Wine Prefix: Click the `Browse` button and select the `$HOME/Games/Lutris/mymc/pfx` folder
         * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/mymc/pfx`
-7. On the `Runner options` tab:
-    * Wine version: System (8.0.2) (default)
+8. On the `Runner options` tab:
+    * Wine version: `Lutris-7-2.2-x86_64`
     * Leave everything else at defaults
-8. Click the `Save` button in the top right
-9. To open mymc, open Lutris, select the mymc tile, and click `Play`
+9. Click the `Save` button in the top right
+10. To open mymc, open Lutris, select the mymc tile, and click `Play`
 
 If you would like to add mymc to Game Mode, you may right click the mymc tile in Lutris and click `Create steam shortcut`.
+
+#### How to Access Saves
+
+If your saves are on an external drive or SD Card, you will need to apply a few settings for Lutris to see these removable storage devices properly. 
+
+**Here's How**
+
+##### Flatseal
+
+1. In Desktop Mode, open Discover and download Flatseal
+2. Open Flatseal and click Lutris on the left hand side of the screen
+3. Scroll down to Filesystem
+4.  Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `~/run/media`
+5. Close out of Flatseal and re-open mymc through Lutris
+6. Your removable storage devices will now be accessible through Lutris
+
+***
+
+### How to Set Up XboxEepromEditor
+[Back to the Top](#tools-and-guides-table-of-contents)
+
+This section will cover how to download and set up XboxEepromEditor. For the GitHub, see [https://github.com/Ernegien/XboxEepromEditor](https://github.com/Ernegien/XboxEepromEditor).
+
+XboxEepromEditor "allows for generating and/or editing the contents of an Original Xbox EEPROM".
+
+#### Set up Folders
+
+1. In Desktop Mode, open Konsole
+2. Enter:
+    * `mkdir -p $HOME/Games/Lutris/XboxEepromEditor/pfx`
+    * This command will create a couple of **empty** folders to make managing and installing XboxEepromEditor easier
+3. Download the latest version of XboxEepromEditor, [https://github.com/Ernegien/XboxEepromEditor/releases](https://github.com/Ernegien/XboxEepromEditor/releases) to `$HOME/Games/Lutris/XboxEepromEditor`
+    * Download the `XboxEepromEditor.#.#.#.#.zip` file
+        * The `#.#.#.#` refer to the version numbers. These may vary depending on when you download the latest release
+3. Right click `XboxEepromEditor.#.#.#.#.zip`, click `Extract`, `Extract Archive Here`
+    * The `#.#.#.#` refer to the version numbers which may vary depending on when you download XboxEepromEditor
+
+#### Set up Lutris
+
+1. In Desktop Mode, open Discover and download Lutris
+2. Open Lutris
+3. Click the `Wine` button on the left, click the little page icon to the right, download `Lutris-7-2.2`
+4. Click the `+` button in the top left of the Lutris application
+5. Click `Add locally installed game`
+6. On the `Game Info` tab:
+    * Name: XboxEepromEditor
+    * Sort Name: Leave Blank
+    * Runner: Wine (Runs Windows games)
+    * Release Year: Leave Blank
+7. On the `Game Options` tab:
+    * Executable: Click the `Browse` button and navigate to the `XboxEepromEditor.exe` file in `$HOME/Games/Lutris/XboxEepromEditor`
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/XboxEepromEditor`
+    * Arguments: Leave Blank
+    * Working Directory: Leave Blank
+    * Wine Prefix: Click the `Browse` button and select the `$HOME/Games/Lutris/XboxEepromEditor/pfx` folder
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/XboxEepromEditor/pfx`
+8. On the `Runner options` tab:
+    * Wine version: `Lutris-7-2.2-x86_64`
+    * Leave everything else at defaults
+9. Click the `Save` button in the top right
+10. To open XboxEepromEditor, open Lutris, select the XboxEepromEditor tile, and click `Play`
+
+If you would like to add XboxEepromEditor to Game Mode, you may right click the XboxEepromEditor tile in Lutris and click `Create steam shortcut`.
+
+#### How to Access Saves
+
+If your saves are on an external drive or SD Card, you will need to apply a few settings for Lutris to see these removable storage devices properly. 
+
+**Here's How**
+
+##### Flatseal
+
+1. In Desktop Mode, open Discover and download Flatseal
+2. Open Flatseal and click Lutris on the left hand side of the screen
+3. Scroll down to Filesystem
+4.  Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `~/run/media`
+5. Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `~/.var/app`
+6. Close out of Flatseal and re-open XboxEepromEditor through Lutris
+7. Your removable storage devices will now be accessible through Lutris
 
 ***
 
 ### How to Use ROM Hacks
-[Back to the Top](#community-creations-table-of-contents)
+[Back to the Top](#tools-and-guides-table-of-contents)
 
 **ROM Hack Sources**
 
@@ -368,12 +452,10 @@ _This list is not exhaustive_
 7. Save this newly patched ROM, rename it to match the ROM Hack, and place it in the respective system folder within `Emulation/roms`
 8. Treat the patched ROM file as its own distinct game from the original ROM file, you may use either Steam ROM Manager or EmulationStation-DE to play your newly patched ROM
 
-
-
 ***
 
 ## How to Contribute to This Page
-[Back to the Top](#third-party-emulation-table-of-contents)
+[Back to the Top](#tools-and-guides-table-of-contents)
 
 You will need to **create** a GitHub account first. To sign up for GitHub, see [https://github.com/signup](https://github.com/signup).
 
