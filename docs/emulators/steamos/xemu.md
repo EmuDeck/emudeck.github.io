@@ -480,13 +480,18 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 #### In-Game
 
-You will need to dump and use the official Xbox dashboard to configure the Xbox language settings. The default dashboard included with EmuDeck is "an unsigned "dummy" dashboard" with limited capability. 
+The default dashboard included with EmuDeck is "an unsigned "dummy" dashboard" with limited capability and **cannot** change language settings. 
 
-For more information, see [https://xemu.app/docs/dashboard/](https://xemu.app/docs/dashboard/).
+You will need to either:
 
-You may also use an open-source dashboard to configure Xbox language settings.
+* Dump and use the official Xbox dashboard to configure the Xbox language settings. 
+* Use an open source dashboard to configure Xbox language settings.
 
-**Here's How**
+#### Official Xbox Dashboard
+
+For more information and instructions on how to dump an official Xbox dashboard, see [https://xemu.app/docs/dashboard/](https://xemu.app/docs/dashboard/) and [https://xemu.app/docs/required-files/](https://xemu.app/docs/required-files/).
+
+#### Open Source Dashboard
 
 1. In Desktop Mode, open [https://github.com/dracc/NevolutionX/releases](https://github.com/dracc/NevolutionX/releases) in a browser of your choice
 2. Download the latest version of `nevox_hdd.zip`
@@ -496,7 +501,7 @@ You may also use an open-source dashboard to configure Xbox language settings.
 6. In Desktop Mode, open Xemu
 7. Wait for NevolutionX to load
 8. Click `Settings`
-9. Click `Language selec`t
+9. Click `Language select`
 10. Select your preferred language in the list 
 
 ***
