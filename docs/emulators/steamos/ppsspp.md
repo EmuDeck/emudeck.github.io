@@ -372,7 +372,7 @@ Before proceeding with the below steps, dump the original font from a PSP. You c
 1. In Desktop Mode, open the `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/SYSTEM` folder
 2. Right click `ppsspp.ini` and click `Open with Kate` or a text editor of your choice
 3. Under the `[SystemParam]` section, locate `Language = 1`
-4. Replace `en_US` with your preferred language:
+4. Replace `1` with your preferred language:
     * JAPANESE 0
     * ENGLISH 1
     * FRENCH 2
