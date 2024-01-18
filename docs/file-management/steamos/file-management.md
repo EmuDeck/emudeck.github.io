@@ -176,7 +176,7 @@ Alternatively, you may also use No-Intro's DAT-o-MATIC, [https://datomatic.no-in
 
 #### How to Compare your MD5 Checksum to Redump
 
-1. Open [redump.org](redump.org), and search for your ROM 
+1. Open [redump.org](https://redump.org), and search for your ROM 
      * For example, Vampire Night's page: [http://redump.org/disc/13152/](http://redump.org/disc/13152/)
 2. Note down the MD5 Checksum on the redump.org page and compare it to your ROM
      * Using Vampire Night as an example:
@@ -308,7 +308,7 @@ You may reset an emulator's configurations in the `Manage Emulators` page.
 ### Emulator Save and Save State Locations
 [Back to the Top](#file-management-table-of-contents)
 
-See [Save Management: Emulator Save and Save State Locations](../../save-management/steamos/index.md#emulator-save-and-save-state-locations).
+See [Save Management: Emulator Save and Save State Locations](../../save-management/steamos/save-management.md#emulator-save-and-save-state-locations).
 
 ***
 

@@ -61,7 +61,7 @@ nav:
             - 'EmuDeck Application 101': 'emudeck-application/windows/emudeck-application-101.md'
     - Tools:
         - Cloud Services:
-            - 'Cloud Services on SteamOS': 'tools/steamos/cloud-services'
+            - 'Cloud Services on SteamOS': 'tools/steamos/cloud-services.md'
         - EmulationStation-DE:
             - 'EmulationStation-DE on SteamOS': 'tools/steamos/emulationstation-de.md'
             - 'EmulationStation-DE on Windows': 'tools/windows/emulationstation-de.md'
@@ -198,8 +198,8 @@ markdown_extensions:
               format: !!python/name:pymdownx.superfences.fence_code_format
     # adds emojis and allows for custom emojis placed in overrides/.icons
     - pymdownx.emoji:
-        emoji_index: !!python/name:materialx.emoji.twemoji
-        emoji_generator: !!python/name:materialx.emoji.to_svg
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
         options:
             options:
             custom_icons: 
@@ -253,6 +253,10 @@ extra:
       link: 'https://twitter.com/EmuDeck'
     - icon: 'fontawesome/brands/patreon'
       link: 'https://www.patreon.com/dragoonDorise'
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
