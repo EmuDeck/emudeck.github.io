@@ -487,7 +487,7 @@ Download and set up XboxEepromEditor. For instructions, see [How to Set Up XboxE
 1. Open XboxEepromEditor
 2. In the top left, click `File`, `Open`
 3. Click the `/` and navigate to your `Emulation/storage/xemu` folder
-    * If your EmuDeck install is on an SD Card, your path will typically begin with `/run/,media...`
+    * If your EmuDeck install is on an SD Card, your path will typically begin with `/run/media...`
     * If your EmuDeck install is on your internal SSD, your path will typically begin with `/home/deck..`
 4. Select the `eeprom.bin` file
 5. Under the `Security` tab, select your preferred region
@@ -496,7 +496,7 @@ Download and set up XboxEepromEditor. For instructions, see [How to Set Up XboxE
 7. After you have made your changes, click `File`, click `Save As`
 8. In the `File Name` box, type `eeprom.bin`
 9. Click the `/` and navigate to your `Emulation/storage/xemu` folder
-    * If your EmuDeck install is on an SD Card, your path will typically begin with `/run/,media...`
+    * If your EmuDeck install is on an SD Card, your path will typically begin with `/run/media...`
     * If your EmuDeck install is on your internal SSD, your path will typically begin with `/home/deck..`
 10. Click `Save` and click `Yes` on the `File already exists, do you want to replace it?` prompt 
 11. Your preferred language settings will now be applied in Xemu
