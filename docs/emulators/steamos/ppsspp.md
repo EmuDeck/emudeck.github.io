@@ -230,16 +230,22 @@ _This list is not exhaustive_
 
 **How to Install Custom Textures**
 
-1. In Desktop Mode, open `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/`
-    1. `~/.var` is an invisible folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
-2. Create a `TEXTURES` folder here, casing matters
-3. In the `TEXTURES` folder, create a folder matching your Game ID
-    1. To find your Game ID, open PPSSPP, click the `Games` tab, click the `Gear` icon, Toggle `Show ID`
-    2. <img src="https://user-images.githubusercontent.com/108900299/210125694-441118ba-2f32-4843-bc7f-48def75e9b09.png" height="300">
-    3. Note down the Game ID to the right of your game
-4. Place the texture folder (containing the texture files) directly in this newly created folder
-    1. Example (Using Kingdom Hearts: Birth by Sleep): <img src="https://user-images.githubusercontent.com/108900299/210125679-ee345b47-33d3-4bf1-bf15-49bcbc2e97bb.png" height="300">
-5. Your texture pack will now be applied
+1. In Desktop Mode, open PPSSPP, click the `Games` tab, click the `Gear` icon, Toggle `Show ID`. 
+    * ![How to Install Custom Textures: PPSSPP-1](../../assets/ppsspp-how-to-install-custom-textures-3.png)
+2. Click the "three lines" icon to the left of the `Gear` icon. Note down the Game ID to the right of your game 
+    * ![How to Install Custom Textures: PPSSPP-2](../../assets/ppsspp-how-to-install-custom-textures-2.png)
+3. In PPSSPP, click the `Settings` button, click the `Tools` tab,, click `Developer tools`, check `Replace textures`
+    * This option is enabled by default but if texture packs are not loading properly, you may want to double check that this setting is enabled
+4. In Desktop Mode, open the `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/` folder
+    * `~/.var` is a hidden folder by default, click the `Hamburger` menu in the top right of the file explorer, click `Show Hidden Files`
+5. If one does not exist already, create a `TEXTURES` folder here, casing matters
+6. In the `TEXTURES` folder, create a folder matching your Game ID
+    * Using Grand Theft Auto: Chinatown Wars as an example: 
+        * ![How to Install Custom Textures: PPSSPP-2](../../assets/ppsspp-how-to-install-custom-textures-3.png)   
+7. Place your texture folders and files directly in the newly created GAME ID folder
+    * Using Grand Theft Auto: Chinatown Wars as an example: 
+        * ![How to Install Custom Textures: PPSSPP-4](../../assets/ppsspp-how-to-install-custom-textures-4.png)
+8. Your texture pack will now be installed
 
 ***
 
