@@ -207,7 +207,9 @@ Now if I can figure out a way to share prefixes between non-steam games so that 
 
 This section will cover how to download and set up PKHeX. For the GitHub repo, see [https://github.com/kwsch/PKHeX](https://github.com/kwsch/PKHeX).
 
-PKHeX is a "Pokémon core series save editor, programmed in C#."
+!!! quote 
+
+    PKHeX is a "Pokémon core series save editor, programmed in C#."
 
 #### Set up Folders
 
@@ -288,7 +290,9 @@ Emulator configurations and saves when installed on Linux are typically stored i
 
 This section will cover how to download and set up mymc. For the website, see [http://www.csclub.uwaterloo.ca:11068/mymc/](http://www.csclub.uwaterloo.ca:11068/mymc/).
 
-"mymc is a public domain utility for working with PlayStation 2 memory card images (.ps2) as used by the PlayStation 2 emulator PCSX2. It allows save files in the MAX Drive (.max), EMS (.psu), SharkPort (.sps), X-Port (.xps) and Code Breaker (.cbs) formats to be imported directly into these images. It can also export save files in either the MAX Drive and EMS formats."
+!!! quote 
+
+    mymc is a public domain utility for working with PlayStation 2 memory card images (.ps2) as used by the PlayStation 2 emulator PCSX2. It allows save files in the MAX Drive (.max), EMS (.psu), SharkPort (.sps), X-Port (.xps) and Code Breaker (.cbs) formats to be imported directly into these images. It can also export save files in either the MAX Drive and EMS formats.
 
 #### Set up Folders
 
@@ -349,7 +353,9 @@ If your saves are on an external drive or SD Card, you will need to apply a few 
 
 This section will cover how to download and set up XboxEepromEditor. For the GitHub, see [https://github.com/Ernegien/XboxEepromEditor](https://github.com/Ernegien/XboxEepromEditor).
 
-XboxEepromEditor "allows for generating and/or editing the contents of an Original Xbox EEPROM".
+!!! quote 
+
+    XboxEepromEditor "allows for generating and/or editing the contents of an Original Xbox EEPROM".
 
 #### Set up Folders
 
