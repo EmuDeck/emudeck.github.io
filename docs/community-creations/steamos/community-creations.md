@@ -54,7 +54,7 @@ This section will go over how to share and post your Steam Input Layouts on this
 
 **Template:**
 
-```
+```json
 "controller_mappings"
 {
 	"version"		leave this alone
@@ -74,7 +74,7 @@ This section will go over how to share and post your Steam Input Layouts on this
 
 **Sample:**
 
-```
+```json
 "controller_mappings"
 {
 	"version"		"3"
@@ -162,7 +162,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 
 **Profile Name:** `nintendo switch online n64 controller.vdf`
 
-```
+```json
 "controller_mappings"
 {
 	"version"		"3"
@@ -941,7 +941,7 @@ Alternatively, if you have added Super Mario Galaxy or Super Mario Galaxy 2 to S
 
 Profile Name: `mysmg.vdf`
 
-```
+```json
 "controller_mappings"
 {
 	"version"		"3"
@@ -1950,7 +1950,7 @@ _You are advised to examine the motion inputs so you can learn how to get SDGyro
 
 Profile Name: `Wii_base_nunchuck_with_true_motion.ini`
 
-```
+```conf
 [Profile]
 Device = evdev/0/Microsoft X-Box 360 pad 0
 Buttons/A = SOUTH
@@ -2053,7 +2053,7 @@ _You are advised to examine the motion inputs so you can learn how to get SDGyro
 
 Profile Name: `Wii_no_attachment_with_true_motion.ini`
 
-```
+```conf
 [Profile]
 Device = evdev/0/Microsoft X-Box 360 pad 0
 Buttons/A = SOUTH
@@ -2207,7 +2207,7 @@ _You are advised to examine the motion inputs so you can learn how to get SDGyro
 
 Profile Name: `Gyro_SteamDeck_on_Dolphin.ini`
 
-```
+```conf
 [Profile]
 Device = evdev/0/Microsoft X-Box 360 pad 0
 Buttons/A = SOUTH
@@ -2317,7 +2317,7 @@ Comfortable button mapping for NSMB Wii, with run/hold set to X, jump to A, and 
 
 Profile Name: `nsmbwii.ini`
 
-```
+```conf
 [Profile]
 Device = evdev/0/Microsoft X-Box 360 pad 0
 Buttons/A = WEST
@@ -2425,7 +2425,7 @@ Credit: `Ghost of Christmas Yet to Come`
 
 Profile Name: `sideways_wiimote_with_no_attachment.ini`
 
-```
+```conf
 [Profile]
 Device = SDL/0/Microsoft X-Box 360 pad 0
 Buttons/A = `Button 0`

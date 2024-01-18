@@ -98,7 +98,7 @@ This will require your sudo password for the setup
 3. Right click `.bashrc`, click `Open with Kate` or a file editor of your choice
 4. Add these lines to the bottom of the `.bashrc` file
 
-```
+```sh
 # Uncomment the xhost line below if you know that you are using xhost
 #xhost +si:localuser:$USER
 export PATH=$HOME/.local/bin:$PATH
@@ -284,7 +284,7 @@ Text file name:
 
 Text file contents:
 
-```
+```sh
 #!/bin/bash
 
 /home/deck/Applications/OpenGOAL/versions/official/v0.2.0/gk -v --proj-path /home/deck/Applications/OpenGOAL/active/jak1/data --game jak1 -- -boot -fakeiso
@@ -369,7 +369,7 @@ Text file name:
 
 Text file contents:
 
-```
+```sh
 #!/bin/bash
 
 /home/deck/Applications/OpenGOAL/versions/official/v0.2.0/gk -v --proj-path /home/deck/Applications/OpenGOAL/active/jak2/data --game jak2 -- -boot -fakeiso
@@ -522,18 +522,18 @@ Source: [https://www.shipofharkinian.com/](https://www.shipofharkinian.com/)
 
 #### Ocarina of Time Debug PAL GC (not Master Quest)
 > Currently the recommended option
-```
+```yaml
 Build team: `zelda@srd022j`
 Build date: `03-02-21 00:49:18` (year-month-day)
 sha1: cee6bc3c2a634b41728f2af8da54d9bf8cc14099
 ```
 #### Ocarina of Time PAL GameCube
 > May lead to crashes and instability
-```
+```yaml
 sha1: 0227d7c0074f2d0ac935631990da8ec5914597b4
 ```
 #### Ocarina of Time Debug PAL GC MQ (Dungeons will be Master Quest)
-```
+```yaml
 Build team: `zelda@srd022j`
 Build date: `03-02-21 00:16:31` (year-month-day)
 sha1: 079b855b943d6ad8bd1eb026c0ed169ecbdac7da (Produced by decomp)
