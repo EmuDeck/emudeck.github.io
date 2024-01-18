@@ -393,7 +393,8 @@ toir_patch-DecryptedWithComputer" version from [https://github.com/lifebottle/Ta
 
 1. In Desktop Mode, open Vita3K
 2. Open the `Settings` application, click `Start`
-    * The `Settings` application will be in your game list. By default it will look like a toolbag with a green background
+    * The `Settings` application will be in your game list. By default, it will look like a toolbag with a green background
+    * ![How to Configure Language Settings: Vita3K](../../assets/how-to-configure-language-settings-vita3k.png)
 3. Click `Language`
 4. Click `System Language`
 5. Select your preferred language in the drop-down menu
