@@ -21,7 +21,7 @@ This section will go over how to share and post your Steam Input profiles on thi
 
 **Tutorial**
 
-#### How to Locate the Steam Input Profile 
+#### How to Locate Steam Input Profiles
 [Back to the Top](#how-to-share-and-download-steam-input-profiles)
 
 1. Create a new Steam Input Layout in Game Mode
@@ -1821,7 +1821,7 @@ This section will go over how to share and post your Dolphin controller profiles
 
 ***
 
-#### How to Locate Dolphin Controller Profile 
+#### How to Locate Dolphin Controller Profiles
 [Back to the Top](#how-to-share-and-download-dolphin-profiles)
 
 To begin, locate your profile layout:
@@ -2517,7 +2517,7 @@ This section will go over how to share and post your MAME controller profiles on
 
 ***
 
-#### How to Locate MMAE Controller Profile 
+#### How to Locate MAME Controller Profiles 
 [Back to the Top](#how-to-share-and-download-mame-input-profiles)
 
 To begin, locate your profile layout:
