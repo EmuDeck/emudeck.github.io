@@ -895,7 +895,7 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 ### Super Mario Bros
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-### How to Compile Super Mario Bros on the Steam Deck
+#### How to Compile Super Mario Bros on the Steam Deck
 
 **Note:** This section requires a legal copy of `Super Mario World` and `Super Mario All-Stars` ROMs for the SNES. 
 
@@ -1964,7 +1964,17 @@ After placing ROMs in `Emulation/roms/model3`, open `EmulationStation-DE` in Gam
 ### Super Smash Bros: Project+
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21](https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21)
+Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#project](https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#project)
+
+### Smash Remix
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#smash-remix-smash-n64](https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#smash-remix-smash-n64)
+
+### Slippi
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#slippi](https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#slippi)
 
 *** 
 
