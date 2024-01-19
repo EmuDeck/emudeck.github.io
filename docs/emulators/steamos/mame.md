@@ -2,7 +2,7 @@
 
 Website: [https://www.mamedev.org/](https://www.mamedev.org/)
 
-Github: [https://github.com/mamedev/mame](https://github.com/mamedev/mame)
+GitHub: [https://github.com/mamedev/mame](https://github.com/mamedev/mame)
 
 MAME Wiki: [https://docs.mamedev.org/whatis.html](https://docs.mamedev.org/whatis.html)
 
@@ -29,7 +29,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
       - [How to Determine if a ROM Requires a CHD File](#how-to-determine-if-a-rom-requires-a-chd-file)
       - [How to Configure Controls on a Per Game Basis](#how-to-configure-controls-on-a-per-game-basis)
       - [How to Add Custom Bezels](#how-to-add-custom-bezels)
-      - [How to Enable Shaders/Scanlines in MAME (Standalone)](https://github.com/dragoonDorise/EmuDeck/wiki/MAME#how-to-enable-shadersscanlines-in-mame-standalone)
+      - [How to Enable Shaders/Scanlines in MAME (Standalone)](#how-to-enable-shadersscanlines-in-mame-standalone)
       - [How to Configure MAME to Work With EmulationStation-DE](#how-to-configure-mame-to-work-with-emulationstation-de)
       - [How to Roll Back MAME to an Older Version](#how-to-roll-back-mame-to-an-older-version)
       - [How to Configure Language Settings](#how-to-configure-language-settings)
@@ -64,7 +64,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
 
 **Note:** 
 
-* `~/.mame` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
+* `~/.mame` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 * `MAME [Standalone]` shares its `Emulation/roms/arcade` folder with `Arcade - RetroArch MAME Current`. Turning both of these parsers on in Steam ROM Manager will cause duplicates in your App List. 
 
 #### Works With
@@ -304,8 +304,10 @@ To determine if your ROM requires a `.chd` file:
 [Back to the Top](#mame-table-of-contents)
 
 1. In Desktop Mode, open `/home/deck/.mame/mame.ini`
+    * `~/.mame` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 2. Under the `OSD VIDEO OPTIONS` section, set `video` to `bgfx`
-3. Under the `BGFX POST-PROCESSING OPTIONS` section, set `bgfx_screen_chains` to the shader of your choice, for example: `crt-geom-deluxe`
+3. Under the `BGFX POST-PROCESSING OPTIONS` section, set `bgfx_screen_chains` to the shader of your choice
+    * For example: `crt-geom-deluxe`
 4. Save your changes to the file
 
 **Note:** Other shader values can be found here: [https://docs.mamedev.org/advanced/bgfx.html](https://docs.mamedev.org/advanced/bgfx.html)
