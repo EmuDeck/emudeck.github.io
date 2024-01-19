@@ -89,8 +89,7 @@ You will need to **create** a GitHub account first.
 1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md)
 2. Click the `Pencil` icon in the top right
 3. Create a new section below the most recently added profile section using 5 `#####` hashes for your section with a descriptive and simple title
-	* For example: `##### Nintendo 64 Controller`
-	* You may replace one of the `Steam Input Layout #s` sections as well
+	* For example: `#### Nintendo 64 Controller`
 	* Your section will be added to the [Table of Contents](#community-creations-table-of-contents) automatically
 4. Open your Steam Input profile in `Kate` or a text editor of your choice
 5. Paste the contents of the file into your newly created section, include a brief description and any prerequisites 
@@ -101,7 +100,7 @@ You will need to **create** a GitHub account first.
 
 ***
 
-#### How to Download Steam Input Layouts
+#### How to Download Steam Input Profiles
 [Back to the Top](#how-to-share-and-download-steam-input-profiles)
 
 1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
@@ -1787,24 +1786,24 @@ Profile Name: `mysmg.vdf`
 
 ***
 
-#### Steam Input Layout 5
+#### Steam Input Profile
 [Back to the Top](#community-creations-table-of-contents)
 
-Replace with your Steam Input Layout and a brief description. 
+Replace with your Steam Input profile and a brief description. 
 
 ***
 
-#### Steam Input Layout 6
+#### Steam Input Profile
 [Back to the Top](#community-creations-table-of-contents)
 
-Replace with your Steam Input Layout and a brief description. 
+Replace with your Steam Input profile and a brief description. 
 
 ***
 
-#### Steam Input Layout 7
+#### Steam Input Profile
 [Back to the Top](#community-creations-table-of-contents)
 
-Replace with your Steam Input Layout and a brief description. 
+Replace with your Steam Input profile and a brief description. 
 
 ***
 
@@ -1839,8 +1838,7 @@ You will need to **create** a GitHub account first.
 1. Open [https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md](https://github.com/EmuDeck/emudeck.github.io/blob/main/docs/community-creations/steamos/community-creations.md)
 2. Click the `Pencil` icon in the top right
 3. Create a new section below the most recently added profile section using 5 `#####` hashes for your section with a descriptive and simple title
-	* For example: `##### Wiimote Motion Controls With Nunchuck`
-	* You may replace one of the `Dolphin Config #s` sections as well
+	* For example: `#### Wiimote Motion Controls With Nunchuck`
 	* Your section will be added to the [Table of Contents](#community-creations-table-of-contents) automatically
 4. Open your Dolphin profile in `Kate` or a text editor of your choice
 5. Paste the contents of your Dolphin profile into your newly created section, include a brief description and any prerequisites
@@ -2462,6 +2460,42 @@ Rumble/Motor = Strong
 Options/Upright Wiimote = `Full Axis 2+`
 Options/Sideways Wiimote = True
 ```
+
+***
+
+#### Dolphin Profile
+
+Replace with your Dolphin profile and a brief description. 
+
+***
+
+#### Dolphin Profile
+
+Replace with your Dolphin profile and a brief description. 
+
+***
+
+#### Dolphin Profile
+
+Replace with your Dolphin profile and a brief description. 
+
+***
+
+#### Dolphin Profile
+
+Replace with your Dolphin profile and a brief description. 
+
+***
+
+#### Dolphin Profile
+
+Replace with your Dolphin profile and a brief description. 
+
+***
+
+#### Dolphin Profile
+
+Replace with your Dolphin profile and a brief description. 
 
 ***
 
