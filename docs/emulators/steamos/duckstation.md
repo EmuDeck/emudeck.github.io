@@ -65,13 +65,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Saves: `Emulation/saves/duckstation/saves`
 * Save States: `Emulation/saves/duckstation/states`
 
-!!! note 
+!!! info 
 
     `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-!!! note
+!!! tip
 
-    Refer to: [https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models](https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models), for a full list of PSX bios. System Models and PSX BIOS have matching names
+    Refer to: [https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models](https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models), for a full list of PSX bios. System Models and PSX BIOS have matching names.
 
 #### Works With
 * Steam ROM Manager
