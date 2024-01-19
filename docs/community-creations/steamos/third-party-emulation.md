@@ -251,8 +251,8 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 
 1. In `/home/deck/Applications`, create an `OpenGOAL` folder
 2. Place your `Jak and Dexter: The Precursor Legacy` ISO directly in the newly created `OpenGOAL` folder
-3. Download the latest `amd64.AppImage` from here: [https://github.com/open-goal/launcher/releases/tag/v2.3.6](https://github.com/open-goal/launcher/releases/tag/v2.3.6) and place it in the folder you created in Step 1
-    * Example: Download `open-goal-launcher_2.3.6_amd64.AppImage` 
+3. Download the latest `amd64.AppImage` from here: [https://github.com/open-goal/launcher/releases/latest](https://github.com/open-goal/launcher/releases/latest) and place it in the folder you created in Step 1
+    * Example: Download `open-goal-launcher_#.#.#_amd64.AppImage` 
         * The version number may be different depending on when you are reading this
 4. Right click `open-goal-launcher_#.#.#_amd64.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
 
@@ -334,8 +334,8 @@ Source: [https://opengoal.dev/](https://opengoal.dev/)
 
 1. In `/home/deck/Applications`, create an `OpenGOAL` folder
 2. Place your `Jak II` ISO directly in the newly created `OpenGOAL` folder
-3. Download the latest `amd64.AppImage` from here: [https://github.com/open-goal/launcher/releases/tag/v2.3.6](https://github.com/open-goal/launcher/releases/tag/v2.3.6) and place it in the folder you created in Step 1
-    * Example: Download `open-goal-launcher_2.3.6_amd64.AppImage` 
+3. Download the latest `amd64.AppImage` from here: [https://github.com/open-goal/launcher/releases/latest](https://github.com/open-goal/launcher/releases/latest) and place it in the folder you created in Step 1
+    * Example: Download `open-goal-launcher_#.#.#_amd64.AppImage` 
         * The version number may be different depending on when you are reading this
 4. Right click `open-goal-launcher_#.#.#_amd64.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
 
@@ -900,7 +900,7 @@ Source: [https://github.com/MorsGames/sm64plus](https://github.com/MorsGames/sm6
 ### Super Mario Bros
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-### How to Compile Super Mario Bros on the Steam Deck
+#### How to Compile Super Mario Bros on the Steam Deck
 
 **Note:** This section requires a legal copy of `Super Mario World` and `Super Mario All-Stars` ROMs for the SNES. 
 
@@ -1969,14 +1969,25 @@ After placing ROMs in `Emulation/roms/model3`, open `EmulationStation-DE` in Gam
 ### Super Smash Bros: Project+
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21](https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21)
+Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#project](https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#project)
+
+*** 
+
+### Smash Remix
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#smash-remix-smash-n64](https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#smash-remix-smash-n64)
+
+*** 
+
+### Slippi
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+Link: [https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#slippi](https://gist.github.com/WingofaGriffin/3202698447ca2452a9431137cfc18d21#slippi)
 
 *** 
 
 ## Emulation Related Games
-[Back to the Top](#third-party-emulation-table-of-contents)
-
-***
 
 ### AM2R
 [Back to the Top](#third-party-emulation-table-of-contents)
