@@ -305,7 +305,7 @@ To determine if your ROM requires a `.chd` file:
 
 !!! tip
 
-    Use the Bezel Project to locate bezels for your MAME ROMS: [https://github.com/thebezelproject/BezelProject-Windows](https://github.com/thebezelproject/BezelProject-Windows)
+    Use the Bezel Project to locate bezels for your MAME ROMs: [https://github.com/thebezelproject/BezelProject-Windows](https://github.com/thebezelproject/BezelProject-Windows)
 
 ***
 
