@@ -290,7 +290,7 @@ RPCS3 comes with a nifty auto-map feature that makes setting up multiplayer a br
 
 Some games will take additional setup, requiring mods or an extensive alteration of settings. The EmuDeck Community Creations page collects these configurations in one centralized location. 
 
-You can submit or view special game configurations here: [Special Game Configurations](../../community-creations/steamos/community-creations.md#rpcs3-playstation-3)
+To submit or view special game configurations, see [Special Game Configurations](../../community-creations/steamos/community-game-configurations.md#rpcs3).
 
 ***
 
