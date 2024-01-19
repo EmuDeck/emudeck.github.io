@@ -35,7 +35,7 @@ This section will go over how to share and post your Steam Input profiles on thi
     * Replace `<yourprofilename>` entirely with the profile name you created in Step 1
     * Using `Community Creations` as an example: <img src="https://user-images.githubusercontent.com/108900299/199399154-1d4a9e60-f2cd-4a13-bf89-c2fb2fb4280a.png" height="300">
 6. Open the folder path outputted by the command
-    * `~/.steam` is an invisible folder by default, in Dolphin (File Explorer), press the hamburger button in the top right, `☰`, press `Show Hidden Files`
+    * `~/.steam` is a hidden folder by default, in Dolphin (File Explorer), press the hamburger button in the top right, `☰`, press `Show Hidden Files`
 7. Copy this template to another folder of your choice
     * Rename the copied file to something descriptive, like the profile name created in Step 1
 8. Right click, click click `Open with Kate` or a text editor of your choice
@@ -105,7 +105,7 @@ You will need to **create** a GitHub account first.
 
 1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
 2. In this folder: `/home/deck/.steam/steam/controller_base/templates`, right click, `Create New`, `Text File`
-	* `.steam` is an invisible folder by default, click the hamburger menu in the top right, click `Show Hidden Files` to un-hide it
+	* `.steam` is a hidden folder by default, click the hamburger menu in the top right, click `Show Hidden Files` to un-hide it
 3. Paste the contents of a profile you would like to use
 4. Save the profile, matching the profile name in the section exactly, with a `.vdf` file extension
 	* Without the `.vdf` file extension, the profile will not work
@@ -1830,7 +1830,9 @@ Your Gamecube controller profiles are located here: `home/deck/.var/app/org.Dolp
 
 Your Wii controller profiles are located here: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
 
-**Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders.
+!!! note
+
+	`~/.var` is a hidden folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders.
 
 ***
 
@@ -1871,7 +1873,9 @@ After you have selected a profile, you may use the below tutorial to learn how t
     * Without the `.ini` file extension, the profile will not work
 5. You now have successfully downloaded a profile 
 
-**Note:** For instructions on how to set a Dolphin controller profile for a specific game, refer to: [How to Download Dolphin controller profiles and set it for a specific game](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
+!!! note
+
+	For instructions on how to set a Dolphin controller profile for a specific game, refer to: [How to Download Dolphin controller profiles and set it for a specific game](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 
 ***
 
@@ -2526,7 +2530,7 @@ To begin, locate your profile layout:
 
 !!! note
 
-	 `~/.mame` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders.
+	 `~/.mame` is an hidden folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders.
 
 ***
 
