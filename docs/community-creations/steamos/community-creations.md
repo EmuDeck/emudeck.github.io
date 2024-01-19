@@ -2530,7 +2530,7 @@ To begin, locate your profile layout:
 
 !!! note
 
-	 `~/.mame` is an hidden folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders.
+	 `~/.mame` is a hidden folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders.
 
 ***
 
