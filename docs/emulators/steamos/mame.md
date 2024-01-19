@@ -187,7 +187,9 @@ To understand how MAME works, look up the difference between merged and split RO
 
 Reference image: <img src="https://user-images.githubusercontent.com/108900299/230745173-8be48509-2131-4dc7-b4da-efb96a4b2594.png" height="300">
 
-**Note:** Refer to [https://docs.mamedev.org/usingmame/aboutromsets.html](https://docs.mamedev.org/usingmame/aboutromsets.html), for additional information. 
+!!! tip
+
+    Refer to [https://docs.mamedev.org/usingmame/aboutromsets.html](https://docs.mamedev.org/usingmame/aboutromsets.html), for additional information. 
 
 ***
 
@@ -317,7 +319,9 @@ To determine if your ROM requires a `.chd` file:
     * For example: `crt-geom-deluxe`
 4. Save your changes to the file
 
-**Note:** Other shader values can be found here: [https://docs.mamedev.org/advanced/bgfx.html](https://docs.mamedev.org/advanced/bgfx.html)
+!!! tip
+
+    Other shader values can be found here: [https://docs.mamedev.org/advanced/bgfx.html](https://docs.mamedev.org/advanced/bgfx.html)
 
 ***
 
