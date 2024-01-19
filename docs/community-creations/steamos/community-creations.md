@@ -1807,19 +1807,21 @@ Replace with your Steam Input profile and a brief description.
 
 ***
 
-## Dolphin Profiles
+## Dolphin Controller Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-### How to Share and Download Dolphin Profiles
+### How to Share and Download Dolphin Controller Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
-If you are new to Dolphin profiles, be sure to visit the [How to Create Dolphin Controller Profiles](../../emulators/steamos/dolphin.md#how-to-create-dolphin-controller-profiles) section on the Dolphin page to learn how to create one!
+If you are new to creating Dolphin controller profiles, be sure to visit the [How to Create Dolphin Controller Profiles](../../emulators/steamos/dolphin.md#how-to-create-dolphin-controller-profiles) section on the Dolphin page to learn how to create one!
 
-This section will go over how to share and post your Dolphin controller layouts on this page. 
+This section will go over how to share and post your Dolphin controller profiles on this page. 
 
-#### How to Locate the Dolphin Profile 
+***
+
+#### How to Locate Dolphin Controller Profile 
 [Back to the Top](#how-to-share-and-download-dolphin-profiles)
 
 To begin, locate your profile layout:
@@ -1830,7 +1832,9 @@ Your Wii controller profiles are located here: `/home/deck/.var/app/org.DolphinE
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders.
 
-#### How to Share the Dolphin Profile
+***
+
+#### How to Share Dolphin Controller Profiles
 [Back to the Top](#how-to-share-and-download-dolphin-profiles)
 
 You will need to **create** a GitHub account first.
@@ -1840,8 +1844,8 @@ You will need to **create** a GitHub account first.
 3. Create a new section below the most recently added profile section using 5 `#####` hashes for your section with a descriptive and simple title
 	* For example: `#### Wiimote Motion Controls With Nunchuck`
 	* Your section will be added to the [Table of Contents](#community-creations-table-of-contents) automatically
-4. Open your Dolphin profile in `Kate` or a text editor of your choice
-5. Paste the contents of your Dolphin profile into your newly created section, include a brief description and any prerequisites
+4. Open your Dolphin controller profile in `Kate` or a text editor of your choice
+5. Paste the contents of your Dolphin controller profile into your newly created section, include a brief description and any prerequisites
 6. Place three \``` at the top and the bottom of the pasted profile, refer to [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck) as an example
 7. Once you are finished making your changes, click the `Commit changes...` button in the top right
 8. You will be prompted to create a `Pull Request`. Add a little bit of detail about what you added and why
@@ -1849,10 +1853,10 @@ You will need to **create** a GitHub account first.
 
 ***
 
-#### How to Download Dolphin Profiles
+#### How to Download Dolphin Controller Profiles
 [Back to the Top](#how-to-share-and-download-dolphin-profiles)
 
-You may select a profile to download by choosing one from the list here: [Community Dolphin Profiles](#community-dolphin-profiles-table-of-contents).
+You may select a profile to download by choosing one from the Table of Contents: [Community Creations Table of Contents](#community-creations-table-of-contents).
 
 After you have selected a profile, you may use the below tutorial to learn how to download it and use it in Dolphin. 
 
@@ -1871,7 +1875,7 @@ After you have selected a profile, you may use the below tutorial to learn how t
 
 ***
 
-### Community Dolphin Profiles
+### Community Dolphin Controller Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
@@ -2463,39 +2467,113 @@ Options/Sideways Wiimote = True
 
 ***
 
-#### Dolphin Profile
+#### Dolphin Controller Profile
 
-Replace with your Dolphin profile and a brief description. 
-
-***
-
-#### Dolphin Profile
-
-Replace with your Dolphin profile and a brief description. 
+Replace with your Dolphin controller profile and a brief description. 
 
 ***
 
-#### Dolphin Profile
+#### Dolphin Controller Profile
 
-Replace with your Dolphin profile and a brief description. 
-
-***
-
-#### Dolphin Profile
-
-Replace with your Dolphin profile and a brief description. 
+Replace with your Dolphin controller profile and a brief description. 
 
 ***
 
-#### Dolphin Profile
+#### Dolphin Controller Profile
 
-Replace with your Dolphin profile and a brief description. 
+Replace with your Dolphin controller profile and a brief description. 
 
 ***
 
-#### Dolphin Profile
+#### Dolphin Controller Profile
 
-Replace with your Dolphin profile and a brief description. 
+Replace with your Dolphin controller profile and a brief description. 
+
+***
+
+#### Dolphin  Controller Profile
+
+Replace with your Dolphin controller profile and a brief description. 
+
+***
+
+#### Dolphin Controller Profile
+
+Replace with your Dolphin controller profile and a brief description. 
+
+***
+
+## MAME Controller Profiles
+[Back to the Top](#community-creations-table-of-contents)
+
+***
+
+### How to Share and Download MAME Input Profiles
+[Back to the Top](#community-creations-table-of-contents)
+
+If you are new to creating MAME controller profiles, be sure to visit the [How to Create MAME Controller Profiles](../../emulators/steamos/mame.md#how-to-configure-controls-on-a-per-game-basis) section on the MAME page to learn how to create one!
+
+This section will go over how to share and post your MAME controller profiles on this page. 
+
+***
+
+#### How to Locate MMAE Controller Profile 
+[Back to the Top](#how-to-share-and-download-mame-input-profiles)
+
+To begin, locate your profile layout:
+
+`/home/deck/.mame/cfg/GAMESHORTNAME.cfg`
+
+!!! note
+
+	 `~/.mame` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders.
+
+***
+
+#### How to Download MAME Controller Profiles
+[Back to the Top](#how-to-share-and-download-mame-input-profiles)
+
+You may select a profile to download by choosing one from the Table of Contents: [Community Creations Table of Contents](#community-creations-table-of-contents).
+
+After you have selected a profile, you may use the below tutorial to learn how to download it and use it in MAME.
+
+1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
+2. Open the MAME controller folder, ``/home/deck/.mame/cfg`, right click, `Create New`, `Text File`
+3. Paste the contents of a profile you would like to use
+4. Save the profile, either matching the profile name or something descriptive with an `.cfg` file extension
+    * Without the `.cfg` file extension, the profile will not work
+5. You now have successfully downloaded a profile 
+
+***
+
+### Community MAME Controller Profiles
+[Back to the Top](#community-creations-table-of-contents)
+
+***
+
+#### MAME Controller Profile
+
+Replace with your MAME controller profile and a brief description. 
+
+#### MAME Controller Profile
+
+Replace with your MAME controller profile and a brief description. 
+
+#### MAME Controller Profile
+
+Replace with your MAME controller profile and a brief description. 
+
+#### MAME Controller Profile
+
+Replace with your MAME controller profile and a brief description. 
+
+#### MAME Controller Profile
+
+Replace with your MAME controller profile and a brief description. 
+
+#### MAME Controller Profile
+
+Replace with your MAME controller profile and a brief description. 
 
 ***
 
