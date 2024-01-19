@@ -192,6 +192,7 @@ Reference image: <img src="https://user-images.githubusercontent.com/108900299/2
 ***
 
 ### How to Configure Multiplayer
+[Back to the Top](#mame-table-of-contents)
 
 Multiplayer for MAME is configured out of the box, no additional configuration is needed. 
 
@@ -201,10 +202,12 @@ You may need to re-arrange the controller order in Game Mode for your controller
 
 
 ### How to Determine if a ROM Requires BIOS
+[Back to the Top](#mame-table-of-contents)
 
 Some ROMs for MAME may require BIOS to run. For this section, these ROMs will be split into either `System` or `Software` ROMs. To delineate between the two simply, `System` ROMs are typically arcade ROMs and `Software` ROMs are usually computers or video game consoles. 
 
 #### How to Determine if a System ROM Requires BIOS
+[Back to the Top](#how-to-determine-if-a-rom-requires-bios)
 
 1. In a folder of your choice, right click anywhere in the folder, and click `Open Terminal here`
 2. Enter:
@@ -226,6 +229,7 @@ Some ROMs for MAME may require BIOS to run. For this section, these ROMs will be
 Recreating this file whenever MAME updates will get you the latest list of which System ROMs require BIOS. 
 
 #### How to Determine if a Software ROM Requires BIOS
+[Back to the Top](#how-to-determine-if-a-rom-requires-bios)
 
 1. Open [http://adb.arcadeitalia.net/default.php](http://adb.arcadeitalia.net/default.php)
 2. Search for the name of the console or computer in the search box, respecting punctuation and hyphenation when possible
@@ -235,6 +239,7 @@ Recreating this file whenever MAME updates will get you the latest list of which
     * For example, if you are playing `Game.com` through EmulationStation-DE, place `gamecom.zip` in `Emulation/roms/gamecom`
 
 ##### How to View Compatibility for Software ROMs
+[Back to the Top](#how-to-determine-if-a-rom-requires-bios)
 
 1. Open [http://adb.arcadeitalia.net/default.php](http://adb.arcadeitalia.net/default.php)
 2. Click `SOFTWARE` on the left side
@@ -296,7 +301,9 @@ To determine if your ROM requires a `.chd` file:
 2. Copy bezel files, in .zip format, into this folder, named the same as the ROM. 
 3. Done.
 
-**Note:** Use the Bezel Project to locate bezels for your MAME ROMS: [https://github.com/thebezelproject/BezelProject-Windows](https://github.com/thebezelproject/BezelProject-Windows)
+!!! tip
+
+    Use the Bezel Project to locate bezels for your MAME ROMS: [https://github.com/thebezelproject/BezelProject-Windows](https://github.com/thebezelproject/BezelProject-Windows)
 
 ***
 
