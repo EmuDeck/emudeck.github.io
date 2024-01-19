@@ -9,31 +9,20 @@
 
 ***
 
-## Controller Configurations
+## Steam Input Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-
-
-### Steam Input
+### How to Share and Download Steam Input Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
-***
-
-#### Getting Started With Steam Input
-[Back to the Top](#community-creations-table-of-contents)
-
-***
-
-#### How to Share Steam Input Layouts
-[Back to the Top](#community-creations-table-of-contents)
-
-This section will go over how to share and post your Steam Input Layouts on this page. 
+This section will go over how to share and post your Steam Input profiles on this page. 
 
 **Tutorial**
 
-##### How to Locate the Steam Input Profile 
+#### How to Locate the Steam Input Profile 
+[Back to the Top](#how-to-share-and-download-steam-input-profiles)
 
 1. Create a new Steam Input Layout in Game Mode
 2. After you are finished, press the Gear icon on the controller layout screen, click `Export Layout`, change `Export Type` to `New Personal Save`
@@ -92,7 +81,8 @@ This section will go over how to share and post your Steam Input Layouts on this
 	"localization"
 ```
 
-##### How to Share the Steam Input Profile 
+#### How to Share Steam Input Profiles
+[Back to the Top](#how-to-share-and-download-steam-input-profiles)
 
 You will need to **create** a GitHub account first.
 
@@ -112,14 +102,7 @@ You will need to **create** a GitHub account first.
 ***
 
 #### How to Download Steam Input Layouts
-[Back to the Top](#community-creations-table-of-contents)
-
-You may select a profile to download by choosing one from the list here: [Community Steam Input Profiles](#community-steam-input-profiles-table-of-contents).
-
-After you have selected a profile, you may use the below tutorial to learn how to download it and use it in Steam. 
-
-
-**Tutorial**
+[Back to the Top](#how-to-share-and-download-steam-input-profiles)
 
 1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
 2. In this folder: `/home/deck/.steam/steam/controller_base/templates`, right click, `Create New`, `Text File`
@@ -127,33 +110,16 @@ After you have selected a profile, you may use the below tutorial to learn how t
 3. Paste the contents of a profile you would like to use
 4. Save the profile, matching the profile name in the section exactly, with a `.vdf` file extension
 	* Without the `.vdf` file extension, the profile will not work
-5. You now have successfully downloaded a profile 
+5. You now have successfully downloaded a profile and the profile will automatically display in your list of Steam Input profiles in Game Mode 
 
 ***
 
-#### How to Use Steam Input Layouts
+### Community Steam Input Profiles 
 [Back to the Top](#community-creations-table-of-contents)
 
-In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whatever name it is currently set to) at the top, and you will see a drop-down menu. When playing a PSX, PSP, 3DS, or Wii U Game, switch to the respective Steam Input Profile.
-
-For a visual, watch the following GIF (EmuDeck - Duckstation is being used as an example):
-
-<img src="https://user-images.githubusercontent.com/108900299/194612525-670e56a1-a16a-4dbf-a03f-85d14e7f7b76.gif" height="300">
-
 ***
 
-#### Community Steam Input Profiles 
-[Back to the Top](#community-creations-table-of-contents)
-
-##### Community Steam Input Profiles Table of Contents
-
-* [Nintendo 64 Controller](#nintendo-64-controller)
-* [My SMG](#my-smg)
-
-
-***
-
-##### Nintendo 64 Controller
+#### Nintendo 64 Controller
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `Piximator` 
@@ -928,7 +894,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 
 ***
 
-##### My SMG
+#### My SMG
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `drone1313`
@@ -1821,51 +1787,41 @@ Profile Name: `mysmg.vdf`
 
 ***
 
-##### Steam Input Layout 5
+#### Steam Input Layout 5
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
 
 ***
 
-##### Steam Input Layout 6
+#### Steam Input Layout 6
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
 
 ***
 
-##### Steam Input Layout 7
+#### Steam Input Layout 7
 [Back to the Top](#community-creations-table-of-contents)
 
 Replace with your Steam Input Layout and a brief description. 
 
 ***
 
-### Dolphin
-[Back to the Top](#community-creations-table-of-contents)
-
-* [How to Create Dolphin Controller Profiles](../../emulators/steamos/dolphin.md#how-to-create-dolphin-controller-profiles)
-* [How to Share Dolphin Profiles](#how-to-share-dolphin-profiles) 
-* [How to Download Dolphin Profiles](#how-to-download-dolphin-profiles)
-* [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
-
-
-***
-
-#### Getting Started With Dolphin Profiles
+## Dolphin Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-#### How to Share Dolphin Profiles
+### How to Share and Download Dolphin Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 If you are new to Dolphin profiles, be sure to visit the [How to Create Dolphin Controller Profiles](../../emulators/steamos/dolphin.md#how-to-create-dolphin-controller-profiles) section on the Dolphin page to learn how to create one!
 
 This section will go over how to share and post your Dolphin controller layouts on this page. 
 
-##### How to Locate the Dolphin Profile 
+#### How to Locate the Dolphin Profile 
+[Back to the Top](#how-to-share-and-download-dolphin-profiles)
 
 To begin, locate your profile layout:
 
@@ -1875,7 +1831,8 @@ Your Wii controller profiles are located here: `/home/deck/.var/app/org.DolphinE
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders.
 
-##### How to Share the Dolphin Profile
+#### How to Share the Dolphin Profile
+[Back to the Top](#how-to-share-and-download-dolphin-profiles)
 
 You will need to **create** a GitHub account first.
 
@@ -1895,7 +1852,7 @@ You will need to **create** a GitHub account first.
 ***
 
 #### How to Download Dolphin Profiles
-[Back to the Top](#community-creations-table-of-contents)
+[Back to the Top](#how-to-share-and-download-dolphin-profiles)
 
 You may select a profile to download by choosing one from the list here: [Community Dolphin Profiles](#community-dolphin-profiles-table-of-contents).
 
@@ -1916,23 +1873,12 @@ After you have selected a profile, you may use the below tutorial to learn how t
 
 ***
 
-#### Community Dolphin Profiles
+### Community Dolphin Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 ***
 
-##### Community Dolphin Profiles Table of Contents
-
-* [Wiimote Motion Controls With Nunchuck](#wiimote-motion-controls-with-nunchuck)
-* [Wiimote Motion Controls With No Attachment](#wiimote-motion-controls-with-no-attachment)
-* [Super Mario Galaxy 1 and 2](#super-mario-galaxy-1-and-2)
-* [Gyro Steam Deck on Dolphin](#gyro-steam-deck-on-dolphin)
-* [New Super Mario Bros Wii](#new-super-mario-bros-wii)
-* [Sideways Wiimote With No Attachment](#sideways-wiimote-with-no-attachment)
-
-***
-
-##### Wiimote Motion Controls With Nunchuck
+#### Wiimote Motion Controls With Nunchuck
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `TrickTrigger`
@@ -2034,7 +1980,7 @@ Hotkeys/Upright Toggle = SELECT&THUMBR
 
 ***
 
-##### Wiimote Motion Controls With No Attachment
+#### Wiimote Motion Controls With No Attachment
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `Trick Trigger`
@@ -2143,7 +2089,7 @@ Hotkeys/Sideways Toggle = SELECT&THUMBR
 
 ***
 
-##### Super Mario Galaxy 1 and 2
+#### Super Mario Galaxy 1 and 2
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `Jigs`
@@ -2182,7 +2128,7 @@ Select the `My SMG` profile in the `Community Layouts` tab, designed to be used 
 
 ***
 
-##### Gyro Steam Deck on Dolphin
+#### Gyro Steam Deck on Dolphin
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: [_punto16_](https://github.com/punto16)
@@ -2303,7 +2249,7 @@ Options/Upright Wiimote = `Full Axis 2+`
 
 ***
 
-##### New Super Mario Bros Wii
+#### New Super Mario Bros Wii
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `drone1313`
@@ -2416,7 +2362,7 @@ Options/Sideways Wiimote = True
 
 ***
 
-##### Sideways Wiimote With No Attachment
+#### Sideways Wiimote With No Attachment
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `Ghost of Christmas Yet to Come`
@@ -2517,160 +2463,10 @@ Options/Upright Wiimote = `Full Axis 2+`
 Options/Sideways Wiimote = True
 ```
 
-
-
 ***
 
-## Special Game Configurations
+## How to Contribute to This Page
 [Back to the Top](#community-creations-table-of-contents)
-
-**Important:** This section is for game configurations that require elaborate setup. For minor tweaks and settings, please use Manacharge's community database. You can link back here in the community database as well. 
-
-You can contribute to the community games database here: [https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform](https://docs.google.com/forms/d/e/1FAIpQLScavGFOuGpEVpyHdRVcPjdrCEquG9ItBaloa8Q0XaiNlu_Afg/viewform)
-
-You can view the community database here: [https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1fRqvAh_wW8Ho_8i966CCSBgPJ2R_SuDFIvvKsQCv05w/edit?usp=sharing)
-
-***
-
-### RPCS3 (Playstation 3)
-[Back to the Top](#community-creations-table-of-contents)
-
-[How to set up and configure RPCS3](../../emulators/steamos/rpcs3.md#getting-started-with-rpcs3)
-
-***
-
-#### Metal Gear Solid 4
-[Back to the Top](#community-creations-table-of-contents)
-
-Credit: `AwkwaBear`
-
-**NOTE:** This guide is just to set up MGS4 and getting it ***RUNNING WITHOUT CRASHING*** on Steam Deck, much work is still needed to get it working with an optimized playable configuration free from audio issues and framerate hitching. This page is still a work in progress and will updated as better configuration options are determined
-
-***
-
-**Tutorial**
-
-MGS4 when first imported into RPCS3 will freeze natively and needs some work to get functioning.
-
-I believe trying to patch the file using the built in RPCS3 patch manager will not fix the issue and the game needs to be patched manually to get it working. (Let me know if anyone else is able to prove otherwise)
-
-1. If you haven't done so already, follow the PS3 setup guide from RGC to get mgs4 added and rpcs3 setup
-    - [https://retrogamecorps.com/2022/10/16/steam-deck-emulation-starter-guide/](https://retrogamecorps.com/2022/10/16/steam-deck-emulation-starter-guide/)
-2. Patch using the "Manually adding custom patches" section on this page and the MGS4 patch section in the second link. (You can make the patch yourself using the rpcs3 wiki link or download the one I have made from my github repo linked just below)
-    - [https://wiki.rpcs3.net/index.php?title=Help:Game_Patches#Using_game_patches](https://wiki.rpcs3.net/index.php?title=Help:Game_Patches#Using_game_patches)
-    - [https://wiki.rpcs3.net/index.php?title=Help:Game_Patches/Canary](https://wiki.rpcs3.net/index.php?title=Help:Game_Patches/Canary)
-    - Link to premade manual patch: [https://github.com/agasbarro36/MGS4-RPCS3-Manual-Patch](https://github.com/agasbarro36/MGS4-RPCS3-Manual-Patch)
-3. When the instructions say "Save the file in relevant location:" you need to navigate to save it in the flatpack location instead of the usual Linux one. _**NOTE: ~/.VAR is a hidden directory and you need to click show hidden files in dolphin file explorer to see it. **_
-	- <img src="https://user-images.githubusercontent.com/19947797/207243548-ad1eb95d-3608-442a-a8de-c1008087541f.png" height="600">
-    - The location is: `~/.var/app/net.rpcs3.RPCS3/config/rpcs3/patches`
-4. Open RPCS3 Navigate to the Patch Manager (Select Manage > Game Patches) and tick the checkbox corresponding to the patches you wish to apply.
-    - Select Metal Gear solid 4: Guns of the Patriots in the game list and click the tab to expand
-    - expand both tabs for the version of the game you have
-    -  select the `cellspurs urgent commands hack - 4.8x` (where 'x' is the ps3 firmware version you installed)
-    -  select `Crash Fix`
-    -  select `Disable Shadows`
-    -  select `Disable spawned effects`
-    -  select `Reduce Stage quality`
-    -  select `Unlock FPS`
-	- <img src="https://user-images.githubusercontent.com/19947797/196624586-81718981-902d-43f1-8a4d-28d5a718a79b.png" height="600">
-5. Apply and Save your patch settings then run the game
-6. Here are the current GPU settings I have tested but are still yet to be optimized 
-	- <img src="https://user-images.githubusercontent.com/19947797/207242116-712babf0-ad8f-46a8-8d21-2dd24e08fc77.png" height="600">
-
-
-
-***
-
-The game takes ~2 hours to install initially so be ready for a long wait
-	
-I recommend adding all the patches to boost performance as much as possible. This game is really hard to run so you need all the help you can get.
-	
-These are just the settings I got to work, maybe mess around with it and let me know if something works better and I can update this guide. 
-	
-Good luck out there, this game will work now albeit running kinda like trash, there's a lot of frame inconsistencies and audio either cutting out or missing altogether but it is technically able to be played (though I would not consider it above the threshold of "playable") I think the results are promising and with some community tweaking we can get this masterpiece to generally playable state on steam deck.
-
-You can find the guide here: https://github.com/dragoonDorise/EmuDeck/wiki/Metal-Gear-Solid-4---RPCS3-Setup-Guide.
-
-***
-
-### Yuzu (Nintendo Switch)
-[Back to the Top](#community-creations-table-of-contents)
-
-[How to set up and configure Yuzu](../../emulators/steamos/yuzu.md#getting-started-with-yuzu)
-
-***
-
-#### The Legend Of Zelda: Link's Awakening
-[Back to the Top](#community-creations-table-of-contents)
-
-**Credit:** `SardineCat`
-
-**Recommended Settings**
-
-* Yuzu on portable mode (idk if docked loses somes frames)
-* accuracy on high, cpu on unsafe, 
-* make sure you have powertools and then use smt off
-    * [How to install Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools)
-* use v1.0.0 of the game 
-
-**Recommended Mods**
-
-* [How to install mods](../../emulators/steamos/yuzu.md#how-to-install-mods)
-* This mod disables the blur effect which also increases some performance giving you some frames back: [https://cdn.discordapp.com/attachments/356187763139280896/798516893840965632/Blur_Removal.zip](https://cdn.discordapp.com/attachments/356187763139280896/798516893840965632/Blur_Removal.zip)
-* The 60fps mod found here: [https://cdn.discordapp.com/attachments/356187763139280896/724250990928461834/Stable-60fps-v2.zip](https://cdn.discordapp.com/attachments/356187763139280896/724250990928461834/Stable-60fps-v2.zip)
-
-**How well does the game perform after these tweaks?**
-
-* This all equates to 60fps almost everywhere, I lose a couple of frames in Mabe Village and Animal Village but its not a big deal IMO.
-* Fixes the invisible Chain Chomp bug
-
-***
-
-## Tools and Utilities
-[Back to the Top](#community-creations-table-of-contents)
-
-***
-
-### How to Set Up SyncThing
-[Back to the Top](#community-creations-table-of-contents)
-
-See [How to Set Up SyncThing](./tools-and-guides.md#how-to-set-up-syncthing)
-
-***
-
-## How to Contribute to EmuDeck
-[Back to the Top](#community-creations-table-of-contents)
-
-***
-
-### How to Submit an Emulator Package
-[Back to the Top](#community-creations-table-of-contents)
-
-To submit an emulator for integration into EmuDeck, use the following template:
-
-**Create an issue and pull request to add an emulator to EmuDeck.**
-
-Include the following configurations:
-
-* Create a .sh file for the emulator in `Emulation/tools/launchers`
-* Create a Steam ROM Manager Parser
-* Create an emulator function, to download the emulator and configure proper permissions
-* Create a storage directory, if necessary, in `Emulation/storage`
-* Configure BIOS directory, if necessary, in `Emulation/bios`
-    * If not doable, create a BIOS link in `Emulation/bios`
-* Configure emulator saves location in `Emulation/saves`
-    * If not doable, create a saves link in `Emulation/saves`
-* Create a controller profile
-* Configure hotkeys
-    * If not doable using Steam Deck buttons, create a Steam input profile mapping keyboard keys to Steam Deck buttons
-* Create controller profiles for multiplayer
-
-For a list of standalone emulators that work on Steam Deck, refer to [https://gist.github.com/rawdatafeel/9873683285d68025846424adfd5c4296](https://gist.github.com/rawdatafeel/9873683285d68025846424adfd5c4296). 
-
-*** 
-
-### How to Contribute to This Page
-[Back to the Top](#third-party-emulation-table-of-contents)
 
 You will need to **create** a GitHub account first. To sign up for GitHub, see [https://github.com/signup](https://github.com/signup).
 
