@@ -11,22 +11,23 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/1H66MxViRjjE5f8hOl5R
 ## DuckStation Table of Contents
 
 1. [Getting Started with DuckStation](#getting-started-with-duckstation)
-      - [Configuration](#duckstation-configuration)
-      - [DuckStation Folder Locations](#duckstation-folder-locations)
-      - [How to Update DuckStation](#how-to-update-duckstation)
-      - [How to Launch DuckStation in Desktop Mode](#how-to-launch-duckstation-in-desktop-mode)
-      - [File Formats](#duckstation-file-formats)
-      - [Configuring DuckStation to work alongside Retroarch's Beetle HW PSX core](#configuring-duckstation-to-work-alongside-retroarchs-beetle-hw-psx-core)
-      - [Hotkeys](#duckstation-hotkeys)
+    - [Configuration](#duckstation-configuration)
+    - [DuckStation Folder Locations](#duckstation-folder-locations)
+    - [How to Update DuckStation](#how-to-update-duckstation)
+    - [How to Launch DuckStation in Desktop Mode](#how-to-launch-duckstation-in-desktop-mode)
+    - [File Formats](#duckstation-file-formats)
+    - [DuckStation and RetroArch PlayStation 1 Cores BIOS Information](#duckstation-and-retroarch-playstation-1-cores-bios-information)
+    - [DuckStation and RetroArch PlayStation 1 Cores EmulationStation-DE Information](#duckstation-and-retroarch-playstation-1-cores-emulationstation-de-information)
+    - [Hotkeys](#duckstation-hotkeys)
 
 2. [DuckStation Tips and Tricks](#duckstation-tips-and-tricks)
-      - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)
-      - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
-      - [How to Use Cheats](#how-to-use-cheats)
-      - [How to Configure Multiplayer](#how-to-configure-multiplayer)
-      - [How to Roll Back DuckStation to an Older Version](#how-to-roll-back-duckstation-to-an-older-version)
-      - [How to Create CUE files](../../file-management/steamos/file-management.md#how-to-create-cue-files)
-      - [How to Configure Language Settings](#how-to-configure-language-settings)
+    - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)
+    - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
+    - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Configure Multiplayer](#how-to-configure-multiplayer)
+    - [How to Roll Back DuckStation to an Older Version](#how-to-roll-back-duckstation-to-an-older-version)
+    - [How to Create CUE files](../../file-management/steamos/file-management.md#how-to-create-cue-files)
+    - [How to Configure Language Settings](#how-to-configure-language-settings)
 
 ***
 
@@ -52,16 +53,25 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Config Location: `/home/deck/.var/app/org.duckstation.DuckStation`
 * ROM Location: `Emulation/roms/psx`
 * BIOS Location: `Emulation/bios` 
-    * **IMPORTANT:** Files go directly in this folder. Do not make or use a `PSX`, `PS1`, or any sort of folder here. DuckStation will not be able to find your bios files if they are in a folder. 
-    * Required BIOS (Example set, one per region - US, Europe, Japan): `scph5500.bin`, `scph5501.bin`, `scph5502.bin `
+    
+    !!! important
+    
+    Files go directly in this folder. Do not make or use a `PSX`, `PS1`, or any sort of folder here. DuckStation will not be able to find your bios files if they are in a folder. 
+
+    !!! info
+
+    Required BIOS (Example set, one per region - US, Europe, Japan): `scph5500.bin`, `scph5501.bin`, `scph5502.bin`
+
 * Saves: `Emulation/saves/duckstation/saves`
 * Save States: `Emulation/saves/duckstation/states`
 
-**Note:** 
+!!! note 
 
-* `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
-* Refer to: [https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models](https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models), for a full list of PSX bios
-      * System Models and PSX BIOS have matching names
+    `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
+
+!!! note
+
+    Refer to: [https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models](https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models), for a full list of PSX bios. System Models and PSX BIOS have matching names
 
 #### Works With
 * Steam ROM Manager
@@ -144,18 +154,23 @@ org.duckstation.DuckStation/
 * .mds 
 * .pbp
 
-### Configuring DuckStation to work alongside Retroarch's Beetle HW PSX core
+### DuckStation and RetroArch PlayStation 1 Cores BIOS Information
 [Back to the Top](#duckstation-table-of-contents)
 
-* ROM files for Retroarch's Beetle HW PSX core are shared with DuckStation in `Emulation/roms/psx`. 
-* BIOS files for Retroarch's Beetle HW PSX core are shared with DuckStation in `Emulation/bios` (no subfolders).
-* As long as you name your BIOS files in this format: `scph####.bin`(####'s are a placeholder), Retroarch's Beetle HW PSX core will work alongside DuckStation. 
+* ROM files for RetroArch's PlayStation 1 cores are shared with DuckStation in `Emulation/roms/psx`. 
+* BIOS files for RetroArch's PlayStation 1 cores are shared with DuckStation in `Emulation/bios` (no subfolders).
+* As long as you name your BIOS files in this format: `scph####.bin`(####'s are a placeholder), RetroArch's PlayStation 1 cores will work alongside DuckStation. 
 * Be sure to rename your BIOS files and note the lowercase `scph`, lowercase `bin` in the example above.
 
-**Note:** By default, EmulationStation-DE uses Retroarch's Beetle HW PSX core. Both Retroarch's Beetle HW PSX core and DuckStation should work if you have set everything up properly. 
+***
 
-To switch between the two in EmulationStation-DE, you can use the `Alternative Emulators` feature. Refer to https://github.com/dragoonDorise/EmuDeck/wiki/EmulationStation-DE#how-to-select-a-different-emulator-for-a-system, for instructions. 
+### DuckStation and RetroArch PlayStation 1 Cores EmulationStation-DE Information
+[Back to the Top](#duckstation-table-of-contents)
 
+By default, EmulationStation-DE uses Retroarch's Beetle HW PSX core. Both Retroarch's Beetle HW PSX core and DuckStation will work if you have set everything up properly. 
+
+To switch between the two in EmulationStation-DE, you can use the `Alternative Emulators` feature. See [EmulationStation-DE: How to Select a Different Emulator for a System](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-for-a-system) for instructions.
+    
 ***
 
 ### DuckStation Hotkeys
