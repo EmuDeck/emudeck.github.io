@@ -1,4 +1,4 @@
-# DuckStation is a Sony Playstation 1 emulator. 
+# DuckStation is a Sony PlayStation 1 emulator. 
 
 Website: [https://www.duckstation.org/](https://www.duckstation.org/)
 
