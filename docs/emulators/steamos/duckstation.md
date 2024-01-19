@@ -53,25 +53,15 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Config Location: `/home/deck/.var/app/org.duckstation.DuckStation`
 * ROM Location: `Emulation/roms/psx`
 * BIOS Location: `Emulation/bios` 
-    
-!!! important
-    
-    Files go directly in this folder. Do not make or use a `PSX`, `PS1`, or any sort of folder here. DuckStation will not be able to find your bios files if they are in a folder. 
-
-!!! info
-
-    Required BIOS (Example set, one per region - US, Europe, Japan): `scph5500.bin`, `scph5501.bin`, `scph5502.bin`
-
+    * Files go directly in this folder. Do not make or use a `PSX`, `PS1`, or any sort of folder here. DuckStation will not be able to find your bios files if they are in a folder. 
+    * Required BIOS (Example set, one per region - US, Europe, Japan): `scph5500.bin`, `scph5501.bin`, `scph5502.bin`
 * Saves: `Emulation/saves/duckstation/saves`
 * Save States: `Emulation/saves/duckstation/states`
 
 !!! info 
 
     `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
-
-!!! tip
-
-    Refer to: [https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models](https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models), for a full list of PSX bios. System Models and PSX BIOS have matching names.
+    Refer to [https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models](https://en.wikipedia.org/wiki/PlayStation_models#Comparison_of_models), for a full list of PSX bios. System Models and PSX BIOS have matching names.
 
 #### Works With
 * Steam ROM Manager
