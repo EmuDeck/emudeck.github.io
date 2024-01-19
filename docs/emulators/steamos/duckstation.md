@@ -54,11 +54,11 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * ROM Location: `Emulation/roms/psx`
 * BIOS Location: `Emulation/bios` 
     
-    !!! important
+!!! important
     
     Files go directly in this folder. Do not make or use a `PSX`, `PS1`, or any sort of folder here. DuckStation will not be able to find your bios files if they are in a folder. 
 
-    !!! info
+!!! info
 
     Required BIOS (Example set, one per region - US, Europe, Japan): `scph5500.bin`, `scph5501.bin`, `scph5502.bin`
 
