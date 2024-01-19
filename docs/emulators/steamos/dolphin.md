@@ -55,7 +55,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Remove the Unsupported Extension Controller](#how-to-remove-the-unsupported-extension-controller)
     - [How to Configure Real Wiimotes](#how-to-configure-real-wiimotes)
     - [How to Use a Mayflash DolphinBar in Game Mode](#how-to-use-a-mayflash-dolphinbar-in-game-mode)
-    - [Dolphin Community Controller Profiles](#dolphin-community-controller-profiles)
+    - [Community Dolphin Controller Profiles](../../community-creations/steamos/community-creations.md#community-dolphin-controller-profiles)
         - [Gyro Steam Deck on Dolphin](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
         - [Wiimote Motion Controls With No Attachment](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
         - [Wiimote Motion Controls With Nunchuck](../../community-creations/steamos/community-creations.md#wiimote-motion-controls-with-nunchuck)
@@ -1175,20 +1175,6 @@ Here's how to **resolve the error** and remove the Nunchuk:
     * <img src="https://user-images.githubusercontent.com/1683513/223632945-8baa6102-ef9c-43b5-9199-faa608e1b654.png" width="800">
 
 5. Make sure `Wii Emulator Mode` is toggled on the Mayflash DolphinBar by clicking the `MODE` button (LED 4)
-
-*** 
-
-
-
-### Dolphin Community Controller Profiles
-[Back to the Top](#dolphin-table-of-contents)
-
-- [Gyro Steam Deck on Dolphin](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
-- [Wiimote Motion Controls With No Attachment](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
-- [Wiimote Motion Controls With Nunchuck](../../community-creations/steamos/community-creations.md#wiimote-motion-controls-with-nunchuck)
-- [New Super Mario Bros Wii](../../community-creations/steamos/community-creations.md#new-super-mario-bros-wii)
-- [Sideways Wiimote With No Attachment](../../community-creations/steamos/community-creations.md#sideways-wiimote-with-no-attachment)
-- [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
 
 ***
 
