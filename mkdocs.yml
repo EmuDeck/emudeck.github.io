@@ -133,6 +133,7 @@ nav:
     - Community Creations:
         - EmuDeck for SteamOS:
             - Community Creations: 'community-creations/steamos/community-creations.md'
+            - Community Game Configurations: 'community-creations/steamos/community-game-configurations.md'
             - Third Party Emulation (Decompilations and Games): 'community-creations/steamos/third-party-emulation.md'  
             - Tools and Guides: 'community-creations/steamos/tools-and-guides.md'  
         - EmuDeck for Windows:
