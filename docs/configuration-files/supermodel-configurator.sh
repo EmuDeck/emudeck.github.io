@@ -1,8 +1,8 @@
 #!/bin/bash
 
-mkdir $HOME/.supermodel
-cd $HOME/.supermodel
-cp -r /var/lib/flatpak/app/com.supermodel3.Supermodel/x86_64/stable/active/files/bin/Assets .
-cp -r /var/lib/flatpak/app/com.supermodel3.Supermodel/x86_64/stable/active/files/bin/Config .
-cp -r /var/lib/flatpak/app/com.supermodel3.Supermodel/x86_64/stable/active/files/bin/Docs .
+mkdir -p $HOME/.supermodel/Analysis $HOME/.supermodel/Log $HOME/.supermodel/NVRAM
+cp -r $HOME/.local/share/flatpak/app/com.supermodel3.Supermodel/current/active/files/bin/Config $HOME/.supermodel
+cp -r $HOME/.local/share/flatpak/app/com.supermodel3.Supermodel/current/active/files/bin/Assets $HOME/.supermodel
+cp -r $HOME/.local/share/flatpak/app/com.supermodel3.Supermodel/current/active/files/bin/Docs $HOME/.supermodel
+
 
