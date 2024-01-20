@@ -1864,7 +1864,7 @@ Prerequisites:
 6. Download attached `.sh` file to your `Downloads` folder
     * [supermodel-configurator.sh](../../configuration-files/supermodel-configurator.sh)
 7. Right click `supermodel-configurator.sh`, click `Properties`, click `Permissions`, check `Is executable`
-8. Double click `supermodel-configurator.sh` to run it
+8. Right click `supermodel-configurator.sh`, click `Run in Konsole`, close out of the terminal after you see "Supermodel configurations copied"
     * You can confirm it worked by checking if a `.supermodel` folder was created in your `home` folder
         * `~/.supermodel` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders 
 
