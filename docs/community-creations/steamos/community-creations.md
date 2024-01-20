@@ -2512,7 +2512,7 @@ Replace with your Dolphin controller profile and a brief description.
 
 ***
 
-### How to Share and Download MAME Input Profiles
+### How to Share and Download MAME Controller Profiles
 [Back to the Top](#community-creations-table-of-contents)
 
 If you are new to creating MAME controller profiles, be sure to visit the [How to Create MAME Controller Profiles](../../emulators/steamos/mame.md#how-to-configure-controls-on-a-per-game-basis) section on the MAME page to learn how to create one!
