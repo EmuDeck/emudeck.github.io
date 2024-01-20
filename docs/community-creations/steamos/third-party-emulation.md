@@ -1732,7 +1732,7 @@ Emulation/
 1. Download attached `.sh` file to your `Downloads` folder
     * [model-2-esde.sh](../../configuration-files/model-2-esde.sh)
 2. Right click `model-2-esde.sh`, click `Properties`, click `Permissions`, check `Is executable`
-3. Double click `model-2-esde.sh` to run it 
+3. Right click `model-2-esde.sh`, click `Run in Konsole`, close out of the terminal after you see "Model 2 added to EmulationStation-DE custom_systems"
 4. **Place** your **zipped** ROMs in `Emulation/roms/model2/roms`
 5. EmulationStation-DE will now be configured for Model 2
 

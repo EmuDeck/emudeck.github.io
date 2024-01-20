@@ -17,4 +17,5 @@ source $HOME/.config/EmuDeck/backend/functions/all.sh
 
 		#format doc to make it look nice
 		xmlstarlet fo "$es_systemsFile" > "$es_systemsFile".tmp && mv "$es_systemsFile".tmp "$es_systemsFile"
+		echo "Model 2 added to EmulationStation-DE custom_systems"
 	fi
