@@ -195,11 +195,13 @@ Alternatively, you may also use No-Intro's DAT-o-MATIC, [https://datomatic.no-in
 ### How to Create CUE Files
 [Back to the Top](#file-management-table-of-contents)
 
-"A cue sheet, or cue file, is a metadata file which describes how the tracks of a CD or DVD are laid out. Cue sheets are stored as plain text files and commonly have a ".cue" filename extension." 
+!!! info
+
+    "A cue sheet, or cue file, is a metadata file which describes how the tracks of a CD or DVD are laid out. Cue sheets are stored as plain text files and commonly have a ".cue" filename extension."
 
 Source: [https://emulation.gametechwiki.com/index.php/Cue_sheet_(.cue)](https://emulation.gametechwiki.com/index.php/Cue_sheet_(.cue))
 
-Typically `CUE` files are paired with `BIN` files. You will have one `CUE` file paired with `BIN` files. The `CUE` file is important for multiple reasons. Firstly, tells the emulator in which order to play each `BIN` file. Secondly, if you are compressing your ROMs into the `CHD` file format, the `CUE` file is used as a reference by the compression tool. Without the `CUE` file, the compression tool cannot compress and convert your ROM to CHD. 
+Typically `CUE` files are paired with `BIN` files. You will have one `CUE` file paired with `BIN` files. The `CUE` file is important for multiple reasons. Firstly, it tells the emulator in which order to play each `BIN` file. Secondly, if you are compressing your ROMs into the `CHD` file format, the `CUE` file is used as a reference by the compression tool. Without the `CUE` file, the compression tool cannot compress and convert your ROM to CHD. 
 
 If you are missing a `CUE` file, you will need to create one. If you renamed any of your `BIN` files, you will need to either edit your `CUE` file in a text editor of your choice or recreate it. 
 
