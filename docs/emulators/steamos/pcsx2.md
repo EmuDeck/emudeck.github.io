@@ -658,7 +658,7 @@ While in game, open the settings menu and disable trails.
 
 The below quote is copied from the PCSX2 Discord.
 
-!! quote
+!!! quote
 
     Grand Theft Auto: San Andreas - No, the "Ghosting" isn't a bug
     The screen is supposed to have a colored double image, it was an intentional design choice and still exists on native resolution. Upscaling makes it easier to notice but it is still correct.
