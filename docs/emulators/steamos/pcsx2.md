@@ -41,6 +41,10 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Roll Back PCSX2 to an Older Version](#how-to-roll-back-pcsx2-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Set Up mymc](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-mymc)
+4. [Custom Game Settings](#custom-game-settings)
+    - [Grand Theft Auto III "Ghosting"](#grand-theft-auto-iii-ghosting)
+    - [Grand Theft Auto: San Andreas "Ghosting"](#grand-theft-auto-san-andreas-ghosting)
+
 
 ***
 
@@ -540,7 +544,7 @@ _This list is not exhaustive_
 #### Setting up PCSX2
 
 1. In Desktop Mode, Open PCSX2
-2. Right click `SLUS_216.21` in the game list, click properties
+2. Right click `SLUS_216.21` in the game list, click `Properties`
 3. Enable `Cheats` and `Host Filesystem`
     * <img src="https://user-images.githubusercontent.com/108900299/209885037-cbd110a8-9091-4b7e-9902-ada8ed860ea3.png" height="300">
 4. On the `Disc Path` field, select your Persona 3 FES ISO
@@ -630,5 +634,44 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 7. Select `System Configuration`
 8. Scroll down to `Language`
 9. Select your preferred language
+
+***
+
+## Custom Game Settings
+[Back to the Top](#pcsx2-qt-table-of-contents) 
+
+***
+
+### Grand Theft Auto III "Ghosting"
+[Back to the Top](#pcsx2-qt-table-of-contents) 
+
+While in game, open the settings menu and disable trails.
+
+![Grand Theft Auto III "Ghosting"](../../assets/grand-theft-auto-iii-ghosting.png)
+
+***
+
+### Grand Theft Auto: San Andreas "Ghosting"
+[Back to the Top](#pcsx2-qt-table-of-contents) 
+
+![Grand Theft Auto: San Andreas "Ghosting"](../../assets/grand-theft-auto-san-andreas-ghosting.png)
+
+The below quote is copied from the PCSX2 Discord.
+
+!! quote
+
+    Grand Theft Auto: San Andreas - No, the "Ghosting" isn't a bug
+    The screen is supposed to have a colored double image, it was an intentional design choice and still exists on native resolution. Upscaling makes it easier to notice but it is still correct.
+
+    But I don't like it. Make it go away.
+    Lucky for you, the community has made a patch and ported it to all (known) versions of the game. The patch is included in the latest PCSX2 nightly version.
+
+#### How to Apply the Patch
+
+1. In Desktop Mode, open PCSX2
+2. Right click Grand Theft Auto: San Andreas, click `Properties`
+3. Click the `Patches` tab
+4. Enable the patch for removing the radiosity effect
+
 
 ***
