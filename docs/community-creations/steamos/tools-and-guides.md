@@ -55,7 +55,7 @@ RetroArch SaveData:
 
 Ryujinx SaveData:
 
-    path="/home/deck/.config/Ryujinx/bis/user/"
+    path="/home/deck/.config/Ryujinx/bis/"
 
 RPCS3 SaveData:
     
