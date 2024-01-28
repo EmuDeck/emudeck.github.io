@@ -4,6 +4,7 @@ search:
 ---
 
 <!--If you would like to edit this page, the tables are located in the docs/tables folder -->
+<!--You may open the CSV files in any spreadsheet editor such as Excel, Google Spreadsheets, or LibreOffice-->
 
 # The Cheat Sheet is Your Tool to Success.
 
