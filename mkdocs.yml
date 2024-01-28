@@ -241,7 +241,7 @@ plugins:
     - search:
         separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
     - glightbox
-    #- i18n:
+    - i18n:
         docs_structure: suffix
         languages:
           - locale: en
