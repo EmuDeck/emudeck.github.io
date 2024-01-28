@@ -17,6 +17,7 @@ Read the [EmulationStation-DE](../steamos/emulationstation-de.md) page to learn 
 
 1. [Getting started with Steam ROM Manager](#getting-started-with-steam-rom-manager)
     - [Configuration](#configuration)
+    - [Steam ROM Manager Folder Locations](#steam-rom-manager-folder-locations)
     - [How to Update Steam ROM Manager](#how-to-update-steam-rom-manager)
     - [How to Launch Steam ROM Manager in Desktop Mode](#how-to-launch-steam-rom-manager-in-desktop-mode)
     - [How to Reset Steam ROM Manager](#how-to-reset-steam-rom-manager) 
@@ -42,6 +43,7 @@ Read the [EmulationStation-DE](../steamos/emulationstation-de.md) page to learn 
     - [How to Change Themes](#how-to-change-themes)
     - [How to Backup Your Image Choices](#how-to-backup-your-image-choices)
     - [How to Remove ROMs on a Per System Basis](#how-to-remove-roms-on-a-per-system-basis)
+    - [How to See File Names in Steam ROM Manager](#how-to-see-file-names-in-steam-rom-manager)
 
 ***
 
@@ -67,13 +69,40 @@ If you prefer, you may use the `EmulationStation-DE` parser to add `EmulationSta
 ### Configuration
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
+* Type of Tool: AppImage
 * Executable Location: `Emulation/tools/srm/Steam-ROM-Manager.AppImage`
 * Config Location: `/home/deck/.config/steam-rom-manager`
-* Art Location: `/home/deck/.steam/steam/userdata/<steamuseridnumber>/config/grid`
+* Art Location: `/home/deck/.local/share/Steam/userdata/<steamuseridnumber>/config/grid`
 
 Note: 
 
 * `~/.config` and `~/.steam` are invisible folders by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
+
+***
+
+### Steam ROM Manager Folder Locations
+[Back to the Top](#steam-rom-manager-table-of-contents)
+
+These file locations apply regardless of where you chose to install EmuDeck (to your internal SSD, to your SD Card, or elsewhere). Some emulator configuration files will be located on the internal SSD as listed below. 
+
+`$HOME` refers to your home folder. If you are on a Steam Deck, this folder will be named `/home/deck` (you will likely not see `deck` in the file path when navigating using the file manager). 
+
+Paths beginning with `Emulation/..` correspond to your EmuDeck install location. If you installed on an SD Card, your path may be `/run/media/mmcblk0p1/Emulation/roms/..`. If you installed on your internal SSD, your path may be `/home/deck/Emulation/roms/..`
+
+**Note:** Folders with a `.` (`.var`, `.local`, `.config`, etc.) at the beginning are hidden by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
+
+`$HOME/.config/steam-rom-manager/`
+
+```
+steam-rom-manager
+└── userData
+    ├── userConfigurations.json
+    └── userSettings.json
+```
+
+`$HOME/.local/share/Steam/userdata/1075972294/config/grid/`
+
+Contains your Steam ROM Manager scraped art files.
 
 ***
 
@@ -736,5 +765,28 @@ With this feature, you can also remove multiple sets at once.
 4. Click `Parse`
 5. Click the `Remove from Steam` button at the bottom of the screen
     * ![How to Remove ROMs on a Per System Basis](../../assets/how-to-remove-roms-on%20a-per-system-basis.png)    
+
+***
+
+### How to See File Names in Steam ROM Manager
+[Back to the Top](#steam-rom-manager-table-of-contents)
+
+If your ROMs are parsing incorrectly or you would simply like to match what is being parsed to the file in your ROM folder, you may need to see the ROM file name directly in Steam ROM Manager.
+
+**Here's How**
+
+1. Open Steam ROM Manager
+2. Parse an app list
+3. Hover over a ROM entry
+4. Move your trackpad to the ROM name in the top left (even if it is incorrect)
+5. You will see a tiny gray box with the extracted file name of your ROM (without the file extension)
+
+In the image below, Steam ROM Manager is parsing `Golden Sun (Krypton).gba` as `Golden Sun`. The parsed name is the name in the top left of the box. The file name is the name in the small gray pop-up box (without the file extension).
+
+![How to See File Names in Steam ROM Manager: 1](../../assets/how-to-see-file-names-in-steam-rom-manager-1.png)
+
+The image below shows the actual Golden Sun ROM in the ROM folder and its file name. 
+
+![How to See File Names in Steam ROM Manager: 2](../../assets/how-to-see-file-names-in-steam-rom-manager-2.png)
 
 ***
