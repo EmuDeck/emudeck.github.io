@@ -241,7 +241,7 @@ plugins:
     - search:
         separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
     - glightbox
-    - i18n:
+    #- i18n:
         docs_structure: suffix
         languages:
           - locale: en
@@ -254,6 +254,11 @@ plugins:
         #   - locale: fr
         #     name: Français
         #     build: true
+    - table-reader:
+        base_path: "config_dir"
+        data_path: "docs/tables/"
+        search_page_directory: True
+        allow_missing_files: True
 # Footer
 extra:
   social:
