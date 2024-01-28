@@ -1233,6 +1233,8 @@ Source: [https://github.com/snesrev/zelda3](https://github.com/snesrev/zelda3)
 
 #### Installing Prerequisites
 
+Note: In lieu of the following, you can simply download the zelda3 flatpak from the Discover store in Desktop Mode.
+
 1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
 2. Enter the Distrobox by opening Konsole and entering: 
     * `distrobox enter ubuntu`
