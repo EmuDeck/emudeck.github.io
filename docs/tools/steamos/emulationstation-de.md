@@ -47,6 +47,7 @@ Read the [Steam ROM Manager](../steamos/steam-rom-manager.md) page to learn more
 ### Emulationstation-DE Configuration
 [Back to the Top](#emulationstation-de-table-of-contents)
 
+* Type of Tool: AppImage
 * Executable Location: `Emulation/tools/EmulationStation-DE-x64_SteamDeck.AppImage`
 * Scraped Media Location: `Emulation/tools/downloaded_media`
 * Config Location: `/home/deck/.emulationstation`
