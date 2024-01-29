@@ -379,25 +379,25 @@ If you are choosing to create your own profile:
     * You may add the Dolphin emulator to Steam by using the `Emulators` parser in Steam ROM Manager 
 3. In Game Mode, enable gyro for the Dolphin emulator
     * For instructions, see [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu) 
-3. In Game Mode, open the Dolphin emulator
-4. Open the `Controllers` menu
-5. Select `Configure` to the right of `Wii Remote 1`
+4. In Game Mode, open the Dolphin emulator
+5. Open the `Controllers` menu
+6. Select `Configure` to the right of `Wii Remote 1`
     * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
-6. Make sure `evdev/microsoft X-box 360 pad 0` is set in the top left
-7. Select the `Motion Input` tab
-8. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `STEAM` + `L2`
-9. Make sure `DSUClient/0/steamdeckgyro` is selected in the drop-down menu at the top
-10. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
-11. Select the matching input to the button you clicked in Step 7
-12. Press `Clear` in the bottom right
-13. Press `Select` in the top right
+7. Make sure `evdev/microsoft X-box 360 pad 0` is set in the top left
+8. Select the `Motion Input` tab
+9. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `STEAM` + `L2`
+10. Make sure `DSUClient/0/steamdeckgyro` is selected in the drop-down menu at the top
+11. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
+12. Select the matching input to the button you clicked in Step 7
+13. Press `Clear` in the bottom right
+14. Press `Select` in the top right
     * ![Dolphin Gyro Example 1](../../assets/dolphin-gyro.png) 
-14. Press `OK` in the bottom right
-15. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
-16. (Optional) To use the Steam Deck gyro as a pointer (moving the Steam Deck itself), check `Enable` under the Pointer section on the left on the `Motion Input` tab
+15. Press `OK` in the bottom right
+16. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
+17. (Optional) To use the Steam Deck gyro as a pointer (moving the Steam Deck itself), check `Enable` under the Pointer section on the left on the `Motion Input` tab
     * Consider clicking `Recenter` and tinkering with the settings here to calibrate the pointer
-17. After you are finished, give your profile a name in the top right and save it as a new profile
-18. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
+18. After you are finished, give your profile a name in the top right and save it as a new profile
+19. Refer to the [Dolphin Hotkeys](#dolphin-hotkeys) to learn how to switch profiles mid-game
 
 **Note:** If you are having issues with the gyro pointer/cursor not appearing or behaving erratically, you may also want to consider disabling `Auto-hide` under the `Point` section on the `Motion simulation tab`.
 
