@@ -118,4 +118,4 @@ No donation link found at this time.
 
 ## Yuzu
 
-* [Yuzu](https://www.patreon.com/yuzuteam)
+* [Patreon](https://www.patreon.com/yuzuteam)
