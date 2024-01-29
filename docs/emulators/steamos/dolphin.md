@@ -366,7 +366,7 @@ Gyro for Dolphin is not mapped out of the box. You will need to open the Dolphin
 
 After installing SteamDeckGyroDSU, you may either choose to create your own profile in Dolphin or you may choose to download a community created profile from the [Community Creations](../../community-creations/steamos/community-creations.md) page.
 
-Select **one** of the two options below. You may do both if you would like, but both are **not** required.
+Select **one** of the two options below. 
 
 #### Option 1: Downloading a Community Creations profile
 
