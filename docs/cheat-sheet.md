@@ -1,6 +1,6 @@
 ---
 search:
-  exclude: true
+    boost: 400 
 ---
 
 <!--If you would like to edit this page, the tables are located in the docs/tables folder -->
