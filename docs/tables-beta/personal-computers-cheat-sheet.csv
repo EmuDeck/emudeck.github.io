@@ -11,3 +11,4 @@ DOS,dos,[RetroArch DOSBox Pure](https://docs.libretro.com/library/dosbox_pure/),
 NEC PC-98,pc98,[RetroArch Neko Project II Kai](https://docs.libretro.com/libraryneko_project_ii_kai/),.d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdi .dup .cmd .hdi .thd .nhd .hdd .hdn,[Read the Libretro Wiki](https://docs.libretro.com/library/neko_project_ii_kai/)
 Sharp X68000,x68000,[RetroArch PX68k](https://docs.libretro.com/library/px68k/),.dim .zip .img .d8 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u,[Read the Libretro Wiki](https://docs.libretro.com/library/px68k/)
 ZX Spectrum,zxspectrum,[RetroArch Fuse](https://docs.libretro.com/library/fuse/),.7z .tzx .tap .z80 .rzx .scl .trd .tzx .tap .z80 .zx .scl .trd .zip,[Read the Libretro Wiki](https://docs.libretro.com/library/fuse/)
+**ZX Spectrum (Standalone)**,zxspectrum,**[ares (Standalone)](https://ares-emu.net/compatibility)**,.7z .tzx .tap .z80 .rzx .scl .trd .tzx .tap .z80 .zx .scl .trd .zip,Not Applicable
