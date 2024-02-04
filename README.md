@@ -2,7 +2,7 @@
 
 ## Information
 
-This repository is for a WIP EmuDeck Wiki using MkDocs: [https://www.mkdocs.org/](https://www.mkdocs.org/)
+This repository is the home of the EmuDeck Wiki using MkDocs: [https://www.mkdocs.org/](https://www.mkdocs.org/). The EmuDeck Wiki is open source and open to Pull Requests for any edits or modifications. 
 
 The theme is mkdocs-material: [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 
