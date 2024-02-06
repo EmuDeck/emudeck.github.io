@@ -125,23 +125,26 @@ Credit: `Piximator`
 
 This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nintendo.com/store/products/nintendo-64-controller/](https://www.nintendo.com/store/products/nintendo-64-controller/). 
 
-**Profile Name:** `nintendo switch online n64 controller.vdf`
+**Download:** [nintendo switch online n64 controller.vdf](../../community-creations-files/mysmg.vdf){:download="nintendo-switch-online-n64-controller.vdf"}
+
+**Profile Name:** `nintendo-switch-online-n64-controller.vdf`
 
 ```json
 "controller_mappings"
 {
-	"version"		"3"
-	"revision"		"20"
-	"title"		"Nintendo Switch Online N64 Controller"
-	"description"		"For use with the official NSO N64 controller in RetroArch. Uses default EmuDeck bindings."
-	"creator"		"76561199036238022"
-	"progenitor"		""
-	"url"		"template://nintendo switch online n64 controller.vdf"
-	"export_type"		"template"
-	"controller_type"		"controller_neptune"
+    "version"       "3"
+    "revision"      "20"
+    "title"     "Nintendo Switch Online N64 Controller"
+    "description"       "For use with the official NSO N64 controller in RetroArch. Uses default EmuDeck bindings."
+    "creator"       "76561199036238022"
+    "progenitor"        ""
+    "url"       "template://nintendo switch online n64 controller.vdf"
+    "export_type"       "template"
+	"controller_type"		"controller_generic"
+	"controller_caps"		"546833399"
 	"major_revision"		"0"
 	"minor_revision"		"0"
-	"Timestamp"		"4"
+	"Timestamp"		"1502372160"
 	"localization"
 	{
 		"english"
@@ -280,7 +283,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button A"
+							"binding"		"xinput_button A, , "
 						}
 					}
 				}
@@ -296,7 +299,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button X"
+							"binding"		"xinput_button X, , "
 						}
 					}
 				}
@@ -312,7 +315,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button RSTICK_LEFT"
+							"binding"		"xinput_button RSTICK_LEFT, , "
 						}
 					}
 				}
@@ -328,7 +331,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button RSTICK_UP"
+							"binding"		"xinput_button RSTICK_UP, , "
 						}
 					}
 				}
@@ -354,7 +357,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button dpad_up"
+							"binding"		"xinput_button dpad_up, , "
 						}
 						"settings"
 						{
@@ -374,7 +377,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button dpad_down"
+							"binding"		"xinput_button dpad_down, , "
 						}
 						"settings"
 						{
@@ -394,7 +397,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button dpad_right"
+							"binding"		"xinput_button dpad_right, , "
 						}
 						"settings"
 						{
@@ -414,7 +417,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button dpad_left"
+							"binding"		"xinput_button dpad_left, , "
 						}
 						"settings"
 						{
@@ -444,7 +447,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_RIGHT"
+							"binding"		"xinput_button JOYSTICK_RIGHT, , "
 						}
 						"settings"
 						{
@@ -474,7 +477,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_LEFT"
+							"binding"		"xinput_button JOYSTICK_LEFT, , "
 						}
 						"settings"
 						{
@@ -485,7 +488,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_RIGHT"
+							"binding"		"xinput_button JOYSTICK_RIGHT, , "
 						}
 					}
 				}
@@ -511,7 +514,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button TRIGGER_LEFT"
+							"binding"		"xinput_button TRIGGER_LEFT, , "
 						}
 						"settings"
 						{
@@ -545,7 +548,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button RSTICK_DOWN"
+							"binding"		"xinput_button RSTICK_DOWN, , "
 						}
 						"settings"
 						{
@@ -579,7 +582,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_RIGHT"
+							"binding"		"xinput_button JOYSTICK_RIGHT, , "
 						}
 						"settings"
 						{
@@ -609,7 +612,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_RIGHT"
+							"binding"		"xinput_button JOYSTICK_RIGHT, , "
 						}
 					}
 				}
@@ -635,7 +638,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_UP"
+							"binding"		"xinput_button DPAD_UP, , "
 						}
 						"settings"
 						{
@@ -655,7 +658,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_DOWN"
+							"binding"		"xinput_button DPAD_DOWN, , "
 						}
 						"settings"
 						{
@@ -675,7 +678,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_RIGHT"
+							"binding"		"xinput_button DPAD_RIGHT, , "
 						}
 						"settings"
 						{
@@ -695,7 +698,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_LEFT"
+							"binding"		"xinput_button DPAD_LEFT, , "
 						}
 						"settings"
 						{
@@ -716,6 +719,16 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 	}
 	"group"
 	{
+		"id"		"10"
+		"mode"		"radial_menu"
+		"name"		"N64"
+		"description"		""
+		"inputs"
+		{
+		}
+	}
+	"group"
+	{
 		"id"		"7"
 		"mode"		"switches"
 		"name"		""
@@ -730,7 +743,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button start"
+							"binding"		"xinput_button start, , "
 						}
 					}
 				}
@@ -746,7 +759,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button RSTICK_RIGHT"
+							"binding"		"xinput_button RSTICK_RIGHT, , "
 						}
 					}
 				}
@@ -762,7 +775,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button shoulder_left"
+							"binding"		"xinput_button shoulder_left, , "
 						}
 					}
 				}
@@ -778,7 +791,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button shoulder_right"
+							"binding"		"xinput_button shoulder_right, , "
 						}
 					}
 				}
@@ -794,7 +807,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button RSTICK_LEFT"
+							"binding"		"xinput_button a, , "
 						}
 					}
 				}
@@ -810,55 +823,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button A"
-						}
-					}
-				}
-				"disabled_activators"
-				{
-				}
-			}
-			"button_back_left_upper"
-			{
-				"activators"
-				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"xinput_button RSTICK_UP"
-						}
-					}
-				}
-				"disabled_activators"
-				{
-				}
-			}
-			"button_back_right_upper"
-			{
-				"activators"
-				{
-					"Full_Press"
-					{
-						"bindings"
-						{
-							"binding"		"xinput_button X"
-						}
-					}
-				}
-				"disabled_activators"
-				{
-				}
-			}
-			"button_capture"
-			{
-				"activators"
-				{
-					"release"
-					{
-						"bindings"
-						{
-							"binding"		"controller_action system_key_1"
+							"binding"		"xinput_button x, , "
 						}
 					}
 				}
@@ -877,6 +842,7 @@ This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nin
 			"7"		"switch active"
 			"0"		"button_diamond active"
 			"3"		"joystick active"
+			"10"		"joystick inactive"
 			"4"		"left_trigger active"
 			"5"		"right_trigger active"
 			"8"		"right_joystick active"
