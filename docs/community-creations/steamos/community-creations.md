@@ -30,16 +30,15 @@ This section will go over how to share and post your Steam Input profiles on thi
 	* <img src="https://user-images.githubusercontent.com/108900299/197309794-404dbe92-6509-485a-8b1f-59f71d965584.png" height="300">
     * <img src="https://user-images.githubusercontent.com/108900299/199398759-7db86406-0c13-4f68-8545-4857d1a507ea.png" height="300">
 3. Switch to Desktop Mode
-4. Open Konsole
-5. In Konsole, enter: `grep --recursive "<yourprofilename>" ~/.steam/steam/userdata`
-    * Replace `<yourprofilename>` entirely with the profile name you created in Step 1
-    * Using `Community Creations` as an example: <img src="https://user-images.githubusercontent.com/108900299/199399154-1d4a9e60-f2cd-4a13-bf89-c2fb2fb4280a.png" height="300">
-6. Open the folder path outputted by the command
-    * `~/.steam` is a hidden folder by default, in Dolphin (File Explorer), press the hamburger button in the top right, `☰`, press `Show Hidden Files`
-7. Copy this template to another folder of your choice
+4. Open the `home/deck/.local/share/Steam/steamapps/common/Steam Controller Configs/STEAMUSERID/config/` folder
+	* `STEAMUSERID` is a random string of numbers associated with your Steam account. It is unique to your profile. 
+5. Locate the folder associated with your game
+	* If you do not see it, it may be one of the folders with a random string of numbers
+6. Copy the template in the folder to another folder of your choice
     * Rename the copied file to something descriptive, like the profile name created in Step 1
-8. Right click, click click `Open with Kate` or a text editor of your choice
-9. Edit the top part of the file using the following template: 
+7. Right click, click click `Open with Kate` or a text editor of your choice
+8. Edit the top part of the file using the following template: 
+	* The `FILENAME.VDF` should match the actual name of the file
 
 **Template:**
 
@@ -52,8 +51,8 @@ This section will go over how to share and post your Steam Input profiles on thi
 	"description"		leave this alone
 	"creator"		leave this alone
 	"progenitor"		leave this alone
-	"url"		        change to: "template://<file name>.vdf"
-	"export_type"		change to:  "template"
+	"url"		       "template://FILENAME.vdf"
+	"export_type"		"template"
 	"controller_type"		"controller_neptune"
 	"major_revision"	leave this alone
 	"minor_revision"	leave this alone
