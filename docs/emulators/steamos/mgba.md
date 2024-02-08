@@ -2,7 +2,7 @@
 
 Website: [https://mgba.io/](https://mgba.io/)
 
-mGBA's FAQ: [https://mgba.io/faq.html](https://mgba.io/)
+mGBA's FAQ: [https://mgba.io/faq.html](https://mgba.io//faq.html)
 
 Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
 
