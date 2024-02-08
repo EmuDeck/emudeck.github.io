@@ -44,13 +44,14 @@ search:
 [Back to the Top](#how-to-use-the-cheat-sheets-table-of-contents)
 
 * BIOS files are placed directly into the `Emulation/bios` folder. **Do not** make or use any additional folders unless otherwise specified on the charts below
-* If the BIOS box contains: `Not Applicable`, BIOS files are not required to play the respective system
+* If the BIOS column contains: `Not Required`, BIOS files are not required to play the respective system
+* If the BIOS column contains: `Optional`, BIOS files may add console intros or menu functionality, but you will be able to play games without them
 * The chart can be scrolled horizontally
 * In many cases, BIOS names are case sensitive. Match the casing to the `BIOS` column in the chart
 * In some cases, BIOS must be named a specific way. Match the file name to the `BIOS` column in the chart
 * To distinguish from RetroArch cores, standalone emulators are indicated in bold and are written with: `(Standalone)`
 * If you are on a computer, press `CTRL` + `F` or `CMD` + `F` together to search the chart
-    * <img src="https://user-images.githubusercontent.com/108900299/215289134-a79b8b74-2317-4128-a1d6-4e51fe046b88.png" height="300">
+    * <img src="./assets/how-to-use-the-tables.png" height="300">
 
 ***
 
@@ -86,7 +87,7 @@ Read through the following sections for a quick run-down of when to and when not
 - [Where do I find the Emulation/bios folder?](#where-do-i-find-the-emulationbios-folder)
 - [When to place BIOS Files directly into Emulation/bios](#when-to-place-bios-files-directly-into-emulationbios)
 - [When to create a subfolder](#when-to-create-a-subfolder)
-- [What does "Not Applicable" mean?](#what-does-not-applicable-mean)
+- [What do "Not Required" and "Optional" mean?](#what-do-not-required-and-optional-mean)
 
 #### Where do I find the Emulation/bios folder?
 
@@ -140,15 +141,15 @@ In `Emulation/bios/dc`:
 
 ***
 
-#### What does "Not Applicable" mean?
+#### What do "Not Required" and "Optional" mean?
 
-When "Not Applicable" is written in the BIOS column, BIOS are not required to play the respective system.
+When "Not Required" is written in the BIOS column, it means the emulator will run games without the BIOS.
 
-For example, `Not Applicable` is in the BIOS column in the photo below. When you see the words `Not Applicable`, BIOS are not required. 
+When "Optional" is written in the BIOS column, it means the emulator might have some extra functionality or will play the console's splash screen when you launch a game, but will run games without the BIOS.
 
-For some of these systems, including BIOS files may be used to launch into the respective system's boot screen when playing games. A few examples include Game Boy Advance and Gamecube. 
+In the table below, you can see that the Dolphin emulator does not require BIOS to play Wii games, but the Gamecube BIOS are optional.
 
-![N/A BIOS Example](./assets/na-bios-example.png)
+![Not Required and Optional BIOS Example](./assets/not-required-and-optional-bios-example.png)
 
 ***
 
