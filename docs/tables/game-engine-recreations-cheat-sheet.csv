@@ -1,5 +1,5 @@
 Console/System,ROM Folder Name,Emulator (Click for link),File Types,BIOS Files,Additional Notes
 DooM,doom,[RetroArch PrBoom](https://docs.libretro.com/library/prboom/),.7z .wad .iwad .pwad .zip,`prboom.wad`,-
 EasyRPG,easyrpg,[RetroArch EasyRPG](https://docs.libretro.com/library/easyrpg/),.ldb .easyrpg,Not Required,-
-Pico-8,pico8,[RetroArch Pico-8](https://github.com/Jakz/retro8),.7z .zip .p8 .png,Not Applicable,EmulationStation-DE does not currently support RetroArch Pico-8
-**ScummVM (Standalone)**,scummvm,**[ScummVM (Standalone)](https://www.scummvm.org/)**,Varies,Not Applicable,[How to Configure ScummVM to Work With Steam ROM Manager on SteamOS](./emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-steam-rom-manager) <br>    [How to Configure ScummVM to Work With EmulationStation-DE on SteamOS](./emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-emulationstation-de)
+Pico-8,pico8,[RetroArch Pico-8](https://github.com/Jakz/retro8),.7z .zip .p8 .png,Not Required,EmulationStation-DE does not currently support RetroArch Pico-8
+**ScummVM (Standalone)**,scummvm,**[ScummVM (Standalone)](https://www.scummvm.org/)**,Varies,Not Required,[How to Configure ScummVM to Work With Steam ROM Manager on SteamOS](./emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-steam-rom-manager) <br>    [How to Configure ScummVM to Work With EmulationStation-DE on SteamOS](./emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-emulationstation-de)
