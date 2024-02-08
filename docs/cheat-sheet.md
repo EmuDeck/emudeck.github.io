@@ -51,7 +51,7 @@ search:
 * In some cases, BIOS must be named a specific way. Match the file name to the `BIOS` column in the chart
 * To distinguish from RetroArch cores, standalone emulators are indicated in bold and are written with: `(Standalone)`
 * If you are on a computer, press `CTRL` + `F` or `CMD` + `F` together to search the chart
-    * <img src="./assets/how-to-use-the-tables.png" height="300">
+    * <img src="https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/assets/how-to-use-the-tables.png" height="300">
 
 ***
 
