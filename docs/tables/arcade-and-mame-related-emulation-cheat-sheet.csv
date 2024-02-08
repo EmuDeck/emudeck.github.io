@@ -1,8 +1,8 @@
 Console/System,ROM Folder Name,Emulator (Click for Link),File Types,BIOS Files
 Final Burn Neo,fbneo,[RetroArch FinalBurn Neo](https://docs.libretro.com/library/fbneo/),.zip  .7z,BIOS will be searched through 3 folders:     `Emulation/roms/arcade/`     `Emulation/bios/mame/`     `Emulation/bios/`     EmulationStation-DE will ONLY work with the BIOS in `Emulation/roms/arcade/` folder
-MAME 2003 Plus,mame2003,[RetroArch MAME 2003 Plus](https://docs.libretro.com/library/mame2003_plus/),.zip,Not Applicable
-MAME 2010,mame2010,[RetroArch MAME 2010](https://docs.libretro.com/library/mame_2010/),.zip,Not Applicable
-MAME Current,arcade,[RetroArch MAME Current](https://docs.libretro.com/development/cores/core-specific/mame/),.zip,Not Applicable
+MAME 2003 Plus,mame2003,[RetroArch MAME 2003 Plus](https://docs.libretro.com/library/mame2003_plus/),.zip,Not Required
+MAME 2010,mame2010,[RetroArch MAME 2010](https://docs.libretro.com/library/mame_2010/),.zip,Not Required
+MAME Current,arcade,[RetroArch MAME Current](https://docs.libretro.com/development/cores/core-specific/mame/),.zip,Not Required
 **MAME (Standalone)**,arcade,**[MAME (Standalone)](https://www.mamedev.org/)**,.zip   .chd,BIOS will be searched through 3 folders:<br/> `Emulation/roms/arcade/`  <br/>   `Emulation/bios/mame/` <br/>    `Emulation/bios/` <br/>    EmulationStation-DE will ONLY work with the BIOS in `Emulation/roms/arcade/` folder
 Philips CD-i,cdimono1,[RetroArch SAME CDi](https://docs.libretro.com/library/same_cdi/),.iso .chd,Create `same_cdi/bios` folders in `Emulation/bios`<br/> Place `cdibios.zip` in `Emulation/bios/same_cdi/bios` <br/>    May substitute `cdibios.zip` with `cdimono.zip` or `cdimono2.zip`
 **Philips CD-i (Standalone)**,cdimono1,**[MAME (Standalone)](https://www.mamedev.org/)**,.iso .chd,Place `cdimono1.zip` in `Emulation/roms/cdimono`
