@@ -1,6 +1,6 @@
 System,ROM Folder Name,Emulator (Click for Link),File Format,BIOS Files
-SNK Neo Geo MVS,fbneo,[RetroArch FinalBurn Neo](https://docs.libretro.com/library/fbneo/),.zip .7z,* `neocdz.zip` (US) <br/> * `neogeo.zip` (JP)
+SNK Neo Geo MVS,fbneo,[RetroArch FinalBurn Neo](https://docs.libretro.com/library/fbneo/),.7z .zip,* `neocdz.zip` (US) <br/> * `neogeo.zip` (JP)
 SNK Neo Geo CD,fbneo,[RetroArch FinalBurn Neo](https://docs.libretro.com/library/fbneo/),.chd,* `neocdz.zip` (US) <br/> * `neogeo.zip` (JP)
 **SNK Neo Geo CD (Standalone)**,`neogeocd` or `neogeocdjp`,**[MAME (Standalone)](https://www.mamedev.org/)**,.chd,Place `neocdz.zip` in `Emulation/roms/neogeocd` or `Emulation/roms/neogeocdjp` (matching the location of your ROMs)
-SNK  Neo Geo Pocket,ngp,[RetroArch Beetle NeoPop](https://docs.libretro.com/library/beetle_neopop/),.7z  .ngp  .ngc .zip,Not Required
-SNK  Neo Geo Pocket Color,ngpc,[RetroArch Beetle NeoPop](https://docs.libretro.com/library/beetle_neopop/),.7z  .ngp  .ngc .zip,Not Required
+SNK  Neo Geo Pocket,ngp,[RetroArch Beetle NeoPop](https://docs.libretro.com/library/beetle_neopop/),.7z .ngc .ngp .zip,Not Required
+SNK  Neo Geo Pocket Color,ngpc,[RetroArch Beetle NeoPop](https://docs.libretro.com/library/beetle_neopop/),.7z .ngc .ngp .zip,Not Required

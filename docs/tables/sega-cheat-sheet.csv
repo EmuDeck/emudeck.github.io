@@ -1,16 +1,16 @@
 System,ROM Folder Name,Emulator (Click for Link),File Format,BIOS Files
-Sega 32X,sega32x,[RetroArch PicoDrive](https://docs.libretro.com/library/picodrive/),.7z   .32x   .bin   .zip,Not Required
+Sega 32X,sega32x,[RetroArch PicoDrive](https://docs.libretro.com/library/picodrive/),.32x .7z .bin .zip,Not Required
 **Sega Atomiswave (Standalone)**,atomiswave,**[Flycast (Standalone)](https://github.com/flyinghead/flycast)**,.zip,Place `awbios.zip` in `Emulation/bios/flycast`
-Sega CD / Mega-CD,`segacd` or `megacd`,[RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/),.7z   .32x   `.cue and .bin`  .chd   .iso   .zip .m3u,* `bios_CD_E.bin` (Europe) <br>       * `bios_CD_U.bin` (US) <br>      * `bios_CD_J.bin` (Japan)
+Sega CD / Mega-CD,`segacd` or `megacd`,[RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/),.32x .7z .chd ‘.cue and .bin’ .iso .m3u .zip,* `bios_CD_E.bin` (Europe) <br>       * `bios_CD_U.bin` (US) <br>      * `bios_CD_J.bin` (Japan)
 Sega Dreamcast,dreamcast,[RetroArch FlyCast](https://docs.libretro.com/library/flycast/),.cdi   .chd  `.cue and .bin` `.gdi and .bin`,* Create `dc` folder in `Emulation/bios` <br> * Place `dc_boot.bin` in `Emulation/bios/dc`
 **Sega Dreamcast (Standalone)**,dreamcast,**[Flycast (Standalone)](https://github.com/flyinghead/flycast)**,.cdi   .chd  `.cue and .bin` `.gdi and .bin`,Not Required
-Sega Game Gear,gamegear,[RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/),.7z   .gg   .zip,Not Required
-Sega Genesis / Mega Drive,`genesis` or `megadrive`,[RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/),.7z   .gen   .md   .smd   .zip  .bin,Not Required
-Sega Genesis Widescreen,genesiswide,[RetroArch Genesis Plus GX](https://www.libretro.com/index.php/genesis-plus-gx-wide-now-available-for-libretroRetroArch/),.7z   .gen   .md   .smd   .zip .bin,Not Required
-Sega Master System,mastersystem,[RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/),.7z   .gen   .sms   .zip,Not Required
+Sega Game Gear,gamegear,[RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/),.7z .gg .zip,Not Required
+Sega Genesis / Mega Drive,`genesis` or `megadrive`,[RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/),.7z .bin .gen .md .smd .zip,Not Required
+Sega Genesis Widescreen,genesiswide,[RetroArch Genesis Plus GX](https://www.libretro.com/index.php/genesis-plus-gx-wide-now-available-for-libretroRetroArch/),.7z .bin .gen .md .smd .zip,Not Required
+Sega Master System,mastersystem,[RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/),.7z .gen .sms .zip,Not Required
 Sega NAOMI,naomi,[RetroArch FlyCast](https://docs.libretro.com/library/flycast/),.zip,* Create `dc` folder in `Emulation/bios`    <br> * Place `naomi.zip` in `Emulation/bios/dc`
 **Sega NAOMI (Standalone)**,naomi,**[Flycast (Standalone)](https://github.com/flyinghead/flycast)**,.zip,Place `naomi.zip` in `Emulation/bios/flycast`
 **Sega NAOMI 2 (Standalone)**,naomi2,**[Flycast (Standalone)](https://github.com/flyinghead/flycast)**,.zip,Place `naomi.zip` in `Emulation/bios/flycast`
-Sega Saturn,saturn,[RetroArch Beetle Saturn](https://docs.libretro.com/library/beetle_saturn/),.7z   `.cue and .bin`  .iso   .chd   .zip,* `sega_101.bin` (JP) <br>     * `mpr-17933.bin` (US/EU)
-Sega Saturn,saturn,[RetroArch Kronos](https://docs.libretro.com/library/kronos/),.7z   `.cue and .bin`  .iso   .chd   .zip,* Create `kronos` folder in `Emulation/bios` <br>    * Place `saturn_bios.bin` in `Emulation/bios/kronos`
-Sega Saturn,saturn,[RetroArch Yabause](https://docs.libretro.com/library/yabause/),.7z   `.cue and .bin` .iso   .chd   .zip,`saturn_bios.bin`
+Sega Saturn,saturn,[RetroArch Beetle Saturn](https://docs.libretro.com/library/beetle_saturn/),.7z .chd `.cue and .bin` .iso .zip,* `sega_101.bin` (JP) <br>     * `mpr-17933.bin` (US/EU)
+Sega Saturn,saturn,[RetroArch Kronos](https://docs.libretro.com/library/kronos/),.7z .chd `.cue and .bin` .iso .zip,* Create `kronos` folder in `Emulation/bios` <br>    * Place `saturn_bios.bin` in `Emulation/bios/kronos`
+Sega Saturn,saturn,[RetroArch Yabause](https://docs.libretro.com/library/yabause/),.7z .chd `.cue and .bin` .iso .zip,`saturn_bios.bin`
