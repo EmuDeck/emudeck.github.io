@@ -1,4 +1,4 @@
-﻿Console/System,ROM Folder Name,Emulator (Click for Link),File Types,BIOS Files
-**Microsoft Xbox (Standalone)**,xbox,**[Xemu (Standalone)](https://xemu.app/)**,.iso (xiso formatted) <br>  [How to convert ROMs to xiso format](./emulators/steamos/xemu.md#how-to-convert-roms-to-xiso-format),MCPX Boot ROM: `mcpx_1.0.bin` <br>  Flash ROM Image (COMPLEX 4627 BIOS):  `Complex_4627v1.03.bin`
+Console/System,ROM Folder Name,Emulator (Click for Link),File Types,BIOS Files
+**Microsoft Xbox (Standalone)**,xbox,**[Xemu (Standalone)](https://xemu.app/)**,.iso (xiso formatted) <br/> [How to convert ROMs to xiso format](./emulators/steamos/xemu.md#how-to-convert-roms-to-xiso-format),MCPX Boot ROM: `mcpx_1.0.bin` <br>  Flash ROM Image (COMPLEX 4627 BIOS):  `Complex_4627v1.03.bin`
 **Microsoft Xbox 360 (Standalone)**,`xbox360/roms`,**[Xenia (Standalone)](https://xenia.jp/)**,.iso,Not Required
 **Microsoft Xbox 360 Live Arcade (Standalone)**,`xbox360/roms/xbla`,**[Xenia (Standalone)](https://xenia.jp/)**,No file extension,Not Required
