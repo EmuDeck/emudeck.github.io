@@ -2349,7 +2349,7 @@ Profile Name: `sideways_wiimote_with_no_attachment.ini`
 ```conf
 [Profile]
 Device = SDL/0/Steam Virtual Gamepad
-Buttons/A = `Button S`
+Buttons/A = `Button S`|`Thumb R`
 Buttons/B = `Button E`|`Thumb R`
 Buttons/1 = `Button N`
 Buttons/2 = `Button W`
