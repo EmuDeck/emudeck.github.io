@@ -238,6 +238,7 @@ markdown_extensions:
     - pymdownx.smartsymbols
     - pymdownx.tabbed:
         alternate_style: true
+    - pymdownx.magiclink
 # plugins section, search is an included plugin but if adding any new plugins, needs to be stated here as well
 plugins:
     - search:
