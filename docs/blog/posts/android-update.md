@@ -3,7 +3,6 @@ draft: false
 date: 2024-02-14 
 categories:
   - Android
-some_url: https://example.com
 ---
 
 # Android Update
