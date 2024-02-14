@@ -15,6 +15,7 @@ nav:
     - BIOS and ROMs Cheat Sheet: 'cheat-sheet.md'
     - Community Games Compatibility Database: 'https://brantje.github.io/emudeck-compatibility-list/'
     - Donations: 'donations.md'
+    - EmuDeck Blog: 'blog/index.md'
     - How to Install EmuDeck:
         - 'EmuDeck for SteamOS': 
             - 'how-to-install-emudeck/steamos/index.md'
@@ -242,13 +243,16 @@ plugins:
     - search:
         separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
     - glightbox
-    - i18n:
-        docs_structure: suffix
-        languages:
-          - locale: en
-            default: true
-            name: English
-            build: true
+    # Getting the following error:
+    # "Config value 'plugins': Plugin 'i18n' option 'languages': Expected type: <class 'dict'> but received: <class 'list'>"
+    # Will investigate later, commenting out for now. 
+    #- i18n:
+       # docs_structure: suffix
+        # languages:
+        #  - locale: en
+        #    default: true
+        #    name: English
+        #    build: true
         #   - locale: es
         #     name: Español
         #     build: true
@@ -260,6 +264,15 @@ plugins:
         data_path: "docs/tables/"
         search_page_directory: True
         allow_missing_files: True
+    - blog
+    - rss:
+        enabled: !ENV [CI, false]
+        match_path: blog/posts/.* 
+        date_from_meta:
+        as_creation: date
+        categories:
+        - categories
+        - tags 
 # Footer
 extra:
   social:
