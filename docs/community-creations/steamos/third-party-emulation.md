@@ -95,7 +95,7 @@ sudo usermod --add-subuid 100000-165535 --add-subgid 100000-165535 $USER
     * Casing and spelling are important
 4. Right click `lilipod` or `podman`, click `Properties`, click `Permissions`, and ensure `Is executable` is checked
 5. Move the `lilipod` or `podman` file to `/home/deck/.local/bin/`
-    * `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders
+    * `~/.local` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders
 
 #### How to Configure bashrc
 
@@ -452,7 +452,7 @@ Source: [https://github.com/fgsfdsfgs/perfect_dark](https://github.com/fgsfdsfgs
 
 1. Open `PerfectDark.sh` at least once so it can generate the `pd.ini` file 
 2. Open the `/home/deck/.local/share/perfectdark/` folder
-    * `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * `~/.local` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 3. Right click `pd.ini`, click `Open with Kate` or a text editor of your choice
 4. Customize settings
 
@@ -517,14 +517,25 @@ When you include the HD textures as part of this guide the whole Render96ex inst
 
 #### How to Install Custom Textures
 
-1. In `/home/deck/Applications/Distrobox/Render96ex/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
+1. In `/home/deck/Applications/Distrobox/Render96ex/build/us_pc/res`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `git clone https://github.com/pokeheadroom/RENDER96-HD-TEXTURE-PACK.git -b master`
-2. Move the `gfx` folder in the newly cloned `RENDER96-HD-TEXTURE-PACK` folder to `/home/deck/Applications/Distrobox/Render96ex/build/us_pc/res`
+2. The `RENDER96-HD-TEXTURE-PACK` is now installed
 
 #### How to Configure Render96ex
 
+##### GUI
+
 1. While in game, press `Start`, press `R1`
 2. Configure settings
+
+##### Config File
+
+1. Open `sm64.us.f3dex2e` in `/home/deck/Applications/Distrobox/Render96ex/build/us_pc` at least once so it can generate the `sm64config.txt` file 
+2. Open the `/home/deck/.local/share/sm64ex/` folder
+    * `~/.local` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+3. Right click `sm64config.txt`, click `Open with Kate` or a text editor of your choice
+4. Customize settings
+
 
 ***
 
@@ -637,7 +648,7 @@ Source: [https://github.com/sm64pc/sm64ex](https://github.com/sm64pc/sm64ex)
 
 1. Open `sm64.us.f3dex2e` in `/home/deck/Applications/Distrobox/sm64ex/build/us_pc` at least once so it can generate the `sm64config.txt` file 
 2. Open the `/home/deck/.local/share/sm64ex/` folder
-    * `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * `~/.local` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 3. Right click `sm64config.txt`, click `Open with Kate` or a text editor of your choice
 4. Customize settings
 
@@ -1868,7 +1879,7 @@ Prerequisites:
 7. Right click `supermodel-configurator.sh`, click `Properties`, click `Permissions`, check `Is executable`
 8. Right click `supermodel-configurator.sh`, click `Run in Konsole`, close out of the terminal after you see "Supermodel configurations copied"
     * You can confirm it worked by checking if a `.supermodel` folder was created in your `home` folder
-        * `~/.supermodel` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders 
+        * `~/.supermodel` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders 
 
 #### EmulationStation-DE
 
@@ -2186,7 +2197,7 @@ org.sonic3air.Sonic3AIR/
 #### How to Configure Sonic 3 A.I.R.
 
 1. Open the `/home/deck/.var/app/org.sonic3air.Sonic3AIR/data/Sonic3AIR` folder
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * `~/.var` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Right click `settings.json` or `settings_input.json`, click `Open with Kate` or a text editor of your choice
     * `settings.json` is specifically for game settings
     * `settings_input.json` is specifically for game controls
@@ -2202,7 +2213,7 @@ _This list is not comprehensive_
 * [https://gamebanana.com/mods/games/6878](https://gamebanana.com/mods/games/6878)
 
 1. Open the `/home/deck/.var/app/org.sonic3air.Sonic3AIR/data/Sonic3AIR` folder
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+    * `~/.var` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Download and extract mod(s) to the `mod` folder
     * A mod folder should typically have a `Data` folder and a `mod.ini` file
 3. To activate/toggle the mod(s), open Sonic 3 A.I.R.. On the main menu, click the `Mods` button
