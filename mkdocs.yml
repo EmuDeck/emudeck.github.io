@@ -271,9 +271,11 @@ plugins:
         match_path: blog/posts/.* 
         date_from_meta:
             as_creation: date
+            datetime_format: "%Y-%m-%d %H:%M"
         categories:
             - categories
             - tags 
+        image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png
 # Footer
 extra:
   social:
