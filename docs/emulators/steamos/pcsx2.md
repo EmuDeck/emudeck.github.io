@@ -552,7 +552,7 @@ _This list is not exhaustive_
 #### Setting up Cheats
 
 1. Download the attached cheat file
-    * **Download:** [Sideways Wiimote With No Attachment](../../configuration-files/94A82AAA.HostFS.pnach){:94A82AAA.HostFS.pnach"}
+    * **Download:** [94A82AAA.HostFS.pnach](../../configuration-files/94A82AAA.HostFS.pnach){:94A82AAA.HostFS.pnach"}
 2. Place the cheat file in `/home/deck/.config/PCSX2/cheats/`
     * `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 3. Right click `Shin Megami Tensei - Persona 3 FES - Modded` in the game list, click `Properties`
