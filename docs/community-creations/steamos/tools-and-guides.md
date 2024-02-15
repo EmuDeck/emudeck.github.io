@@ -248,10 +248,9 @@ This section will cover how to download and set up PKHeX. For the GitHub repo, s
 10. Single click the `PKHeX` tile in Lutris, click the `Wine` icon at the bottom of the Lutris application, click `Winetricks`
 11. Click `Select the default wineprefix`
 12. Click `Install a Windows DLL or component`
-13. Locate `dotnet7 MS.NET Runtime 7.0 LTS` in the list
-14. Check the box to the left of `dotnet7 MS.NET Runtime 7.0 LTS` and click `OK`, wait a few moments for it to install
-15. Locate `dotnetdesktop7` in the list 
-16. Check the box to the left of `dotnetdesktop7` and click `OK`, wait a few moments for it to install
+13. Locate `dotnet7` in the list and check the box to the left of `dotnet7 MS.NET Runtime 7.0 LTS`
+15. Locate `dotnetdesktop7` in the list and check the box to the left of `dotnetdesktop7`
+16. Click `OK`, wait a few moments for it to install
 17. Close out of winetricks
 18. To open PKHeX, open Lutris, select the PKHeX tile, and click `Play`
 
@@ -302,7 +301,7 @@ This section will cover how to download and set up mymc. For the website, see [h
     * This command will create a couple of **empty** folders to make managing and installing mymc easier
 3. Download the latest version of mymc from the bottom of the page at [http://www.csclub.uwaterloo.ca:11068/mymc/](http://www.csclub.uwaterloo.ca:11068/mymc/) to `$HOME/Games/Lutris/mymc`
 3. Right click `mymc-alpha-#.#.zip`, click `Extract`, `Extract Archive Here`
-    * The `#.#` refer to the version numbers which may vary depending on when you download mymc
+    * The `#.#` refer to the version numbers which may vary depending on when you downloaded mymc
 
 #### Set up Lutris
 
@@ -367,7 +366,7 @@ This section will cover how to download and set up XboxEepromEditor. For the Git
     * Download the `XboxEepromEditor.#.#.#.#.zip` file
         * The `#.#.#.#` refer to the version numbers. These may vary depending on when you download the latest release
 3. Right click `XboxEepromEditor.#.#.#.#.zip`, click `Extract`, `Extract Archive Here`
-    * The `#.#.#.#` refer to the version numbers which may vary depending on when you download XboxEepromEditor
+    * The `#.#.#.#` refer to the version numbers which may vary depending on when you downloaded XboxEepromEditor
 
 #### Set up Lutris
 
@@ -411,6 +410,75 @@ If your saves are on an external drive or SD Card, you will need to apply a few 
 5. Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `~/.var/app`
 6. Close out of Flatseal and re-open XboxEepromEditor through Lutris
 7. Your removable storage devices will now be accessible through Lutris
+
+***
+
+### How to Set Up Aemulus Package Manager
+[Back to the Top](#tools-and-guides-table-of-contents)
+
+This section will cover how to download and set up Aemulus Package Manager. For the GitHub, see [https://github.com/TekkaGB/AemulusModManager/releases](https://github.com/TekkaGB/AemulusModManager/releases)
+
+!!! quote 
+
+    Aemulus Package Manager is a program that downloads, organizes, merges, and builds mod loadouts for many of the Persona games.
+
+This section uses modified instructions originally sourced from [https://github.com/TekkaGB/AemulusModManager/issues/97](https://github.com/TekkaGB/AemulusModManager/issues/97)
+
+This section is specifically for Aemulus Package Manager. For detailed instructions on how to mod Persona 3 FES, see [How to Mod Persona 3 FES](../../emulators/steamos/pcsx2.md#how-to-mod-persona-3-fes).
+
+#### Set up Folders
+
+1. In Desktop Mode, open Konsole
+2. Enter:
+    * `mkdir -p $HOME/Games/Lutris/AemulusPackageManager/pfx`
+    * This command will create a couple of **empty** folders to make managing and installing Aemulus Package Manager easier
+3. Download the latest version of Aemulus Package Manager, [https://github.com/TekkaGB/AemulusModManager/releases](https://github.com/TekkaGB/AemulusModManager/releases) to `$HOME/Games/Lutris/AemulusPackageManager`
+    * Download the `AemulusPackageManagerv#.#.#.7z` file
+        * The `#.#.#` refer to the version numbers. These may vary depending on when you download the latest release
+3. Right click `AemulusPackageManagerv#.#.#.7z`, click `Extract`, `Extract Archive Here`
+    * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded Aemulus Package Manager
+
+#### Set up Lutris
+
+1. In Desktop Mode, open Discover and download Lutris
+2. Open Lutris
+3. Click the `Wine` button on the left, click the little page icon to the right, download `wine-ge-8-26`
+4. Click the `+` button in the top left of the Lutris application
+5. Click `Add locally installed game`
+6. On the `Game Info` tab:
+    * Name: Aemulus Package Manager
+    * Sort Name: Leave Blank
+    * Runner: Wine (Runs Windows games)
+    * Release Year: Leave Blank
+7. On the `Game Options` tab:
+    * Executable: Click the `Browse` button and navigate to the `AemulusPackageManager.exe.exe` file in `$HOME/Games/Lutris/AemulusPackageManager`
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/AemulusPackageManager`
+    * Arguments: Leave Blank
+    * Working Directory: Leave Blank
+    * Wine Prefix: Click the `Browse` button and select the `$HOME/Games/Lutris/AemulusPackageManager/pfx` folder
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/AemulusPackageManager/pfx`
+8. On the `Runner options` tab:
+    * Wine version: `wine-ge-8.26-x86_64`
+    * Leave everything else at defaults
+9. Click the `Save` button in the top right
+10. Single click the `Aemulus Package Manager` tile in Lutris, click the `Wine` icon at the bottom of the Lutris application, click `Winetricks`
+11. Click `Select the default wineprefix`
+12. Click `Install a Windows DLL or component`
+13. Locate `dotnetdesktop7` in the list and check the box to the left of `dotnetdesktop7`
+14. If you are modding Persona 4, locate `dotnetcoredesktop3` in the list and check the box to the left of `dotnetcoredesktop3`
+15. If you are modding Persona 5, locate `vcrun2010` in the list and check the box to the left of `vcrun2010`
+16. Click `OK`, wait a few moments for it to install
+    * Do note that this step may take several minutes
+17. Close out of winetricks
+18. To open Aemulus Package Manager, open Lutris, select the Aemulus Package Manager tile, and click `Play`
+
+If you would like to add Aemulus Package Manager to Game Mode, you may right click the Aemulus Package Manager tile in Lutris and click `Create steam shortcut`.
+
+!!! info
+
+    When selecting paths, you may see a black box. To fix this, you may either close out and re-open the application or highlight the text to make it readable. The browse button may also be hidden at first glance, but if you hover your mouse over it, you can click it and select your preferred paths. If you prefer, you may also edit the config file AemulusPackageManager.exe.config in $HOME/Games/Lutris/AemulusPackageManager.
+
+
 
 ***
 

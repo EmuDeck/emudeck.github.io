@@ -509,19 +509,18 @@ _This list is not exhaustive_
 
 **Prerequisites**
 
-* Windows PC
-    * The mod manager used in this guide does not work properly through Wine
-* Aemulus Mod Manager: [https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0](https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0)
 * Persona 3 FES ISO
 
-#### On Windows (Non-Steam Deck PC)
+#### Aemulus Mod Manager
 
-1. Download Aemulus Mod Manager: [https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0](https://github.com/TekkaGB/AemulusModManager/releases/tag/6.4.0 )
+1. Download Aemulus Mod Manager: [https://github.com/TekkaGB/AemulusModManager/releases](https://github.com/TekkaGB/AemulusModManager/releases)
+    * For instructions on how to run Aemulus Mod Manager through Wine, see [How to Set Up Aemulus Package Manager](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-aemulus-package-manager)
+        * Aemelus Package Manager through Wine is a little finicky so you may prefer to set it up on a Windows PC instead and transfer over a completed mod loadout
 2. Build a mod loadout: [https://persona-3-fes-modding-guide.readthedocs.io/en/latest/installingmods.html](https://persona-3-fes-modding-guide.readthedocs.io/en/latest/installingmods.html)
     * This guide will not go into detail on how to do this
 3. Your mod loadout will look similar to the below image: 
     * <img src="https://user-images.githubusercontent.com/108900299/209884556-357ce98f-3e43-45ca-8c19-5bcd2c46630f.png" height="300">
-4. Transfer this folder to your Steam Deck
+4. Proceed to the next section
 
 #### On the Steam Deck
 
@@ -552,14 +551,13 @@ _This list is not exhaustive_
 
 #### Setting up Cheats
 
-1. Download the attached cheat file by right clicking anywhere on the page and clicking `Save Page As`
-    * [https://gist.githubusercontent.com/rawdatafeel/4326c619c2361bb6feaae2a395167459/raw/7d63d4e3d6d2dc64e9cbdc15b73c633913488c88/94A82AAA-hostFS.pnach](https://gist.githubusercontent.com/rawdatafeel/4326c619c2361bb6feaae2a395167459/raw/7d63d4e3d6d2dc64e9cbdc15b73c633913488c88/94A82AAA-hostFS.pnach)
-2. Name the downloaded file `94A82AAA-hostFS.pnach`
-3. Place the cheat file in `/home/deck/.config/PCSX2/cheats/`
+1. Download the attached cheat file
+    * **Download:** [Sideways Wiimote With No Attachment](../../configuration-files/94A82AAA.HostFS.pnach){:94A82AAA.HostFS.pnach"}
+2. Place the cheat file in `/home/deck/.config/PCSX2/cheats/`
     * `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
-4. Right click `Shin Megami Tensei - Persona 3 FES - Modded` in the game list, click `Properties`
-5. Click the `Cheats` tab and enable `Cheats`
-6. Enable the following cheat: `hostFS Patch`
+3. Right click `Shin Megami Tensei - Persona 3 FES - Modded` in the game list, click `Properties`
+4. Click the `Cheats` tab and enable `Cheats`
+5. Enable the following cheat: `hostFS Patch`
     * If you are in the Big Picture GUI, the cheats icon is a frowny face 
 
 #### Setting up Steam ROM Manager
