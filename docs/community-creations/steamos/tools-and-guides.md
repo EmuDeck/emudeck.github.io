@@ -476,7 +476,7 @@ If you would like to add Aemulus Package Manager to Game Mode, you may right cli
 
 !!! info
 
-    When selecting paths, you may see a black box. To fix this, you may either close out and re-open the application or highlight the text to make it readable. The browse button may also be hidden at first glance, but if you hover your mouse over it, you can click it and select your preferred paths. If you prefer, you may also edit the config file AemulusPackageManager.exe.config in $HOME/Games/Lutris/AemulusPackageManager.
+    When selecting paths, you may see a black box. To fix this, you may either close out and re-open the application or highlight the text to make it readable. The browse button may also be hidden at first glance, but if you hover your mouse over it, you can click it and select your preferred paths. If you prefer, you may also edit the config file, AemulusPackageManager.exe.config in $HOME/Games/Lutris/AemulusPackageManager.
 
 
 
