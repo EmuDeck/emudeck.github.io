@@ -230,6 +230,15 @@ Before installing a texture pack, you will need to determine if it is HTC, HTS, 
         * `HiResTextures`   
             * `HiResTextures` is for PNG texture packs
 
+#### Texture Pack Sources
+
+_This list is not exhaustive_
+
+* [https://evilgames.eu/texture-packs.htm](https://evilgames.eu/texture-packs.htm)
+
+***
+
+
 #### How to Install Custom Textures
 
 ##### HTC

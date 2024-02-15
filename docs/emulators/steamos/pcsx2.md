@@ -524,7 +524,6 @@ _This list is not exhaustive_
 
 #### On the Steam Deck
 
-
 1. In `Emulation/roms/ps2`, create a `P3FES` folder
     * This is a recommendation, you may either use a different folder name or place the files directly into `Emulation/roms/ps2`
 2. Place your Persona 3 FES ISO in the `P3FES` folder
