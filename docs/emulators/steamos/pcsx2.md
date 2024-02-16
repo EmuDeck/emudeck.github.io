@@ -40,6 +40,7 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Mod Persona 3 FES](#how-to-mod-persona-3-fes)
     - [How to Roll Back PCSX2 to an Older Version](#how-to-roll-back-pcsx2-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
+    - [How to Configure Pressure Sensitive Buttons](#how-to-configure-pressure-sensitive-buttons)
     - [How to Set Up mymc](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-mymc)
 4. [Custom Game Settings](#custom-game-settings)
     - [Grand Theft Auto III "Ghosting"](#grand-theft-auto-iii-ghosting)
@@ -631,6 +632,39 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 7. Select `System Configuration`
 8. Scroll down to `Language`
 9. Select your preferred language
+
+***
+
+### How to Configure Pressure Sensitive Buttons
+[Back to the Top](#pcsx2-qt-table-of-contents) 
+
+The `S` button on the keyboard is bound out of the box as a pressure modifier. To apply it to your PCSX2 games, you will need to use Steam Input.
+
+#### Steam Input
+
+1. In Game Mode, select your ROM shortcut, the PCSX2 shortcut, or EmulationStation-DE
+2. Click the Controller icon
+3. Map your preferred button(s) to the `S` keyboard key
+    * One method is to use any of the back bumpers. 
+4. While in game, press the button you mapped to the `S` keyboard key
+
+#### PCSX2
+
+The default pressure modifier is set at 30%. If you would like to adjust this setting, you may do so directly in PCSX2's settings.
+
+1. In Desktop Mode, open PCSX2
+    * [How to Launch PCSX2 in Desktop Mode](#how-to-launch-pcsx2-in-desktop-mode)
+2. If you are in Big Picture mode, press the square icon in the top right to exit out of Big Picture mode
+3. At the top, click `Settings`, `Controllers`
+4. On the left-hand side of the screen, click `Controller Port 1`
+5. At tthe top, to the right of `Dualshock 2`, click `Settings`
+6. Scroll down to `Modifier Pressure` and adjust the pressure setting to your liking
+    * If you are in Desktop Mode, press `X` on the Steam Deck to open the keyboard
+7. When you are finished, click `Close` and your set `Modifier Pressure` will be automatically applied the next time you open your game
+
+!!! example 
+
+    As an example, in Silent Hill 2, when clicking the right trigger (R2) and either L5 or R5 (the buttons bound to the keyboard key, S, in this example) together while using the A button, the attacks will be light. Release L5 or R5, but hold R2 and click A to attack as normal.
 
 ***
 
