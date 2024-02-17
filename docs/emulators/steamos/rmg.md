@@ -235,6 +235,8 @@ Before installing a texture pack, you will need to determine if it is HTC, HTS, 
 _This list is not exhaustive_
 
 * [https://evilgames.eu/texture-packs.htm](https://evilgames.eu/texture-packs.htm)
+* [https://www.n64textures.com/downloads/?lang=en](https://www.n64textures.com/downloads/?lang=en)
+* [https://emulationking.com/category/n64-texturepacks/](https://emulationking.com/category/n64-texturepacks/)
 
 ***
 
