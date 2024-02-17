@@ -15,7 +15,7 @@ One major change with the update is that the configuration directory has been ch
 
 **On SteamOS**
 
-For a quick way to rename this folder, open the EmuDeck application, visit the Manage Emulators page, click EmulationStation-DE, click EmulationStation-DE, and click Reset Configuration. 
+For a quick way to rename this folder, open the EmuDeck application, visit the Manage Emulators page, click EmulationStation-DE, and click Reset Configuration. 
 
 If you have a lot of custom settings already enabled, simply rename the `.emulationstation` folder to `ES-DE`. You can find this folder in `$HOME/.emulationstation` (`/home/deck/.emulationstation` on a Steam Deck).
 
