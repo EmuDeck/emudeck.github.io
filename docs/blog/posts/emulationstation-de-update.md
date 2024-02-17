@@ -13,11 +13,13 @@ Check out the full changelog at [https://gitlab.com/es-de/emulationstation-de/-/
 
 One major change with the update is that the configuration directory has been changed from `.emulationstation` to `ES-DE`. This change means that in order to start using EmulationStation-DE again, you will have to rename this folder.
 
-For a quick way to do rename this folder, open the EmuDeck application, visit the Manage Emulators page, click EmulationStation-DE, click EmulationStation-DE, and click Reset Configuration. This fix only works for SteamOS/Linux users at the moment. A hotfix is on its way for Windows users. 
+**On SteamOS**
 
-In the meantime, Windows users can manually apply this hotfix. Simply rename the `.emulationstation` folder to `ES-DE`. This folder can be found in the below path:
+For a quick way to rename this folder, open the EmuDeck application, visit the Manage Emulators page, click EmulationStation-DE, click EmulationStation-DE, and click Reset Configuration. 
 
-`%USERPROFILE%\emudeck\EmulationStation-DE\.emulationstation`
+**On Windows**
+
+For a quick way to rename this folder, open the EmuDeck application and the changes will be automatically applied. 
 
 Don't forget to take a moment and read through the changelog to discover all of the new wonderful changes with EmulationStation-DE 3.0.
 
