@@ -17,6 +17,10 @@ One major change with the update is that the configuration directory has been ch
 
 For a quick way to rename this folder, open the EmuDeck application, visit the Manage Emulators page, click EmulationStation-DE, click EmulationStation-DE, and click Reset Configuration. 
 
+If you have a lot of custom settings already enabled, simply rename the `.emulationstation` folder to `ES-DE`. You can find this folder in `$HOME/.emulationstation` (`/home/deck/.emulationstation` on a Steam Deck).
+
+In order to see the `.emulationstation` folder, in Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files`.
+
 **On Windows**
 
 For a quick way to rename this folder, open the EmuDeck application and the changes will be automatically applied. 
