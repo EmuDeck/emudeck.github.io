@@ -74,6 +74,8 @@ nav:
         - Supported Emulators:
             - Supported Emulators on SteamOS: 'emulators/steamos/supported-emulators.md'
             - Supported Emulators on Windows: 'emulators/windows/supported-emulators.md'
+        - BigPEmu (Atari Jaguar):
+            - 'BigPEmu on SteamOS': 'emulators/steamos/bigpemu.md'
         - Cemu (Wii U): 
             - 'Cemu on SteamOS': 
                 - 'emulators/steamos/cemu/index.md'
