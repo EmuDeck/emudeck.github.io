@@ -1,4 +1,4 @@
-# Flycast is a Dreamcast emulator
+# Flycast is a Dreamcast Emulator.
 
 GitHub: [https://github.com/flyinghead/flycast](https://github.com/flyinghead/flycast)
 
@@ -99,6 +99,7 @@ org.flycast.Flycast/
 ***
 
 ### How to Launch Flycast in Desktop Mode
+[Back to the Top](#flycast-table-of-contents)
 
 * Launch `Flycast` from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar)
 * Launch the script from `Emulation/tools/launchers`, `flycast.sh`
