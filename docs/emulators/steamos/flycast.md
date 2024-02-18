@@ -22,7 +22,7 @@ GitHub: [https://github.com/flyinghead/flycast](https://github.com/flyinghead/fl
 ## Getting Started with Flycast
 [Back to the Top](#flycast-table-of-contents)
 
-Flycast is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation/roms/dreamcast`. Place your BIOS directly in `Emulation/bios/flycast/bios`. No additional setup is required if you are using decrypted ROMs. Read the [Configuration](#flycast-configuration) section to learn more about Flycast and its folder locations.
+Flycast is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation/roms/dreamcast`. Place your BIOS directly in `Emulation/bios/flycast/bios`. Read the [Configuration](#flycast-configuration) section to learn more about Flycast and its folder locations.
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Flycast ROMs:
 
