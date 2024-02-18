@@ -12,10 +12,7 @@ GitHub: [https://github.com/flyinghead/flycast](https://github.com/flyinghead/fl
     - [How to Update Flycast](#how-to-update-flycast)
     - [How to Launch Flycast in Desktop Mode](#how-to-launch-flycast-in-desktop-mode)
     - [File Formats](#flycast-file-formats)
-    - [How to Manage DLC and Updates](#how-to-manage-dlc-and-updates)
-    - [Hotkeys](#flycast-hotkeys)
-
-### 
+    - [Hotkeys](#flycast-hotkeys) 
 
 ***
 
