@@ -1,0 +1,9 @@
+﻿Hotkey,Yuzu
+Menu,`Select` + `R3`
+Full Screen,`Select` + `R3`
+Docked Mode,`Start` + `DPAD Up`
+GPU Accuracy,`Start` + `DPAD Down`
+Filter,`Start` + `DPAD Left`
+Pause,`Select` + `A`
+Fast Forward,`Select` + `R2`
+Exit,`Select` + `Start`

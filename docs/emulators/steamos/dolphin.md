@@ -253,32 +253,8 @@ org.DolphinEmu.dolphin-emu/
 **Important Note:** Dolphin does not have a way of opening the menu if you are launching the game directly. It is recommended that you change any settings in the Dolphin UI itself before launching a game. 
 
 
-| Hotkey                       | Dolphin                             |
-|------------------------------|-------------------------------------|
-| Menu                         | N/A                                 |
-| Exit                         | `Select` + `Start`                  |
-| Pause/Unpause                | `Select` + `A`                      |
-| Fast Forward (Hold)          | `Select` + `R2`                     |
-| Save State                   | `Select` + `R1`                     |
-| Load State                   | `Select` + `L1`                     |
-| Next Save Slot               | `Start` + `R1`                      |
-| Previous Save Slot           | `Start` + `L1`                      |
-| Shake Nunchuk                | `L2`                                |
-| Shake Wiimote                | `L1`                                |
-| Tilt Wiimote                 | `L2` + Move `Left Stick`            |
-| Sideways Toggle              | `Select` + `R3`                     |
-| Attach/Detach Nunchuk        | `Select` + `Left Stick Down`        |
-| Next Wii Profile Select      | `Select` + `Left Stick Right`       |
-| Previous Wii Profile Select  | `Select` + `Left Stick Left`        |
-| Next Game Profile Select     | `Select` + `Left Stick Up`          |
-| Previous Game Profile Select | `Select` + `Left Stick Down`        |
-| Toggle Aspect Ratio          | `Start` + `DPAD Right`              |
-| Increase Internal Resolution | `Start` + `DPAD Up`                 |
-| Decrease Internal Resolution | `Start` + `DPAD Down`               |
-| Reset                        | `A` + `B` + `X` + `Y` + `L1` + `R1` |
-| Unlock FPS                   | `Start` +  `R2`                     |
-| Increase Emulator Speed*     | `Select` + `R2`                     |
-| Decrease Emulator Speed*     | `Select` + `L2`                     |
+{{ read_csv('dolphin-hotkeys.csv') }}
+
 
 **List of Wii Profiles Included with EmuDeck**
 

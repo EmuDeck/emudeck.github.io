@@ -178,20 +178,8 @@ DLC and update files typically are .CIAs, an installable file format through Cit
 
 Citra comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Citra 3DS`. The hotkeys below can only be used if you have the Steam Input profile active.
 
-|        Hotkey        |                 Citra                 |
-|:--------------------:|:-------------------------------------:|
-| Full Screen Toggle   | `L4`                                  |
-| Layout Toggle        | `L5`                                  |
-| Swap Screens         | `R4`                                  |
-| Quit                 | Long Press `R5`                       |
-| Save State           | Left Trackpad Touch Menu              |
-| Load State           | Left Trackpad Touch Menu              |
-| Fast Forward         | Left Trackpad Touch Menu              |
-| Pause                | Left Trackpad Touch Menu              |
-| Exit                 | `Double Tap` Left Trackpad Touch Menu |
-| Full Screen          | Left Trackpad Touch Menu              |
-| Swap Screens         | Left Trackpad Touch Menu              |
-| Change Screen Layout | Left Trackpad Touch Menu              |
+{{ read_csv('citra-hotkeys.csv') }}
+
 
 **Note:** 
 

@@ -160,19 +160,8 @@ RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profi
 
 **Long Press** to activate hotkeys on the left trackpad radial menu. 
 
-| Hotkey         | EmulationStation-DE       |
-|----------------|---------------------------|
-| Quick Menu     | Left Trackpad Radial Menu |
-| Save State     | Left Trackpad Radial Menu |
-| Save State Menu| Left Trackpad Radial Menu |
-| Load State     | Left Trackpad Radial Menu |
-| Pause          | Left Trackpad Radial Menu |
-| Cheats         | Left Trackpad Radial Menu |
-| Controller Menu| Left Trackpad Radial Menu |
-| Graphics Menu  | Left Trackpad Radial Menu |
-| Screenshot     | Left Trackpad Radial Menu |
-| Stop Emulation | Left Trackpad Radial Menu |
-| Reset          | Left Trackpad Radial Menu |
+{{ read_csv('rmg-hotkeys.csv') }}
+
 
 **Note:** 
 

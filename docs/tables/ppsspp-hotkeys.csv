@@ -1,0 +1,11 @@
+Hotkey,PPSSPP
+Quick Menu,`Steam` + `DPad Left`
+Quick Menu,Left Trackpad Radial Menu or `L3` + `R3`
+Save State,Left Trackpad Radial Menu or `Select` + `R1`
+Load State,Left Trackpad Radial Menu or `Select` + `L1`
+Next Save Slot,Left Trackpad Radial Menu or `Start` + `R1`
+Previous Save Slot,`Start` + `L1`
+Fast Forward,Left Trackpad Radial Menu or `Select` + `R2`
+Rewind,`Select` + `R2`
+Screenshot,`Select` + `B`
+Exit,`Start` + `Select`

@@ -156,16 +156,8 @@ BIOS will be searched through 3 folders:
 [Back to the Top](#mame-table-of-contents)
 
 
-| Hotkey           | MAME               |
-|------------------|--------------------|
-| Coin for player  | `Select`           |
-| Start for player | `Start`            |
-| Fast Forward     | `Select` + `R2`    |
-| Load State       | `Select` + `L1`    |
-| Save State       | `Select` + `R1`    |
-| Exit Emulator    | `Select` + `Start` |
-| Exit Emulator    | `STEAM` + `DPad Left` |
-| Quick Menu*       | `STEAM` + `DPad Down` |
+{{ read_csv('mame-hotkeys.csv') }}
+
 
 **Note:** 
 

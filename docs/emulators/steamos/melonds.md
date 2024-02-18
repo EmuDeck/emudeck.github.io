@@ -165,18 +165,8 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 
 **Long Press** to activate hotkeys on the left trackpad radial menu. 
 
-| Hotkey         | melonDS                   |
-|----------------|---------------------------|
-| Full Screen      | Left Trackpad Radial Menu or Tilt `Right Joystick` `Left` |
-| Save State Menu  | Left Trackpad Radial Menu        |
-| Load State Menu  | Left Trackpad Radial Menu        |
-| Pause            | Left Trackpad Radial Menu        |
-| Cheats           | Left Trackpad Radial Menu        |
-| Microphone       | Left Trackpad Radial Menu or `R3`|
-| Close/Open Lid   | Left Trackpad Radial Menu or `L3`|
-| Swap Screens     | Left Trackpad Radial Menu or `R2`|
-| Reset            | Left Trackpad Radial Menu        |
-| Toggle FPS Limit | Tilt `Right Joystick` `Right`    |
+{{ read_csv('melonds-hotkeys.csv') }}
+
 
 
 **Note:** 

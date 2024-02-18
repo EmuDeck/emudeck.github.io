@@ -190,14 +190,8 @@ Rock Band Unplugged requires additional configuration to enable DLC and addition
 
 PPSSPP comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - PPSSPP Standalone`. The hotkeys below can only be used if you have the Steam Input profile active.
 
-| Hotkey         | PPSSPP                    |
-|----------------|---------------------------|
-| Quick Menu     | `Steam` + `DPad Left`     |
-| Quick Menu     | Left Trackpad Radial Menu |
-| Save State     | Left Trackpad Radial Menu |
-| Load State     | Left Trackpad Radial Menu |
-| Next Save Slot | Left Trackpad Radial Menu |
-| Fast Forward   | Left Trackpad Radial Menu |
+{{ read_csv('ppsspp-hotkeys.csv') }}
+
 
 **Note:** 
 

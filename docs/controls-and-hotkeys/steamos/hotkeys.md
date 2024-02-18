@@ -12,6 +12,8 @@
 2. [Hotkeys](#hotkeys)
     - [General](#general)
         - [Global](#global)
+    - [Atari Hotkeys](#atari-hotkeys)
+        - [BigPEmu (Atari Jaguar)](#bigpemu-atari-jaguar)
     - [Microsoft Hotkeys](#microsoft-hotkeys)
         - [Xemu (OG Xbox)](#xemu-og-xbox)
         - [Xenia (Xbox 360)](#xenia-xbox-360)   
@@ -30,6 +32,8 @@
         - [Cemu (Wii U)](#cemu-wii-u)
         - [Ryujinx (Switch)](#ryujinx-switch)
         - [Yuzu (Switch)](#yuzu-switch)
+    - [Sega Hotkeys](#sega-hotkeys)
+        - [Flycast (Dreamcast) (Standalone)]
     - [Sony Hotkeys](#sony-hotkeys)
         - [PPSSPP (PlayStation Portable)](#ppsspp-playstation-portable)
         - [Vita3K (PlayStation Vita)](#vita3k-playstation-vita)
@@ -130,23 +134,21 @@ Hold the `Steam` button to view the list on your Steam Deck as well.
 
 The `Steam` button in the chart below is interchangeable with the `...` (QAM) button. For example, to "Force Game Shutdown", you can either hold `Steam` and the `B` button or hold `...` and the `B` button. 
 
-| Global                     | Hotkeys                            |
-|----------------------------|------------------------------------|
-| View Global Hotkey List    | Hold `Steam`                       |
-| Force Game Shutdown        | `Steam` + `B` (Long Press)         |
-| Show Keyboard              | `Steam` + `X`                      |
-| Toggle Magnifier           | `Steam` + `L1`                     |
-| Take Screenshot            | `Steam` + `R1`                     |
-| Right Mouse Click          | `Steam` + `L2`                     |
-| Left Mouse Click           | `Steam` + `R2`                     |
-| Joystick Mouse             | `Steam` + `Right Joystick`         |
-| Trackpad Mouse             | `Steam` + `Right Trackpad`         |
-| Left Mouse Click           | `Steam` + `Right Trackpad` (Click) |
-| Increase Screen Brightness | `Steam` + `Left Stick Up`          |
-| Decrease Screen Brightness | `Steam` + `Left Stick Down`        |
-| Enter Key                  | `Steam` + `DPad Right`             |
-| Tab Key                    | `Steam` + `DPad Down`              |
-| Escape Key                 | `Steam` + `DPad Left`              |
+{{ read_csv('global-steam-deck-hotkeys.csv') }}
+
+
+***
+
+### Atari Hotkeys
+[Back to the Top](#hotkeys-table-of-contents)
+
+***
+
+#### BigPEmu (Atari Jaguar)
+[Back to the Top](#hotkeys-table-of-contents)
+
+{{ read_csv('bigpemu-hotkeys.csv') }}
+
 
 ***
 
@@ -175,16 +177,8 @@ N/A
 ### MAME
 [Back to the Top](#hotkeys-table-of-contents)
 
-| Hotkey           | MAME               |
-|------------------|--------------------|
-| Coin for player  | `Select`           |
-| Start for player | `Start`            |
-| Fast Forward     | `Select` + `R2`    |
-| Load State       | `Select` + `L1`    |
-| Save State       | `Select` + `R1`    |
-| Exit Emulator    | `Select` + `Start` |
-| Exit Emulator    | `STEAM` + `DPad Left` |
-| Quick Menu*       | `STEAM` + `DPad Down` |
+{{ read_csv('mame-hotkeys.csv') }}
+
 
 **Note:** 
 
@@ -197,22 +191,7 @@ N/A
 
 [List of RetroArch Cores Used by EmuDeck](../../emulators/steamos/retroarch.md#list-of-retroarch-cores-used-by-emudeck)
 
-|       Hotkeys      |        RetroArch        |
-|:------------------:|:-----------------------:|
-| Menu               | `L3` + `R3`             |
-| Exit               | `Select` + `Start`      |
-| Pause/Unpause      | `Select` + `A`          |
-| Fast Forward       | `Select` + `R2`         |
-| Rewind             | `Select` + `L2`         |
-| Save State         | `Select` + `R1`         |
-| Load State         | `Select` + `L1`         |
-| Next Save Slot     | `Select` + `DPAD Right` |
-| Previous Save Slot | `Select` + `DPAD Left`  |
-| Toggle Runahead    | `Select` + `DPad Up`    |
-| Toggle FPS Display | `Select` + `X`          |
-| Screenshot         | `Select` + `B`          |
-| Toggle Screen Layout (NDS) | `R2`            |
-| Blow Mic  (NDS)    | `L2`                    |
+{{ read_csv('retroarch-hotkeys.csv') }}
 
 
 **Note:** 
@@ -242,19 +221,8 @@ RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profi
 
 **Long Press** to activate hotkeys on the left trackpad radial menu. 
 
-| Hotkey         | RMG                       |
-|----------------|---------------------------|
-| Quick Menu     | Left Trackpad Radial Menu |
-| Save State     | Left Trackpad Radial Menu |
-| Save State Menu| Left Trackpad Radial Menu |
-| Load State     | Left Trackpad Radial Menu |
-| Pause          | Left Trackpad Radial Menu |
-| Cheats         | Left Trackpad Radial Menu |
-| Controller Menu| Left Trackpad Radial Menu |
-| Graphics Menu  | Left Trackpad Radial Menu |
-| Screenshot     | Left Trackpad Radial Menu |
-| Stop Emulation | Left Trackpad Radial Menu |
-| Reset          | Left Trackpad Radial Menu |
+{{ read_csv('rmg-hotkeys.csv') }}
+
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
@@ -269,17 +237,8 @@ mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input prof
 
 **Long Press** to activate hotkeys on the left trackpad touch menu. 
 
-| Hotkey         | mGBA                      |
-|----------------|---------------------------|
-| Quick Menu     | Left Trackpad Touch Menu  |
-| Save State     | Left Trackpad Touch Menu  |
-| Load State     | Left Trackpad Touch Menu  |
-| Pause          | Left Trackpad Touch Menu  |
-| Reset          | Left Trackpad Touch Menu  |
-| Stop Emulation | Left Trackpad Touch Menu  |
-| Fast Forward   | Left Trackpad Touch  Menu |
-| Cheats         | Left Trackpad Touch Menu  |
-| Screenshot     | Left Trackpad Touch Menu  |
+{{ read_csv('mgba-hotkeys.csv') }}
+
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
@@ -294,18 +253,8 @@ melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input p
 
 **Long Press** to activate hotkeys on the left trackpad radial menu. 
 
-| Hotkey         | melonDS                   |
-|----------------|---------------------------|
-| Full Screen      | Left Trackpad Radial Menu or Tilt `Right Joystick` `Left` |
-| Save State Menu  | Left Trackpad Radial Menu        |
-| Load State Menu  | Left Trackpad Radial Menu        |
-| Pause            | Left Trackpad Radial Menu        |
-| Cheats           | Left Trackpad Radial Menu        |
-| Microphone       | Left Trackpad Radial Menu or `R3`|
-| Close/Open Lid   | Left Trackpad Radial Menu or `L3`|
-| Swap Screens     | Left Trackpad Radial Menu or `R2`|
-| Reset            | Left Trackpad Radial Menu        |
-| Toggle FPS Limit | Tilt `Right Joystick` `Right`    |
+{{ read_csv('melonds-hotkeys.csv') }}
+
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
@@ -316,51 +265,16 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 #### PrimeHack (Metroid Prime Trilogy)
 [Back to the Top](#hotkeys-table-of-contents)
 
-| Hotkey              | PrimeHack              |
-|---------------------|------------------------|
-| Menu                | N/A                    |
-| Exit                | `Select` + `Start`     |
-| Pause/Unpause       | `Select` + `A`         |
-| Fast Forward (Hold)       | `Select` + `R2`        |
-| Save State          | `Select` + `R1`        |
-| Load State          | `Select` + `L1`        |
-| Next Save Slot      | `Start` + `R1`         |
-| Previous Save Slot  | `Start` + `L1`         |
-| Toggle Aspect Ratio | `Start` + `DPAD Right` |
-| Increase IR         | `Start` + `DPAD Up`    |
-| Decrease IR         | `Start` + `DPAD Down`  |
-| Graphics Toggle     | `Start` + `L3`         |
+{{ read_csv('primehack-hotkeys.csv') }}
+
 
 ***
 
 #### Dolphin (Gamecube and Wii)
 [Back to the Top](#hotkeys-table-of-contents)
 
-| Hotkey                       | Dolphin                             |
-|------------------------------|-------------------------------------|
-| Menu                         | N/A                                 |
-| Exit                         | `Select` + `Start`                  |
-| Pause/Unpause                | `Select` + `A`                      |
-| Fast Forward (Hold)          | `Start` + `R2`                      |
-| Increase Emulator Speed      | `Select` + `R2`                     |
-| Decrease Emulator Speed      | `Select` + `L2`                     |
-| Save State                   | `Select` + `R1`                     |
-| Load State                   | `Select` + `L1`                     |
-| Next Save Slot               | `Start` + `R1`                      |
-| Previous Save Slot           | `Start` + `L1`                      |
-| Shake Nunchuk                | `L2`                                |
-| Shake Wiimote                | `L1`                                |
-| Tilt Wiimote                 | `L2` + Move `Left Stick`            |
-| Sideways Toggle              | `Select` + `R3`                     |
-| Attach/Detach Nunchuk        | `Select` + `Left Stick Down`        |
-| Next Wii Profile Select      | `Select` + `Left Stick Right`       |
-| Previous Wii Profile Select  | `Select` + `Left Stick Left`        |
-| Next Game Profile Select     | `Select` + `Left Stick Up`          |
-| Previous Game Profile Select | `Select` + `Left Stick Down`        |
-| Toggle Aspect Ratio          | `Start` + `DPAD Right`              |
-| Increase Internal Resolution | `Start` + `DPAD Up`                 |
-| Decrease Internal Resolution | `Start` + `DPAD Down`               |
-| Reset                        | `A` + `B` + `X` + `Y` + `L1` + `R1` |
+{{ read_csv('dolphin-hotkeys.csv') }}
+
 
 **List of Wii Profiles Included with EmuDeck**
 
@@ -377,21 +291,8 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 Citra comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Citra 3DS`. The hotkeys below can only be used if you have the Steam Input profile active.
 
-|        Hotkey        |                 Citra                 |
-|:--------------------:|:-------------------------------------:|
-| Menu                 | `L4`                                  |
-| Full Screen Toggle   | `L4`                                  |
-| Layout Toggle        | `L5`                                  |
-| Swap Screens         | `R4`                                  |
-| Quit                 | Long Press `R5`                       |
-| Save State           | Left Trackpad Touch Menu              |
-| Load State           | Left Trackpad Touch Menu              |
-| Fast Forward         | Left Trackpad Touch Menu              |
-| Pause                | Left Trackpad Touch Menu              |
-| Exit                 | `Double Tap` Left Trackpad Touch Menu |
-| Full Screen / Menu   | Left Trackpad Touch Menu              |
-| Swap Screens         | Left Trackpad Touch Menu              |
-| Change Screen Layout | Left Trackpad Touch Menu              |
+{{ read_csv('citra-hotkeys.csv') }}
+
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
@@ -402,12 +303,8 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Cemu`. The hotkeys below can only be used if you have the Steam Input profile active.
 
-|  Hotkey                 | Cemu           |
-|-------------------------|----------------|
-|  Toggle Screens         | `L4` or `R4`    |
-|  Swap Screens           | `L5` or `R5`    |
-|  Exit                   | `Select` + `Start` |
-|  Blow Mic               | `R3`    |
+{{ read_csv('cemu-hotkeys.csv') }}
+
 
 **Note:** The `Blow Mic` hotkey only works if you are using the gamepad. 
 
@@ -419,25 +316,28 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 #### Ryujinx (Switch)
 [Back to the Top](#hotkeys-table-of-contents)
 
-| Ryujinx                     | Hotkeys                           |
-|----------------------------|------------------------------------|
-|Exit                        |`Steam` + `DPad Left`               |
+{{ read_csv('ryujinx-hotkeys.csv') }}
+
 
 ***
 
 #### Yuzu (Switch)
 [Back to the Top](#hotkeys-table-of-contents)
 
-| Hotkey       | Yuzu                  |
-|--------------|-----------------------|
-| Menu         | `Select` + `R3` |
-| Full Screen  | `Select` + `R3` |
-| Docked Mode  | `Start` + `DPAD Up`   |
-| GPU Accuracy | `Start` + `DPAD Down` |
-| Filter       | `Start` + `DPAD Left` |
-| Pause        | `Select` + `A`        |
-| Fast Forward | `Select` + `R2`       |
-| Exit         | `Select` + `Start`    |
+{{ read_csv('yuzu-hotkeys.csv') }}
+
+
+***
+
+### Sega Hotkeys
+[Back to the Top](#hotkeys-table-of-contents)
+
+***
+
+#### Flycast (Dreamcast) (Standalone)
+
+{{ read_csv('flycast-hotkeys.csv') }}
+
 
 ***
 
@@ -449,14 +349,8 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 
 PPSSPP comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - PPSSPP Standalone`. The hotkeys below can only be used if you have the Steam Input profile active.
 
-| Hotkey         | PPSSPP                    |
-|----------------|---------------------------|
-| Quick Menu     | `Steam` + `DPad Left`     |
-| Quick Menu     | Left Trackpad Radial Menu |
-| Save State     | Left Trackpad Radial Menu |
-| Load State     | Left Trackpad Radial Menu |
-| Next Save Slot | Left Trackpad Radial Menu |
-| Fast Forward   | Left Trackpad Radial Menu |
+{{ read_csv('ppsspp-hotkeys.csv') }}
+
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
@@ -478,31 +372,8 @@ DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Inp
 
 **Long Press** to activate hotkeys on the left trackpad touch menu. 
 
-| Hotkey                    | DuckStation               |
-|---------------------------|---------------------------|
-| Save State                | Left Trackpad Touch Menu  |
-| Load State                | Left Trackpad Touch Menu  |
-| Next Save Slot            | Left Trackpad Touch Menu  |
-| Previous Save Slot        | Left Trackpad Touch Menu  |
-| Pause/Play                | Left Trackpad Touch Menu  |
-| Quick Menu                | Left Trackpad Touch Menu  |
-| Swap Disc                 | Left Trackpad Touch Menu  |
-| Fast Forward (Toggle)     | Left Trackpad Touch Menu  |
-| Fast Forward (Hold)       | `Select` + `R2`        |
-| Rewind                    | `Select` + `L2`        |
-| Pause                     | `Select` + `A`         |
-| Toggle Full Screen        | `Select` + `R3`        |
-| Quick Menu                | `Start` + `L3`         |
-| Load State                | `Select` + `L1`        |
-| Save State                | `Select` + `R1`        |
-| Next Save Slot            | `Start` + `R1`         |
-| Previous Save Slot        | `Start` + `L1`         |
-| Increase Resolution Scale | `Start` + `DPad Up`    |
-| Decrease Resolution Scale | `Start` + `DPad Down`  |
-| Toggle Widescreen         | `Start` + `DPad Right` |
-| Toggle PGXP               | `Start` + `DPad Left`  |
-| Toggle Software Rendering | `Start` + `L3`         |
-| Exit                      | `Select` + `Start`     |  
+{{ read_csv('duckstation-hotkeys.csv') }}
+
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
@@ -511,22 +382,8 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 #### PCSX2 (Playstation 2)
 [Back to the Top](#hotkeys-table-of-contents)
 
-|            Hotkey           |        PCSX2-QT        |
-|:---------------------------:|:----------------------:|
-| Menu                        | `Start` + `L3`         |
-| Full Screen                 | `Select` + `R3`        |
-| Exit                        | `Select` + `Start`     |
-| Pause/Unpause Emulation     | `Select` + `A`         |
-| Fast Forward                | `Select` + `R2`        |
-| Slow Motion                 | `Select` + `L2`        |
-| Load State                  | `Select` + `L1`        |
-| Save State                  | `Select` + `R1`        |
-| Next Save Slot              | `Start` + `R1`         |
-| Previous Save Slot          | `Start` + `L1`         |
-| Increase Upscale Multiplier | `Start` + `DPad Up`    |
-| Decrease Upscale Multiplier | `Start` + `DPad Down`  |
-| Cycle Aspect Ratio          | `Start` + `DPad Right` |
-| Toggle Software Rendering   | `Start` + `DPad Left`  |
+{{ read_csv('pcsx2-hotkeys.csv') }}
+
 
 ***
 

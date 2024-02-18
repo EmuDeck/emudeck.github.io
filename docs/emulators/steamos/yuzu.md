@@ -249,15 +249,8 @@ DLC and Updates are installed to the **NAND**. The NAND is localized to your Emu
 
 Combo hotkeys have been mapped for this emulator.
 
-| Hotkey       | Yuzu                  |
-|--------------|-----------------------|
-| Menu / Full Screen | `Select` + `R3`       |
-| Docked Mode  | `Start` + `DPAD Up`   |
-| GPU Accuracy | `Start` + `DPAD Down` |
-| Filter       | `Start` + `DPAD Left` |
-| Pause        | `Select` + `A`        |
-| Fast Forward | `Select` + `R2`       |
-| Exit | `Select` + `Start`|
+{{ read_csv('yuzu-hotkeys.csv') }}
+
 
 **Note:** 
 

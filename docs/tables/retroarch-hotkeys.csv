@@ -1,0 +1,15 @@
+﻿Hotkeys,RetroArch
+Menu,`L3` + `R3`
+Exit,`Select` + `Start`
+Pause/Unpause,`Select` + `A`
+Fast Forward,`Select` + `R2`
+Rewind,`Select` + `L2`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Next Save Slot,`Select` + `DPAD Right`
+Previous Save Slot,`Select` + `DPAD Left`
+Toggle Runahead,`Select` + `DPad Up`
+Toggle FPS Display,`Select` + `X`
+Screenshot,`Select` + `B`
+Toggle Screen Layout (NDS),`R2`
+Blow Mic  (NDS),`L2`

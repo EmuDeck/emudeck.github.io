@@ -331,12 +331,8 @@ DLC and Updates must be installed using the title manager. DLC and UPdates are s
 
 Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Cemu`. The hotkeys below can only be used if you have the Steam Input profile active.
 
-|  Hotkey                 | Cemu           |
-|-------------------------|----------------|
-|  Toggle Screens         | `L4` or `R4`    |
-|  Swap Screens           | `L5` or `R5`    |
-|  Exit                   | `Select` + `Start` |
-|  Blow Mic               | `R3`    |
+{{ read_csv('cemu-hotkeys.csv') }}
+
 
 **Note:** 
 

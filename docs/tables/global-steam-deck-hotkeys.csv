@@ -1,0 +1,16 @@
+﻿Global,Hotkeys
+View Global Hotkey List,Hold `Steam`
+Force Game Shutdown,`Steam` + `B` (Long Press)
+Show Keyboard,`Steam` + `X`
+Toggle Magnifier,`Steam` + `L1`
+Take Screenshot,`Steam` + `R1`
+Right Mouse Click,`Steam` + `L2`
+Left Mouse Click,`Steam` + `R2`
+Joystick Mouse,`Steam` + `Right Joystick`
+Trackpad Mouse,`Steam` + `Right Trackpad`
+Left Mouse Click,`Steam` + `Right Trackpad` (Click)
+Increase Screen Brightness,`Steam` + `Left Stick Up`
+Decrease Screen Brightness,`Steam` + `Left Stick Down`
+Enter Key,`Steam` + `DPad Right`
+Tab Key,`Steam` + `DPad Down`
+Escape Key,`Steam` + `DPad Left`

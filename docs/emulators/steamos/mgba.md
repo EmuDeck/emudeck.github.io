@@ -187,17 +187,8 @@ mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input prof
 
 **Long Press** to activate hotkeys on the left trackpad touch menu. 
 
-| Hotkey         | mGBA                      |
-|----------------|---------------------------|
-| Quick Menu     | Left Trackpad Touch Menu  |
-| Save State     | Left Trackpad Touch Menu  |
-| Load State     | Left Trackpad Touch Menu  |
-| Pause          | Left Trackpad Touch Menu  |
-| Reset          | Left Trackpad Touch Menu  |
-| Stop Emulation | Left Trackpad Touch Menu  |
-| Fast Forward   | Left Trackpad Touch  Menu |
-| Cheats         | Left Trackpad Touch Menu  |
-| Screenshot     | Left Trackpad Touch Menu  |
+{{ read_csv('mgba-hotkeys.csv') }}
+
 
 **Note:** 
 

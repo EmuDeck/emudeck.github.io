@@ -219,20 +219,8 @@ io.github.shiiion.primehack/
 
 **Important Note:** PrimeHack does not have a way of opening the menu if you are launching the game directly. It is recommended that you change any settings in the PrimeHack UI itself before launching a game. 
 
-| Hotkey              | PrimeHack              |
-|---------------------|------------------------|
-| Menu                | N/A                    |
-| Exit                | `Select` + `Start`     |
-| Pause/Unpause       | `Select` + `A`         |
-| Fast Forward (Hold)       | `Select` + `R2`        |
-| Save State          | `Select` + `R1`        |
-| Load State          | `Select` + `L1`        |
-| Next Save Slot      | `Start` + `R1`         |
-| Previous Save Slot  | `Start` + `L1`         |
-| Toggle Aspect Ratio | `Start` + `DPAD Right` |
-| Increase IR         | `Start` + `DPAD Up`    |
-| Decrease IR         | `Start` + `DPAD Down`  |
-| Graphics Toggle     | `Start` + `L3`         |
+{{ read_csv('primehack-hotkeys.csv') }}
+
 
 **Note:** 
 

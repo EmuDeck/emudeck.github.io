@@ -174,22 +174,8 @@ pcsx2/
 ### PCSX2 Hotkeys
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
-|            Hotkey           |        PCSX2-QT        |
-|:---------------------------:|:----------------------:|
-| Menu                        | `Start` + `L3`         |
-| Full Screen                 | `Select` + `R3`        |
-| Exit                        | `Select` + `Start`     |
-| Pause/Unpause Emulation     | `Select` + `A`         |
-| Fast Forward                | `Select` + `R2`        |
-| Slow Motion                 | `Select` + `L2`        |
-| Load State                  | `Select` + `L1`        |
-| Save State                  | `Select` + `R1`        |
-| Next Save Slot              | `Start` + `R1`         |
-| Previous Save Slot          | `Start` + `L1`         |
-| Increase Upscale Multiplier | `Start` + `DPad Up`    |
-| Decrease Upscale Multiplier | `Start` + `DPad Down`  |
-| Cycle Aspect Ratio          | `Start` + `DPad Right` |
-| Toggle Software Rendering   | `Start` + `DPad Left`  |
+{{ read_csv('pcsx2-hotkeys.csv') }}
+
 
 **Note:** 
 

@@ -218,9 +218,7 @@ ryujinx/
 ### Ryujinx Hotkeys
 [Back to the Top](#ryujinx-table-of-contents)
 
-| Ryujinx                     | Hotkeys                           |
-|----------------------------|------------------------------------|
-|Exit                        |`Steam` + `DPad Left`               |
+{{ read_csv('ryujinx-hotkeys.csv') }}
 
 ***
 

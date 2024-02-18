@@ -1,0 +1,19 @@
+Hotkey,DuckStation
+Save State,Left Trackpad Touch Menu or `Select` + `R1`
+Load State,Left Trackpad Touch Menu or `Select` + `L1`
+Next Save Slot,Left Trackpad Touch Menu or `Start` + `R1`
+Previous Save Slot,Left Trackpad Touch Menu or `Start` + `L1`
+Pause/Play,Left Trackpad Touch Menu or `Select` + `A`
+Quick Menu,Left Trackpad Touch Menu or `Start` + `L3`
+Swap Disc,Left Trackpad Touch Menu or `Select` + `X`
+Fast Forward (Toggle),Left Trackpad Touch Menu
+Fast Forward (Hold),`Select` + `R2`
+Rewind,`Select` + `L2`
+Toggle Full Screen,`Select` + `R3`
+Increase Resolution Scale,`Start` + `DPad Up`
+Decrease Resolution Scale,`Start` + `DPad Down`
+Toggle Widescreen,`Start` + `DPad Right`
+Toggle PGXP,`Select` + `Y`
+Toggle Software Rendering,`Start` + `DPad Left`
+Screenshot,`Select` + `B`
+Exit,`Select` + `Start`

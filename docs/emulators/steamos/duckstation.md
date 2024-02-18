@@ -170,31 +170,8 @@ DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Inp
 
 **Long Press** to activate hotkeys on the left trackpad radial menu. 
 
-| Hotkey                    | DuckStation               |
-|---------------------------|---------------------------|
-| Save State                | Left Trackpad Touch Menu  |
-| Load State                | Left Trackpad Touch Menu  |
-| Next Save Slot            | Left Trackpad Touch Menu  |
-| Previous Save Slot        | Left Trackpad Touch Menu  |
-| Pause/Play                | Left Trackpad Touch Menu  |
-| Quick Menu                | Left Trackpad Touch Menu  |
-| Swap Disc                 | Left Trackpad Touch Menu  |
-| Fast Forward (Toggle)     | Left Trackpad Touch Menu  |
-| Fast Forward (Hold)       | `Select` + `R2`        |
-| Rewind                    | `Select` + `L2`        |
-| Pause                     | `Select` + `A`         |
-| Toggle Full Screen        | `Select` + `R3`        |
-| Quick Menu                | `Start` + `L3`         |
-| Load State                | `Select` + `L1`        |
-| Save State                | `Select` + `R1`        |
-| Next Save Slot            | `Start` + `R1`         |
-| Previous Save Slot        | `Start` + `L1`         |
-| Increase Resolution Scale | `Start` + `DPad Up`    |
-| Decrease Resolution Scale | `Start` + `DPad Down`  |
-| Toggle Widescreen         | `Start` + `DPad Right` |
-| Toggle PGXP               | `Start` + `DPad Left`  |
-| Toggle Software Rendering | `Start` + `L3`         |
-| Exit                      | `Select` + `Start`     |
+{{ read_csv('duckstation-hotkeys.csv') }}
+
 
 **Note:** 
 
