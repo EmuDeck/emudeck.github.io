@@ -22,6 +22,7 @@ search:
 
 3. [Managing Files](#managing-files)
     - [How to Use Symlinks](#how-to-use-symlinks)
+    - [How to Use Multiple Storage Devices With EmuDeck](#how-to-use-multiple-storage-devices-with-emudeck)
     - [How to Transfer Files to a Steam Deck](#how-to-transfer-files-to-a-steam-deck)
 
 4. [Managing EmuDeck](#managing-emudeck)
@@ -346,6 +347,39 @@ You can create a symlink a couple of ways. One method is to create a symlink thr
 When you have your original folder or file and the destination ready, drag the original folder or file to the destination and click `Link here`. A symlink is indicated with a small link icon and the file name in italics.
 
 ##### Photos
+
+1. ![Symlink Example Step 1](../../assets/symlink-example1.png)
+2. ![Symlink Example Step 2](../../assets//symlink-example2.png)
+3. ![Symlink Example Step 3](../../assets/symlink-example3.png)
+
+##### GIF
+
+<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/60d68dadd56ab45cacadefafc1d5086647dd3c61/GIFs/How%20to%20Create%20a%20Symlink.gif?raw=true"/>
+
+***
+
+### How to Use Multiple Storage Devices With EmuDeck
+[Back to the Top](#file-management-table-of-contents)
+
+If you would like to use multiple SD Cards or multiple storage devices with EmuDeck to either dedicate each storage device to a specific system or to increase your storage, you can do so using symlinks.
+
+#### Step 1 
+
+Install EmuDeck to your internal SSD. Regardless of where you install EmuDeck, the emulators will be installed to your internal SSD. However, if you prefer, you can leave the ROMs folder on the internal SSD empty to ensure that your internal storage does not run out of space.
+
+#### Step 2
+
+Format your external storage device either using the Steam Deck or a device that allows you to format it in a supported file format. The Steam Deck will format it in EXT4, but you may also use BRTFS. 
+
+#### Step 3
+
+Use symlinks to link your ROM folders from your various external storage devices to the internal install of EmuDeck. You can create a symlink by dragging the folder from your external storage device to the respective ROM folder on your internal SSD.
+
+For example, if you have an SD Card for Nintendo Switch ROMs, drag your Nintendo Switch folder (however you would like to name it) to the `Emulation/roms/switch` folder on your internal SSD and click `Link Here`. Once you click `Link Here`, a symlink will be created and your Nintendo Switch ROM folders are now linked. 
+
+Typically, you will have various folders (named however you would like) and you will link them to the contents of the respective ROM folder on your internal SSD allowing for each subfolder to represent the folders on your various external storage devices. 
+
+A couple of specific symlink examples are shown below. Symlinks are a powerful way of creating shortcuts without taking up any space in the target location (the internal SSD in this case).  
 
 1. ![Symlink Example Step 1](../../assets/symlink-example1.png)
 2. ![Symlink Example Step 2](../../assets//symlink-example2.png)
