@@ -15,7 +15,6 @@ Patreon: [https://www.patreon.com/richwhitehouse](https://www.patreon.com/richwh
     - [How to Launch BigPEmu in Desktop Mode](#how-to-launch-bigpemu-in-desktop-mode)
     - [File Formats](#bigpemu-file-formats)
     - [Hotkeys](#bigpemu-hotkeys)
-    - [EmuDeck Compatibility List](#emudeck-compatibility-list)
 
 ***
 
