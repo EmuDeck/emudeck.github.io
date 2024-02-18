@@ -2,7 +2,7 @@
 
 Website: [https://xemu.app/](https://xemu.app/)
 
-Github: [https://github.com/mborgerson/xemu](https://github.com/mborgerson/xemu)
+GitHub: [https://github.com/mborgerson/xemu](https://github.com/mborgerson/xemu)
 
 Compatibility List: [https://xemu.app/#compatibility](https://xemu.app/#compatibility)
 

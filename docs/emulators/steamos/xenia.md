@@ -2,7 +2,7 @@
 
 Website: [https://xenia.jp/](https://xenia.jp/)
 
-Github: [https://github.com/xenia-project/xenia](https://github.com/xenia-project/xenia)
+GitHub: [https://github.com/xenia-project/xenia](https://github.com/xenia-project/xenia)
 
 Compatibility List: [https://github.com/xenia-project/game-compatibility/issues](https://github.com/xenia-project/game-compatibility/issues)
 

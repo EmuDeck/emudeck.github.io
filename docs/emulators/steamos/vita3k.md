@@ -2,7 +2,7 @@
 
 Website: [https://vita3k.org/](https://vita3k.org/)
 
-Github: [https://github.com/Vita3K/Vita3K](https://github.com/Vita3K/Vita3K)
+GitHub: [https://github.com/Vita3K/Vita3K](https://github.com/Vita3K/Vita3K)
 
 Compatibility List: [https://vita3k.org/compatibility.html?lang=en](https://vita3k.org/compatibility.html?lang=en)
 

@@ -4,7 +4,7 @@
 
 Website: [https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime](https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime)
 
-Github: [https://github.com/shiiion/metroid-prime-source-mod/releases/](https://github.com/shiiion/metroid-prime-source-mod/releases/)
+GitHub: [https://github.com/shiiion/metroid-prime-source-mod/releases/](https://github.com/shiiion/metroid-prime-source-mod/releases/)
 
 PrimeHack Wiki: [https://github.com/shiiion/dolphin/wiki](https://github.com/shiiion/dolphin/wiki)
 

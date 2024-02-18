@@ -2,9 +2,9 @@
 
 Website: [https://yuzu-emu.org/](https://yuzu-emu.org/)
 
-Github: [https://github.com/yuzu-emu/yuzu-mainline](https://github.com/yuzu-emu/yuzu-mainline)
+GitHub: [https://github.com/yuzu-emu/yuzu-mainline](https://github.com/yuzu-emu/yuzu-mainline)
 
-Github Releases: [https://github.com/yuzu-emu/yuzu-mainline/releases](https://github.com/yuzu-emu/yuzu-mainline/releases)
+GitHub Releases: [https://github.com/yuzu-emu/yuzu-mainline/releases](https://github.com/yuzu-emu/yuzu-mainline/releases)
 
 Compatibility List: [https://yuzu-emu.org/game/](https://yuzu-emu.org/game/)
 

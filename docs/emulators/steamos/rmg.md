@@ -1,6 +1,6 @@
 # Rosalie's Mupen GUI (RMG) is a Nintendo 64 Emulator.
 
-Github: [https://github.com/Rosalie241/RMG](https://github.com/Rosalie241/RMG)
+GitHub: [https://github.com/Rosalie241/RMG](https://github.com/Rosalie241/RMG)
 
 **This page is for Rosalie's Mupen GUI, a standalone N64 emulator. This page is not for the Mupen64Plus-Next RetroArch core. For more information on RetroArch and the Mupen64Plus-Next RetroArch core, visit the [RetroArch Page](../steamos/retroarch.md).**
 

@@ -4,7 +4,7 @@ Website: [https://melonds.kuribo64.net/](https://melonds.kuribo64.net/)
 
 melonDS' FAQ: [https://melonds.kuribo64.net/faq.php](https://melonds.kuribo64.net/faq.php)
 
-Github: [https://github.com/melonDS-emu/melonDS](https://github.com/melonDS-emu/melonDS)
+GitHub: [https://github.com/melonDS-emu/melonDS](https://github.com/melonDS-emu/melonDS)
 
 Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://melonds.kuribo64.net/board/forum.php?id=3)
 

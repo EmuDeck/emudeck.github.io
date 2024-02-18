@@ -2,9 +2,9 @@
 
 Website: [https://ryujinx.org/](https://ryujinx.org/)
 
-Github: [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
+GitHub: [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
 
-Github Releases: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
+GitHub Releases: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
 
 Compatibility List: [https://github.com/Ryujinx/Ryujinx-Games-List/issues](https://github.com/Ryujinx/Ryujinx-Games-List/issues)
 

@@ -4,7 +4,7 @@ Website: [https://rpcs3.net/](https://rpcs3.net/)
 
 Quickstart Guide: [https://rpcs3.net/quickstart](https://rpcs3.net/quickstart)
 
-Github: [https://github.com/RPCS3/rpcs3](https://github.com/RPCS3/rpcs3)
+GitHub: [https://github.com/RPCS3/rpcs3](https://github.com/RPCS3/rpcs3)
 
 Compatibility List: [https://rpcs3.net/compatibility](https://rpcs3.net/compatibility)
 

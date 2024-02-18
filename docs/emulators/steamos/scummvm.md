@@ -2,7 +2,7 @@
 
 Website: [https://www.scummvm.org/](https://www.scummvm.org/)
 
-Github: [https://github.com/scummvm/scummvm](https://github.com/scummvm/scummvm)
+GitHub: [https://github.com/scummvm/scummvm](https://github.com/scummvm/scummvm)
 
 Compatibility List: [https://www.scummvm.org/compatibility/](https://www.scummvm.org/compatibility/)
 

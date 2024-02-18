@@ -4,7 +4,7 @@ Website: [https://mgba.io/](https://mgba.io/)
 
 mGBA's FAQ: [https://mgba.io/faq.html](https://mgba.io//faq.html)
 
-Github: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
+GitHub: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
 
 **This page is for mGBA, a standalone Nintendo Game Boy, Game Boy Color and Game Boy Advance emulator. This page is not for the mGBA RetroArch core. For more information on RetroArch and the mGBA RetroArch core, visit the [RetroArch Page](../steamos/retroarch.md).**
 
