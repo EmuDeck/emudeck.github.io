@@ -89,6 +89,8 @@ nav:
         - DuckStation (PlayStation 1):
             - 'DuckStation on SteamOS': 'emulators/steamos/duckstation.md'
             - 'DuckStation on Windows': 'emulators/windows/duckstation.md'
+        - Flycast (Dreamcast):
+            - 'Flycast on SteamOS': 'emulators/steamos/flycast.md'
         - MAME:
             - 'MAME on SteamOS': 'emulators/steamos/mame.md'
         - melonDS (Nintendo DS) (Standalone):
