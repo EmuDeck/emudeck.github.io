@@ -100,6 +100,8 @@ nav:
             - 'melonDS on Windows': 'emulators/windows/melonds.md'
         - mGBA (GB, GBC, and GBA) (Standalone):
             - 'mGBA on SteamOS': 'emulators/steamos/mgba.md'
+        - Model 2 Emulator (Sega Model 2):
+            - 'Model 2 Emulator on SteamOS': 'emulators/steamos/model-2-emulator.md'
         - PCSX2 (PlayStation 2):
             - 'PCSX2 on SteamOS': 'emulators/steamos/pcsx2.md'
             - 'PCSX2 on Windows': 'emulators/windows/pcsx2.md'
@@ -121,6 +123,8 @@ nav:
             - 'Ryujinx on Windows': 'emulators/windows/ryujinx.md'
         - ScummVM:
             - 'ScummVM on SteamOS': 'emulators/steamos/scummvm.md'
+        - Supermodel (Sega Model 3):
+            - 'Supermodel on SteamOS': 'emulators/steamos/supermodel.md'
         - Vita3K (PlayStation Vita):
             - 'Vita3K on SteamOS': 'emulators/steamos/vita3k.md'
         - Xemu (OG Xbox):
