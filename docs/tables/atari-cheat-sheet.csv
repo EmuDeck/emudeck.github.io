@@ -1,3 +1,5 @@
 Console/System,ROM Folder Name,Emulator (Click for Link),File Types,BIOS Files
 Atari 2600,atari2600,[RetroArch Stella](https://docs.libretro.com/library/stella/),.7z .a26   .bin .zip,Not Required
+Atari Jaguar,atarijaguar,[BigPEmu](https://www.richwhitehouse.com/jaguar/),.abs .cdi .cof .cue .j64 .jag .rom .zip,Not Required
+Atari Jaguar,atarijaguarcd,[BigPEmu](https://www.richwhitehouse.com/jaguar/),.abs .cdi .cof .cue .j64 .jag .rom .zip,Not Required
 Atari Lynx,lynx,[RetroArch Beetle Lynx](https://docs.libretro.com/library/beetle_lynx/),.7z .bin .lnx .zip,`lynxboot.img`
