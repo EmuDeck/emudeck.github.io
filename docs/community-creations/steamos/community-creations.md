@@ -103,13 +103,15 @@ You will need to **create** a GitHub account first.
 #### How to Download Steam Input Profiles
 [Back to the Top](#how-to-share-and-download-steam-input-profiles)
 
-1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
-2. In this folder: `/home/deck/.steam/steam/controller_base/templates`, right click, `Create New`, `Text File`
-	* `.steam` is a hidden folder by default, click the hamburger menu in the top right, click `Show Hidden Files` to un-hide it
-3. Paste the contents of a profile you would like to use
-4. Save the profile, matching the profile name in the section exactly, with a `.vdf` file extension
+1. Open the Steam input folder, `/home/deck/.local/share/Steam/controller_base/templates` folder
+	* `~/.local` is a hidden folder by default, click the hamburger menu in the top right, click `Show Hidden Files` to un-hide it
+2. If a download button exists for the profile you would like to use, simply click the download button and place it in the folder in Step 1. You may skip Steps 3-6
+3. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
+4. In this folder: `/home/deck/.steam/steam/controller_base/templates`, right click, `Create New`, `Text File`
+5. Paste the contents of a profile you would like to use
+6. Save the profile, matching the profile name in the section exactly, with a `.vdf` file extension
 	* Without the `.vdf` file extension, the profile will not work
-5. You now have successfully downloaded a profile and the profile will automatically display in your list of Steam Input profiles in Game Mode 
+7. You now have successfully downloaded a profile and the profile will automatically display in your list of Steam Input profiles in Game Mode 
 
 ***
 
@@ -2562,21 +2564,21 @@ You may select a profile to download by choosing one from the Table of Contents:
 
 After you have selected a profile, you may use the below tutorial to learn how to download it and use it in Dolphin. 
 
-**Tutorial**
-
-1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
-2. In either the `Gamecube` or the `Wii` profile folders, right click, `Create New`, `Text File`
+1. Open either the GameCube or the Wii profile folder:
 	* Gamecube Profile Folder: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
-    * Wii Profile Folder: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
-	* `~/.var` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
-3. Paste the contents of a profile you would like to use
-4. Save the profile, either matching the profile name or something descriptive with an `.ini` file extension
+	* Wii Profile Folder: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
+		* `~/.var` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+2. If a download button exists for the profile you would like to use, simply click the download button and place it in the respective folder in Step 1. You may skip Steps 3-6	
+3. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
+4. In either the `Gamecube` or the `Wii` profile folders, right click, `Create New`, `Text File`
+5. Paste the contents of a profile you would like to use
+6. Save the profile, either matching the profile name or something descriptive with an `.ini` file extension
     * Without the `.ini` file extension, the profile will not work
-5. You now have successfully downloaded a profile 
+7. You now have successfully downloaded a profile 
 
 !!! note
 
-	For instructions on how to set a Dolphin controller profile for a specific game, refer to: [How to Download Dolphin controller profiles and set it for a specific game](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
+	For instructions on how to set a Dolphin controller profile for a specific game, see [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 
 ***
 
@@ -3250,13 +3252,15 @@ You may select a profile to download by choosing one from the Table of Contents:
 
 After you have selected a profile, you may use the below tutorial to learn how to download it and use it in MAME.
 
-1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
-2. Open the MAME controller folder, ``/home/deck/.mame/cfg`, right click, `Create New`, `Text File`
+1. Open the MAME controller folder, `/home/deck/.mame/cfg`
 	* `~/.mame` is a hidden folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders 
-3. Paste the contents of a profile you would like to use
-4. Save the profile, either matching the profile name or something descriptive with an `.cfg` file extension
+2. If a download button exists for the profile you would like to use, simply click the download button and place it in the folder in Step 1. You may skip Steps 3-6
+3. Right click anywhere in the folder, `Create New`, `Text File`
+4. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
+5. Paste the contents of a profile you would like to use
+6. Save the profile, either matching the profile name or something descriptive with an `.cfg` file extension
     * Without the `.cfg` file extension, the profile will not work
-5. You now have successfully downloaded a profile 
+7. You now have successfully downloaded a profile 
 
 ***
 
