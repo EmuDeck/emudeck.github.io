@@ -60,19 +60,19 @@ This is not a definitive list of software, but instead a tailored list for those
 * [GitHub Desktop](https://desktop.github.com/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
-#### Cloning
+##### Cloning
 
 Clone the EmuDeck repository, either using the command line, [GitHub Desktop](https://desktop.github.com/), or through your preferred software. 
 
 [Clone and use a GitHub repository in Visual Studio Code](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=activity-bar)
 
-#### Python
+##### Python
 
 The EmuDeck wiki uses python for MkDocs, MkDocs-Material (the theme), and many of its extensions.
 
 If you are on Windows, you can download Python from the website at [https://www.python.org/](https://www.python.org/). If you are on Linux, you can install Python from the various package managers.
 
-#### Virtual Environments
+##### Virtual Environments
 
 In your newly cloned repo, you can set up a virtual environment to localize your Python install to the work you do on the EmuDeck wiki.
 
@@ -90,11 +90,11 @@ mkdocs-table-reader-plugin
 mkdocs-rss-plugin
 ```
 
-#### Testing your changes
+##### Testing your changes
 
 In your newly cloned repo, open a command prompt and enter `mkdocs serve`.  After you enter the command, you will be provided a URL that you can use to locally host the EmuDeck Wiki on your computer. This will allow you to see your changes in real time. Every change you save will automatically be applied
 
-#### Opening a Pull Request or Committing
+##### Opening a Pull Request or Committing
 
 Once you are satisified with your changes, you can open a Pull Request or commit directly to the EmuDeck wiki. 
 
