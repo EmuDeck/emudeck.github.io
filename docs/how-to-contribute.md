@@ -92,7 +92,7 @@ mkdocs-rss-plugin
 
 ##### Testing your changes
 
-In your newly cloned repo, open a command prompt and enter `mkdocs serve`.  After you enter the command, you will be provided a URL that you can use to locally host the EmuDeck Wiki on your computer. This will allow you to see your changes in real time. Every change you save will automatically be applied
+In your newly cloned repo, open a command prompt and enter `mkdocs serve`.  After you enter the command, you will be provided a URL that you can use to locally host the EmuDeck Wiki on your computer. This will allow you to see your changes in real time. Every change you save will automatically be applied.
 
 ##### Opening a Pull Request or Committing
 
