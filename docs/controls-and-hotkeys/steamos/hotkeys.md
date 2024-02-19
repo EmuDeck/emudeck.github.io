@@ -33,7 +33,7 @@
         - [Ryujinx (Switch)](#ryujinx-switch)
         - [Yuzu (Switch)](#yuzu-switch)
     - [Sega Hotkeys](#sega-hotkeys)
-        - [Flycast (Dreamcast) (Standalone)]
+        - [Flycast (Dreamcast) (Standalone)](#flycast-dreamcast-standalone)
     - [Sony Hotkeys](#sony-hotkeys)
         - [PPSSPP (PlayStation Portable)](#ppsspp-playstation-portable)
         - [Vita3K (PlayStation Vita)](#vita3k-playstation-vita)
