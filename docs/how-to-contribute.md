@@ -51,6 +51,57 @@ This section will use `Dolphin on SteamOS` as an example.
 5. Submit your Pull Request
 6. Once your Pull Request is reviewed, it will be merged and any of your changes will automatically be deployed to the website
 
+#### How to Contribute Using a Cloned Repository
+
+##### Software
+
+This is not a definitive list of software, but instead a tailored list for those new to contributing to GitHub repositories.
+
+* [GitHub Desktop](https://desktop.github.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+
+#### Cloning
+
+Clone the EmuDeck repository, either using the command line, [GitHub Desktop](https://desktop.github.com/), or through your preferred software. 
+
+[Clone and use a GitHub repository in Visual Studio Code](https://learn.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository?tabs=activity-bar)
+
+#### Python
+
+The EmuDeck wiki uses python for MkDocs, MkDocs-Material (the theme), and many of its extensions.
+
+If you are on Windows, you can download Python from the website at [https://www.python.org/](https://www.python.org/). If you are on Linux, you can install Python from the various package managers.
+
+#### Virtual Environments
+
+In your newly cloned repo, you can set up a virtual environment to localize your Python install to the work you do on the EmuDeck wiki.
+
+Follow the instructions on Python's documentation, [https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/) to learn how to create a virtual environment. The `.venv` folder is ignored when you commit to the GitHub repository.
+
+After you have set up your virtual environment, install the various software.
+
+Generally, the command will be `python3 -m pip install SOFTWARENAME` (Linux) or `py -m pip install SOFTWARENAME` (Windows).
+
+```
+mkdocs-material
+mkdocs-glightbox
+mkdocs-static-i18n
+mkdocs-table-reader-plugin
+mkdocs-rss-plugin
+```
+
+#### Testing your changes
+
+In your newly cloned repo, open a command prompt and enter `mkdocs serve`.  After you enter the command, you will be provided a URL that you can use to locally host the EmuDeck Wiki on your computer. This will allow you to see your changes in real time. Every change you save will automatically be applied
+
+#### Opening a Pull Request or Committing
+
+Once you are satisified with your changes, you can open a Pull Request or commit directly to the EmuDeck wiki. 
+
+Either use [GitHub Desktop](https://desktop.github.com/) or your preferred software to create a Pull Request.
+
+If you are using Visual Studio Code, see [https://github.blog/2019-01-07-create-pull-requests-in-vscode/](https://github.blog/2019-01-07-create-pull-requests-in-vscode/) and [https://code.visualstudio.com/blogs/2018/09/10/introducing-github-pullrequests](https://code.visualstudio.com/blogs/2018/09/10/introducing-github-pullrequests) to learn how.  
+
 ### Examples of Wiki Contributions
 
 #### New Issues With Emulators
