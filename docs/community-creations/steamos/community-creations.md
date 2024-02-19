@@ -30,8 +30,9 @@ This section will go over how to share and post your Steam Input profiles on thi
 	* <img src="https://user-images.githubusercontent.com/108900299/197309794-404dbe92-6509-485a-8b1f-59f71d965584.png" height="300">
     * <img src="https://user-images.githubusercontent.com/108900299/199398759-7db86406-0c13-4f68-8545-4857d1a507ea.png" height="300">
 3. Switch to Desktop Mode
-4. Open the `home/deck/.local/share/Steam/steamapps/common/Steam Controller Configs/STEAMUSERID/config/` folder
-	* `STEAMUSERID` is a random string of numbers associated with your Steam account. It is unique to your profile. 
+4. Open the `/home/deck/.local/share/Steam/steamapps/common/Steam Controller Configs/STEAMUSERID/config/` folder
+	* `STEAMUSERID` is a random string of numbers associated with your Steam account. It is unique to your profile
+    * `~/.local` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders 
 5. Locate the folder associated with your game
 	* If you do not see it, it may be one of the folders with a random string of numbers
 6. Copy the template in the folder to another folder of your choice
@@ -2525,7 +2526,7 @@ This section will go over how to share and post your Dolphin controller profiles
 
 To begin, locate your profile layout:
 
-Your Gamecube controller profiles are located here: `home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
+Your Gamecube controller profiles are located here: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
 
 Your Wii controller profiles are located here: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
 
@@ -2565,8 +2566,9 @@ After you have selected a profile, you may use the below tutorial to learn how t
 
 1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
 2. In either the `Gamecube` or the `Wii` profile folders, right click, `Create New`, `Text File`
-	* Gamecube Profile Folder: `home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
+	* Gamecube Profile Folder: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/GCPad`
     * Wii Profile Folder: `/home/deck/.var/app/org.DolphinEmu.dolphin-emu/config/dolphin-emu/Profiles/Wiimote`
+	* `~/.var` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 3. Paste the contents of a profile you would like to use
 4. Save the profile, either matching the profile name or something descriptive with an `.ini` file extension
     * Without the `.ini` file extension, the profile will not work
@@ -3250,6 +3252,7 @@ After you have selected a profile, you may use the below tutorial to learn how t
 
 1. Copy the contents of a profile you would like to use by clicking the copy icon in the top right
 2. Open the MAME controller folder, ``/home/deck/.mame/cfg`, right click, `Create New`, `Text File`
+	* `~/.mame` is a hidden folder by default. In Dolphin (file manager), click the `☰` (hamburger menu) in the top right, click view hidden files to see these folders 
 3. Paste the contents of a profile you would like to use
 4. Save the profile, either matching the profile name or something descriptive with an `.cfg` file extension
     * Without the `.cfg` file extension, the profile will not work
