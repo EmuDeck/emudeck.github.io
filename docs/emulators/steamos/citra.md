@@ -30,6 +30,7 @@ Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
     - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
 4. [Custom Screen Layouts](#custom-screen-layouts)
+    - [How to Create Custom Screen Layouts](#how-to-create-custom-screen-layouts)
     - [How to Configure Bottom Screen as PiP](#how-to-configure-bottom-screen-as-pip)
     - [How to Configure Bottom Screen With PiP and Opacity](#how-to-configure-bottom-screen-with-pip-and-opacity)
     - [How to Configure Bottom Screen as PiP in the Top Right Corner](#how-to-configure-bottom-screen-as-pip-in-the-top-right-corner)
@@ -399,6 +400,21 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 ## Custom Screen Layouts
 [Back to the Top](#citra-table-of-contents)
+
+***
+
+### How to Create Custom Screen Layouts
+[Back to the Top](#citra-table-of-contents)
+
+Use [https://jesuscc1993.github.io/miscellaneous/citra-layout-generator/](https://jesuscc1993.github.io/miscellaneous/citra-layout-generator/) to create custom layouts.
+
+After you have created your custom layout, use the following steps to use it. 
+
+1. Open the folder: `/home/deck/.var/app/org.citra_emu.citra/config/citra-emu/`
+    * `~/.var` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+2. Right click `qt-config.ini`, and click `Open with Kate` or a text editor of your choice
+3. Locate the `[Layout]` section
+4. Replace the content of the `[Layout]` section with your newly created layout
 
 ***
 
