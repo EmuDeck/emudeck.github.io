@@ -398,34 +398,35 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
         * Do note that clicking the the `X` button in the top right of the Steam window **will not** exit out of Steam
     * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
     * You may also connect an external keyboard and mouse
-2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
+3. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
-3. Open Dolphin
-4. Open the `Controllers` menu
-5. Select `Configure` to the right of `Wii Remote 1`
+4. Open Dolphin
+5. Open the `Controllers` menu
+6. Select `Configure` to the right of `Wii Remote 1`
     * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
-6. Under `Device`, select `evdev/0/yourexternalcontrollername`
+7. On the `Profile` drop-down, select `Wii_base_nunchuck_with_touchpad` if you are using a Nunchuk or `Wii_no_attachment_with_touchpad` if you are not using a Nunchuk
+8. Under `Device`, select `evdev/0/yourexternalcontrollername`
     * Some external controllers may show up as `Wireless Controller`
     * For example: `evdev/0/Nintendo Switch Controller` or `evdev/0/Wireless Controller`
     * This section will use `evdev` but you may also use and tinker with `SDL` instead. External controller gyro will work with either the `evdev` or `SDL` driver options. Do note that if you use `SDL` for your input driver, you will need to fully remap your controls. To select `SDL` or `evdev` in the Dolphin controller menu, select your preferred input driver in the `Device` drop-down menu
         * For example, if you would like to use SDL for the PlayStation 5 DualSense controller, select `SDL/0/PS5 Controller` in the drop-down menu
-7. Select the `Motion Input` tab
-8. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `L2`
-9. Select `evdev/0/yourexternalcontrollername` in the drop-down menu at the top
+9. Select the `Motion Input` tab
+10. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `L2`
+11. Select `evdev/0/yourexternalcontrollername` in the drop-down menu at the top
     * For example: `evdev/0/Nintendo Switch Controller`
     * For some controllers, it may be under `evdev/0/Wireless Controller Motion Sensors`
-10. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
-11. Select the matching input to the button you clicked in Step 7
+12. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
+13. Select the matching input to the button you clicked in Step 10
     * ![How to Configure Gyro With External Controllers](../../assets/dolphin-external-controller-gyro.png)
-12. Press `Clear` in the bottom right
-13. Press `Select` in the top right
-14. Press `OK` in the bottom right
-15. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
-16. (Optional) To use the controller gyro as a pointer (moving the controller itself), check `Enable` under the Pointer section on the left on the `Motion Input` tab
+14. Press `Clear` in the bottom right
+15. Press `Select` in the top right
+16. Press `OK` in the bottom right
+17. Repeat for each button under the `Accelerometer` and `Gyroscope` sections
+18. (Optional) To use the controller gyro as a pointer (moving the controller itself), check `Enable` under the Pointer section on the left on the `Motion Input` tab
     * Make sure to click `Recenter` and tinker with the settings here to calibrate the pointer
     * You may also want to consider disabling `Auto-hide` under the `Point` section on the `Motion simulation tab`
-17. After you are finished, give your profile a name in the top right and save it as a new profile
-18. To select this profile, open the controller menu, select the profile name in the drop-down menu and click `Load`
+19. After you are finished, give your profile a name in the top right and save it as a new profile
+20. To select this profile, open the controller menu, select the profile name in the drop-down menu and click `Load`
 
 **Note:** Different games have different preferences for Nunchuk and Motionplus support. Under the `General and Options` tab, you may uncheck `Attach MotionPlus` or select the appropriate extension in the drop-down menu. Be sure to create and save a new profile for each circumstance to quickly load the different profiles as needed. 
 
