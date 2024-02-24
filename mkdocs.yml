@@ -66,7 +66,7 @@ nav:
             - 'Cloud Services on SteamOS': 'tools/steamos/cloud-services.md'
         - ES-DE:
             - 'ES-DE on SteamOS': 'tools/steamos/es-de.md'
-            - 'EmulationStation-DE on Windows': 'tools/windows/es-de.md'
+            - 'ES-DE on Windows': 'tools/windows/es-de.md'
         - Steam ROM Manager:
             - 'Steam ROM Manager on SteamOS': 'tools/steamos/steam-rom-manager.md'
             - 'Steam ROM Manager on Windows': 'tools/windows/steam-rom-manager.md'
