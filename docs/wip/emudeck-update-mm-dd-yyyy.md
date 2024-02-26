@@ -12,7 +12,8 @@ search:
 ## Emulators
 
 * ares (New emulator!) 
-    * Cannot be installed yet, added preliminary support for ares, will be fully implemented in a future update
+    * Added preliminary support for ares, will be fully implemented in a future update
+        * **Cannot** be installed through the GUI at this time
 * BigPEmu (New emulator!)
     * Added BigPEmu to EmuDeck
     * [#775](https://github.com/dragoonDorise/EmuDeck/pull/775)
@@ -51,7 +52,7 @@ search:
     * Added migration support for the new melonDSDS RetroArch core
         * Migration tool will automatically copy, **not delete**, saves and configurations from the old melonDS 
         core to the new new melonDSDS RetroArch core  
-        * Use the "Nintendo DS - RetroArch melonDS DS" parser in Steam ROM Manager or select it in EmulationStation-DE's alternate emulators list to try it out! 
+        * Use the "Nintendo DS - RetroArch melonDS DS" parser in Steam ROM Manager or select it in ES-DE's alternate emulators list to try it out! 
         * [#956](https://github.com/dragoonDorise/EmuDeck/pull/956)
     * Fixed Hardcore Mode for FBNeo RetroAchievements
     * Added buildbot downloader to automatically download shaders, PPSSPP files, assets, and info files
@@ -65,7 +66,8 @@ search:
 * Ryujinx 
     * Pointed launcher to Ryujinx's `.sh` file instead
 * RPCS3
-    * Added preliminary support for migrating to the AppImage, cannot be used yet, will be fully implemented in a future update
+    * Added preliminary support for migrating to the AppImage, will be fully implemented in a future update
+    * **Cannot** be migrated through the GUI at this time
 * Supermodel (New emulator!)
     * Added Supermodel to EmuDeck
         * [#937](https://github.com/dragoonDorise/EmuDeck/pull/937)
@@ -154,6 +156,7 @@ search:
     * Allow user to skip update check for all or per emulator
     * [#942](https://github.com/dragoonDorise/EmuDeck/pull/942)
 * Added support for launching Proton emulators with flags
+    * Allows for lauching Xenia with custom flags (sort of like per game configs)
     * [#961](https://github.com/dragoonDorise/EmuDeck/pull/961)
 * Allow user override Proton version for Proton launchers
     * [#870](https://github.com/dragoonDorise/EmuDeck/pull/870)
