@@ -77,6 +77,7 @@ search:
         * [#880](https://github.com/dragoonDorise/EmuDeck/pull/895)
 * Xenia
     * Added symlink to saves folder in `Emulation/saves`
+    * Set renderer to D3D12 by default
 
 ## Tools
 
@@ -99,6 +100,7 @@ search:
         * [#794](https://github.com/dragoonDorise/EmuDeck/pull/794) 
     * Cleaned up parser category names
         * [#808](https://github.com/dragoonDorise/EmuDeck/pull/808)
+    * Fixed Steam ROM Manager shortcut not launching on GNOME desktops
 
 ## EmuDeck Tools
 
