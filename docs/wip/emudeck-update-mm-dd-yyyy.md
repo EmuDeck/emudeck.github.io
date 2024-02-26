@@ -83,6 +83,9 @@ search:
 * Pegasus (New front-end!)
     * Added Pegasus to EmuDeck  
 * Steam ROM Manager
+    * Added "Atomiswave (Flycast Standalone)" parser
+    * Added "NAOMI (Flycast Standalone)" parser
+    * Added "NAOMI 2 (Flycast Standalone)" parser
     * Added "Philips CD-i (MAME Standalone)" parser
     * Added "SNK Neo Geo CD - MAME (MAME Standalone)" parser
     * Added "Tiger Electronics Game.com - MAME (MAME Standalone)" parser
