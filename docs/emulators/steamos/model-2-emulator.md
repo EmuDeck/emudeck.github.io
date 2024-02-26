@@ -22,7 +22,7 @@ Information: [https://emulation.gametechwiki.com/index.php/Sega_Model_2](https:/
 
 The Model 2 Emulator is a fairly straight-forward emulator to set up. Place your Sega Model 2 ROMs in `Emulation/roms/model2/roms`. No additional setup is required. Read the [Configuration](#model-2-emulator-configuration) section to learn more about the Model 2 Emulator and its folder locations.
 
-To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Xbox 360 ROMs:
+To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Model 2 ROMs:
 
 * `EmulationStation-DE`
 * `Sega Model 2 - Model 2 Emulator`
