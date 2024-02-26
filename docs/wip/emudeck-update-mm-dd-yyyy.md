@@ -89,6 +89,7 @@ search:
     * Added "NEC PC-FX (RA Core)" parser
     * Added "Nintendo Virtual Boy (RA Core)" parser
     * Added "TIC 80" parser
+        * [#791](https://github.com/dragoonDorise/EmuDeck/pull/791)
     * Added "Sameboy Game Boy Color (RA Core)" parser
         * [#794](https://github.com/dragoonDorise/EmuDeck/pull/794) 
     * Cleaned up parser category names
@@ -98,8 +99,8 @@ search:
 
 * Uninstall Tool
     * Properly wipes your device of anything EmuDeck related
-    * Includes a prompt to uninstall Decky Loader
-    * Includes a prompt to back up BIOS and saves
+    * Included a prompt to uninstall Decky Loader
+    * Included a prompt to back up BIOS and saves
 * Compression Tool
     * Added CDI to whitelist
         * [#1021](https://github.com/dragoonDorise/EmuDeck/pull/1021)
@@ -126,7 +127,7 @@ search:
     * Removed Firefox as a default browser for Cloud Services
         * [#910](https://github.com/dragoonDorise/EmuDeck/pull/910)
     * Add Antstream Arcade Cloud
-        [#969](https://github.com/dragoonDorise/EmuDeck/pull/969)
+        * [#969](https://github.com/dragoonDorise/EmuDeck/pull/969)
     * Switched to a more universal browser command that is not reliant on flatpak only
         * [#941](https://github.com/dragoonDorise/EmuDeck/pull/941)
     * Switched to local running instance of Jellyfin for default URL. This allows instant access if Jellyfin server is installed and running on Steam Deck
