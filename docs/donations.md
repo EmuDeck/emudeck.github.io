@@ -34,9 +34,8 @@ No donation link found at this time.
 
 ## EmulationStation-DE
 
-* [Patreon](https://www.patreon.com/es_de)
-* [PayPal](https://www.paypal.com/donate?token=iZPXTHDvZTqFYXRx5E2rtfPUpkS0OUoOssz2HqleeUsv2pSlG4k5IDYmj2SAlWiZ5Xi-MMqyfMwvT3Kq)
-* [Stripe](https://donate.stripe.com/bIYcOubPU8Ix2ic7st)
+* [https://www.patreon.com/es_de](https://www.patreon.com/es_de)
+
 
 ## Flycast
 
