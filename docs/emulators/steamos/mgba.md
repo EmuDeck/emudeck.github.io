@@ -47,7 +47,7 @@ mGBA is a fairly straight-forward emulator to set up. Place your ROMs in `Emulat
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your GB, GBC, and GBA ROMs:
 
-* `EmulationStation-DE`
+* `ES-DE`
 * `Nintendo Game Boy - mGBA`, `Nintendo Game Boy Color - mGBA` or `Nintendo Game Boy Advance - mGBA`
 * `Emulators`
 
@@ -79,7 +79,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE
+* ES-DE
 
 ***
 
@@ -137,10 +137,10 @@ To use **mGBA (Standalone)** to launch your ROMs in Game Mode:
         * `Nintendo Game Boy - mGBA`
         * `Nintendo Game Boy Color - mGBA` 
         * `Nintendo Game Boy Advance - mGBA`
-* Use Steam ROM Manager and select the `EmulationStation-DE` parser
-    * To switch to mGBA (Standalone) in EmulationStation-DE, see [EmulationStation-DE: How to Select a Different Emulator for a System](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-for-a-system)
+* Use Steam ROM Manager and select the `ES-DE` parser
+    * To switch to mGBA (Standalone) in ES-DE, see [ES-DE: How to Select a Different Emulator for a System](../../tools/steamos/es-de.md#how-to-select-a-different-emulator-for-a-system)
 
-**No** additional setup is required with Steam ROM Manager and EmulationStation-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
+**No** additional setup is required with Steam ROM Manager and ES-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
 
 ***
 
@@ -405,7 +405,7 @@ _This list is not comprehensive_
 #### Game Mode
 
 1. While in game, use the left Trackpad and select the `Cheats` icon
-    * Steam Input profiles for mGBA ROMs and EmulationStation-DE are enabled by default. However, if you do not see the Trackpad menu, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+    * Steam Input profiles for mGBA ROMs and ES-DE are enabled by default. However, if you do not see the Trackpad menu, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Select which cheats you would like to use
 
 ***

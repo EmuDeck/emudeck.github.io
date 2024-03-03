@@ -86,7 +86,7 @@ Emulators will typically treat the M3U file itself as the ROM and auto-play the 
 
 For how to use the M3U with Steam ROM Manager, see [Steam ROM Manager: How to Manage ROMs with Multiple Discs](../../tools/steamos/steam-rom-manager.md#how-to-manage-roms-with-multiple-discs)
 
-For how to use the M3U with EmulationStation-DE, see [EmulationStation-DE: How to Manage ROMs with Multiple Discs](../../tools/steamos/emulationstation-de.md#how-to-manage-multiple-discs)
+For how to use the M3U with ES-DE, see [ES-DE: How to Manage ROMs with Multiple Discs](../../tools/steamos/es-de.md#how-to-manage-multiple-discs)
 
 ##### In-Depth Guide
 [Back to the Top](#how-to-create-an-m3u-file)
@@ -95,8 +95,8 @@ For how to use the M3U with EmulationStation-DE, see [EmulationStation-DE: How t
 
 1. In your ROM folder, right click, click `Create New Text File`
 2. Name it `GAMENAME.m3u`
-    * The file name of the M3U file is up to you. However, it is recommended you match the M3U file as closely as possible to the game name so Steam ROM Manager and EmulationStation-DE can scrape the appropriate game art or game info
-    * For example, with the game: `The Legend of Dragoon`, you may name the M3U file, `The Legend of Dragoon.m3u` so Steam ROM Manager or EmulationStation-DE can locate the appropriate art. However, if you name it `LoD.m3u` as an example, neither tool will know to match `LoD` to `Legend of Dragoon`
+    * The file name of the M3U file is up to you. However, it is recommended you match the M3U file as closely as possible to the game name so Steam ROM Manager and ES-DE can scrape the appropriate game art or game info
+    * For example, with the game: `The Legend of Dragoon`, you may name the M3U file, `The Legend of Dragoon.m3u` so Steam ROM Manager or ES-DE can locate the appropriate art. However, if you name it `LoD.m3u` as an example, neither tool will know to match `LoD` to `Legend of Dragoon`
 3. Right click the text file, click `Open with Kate` or a text editor of your choice
 4. Place the full file name of each ROM disc including the file extension on a separate line
     * **IMPORTANT:** If you are using both `.bin` and `.cue` files, only write the `.cue` files in the M3U file. If you are using both `.gdi` and `.bin` files, only write the `.gdi` files in the M3U file 
@@ -105,13 +105,13 @@ For how to use the M3U with EmulationStation-DE, see [EmulationStation-DE: How t
         * Folder: <img src="https://user-images.githubusercontent.com/108900299/211213411-713804bb-8d96-4b21-9b0a-afd40d461d3b.png" height="300">
         * M3U File: <img src="https://user-images.githubusercontent.com/108900299/211213427-05c57715-8bc5-443d-9824-8ae410bc6859.png" height="300">
 5. Save and close out of the text file
-6. From now on, you can treat the newly created M3U file as the game file, and play the respective ROM discs by running the newly created M3U file through one of EmuDeck's included front-ends: Steam shortcuts created by Steam ROM Manager, EmulationStation-DE, or by running the emulator directly
+6. From now on, you can treat the newly created M3U file as the game file, and play the respective ROM discs by running the newly created M3U file through one of EmuDeck's included front-ends: Steam shortcuts created by Steam ROM Manager, ES-DE, or by running the emulator directly
     * Steam ROM Manager:
         * Steam ROM Manager will still parse all of your discs in addition to the M3U file. To solve this, you can hide each disc entry, and only allow Steam ROM Manager to parse the M3U file
             * To learn more, see: [Steam ROM Manager: How to Manage ROMs with Multiple Discs](../../tools/steamos/steam-rom-manager.md#how-to-manage-roms-with-multiple-discs)
-    * EmulationStation-DE:
-        * EmulationStation-DE will display all of your discs in addition to the M3U file. To solve this issue, EmulationStation-DE allows you to treat directories as files. 
-            * To learn more, see: [EmulationStation-DE: How to Manage ROMs with Multiple Discs](../../tools/steamos/emulationstation-de.md#how-to-manage-multiple-discs)
+    * ES-DE:
+        * ES-DE will display all of your discs in addition to the M3U file. To solve this issue, ES-DE allows you to treat directories as files. 
+            * To learn more, see: [ES-DE: How to Manage ROMs with Multiple Discs](../../tools/steamos/es-de.md#how-to-manage-multiple-discs)
     * Alternatively, you can move all of your Multi-Disk games to a new folder
         * For example: `psx-multidisk`, and keep the .m3u files in the `psx` folder, changing the contents to point to the disks in their new location. This will prevent those disks from being read, as the parsers will not look in the new folders created
             * **Note:** Not all emulators support absolute pathing
@@ -214,7 +214,7 @@ Fortunately creating `CUE` files is easy.
 2. Drag all of your `BIN` files to the box that writes `Drop your .bin files here!`
 3. Create a new text file using a text editor of your choice and copy the outputted text in the white box below into the newly created text file
 2. Save the newly created text file and name it `GAMENAME.cue`
-    * The file name of the `CUE` file is up to you. However, it is recommended you match the `CUE` file as closely as possible to the game name so Steam ROM Manager and EmulationStation-DE can scrape the appropriate game art or game info
+    * The file name of the `CUE` file is up to you. However, it is recommended you match the `CUE` file as closely as possible to the game name so Steam ROM Manager and ES-DE can scrape the appropriate game art or game info
 4. Move your newly created `CUE` file to the same folder as the `BIN` files corresponding to the `CUE` file
 
 ***
@@ -246,8 +246,8 @@ For some emulators, your ROMs launch using a script created by EmuDeck, which lo
 * Cemu (Swap out its EXE)
     * Executable Location: `Emulation/roms/wiiu/cemu.exe`
     * Download Link: [https://github.com/cemu-project/Cemu](https://github.com/cemu-project/Cemu)
-* EmulationStation-DE
-    * Executable Location: `Emulation/tools/EmulationStation-DE-x64_SteamDeck.AppImage`
+* ES-DE
+    * Executable Location: `Emulation/tools/ES-DE-x64_SteamDeck.AppImage`
     * Download Link: [https://gitlab.com/es-de/emulationstation-de/-/packages/](https://gitlab.com/es-de/emulationstation-de/-/packages/)
 * mGBA
     * Executable Location: `/home/deck/Applications/mGBA.AppImage`
@@ -2437,12 +2437,12 @@ yuzu/
 
 #### Tools
 
-##### EmulationStation-DE
+##### ES-DE
 
-`$HOME/.emulationstation`
+`$HOME/ES-DE`
 
 ```
-.emulationstation
+ES-DE
 ├── collections
 ├── custom_systems
 │   └── es_systems.xml

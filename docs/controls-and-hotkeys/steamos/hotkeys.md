@@ -42,7 +42,7 @@
         - [RPCS3 (PlayStation 3)](#rpcs3-playstation-3)      
     - [Tools Hotkeys](#tools-hotkeys)
         - [Cloud Services](#cloud-services)
-        - [EmulationStation-DE](#emulationstation-de) 
+        - [ES-DE](#ES-de) 
 
 
 
@@ -431,14 +431,14 @@ By default, the controls are that of a standard gamepad along with:
 
 ***
 
-#### EmulationStation-DE
+#### ES-DE
 [Back to the Top](#hotkeys-table-of-contents)
 
-EmulationStation-DE comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - EmulationStation-DE`. The hotkeys below can only be used if you have the Steam Input profile active.
+ES-DE comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - ES-DE`. The hotkeys below can only be used if you have the Steam Input profile active.
 
 **Long Press** to activate hotkeys on the left trackpad radial menu. 
 
-| Hotkey         | EmulationStation-DE       |
+| Hotkey         | ES-DE       |
 |----------------|---------------------------|
 | Citra          | Left Trackpad Touch  Menu |
 | Cemu           | Left Trackpad Touch  Menu |
@@ -451,29 +451,29 @@ EmulationStation-DE comes with a Steam Input profile for Hotkeys. Activate the S
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
-##### An explanation of the EmulationStation-DE Profile
+##### An explanation of the ES-DE Profile
 
 Some emulators set up by EmuDeck need a unique steam input profile (like Cemu or Citra) since you cannot do combo hotkeys easily. These emulators use a Steam Input profile to bind keyboard keys to buttons on a radial or touch menu.
 
-The EmulationStation-DE combines all of these different profiles into a single menu and allows you to select your emulator profile on the fly. For emulators without a Steam Input profile, use combo hotkeys.
+The ES-DE combines all of these different profiles into a single menu and allows you to select your emulator profile on the fly. For emulators without a Steam Input profile, use combo hotkeys.
 
-##### How to Use the EmulationStation-DE Profile
+##### How to Use the ES-DE Profile
 
-The EmulationStation-DE profile will be automatically applied to your EmulationStation-DE shortcut. If you have an older install of EmuDeck, you may need to re-run Steam ROM Manager with the EmulationStation-DE parser toggled to apply this profile.
+The ES-DE profile will be automatically applied to your ES-DE shortcut. If you have an older install of EmuDeck, you may need to re-run Steam ROM Manager with the ES-DE parser toggled to apply this profile.
 
-After the EmulationStation-DE profile is applied, use the left trackpad to pull up the menu and **long-press** an icon to switch into the respective profile. The buttons on the various touch and radial menus use a **long-press** to activate the respective hotkey. 
+After the ES-DE profile is applied, use the left trackpad to pull up the menu and **long-press** an icon to switch into the respective profile. The buttons on the various touch and radial menus use a **long-press** to activate the respective hotkey. 
 
 All of the profiles include a `Return to Main Menu` button allowing you to return to the profile switcher menu.
 
-If you do not see an emulator on the EmulationStation-DE touch menu, it likely uses combo hotkeys. This page covers the combo hotkeys for the various emulators. 
+If you do not see an emulator on the ES-DE touch menu, it likely uses combo hotkeys. This page covers the combo hotkeys for the various emulators. 
 
-All of the Steam input profiles featured on the EmulationStation-DE profile are specifically for **standalone emulators**. For example, the melonDS and the mGBA profiles will not work if you are using the RetroArch cores. You will need to use the combo hotkeys instead: [RetroArch Hotkeys](#retroarch). To switch to the standalone emulator in EmulationStation-DE, read [How to Select a Different Emulator for a System](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-for-a-system).
+All of the Steam input profiles featured on the ES-DE profile are specifically for **standalone emulators**. For example, the melonDS and the mGBA profiles will not work if you are using the RetroArch cores. You will need to use the combo hotkeys instead: [RetroArch Hotkeys](#retroarch). To switch to the standalone emulator in ES-DE, read [How to Select a Different Emulator for a System](../../tools/steamos/es-de.md#how-to-select-a-different-emulator-for-a-system).
 
 ##### Video Showcase
 
 <figure class="video_container">
   <video controls="true" allowfullscreen="true">
-    <source src="/videos/emulationstation-de-steam-input-showcase.mp4" type="video/mp4">
+    <source src="/videos/ES-de-steam-input-showcase.mp4" type="video/mp4">
   </video>
 </figure>
 

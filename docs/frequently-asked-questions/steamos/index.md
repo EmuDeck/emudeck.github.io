@@ -86,7 +86,7 @@ Don't forget to join the [EmuDeck Discord!](https://discord.gg/b9F7GpXtFP)
 #### List of Projects installed by EmuDeck
 
 * [Decky Loader (Plugin Launcher)](https://github.com/SteamDeckHomebrew/decky-loader) *Optional
-* [EmulationStation-DE (Emulator Front-End)](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
+* [ES-DE (Emulator Front-End)](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
 * [Power Tools (Power Tweaks)](https://github.com/NGnius/PowerTools) *Optional
 * [SteamDeckGyroDSU](https://github.com/kmicki/SteamDeckGyroDSU) *Optional
 * [Steam ROM Manager](https://github.com/SteamGridDB/steam-rom-manager)
@@ -145,7 +145,7 @@ Here's a full list breaking down each type:
 
 **Tools**
 
-* [EmulationStation-DE](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
+* [ES-DE](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
 * [Steam ROM Manager](https://github.com/SteamGridDB/steam-rom-manager) 
 
 **Emulators**
@@ -296,7 +296,7 @@ In Desktop Mode, open `Emulation/tools` and locate your application in this fold
 
 Here's which applications can be opened this way:
 
-* [EmulationStation-DE](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
+* [ES-DE](https://gitlab.com/es-de/emulationstation-de/-/blob/master/FAQ.md)
     * AppImage
 * [Steam ROM Manager](https://github.com/SteamGridDB/steam-rom-manager)
     * `Emulation/tools/srm/Steam-ROM_Manager.AppImage`
@@ -485,15 +485,15 @@ Refer to the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page for a
 
 No! EmuDeck is a "dumb" script that installs a suite of tools and emulators to your Steam Deck. One tool that EmuDeck installs is "Steam ROM Manager", a tool that allows you to add ROMs as non-Steam game shortcuts to your library. You are not required to use Steam ROM Manager.
 
-EmuDeck also installs EmulationStation-DE, a front-end that manages all of your ROMs within a single app. You may choose to use either Steam ROM Manager, EmulationStation-DE, both, or neither of them. EmuDeck is simply a script, and how you choose to use its installed suite of tools and emulators is up to you. 
+EmuDeck also installs ES-DE, a front-end that manages all of your ROMs within a single app. You may choose to use either Steam ROM Manager, ES-DE, both, or neither of them. EmuDeck is simply a script, and how you choose to use its installed suite of tools and emulators is up to you. 
 
-After you have installed EmuDeck, you can use Steam ROM Manager and select which parsers you would like to use. You can use the `Emulationstation-DE` parser and the `Emulators` parser to add EmulationStation-DE and EmuDeck's installed suite of emulators to your Steam library. Adding emulators to your library allows you to tweak settings directly in Game Mode. Turning on other parsers will add the respective system's ROMs to your library. Learn how to generate and save an app list here: [How to Generate and Save an App List](../../tools/steamos/steam-rom-manager.md#how-to-generate-and-save-an-app-list). 
+After you have installed EmuDeck, you can use Steam ROM Manager and select which parsers you would like to use. You can use the `Emulationstation-DE` parser and the `Emulators` parser to add ES-DE and EmuDeck's installed suite of emulators to your Steam library. Adding emulators to your library allows you to tweak settings directly in Game Mode. Turning on other parsers will add the respective system's ROMs to your library. Learn how to generate and save an app list here: [How to Generate and Save an App List](../../tools/steamos/steam-rom-manager.md#how-to-generate-and-save-an-app-list). 
 
 **Read:** [What does EmuDeck Install?](#what-does-emudeck-install), for a list of the tools and emulators EmuDeck installs.
 
 **Read:** [Steam ROM Manager](../../tools/steamos/steam-rom-manager.md) for more information on Steam ROM Manager.
 
-**Read:** [EmulationStation-DE](../../tools/steamos/emulationstation-de.md) for more information on EmulationStation-DE.
+**Read:** [ES-DE](../../tools/steamos/es-de.md) for more information on ES-DE.
 
 ***
 
@@ -586,8 +586,8 @@ _Note: If you haven't already, format your SD card in game mode._
     1. <img src="https://user-images.githubusercontent.com/108900299/219220123-0e911910-883d-4a2b-b46d-73b55378636a.png" height="300">
 8. When you reach the `Update emulator's configurations` page on the EmuDeck installer, make sure to select everything that you used previously to ensure that all of your emulators and tools are properly configured with your SD Card. 
     1. <img src="https://user-images.githubusercontent.com/108900299/208755070-937a5ced-b6d9-4a3e-92fe-142c63acd272.png" height="300">
-9. Re-run Steam ROM Manager to update the shortcuts for your emulators, EmulationStation-DE, and ROMs.
-    1. Even if you only use Steam ROM Manager to add emulators or EmulationStation-DE to your Steam Library, make sure to re-run it to ensure that the shortcuts are properly updated. 
+9. Re-run Steam ROM Manager to update the shortcuts for your emulators, ES-DE, and ROMs.
+    1. Even if you only use Steam ROM Manager to add emulators or ES-DE to your Steam Library, make sure to re-run it to ensure that the shortcuts are properly updated. 
 10. Your EmuDeck setup will now officially be transferred over to your SD card. 
 
 ***
@@ -611,8 +611,8 @@ _Note: If you haven't already, format your SD card in game mode._
     1. <img src="https://user-images.githubusercontent.com/108900299/219220123-0e911910-883d-4a2b-b46d-73b55378636a.png" height="300">
 8. When you reach the `Update emulator's configurations` page on the EmuDeck installer, make sure to select everything that you used previously to ensure that all of your emulators and tools are properly configured with your internal SSD. 
     1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/208755070-937a5ced-b6d9-4a3e-92fe-142c63acd272.png" height="300">
-9. Re-run Steam ROM Manager to update the shortcuts for your emulators, EmulationStation-DE, and ROMs.
-    1. Even if you only use Steam ROM Manager to add emulators or EmulationStation-DE to your Steam Library, make sure to re-run it to ensure that the shortcuts are properly updated. 
+9. Re-run Steam ROM Manager to update the shortcuts for your emulators, ES-DE, and ROMs.
+    1. Even if you only use Steam ROM Manager to add emulators or ES-DE to your Steam Library, make sure to re-run it to ensure that the shortcuts are properly updated. 
 10. Your EmuDeck setup will now officially be transferred over to your internal SSD. 
 
 ***
@@ -733,11 +733,11 @@ There is no one known reason why an emulator or ROM (run through an emulator) ca
 
 These systems will have multiple parsers, each corresponding to a different emulator or RetroArch core. For example: PSX can be played through DuckStation (Standalone), SwanStation, or Beetle PSX. If you prefer to use DuckStation (Standalone) for PSX, enable the Sony PlayStation - DuckStation parser and make sure the SwanStation and Beetle PSX parsers are disabled
 
-#### EmulationStation-DE
+#### ES-DE
 
 These systems will have a set default. However, you can change which emulator or RetroArch core is used:
 
-1. In EmulationStation-DE, press the Start button
+1. In ES-DE, press the Start button
 2. Scroll down and select Other Settings
 3. Select Alternative Emulators
 4. Scroll down to the system you would like to configure, press B, and select your preferred emulator
@@ -976,7 +976,7 @@ After installing `DeckyControls`, restart your Steam Deck (Returning to Game Mod
 * SRM 
     * Steam ROM Manager, [Steam ROM Manager](../../tools/steamos/steam-rom-manager.md) and [https://github.com/SteamGridDB/steam-rom-manager](https://github.com/SteamGridDB/steam-rom-manager)
 * ES-DE
-    * EmulationStation-DE, [EmulationStation-DE](../../tools/steamos/emulationstation-de.md) and [https://es-de.org/](https://es-de.org/)
+    * ES-DE, [ES-DE](../../tools/steamos/es-de.md) and [https://es-de.org/](https://es-de.org/)
 
 ***
 
@@ -998,17 +998,17 @@ After installing `DeckyControls`, restart your Steam Deck (Returning to Game Mod
 
 #### EmuDeck
 
-EmuDeck is the installer. It installs "stuff" for you, including emulators, EmulationStation-DE, Steam ROM Manager, and a few other tools. 
+EmuDeck is the installer. It installs "stuff" for you, including emulators, ES-DE, Steam ROM Manager, and a few other tools. 
 
 #### Front-Ends
 
-EmulationStation-DE and Steam are the two primary front-ends that you can use to launch your ROMs. Steam ROM Manager adds your ROMs to Steam, or you can launch your ROMs entirely from EmulationStation-DE. EmulationStation-DE and the shortcuts created by Steam ROM Manager in Steam are not typically directly related to the settings configured in the emulators. 
+ES-DE and Steam are the two primary front-ends that you can use to launch your ROMs. Steam ROM Manager adds your ROMs to Steam, or you can launch your ROMs entirely from ES-DE. ES-DE and the shortcuts created by Steam ROM Manager in Steam are not typically directly related to the settings configured in the emulators. 
 
-For example, if you are running a Gamecube game through a shortcut created by Steam ROM Manager or EmulationStation-DE, you are still using the Dolphin emulator to run that Gamecube game. You are not running the Gamecube game through Steam, EmulationStation-DE, or EmuDeck. Steam (through Steam ROM Manager created shortcuts) and EmulationStation-DE are two front-ends that launch your game for you, but, have little to no relation to the actual execution of the game. That is all dependent on the emulator being launched by these two front-ends.
+For example, if you are running a Gamecube game through a shortcut created by Steam ROM Manager or ES-DE, you are still using the Dolphin emulator to run that Gamecube game. You are not running the Gamecube game through Steam, ES-DE, or EmuDeck. Steam (through Steam ROM Manager created shortcuts) and ES-DE are two front-ends that launch your game for you, but, have little to no relation to the actual execution of the game. That is all dependent on the emulator being launched by these two front-ends.
 
 #### Emulators
 
-Using a front-end like Steam shortcuts created by Steam ROM Manager or EmulationStation-DE means you are launching an emulator. If you have issues while in game, typically you want to debug what is going on with the emulator.
+Using a front-end like Steam shortcuts created by Steam ROM Manager or ES-DE means you are launching an emulator. If you have issues while in game, typically you want to debug what is going on with the emulator.
 
 For a full list of emulators installed by EmuDeck and their associated websites: [What does EmuDeck install?](#what-does-emudeck-install)
 
@@ -1021,18 +1021,18 @@ Let's run through a few examples.
 * "I am using EmuDeck to launch my games."
     * Remember, EmuDeck is only an installer. Once it finishes installing its suite of emulators and tools, it has no bearing on the actual launching of the ROM or the emulator.
 
-* "I am using EmulationStation-DE to launch my games."
-    * The front-end can be helpful information to include and should be included when you're requesting support or understanding how to debug your game. However, you also need to understand what EmulationStation-DE is specifically launching, to then open your game. If you are playing a Gamecube game, EmulationStation-DE is launching the Dolphin emulator to play that Gamecube game. 
+* "I am using ES-DE to launch my games."
+    * The front-end can be helpful information to include and should be included when you're requesting support or understanding how to debug your game. However, you also need to understand what ES-DE is specifically launching, to then open your game. If you are playing a Gamecube game, ES-DE is launching the Dolphin emulator to play that Gamecube game. 
     * If you understand what emulator your ROM is using, then you can try opening that emulator on its own to see if the emulator can provide additional feedback on what may be wrong with the ROM. 
 
 **Debugging Using Somewhat Complete Information**
 
-* "I am using EmulationStation-DE to launch my games. I am trying to open a Gamecube game (Dolphin emulator), Super Mario Sunshine, through EmulationStation-DE, but it is not launching."
+* "I am using ES-DE to launch my games. I am trying to open a Gamecube game (Dolphin emulator), Super Mario Sunshine, through ES-DE, but it is not launching."
     * This provides a lot more information, but to fully debug what's going on, you will want to try launching your ROM through the emulator, in addition to the front-end. You can either use Steam ROM Manager to add emulators to Game Mode or you can launch emulators in Desktop Mode (make sure to hold the start button to switch between desktop and gamepad configurations) and test your ROM from the emulator directly. For the most part, emulators can provide important error messages that can alert you to what's specifically wrong with your ROM.
 
 **Debugging Using Complete Information**
 
-* "I am using EmulationStation-DE to launch my games. I am trying to open a Gamecube game (Dolphin emulator), Super Mario Sunshine, through EmulationStation-DE, but it is not launching. I tried opening Dolphin, in Desktop Mode, to play my ROM and Dolphin said my ROM was corrupt."
+* "I am using ES-DE to launch my games. I am trying to open a Gamecube game (Dolphin emulator), Super Mario Sunshine, through ES-DE, but it is not launching. I tried opening Dolphin, in Desktop Mode, to play my ROM and Dolphin said my ROM was corrupt."
     * This rounds out working through each aspect of what you are using to launch your ROM and provides you with information that can be used to debug what's going on. In some cases, you may not have set the emulator up fully (in the case of Yuzu, Ryujinx, and RPCS3), and need to read through documentation to fully set up the emulator before you can start playing. 
 
 

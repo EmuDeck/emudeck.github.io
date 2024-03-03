@@ -51,7 +51,7 @@ Read the [Configuration](#ryujinx-configuration) section to learn more about Ryu
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Nintendo Switch ROMs:
 
-* `EmulationStation-DE`
+* `ES-DE`
 * `Nintendo Switch Ryujinx` 
 * `Emulators`
 
@@ -95,7 +95,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE
+* ES-DE
 
 ***
 
@@ -332,7 +332,7 @@ Ryujinx comes with a nifty auto-map feature that makes setting up multiplayer a 
     * Player 8: `Steam Virtual Gamepad 7`
 5. Using `Player 2` as an example:
     * On the `Player 2` configuration screen, after you have selected the appropriate `Input Device`, select your preferred `Controller Type` and click `Load` to the right of `Profile`
-6. After you are finished enabling any additional players, click `Save` and you may open your game either directly as a shortcut in Steam or through EmulationStation-DE    
+6. After you are finished enabling any additional players, click `Save` and you may open your game either directly as a shortcut in Steam or through ES-DE    
 7. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
 
 ***
@@ -436,9 +436,9 @@ If you are using Steam ROM Manager and would like to run some games through Yuzu
 
 For further instructions, see [Steam ROM Manager: How to Hide ROMs on a Per Parser Basis](../../tools/steamos/steam-rom-manager.md#how-to-hide-roms-on-a-per-parser-basis).
 
-If you are using EmulationStation-DE, you may use EmulationStation-DE's alternative emulators feature to select on a per-game basis which to run through Yuzu and which to run through Ryujinx.
+If you are using ES-DE, you may use ES-DE's alternative emulators feature to select on a per-game basis which to run through Yuzu and which to run through Ryujinx.
 
-For further instructions, see [EmulationStation-DE: How to Select a Different Emulator on a Per-Game Basis](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-on-a-per-game-basis).
+For further instructions, see [ES-DE: How to Select a Different Emulator on a Per-Game Basis](../../tools/steamos/es-de.md#how-to-select-a-different-emulator-on-a-per-game-basis).
 
 ***
 

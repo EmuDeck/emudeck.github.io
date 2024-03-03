@@ -2,14 +2,14 @@
 
 ## Introduction
 
-EmuDeck installs Steam ROM Manager [https://github.com/SteamGridDB/steam-rom-manager](https://github.com/SteamGridDB/steam-rom-manager), which allows you to add your ROMs directly to your library.  It can either be used as an alternative or in tandem with EmulationStation-DE (a frontend application to manage your ROMs.).
+EmuDeck installs Steam ROM Manager [https://github.com/SteamGridDB/steam-rom-manager](https://github.com/SteamGridDB/steam-rom-manager), which allows you to add your ROMs directly to your library.  It can either be used as an alternative or in tandem with ES-DE (a frontend application to manage your ROMs.).
 
 Steam ROM Manager's Website: [https://github.com/SteamGridDB/steam-rom-manager](https://github.com/SteamGridDB/steam-rom-manager)
 
 Steam ROM Manager sources art from SteamGridDB: [https://www.steamgriddb.com/
 ](https://www.steamgriddb.com/)
 
-Read the [EmulationStation-DE](../windows/emulationstation-de.md) page to learn more about EmulationStation-DE and how it can be used in tandem with Steam ROM Manager! 
+Read the [ES-DE](../windows/es-de.md) page to learn more about ES-DE and how it can be used in tandem with Steam ROM Manager! 
 
 ***
 

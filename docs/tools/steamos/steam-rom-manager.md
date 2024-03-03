@@ -2,14 +2,14 @@
 
 ## Introduction
 
-EmuDeck installs Steam ROM Manager [https://github.com/SteamGridDB/steam-rom-manager](https://github.com/SteamGridDB/steam-rom-manager), which allows you to add your ROMs directly to your library.  It can either be used as an alternative or in tandem with EmulationStation-DE (a frontend application to manage your ROMs.).
+EmuDeck installs Steam ROM Manager [https://github.com/SteamGridDB/steam-rom-manager](https://github.com/SteamGridDB/steam-rom-manager), which allows you to add your ROMs directly to your library.  It can either be used as an alternative or in tandem with ES-DE (a frontend application to manage your ROMs.).
 
 Steam ROM Manager's Website: [https://github.com/SteamGridDB/steam-rom-manager](https://github.com/SteamGridDB/steam-rom-manager)
 
 Steam ROM Manager sources art from SteamGridDB: [https://www.steamgriddb.com/
 ](https://www.steamgriddb.com/)
 
-Read the [EmulationStation-DE](../steamos/emulationstation-de.md) page to learn more about EmulationStation-DE and how it can be used in tandem with Steam ROM Manager! 
+Read the [ES-DE](../steamos/es-de.md) page to learn more about ES-DE and how it can be used in tandem with Steam ROM Manager! 
 
 ***
 
@@ -62,7 +62,7 @@ If you open Steam ROM Manager, and you do not see any parsers, to fix the issue,
 
 After you have parsed and saved an app list, your ROMs will be added to the non-Steam section. You will now be ready to play your games directly from Game Mode. 
 
-If you prefer, you may use the `EmulationStation-DE` parser to add `EmulationStation-DE` to Steam and play your ROMs directly from this all-in-one front-end. 
+If you prefer, you may use the `ES-DE` parser to add `ES-DE` to Steam and play your ROMs directly from this all-in-one front-end. 
 
 ***
 
@@ -285,11 +285,11 @@ This option **removes** all non-Steam entries, regardless of how they were added
 ### Large ROM Collections 
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
-If you have a large ROM collection, generally over 1,000 ROMs, it is recommended you use EmulationStation-DE for some of your larger sets. 
+If you have a large ROM collection, generally over 1,000 ROMs, it is recommended you use ES-DE for some of your larger sets. 
 
 Do not turn on all of the parsers in Steam ROM Manager, instead pick smaller sets that you would like to appear in your Steam library. Keep in mind that using all parsers will mean that every ROM will show up in your Steam library. Unexpected behavior or bugs may occur with larger ROM counts in Game Mode. 
 
-To use EmulationStation-DE, it is recommended to turn on at least the `EmulationStation-DE` and the `Emulators` parser in Steam ROM Manager. These will allow you to manage EmulationStation-DE (to launch your ROMs) and emulators (to do any additional configurations) in Game Mode. In addition to these two parsers, limit the amount of parsers you toggle to prevent any bugs or unexpected behavior in Game Mode. 
+To use ES-DE, it is recommended to turn on at least the `ES-DE` and the `Emulators` parser in Steam ROM Manager. These will allow you to manage ES-DE (to launch your ROMs) and emulators (to do any additional configurations) in Game Mode. In addition to these two parsers, limit the amount of parsers you toggle to prevent any bugs or unexpected behavior in Game Mode. 
 
 ***
 
@@ -377,13 +377,13 @@ If you see a pop-up with the message: `A JavaScript error occurred in the main p
 
 #### Preface
 
-Generating and saving an App List is how you add your ROMs to your Steam library. It's generally recommended that you turn on at least the `Emulators` parser and the `EmulationStation-DE` parser. 
+Generating and saving an App List is how you add your ROMs to your Steam library. It's generally recommended that you turn on at least the `Emulators` parser and the `ES-DE` parser. 
 
 Here's a quick rundown: 
 
 * The `Emulators` parser allows you to manage your emulators in game mode (game settings, controls, tweaks, etc). 
-* The `EmulationStation-DE` parser adds EmulationStation-DE as a shortcut to Steam. 
-    * EmulationStation-DE allows you to launch and play all of your ROMs from a single front-end. It can be either used as an alternative or combined with Steam ROM Manager. For further reading, refer to the [EmulationStation-DE](../steamos/emulationstation-de.md) page. 
+* The `ES-DE` parser adds ES-DE as a shortcut to Steam. 
+    * ES-DE allows you to launch and play all of your ROMs from a single front-end. It can be either used as an alternative or combined with Steam ROM Manager. For further reading, refer to the [ES-DE](../steamos/es-de.md) page. 
 
 #### Tutorial
 

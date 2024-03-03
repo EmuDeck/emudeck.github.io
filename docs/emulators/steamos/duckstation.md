@@ -17,7 +17,7 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/e/2PACX-1vRE0jjiK_al
     - [How to Launch DuckStation in Desktop Mode](#how-to-launch-duckstation-in-desktop-mode)
     - [File Formats](#duckstation-file-formats)
     - [DuckStation and RetroArch PlayStation 1 Cores BIOS Information](#duckstation-and-retroarch-playstation-1-cores-bios-information)
-    - [DuckStation and RetroArch PlayStation 1 Cores EmulationStation-DE Information](#duckstation-and-retroarch-playstation-1-cores-emulationstation-de-information)
+    - [DuckStation and RetroArch PlayStation 1 Cores ES-DE Information](#duckstation-and-retroarch-playstation-1-cores-es-de-information)
     - [Hotkeys](#duckstation-hotkeys)
 
 2. [DuckStation Tips and Tricks](#duckstation-tips-and-tricks)
@@ -39,7 +39,7 @@ DuckStation is a fairly straight-forward emulator to set up. Place your ROMs in 
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your PlayStation 1 ROMs:
 
-* `EmulationStation-DE`
+* `ES-DE`
 * `Sony PlayStation - DuckStation` 
 * `Emulators`
 
@@ -65,7 +65,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE
+* ES-DE
 
 ***
 
@@ -154,12 +154,12 @@ org.duckstation.DuckStation/
 
 ***
 
-### DuckStation and RetroArch PlayStation 1 Cores EmulationStation-DE Information
+### DuckStation and RetroArch PlayStation 1 Cores ES-DE Information
 [Back to the Top](#duckstation-table-of-contents)
 
-By default, EmulationStation-DE uses Retroarch's Beetle HW PSX core. Both Retroarch's Beetle HW PSX core and DuckStation will work if you have set everything up properly. 
+By default, ES-DE uses Retroarch's Beetle HW PSX core. Both Retroarch's Beetle HW PSX core and DuckStation will work if you have set everything up properly. 
 
-To switch between the two in EmulationStation-DE, you can use the `Alternative Emulators` feature. See [EmulationStation-DE: How to Select a Different Emulator for a System](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-for-a-system) for instructions.
+To switch between the two in ES-DE, you can use the `Alternative Emulators` feature. See [ES-DE: How to Select a Different Emulator for a System](../../tools/steamos/es-de.md#how-to-select-a-different-emulator-for-a-system) for instructions.
     
 ***
 
@@ -213,7 +213,7 @@ M3U files can be used to manage multiple discs for DuckStation. When the time co
 [Back to the Top](#duckstation-table-of-contents)
 
 1. While in game, either: press `Start` and `R2` or use the left Trackpad and select the `Quick Menu` icon
-    * Steam Input profiles for PlayStation 1 ROMs and EmulationStation-DE are enabled by default. However, if you do not see the Trackpad menu, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+    * Steam Input profiles for PlayStation 1 ROMs and ES-DE are enabled by default. However, if you do not see the Trackpad menu, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Click `Cheat List`
 3. Select which cheats you would like to use
 

@@ -27,7 +27,7 @@ PrimeHack FAQ: [https://github.com/shiiion/dolphin/wiki/Frequently-Asked-Questio
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
     - [How to Optimize Storage (Compression Tool)](#how-to-optimize-storage-compression-tool)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
-    - [How to Configure PrimeHack to work with EmulationStation-DE](#how-to-configure-primehack-to-work-with-emulationstation-de)
+    - [How to Configure PrimeHack to work with ES-DE](#how-to-configure-primehack-to-work-with-es-de)
     - [How to Roll Back PrimeHack to an Older Version](#how-to-roll-back-primehack-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
 
@@ -40,7 +40,7 @@ PrimeHack is a fairly straight-forward emulator to set up. Place your Metroid Pr
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play the Metroid Prime Trilogy:
 
-* `EmulationStation-DE`
+* `ES-DE`
 * `PrimeHack` 
 * `Emulators`
 
@@ -68,7 +68,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE
+* ES-DE
 
 ***
 
@@ -271,12 +271,12 @@ Here's how to install custom textures for PrimeHack:
 
 ***
 
-### How to Configure PrimeHack to work with EmulationStation-DE
+### How to Configure PrimeHack to work with ES-DE
 [Back to the Top](#primehack-table-of-contents)
 
-You need to move your `Metroid Prime Trilogy` ROM to `Emulation/roms/wii` and choose an alternative emulator for the ROM in EmulationStation-DE.
+You need to move your `Metroid Prime Trilogy` ROM to `Emulation/roms/wii` and choose an alternative emulator for the ROM in ES-DE.
 
-For further instructions, refer to: [How to Select a Different Emulator on a Per Game Basis](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-on-a-per-game-basis). 
+For further instructions, refer to: [How to Select a Different Emulator on a Per Game Basis](../../tools/steamos/es-de.md#how-to-select-a-different-emulator-on-a-per-game-basis). 
 
 ***
 

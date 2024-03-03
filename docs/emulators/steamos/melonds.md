@@ -44,7 +44,7 @@ melonDS is a fairly straight-forward emulator to set up. Place your ROMs in `Emu
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your NDS ROMs:
 
-* `EmulationStation-DE`
+* `ES-DE`
 * `Nintendo DS - melonDS` 
 * `Emulators`
 
@@ -67,7 +67,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE
+* ES-DE
 
 ***
 
@@ -121,10 +121,10 @@ To use **melonDS (Standalone)** to launch your ROMs in Game Mode:
 * Use Steam ROM Manager and select the `Nintendo DS - melonDS` parser
     * The RetroArch parser is named: `Nintendo DS - Retroarch - melonDS`
     * The melonDS (Standalone) parser is named: `Nintendo DS - melonDS`
-* Use Steam ROM Manager and select the `EmulationStation-DE` parser
-    * To switch to melonDS (Standalone) in EmulationStation-DE, see [EmulationStation-DE: How to Select a Different Emulator for a System](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-for-a-system)
+* Use Steam ROM Manager and select the `ES-DE` parser
+    * To switch to melonDS (Standalone) in ES-DE, see [ES-DE: How to Select a Different Emulator for a System](../../tools/steamos/es-de.md#how-to-select-a-different-emulator-for-a-system)
 
-**No** additional setup is required with Steam ROM Manager and EmulationStation-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
+**No** additional setup is required with Steam ROM Manager and ES-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
 
 ***
 
@@ -284,17 +284,17 @@ The Nintendo DSI requires DSI specific BIOS. Place **all** of the files from the
 
 ***
 
-#### Steam ROM Manager and EmulationStation-DE
+#### Steam ROM Manager and ES-DE
 
-Both EmuDeck's Steam ROM Manager parser for melonDS (Standalone) and EmulationStation-DE support the `.app` file extension. As long as your DSIWare ROMs are in `Emulation/roms/nds`, you may use either option to play your DSIWare ROMs in Game Mode. 
+Both EmuDeck's Steam ROM Manager parser for melonDS (Standalone) and ES-DE support the `.app` file extension. As long as your DSIWare ROMs are in `Emulation/roms/nds`, you may use either option to play your DSIWare ROMs in Game Mode. 
 
-Do note that your ROM may not have art on SteamGridDB or metadata on EmulationStation-DE's scraping websites. Follow the links below if you would like to add art or metadata to one of these websites. 
+Do note that your ROM may not have art on SteamGridDB or metadata on ES-DE's scraping websites. Follow the links below if you would like to add art or metadata to one of these websites. 
 
 * Steam ROM Manager
     * [SteamGridDB](https://www.steamgriddb.com/)
         * You may request a game page here: [https://www.steamgriddb.com/request-game](https://www.steamgriddb.com/request-game)
             * You will need to login to view this page
-* EmulationStation-DE
+* ES-DE
     * [TheGamesDB](https://thegamesdb.net/) 
     * [ScreenScraper](https://www.screenscraper.fr/)
 
@@ -307,7 +307,7 @@ A handful of Nintendo DS games require portrait orientation. For these games, yo
 
 **Here's How**
 
-1. In Game Mode, select the `EmuDeck - MelonDS` profile if you are playing a game directly from Game Mode or the `EmuDeck - EmulationStation-DE` profile if you are playing through EmulationStation-DE
+1. In Game Mode, select the `EmuDeck - MelonDS` profile if you are playing a game directly from Game Mode or the `EmuDeck - ES-DE` profile if you are playing through ES-DE
     * [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Open the game, use the Steam Input profile and select the `Fullscreen` hotkey
 3. At the top, press `Config`, `Screen Rotation`, `270`
@@ -328,7 +328,7 @@ By default, EmuDeck configures melonDS' screens to use a hybrid layout, meaning 
 
 **Here's How**
 
-1. In Game Mode, select the `EmuDeck - MelonDS` profile if you are playing a game directly from Game Mode or the `EmuDeck - EmulationStation-DE` profile if you are playing through EmulationStation-DE
+1. In Game Mode, select the `EmuDeck - MelonDS` profile if you are playing a game directly from Game Mode or the `EmuDeck - ES-DE` profile if you are playing through ES-DE
     * [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Open the game, use the Steam Input profile and select the `Fullscreen` hotkey
 3. At the top, press `Config`, and use `Screen size`, `Screen rotation`, `Screen layout`, `Screen sizing`, and `Aspect Ratio` to customize your layout 

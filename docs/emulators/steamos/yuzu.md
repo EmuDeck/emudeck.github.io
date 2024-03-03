@@ -64,7 +64,7 @@ Read the [Configuration](#yuzu-configuration) section to learn more about Yuzu a
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Nintendo Switch ROMs:
 
-* `EmulationStation-DE`
+* `ES-DE`
 * `Nintendo Switch - Yuzu` 
 * `Emulators`
 
@@ -114,7 +114,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works with:
 * Steam ROM Manager
-* EmulationStation-DE
+* ES-DE
 
 ***
 
@@ -262,7 +262,7 @@ Combo hotkeys have been mapped for this emulator.
 ### Known Issues
 [Back to the Top](#yuzu-table-of-contents)
 
-* Files with special characters in the name will not launch from shortcuts created by Steam ROM Manager in Steam or EmulationStation-DE. Rename your ROMs if they contain any of the following characters.
+* Files with special characters in the name will not launch from shortcuts created by Steam ROM Manager in Steam or ES-DE. Rename your ROMs if they contain any of the following characters.
     * Known Cases: 
         * `é` in Pokémon
         * `'` in Link's Awakening
@@ -330,9 +330,9 @@ If you used Steam ROM Manager previously, re-run Steam ROM Manager after renamin
 
 Combined Nintendo Switch games can be unreliable. These combined games will still work if you open them through Yuzu directly. 
 
-However, using combined games may cause issues if you are using a shortcut created by Steam ROM Manager or running the game through EmulationStation-DE. 
+However, using combined games may cause issues if you are using a shortcut created by Steam ROM Manager or running the game through ES-DE. 
 
-It is recommended you do not use combined games if you want to use shortcuts created by Steam ROM Manager or run your games through EmulationStation-DE.
+It is recommended you do not use combined games if you want to use shortcuts created by Steam ROM Manager or run your games through ES-DE.
 
 ***
 
@@ -432,7 +432,7 @@ If that still does not resolve the issue, you can take a look in the Yuzu settin
 18. Change it to `Default`
 19. Disable `Set resolution for internal and external display`
 20. Test gyro on a Nintendo Switch game using Yuzu in Game Mode
-    * You may do so by opening the game through Yuzu directly, adding the game as a shortcut through Steam ROM Manager, or opening the game through EmulationStation-DE
+    * You may do so by opening the game through Yuzu directly, adding the game as a shortcut through Steam ROM Manager, or opening the game through ES-DE
 
 ***
 
@@ -676,9 +676,9 @@ If you are using Steam ROM Manager and would like to run some games through Yuzu
 
 For further instructions, see [Steam ROM Manager: How to Hide ROMs on a Per Parser Basis](../../tools/steamos/steam-rom-manager.md#how-to-hide-roms-on-a-per-parser-basis).
 
-If you are using EmulationStation-DE, you may use EmulationStation-DE's alternative emulators feature to select on a per-game basis which to run through Yuzu and which to run through Ryujinx.
+If you are using ES-DE, you may use ES-DE's alternative emulators feature to select on a per-game basis which to run through Yuzu and which to run through Ryujinx.
 
-For further instructions, see [EmulationStation-DE: How to Select a Different Emulator on a Per-Game Basis](../../tools/steamos/emulationstation-de.md#how-to-select-a-different-emulator-on-a-per-game-basis).
+For further instructions, see [ES-DE: How to Select a Different Emulator on a Per-Game Basis](../../tools/steamos/es-de.md#how-to-select-a-different-emulator-on-a-per-game-basis).
 
 ***
 
