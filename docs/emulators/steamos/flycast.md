@@ -14,6 +14,11 @@ GitHub: [https://github.com/flyinghead/flycast](https://github.com/flyinghead/fl
     - [File Formats](#flycast-file-formats)
     - [Hotkeys](#flycast-hotkeys) 
 
+2. [Flycast Tips and Tricks](#flycast-tips-and-tricks)
+    - [How to Install Custom Textures](#how-to-install-custom-textures)
+    - [How to Configure the Sega Dreamcast Microphone](#how-to-configure-the-sega-dreamcast-microphone)
+
+
 ***
 
 ## Getting Started with Flycast
@@ -124,5 +129,51 @@ org.flycast.Flycast/
 
 {{ read_csv('flycast-hotkeys.csv') }}
 
+
+***
+
+## Flycast Tips and Tricks
+[Back to the Top](#flycast-table-of-contents)
+
+***
+
+### How to Install Custom Textures
+[Back to the Top](#flycast-table-of-contents)
+
+**Texture Pack Sources**
+
+_This list is not exhaustive_
+
+* [https://old.reddit.com/r/Flycast_texture_packs/](https://old.reddit.com/r/Flycast_texture_packs/)
+
+
+1. Open the `/home/deck/.var/app/org.flycast.Flycast/data/` folder
+    * `~/.var` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+2. Create two folders: `TEXDUMP` and `TEXTURES`, casing matters
+3. Place your texture pack(s) in `/home/deck/.var/app/org.flycast.Flycast/data/TEXTURES`
+4. Open Flycast, click the `Video` tab, scroll to the `Texture Upscaling` section, check `Load Custom Textures`
+5. Your texture pack will now be installed
+
+***
+
+### How to Configure the Sega Dreamcast Microphone
+[Back to the Top](#flycast-table-of-contents)
+
+For a full list of games that used the Sega Dreamcast Microphone, see [https://segaretro.org/Dreamcast_Microphone](https://segaretro.org/Dreamcast_Microphone).
+
+1. Open Flycast
+2. Click the `Controls` tab
+3. Under the `Dreamcast Devices` section, on the `Port A` controller, set the first port to `Sega VMU` and the second port to `Microphone`
+4. Exit out of Flycast and your microphone will now automatically be enabled
+
+To set this on a per-game setting:
+
+1. Open the respective game
+2. Press the `Select` button
+3. Click `Settings`
+4. Click the `Controls` tab
+5. Under the `Dreamcast Devices` section, on the `Port A` controller, set the first port to `Sega VMU` and the second port to `Microphone`
+6. Click `Make Game Config` at the top of the screen
+7. Exit out of the settings and your microphone will only be enabled for this game
 
 ***
