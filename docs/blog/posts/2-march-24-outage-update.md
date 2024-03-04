@@ -9,6 +9,10 @@ categories:
 
 # 2 March 2024 Outage Update
 
+This issue has now been resolved for Citra, Dolphin, and RPCS3. You may update your emulators in Discover to get the latest working versions.
+
+***
+
 Several emulators have been reported as crashing over the past day. While we await fixes from their respective developers, below is what you can do to resume using the applications.
  
 **Citra**
