@@ -156,10 +156,6 @@ RMG
 ### RMG Hotkeys
 [Back to the Top](#rmg-table-of-contents)
 
-RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - RMG`. The hotkeys below can only be used if you have the Steam Input profile active.
-
-**Long Press** to activate hotkeys on the left trackpad radial menu. 
-
 {{ read_csv('rmg-hotkeys.csv') }}
 
 

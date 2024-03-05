@@ -166,10 +166,6 @@ To switch between the two in ES-DE, you can use the `Alternative Emulators` feat
 ### DuckStation Hotkeys
 [Back to the Top](#duckstation-table-of-contents)
 
-DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - DuckStation`. The hotkeys below can only be used if you have the Steam Input profile active.
-
-**Long Press** to activate hotkeys on the left trackpad radial menu. 
-
 {{ read_csv('duckstation-hotkeys.csv') }}
 
 

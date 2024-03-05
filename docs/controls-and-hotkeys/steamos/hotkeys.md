@@ -7,7 +7,6 @@
 1. [Configuration](#hotkeys-configuration)
     - [Steam Deck Button Layout](#steam-deck-button-layout)
     - [How to Select A Steam Input Profile](#how-to-select-a-steam-input-profile)
-    - [EmuDeck Hotkeys Printout](#emudeck-hotkeys-printout)
 
 2. [Hotkeys](#hotkeys)
     - [General](#general)
@@ -23,7 +22,7 @@
             - [List of RetroArch Cores Used by EmuDeck](../../emulators/steamos/retroarch.md#list-of-retroarch-cores-used-by-emudeck)
         - [ScummVM](#scummvm)
     - [Nintendo Hotkeys](#nintendo-hotkeys)
-        - [RMG (N64) (Standalone)](#rmg-n64-standalone)
+        - [Rosalie's Mupen GUI (N64) (Standalone)](#rosalies-mupen-gui-n64-standalone)
         - [mGBA (GB, GBC, and GBA) (Standalone)](#mgba-gb-gbc-and-gba-standalone)
         - [melonDS (NDS) (Standalone)](#melonds-nds-standalone)
         - [PrimeHack (Metroid Prime Trilogy)](#primehack-metroid-prime-trilogy)
@@ -42,7 +41,7 @@
         - [RPCS3 (PlayStation 3)](#rpcs3-playstation-3)      
     - [Tools Hotkeys](#tools-hotkeys)
         - [Cloud Services](#cloud-services)
-        - [ES-DE](#ES-de) 
+        - [Emulator Frontends](#emulator-frontends)
 
 
 
@@ -77,42 +76,13 @@
 
 EmuDeck comes with a few Steam Input profiles to make hotkeys easier to use in a few emulators. If an emulator does not have a Steam Input Profile, make sure you're on `Gamepad with Joystick Trackpad`, otherwise some controls may not work.
 
-EmuDeck comes with Steam Input Profiles for the following emulators:
-
-* Cemu
-   * The Steam Input Profile is necessary to switch screens
-* Citra
-   * The Steam Input Profile is necessary to switch screens
-* DuckStation
-    * **Long Press** to activate hotkeys
-* melonDS
-    * **Long Press** to activate hotkeys
-* mGBA
-    * **Long Press** to activate hotkeys
-* PPSSPP
-* RMG
-    * **Long Press** to activate hotkeys
-
-
 #### Selecting  Steam Input Profiles
 
-In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whatever name it is currently set to) at the top, and you will see a drop-down menu. When playing a PSX, PSP, 3DS, or Wii U Game, switch to the respective Steam Input Profile.
+In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whatever name it is currently set to) at the top, and you will see a drop-down menu. 
 
 For a visual, watch the following GIF (DuckStation is being used as an example):
 
 <img src="https://user-images.githubusercontent.com/108900299/194612525-670e56a1-a16a-4dbf-a03f-85d14e7f7b76.gif?raw=true"/>
-
-***
-
-### EmuDeck Hotkeys Printout
-[Back to the Top](#hotkeys-table-of-contents)
-
-If you would like to save a copy of the EmuDeck Hotkeys page to reference offline or locally, you may save a PDF of the page here:
-
- 
-[EmuDeck-Hotkeys.pdf](https://github.com/dragoonDorise/EmuDeck/files/11909550/EmuDeck-Hotkeys.pdf)
-
-
 
 
 ***
@@ -214,44 +184,33 @@ N/A
 
 ***
 
-#### RMG (N64) (Standalone)
+#### Rosalie's Mupen GUI (N64) (Standalone)
 [Back to the Top](#hotkeys-table-of-contents)
-
-RMG comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - RMG`. The hotkeys below can only be used if you have the Steam Input profile active.
-
-**Long Press** to activate hotkeys on the left trackpad radial menu. 
 
 {{ read_csv('rmg-hotkeys.csv') }}
 
-
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
-
-**These hotkeys are for RMG, a standalone N64 emulator. These hotkeys are not for the Mupen64Plus-Next RetroArch core. For more information on RetroArch and the Mupen64Plus-Next RetroArch core hotkeys, visit [RetroArch](#retroarch).**
+**These hotkeys are for Rosalie's Mupen GUI, a standalone N64 emulator. These hotkeys are not for the Mupen64Plus-Next RetroArch core. For more information on RetroArch and the Mupen64Plus-Next RetroArch core hotkeys, visit [RetroArch](#retroarch).**
 
 ***
 
 #### mGBA (GB, GBC, and GBA) (Standalone)
 [Back to the Top](#hotkeys-table-of-contents)
 
-mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - mGBA`. The hotkeys below can only be used if you have the Steam Input profile active.
-
-**Long Press** to activate hotkeys on the left trackpad touch menu. 
+mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
 
 {{ read_csv('mgba-hotkeys.csv') }}
 
 
 For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
-**These hotkeys are for mGBA, a standalone Nintendo Gameboy, Gameboy Color and Gameboy Advance emulator. These hotkeys are not for the mGBA RetroArch core. For more information on RetroArch and the mGBA RetroArch core hotkeys, visit [RetroArch](#retroarch).**
+**These hotkeys are for mGBA, a standalone Nintendo Game Boy, Game Boy Color and Game Boy Advance emulator. These hotkeys are not for the mGBA RetroArch core. For more information on RetroArch and the mGBA RetroArch core hotkeys, visit [RetroArch](#retroarch).**
 
 ***
 
 #### melonDS (NDS) (Standalone)
 [Back to the Top](#hotkeys-table-of-contents)
 
-melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - melonDS`. The hotkeys below can only be used if you have the Steam Input profile active.
-
-**Long Press** to activate hotkeys on the left trackpad radial menu. 
+mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
 
 {{ read_csv('melonds-hotkeys.csv') }}
 
@@ -289,7 +248,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 #### Citra (3DS)
 [Back to the Top](#hotkeys-table-of-contents)
 
-Citra comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Citra 3DS`. The hotkeys below can only be used if you have the Steam Input profile active.
+mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
 
 {{ read_csv('citra-hotkeys.csv') }}
 
@@ -301,7 +260,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 #### Cemu (Wii U)
 [Back to the Top](#hotkeys-table-of-contents)
 
-Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - Cemu`. The hotkeys below can only be used if you have the Steam Input profile active.
+mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
 
 {{ read_csv('cemu-hotkeys.csv') }}
 
@@ -347,12 +306,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 #### PPSSPP (Playstation Portable)
 [Back to the Top](#hotkeys-table-of-contents)
 
-PPSSPP comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - PPSSPP Standalone`. The hotkeys below can only be used if you have the Steam Input profile active.
-
 {{ read_csv('ppsspp-hotkeys.csv') }}
-
-
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
 **These hotkeys are for PPSSPP, a standalone Playstation Portable. These hotkeys are not for the PPSSPP RetroArch core. For more information on RetroArch and the PPSSPP RetroArch core hotkeys, visit [RetroArch](#retroarch).**
 
@@ -368,14 +322,9 @@ N/A
 #### DuckStation (Playstation 1)
 [Back to the Top](#hotkeys-table-of-contents)
 
-DuckStation comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - DuckStation`. The hotkeys below can only be used if you have the Steam Input profile active.
-
 **Long Press** to activate hotkeys on the left trackpad touch menu. 
 
 {{ read_csv('duckstation-hotkeys.csv') }}
-
-
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
 ***
 
@@ -431,50 +380,20 @@ By default, the controls are that of a standard gamepad along with:
 
 ***
 
-#### ES-DE
+#### Emulator Frontends
 [Back to the Top](#hotkeys-table-of-contents)
 
-ES-DE comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - ES-DE`. The hotkeys below can only be used if you have the Steam Input profile active.
+ 
+The frontends bundled with EmuDeck, ES-DE and Pegasus, come with a Steam Input profile for hotkeys. Typically, this profile will automatically be applied to your shortcuts. To apply it manually, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Frontend Controller Hotkeys`. 
 
-**Long Press** to activate hotkeys on the left trackpad radial menu. 
+The `EmuDeck - Frontend Controller Hotkeys` profile comes with two action set layers. The first layer is blank intended for emulators with traditional controller hotkeys. The second layer assigns keyboard keys to button combinations, intended for emulators that do not support controller hotkeys naturally. This layer only covers Cemu, Citra, melonDS (Standalone), and mGBA (Standalone).
 
-| Hotkey         | ES-DE       |
-|----------------|---------------------------|
-| Citra          | Left Trackpad Touch  Menu |
-| Cemu           | Left Trackpad Touch  Menu |
-| No Profile     | Left Trackpad Touch  Menu |
-| mGBA           | Left Trackpad Touch  Menu |
-| RMG            | Left Trackpad Touch  Menu |
-| melonDS        | Left Trackpad Touch  Menu |
-| PPSSPP         | Left Trackpad Touch  Menu |
-| DuckStation    | Left Trackpad Touch  Menu |
+For the most part, you will be using the first layer, entitled the "All Hotkeys" layer. However, when you are playing a Cemu, Citra, melonDS (Standalone), or mGBA ROM, hold the `Start` button to switch to the `Cemu, Citra, melonDS (Standalone), and mGBA (Standalone)` layer. 
 
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+For the specific button combinations, refer to the various sections on this page depending on which emulator you are using. The hotkeys have been largely standardized and for the most part are identical across emulators. Do note there are still a few exceptions:
 
-##### An explanation of the ES-DE Profile
+* The Flycast (Standalone) emulator 
+* RetroArch binds the `Next Save State Slot` and `Previous Save State Slot` to `Start` + `DPad Left` or `DPAd Right` whereas most emulators use `Start` + `R2` or `L2` 
 
-Some emulators set up by EmuDeck need a unique steam input profile (like Cemu or Citra) since you cannot do combo hotkeys easily. These emulators use a Steam Input profile to bind keyboard keys to buttons on a radial or touch menu.
-
-The ES-DE combines all of these different profiles into a single menu and allows you to select your emulator profile on the fly. For emulators without a Steam Input profile, use combo hotkeys.
-
-##### How to Use the ES-DE Profile
-
-The ES-DE profile will be automatically applied to your ES-DE shortcut. If you have an older install of EmuDeck, you may need to re-run Steam ROM Manager with the ES-DE parser toggled to apply this profile.
-
-After the ES-DE profile is applied, use the left trackpad to pull up the menu and **long-press** an icon to switch into the respective profile. The buttons on the various touch and radial menus use a **long-press** to activate the respective hotkey. 
-
-All of the profiles include a `Return to Main Menu` button allowing you to return to the profile switcher menu.
-
-If you do not see an emulator on the ES-DE touch menu, it likely uses combo hotkeys. This page covers the combo hotkeys for the various emulators. 
-
-All of the Steam input profiles featured on the ES-DE profile are specifically for **standalone emulators**. For example, the melonDS and the mGBA profiles will not work if you are using the RetroArch cores. You will need to use the combo hotkeys instead: [RetroArch Hotkeys](#retroarch). To switch to the standalone emulator in ES-DE, read [How to Select a Different Emulator for a System](../../tools/steamos/es-de.md#how-to-select-a-different-emulator-for-a-system).
-
-##### Video Showcase
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="/videos/ES-de-steam-input-showcase.mp4" type="video/mp4">
-  </video>
-</figure>
 
 ***
