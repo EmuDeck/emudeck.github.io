@@ -27,6 +27,7 @@ search:
     * Switched all profiles to SDL
         * This fixes the long-standing issue of controllers not working after waking up the Steam Deck from sleep 
         * [#928](https://github.com/dragoonDorise/EmuDeck/pull/928)
+    * Added a new GameCube profile mapped to the Xbox Layout
 * DuckStation
     * Fixed conflicting "Quick Menu" and "Toggle Software Rendering" hotkeys, see [DuckStation Hotkeys](../emulators/steamos/duckstation.md#duckstation-hotkeys) for an updated list
 * Flycast (New emulator!)
@@ -55,7 +56,7 @@ search:
         * Use the "Nintendo DS - RetroArch melonDS DS" parser in Steam ROM Manager or select it in ES-DE's alternate emulators list to try it out! 
         * [#956](https://github.com/dragoonDorise/EmuDeck/pull/956)
     * Fixed Hardcore Mode for FBNeo RetroAchievements
-    * Added buildbot downloader to automatically download shaders, PPSSPP files, assets, and info files
+    * Added buildbot downloader to automatically download shaders, PPSSPP files, assets, info, cheats, controller configuration, and overlay files
         * [#957](https://github.com/dragoonDorise/EmuDeck/commit/dc9803a729db0920fc06d5ef77e6097bee1a4f50)
     * Culled unused/outdated cores
         * [#597](https://github.com/dragoonDorise/EmuDeck/pull/597)
@@ -81,7 +82,10 @@ search:
 
 ## Tools
 
-* Pegasus (New front-end!)
+* EmulationStation-DE
+    * Moved the AppImage to $HOME/Applications and renamed to ES-DE.AppImage
+    * Set melonDS DS as the new default core for the Nintendo DS
+* Pegasus (New frontend!)
     * Added Pegasus to EmuDeck  
 * Steam ROM Manager
     * Added "Atomiswave (Flycast Standalone)" parser
@@ -152,9 +156,10 @@ search:
 * Removed 3DS and GameCube symlinks with proper logic to ensure ROMs are not lost
     * [#1005](https://github.com/dragoonDorise/EmuDeck/pull/1005)
 * Steam Input
-    * Added a "EmuDeck - Steam Deck Radial Menus XL" profile with all emulators mapped 
+    * Added a `EmuDeck - Steam Deck Radial Menus XL` profile with all emulators mapped 
         * Pressure sensitivity dialed way down from the previous profile   
         * [#1018](https://github.com/dragoonDorise/EmuDeck/pull/1018)
+    * Added `EmuDeck - Controller Hotkeys` and `EmuDeck - Frontend Controller Hotkeys` profiles for controllers. See the [Hotkeys](../controls-and-hotkeys/steamos/hotkeys.md) page for a full list of the new hotkeys
 * Moved all `/bin/sh` and `/usr/bin/bash` to `/bin/bash` 
     * [#972](https://github.com/dragoonDorise/EmuDeck/pull/972)
 * Updated emulatorInit/isLatestVersionGH
@@ -167,3 +172,4 @@ search:
     * [#870](https://github.com/dragoonDorise/EmuDeck/pull/870)
 * Removed dependency on google in Yuzu launcher
     * [#774](https://github.com/dragoonDorise/EmuDeck/pull/774)
+* Added preliminary support for ULWGL
