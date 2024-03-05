@@ -1,22 +1,16 @@
 Hotkey,RMG
-Quick Menu,Left Trackpad Radial Menu
-Full Screen,`Select` + `R3`
-Save State,Left Trackpad Radial Menu or `Select` + `R1`
-Save State Menu,Left Trackpad Radial Menu
-Load State,Left Trackpad Radial Menu or `Select` + `L1`
-Increase Save Slot ,`Start` + `R1`
-Increase Save Slot ,`Start` + `L1`
-Pause,Left Trackpad Radial Menu or `Select` + `A`
-Cheats,Left Trackpad Radial Menu
-Controller Menu,Left Trackpad Radial Menu
-Graphics Menu,Left Trackpad Radial Menu
-Screenshot,Left Trackpad Radial Menu or `Select` + `B`
-1x Speed,`Select` + `L2`
-2x Speed,`Select` + `R2`
-Limit FPS,`Start` + `DPad Left`
+Quick Menu,`Select` + `R3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Next Save State Slot,`Start` + `R1`
+Previous Save State Slot,`Start` + `L1`
+1x Speed/Regular Speed,`Select` + `L2`
+2x Speed/Fast Forward,`Select` + `R2`
+Pause/Play,`Select` + `A`
+Screenshot,`Select` + `B`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start`
 Switch to Memory Pak,`Start` + `DPad Up`
-Switch to Rumble Pak,`Start` + `DPad Right`
 Remove Pak,`Start` + `Dpad Down`
-Stop Emulation,Left Trackpad Radial Menu
-Reset,Left Trackpad Radial Menu
-Exit,`Select` + `Start`
+Limit FPS,`Start` + `DPad Left`
+Switch to Rumble Pak,`Start` + `DPad Right`

@@ -1,11 +1,11 @@
 ﻿Hotkey,melonDS
-Full Screen,Left Trackpad Radial Menu or Tilt `Right Joystick` `Left`
-Save State Menu,Left Trackpad Radial Menu
-Load State Menu,Left Trackpad Radial Menu
-Pause,Left Trackpad Radial Menu
-Cheats,Left Trackpad Radial Menu
-Microphone,Left Trackpad Radial Menu or `R3`
-Close/Open Lid,Left Trackpad Radial Menu or `L3`
-Swap Screens,Left Trackpad Radial Menu or `R2`
-Reset,Left Trackpad Radial Menu
-Toggle FPS Limit,Tilt `Right Joystick` `Right`
+Full Screen Toggle,`Select` + `R3` or hold `L4` or hold `R4`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Fast Forward,`Select` + `R2`
+Pause/Play,`Select` + `A`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start` or hold `L5` or hold `R5`
+Close/Open Lid,`Start` + `DPad Up`
+Toggle Screens,`L4` or `R4` or `Start` + `DPad Left`
+Toggle FPS Limit,`Start` + `DPad Right`

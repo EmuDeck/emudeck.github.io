@@ -1,14 +1,11 @@
 ﻿Hotkey,Citra
-Menu,`L4`
-Full Screen Toggle,`L4`
-Layout Toggle,`L5`
-Swap Screens,`R4`
-Quit,Long Press `R5`
-Save State,Left Trackpad Touch Menu
-Load State,Left Trackpad Touch Menu
-Fast Forward,Left Trackpad Touch Menu
-Pause,Left Trackpad Touch Menu
-Exit,`Double Tap` Left Trackpad Touch Menu
-Full Screen / Menu,Left Trackpad Touch Menu
-Swap Screens,Left Trackpad Touch Menu
-Change Screen Layout,Left Trackpad Touch Menu
+Full Screen Toggle,`Select` + `R3` or hold `L4` or hold `R4`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Fast Forward,`Select` + `R2`
+Pause/Play,`Select` + `A`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start` or hold `L5` or hold `R5`
+Swap Screens,`L5` or `R5` or `Start` + DPad Down`
+Toggle Screens,`L4` or `R4` or `Start` + `DPad Left`
+Load Amiibo,`Start` + `DPad Right`

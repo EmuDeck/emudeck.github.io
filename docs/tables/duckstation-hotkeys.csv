@@ -1,19 +1,19 @@
 Hotkey,DuckStation
-Save State,Left Trackpad Touch Menu or `Select` + `R1`
-Load State,Left Trackpad Touch Menu or `Select` + `L1`
-Next Save Slot,Left Trackpad Touch Menu or `Start` + `R1`
-Previous Save Slot,Left Trackpad Touch Menu or `Start` + `L1`
-Pause/Play,Left Trackpad Touch Menu or `Select` + `A`
-Quick Menu,Left Trackpad Touch Menu or `Start` + `L3`
-Swap Disc,Left Trackpad Touch Menu or `Select` + `X`
-Fast Forward (Toggle),Left Trackpad Touch Menu
-Fast Forward (Hold),`Select` + `R2`
+Quick Menu,`Select` + `R3`
+Toggle Full Screen,`Start` + `L3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Next Save State Slot,`Start` + `R1`
+Previous Save State Slot,`Start` + `L1`
+Fast Forward,`Start` + `R2`
 Rewind,`Select` + `L2`
-Toggle Full Screen,`Select` + `R3`
+Pause/Play,`Select` + `A`
+Screenshot,`Select` + `B`
+Swap Disc,`Select` + `X`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start`
+Toggle PGXP,`Select` + `Y`
 Increase Resolution Scale,`Start` + `DPad Up`
 Decrease Resolution Scale,`Start` + `DPad Down`
-Toggle Widescreen,`Start` + `DPad Right`
-Toggle PGXP,`Select` + `Y`
 Toggle Software Rendering,`Start` + `DPad Left`
-Screenshot,`Select` + `B`
-Exit,`Select` + `Start`
+Toggle Widescreen,`Start` + `DPad Right`

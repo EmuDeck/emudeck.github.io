@@ -1,10 +1,10 @@
 ﻿Hotkey,mGBA
-Quick Menu,Left Trackpad Touch Menu
-Save State,Left Trackpad Touch Menu
-Load State,Left Trackpad Touch Menu
-Pause,Left Trackpad Touch Menu
-Reset,Left Trackpad Touch Menu
-Stop Emulation,Left Trackpad Touch Menu
-Fast Forward,Left Trackpad Touch  Menu
-Cheats,Left Trackpad Touch Menu
-Screenshot,Left Trackpad Touch Menu
+Quick Menu,`Select` + `R3` or hold `L4` or hold `R4`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Fast Forward,`Select` + `R2`
+Pause/Play,`Select` + `A`
+Screenshot,`Select` + `B`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start` or hold `L5` or hold `R5`
+Open Cheats Menu,`Start` + `DPad Right`

@@ -1,15 +1,17 @@
 ﻿Hotkey,PCSX2-QT
-Menu,`Start` + `L3`
-Full Screen,`Select` + `R3`
-Exit,`Select` + `Start`
-Pause/Unpause Emulation,`Select` + `A`
+Quick Menu,`Select` + `R3`
+Toggle Full Screen,`Start` + `L3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Next Save State Slot,`Start` + `R1`
+Previous Save State Slot,`Start` + `L1`
 Fast Forward,`Select` + `R2`
 Slow Motion,`Select` + `L2`
-Load State,`Select` + `L1`
-Save State,`Select` + `R1`
-Next Save Slot,`Start` + `R1`
-Previous Save Slot,`Start` + `L1`
+Pause/Play,`Select` + `A`
+Screenshot,`Select` + `B`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start`
 Increase Upscale Multiplier,`Start` + `DPad Up`
 Decrease Upscale Multiplier,`Start` + `DPad Down`
-Cycle Aspect Ratio,`Start` + `DPad Right`
 Toggle Software Rendering,`Start` + `DPad Left`
+Cycle Aspect Ratio,`Start` + `DPad Right`

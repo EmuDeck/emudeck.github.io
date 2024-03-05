@@ -1,15 +1,16 @@
 ﻿Hotkeys,RetroArch
-Menu,`L3` + `R3`
-Exit,`Select` + `Start`
-Pause/Unpause,`Select` + `A`
-Fast Forward,`Select` + `R2`
-Rewind,`Select` + `L2`
+Quick Menu,`L3` + `R3` or `Select` + `R3`
 Save State,`Select` + `R1`
 Load State,`Select` + `L1`
-Next Save Slot,`Select` + `DPAD Right`
-Previous Save Slot,`Select` + `DPAD Left`
-Toggle Runahead,`Select` + `DPad Up`
-Toggle FPS Display,`Select` + `X`
+Next Save State Slot,`Select` + `DPAD Right`
+Previous Save State Slot,`Select` + `DPAD Left`
+Fast Forward,`Select` + `R2`
+Rewind,`Select` + `L2`
+Pause/Play,`Select` + `A`
 Screenshot,`Select` + `B`
-Toggle Screen Layout (NDS),`R2`
+Toggle FPS Display,`Select` + `X`
+Stop Emulation,`Select` + `Start`
+Reset Emulation,`Select` + `L3`
+Toggle Runahead,`Select` + `DPad Up`
 Blow Mic  (NDS),`L2`
+Toggle Screen Layout (NDS),`R2`
