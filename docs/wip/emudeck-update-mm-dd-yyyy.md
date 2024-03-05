@@ -9,6 +9,9 @@ search:
 
 ## GUI
 
+* Fresh coat of paint
+    * The application has been redesigned with a fancy new GUI
+
 ## Emulators
 
 * ares (New emulator!) 
