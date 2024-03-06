@@ -9,8 +9,9 @@ Rewind,`Select` + `L2`
 Pause/Play,`Select` + `A`
 Screenshot,`Select` + `B`
 Toggle FPS Display,`Select` + `X`
-Stop Emulation,`Select` + `Start`
 Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start`
+Close/Open Lid (Nintendo DS),`Start` + `DPad Up`
 Toggle Runahead,`Select` + `DPad Up`
-Blow Mic  (NDS),`L2`
-Toggle Screen Layout (NDS),`R2`
+Blow Mic  (Nintendo DS),`L2`
+Toggle Screen Layout (Nintendo DS),`R2`
