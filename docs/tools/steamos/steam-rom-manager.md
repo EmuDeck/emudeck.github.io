@@ -32,6 +32,7 @@ Read the [ES-DE](../steamos/es-de.md) page to learn more about ES-DE and how it 
     - [Unexpected end of JSON input](#Unexpected-end-of-JSON-input)
     - [Error occurred while loading configuration presets](#error-occurred-while-loading-configuration-presets)
     - [A JavaScript error occurred in the main process](#a-javascript-error-occurred-in-the-main-process)
+    - [I deleted a user account but Steam ROM Manager still shows their user ID](#i-deleted-a-user-account-but-steam-rom-manager-still-shows-their-user-id)
 3. [Steam ROM Manager Tips and Tricks](#steam-rom-manager-tips-and-tricks)
     - [How to Generate and Save an App List](#how-to-generate-and-save-an-app-list)
     - [How to Fix a Mismatched Entry](#how-to-fix-a-mismatched-entry)
@@ -248,15 +249,13 @@ Running Steam ROM Manager external to EmuDeck's script will not exit out of Stea
 
 Issue still not resolved? Try one of the methods below.
 
-##### Method 1: Verify you have the correct file type
+##### Method 1: Verify you have the correct file type and ROM location
 
-Visit the [Cheat Sheet](../../cheat-sheet.md) to learn which file types you need for Steam ROM Manager to properly parse your ROMs.
-
+This warning will also show up when Steam ROM Manager fails to find any ROMs at all.
 
 In some cases, `.7z` and `.zip` are **not** the correct file type. With PlayStation 3, do note that `.iso` is **not** an accepted file type. 
 
-
-The [Cheat Sheet](../../cheat-sheet.md) lists the expected file type for the various emulators. 
+Visit the [Cheat Sheet](../../cheat-sheet.md) to see which file types and folders you need to use for Steam ROM Manager to properly parse your ROMs.
 
 ##### Method 2: Reset Steam ROM Manager
 
@@ -268,7 +267,18 @@ Resetting Steam ROM Manager is a simple fix for a wide variety of issues. Doing 
 
 See [How to Reset Steam ROM Manager](#how-to-reset-steam-rom-manager) to learn how.
 
-##### Method 3: Nuclear Option
+##### Method 3: Check the Exceptions Tab
+
+Because this warning also appears when Steam ROM Manager fails to find any ROMs, it is possible that they were previously excluded.
+
+To check this, simply go to the Exceptions and search for the ROM(s) you are trying to parse.
+
+!!! tip "On-Screen Keyboard"
+
+    Because opening Steam ROM Manager closes Steam, you will not be able to open the native on-screen keyboard with the `Steam + X` hotkey. You can download a third party keyboard from Discover or temporarily open Steam to restore the native hotkey, but you will need to manually close Steam before parsing again. 
+
+
+##### Method 4: Nuclear Option
 
 If one of Steam ROM Manager's files corrupted, you may need to try the nuclear option. 
 
@@ -364,6 +374,24 @@ If you see: `Error occurred while loading configuration presets` in the bottom r
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
 If you see a pop-up with the message: `A JavaScript error occurred in the main process` when you open Steam ROM Manager, you may click `Ok` to proceed. This error does not mean there is anything wrong with your configurations. 
+
+***
+
+### I deleted a user account but Steam ROM Manager still shows their user ID
+
+1. Switch to Desktop Mode.
+
+!!! tip
+    If you don't know the Friend Code for the account you want to keep, you can click the Steam icon in the system tray on your task bar and select Settings. Note the Friend Code.
+
+2. Open Dolphin(file explorer) and select Home
+
+!!! info
+    Directories with a `.` in front of their name, like `~/.steam`, will be hidden by default. Press the hamburger menu button in Dolphin(file explorer) and toggle on `Show Hidden Files`.
+
+3. Navigate to `~/.steam/steam/userdata`
+
+4. Delete the folder(s) for account(s) that you no longer want
 
 ***
 
