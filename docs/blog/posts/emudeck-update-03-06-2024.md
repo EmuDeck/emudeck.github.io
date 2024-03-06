@@ -29,7 +29,7 @@ categories:
         * [#928](https://github.com/dragoonDorise/EmuDeck/pull/928)
     * Added a new GameCube profile mapped to the Xbox Layout
 * DuckStation
-    * Fixed conflicting "Quick Menu" and "Toggle Software Rendering" hotkeys, see [DuckStation Hotkeys](../emulators/steamos/duckstation.md#duckstation-hotkeys) for an updated list
+    * Fixed conflicting "Quick Menu" and "Toggle Software Rendering" hotkeys, see [DuckStation Hotkeys](../../emulators/steamos/duckstation.md#duckstation-hotkeys) for an updated list
 * Flycast (New emulator!)
     * Added Flycast to EmuDeck
         * [#617](https://github.com/dragoonDorise/EmuDeck/pull/617)
@@ -42,7 +42,7 @@ categories:
     * Added the Model 2 Emulator to EmuDeck
         * [#959](https://github.com/dragoonDorise/EmuDeck/pull/959)
 * PPSSPP
-    * Added combo hotkeys, see [PPSSPP Hotkeys](../emulators/steamos/ppsspp.md#ppsspp-hotkeys) for a full list
+    * Added combo hotkeys, see [PPSSPP Hotkeys](../../emulators/steamos/ppsspp.md#ppsspp-hotkeys) for a full list
     * Added CHD support for PPSSPP in Steam ROM Manager
     * Added RetroAchievements support
         * [#865](https://github.com/dragoonDorise/EmuDeck/pull/865)
@@ -61,7 +61,7 @@ categories:
     * Culled unused/outdated cores
         * [#597](https://github.com/dragoonDorise/EmuDeck/pull/597)
 * Rosalie's Mupen GUI
-    * Added combo hotkeys, see [RMG Hotkeys](../emulators/steamos/rmg.md#rmg-hotkeys) for a full list
+    * Added combo hotkeys, see [RMG Hotkeys](../../emulators/steamos/rmg.md#rmg-hotkeys) for a full list
     * Fixed save and save state folders not being created
         * [#1030](https://github.com/dragoonDorise/EmuDeck/commits/dev/)
 * Ryujinx 
@@ -159,7 +159,7 @@ categories:
     * Added a `EmuDeck - Steam Deck Radial Menus XL` profile with all emulators mapped 
         * Pressure sensitivity dialed way down from the previous profile   
         * [#1018](https://github.com/dragoonDorise/EmuDeck/pull/1018)
-    * Added `EmuDeck - Controller Hotkeys` and `EmuDeck - Frontend Controller Hotkeys` profiles for controllers. See the [Hotkeys](../controls-and-hotkeys/steamos/hotkeys.md) page for a full list of the new hotkeys
+    * Added `EmuDeck - Controller Hotkeys` and `EmuDeck - Frontend Controller Hotkeys` profiles for controllers. See the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page for a full list of the new hotkeys
 * Moved all `/bin/sh` and `/usr/bin/bash` to `/bin/bash` 
     * [#972](https://github.com/dragoonDorise/EmuDeck/pull/972)
 * Updated emulatorInit/isLatestVersionGH
