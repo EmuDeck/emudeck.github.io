@@ -404,6 +404,8 @@ For the specific button combinations, refer to the various sections on this page
 
 This profile is intended for emulator frontends such as ES-DE and Pegasus. This profile will **not** be applied automaticallly. To apply it manually, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Steam Deck Radial Menus`. All emulators installed and configured by EmuDeck are included in this profile. 
 
+You may also use this profile with any ROM shortcut or emulator shortcut added through Steam ROM Manager. This profile will appear in the drop-down list of your profiles for any of your shortcuts added to Steam.
+
 Use the left trackpad to pull up the menu and **short-press** an icon to switch into the respective profile. The buttons on the various touch and radial menus use a **short-press** to activate the respective hotkey. 
 
 A bonus feature of this profile is allowing you to map per game profiles in emulator frontends such as ES-DE and Pegasus. 
