@@ -7,8 +7,6 @@ categories:
 
 [TOC]
 
-# EmuDeck 2.2 Update 03-06-2024
-
 ## GUI
 
 * Fresh coat of paint
