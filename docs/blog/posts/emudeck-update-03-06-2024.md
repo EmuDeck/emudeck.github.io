@@ -7,7 +7,7 @@ categories:
 
 [TOC]
 
-# EmuDeck Update 03-06-2024
+# EmuDeck 2.2 Update 03-06-2024
 
 ## GUI
 
