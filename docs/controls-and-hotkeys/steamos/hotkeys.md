@@ -41,6 +41,8 @@
         - [RPCS3 (PlayStation 3)](#rpcs3-playstation-3)      
     - [Tools Hotkeys](#tools-hotkeys)
         - [Cloud Services](#cloud-services)
+    - [Steam Input Profiles](#steam-input-profiles)
+        - [Emulator Button Combinations Profile](#emulator-button-combinations-profile)
         - [Emulator Frontends Button Combinations Profile](#emulator-frontends-button-combinations-profile)
         - [Emulator Frontends Radial Menu Profile](#emulator-frontends-radial-menu-profile)
             - [How to Map Per-Game Profiles](#how-to-map-per-game-profiles)
@@ -378,6 +380,30 @@ By default, the controls are that of a standard gamepad along with:
     - X is "Find in Page (F3)"
     - Y is "Refresh (F5)"
     - Rotate left joystick to scroll: CW scroll down, CCW scroll up
+
+***
+
+### Steam Input Profiles
+[Back to the Top](#hotkeys-table-of-contents)
+
+***
+
+#### Emulator Button Combinations Profile
+[Back to the Top](#hotkeys-table-of-contents)
+
+Some of the emulators bundled with EmuDeck do not do not support controller hotkeys naturally. These emulators are Cemu, Citra, melonDS (Standalone), and mGBA (Standalone).
+
+To standardize the hotkeys with the other emulators, these profiles require a Steam Input profile that binds keyboard keys to button chords. These button chords allow you to use controller hotkeys with emulators that do not naturally support them.
+
+Typically, this profile will automatically be applied to your shortcuts for Cemu, Citra, melonDS (Standalone), and mGBA (Standalone). To apply it manually, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. 
+
+For the specific button combinations, see the following sections:
+
+* [Cemu](#cemu-wii-u)
+* [Citra](#citra-3ds)
+* [melonDS (Standalone)](#melonds-nds-standalone)
+* [mGBA (Standalone)](#mgba-gb-gbc-and-gba-standalone)
+
 
 ***
 
