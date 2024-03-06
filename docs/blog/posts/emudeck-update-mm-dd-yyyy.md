@@ -1,11 +1,13 @@
 ---
-search:
-  exclude: true
+draft: false 
+date: 2024-03-06T13:00:00
+categories:
+  - EmuDeck
 ---
 
 [TOC]
 
-# EmuDeck Update MM-DD-YYYY
+# EmuDeck Update 03-06-2024
 
 ## GUI
 
@@ -14,9 +16,6 @@ search:
 
 ## Emulators
 
-* ares (New emulator!) 
-    * Added preliminary support for ares, will be fully implemented in a future update
-        * **Cannot** be installed through the GUI at this time
 * BigPEmu (New emulator!)
     * Added BigPEmu to EmuDeck
     * [#775](https://github.com/dragoonDorise/EmuDeck/pull/775)
@@ -70,8 +69,7 @@ search:
 * Ryujinx 
     * Pointed launcher to Ryujinx's `.sh` file instead
 * RPCS3
-    * Added preliminary support for migrating to the AppImage, will be fully implemented in a future update
-    * **Cannot** be migrated through the GUI at this time
+    * Added support for migrating to the AppImage
 * Supermodel (New emulator!)
     * Added Supermodel to EmuDeck
         * [#937](https://github.com/dragoonDorise/EmuDeck/pull/937)
@@ -125,6 +123,7 @@ search:
         * [#530](https://github.com/dragoonDorise/EmuDeck/pull/530)
     * Added 7Zip support for a large amount of systems (primarily RetroArch)
     * Updated CHDMAN
+    * Added support for compressing Dreamcast CUE/BIN ROMs to CHD
 * Cloud Services   
     * Added Nebula
         * [#731](https://github.com/dragoonDorise/EmuDeck/pull/731)
@@ -176,3 +175,4 @@ search:
 * Removed dependency on google in Yuzu launcher
     * [#774](https://github.com/dragoonDorise/EmuDeck/pull/774)
 * Added preliminary support for ULWGL
+* Added support for swapping between the Nintendo and the Xbox Layout
