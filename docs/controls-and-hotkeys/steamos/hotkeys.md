@@ -41,8 +41,9 @@
         - [RPCS3 (PlayStation 3)](#rpcs3-playstation-3)      
     - [Tools Hotkeys](#tools-hotkeys)
         - [Cloud Services](#cloud-services)
-        - [Emulator Frontends](#emulator-frontends)
-
+        - [Emulator Frontends Button Combinations Profile](#emulator-frontends-button-combinations-profile)
+        - [Emulator Frontends Radial Menu Profile](#emulator-frontends-radial-menu-profile)
+            - [How to Map Per-Game Profiles](#how-to-map-per-game-profiles)
 
 
 
@@ -380,7 +381,7 @@ By default, the controls are that of a standard gamepad along with:
 
 ***
 
-#### Emulator Frontends
+#### Emulator Frontends Button Combinations Profile
 [Back to the Top](#hotkeys-table-of-contents)
 
  
@@ -395,5 +396,26 @@ For the specific button combinations, refer to the various sections on this page
 * The Flycast (Standalone) emulator 
 * RetroArch binds the `Next Save State Slot` and `Previous Save State Slot` to `Start` + `DPad Left` or `DPAd Right` whereas most emulators use `Start` + `R2` or `L2` 
 
+
+***
+
+#### Emulator Frontends Radial Menu Profile
+[Back to the Top](#hotkeys-table-of-contents)
+
+This profile is intended for emulator frontends such as ES-DE and Pegasus. This profile will **not** be applied automaticallly. To apply it manually, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Steam Deck Radial Menus`. All emulators installed and configured by EmuDeck are included in this profile. 
+
+Use the left trackpad to pull up the menu and **short-press** an icon to switch into the respective profile. The buttons on the various touch and radial menus use a **short-press** to activate the respective hotkey. 
+
+A bonus feature of this profile is allowing you to map per game profiles in emulator frontends such as ES-DE and Pegasus. 
+
+##### How to Map Per-Game Profiles
+
+1. To apply the Steam Input profile, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Steam Deck Radial Menus`
+2. On the `Game Controller` screen, click the `Edit Layout`
+3. Press `R1` until you see `Blank Profile #`
+    * There will be 10 Blank Profile action sets
+4. On the `Blank Profile` page you selected, remap your controls
+5. When you are finished, exit out and open the frontend
+6. On the left trackpad, select the `Blank Profile Selector` icon and select the matching `Blank Profile` number to the profile you mapped in Step 3
 
 ***
