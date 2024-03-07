@@ -20,10 +20,6 @@ This page collates the donation links for the various emulators and tools. If yo
 
 * [Patreon](https://www.patreon.com/cemu)
 
-## Citra
-
-* [Patreon](https://www.patreon.com/citraemu)
-
 ## Dolphin
 
 Dolphin does not accept donations. 
@@ -114,7 +110,3 @@ No donation link found at this time.
 ## xenia
 
 * [Patreon](https://www.patreon.com/xenia_project)
-
-## Yuzu
-
-* [Patreon](https://www.patreon.com/yuzuteam)
