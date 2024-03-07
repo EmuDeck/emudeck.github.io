@@ -213,7 +213,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 #### melonDS (NDS) (Standalone)
 [Back to the Top](#hotkeys-table-of-contents)
 
-mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
+melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
 
 {{ read_csv('melonds-hotkeys.csv') }}
 
@@ -251,7 +251,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 #### Citra (3DS)
 [Back to the Top](#hotkeys-table-of-contents)
 
-mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
+Citra comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
 
 {{ read_csv('citra-hotkeys.csv') }}
 
@@ -263,7 +263,7 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 #### Cemu (Wii U)
 [Back to the Top](#hotkeys-table-of-contents)
 
-mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
+Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
 
 {{ read_csv('cemu-hotkeys.csv') }}
 
