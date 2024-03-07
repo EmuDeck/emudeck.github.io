@@ -440,10 +440,14 @@ A bonus feature of this profile is allowing you to map per-game profiles in emul
 
 1. To apply the Steam Input profile, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Steam Deck Radial Menus`
 2. On the `Game Controller` screen, click the `Edit Layout`
-3. Press `R1` until you see `Blank Profile #`
+3. Press `R1` until you see `Blank Profile #` and select one of the 10 `Blank Profiles`
     * There will be 10 Blank Profile action sets
 4. On the `Blank Profile` page you selected, remap your controls
-5. When you are finished, exit out and open the frontend
-6. On the left trackpad, select the `Blank Profile Selector` icon and select the matching `Blank Profile` number to the profile you mapped in Step 3
+5. (Optional) To rename the blank icon in the radial menu:
+    * Click `Virtual Menus` on the left side of the screen in the `Controller Settings` menu 
+    * Click the `Pencil` icon to the right of `Blank Profile Selector`
+    * On the profile # you selected in 3 and 4, click the `Gear` icon, click `Rename command`, and rename your profile
+6. When you are finished, exit out and open the frontend
+7. On the left trackpad, select the `Blank Profile Selector` icon and select the matching `Blank Profile` number (or your renamed profile) to the profile you mapped in Step 3
 
 ***
