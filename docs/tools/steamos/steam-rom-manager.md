@@ -378,6 +378,7 @@ If you see a pop-up with the message: `A JavaScript error occurred in the main p
 ***
 
 ### I deleted a user account but Steam ROM Manager still shows their user ID
+[Back to the Top](#steam-rom-manager-table-of-contents)
 
 1. Switch to Desktop Mode.
 
