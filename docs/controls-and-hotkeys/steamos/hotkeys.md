@@ -199,28 +199,38 @@ N/A
 #### mGBA (GB, GBC, and GBA) (Standalone)
 [Back to the Top](#hotkeys-table-of-contents)
 
-mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
+mGBA comes with a Steam Input profile for Hotkeys. When playing mGBA ROM shortcuts through Steam, the   `EmuDeck - Controller Hotkeys` profile will automatically be applied so you may use the below hotkeys.
 
-{{ read_csv('mgba-hotkeys.csv') }}
+When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - Frontend Controller Hotkeys` will automatically be applied. Hold `Start` for a few seconds to switch to the action set required to use the below hotkeys. For more info, see [Emulator Frontends Button Combinations Profile](#emulator-frontends-button-combinations-profile).
+
+  {{ read_csv('mgba-hotkeys.csv') }}
 
 
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+**Note**
 
-**These hotkeys are for mGBA, a standalone Nintendo Game Boy, Game Boy Color and Game Boy Advance emulator. These hotkeys are not for the mGBA RetroArch core. For more information on RetroArch and the mGBA RetroArch core hotkeys, visit [RetroArch](#retroarch).**
+* For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile)
+* **These hotkeys are for mGBA, a standalone Nintendo Game Boy, Game Boy Color and Game Boy Advance emulator. These hotkeys are not for the mGBA RetroArch core. For more information on RetroArch and the mGBA RetroArch core hotkeys, visit [RetroArch](#retroarch)**
+* If you would like to use the old touch menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead
 
 ***
 
 #### melonDS (NDS) (Standalone)
 [Back to the Top](#hotkeys-table-of-contents)
 
-melonDS comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
+melonDS comes with a Steam Input profile for Hotkeys. When playing melonDS ROM shortcuts through Steam, the   `EmuDeck - Controller Hotkeys` profile will automatically be applied so you may use the below hotkeys.
+
+When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - Frontend Controller Hotkeys` will automatically be applied. Hold `Start` for a few seconds to switch to the action set required to use the below hotkeys. For more info, see [Emulator Frontends Button Combinations Profile](#emulator-frontends-button-combinations-profile).
 
 {{ read_csv('melonds-hotkeys.csv') }}
 
 
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+**Note**
 
-**These hotkeys are for melonDS, a standalone NDS emulator. These hotkeys are not for the melonDS RetroArch core. For more information on RetroArch and the melonDS RetroArch core hotkeys, visit [RetroArch](#retroarch).**
+* For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile)
+* **These hotkeys are for melonDS, a standalone NDS emulator. These hotkeys are not for the melonDS RetroArch core. For more information on RetroArch and the melonDS RetroArch core hotkeys, visit [RetroArch](#retroarch)**
+* If you would like to use the old radial menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead
+
+
 
 ***
 
@@ -251,27 +261,34 @@ For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a
 #### Citra (3DS)
 [Back to the Top](#hotkeys-table-of-contents)
 
-Citra comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
+Citra comes with a Steam Input profile for Hotkeys. When playing Citra ROM shortcuts through Steam, the   `EmuDeck - Controller Hotkeys` profile will automatically be applied so you may use the below hotkeys.
+
+When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - Frontend Controller Hotkeys` will automatically be applied. Hold `Start` for a few seconds to switch to the action set required to use the below hotkeys. For more info, see [Emulator Frontends Button Combinations Profile](#emulator-frontends-button-combinations-profile).
 
 {{ read_csv('citra-hotkeys.csv') }}
 
+**Note**
 
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+* For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+* If you would like to use the old radial menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead
 
 ***
 
 #### Cemu (Wii U)
 [Back to the Top](#hotkeys-table-of-contents)
 
-Cemu comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. The hotkeys below can only be used if you have the Steam Input profile active.
+Cemu comes with a Steam Input profile for Hotkeys. When playing Cemu ROM shortcuts through Steam, the   `EmuDeck - Controller Hotkeys` profile will automatically be applied so you may use the below hotkeys.
+
+When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - Frontend Controller Hotkeys` will automatically be applied. Hold `Start` for a few seconds to switch to the action set required to use the below hotkeys. For more info, see [Emulator Frontends Button Combinations Profile](#emulator-frontends-button-combinations-profile).
 
 {{ read_csv('cemu-hotkeys.csv') }}
 
 
-**Note:** The `Blow Mic` hotkey only works if you are using the gamepad. 
+**Note** 
 
-
-For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+* The `Blow Mic` hotkey only works if you are using the gamepad. 
+* For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+* If you would like to use touch menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead.  
 
 ***
 
