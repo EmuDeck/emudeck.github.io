@@ -6,7 +6,7 @@ Nintendo 64,n64,[RetroArch Mupen64plus-Next](https://docs.libretro.com/library/m
 **Nintendo DS (Standalone)**,nds,**[melonDS (Standalone)](https://melonds.kuribo64.net/)**,.nds,**Optional:**<br/>Nintendo DS BIOS:<br/>`bios7.bin`<br/>`bios9.bin`<br/>`firmware.bin`
 **Nintendo DSiWare (Standalone)**,nds,**[melonDS (Standalone)](https://melonds.kuribo64.net/)**,.app <br/> [How to Set Up DSIWare](https://emudeck.github.io/emulators/steamos/melonds/#how-to-set-up-dsiware),Nintendo DSI BIOS    `dsi_bios7.bin`    `dsi_bios9.bin`    `dsi_firmware.bin`    `dsi_nand.bin`
 Nintendo DS,nds,[RetroArch melonDS (Legacy Core)](https://docs.libretro.com/library/melonds/),.7z .nds .zip,Nintendo DS BIOS:    `bios7.bin`     `bios9.bin`     `firmware.bin`
-Nintendo DS,nds,[RetroArch melonDS DS](https://github.com/JesseTG/melonds-ds),.7z .nds .zip,Nintendo DS BIOS:    `bios7.bin`    `bios9.bin`  `firmware.bin`
+Nintendo DS,nds,[RetroArch melonDS DS](https://github.com/JesseTG/melonds-ds),.7z .nds .zip,**Optional:**<br/>Nintendo DS BIOS:<br/>`bios7.bin`<br/>`bios9.bin`<br/>`firmware.bin`
 **Nintendo Game Boy (Standalone)**,gb,**[mGBA (Standalone)](https://mgba.io/)**,.7z .dmg .gb .zip,Not Required
 Nintendo Game Boy,gb,[RetroArch SameBoy](https://docs.libretro.com/library/sameboy/),.7z .dmg .gb .zip,Not Required
 Nintendo Game Boy,gb,[RetroArch Gambatte](https://docs.libretro.com/library/gambatte/),.7z .dmg .gb .zip,Not Required
