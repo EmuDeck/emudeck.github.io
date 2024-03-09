@@ -178,11 +178,7 @@ rpcs3/
         * **Note:** Read the `Dumping Step-by-step` section specifically
 
 * Install `.pkg` files directly through the RPCS3 UI
-
-!!! info
-    You can drag and drop `.pkg` files into the RPCS3 UI.
-
-
+    * **Note:** You can drag and drop `.pkg` files to the RPCS3 UI
     * `.pkg` files are installed to: `Emulation/storage/rpcs3/dev_hdd0/game/`
 * Install `.rap` files directly through the RPCS3 UI
     * **Note:** You can drag and drop `.rap` files to the RPCS3 UI
