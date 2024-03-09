@@ -55,16 +55,25 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 ### RPCS3 Configuration
 [Back to the Top](#rpcs3-table-of-contents)
 
-* Type of Emulator: Flatpak
-* Config Location: `/home/deck/.var/app/net.rpcs3.RPCS3`
+* Type of Emulator: AppImage
+* Config Location: `/home/deck/Applications/rpcs3.AppImage`
 * Storage Location: `Emulation/storage/rpcs3`
-  * Contains: `dev_hdd0` 
+  * Contains: `dev_hdd0`
       * Contains the following folders: 
-          * `disc`
+          * `crash_report`
+          * `data`
+          * `drm`
           * `game`
           * `home`
+          * `mms`
+          * `music`
           * `photo`
           * `savedata`
+          * `theme`
+          * `tmp`
+          * `video`
+          * `vm`
+          * `vsh`
 * ROM Location: `Emulation/roms/ps3`
 * Firmware: Install the firmware through RPCS3's GUI. Read the [Quickstart Guide](https://rpcs3.net/quickstart) for a tutorial
 * Saves: 
@@ -72,7 +81,6 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
     * Target: `Emulation/storage/rpcs3/dev_hdd0/home/00000001/savedata`
 
 
-**Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 * Your game will not show in the RPCS3 UI until you add it manually through the `Add Game` option under `File` in the top left. 
 
 #### Works With
@@ -85,57 +93,45 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 ### RPCS3 Folder Locations
 [Back to the Top](#rpcs3-table-of-contents)
 
-These file locations apply regardless of where you chose to install EmuDeck (to your internal SSD, to your SD Card, or elsewhere). Some emulator configuration files will be located on the internal SSD as listed below. 
+These file locations apply regardless of where you chose to install EmuDeck (to your internal SSD, to your SD Card, or elsewhere). Some emulator configuration files will be located on the internal SSD as listed below.
 
-`$HOME` refers to your home folder. If you are on a Steam Deck, this folder will be named `/home/deck` (you will likely not see `deck` in the file path when navigating using the file manager). 
+???+ info "Home Directory"
+    `~` refers to your Home directory
 
-Paths beginning with `Emulation/..` correspond to your EmuDeck install location. If you installed on an SD Card, your path may be `/run/media/mmcblk0p1/Emulation/roms/..`. If you installed on your internal SSD, your path may be `/home/deck/Emulation/roms/..`
+???+ info "Hidden Folders"
+    Directories with a `.` in front of their name, like `~/.steam`, are hidden by default. In Dolphin(file manager), click the hamburger menu in the top right and toggle on `Show Hidden Files`.
 
-**Note:** Folders with a `.` (`.var`, `.local`, `.config`, etc.) at the beginning are hidden by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
-
-`$HOME/.var/app/net.rpcs3.RPCS3`
+`~/.config/rpcs3`
 
 ```
-net.rpcs3.RPCS3
-├── cache
-│   ├── fontconfig
-│   ├── mesa_shader_cache
-│   │   ├── 17
-│   │   ├── 9b
-│   │   ├── d6
-│   │   └── ea
-│   ├── rpcs3
-│   │   ├── savestates
-│   │   ├── shaderlog
-│   │   └── spu_progs
-│   └── tmp
+rpcs3/
+├── captures
 ├── config
-│   ├── kdeglobals
-│   ├── pulse
-│   │   └── cookie
-│   ├── QtProject.conf
-│   ├── rpcs3
-│   │   ├── captures
-│   │   ├── config.yml
-│   │   ├── dev_bdvd
-│   │   ├── dev_flash
-│   │   ├── dev_flash2
-│   │   ├── dev_flash3
-│   │   ├── dev_hdd1
-│   │   │   └── caches
-│   │   ├── dev_usb000
-│   │   ├── games.yml
-│   │   ├── GuiConfigs
-│   │   │   └── CurrentSettings.ini
-│   │   ├── Icons
-│   │   ├── patches
-│   │   ├── sounds
-│   │   └── uuid
-│   └── user-dirs.dirs
-└── data
+├── custom.configs
+├── dev_bdvd
+├── dev_flash
+├── dev_hdd1
+├── dev_usb000
+├── GuiConfigs
+├── Icons
+├── input_configs
+├── patches
+├── sounds
+├── config.yml
+├── config.yml.bak
+├── evdev_positive_axis.yml
+├── games.yml
+├── players_history.yml
+├── recording.yml
+├── uuid
+├── vfs.yml
+└── vfs.yml.bak
 ```
 
-`Emulation/storage/rpcs3`
+???+ info "Emulation Directory"
+    `~/Emulation` refers to either your `home` directory or SD Card/removable media depending on your installation location.
+
+`~/Emulation/storage/rpcs3`
 
 ```
 rpcs3/
@@ -152,19 +148,17 @@ rpcs3/
 ### How to Update RPCS3
 [Back to the Top](#rpcs3-table-of-contents)
 
-**How to Update RPCS3**
+* Through the `Update your Emulators` section on the `Manage Emulators` page in the `EmuDeck` application
+* Manual file replacement of `rpcs3.AppImage` 
+    * Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 
-* Update through `Discover` (Shopping bag icon)
-* Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 
 ***
 
 ### How to Launch RPCS3 in Desktop Mode
 [Back to the Top](#rpcs3-table-of-contents)
 
-**How to Launch RPCS3 in Desktop Mode**
-
-* Launch `RPCS3` from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar)
+* Launch `RPCS3 AppImage` from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar)
 * Launch the script from `Emulation/tools/launchers`, `rpcs3.sh`
 * Launch the emulator from `Steam` after adding it via the `Emulators` parser in `Steam ROM Manager`
 
@@ -176,9 +170,13 @@ rpcs3/
 
 * Folder Format: `/PS3_GAME/USRDIR/eboot.bin`
     * Place the folder in `Emulation/roms/ps3`
-    * **Visual Reference:** <img src="https://user-images.githubusercontent.com/1683513/197632719-71784143-e637-4dc8-81f4-d61c59d4f28c.png" height="300">
+    * **Visual Reference:** 
+    
+    <img src="https://user-images.githubusercontent.com/1683513/197632719-71784143-e637-4dc8-81f4-d61c59d4f28c.png" height="300">
+    
     * For more information on the `Folder Format`, read [RPCS3's Quickstart Guide](https://rpcs3.net/quickstart)
         * **Note:** Read the `Dumping Step-by-step` section specifically
+
 * Install `.pkg` files directly through the RPCS3 UI
     * **Note:** You can drag and drop `.pkg` files to the RPCS3 UI
     * `.pkg` files are installed to: `Emulation/storage/rpcs3/dev_hdd0/game/`
@@ -213,13 +211,43 @@ The Linux version of the software mentioned in the above article can be found he
 
 ***
 
-## RPCS3 Tips and Tricks
+### RPCS3 Tips and Tricks
 [Back to the Top](#rpcs3-table-of-contents)
 
 ***
 
 ### How to Configure RPCS3 to Work With EmulationStation-DE
 [Back to the Top](#rpcs3-table-of-contents)
+
+## AppImage
+
+1. In `Desktop Mode`, open RPCS3
+2. Skip this step if you have already added your games to RPCS3:
+    * Either: 
+        * In the top left click, `File`, click `Add Games`, locate your game
+        * In the top left click, `File`, click `Install Packages/Raps/Edats`, and install your PKG
+        * For more information, read the [File Formats](#rpcs3-file-formats) section
+3. Right click your game, click `Create Shortcut`, click `Create Desktop Shortcut`
+4. On your desktop, you should see an icon for your game. Move this icon to `Emulation/roms/ps3`
+5. (Optional) If the desktop file is opening RPCS3 instead of the game: 
+    * In Desktop Mode, right click the desktop file
+    * Click `Properties`
+    * On the `General` tab, click `Change` to the right of the `Open With` line
+    * Under `Application Preference Order`, click `RPCS3`
+    * Click `Remove` on the right
+    * Click `Apply` in the bottom left and click `OK`
+    * The desktop file will not work in Desktop Mode, but will launch the game directly either through a terminal or through EmulationStation-DE 
+6. Your game should now show up in and launch directly from EmulationStation-DE
+
+If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in EmulationStation-DE for PlayStation 3 to `RPCS3 Shortcut [Standalone]`. 
+
+You may also do this on a per-game basis if you are using a mix of folders and PKGs. On a game, press the `select ` button, scroll down and select `EDIT THIS GAME'S METADATA`, scroll down and select `ALTERNATIVE EMULATOR`, select PS3 and select the corresponding format.
+
+Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3), for additional information.
+
+## Flatpak
+
+**These are legacy instructions for the Flatpak installation from Discover.**
 
 1. In `Desktop Mode`, open RPCS3
 2. Skip this step if you have already added your games to RPCS3:
@@ -252,7 +280,7 @@ The Linux version of the software mentioned in the above article can be found he
 
 If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in EmulationStation-DE for PlayStation 3 to `RPCS3 Shortcut [Standalone]`. 
 
-You may also do this on a per-game basis if you are using a mix of folders and PKGs. On a game, press the `select ` button, scroll down and select `EDIT THIS GAME'S METADATA`, scroll down and select `ALTERNATIVE EMULATOR`, select PS3 and select the corresponding format.
+You may also do this on a per-game basis if you are using a mix of folders and PKGs. On a game, press the `select` button, scroll down and select `EDIT THIS GAME'S METADATA`, scroll down and select `ALTERNATIVE EMULATOR`, select PS3 and select the corresponding format.
 
 Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-3), for additional information. 
 
@@ -288,9 +316,13 @@ RPCS3 comes with a nifty auto-map feature that makes setting up multiplayer a br
 ### Special Game Configurations
 [Back to the Top](#rpcs3-table-of-contents)
 
-Some games will take additional setup, requiring mods or an extensive alteration of settings. The EmuDeck Community Creations page collects these configurations in one centralized location. 
+#### RPCS3 Wiki
 
-To submit or view special game configurations, see [Special Game Configurations](../../community-creations/steamos/community-game-configurations.md#rpcs3).
+Some games may require additional setup, needing mods or alteration of settings. The [RPCS3 Compatability List](https://rpcs3.net/compatibility) can be used to check for these. Simply search for the name of the game and click the hyperlinked name to view the wiki page for that game and see if there are any recommended or required settings changes.
+
+#### EmuDeck Community Creations
+
+Use the EmuDeck [Community Game Configurations](../../community-creations/steamos/community-game-configurations.md#rpcs3) page to submit or view special game configurations.
 
 ***
 
@@ -299,7 +331,7 @@ To submit or view special game configurations, see [Special Game Configurations]
 
 The PlayStation 3 controller, or the DualShock 3 notably had "Sixaxis". Sixaxis refers to the motion sensor used in a handful of games. One of the more popular games that utilized Sixaxis was Folklore. For a full list of games, see [https://www.giantbomb.com/sixaxis-support/3015-5310/games/](https://www.giantbomb.com/sixaxis-support/3015-5310/games/).
 
-Recently, RPCS3 implemented support to allow emulating the Sixaxis through evdev, which exposes the gyro in a large variety of modern controllers (including the Nintendo Switch Pro Controller, 8BitDo Ultimate Controller, and the DualSense). 
+RPCS3 has implemented support to allow emulating the Sixaxis through evdev, which exposes the gyro in a large variety of modern controllers (including the Nintendo Switch Pro Controller, 8BitDo Ultimate Controller, and the DualSense). 
 
 At this time, the Steam Deck gyro **cannot** be used. But if you own one of these controllers, you may emulate the Sixaxis through RPCS3.
 
@@ -368,26 +400,24 @@ To restore the default Steam Deck controls:
 ### How to Roll Back RPCS3 to an Older Version
 [Back to the Top](#rpcs3-table-of-contents)
 
-If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
+Your ROMs launch using a script created by EmuDeck, `rpcs3.sh` in `~/Emulation/tools/launchers`.
 
-1. In Desktop Mode, open `Konsole`
-2. To see a list of prior versions of the emulator, type:
-    * `flatpak remote-info --log flathub net.rpcs3.RPCS3`
-3. If Konsole prompts you to select `system` or `user`, enter `2` to select `user` 
-4. Konsole will list a list of previous versions for the flatpak. The important line for each version is the `Commit: ` line. The `Commit: ` line will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
-    * Using Citra as an example:
-        * ![How to Roll Back Flatpaks: 1](../../assets/how-to-roll-back-flatpaks-1.png)
-5. To downgrade to the version you want:
-    * `flatpak update --commit=put_commit_code_here net.rpcs3.RPCS3`
-    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
-        * Using Citra as an example:
-            * ![How to Roll Back Flatpaks: 2](../../assets/how-to-roll-back-flatpaks-2.png)
+!!! info "Emulation Directory"
+    `~/Emulation` refers to either your `home` directory or SD Card/removable media depending on your installation location.
 
-If the above steps did not work and you are getting an error message along the lines of `Flatpak not installed`, your Flatpak is likely installed at the system level instead. Select one of the below solutions:
+The script launches the corresponding emulator in `/home/deck/Applications` and **specifically looks** for two traits:
 
-Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
+* The most recently downloaded version of the emulator in `/home/deck/Applications`, based on the file/release date.
+* The emulator name at the beginning of the file. Anything after the emulator name is ignored. 
+    * For example, if the latest version of the emulator is `1351` and you would like to downgrade to `1349`. When you download version `1349`, you could rename it to `EMULATORNAME-1349.AppImage`, and EmuDeck's script will ignore the `-1349` in the file name, allowing you to record which versions of the emulator you are using through the file name. 
 
-Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub net.rpcs3.RPCS3` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here net.rpcs3.RPCS3`. 
+#### How to Roll Back RPCS3
+
+1. Download the version of the emulator you would like to use from RPCS3's Builds page: [https://rpcs3.net/compatibility?b](https://rpcs3.net/compatibility?b)
+2. Move the downloaded emulator from Step 1 to `/home/deck/Applications`
+3. **(Optional)** Rename or delete the original emulator file
+4. Right click the newly downloaded emulator, click `Properties`, click `Permissions`, check `Is executable`
+5. Your games will now launch using the version of the emulator you downloaded
 
 ***
 
