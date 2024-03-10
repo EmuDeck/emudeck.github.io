@@ -27,7 +27,7 @@ The hotfixes below are applied when either resetting the respective emulator on 
 
 **List of Hotfixes**
 
-* Steam ROM Manager parsers have been rolled back. Instead of dynamically loading parsers, the old way of retrieving parsers is still intact. You will receieve the full list of Steam ROM Manager parsers when installing EmuDeck or resetting Steam ROM Manager in the EmuDeck application
+* Steam ROM Manager parsers have been rolled back. Instead of dynamically loading parsers, the old way of retrieving parsers is still intact. You will receive the full list of Steam ROM Manager parsers when installing EmuDeck or resetting Steam ROM Manager in the EmuDeck application
 * Steam ROM Manager parsers:
     * Bandai WonderSwan Color and TIC-80 parsers have been fixed and now work correctly
     * Flycast and Supermodel have been fixed and now work correctly 
@@ -35,7 +35,8 @@ The hotfixes below are applied when either resetting the respective emulator on 
     * Now launches the standalone version of Dolphin by default
     * Now launches Ryujinx by default
     * Now launches melonDS DS by default
-    * Symlinks to the old ES-DE install so old Steam shortcuts continue to work  
+    * Symlinks to the old ES-DE install so old Steam shortcuts continue to work 
+    * ES-DE now no longer shows junk files for Xenia installs 
 * Sega Model 2 and Sega Model 3:
     * Widescreen is now fixed for the Model 2 Emulator and Supermodel and will be applied automatically when appropriate
     * Model 2 install now works through EmuDeck 
@@ -53,7 +54,6 @@ The hotfixes below are applied when either resetting the respective emulator on 
     * If you have bad PSP CHD ROMs, a decompression option has been added
         * This decompression option also supports CSO if you would like to convert your PSP ROMs to CHD from CSO > ISO > CHD
 * SteamDeckGyroDSU install now works properly through the EmuDeck application
-* ES-DE now no longer shows junk files for Xenia installs
 * mGBA uninstall is now fixed in EmuDeck
 * The EmuDeck Store no longer shows an error 
 * The new PCSX2 hotkeys now properly apply
