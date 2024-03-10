@@ -21,6 +21,10 @@ If the above does not work:
 
 1. Open the "EmuDeck" app, run through an easy/custom reset, reparse your games through "Steam ROM Manager"
 
+***
+
+The hotfixes below are applied when either resetting the respective emulator on the Manage Emulators page or running through an easy/custom reset in the EmuDeck applicaiton.
+
 **List of Hotfixes**
 
 * Steam ROM Manager parsers have been rolled back. Instead of dynamically loading parsers, the old way of retrieving parsers is still intact. You will receieve the full list of Steam ROM Manager parsers when installing EmuDeck or resetting Steam ROM Manager in the EmuDeck application
