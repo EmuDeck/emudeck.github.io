@@ -244,7 +244,11 @@ To fix this, do one of the following solutions:
 ### How to Verify ROMs
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
-If you have a ROM that is not launching, you can verify your ROM directly in PCSX2. Verifying your ROM confirms whether you have a good dump or a bad dump. If you have a bad dump, you will need to re-dump your PlayStation 2 ROM, following PCSX2's guide. For the dumping guide, see [https://pcsx2.net/docs/usage/setup/#dumping-ps2-discs-via-imgburn](https://pcsx2.net/docs/usage/setup/#dumping-ps2-discs-via-imgburn). 
+If you have a ROM that is not launching, you can verify your ROM directly in PCSX2. Verifying your ROM confirms whether you have a good dump or a bad dump. If you have a bad dump, your issue may be that your ROM either transferred incorrectly or that you have a bad dump. 
+
+If your ROM transferred incorrectly, see [How to Transfer Files to a Steam Deck](../../file-management/steamos/file-management.md#how-to-transfer-files-to-a-steam-deck) for a few methods. 
+
+If you have a bad dump, you will need to re-dump your PlayStation 2 ROM, following PCSX2's guide. For the dumping guide, see [https://pcsx2.net/docs/usage/setup/#dumping-ps2-discs-via-imgburn](https://pcsx2.net/docs/usage/setup/#dumping-ps2-discs-via-imgburn). 
 
 If you have a good dump, your issue lies elsewhere. Make sure you have PlayStation 2 BIOS directly in the `Emulation/bios` folder and make sure PCSX2 is up to date. If neither of these resolve your issue, make sure to either check Google or retrieve a PCSX2 log so you can share it with the PCSX2 team. 
 

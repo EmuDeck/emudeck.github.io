@@ -24,6 +24,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Set Up the Wii Menu (Optional)](#how-to-set-up-the-wii-menu)
 
 2. [Dolphin Tips and Tricks](#dolphin-tips-and-tricks)
+    - [How to Verify ROMs](#how-to-verify-roms)
     - [How to Configure Gyro](#how-to-configure-gyro)
     - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
@@ -326,6 +327,27 @@ For further reading, see [https://wiki.dolphin-emu.org/index.php?title=Wii_Menu]
 ## Dolphin Tips and Tricks
 [Back to the Top](#dolphin-table-of-contents)
 
+***
+
+### How to Verify ROMs
+[Back to the Top](#dolphin-table-of-contents)
+
+If you have a ROM that is not launching, you can verify your ROM directly in Dolphin. Verifying your ROM confirms whether you have a good dump or a bad dump. If you have a bad dump, your issue may be that your ROM either transferred incorrectly or that you have a bad dump. 
+
+If your ROM transferred incorrectly, see [How to Transfer Files to a Steam Deck](../../file-management/steamos/file-management.md#how-to-transfer-files-to-a-steam-deck) for a few methods. 
+
+If you have a bad dump, re-dump your GameCube or Wii ROM, following Dolphin's guide. For the dumping guide, see [https://dolphin-emu.org/docs/guides/ripping-games/](https://dolphin-emu.org/docs/guides/ripping-games/). 
+
+If you have a good dump, your issue lies elsewhere. Make sure Dolphin is up to date. If neither of these resolve your issue, make sure to either check Google or retrieve a log so you can share it with the Dolphin team. 
+
+#### How to Verify ROMs
+
+1. In Desktop Mode, open the Dolphin emulator
+2. Right click a game
+3. Click `Properties`
+4. Click the `Verify` tab at the top
+5. Click `Verify Integrity` at the bottom
+6. In the text box in the middle of the screen, you will see a message stating if your ROM is a good or a bad dump
 
 ***
 
