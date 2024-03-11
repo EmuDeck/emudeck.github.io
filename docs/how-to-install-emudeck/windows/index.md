@@ -1,7 +1,5 @@
 # How to Install EmuDeck for Windows
 
-> ⚠️ EmuDeck for Windows is only available through the Patreon: [https://www.patreon.com/dragoonDorise](https://www.patreon.com/dragoonDorise) in the  "Early Access" and "EmuDeck Fan" tiers. There is currently no ETA for the public release. ⚠️
-
 [TOC]
 
 ***
