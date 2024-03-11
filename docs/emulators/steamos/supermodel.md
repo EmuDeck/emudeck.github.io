@@ -2,7 +2,8 @@
 
 !!! warning
 
-    Supermodel does not have a GUI. If you try to launch Supermodel from its shortcut in either Desktop Mode or Game Mode, it will not launch. In order to launch and configure Supermodel, you will need to do so from the command line. To see a list of commands, in Desktop Mode, open a terminal, and enter: flatpak run com.supermodel3.Supermodel --help
+    Supermodel does not have a GUI. If you try to launch Supermodel from its shortcut in either Desktop Mode or Game Mode, it will not launch. In order to launch and configure Supermodel, you will need to do so from the command line. To see a list of commands, in Desktop Mode, open a terminal, and enter: <br>
+    `flatpak run com.supermodel3.Supermodel --help`
 
 Website: [https://www.supermodel3.com/](https://www.supermodel3.com/)
 
