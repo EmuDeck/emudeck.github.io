@@ -33,15 +33,13 @@ Could you do everything EmuDeck does on your own? You sure could, but now you do
 
 ### EmuDeck for Windows
 
-EmuDeck for Windows is ready for testing through EmuDeck's Patreon, found here: [https://www.patreon.com/dragoonDorise](https://www.patreon.com/dragoonDorise). It is only available through the "Early Access" or "EmuDeck Fan" tiers. 
-
 EmuDeck for Windows is still in development. Its feature suite is not currently at parity with EmuDeck for SteamOS but more will be added over time. 
 
-For more information, read [EmuDeck for Window's FAQ](./frequently-asked-questions/windows/index.md).
+For more information, read [EmuDeck for Windows FAQ](./frequently-asked-questions/windows/index.md).
 
 ### EmuDeck for Android
 
-EmuDeck for Android development is currently on pause until EmuDeck for Windows is released. 
+EmuDeck for Android is ready for testing through EmuDeck's Patreon, found here: [https://www.patreon.com/dragoonDorise](https://www.patreon.com/dragoonDorise). It is only available through the "Early Access" or "EmuDeck Fan" tiers. 
 
 ***
 
