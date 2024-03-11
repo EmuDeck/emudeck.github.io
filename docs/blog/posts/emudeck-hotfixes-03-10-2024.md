@@ -13,13 +13,10 @@ First, let's begin with Steam shortcuts launching into RetroArch or the emulator
 
 To fix this issue:
 
-1. Open the EmuDeck app, click "Manage Emulators" on the left-hand side of the screen, click "RetroArch" (or the respective emulator), click "Reset Config"
-2. Click "Steam ROM Manager", click "Reset Config"
-2. Reparse your games in "Steam ROM Manager"
+1. Open the EmuDeck app, you will receive a prompt to apply the hotfix
+2. Click yes to the prompt and your ROMs will now launch directly into the game
 
-If the above does not work:
-
-1. Open the "EmuDeck" app, run through an easy/custom reset, reparse your games through "Steam ROM Manager"
+If you say no to the prompt, you may apply this hotfix at any time by resetting the respective emulator on the Manage Emulators page in the EmuDeck application.
 
 ***
 
