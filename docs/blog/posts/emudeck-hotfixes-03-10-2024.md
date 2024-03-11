@@ -23,7 +23,7 @@ If the above does not work:
 
 ***
 
-The hotfixes below are applied when either resetting the respective emulator on the Manage Emulators page or running through an easy/custom reset in the EmuDeck applicaiton.
+The hotfixes below are applied when either resetting the respective emulator on the Manage Emulators page or running through an easy/custom reset in the EmuDeck application.
 
 **List of Hotfixes**
 
