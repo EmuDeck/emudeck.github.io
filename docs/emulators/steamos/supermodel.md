@@ -1,5 +1,9 @@
 # Supermodel is a Sega Model 3 Emulator.
 
+!!! info
+
+    Supermodel does not have a GUI. In order to launch and configure Supermodel, you will need to do so from the command line. To see a list of commands, in Desktop Mode, open a terminal, and enter: flatpak run com.supermodel3.Supermodel --help
+
 Website: [https://www.supermodel3.com/](https://www.supermodel3.com/)
 
 GitHub: [https://github.com/trzy/Supermodel](https://github.com/trzy/Supermodel)
@@ -13,6 +17,7 @@ GitHub: [https://github.com/trzy/Supermodel](https://github.com/trzy/Supermodel)
     - [Supermodel Folder Locations](#supermodel-folder-locations)
     - [How to Update Supermodel](#how-to-update-supermodel)
     - [How to Launch Supermodel in Desktop Mode](#how-to-launch-supermodel-in-desktop-mode)
+    - [How Supermodel ROMs Work](#how-supermodel-roms-work)
     - [File Formats](#supermodel-file-formats)
     - [Hotkeys](#supermodel-hotkeys) 
 
@@ -127,6 +132,23 @@ Paths beginning with `Emulation/..` correspond to your EmuDeck install location.
 
 ***
 
+### How Supermodel ROMs Work
+[Back to the Top](#supermodel-table-of-contents)
+
+Supermodel follows MAME ROM sets to keep its games up to date. MAME ROM sets are typically three digits and match the latest MAME version. As of March 11th, 2024, MAME is on version 0.263 meaning that the latest ROM set is 0.263. 
+
+In order to use Supermodel, you will need a non-merged ROM set, typically the most recent ROM set will do the trick. But as of March 11th, 2024, ROM sets from between approximately 0.235 and 0.263 should also ideally work for Supermodel.
+
+For Supermodel specifically, you will need a **non-merged** ROM set. **Merged** ROM sets will **not** work. 
+
+To summarize: 
+
+As of March 11th, 2024, the latest **non-merged** ROM set is 0.263. To use Supermodel, ideally use the latest **non-merged** (0.263) and keep your ROMs zipped. Unzipping your ROMs will **not** work for Supermodel. 
+
+For more information, see the [Maintaining ROM Versions](../../emulators/steamos/mame.md#maintaining-rom-versions) on the MAME emulator page. 
+
+***
+
 ### Supermodel File Formats
 [Back to the Top](#supermodel-table-of-contents)
 
@@ -140,3 +162,4 @@ Paths beginning with `Emulation/..` correspond to your EmuDeck install location.
 N/A
 
 ***
+
