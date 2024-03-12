@@ -20,9 +20,9 @@ ScummVM's Wiki: [https://docs.scummvm.org/en/v2.6.0](https://docs.scummvm.org/en
     - [File Formats](#file-formats)
 
 2. [ScummVM Tips and Tricks](#scummvm-tips-and-tricks)
-    - [How to Configure ScummVM to Work with Steam ROM Manager and EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de-and-steam-rom-manager)
+    - [How to Configure ScummVM to Work with Steam ROM Manager and ES-DE](#how-to-configure-scummvm-to-work-with-es-de-and-steam-rom-manager)
         - [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
-        - [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)
+        - [How to Configure ScummVM to Work With ES-DE](#how-to-configure-scummvm-to-work-with-es-de)
     - [How to Roll Back ScummVM to an Older Version](#how-to-roll-back-scummvm-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
 
@@ -36,8 +36,8 @@ ScummVM is a fairly straight-forward emulator to set up. Place your ROMs in `Emu
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your ScummVM ROMs:
 
-* `EmulationStation-DE`
-    * To play ScummVM games in EmulationStation-DE, read: [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de) 
+* `ES-DE`
+    * To play ScummVM games in ES-DE, read: [How to Configure ScummVM to Work With ES-DE](#how-to-configure-scummvm-to-work-with-es-de) 
 * `ScummVM Flatpak` 
     * To use this parser, read: [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
 * `Emulators`
@@ -57,7 +57,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works With
 * Steam ROM Manager: [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
-* EmulationStation-DE: [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)
+* ES-DE: [How to Configure ScummVM to Work With ES-DE](#how-to-configure-scummvm-to-work-with-es-de)
 
 
 ***
@@ -135,28 +135,28 @@ Refer to [https://docs.scummvm.org/en/latest/use_scummvm/game_files.html and htt
 
 ***
 
-### How to Configure ScummVM to Work with EmulationStation-DE and Steam ROM Manager 
+### How to Configure ScummVM to Work with ES-DE and Steam ROM Manager 
 [Back to the Top](#scummvm-table-of-contents)
 
 #### Preface
 
-Since ScummVM ROMs come in a wide variety of formats, parsing these ROMs through Steam ROM Manager and EmulationStation-DE can be tricky. However, the included Steam ROM Manager parser and EmulationStation-DE include fairly easy methods to parse these ROMs and allow you to play them depending on your preferred front-end. 
+Since ScummVM ROMs come in a wide variety of formats, parsing these ROMs through Steam ROM Manager and ES-DE can be tricky. However, the included Steam ROM Manager parser and ES-DE include fairly easy methods to parse these ROMs and allow you to play them depending on your preferred front-end. 
 
-Depending on your preferred front-end (adding ROMs to Steam through Steam ROM Manager or EmulationStation-DE), "converting" these ROMs into a usable format may differ. 
+Depending on your preferred front-end (adding ROMs to Steam through Steam ROM Manager or ES-DE), "converting" these ROMs into a usable format may differ. 
 
-* If you **primarily use EmulationStation-DE** and do not use Steam ROM Manager for ScummVM whatsoever
-    * Proceed to [How to Configure ScummVM to Work With EmulationStation-DE](#how-to-configure-scummvm-to-work-with-emulationstation-de)
-* If you **primarily use Steam ROM Manager** and do not use EmulationStation-DE for ScummVM whatsoever
+* If you **primarily use ES-DE** and do not use Steam ROM Manager for ScummVM whatsoever
+    * Proceed to [How to Configure ScummVM to Work With ES-DE](#how-to-configure-scummvm-to-work-with-es-de)
+* If you **primarily use Steam ROM Manager** and do not use ES-DE for ScummVM whatsoever
     * Proceed to [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
-* If you like to **mix and match** between Steam (through Steam ROM Manager) and EmulationStation-DE, it is recommended you use EmulationStation-DE's method of structuring ScummVM ROMs 
+* If you like to **mix and match** between Steam (through Steam ROM Manager) and ES-DE, it is recommended you use ES-DE's method of structuring ScummVM ROMs 
     * Using this method will likely cause your ROMs to not be parsed correctly in Steam ROM Manager, see [How to Fix a Mismatched Entry](../../tools/steamos/steam-rom-manager.md#how-to-fix-a-mismatched-entry) to fix any potential mismatches
 
-#### How to Configure ScummVM to Work With EmulationStation-DE
+#### How to Configure ScummVM to Work With ES-DE
 [Back to the Top](#scummvm-table-of-contents)
 
-To configure ScummVM games with **EmulationStation-DE**, you will need to place a compatible ScummVM game in `Emulation/roms/scummvm`. Afterwards, you will need to create a `.scummvm` file matching the game's short name and rename the game folder to match that newly created `.scummvm` file. 
+To configure ScummVM games with **ES-DE**, you will need to place a compatible ScummVM game in `Emulation/roms/scummvm`. Afterwards, you will need to create a `.scummvm` file matching the game's short name and rename the game folder to match that newly created `.scummvm` file. 
 
-##### How to Configure ScummVM to Work With EmulationStation-DE
+##### How to Configure ScummVM to Work With ES-DE
 
 1. Open [https://www.scummvm.org/compatibility](https://www.scummvm.org/compatibility), and note down the game's `Short Name` in the `ScummVM ID` column. 
     * You will see two words, `word1:word2`, in the `ScummVM ID` column, the shortname is `word2` 
@@ -179,7 +179,7 @@ To configure ScummVM games with **EmulationStation-DE**, you will need to place 
     * For example:
         * ![Discworld Text Example](../../assets/scummvm-esde-4.png)
 6. Repeat as needed for each ScummVM game
-7. Your game should now show up in and launch directly from EmulationStation-DE
+7. Your game should now show up in and launch directly from ES-DE
     * To scrape your games, use ScreenScraper instead of TheGamesDB for best results
 
 A few examples using folder visualizations:
