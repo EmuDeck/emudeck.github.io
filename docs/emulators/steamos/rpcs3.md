@@ -228,6 +228,8 @@ The Linux version of the software mentioned in the above article can be found he
         * For more information, read the [File Formats](#rpcs3-file-formats) section
 3. Right click your game, click `Create Shortcut`, click `Create Desktop Shortcut`
 4. On your desktop, you should see an icon for your game. Move this icon to `Emulation/roms/ps3`
+    * If your desktop shortcut contains special icons any special symbols (Ex: the copyright symbol, `©`), rename the desktop file to remove these symbols. 
+        * For example, rename `God Of War® Collection.desktop` to `God Of War Collection.desktop`, removing the `©` after `War`
 5. (Optional) If the desktop file is opening RPCS3 instead of the game: 
     * In Desktop Mode, right click the desktop file
     * Click `Properties`
