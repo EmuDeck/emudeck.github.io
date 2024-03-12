@@ -90,11 +90,11 @@ pegasus-frontend/
 
 * Launch the Binary Package: `/home/deck/Applications/pegasus-fe`
 * Launch Pegasus from `Steam` after adding it via the `Pegasus` parser in `Steam Rom Manager`
-* Launch `Pegasus` from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar)
+* Launch `Pegasus Binary` from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar)
 
 ***
 
-### Hotkeys
+### Pegasus Hotkeys
 [Back to the Top](#pegasus-table-of-contents)
 
 See [Emulator Frontends Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-button-combinations-profile) and [Emulator Frontends Radial Menu Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-radial-menu-profile) for more information. 
