@@ -24,7 +24,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
     - [How to Manage Updates](#how-to-manage-updates)
 
 2. [RPCS3 Tips and Tricks](#rpcs3-tips-and-tricks)
-    - [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
+    - [How to Configure RPCS3 to Work With ES-DE and Pegasus](#how-to-configure-rpcs3-to-work-with-es-de-and-pegasus)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [Special Game Configurations](#special-game-configurations)
     - [How to Set Up the Motion Sensor with External Controllers](#how-to-set-up-the-motion-sensor-with-external-controllers)
@@ -44,8 +44,8 @@ Read the [Configuration](#rpcs3-configuration) section to learn more about RPCS3
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Playstation 3 ROMs:
 
-* `EmulationStation-DE`
-    * To play PS3 games in EmulationStation-DE, read: [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
+* `ES-DE`
+    * To play PS3 games in ES-DE, see [How to Configure RPCS3 to Work With ES-DE and Pegasus](#how-to-configure-rpcs3-to-work-with-es-de-and-pegasus)
 * `Sony PlayStation 3 - RPCS3 (Extracted ISO/PSN)` or `Sony PlayStation 3 - RPCS3 (Installed PKG)`
     * Read the [File Formats](#rpcs3-file-formats) section to learn more about these various file formats
 * `Emulators`
@@ -85,8 +85,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE
-    * [How to Configure RPCS3 to Work With EmulationStation-DE](#how-to-configure-rpcs3-to-work-with-emulationstation-de)
+* ES-DE
 
 ***
 
@@ -216,7 +215,7 @@ The Linux version of the software mentioned in the above article can be found he
 
 ***
 
-### How to Configure RPCS3 to Work With EmulationStation-DE
+### How to Configure RPCS3 to Work With ES-DE and Pegasus
 [Back to the Top](#rpcs3-table-of-contents)
 
 ## AppImage
@@ -236,10 +235,10 @@ The Linux version of the software mentioned in the above article can be found he
     * Under `Application Preference Order`, click `RPCS3`
     * Click `Remove` on the right
     * Click `Apply` in the bottom left and click `OK`
-    * The desktop file will not work in Desktop Mode, but will launch the game directly either through a terminal or through EmulationStation-DE 
-6. Your game should now show up in and launch directly from EmulationStation-DE
+    * The desktop file will not work in Desktop Mode, but will launch the game directly either through a terminal or through ES-DE 
+6. Your game should now show up in and launch directly from ES-DE and Pegasus
 
-If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in EmulationStation-DE for PlayStation 3 to `RPCS3 Shortcut [Standalone]`. 
+If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in ES-DE for PlayStation 3 to `RPCS3 Shortcut [Standalone]`. 
 
 You may also do this on a per-game basis if you are using a mix of folders and PKGs. On a game, press the `select ` button, scroll down and select `EDIT THIS GAME'S METADATA`, scroll down and select `ALTERNATIVE EMULATOR`, select PS3 and select the corresponding format.
 
@@ -275,10 +274,10 @@ Refer to [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.m
     * Under `Application Preference Order`, click `RPCS3`
     * Click `Remove` on the right
     * Click `Apply` in the bottom left and click `OK`
-    * The desktop file will not work in Desktop Mode, but will launch the game directly either through a terminal or through EmulationStation-DE 
-10. Your game should now show up in and launch directly from EmulationStation-DE 
+    * The desktop file will not work in Desktop Mode, but will launch the game directly either through a terminal or through ES-DE and Pegasus
+10. Your game should now show up in and launch directly from ES-DE and Pegasus
 
-If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in EmulationStation-DE for PlayStation 3 to `RPCS3 Shortcut [Standalone]`. 
+If you get an `Invalid file or folder` error message, you will need to change the `Alternative Emulator` in ES-DE for PlayStation 3 to `RPCS3 Shortcut [Standalone]`. 
 
 You may also do this on a per-game basis if you are using a mix of folders and PKGs. On a game, press the `select` button, scroll down and select `EDIT THIS GAME'S METADATA`, scroll down and select `ALTERNATIVE EMULATOR`, select PS3 and select the corresponding format.
 
@@ -308,7 +307,7 @@ RPCS3 comes with a nifty auto-map feature that makes setting up multiplayer a br
     * Player 7: `Steam Virtual Gamepad 7`
 6. Using `Player 2` as an example:
     * On the `Player 2` configuration screen, after you have selected the appropriate `Device` and `Handler`, click `Refresh` to the right of `Handler`
-7. After you are finished enabling any additional players, click `Save` and you may open your game either directly as a shortcut in Steam or through EmulationStation-DE    
+7. After you are finished enabling any additional players, click `Save` and you may open your game either directly as a shortcut in Steam or through ES-DE and Pegasus
 8. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
 
 ***

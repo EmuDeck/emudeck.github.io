@@ -20,7 +20,7 @@ Quickstart Guide: [https://vita3k.org/quickstart.html](https://vita3k.org/quicks
     - [File Formats](#vita3k-file-formats)
 
 2. [Vita3K Tips and Tricks](#vita3k-tips-and-tricks)
-    - [How to Configure Vita3K to Work With EmulationStation-DE](#how-to-configure-vita3k-to-work-with-emulationstation-de)
+    - [How to Configure Vita3K to Work With ES-DE and Pegasus](#how-to-configure-vita3k-to-work-with-es-de-and-pegasus)
     - [How to Configure Gyro With External Controllers](#how-to-configure-gyro-with-external-controllers)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Install English Patches](#how-to-install-english-patches)
@@ -40,7 +40,7 @@ Read the [Configuration](#vita3k-configuration) section to learn more about Vita
 
 To launch your ROMs in Game Mode, first install your ROMs through Vita3K if you are using the `.zip` or `.pkg` file formats. For more information, see the [File Formats](#vita3k-file-formats) section. Afterwards, you may use Steam ROM Manager and use one of the following parsers to play your PlayStation Vita ROMs:
 
-* `EmulationStation-DE`
+* `ES-DE`
 * `Sony PlayStation Vita Installed PKG` 
 * `Emulators`
 
@@ -62,8 +62,8 @@ To launch your ROMs in Game Mode, first install your ROMs through Vita3K if you 
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE
-    * Refer to [How to Configure Vita3K to Work With EmulationStation-DE](#how-to-configure-vita3k-to-work-with-emulationstation-de) for instructions
+* ES-DE
+    * Refer to [How to Configure Vita3K to Work With ES-DE and Pegasus](#how-to-configure-vita3k-to-work-with-es-de-and-pegasus) for instructions
 
 ***
 
@@ -199,10 +199,10 @@ To learn how to dump your games, see [https://vita3k.org/quickstart.html](https:
 
 ***
 
-### How to Configure Vita3K to Work With EmulationStation-DE
+### How to Configure Vita3K to Work With ES-DE and Pegasus
 [Back to the Top](#vita3k-table-of-contents)
 
-**Note:** This section requires you to install your PlayStation Vita games first through Vita3K. At this time, EmulationStation-DE only supports launching installed PSVita games. 
+**Note:** This section requires you to install your PlayStation Vita games first through Vita3K. At this time, ES-DE and Pegasus only support launching installed PSVita games. 
 
 1. In Desktop Mode, open Vita3K
 2. Right click a game of your choice, and click `Copy app info` --> `Title ID`
@@ -213,15 +213,15 @@ To learn how to dump your games, see [https://vita3k.org/quickstart.html](https:
         * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/67c7a8ed-be17-4d45-a327-60489471bba1" height="300">
 2. In `Emulation/roms/psvita`, right click, `Create New - Text File`
 3. Name it `GAMENAME.psvita`
-    * The name of the file is primarily for identifying it in EmulationStation-DE and scraping
+    * The name of the file is primarily for identifying it in ES-DE and Pegasus and scraping
 4. Open the text file in Kate or a text editor of your choice and paste the `Title ID` from Step 1 on a single line
     * Using `Tales of Heart R` as an example: 
         * <img src="https://user-images.githubusercontent.com/108900299/196052342-6957f67d-d31c-4479-b4fa-7456d74c085c.png" height="300">
 5. Save the text file and exit out
 6. Repeat for each PlayStation Vita ROM
-7. Your game should now show up in and launch directly from EmulationStation-DE
+7. Your game should now show up in and launch directly from ES-DE and Pegasus
 
-For additional detail, read EmulationStation-DE's section on Vita3K: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-vita](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-vita)
+For additional detail, read ES-DE's section on Vita3K: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-vita](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#sony-playstation-vita)
 
 ***
 
