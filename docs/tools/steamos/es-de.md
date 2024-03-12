@@ -37,6 +37,11 @@ Read the [Steam ROM Manager](../steamos/steam-rom-manager.md) page to learn more
     - [How to Manage Multiple BIN and CUE files](#how-to-manage-multiple-bin-and-cue-files)
     - [How to Download Themes](#how-to-download-themes)
 
+3. [Emulator Configurations](#emulator-configurations)
+    - [How to Configure ScummVM to Work with Steam ROM Manager and ES-DE](../../emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-es-de-and-steam-rom-manager)
+    - [How to Configure RPCS3 to Work With ES-DE and Pegasus](../../emulators/steamos/rpcs3.md#how-to-configure-rpcs3-to-work-with-es-de-and-pegasus)
+    - [How to Configure Vita3K to Work With ES-DE and Pegasus](../../emulators/steamos/vita3k.md#how-to-configure-vita3k-to-work-with-es-de-and-pegasus)
+
 ***
 
 ## Getting started with ES-DE
@@ -48,11 +53,9 @@ Read the [Steam ROM Manager](../steamos/steam-rom-manager.md) page to learn more
 [Back to the Top](#es-de-table-of-contents)
 
 * Type of Tool: AppImage
-* Executable Location: `Emulation/tools/EmulationStation-DE-x64_SteamDeck.AppImage`
+* Executable Location: `/home/deck/Applications/ES-DE.AppImage`
 * Scraped Media Location: `Emulation/tools/downloaded_media`
 * Config Location: `/home/deck/ES-DE`
-
-Note: `~/.emulationstation` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click "view hidden files" to see these folders.
 
 ***
 
@@ -116,10 +119,9 @@ downloaded_media/
 ### How to Update ES-DE
 [Back to the Top](#es-de-table-of-contents)
 
-**How to Update ES-DE**
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
-* Manual file replacement of `EmulationStation-DE-x64_SteamDeck.AppImage`
+* Manual file replacement of `ES-DE.AppImage`
     * Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 * Through the application's automatic updater
     * When you open ES-DE, you may be prompted for an update, accept the prompt to update the application
@@ -130,10 +132,10 @@ downloaded_media/
 ### How to Launch ES-DE in Desktop Mode
 [Back to the Top](#es-de-table-of-contents)
 
-**How to Launch ES-DE in Desktop Mode**
 
-* Launch the AppImage in `/Emulation/tools/EmulationStation-DE-x64_SteamDeck.AppImage`
-* Launch ES-DE from `Steam` after adding it via the `EmulationStationDE` parser in `Steam Rom Manager`
+* Launch the AppImage in `/home/deck/Applications/ES-DE.AppImage`
+* Launch ES-DE from `Steam` after adding it via the `ES-DE` parser in `Steam Rom Manager`
+* Launch `ES-DE` from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar)
 
 ***
 
@@ -162,51 +164,7 @@ Watch the following GIF for a visual:
 ### ES-DE Hotkeys
 [Back to the Top](#es-de-table-of-contents)
 
-ES-DE comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - EmulationStation-DE`. The hotkeys below can only be used if you have the Steam Input profile active.
-
-| Hotkey         | ES-DE       |
-|----------------|---------------------------|
-| Citra          | Left Trackpad Touch  Menu |
-| Cemu           | Left Trackpad Touch  Menu |
-| No Profile     | Left Trackpad Touch  Menu |
-| mGBA           | Left Trackpad Touch  Menu |
-| RMG            | Left Trackpad Touch  Menu |
-| melonDS        | Left Trackpad Touch  Menu |
-| PPSSPP         | Left Trackpad Touch  Menu |
-| DuckStation    | Left Trackpad Touch  Menu |
-
-**Note:** 
-
-* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
-
-#### An explanation of the ES-DE Profile
-
-Some emulators set up by EmuDeck need a unique steam input profile (like Cemu or Citra) since you cannot do combo hotkeys easily. These emulators use a Steam Input profile to bind keyboard keys to buttons on a radial or touch menu.
-
-The ES-DE combines all of these different profiles into a single menu and allows you to select your emulator profile on the fly. For emulators without a Steam Input profile, use combo hotkeys. Visit the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page for both a list of the specific buttons on the various radial and touch menus as well as the combo hotkeys.
-
-#### How to Use the ES-DE Profile
-
-The ES-DE profile will be automatically applied to your ES-DE shortcut. If you have an older install of EmuDeck, you may need to re-run Steam ROM Manager with the ES-DE parser toggled to apply this profile.
-
-After the ES-DE profile is applied, use the left trackpad to pull up the menu and **long-press** an icon to switch into the respective profile. The buttons on the various touch and radial menus use a **long-press** to activate the respective hotkey. 
-
-All of the profiles include a `Return to Main Menu` button allowing you to return to the profile switcher menu.
-
-If you do not see an emulator on the ES-DE touch menu, it likely uses combo hotkeys. The [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page covers the combo hotkeys for the various emulators. 
-
-All of the Steam input profiles featured on the ES-DE profile are specifically for **standalone emulators**. For example, the melonDS and the mGBA profiles will not work if you are using the RetroArch cores. You will need to use the combo hotkeys instead: [RetroArch Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md#retroarch). To switch to the standalone emulator in ES-DE, read [How to Select a Different Emulator for a System](#how-to-select-a-different-emulator-for-a-system).
-
-
-#### Video Showcase
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="/videos/emulationstation-de-steam-input-showcase.mp4" type="video/mp4">
-  </video>
-</figure>
-
+See [Emulator Frontends Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-button-combinations-profile) and [Emulator Frontends Radial Menu Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-radial-menu-profile) for more information. 
 
 ***
 
@@ -362,3 +320,6 @@ MiSTer Menu will be used as an example in the below guide.
     * <img src="https://user-images.githubusercontent.com/108900299/224561706-59d4dec1-2d0c-4c33-a1e8-3f5cf72c93a2.png" height="300">
 
 ***
+
+## Emulator Configurations
+[Back to the Top](#es-de-table-of-contents)
