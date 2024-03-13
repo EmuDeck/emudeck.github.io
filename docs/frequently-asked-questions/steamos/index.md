@@ -917,7 +917,8 @@ Place citra-qt.AppImage and yuzu.AppImage directly in $HOME/Applications (/home/
 
 After you have placed the AppImages in the appropriate place, you will see a "Reset configuration" button on each emulator page on the Manage Emulators page in the EmuDeck application. Click "Reset configuration" to get the latest launcher and configurations. 
 
-The latest configurations will work with the new Steam Input profiles included in EmuDeck 2.2. More information on these profiles can be found on the EmuDeck Wiki. 
+The latest configurations will work with the new Steam Input profiles included in EmuDeck 2.2. See [Emulator Frontends Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-button-combinations-profile) and [Emulator Frontends Radial Menu Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-radial-menu-profile) for more information. 
+
 
 #### What about all of the forks of Citra and Yuzu? Will EmuDeck support those?
 [Back to the Top](#citra-and-yuzu-faq)
