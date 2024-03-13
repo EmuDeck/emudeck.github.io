@@ -895,20 +895,20 @@ Use symlinks!
 
 ***
 
-### Citra and Yuzu FAQ
+## Citra and Yuzu FAQ
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-#### If I already have Citra or Yuzu installed on my system, will this EmuDeck update remove either emulator?
+### If I already have Citra or Yuzu installed on my system, will this EmuDeck update remove either emulator?
 
 No, existing installs will not be touched.
 
-#### Can I still use Citra or Yuzu through Steam ROM Manager and ES-DE?
+### Can I still use Citra or Yuzu through Steam ROM Manager and ES-DE?
 
 For Steam ROM Manager, yes, a parser is included for both emulators. If you are missing these parsers, reset Steam ROM Manager's configurations on the Manage Emulators page in the EmuDeck application.
 
 For ES-DE, Citra will continue to be supported. Yuzu support will be removed in the next update.
 
-#### How do I get the latest EmuDeck launchers and configurations on Linux/SteamOS?
+### How do I get the latest EmuDeck launchers and configurations on Linux/SteamOS?
 
 Place `citra-qt.AppImage` and `yuzu.AppImage` directly in `$HOME/Applications` (`/home/deck/Applications` on a Steam Deck). No subfolders. The names are case sensitive. 
 
@@ -917,15 +917,15 @@ After you have placed the AppImages in the appropriate place, you will see a "Re
 The latest configurations will work with the new Steam Input profiles included in EmuDeck 2.2. See [Emulator Frontends Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-button-combinations-profile) and [Emulator Frontends Radial Menu Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-radial-menu-profile) for more information. 
 
 
-#### What about all of the forks of Citra and Yuzu? Will EmuDeck support those?
+### What about all of the forks of Citra and Yuzu? Will EmuDeck support those?
 
 Citra and Yuzu fork discussion is not allowed at this time. There is no way of knowing if these forks are safe and none are close to usable at this time. Once a fork has matured and shown that it is a viable alternative to Citra and Yuzu, it will be considered for inclusion in EmuDeck. 
 
-#### Can I ask for links to mirrors of Citra and Yuzu?
+### Can I ask for links to mirrors of Citra and Yuzu?
 
 No, distribution of Citra and Yuzu is not allowed.
 
-#### I have an issue with a game in the Citra or Yuzu emulator, can I ask for support?
+### I have an issue with a game in the Citra or Yuzu emulator, can I ask for support?
 
 No, support with configuring or troubleshooting either emulator is not allowed.
 
