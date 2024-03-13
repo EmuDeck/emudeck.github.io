@@ -910,7 +910,7 @@ For ES-DE, Citra will continue to be supported. Yuzu support will be removed in 
 
 #### How do I get the latest EmuDeck launchers and configurations on Linux/SteamOS?
 
-Place citra-qt.AppImage and yuzu.AppImage directly in $HOME/Applications (/home/deck/Applications on a Steam Deck). No subfolders. The names are case sensitive. 
+Place `citra-qt.AppImage` and `yuzu.AppImage` directly in `$HOME/Applications` (`/home/deck/Applications` on a Steam Deck). No subfolders. The names are case sensitive. 
 
 After you have placed the AppImages in the appropriate place, you will see a "Reset configuration" button on each emulator page on the Manage Emulators page in the EmuDeck application. Click "Reset configuration" to get the latest launcher and configurations. 
 
