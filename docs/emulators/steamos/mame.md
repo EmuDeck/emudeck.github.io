@@ -33,6 +33,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
     - [How to Configure MAME to Work With EmulationStation-DE](#how-to-configure-mame-to-work-with-emulationstation-de)
     - [How to Roll Back MAME to an Older Version](#how-to-roll-back-mame-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
+    - [How to Use Cheats](#how-to-use-cheats)
     - [Community MAME Controller Profiles](../../community-creations/steamos/community-creations.md#community-mame-controller-profiles)
 
 ***
@@ -371,5 +372,18 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 2. At the bottom, click `General Settings`
 3. Click `Customize UI`
 4. Click `Language`, select your preferred language in the drop-down menu
+
+***
+
+### How to Use Cheats
+[Back to the Top](#mame-table-of-contents)
+
+1. Download the latest cheat package from [https://www.mamecheat.co.uk/](https://www.mamecheat.co.uk/). Click the `XML/JSON Cheat Collection for MAME 0.###` at the top to download the latest cheat package
+    * `###` matches the MAME version of the cheat package which may vary depending on when you visit the site
+2. Extract `cheat###.zip` to a folder of your choice
+    * `###` matches the MAME version of the cheat package which may vary depending on when you visit the site
+3. Move `cheat.7z` from the extracted folder to `Emulation/storage/mame/cheat`
+4. Open MAME without a game loaded, click `General Settings`, `Miscellaneous Options`, toggle `Cheats` on, back out of this menu, click `Save Settings`
+5. While in game, press `Select` + `R3` to open the Quick Menu, click `Cheat Options`, enable cheat(s)
 
 ***
