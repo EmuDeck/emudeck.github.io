@@ -28,7 +28,6 @@
     - [For systems with multiple emulators, how do I select which emulator to use?](#for-systems-with-multiple-emulators-how-do-i-select-which-emulator-to-use)
     - [Why does EmuDeck say my install path is "not writable"?](#why-does-emudeck-say-my-install-path-is-not-writable)
 
-
 2. [EmuDeck Tips and Tricks](#emudeck-tips-and-tricks)
     - [How do I find .var, .config, or any folder with a period in front?](#how-do-i-find-var-config-or-any-folder-with-a-period-in-front)
     - [How do I reset an emulator's configurations?](#how-do-i-reset-an-emulators-configurations)
@@ -41,19 +40,13 @@
     - [How do I link folders or files?](#how-do-i-link-folders-or-files)
     - [How do I use DeckyControls?](#how-do-i-use-deckycontrols)
 
-     
-
-3. [Steam ROM Manager FAQ](#steam-rom-manager-faq)
-    - [Where Did Steam ROM Manager Go?](#where-did-steam-rom-manager-go)
-    - [Help, I just opened Steam ROM Manager and I have no controls!](#help-i-just-opened-steam-rom-manager-and-i-have-no-controls)
-
-4. [Common Words and Acronyms](#common-words-and-acronyms)
-
-5. [How to Debug](#how-to-debug)
-    - [Understanding What You Are Using](#understanding-what-you-are-using)
-    - [Debugging Using Steam Shortcuts](#debugging-using-steam-shortcuts)
-    - [Debugging by Resetting Configurations](#debugging-by-resetting-configurations)
-    - [Debugging Through the EmuDeck Log](#debugging-through-the-emudeck-log)
+3. [Citra and Yuzu FAQ](#citra-and-yuzu-faq)
+    - [If I already have Citra or Yuzu installed on my system, will this EmuDeck update remove either emulator?](#if-i-already-have-citra-or-yuzu-installed-on-my-system-will-this-emudeck-update-remove-either-emulator)
+    - [Can I still use Citra or Yuzu through Steam ROM Manager and ES-DE?](#can-i-still-use-citra-or-yuzu-through-steam-rom-manager-and-es-de)
+    - [How do I get the latest EmuDeck launchers and configurations on Linux/SteamOS?](#how-do-i-get-the-latest-emudeck-launchers-and-configurations-on-linuxsteamos)
+    - [ What about all of the forks of Citra and Yuzu? Will EmuDeck support those?](#what-about-all-of-the-forks-of-citra-and-yuzu-will-emudeck-support-those)
+    - [Can I ask for links to mirrors of Citra and Yuzu?](#can-i-ask-for-links-to-mirrors-of-citra-and-yuzu)
+    - [I have an issue with a game in the Citra or Yuzu emulator, can I ask for support?](#i-have-an-issue-with-a-game-in-the-citra-or-yuzu-emulator-can-i-ask-for-support)
 
 ***
 
@@ -90,29 +83,33 @@ Don't forget to join the [EmuDeck Discord!](https://discord.gg/b9F7GpXtFP)
 * [Power Tools (Power Tweaks)](https://github.com/NGnius/PowerTools) *Optional
 * [SteamDeckGyroDSU](https://github.com/kmicki/SteamDeckGyroDSU) *Optional
 * [Steam ROM Manager](https://github.com/SteamGridDB/steam-rom-manager)
+* [Pegasus](https://pegasus-frontend.org/))
 
 #### List of Standalone Emulators installed by EmuDeck
 
-* [Cemu (Wii U)](https://cemu.info/)
-* [Citra (3DS)](https://citra-emu.org/)
-* [Dolphin (Gamecube and Wii)](https://dolphin-emu.org/)
-* [DuckStation (Playstation 1)](https://www.duckstation.org/)
-* [MAME (Arcade games and more)](https://www.mamedev.org/)
+* [BigPEmu (Atari Jaguar)]((https://www.richwhitehouse.com/jaguar/))
+* [Cemu (Nintendo Wii U)](https://cemu.info/)
+* [Citra (Nintendo 3DS)](https://citra-emu.org/)
+* [Dolphin (Nintendo GameCube and Wii)](https://dolphin-emu.org/)
+* [DuckStation (Sony PlayStation 1)](https://www.duckstation.org/)
+* [Flycast (Sega Dreamcast) (Standalone)](https://github.com/flyinghead/flycast)
+* [MAME (Arcade)](https://www.mamedev.org/)
 * [melonDS (Nintendo DS) (Standalone)](https://melonds.kuribo64.net/)
-* [mGBA (Gameboy, Gameboy Color, and Gameboy Advance) (Standalone)](https://mgba.io/)
-* [PCSX2 (Playstation 2)](https://pcsx2.net/)
-* [PPSSP (Playstation Portable)](https://www.ppsspp.org/)
+* [mGBA (Nintendo Game Boy, Game Boy Color, and Game Boy Advance) (Standalone)](https://mgba.io/)
+* [Model 2 Emulator (Sega Model 2)](https://emulation.gametechwiki.com/index.php/Sega_Model_2)
+* [PCSX2 (Sony PlayStation 2)](https://pcsx2.net/)
+* [PPSSP (Sony PlayStation Portable)](https://www.ppsspp.org/)
 * [PrimeHack (Metroid Prime Trilogy)](https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime)
 * [RetroArch (Retro Systems)](https://github.com/libretro/RetroArch/)
-   * [List of RetroArch Cores Used by EmuDeck](../../emulators/steamos/retroarch.md#list-of-retroarch-cores-used-by-emudeck)
 * [Rosalie's Mupen GUI (Nintendo 64)](https://github.com/Rosalie241/RMG)
-* [RPCS3 (Playstation 3)](https://rpcs3.net/)
+* [RPCS3 (Sony PlayStation 3)](https://rpcs3.net/)
 * [Ryujinx (Nintendo Switch)](https://ryujinx.org/)
 * [ScummVM (Point and Click Adventures)](https://www.scummvm.org/)
-* [Vita3K (Playstation Vita)](https://vita3k.org/)
+* [Supermodel (Sega Model 3)](https://www.supermodel3.com/)
+* [Vita3K (Sony PlayStation Vita)](https://vita3k.org/)
 * [Yuzu (Nintendo Switch)](https://yuzu-emu.org/)
-* [Xemu (OG Xbox)](https://xemu.app/)
-* [Xenia (Xbox 360)](https://xenia.jp/)
+* [Xemu (Microsoft Xbox)](https://xemu.app/)
+* [Xenia (Microsoft Xbox 360)](https://xenia.jp/)
 
 If you do not see an emulator in the list above, it is likely installed as a Retroarch core. 
 
@@ -487,7 +484,7 @@ No! EmuDeck is a "dumb" script that installs a suite of tools and emulators to y
 
 EmuDeck also installs ES-DE, a front-end that manages all of your ROMs within a single app. You may choose to use either Steam ROM Manager, ES-DE, both, or neither of them. EmuDeck is simply a script, and how you choose to use its installed suite of tools and emulators is up to you. 
 
-After you have installed EmuDeck, you can use Steam ROM Manager and select which parsers you would like to use. You can use the `Emulationstation-DE` parser and the `Emulators` parser to add ES-DE and EmuDeck's installed suite of emulators to your Steam library. Adding emulators to your library allows you to tweak settings directly in Game Mode. Turning on other parsers will add the respective system's ROMs to your library. Learn how to generate and save an app list here: [How to Generate and Save an App List](../../tools/steamos/steam-rom-manager.md#how-to-generate-and-save-an-app-list). 
+After you have installed EmuDeck, you can use Steam ROM Manager and select which parsers you would like to use. You can use the `ES-DE` parser and the `Emulators` parser to add ES-DE and EmuDeck's installed suite of emulators to your Steam library. Adding emulators to your library allows you to tweak settings directly in Game Mode. Turning on other parsers will add the respective system's ROMs to your library. Learn how to generate and save an app list here: [How to Generate and Save an App List](../../tools/steamos/steam-rom-manager.md#how-to-generate-and-save-an-app-list). 
 
 **Read:** [What does EmuDeck Install?](#what-does-emudeck-install), for a list of the tools and emulators EmuDeck installs.
 
@@ -898,244 +895,43 @@ Use symlinks!
 
 ***
 
-### Steam ROM Manager FAQ
+### Citra and Yuzu FAQ
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
-***
+#### If I already have Citra or Yuzu installed on my system, will this EmuDeck update remove either emulator?
+[Back to the Top](#citra-and-yuzu-faq)
 
-#### Where Did Steam ROM Manager Go?
-[Back to the Top](#frequently-asked-questions-table-of-contents)
+No, existing installs will not be touched.
 
-The latest EmuDeck update removed all of its shortcuts from your desktop except for EmuDeck itself. These shortcuts included: Steam ROM Manager, an Emulator Updater, and an uninstaller.
+#### Can I still use Citra or Yuzu through Steam ROM Manager and ES-DE?
+[Back to the Top](#citra-and-yuzu-faq)
 
-The current update moves all of these icons directly into EmuDeck itself. After you run the new EmuDeck update for the first time, open it again, and you will find a `Steam ROM Manager` button.
+For Steam ROM Manager, yes, a parser is included for both emulators. If you are missing these parsers, reset Steam ROM Manager's configurations on the Manage Emulators page in the EmuDeck application.
 
-In addition to the above, you will also find Steam ROM Manager as a shortcut in the bottom left menu, in desktop mode (Steam Deck icon). 
+For ES-DE, Citra will continue to be supported. Yuzu support will be removed in the next update.
 
-***
+#### How do I get the latest EmuDeck launchers and configurations on Linux/SteamOS?
+[Back to the Top](#citra-and-yuzu-faq)
 
-#### Help, I just opened Steam ROM Manager and I have no controls!
-[Back to the Top](#frequently-asked-questions-table-of-contents)
+Place citra-qt.AppImage and yuzu.AppImage directly in $HOME/Applications (/home/deck/Applications on a Steam Deck). No subfolders. The names are case sensitive. 
 
-When you open Steam ROM Manager, it will exit out of Steam. Since your controls are tied to Steam being open, your controls will revert to `Lizard Mode`. You can use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse.
+After you have placed the AppImages in the appropriate place, you will see a "Reset configuration" button on each emulator page on the Manage Emulators page in the EmuDeck application. Click "Reset configuration" to get the latest launcher and configurations. 
 
-Alternatively, you can either use a mouse/keyboard (Bluetooth or through a USB-C Hub) or remote into your Steam Deck.
+The latest configurations will work with the new Steam Input profiles included in EmuDeck 2.2. More information on these profiles can be found on the EmuDeck Wiki. 
 
-Learn how to remotely control your Steam Deck: #how-do-i-remotely-control-my-steam-deck
+#### What about all of the forks of Citra and Yuzu? Will EmuDeck support those?
+[Back to the Top](#citra-and-yuzu-faq)
 
-***
+Citra and Yuzu fork discussion is not allowed at this time. There is no way of knowing if these forks are safe and none are close to usable at this time. Once a fork has matured and shown that it is a viable alternative to Citra and Yuzu, it will be considered for inclusion in EmuDeck. 
 
-### How do I use DeckyControls?
-[Back to the Top](#frequently-asked-questions-table-of-contents)
+#### Can I ask for links to mirrors of Citra and Yuzu?
+[Back to the Top](#citra-and-yuzu-faq)
 
-DeckyControls is a plugin for Decky Loader, which allows you to view EmuDeck's hotkeys in Game Mode. 
+No, distribution of Citra and Yuzu is not allowed.
 
-Installation Page: <img src="https://user-images.githubusercontent.com/108900299/208507103-f8311344-a12d-4927-a2b4-8ca84d0a5c6b.png" height="300">
+#### I have an issue with a game in the Citra or Yuzu emulator, can I ask for support?
+[Back to the Top](#citra-and-yuzu-faq)
 
-After installing `DeckyControls`, restart your Steam Deck (Returning to Game Mode is not equivalent to a restart). 
-
-**How to Use DeckyControls**
-
-1. In Game Mode, press the `...` (QAM), press the `Socket` Icon
-2. Select `EmuDeck Hotkeys`
-    1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/208507696-fb7281a7-386e-4e5c-97f1-192591ccee64.png" height="300">
-3. Select a system
-    1. Visual Reference: <img src="https://user-images.githubusercontent.com/108900299/208507783-c920190d-b8ea-4c5f-8cba-b9b1d43095b3.png" height="300">
-4. A page with the hotkeys for that system will pop up on your screen
-    1. Visual Reference (Using Citra as an example): <img src="https://user-images.githubusercontent.com/108900299/208507849-e9426d2b-ab3d-4e95-b7fc-be4fa880fec4.png" height="300">
-
-**Tips** 
-
-* Some systems have multiple tabs for hotkeys. For example, Dolphin has a `Hotkeys` tab and a `Hotkeys - Expert` tab. 
+No, support with configuring or troubleshooting either emulator is not allowed.
 
 ***
-
-## Common Words and Acronyms
-[Back to the Top](#frequently-asked-questions-table-of-contents)
-
-**Common Words**
-
-* Log
-   * A log file is a computer-generated data file. When you install EmuDeck, a log is automatically created recording general information about the install, errors, or any problems that may have occurred during the install. The log contains important information about each pieces of the EmuDeck install. The EmuDeck log can be found here: `/home/deck/emudeck/emudeck.log`
-
-* MD5
-> MD5 works by taking pieces of the original file(the number of pieces overall is not important), applying mathematical functions to it, and adding the result to the hash. When all of the blocks have been processed, your final hash is the result.
-> Because of the design of MD5, a change in any block, no matter how small, is propogated to the other blocks during the hashing process. So even a single bit change is going to effect the hash.
-> MD5 does have some rare occasions where two different files produce the same hash. However, these occasions(called collisions) are very very rare. 
-
-***
-
-**Common Acronyms**
-
-* ROM 
-     * A software image of read-only memory, of a game cartridge, used in emulation. Commonly used for ISOs as well. 
-* BIOS
-> BIOS is actually an acronym standing for Basic Input/Output System. It is a term used to refer to the set of computer instructions that are built into the system which initialises the hardware when it's switched on.
-> At a very basic level, emulators 'pretend' to be the system that they are emulating. In order to do this, they must still "initialise" the fake hardware so that the Operating System/Program (in this case, the game you're playing) - can still access stuff like the buttons, speakers and the screen in order to make things happen.
-> The emulator acts as a go-between: it accepts the game's commands to the original hardware, translates it into something your current hardware can interpret, and back again. For example: play a sound or music, draw a character to screen, or accept your input from pressing buttons. 
-* SRM 
-    * Steam ROM Manager, [Steam ROM Manager](../../tools/steamos/steam-rom-manager.md) and [https://github.com/SteamGridDB/steam-rom-manager](https://github.com/SteamGridDB/steam-rom-manager)
-* ES-DE
-    * ES-DE, [ES-DE](../../tools/steamos/es-de.md) and [https://es-de.org/](https://es-de.org/)
-
-***
-
-**Sources**
-
-* [https://en.wiktionary.org/wiki/ROM](https://en.wiktionary.org/wiki/ROM)
-* [https://gaming.stackexchange.com/questions/264229/what-does-a-bios-file-do-in-an-emulator-like-myboy](https://gaming.stackexchange.com/questions/264229/what-does-a-bios-file-do-in-an-emulator-like-myboy)
-* [https://old.reddit.com/r/explainlikeimfive/comments/pend0/eli5_checksums_md5_files/](https://old.reddit.com/r/explainlikeimfive/comments/pend0/eli5_checksums_md5_files/)
-
-***
-
-## How to Debug
-[Back to the Top](#frequently-asked-questions-table-of-contents)
-
-***
-
-### Understanding What You Are Using
-[Back to the Top](#frequently-asked-questions-table-of-contents)
-
-#### EmuDeck
-
-EmuDeck is the installer. It installs "stuff" for you, including emulators, ES-DE, Steam ROM Manager, and a few other tools. 
-
-#### Front-Ends
-
-ES-DE and Steam are the two primary front-ends that you can use to launch your ROMs. Steam ROM Manager adds your ROMs to Steam, or you can launch your ROMs entirely from ES-DE. ES-DE and the shortcuts created by Steam ROM Manager in Steam are not typically directly related to the settings configured in the emulators. 
-
-For example, if you are running a Gamecube game through a shortcut created by Steam ROM Manager or ES-DE, you are still using the Dolphin emulator to run that Gamecube game. You are not running the Gamecube game through Steam, ES-DE, or EmuDeck. Steam (through Steam ROM Manager created shortcuts) and ES-DE are two front-ends that launch your game for you, but, have little to no relation to the actual execution of the game. That is all dependent on the emulator being launched by these two front-ends.
-
-#### Emulators
-
-Using a front-end like Steam shortcuts created by Steam ROM Manager or ES-DE means you are launching an emulator. If you have issues while in game, typically you want to debug what is going on with the emulator.
-
-For a full list of emulators installed by EmuDeck and their associated websites: [What does EmuDeck install?](#what-does-emudeck-install)
-
-Let's run through a few examples.
-
-#### Examples
-
-**Debugging Using Incomplete Information**
-
-* "I am using EmuDeck to launch my games."
-    * Remember, EmuDeck is only an installer. Once it finishes installing its suite of emulators and tools, it has no bearing on the actual launching of the ROM or the emulator.
-
-* "I am using ES-DE to launch my games."
-    * The front-end can be helpful information to include and should be included when you're requesting support or understanding how to debug your game. However, you also need to understand what ES-DE is specifically launching, to then open your game. If you are playing a Gamecube game, ES-DE is launching the Dolphin emulator to play that Gamecube game. 
-    * If you understand what emulator your ROM is using, then you can try opening that emulator on its own to see if the emulator can provide additional feedback on what may be wrong with the ROM. 
-
-**Debugging Using Somewhat Complete Information**
-
-* "I am using ES-DE to launch my games. I am trying to open a Gamecube game (Dolphin emulator), Super Mario Sunshine, through ES-DE, but it is not launching."
-    * This provides a lot more information, but to fully debug what's going on, you will want to try launching your ROM through the emulator, in addition to the front-end. You can either use Steam ROM Manager to add emulators to Game Mode or you can launch emulators in Desktop Mode (make sure to hold the start button to switch between desktop and gamepad configurations) and test your ROM from the emulator directly. For the most part, emulators can provide important error messages that can alert you to what's specifically wrong with your ROM.
-
-**Debugging Using Complete Information**
-
-* "I am using ES-DE to launch my games. I am trying to open a Gamecube game (Dolphin emulator), Super Mario Sunshine, through ES-DE, but it is not launching. I tried opening Dolphin, in Desktop Mode, to play my ROM and Dolphin said my ROM was corrupt."
-    * This rounds out working through each aspect of what you are using to launch your ROM and provides you with information that can be used to debug what's going on. In some cases, you may not have set the emulator up fully (in the case of Yuzu, Ryujinx, and RPCS3), and need to read through documentation to fully set up the emulator before you can start playing. 
-
-
-***
-
-### Debugging Using Steam Shortcuts
-[Back to the Top](#frequently-asked-questions-table-of-contents)
-
-Testing shortcuts created by Steam ROM Manager in a terminal can provide you with output information. This information may be valuable in debugging specifically what's wrong with your ROM, in the case of corruption/file error, or some sort of setting gone awry in the emulator. 
-
-***
-
-#### Retrieving the Steam Shortcut
-
-1. In `Desktop Mode`, open `Steam`
-2. Select the game you are debugging
-3. Click the `Gear` icon
-    1. <img src="https://user-images.githubusercontent.com/108900299/212619919-ec4c720a-64bc-47fe-8265-3447e1e7c735.png" height="300">
-4. Click `Properties`
-5. Copy the `Target`, `Start In`, and `Launch Options` fields entirely
-    1. The `Launch Options` field may be blank, skip it if it the box is empty
-    1. <img src="https://user-images.githubusercontent.com/108900299/212620245-87056dcf-0e1d-462a-a58b-adfd57739e09.png" height="300">
-6. In the taskbar, click the `Steam` icon in the bottom left to open the Applications Launcher, open `Kate`, or a text editor of your choice
-7. Paste the `Target`, `Start In`, and `Launch Options` fields here
-    1. <img src="https://user-images.githubusercontent.com/108900299/212620438-2758b7b5-6a82-40a5-a7ae-441347028fd1.png" height="300">
-8. Using the Shortcut:
-    * If you are receving support through EmuDeck's Discord or Subreddit, take a photo of the shortcut in `Kate`, using your phone or however you usually take photos and share it with the person providing you support
-    * [If you are debugging on your own](#if-you-are-debugging-on-your-own)
-
-#### Using the Steam Shortcut
-
-Pick one of the below:
-
-##### If You Are Receiving Support through EmuDeck's Discord or Subreddit
-
-1. Take a photo of the shortcut in `Kate`, using your phone or however you usually take photos
-   - You can zoom in to make it easier to read
-2.  Share it with the person providing you support
-
-##### If You Are Debugging On Your Own
-
-1. Paste the command into `Konsole`  
-    - If you are using RetroArch, add a `-v` before the `-L` in the shortcut
-    - Example: 
-    - Original Shortcut: `"/usr/bin/flatpak" run org.libretro.RetroArch -L /gambatte_libretro.so "/run/media/mmcblk0p1/Emulation/roms/gb/Super Mario Land (World) (Rev 1).gb"`
-    - Debugging Shortcut: `"/usr/bin/flatpak" run org.libretro.RetroArch -v -L /gambatte_libretro.so "/run/media/mmcblk0p1/Emulation/roms/gb/Super Mario Land (World) (Rev 1).gb"`
-    - Pasting the shortcut into `Kate` will make it easier to edit the shortcut for debugging purposes
-2. Read the error, and see if it is providing valuable information. If it is an error code or something you do not understand, Google the error outputted
-
-***
-
-### Debugging by Resetting Configurations
-[Back to the Top](#frequently-asked-questions-table-of-contents)
-
-A valuable part of the EmuDeck application is a feature to reset emulators and Steam ROM Manager to EmuDeck's defaults. Resetting will revert global configurations but keep any configurations made on a per-game level. Uninstalling EmuDeck is almost never required to debug. 
-
-To reset an emulator's configurations, switch to Desktop Mode, open EmuDeck and open the `Manage Emulators` page. 
-
-**Tutorial**
-
-1. Open EmuDeck on your desktop.
-2. Click the `Manage Emulators` button.
-3. Select which emulator configurations you would like to reset in the drop-down menu.
-4. Click `Reset configuration`, wait a moment.  
-    1. Using PCSX2 as an example: <img src="https://user-images.githubusercontent.com/108900299/196877825-0a4fd76f-bed0-487a-95d5-5454e631f920.png" height="200">
-5. Your selected emulator has been reset.
-
-
-***
-
-### Debugging Through the EmuDeck Log
-[Back to the Top](#frequently-asked-questions-table-of-contents)
-
-The EmuDeck log can contain valuable information about why a certain EmuDeck feature is not working as expected. If you are receiving support through EmuDeck's Discord or Subreddit, you may be asked to share the log so the other individual can read it and figure out what is wrong. This section will go over how to both retrieve and share the log file.
-
-***
-
-#### How to get the EmuDeck Log
-
-##### Method 1
-
-1. In `Desktop Mode`, open the EmuDeck application
-2. Click `Fetch Log File`
-3. Share the URL with the person providing you support 
-
-##### Method 2
-
-1. Open `/home/deck/emudeck`
-2. Right click `emudeck.log`, click `Share --> Pastebin...`
-    * It may appear blank, you can see the full log by clicking the `raw` button on the Pastebin page
-3. Share the Pastebin URL with the person providing you support
-    * If you do not have a way of sharing URLs easily, share the alphanumerical string at the end of the URL with the person providing you support
-        * You may need to type this manually, however the alphanumerical string is fairly short
-
-***
-
-#### How to get the EmuDeck AppImage Log
-
-1. Open `/home/deck/emudeck`
-2. Right click `EmuDeck.AppImage.log`, click `Share --> Pastebin...`
-    * It may appear blank, you can see the full log by clicking the `raw` button on the Pastebin page
-3. Share the Pastebin URL with the person providing you support
-    * If you do not have a way of sharing URLs easily, share the alphanumerical string at the end of the URL with the person providing you support
-        * You may need to type this manually, however the alphanumerical string is fairly short
-
-*** 
