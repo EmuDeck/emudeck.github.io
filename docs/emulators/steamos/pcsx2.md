@@ -33,8 +33,8 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Switch to Folder Memory Cards](#how-to-switch-to-folder-memory-cards)
-    - [How to use Cheats](#how-to-use-cheats)
-    - [How to use Widescreen or No Interlace Cheats](#how-to-use-widescreen-or-no-interlace-cheats)
+    - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Use Widescreen or No Interlace Cheats](#how-to-use-widescreen-or-no-interlace-cheats)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Mod Persona 3 FES](#how-to-mod-persona-3-fes)
@@ -337,7 +337,7 @@ PCSX2 will now give each game it's own separate memory card automatically.
 
 ***
 
-### How to use Cheats
+### How to Use Cheats
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 **Important**
@@ -426,7 +426,7 @@ For an example of a full cheat file with a header: [https://gist.githubuserconte
 
 ***
 
-### How to use Widescreen or No Interlace Cheats
+### How to Use Widescreen or No Interlace Cheats
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
 **Important**
