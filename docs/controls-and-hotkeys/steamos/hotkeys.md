@@ -169,8 +169,7 @@ N/A
 
 **Note:** 
 
-* Screenshots are saved in:
-   * `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/screenshots`
+* Screenshot Folder Location: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/screenshots`
 * The `Blow Mic` hotkey only blows white noise. It cannot be used to speak into the Steam Deck microphone. The white noise may not be strong enough to progress in some games
 
 ***
