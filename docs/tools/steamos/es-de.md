@@ -38,9 +38,9 @@ Read the [Steam ROM Manager](../steamos/steam-rom-manager.md) page to learn more
     - [How to Download Themes](#how-to-download-themes)
 
 3. [Emulator Configurations](#emulator-configurations)
-    - [How to Configure ScummVM to Work with Steam ROM Manager and ES-DE](../../emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-es-de-and-steam-rom-manager)
-    - [How to Configure RPCS3 to Work With ES-DE and Pegasus](../../emulators/steamos/rpcs3.md#how-to-configure-rpcs3-to-work-with-es-de-and-pegasus)
-    - [How to Configure Vita3K to Work With ES-DE and Pegasus](../../emulators/steamos/vita3k.md#how-to-configure-vita3k-to-work-with-es-de-and-pegasus)
+    - [How to Configure RPCS3 to Work With ES-DE](../../emulators/steamos/rpcs3.md#how-to-configure-rpcs3-to-work-with-es-de-and-pegasus)
+    - [How to Configure ScummVM to Work with ES-DE](../../emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-es-de-pegasus-and-steam-rom-manager)
+    - [How to Configure Vita3K to Work With ES-DE](../../emulators/steamos/vita3k.md#how-to-configure-vita3k-to-work-with-es-de-and-pegasus)
 
 ***
 

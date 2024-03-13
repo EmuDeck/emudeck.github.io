@@ -16,8 +16,9 @@ Pegasus Wiki: [https://pegasus-frontend.org/docs/](https://pegasus-frontend.org/
     - [Hotkeys](#pegasus-hotkeys)
 
 2. [Emulator Configurations](#emulator-configurations)
-    - [How to Configure RPCS3 to Work With ES-DE and Pegasus](../../emulators/steamos/rpcs3.md#how-to-configure-rpcs3-to-work-with-es-de-and-pegasus)
-    - [How to Configure Vita3K to Work With ES-DE and Pegasus](../../emulators/steamos/vita3k.md#how-to-configure-vita3k-to-work-with-es-de-and-pegasus)
+    - [How to Configure RPCS3 to Work With Pegasus](../../emulators/steamos/rpcs3.md#how-to-configure-rpcs3-to-work-with-es-de-and-pegasus)
+    - [How to Configure ScummVM to Work with Pegasus](../../emulators/steamos/scummvm.md#how-to-configure-scummvm-to-work-with-es-de-pegasus-and-steam-rom-manager)
+    - [How to Configure Vita3K to Work With Pegasus](../../emulators/steamos/vita3k.md#how-to-configure-vita3k-to-work-with-es-de-and-pegasus)
 
 
 ***

@@ -20,9 +20,9 @@ ScummVM's Wiki: [https://docs.scummvm.org/en/v2.6.0](https://docs.scummvm.org/en
     - [File Formats](#file-formats)
 
 2. [ScummVM Tips and Tricks](#scummvm-tips-and-tricks)
-    - [How to Configure ScummVM to Work with Steam ROM Manager and ES-DE](#how-to-configure-scummvm-to-work-with-es-de-and-steam-rom-manager)
+    - [How to Configure ScummVM to Work with ES-DE, Pegasus, and Steam ROM Manager](#how-to-configure-scummvm-to-work-with-es-de-pegasus-and-steam-rom-manager)
         - [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
-        - [How to Configure ScummVM to Work With ES-DE](#how-to-configure-scummvm-to-work-with-es-de)
+        - [How to Configure ScummVM to Work With ES-DE and Pegasus](#how-to-configure-scummvm-to-work-with-es-de-and-pegasus)
     - [How to Roll Back ScummVM to an Older Version](#how-to-roll-back-scummvm-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
 
@@ -135,7 +135,7 @@ Refer to [https://docs.scummvm.org/en/latest/use_scummvm/game_files.html and htt
 
 ***
 
-### How to Configure ScummVM to Work with ES-DE and Steam ROM Manager 
+### How to Configure ScummVM to Work with ES-DE, Pegasus, and Steam ROM Manager
 [Back to the Top](#scummvm-table-of-contents)
 
 #### Preface
@@ -144,14 +144,14 @@ Since ScummVM ROMs come in a wide variety of formats, parsing these ROMs through
 
 Depending on your preferred front-end (adding ROMs to Steam through Steam ROM Manager or ES-DE), "converting" these ROMs into a usable format may differ. 
 
-* If you **primarily use ES-DE** and do not use Steam ROM Manager for ScummVM whatsoever
-    * Proceed to [How to Configure ScummVM to Work With ES-DE](#how-to-configure-scummvm-to-work-with-es-de)
-* If you **primarily use Steam ROM Manager** and do not use ES-DE for ScummVM whatsoever
+* If you **primarily use ES-DE or Pegasus** and do not use Steam ROM Manager for ScummVM whatsoever
+    * Proceed to [How to Configure ScummVM to Work With ES-DE](#how-to-configure-scummvm-to-work-with-es-de-and-pegasus)
+* If you **primarily use Steam ROM Manager** and do not use ES-DE or Pegasus for ScummVM whatsoever
     * Proceed to [How to Configure ScummVM to Work With Steam ROM Manager](#how-to-configure-scummvm-to-work-with-steam-rom-manager)
-* If you like to **mix and match** between Steam (through Steam ROM Manager) and ES-DE, it is recommended you use ES-DE's method of structuring ScummVM ROMs 
+* If you like to **mix and match** between Steam (through Steam ROM Manager) and ES-DE or Pegasus, it is recommended you use ES-DE's and Pegasus' method of structuring ScummVM ROMs 
     * Using this method will likely cause your ROMs to not be parsed correctly in Steam ROM Manager, see [How to Fix a Mismatched Entry](../../tools/steamos/steam-rom-manager.md#how-to-fix-a-mismatched-entry) to fix any potential mismatches
 
-#### How to Configure ScummVM to Work With ES-DE
+#### How to Configure ScummVM to Work With ES-DE and Pegasus
 [Back to the Top](#scummvm-table-of-contents)
 
 To configure ScummVM games with **ES-DE**, you will need to place a compatible ScummVM game in `Emulation/roms/scummvm`. Afterwards, you will need to create a `.scummvm` file matching the game's short name and rename the game folder to match that newly created `.scummvm` file. 
