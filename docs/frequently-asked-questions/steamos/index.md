@@ -906,7 +906,9 @@ No, existing installs will not be touched.
 
 For Steam ROM Manager, yes, a parser is included for both emulators. If you are missing these parsers, reset Steam ROM Manager's configurations on the Manage Emulators page in the EmuDeck application.
 
-For ES-DE, Citra will continue to be supported. Yuzu support will be removed in the next update.
+For ES-DE, Citra will continue to be supported. Yuzu support will be removed in the next update. This means that if you use ES-DE as a front-end for your ROMs, you will no longer be able to use Yuzu to launch Nintendo Switch games. 
+
+However, EmuDeck has pushed a hotfix to add back support for Yuzu. In order to get this hotfix, open the EmuDeck application and say yes to the prompt. If you say no or miss this prompt, you may also apply this hotfix at any time by resetting ES-DE or Yuzu on the "Manage Emulators" page in the EmuDeck application. 
 
 ### How do I get the latest EmuDeck launchers and configurations on Linux/SteamOS?
 
