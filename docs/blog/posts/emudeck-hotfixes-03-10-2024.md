@@ -25,18 +25,24 @@ The hotfixes below are applied when either resetting the respective emulator on 
 **List of Hotfixes**
 
 * Steam ROM Manager parsers have been rolled back. Instead of dynamically loading parsers, the old way of retrieving parsers is still intact. You will receive the full list of Steam ROM Manager parsers when installing EmuDeck or resetting Steam ROM Manager in the EmuDeck application
+* Fixed launchers not refreshing properly
+    * This would cause the headaching issue of ROMs lauching into the emulator instead of the ROM
 * Steam ROM Manager parsers:
     * Bandai WonderSwan Color and TIC-80 parsers have been fixed and now work correctly
     * Flycast and Supermodel have been fixed and now work correctly 
+    * The Yabause parser is now working correctly 
+    * The RPCS3 PKG parser is now matching ROMs correctly to SteamGridDB
 * ES-DE:
     * Now launches the standalone version of Dolphin by default
     * Now launches Ryujinx by default
     * Now launches melonDS DS by default
     * Symlinks to the old ES-DE install so old Steam shortcuts continue to work 
     * ES-DE now no longer shows junk files for Xenia installs 
+    * Added custom system and find rules for Yuzu so Yuzu continues to work when ES-DE removes support
 * Sega Model 2 and Sega Model 3:
     * Widescreen is now fixed for the Model 2 Emulator and Supermodel and will be applied automatically when appropriate
     * Model 2 install now works through EmuDeck 
+    * Steam ROM Manager now parses ROMs correctly for Supermodel ROMs
 * If installing an emulator that requires an ES-DE custom system (Cemu, BigPEmu, Model 2 Emulator, and Xenia), you will no longer receive an error if ES-DE is not installed
 * Bring Your Own Citra and Yuzu now work correctly if you have the appropriately named AppImages in `$HOME/Applications`. The "Reset Configuration" button will now work, apply the appropriate controls, and grab the latest launchers for you. To emphasize, **no** support for these emulators is guaranteed through EmuDeck
     * `citra-qt.AppImage` and `yuzu.AppImage` are the expected names of the AppImages
@@ -56,3 +62,14 @@ The hotfixes below are applied when either resetting the respective emulator on 
 * The new PCSX2 hotkeys now properly apply
 * Fixed bad symlinks between the `gc` and `gamecube` folder
 * Cloud services have been rolled back and now work properly
+* Xenia: 
+    * Patch updating now works properly
+        * Previously, this would cause Xenia to not update properly if you had older patches
+    * Fixed hardcoded paths in Xenia's launcher script
+    * Fixed Xenia not installing correctly
+* Pegasus:
+    * Nintendo Switch, PS2, PSVita, RPCS3, ScummVM, XBLA now work correctly
+        * XBLA games only work if you have the ZAR file format and place them in `Emulation/roms/xbox360`
+* RPCS3:
+    * Set fullscreen to false
+        * This fixes the bug on OLED Steam Decks where the game would get stuck on the loading shaders screen
