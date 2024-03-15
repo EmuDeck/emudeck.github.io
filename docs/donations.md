@@ -30,8 +30,7 @@ No donation link found at this time.
 
 ## EmulationStation-DE
 
-* [https://www.patreon.com/es_de](https://www.patreon.com/es_de)
-
+* [Patreon](https://www.patreon.com/es_de)
 
 ## Flycast
 
@@ -46,11 +45,17 @@ No donation link found at this time.
     The best thing you can do is contribute to a group such as The Dumping Union who will buy PCBs, game cartridges and various other things for emulation. These days such things are becoming VERY costly because most of the ones that haven't been sourced are rare. Anything that doesn't get purchased it as the risk of being lost forever, good or bad.
 
 * [The Dumping Union](https://arcade.vastheman.com/dunion/)
+* [Team Europe](https://team-europe.blogspot.com/)
+* [CAPS0ff](https://caps0ff.blogspot.com/)
 
 ## melonDS
 
 * [Patreon](https://www.patreon.com/Arisotura)
 * [PayPal](https://www.paypal.com/paypalme/Arisotura)
+
+## mGBA
+
+* [Patreon](https://www.patreon.com/mgba)
 
 ## PCSX2
 
@@ -73,13 +78,44 @@ No donation link found at this time.
 * [Teespring](https://teespring.com/stores/retroarch)
 * [YouTube](https://www.youtube.com/channel/UCjAimkVp-G_o6HK5MXujk9A/join)
 
+### LibRetro Core Devs
+
+#### DosBox
+
+* [PayPal](https://www.paypal.com/donate?token=r9dOdm-zuEj54bgUf-nNj8t-9BgFaNJ2MDQY9DgUZDiDFwKl5B3-SXc_EAYZfwh0LXd18K0VUCc_ZX_h)
+
+#### Genesis Plus GX
+
+* [PayPal](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=DDWLXHLNN2JY4&ssrt=1710457425915)
+
+#### GLideN64
+
+* [Patreon](https://www.patreon.com/Gliden64)
+
+#### SameBoy
+
+* [GitHub](https://github.com/sponsors/LIJI32)
+
+#### TIC-80
+
+* [GitHub](https://github.com/sponsors/nesbox)
+
 ## Rosalie's Mupen GUI
 
 No donation link found at this time.
 
+### GLideN64 Plugin
+
+* [Patreon](https://www.patreon.com/Gliden64)
+
 ## Ruffle
 
 * [opencollective](https://opencollective.com/ruffle)
+
+## RPCS3
+
+* [Patreon](https://www.patreon.com/Nekotekina)
+* [alipay](https://rpcs3.net/alipay)
 
 ## Ryujinx
 
@@ -110,3 +146,7 @@ No donation link found at this time.
 ## xenia
 
 * [Patreon](https://www.patreon.com/xenia_project)
+
+## Wine (Proton)
+
+* [Donation Info](https://www.winehq.org/donate)
