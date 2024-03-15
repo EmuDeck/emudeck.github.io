@@ -112,6 +112,11 @@ No donation link found at this time.
 
 * [opencollective](https://opencollective.com/ruffle)
 
+## RPCS3
+
+* [Patreon](https://www.patreon.com/Nekotekina)
+* [alipay](https://rpcs3.net/alipay)
+
 ## Ryujinx
 
 * [Patreon](https://www.patreon.com/ryujinx)
