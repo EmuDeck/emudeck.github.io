@@ -14,6 +14,7 @@ Stop Emulation,`Select` + `Start`
 Shake Wiimote,`L1`
 Shake Nunchuk,`L2`
 Tilt Wiimote,`L2` + Move `Left Stick`
+Hide Wii Pointer,`L3`
 Sideways Toggle,`Select` + `R3`
 Next Game Profile Select,`Select` + `Left Stick Up`
 Attach/Detach Nunchuk,`Select` + `Left Stick Down`
