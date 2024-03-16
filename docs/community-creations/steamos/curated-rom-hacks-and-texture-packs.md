@@ -18,12 +18,13 @@ A curated list of ROM Hacks and Texture Packs by EmuDeck users.
 ### ROM Hack Resources
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
 
-* [https://gamebanana.com/](https://gamebanana.com/)
-* [https://gbatemp.net/forums/](https://gbatemp.net/forums/)
-* [https://metroidconstruction.com/hacks.php](https://metroidconstruction.com/hacks.php)
-* [https://www.pokecommunity.com/forums/rom-hacks-showcase.184/](https://www.pokecommunity.com/forums/rom-hacks-showcase.184/)
-* [https://www.romhacking.net/](https://www.romhacking.net/)
-* [https://segaxtreme.net/resources/categories/translations.9/](https://segaxtreme.net/resources/categories/translations.9/)
+* GameBanana: [https://gamebanana.com/](https://gamebanana.com/)
+* GBAtemp: [https://gbatemp.net/](https://gbatemp.net/)
+* Metroid Construction: [https://metroidconstruction.com/hacks.php](https://metroidconstruction.com/hacks.php)
+* PokeCommunity: [https://www.pokecommunity.com/](https://www.pokecommunity.com/)
+* ROMHacking: [https://www.romhacking.net/](https://www.romhacking.net/)
+* SegaXtreme: [https://segaxtreme.net/resources/categories/translations.9/](https://segaxtreme.net/resources/categories/translations.9/)
+* SMW Central: [https://www.smwcentral.net/?p=main](https://www.smwcentral.net/?p=main)
 
 ***
 

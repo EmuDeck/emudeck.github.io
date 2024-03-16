@@ -489,12 +489,13 @@ If you would like to add Aemulus Package Manager to Game Mode, you may right cli
 
 _This list is not exhaustive_
 
-* ROMHacking: [https://www.romhacking.net/](https://www.romhacking.net/)
-* GBAtemp: [https://gbatemp.net/](https://gbatemp.net/)
-* PokeCommunity: [https://www.pokecommunity.com/](https://www.pokecommunity.com/)
-* Metroid Construction: [https://metroidconstruction.com/hacks.php](https://metroidconstruction.com/hacks.php)
-* SegaXtreme: [https://segaxtreme.net/resources/categories/translations.9/](https://segaxtreme.net/resources/categories/translations.9/)
 * GameBanana: [https://gamebanana.com/](https://gamebanana.com/)
+* GBAtemp: [https://gbatemp.net/](https://gbatemp.net/)
+* Metroid Construction: [https://metroidconstruction.com/hacks.php](https://metroidconstruction.com/hacks.php)
+* PokeCommunity: [https://www.pokecommunity.com/](https://www.pokecommunity.com/)
+* ROMHacking: [https://www.romhacking.net/](https://www.romhacking.net/)
+* SegaXtreme: [https://segaxtreme.net/resources/categories/translations.9/](https://segaxtreme.net/resources/categories/translations.9/)
+* SMW Central: [https://www.smwcentral.net/?p=main](https://www.smwcentral.net/?p=main)
 
 **IMPORTANT** 
 
