@@ -87,7 +87,7 @@ Don't forget to join the [EmuDeck Discord!](https://discord.gg/b9F7GpXtFP)
 
 #### List of Standalone Emulators installed by EmuDeck
 
-* [BigPEmu (Atari Jaguar)]((https://www.richwhitehouse.com/jaguar/))
+* [BigPEmu (Atari Jaguar)](https://www.richwhitehouse.com/jaguar/)
 * [Cemu (Nintendo Wii U)](https://cemu.info/)
 * [Citra (Nintendo 3DS)](https://citra-emu.org/)
 * [Dolphin (Nintendo GameCube and Wii)](https://dolphin-emu.org/)

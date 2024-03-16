@@ -1,6 +1,6 @@
 # Supported Emulators
 
-* [BigPEmu (Atari Jaguar)]((https://www.richwhitehouse.com/jaguar/))
+* [BigPEmu (Atari Jaguar)](https://www.richwhitehouse.com/jaguar/)
 * [Cemu (Nintendo Wii U)](https://cemu.info/)
 * [Citra (Nintendo 3DS)](https://citra-emu.org/)
 * [Dolphin (Nintendo GameCube and Wii)](https://dolphin-emu.org/)
