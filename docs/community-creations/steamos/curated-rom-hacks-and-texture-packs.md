@@ -30,7 +30,9 @@ A curated list of ROM Hacks and Texture Packs by EmuDeck users.
 ### Game Boy, Game Boy Color, and Game Boy Advance
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
 
-#### Pokémon Pinball Generations
+#### Patches
+
+##### Pokémon Pinball Generations
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
 
 !!! info
@@ -75,7 +77,7 @@ For patching, use [https://kotcrab.github.io/xdelta-wasm/](https://kotcrab.githu
 ### Nintendo DS (melonDS)
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
 
-#### Mods
+#### Patches
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
 
 ***
