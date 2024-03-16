@@ -43,7 +43,7 @@ A curated list of ROM Hacks and Texture Packs by EmuDeck users.
 
 Source: [https://www.pokecommunity.com/threads/pok%C3%A9mon-pinball-generations.417346/](https://www.pokecommunity.com/threads/pok%C3%A9mon-pinball-generations.417346/)
 
-See [https://emudeck.github.io/community-creations/steamos/tools-and-guides/#how-to-use-rom-hacks](https://emudeck.github.io/community-creations/steamos/tools-and-guides/#how-to-use-rom-hacks) for instructions on how to apply the ROM hack. 
+See [https://emudeck.github.io/community-creations/steamos/tools-and-guides/#how-to-use-rom-hacks](https://emudeck.github.io/community-creations/steamos/tools-and-guides/#how-to-use-rom-hacks) for instructions on how to apply the ROM Hack. 
 
 
 ***
@@ -74,7 +74,7 @@ For patching, use [https://kotcrab.github.io/xdelta-wasm/](https://kotcrab.githu
 
 ***
 
-### Nintendo DS (melonDS)
+### melonDS (Nintendo DS)
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
 
 #### Patches
