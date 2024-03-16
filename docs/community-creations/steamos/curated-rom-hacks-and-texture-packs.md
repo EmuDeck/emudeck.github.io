@@ -18,17 +18,28 @@ A curated list of ROM Hacks and Texture Packs by EmuDeck users.
 ### ROM Hack Resources
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
 
+* [https://gamebanana.com/](https://gamebanana.com/)
+* [https://gbatemp.net/forums/](https://gbatemp.net/forums/)
+* [https://metroidconstruction.com/hacks.php](https://metroidconstruction.com/hacks.php)
+* [https://www.pokecommunity.com/forums/rom-hacks-showcase.184/](https://www.pokecommunity.com/forums/rom-hacks-showcase.184/)
 * [https://www.romhacking.net/](https://www.romhacking.net/)
+* [https://segaxtreme.net/resources/categories/translations.9/](https://segaxtreme.net/resources/categories/translations.9/)
 
 ***
 
 ### Texture Pack Resources
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
 
+* Dreamcast Texture Packs
+    * [https://old.reddit.com/r/Flycast_texture_packs/](https://old.reddit.com/r/Flycast_texture_packs/)
 * Nintendo 64 Texture Packs
     * [https://evilgames.eu/texture-packs.htm](https://evilgames.eu/texture-packs.htm)
     * [https://www.n64textures.com/downloads/?lang=en](https://www.n64textures.com/downloads/?lang=en)
     * [https://emulationking.com/category/n64-texturepacks/](https://emulationking.com/category/n64-texturepacks/)
+* PlayStation 2 Texture Packs
+    * [https://gbatemp.net/threads/list-of-hd-texture-packs-by-panda_venom.620163/](https://gbatemp.net/threads/list-of-hd-texture-packs-by-panda_venom.620163/)    
+* PlayStation Portable Texture Packs
+    * [https://forums.ppsspp.org/forumdisplay.php?fid=36](https://forums.ppsspp.org/forumdisplay.php?fid=36)
 
 ***
  
