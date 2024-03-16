@@ -1,4 +1,4 @@
-# Curated ROM Hacks and Texture Packs, spice up those Retro games!
+# Curated ROM Hacks and Texture Packs, spice up those retro games!
 
 A curated list of ROM Hacks and Texture Packs by EmuDeck users. 
 
