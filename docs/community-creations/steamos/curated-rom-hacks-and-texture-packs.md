@@ -10,14 +10,19 @@ A curated list of ROM Hacks and Texture Packs by EmuDeck users.
 
 ***
 
-## ROM Hack Resources
+## ROM Hacks and Texture Pack Resources
+[Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
+
+***
+
+### ROM Hack Resources
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
 
 * [https://www.romhacking.net/](https://www.romhacking.net/)
 
 ***
 
-## Texture Pack Resources
+### Texture Pack Resources
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
 
 * Nintendo 64 Texture Packs
