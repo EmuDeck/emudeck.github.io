@@ -83,7 +83,7 @@ Don't forget to join the [EmuDeck Discord!](https://discord.gg/b9F7GpXtFP)
 * [Power Tools (Power Tweaks)](https://github.com/NGnius/PowerTools) *Optional
 * [SteamDeckGyroDSU](https://github.com/kmicki/SteamDeckGyroDSU) *Optional
 * [Steam ROM Manager](https://github.com/SteamGridDB/steam-rom-manager)
-* [Pegasus](https://pegasus-frontend.org/))
+* [Pegasus](https://pegasus-frontend.org/)
 
 #### List of Standalone Emulators installed by EmuDeck
 
