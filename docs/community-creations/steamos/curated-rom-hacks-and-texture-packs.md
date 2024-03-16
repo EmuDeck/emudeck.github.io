@@ -26,6 +26,11 @@ A curated list of ROM Hacks and Texture Packs by EmuDeck users.
     * [https://emulationking.com/category/n64-texturepacks/](https://emulationking.com/category/n64-texturepacks/)
 
 ***
+ 
+## Texture Pack and ROM Hacks
+[Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
+
+***
 
 ### Game Boy, Game Boy Color, and Game Boy Advance
 [Back to the Top](#curated-rom-hacks-and-texture-packs-table-of-contents)
