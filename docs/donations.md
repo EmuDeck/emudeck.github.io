@@ -69,34 +69,25 @@ No donation link found at this time.
 
 No donation link found at this time. 
 
-## RetroArch
+## LibRetro Core Devs
 
-* [BountySource](https://salt.bountysource.com/checkout/amount?team=libretro)
-    * Make sure to read the information at the bottom of RetroArch's donation page for further detail, [https://www.retroarch.com/index.php?page=donate](https://www.retroarch.com/index.php?page=donate)
-* [Liberapay](https://liberapay.com/Libretro/donate)
-* [Patreon](https://www.patreon.com/libretro)
-* [Teespring](https://teespring.com/stores/retroarch)
-* [YouTube](https://www.youtube.com/channel/UCjAimkVp-G_o6HK5MXujk9A/join)
-
-### LibRetro Core Devs
-
-#### DosBox
+### DosBox
 
 * [PayPal](https://www.paypal.com/donate?token=r9dOdm-zuEj54bgUf-nNj8t-9BgFaNJ2MDQY9DgUZDiDFwKl5B3-SXc_EAYZfwh0LXd18K0VUCc_ZX_h)
 
-#### Genesis Plus GX
+### Genesis Plus GX
 
 * [PayPal](https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=DDWLXHLNN2JY4&ssrt=1710457425915)
 
-#### GLideN64
+### GLideN64
 
 * [Patreon](https://www.patreon.com/Gliden64)
 
-#### SameBoy
+### SameBoy
 
 * [GitHub](https://github.com/sponsors/LIJI32)
 
-#### TIC-80
+### TIC-80
 
 * [GitHub](https://github.com/sponsors/nesbox)
 
