@@ -41,6 +41,7 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Roll Back PCSX2 to an Older Version](#how-to-roll-back-pcsx2-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Configure Pressure Sensitive Buttons](#how-to-configure-pressure-sensitive-buttons)
+    - [How to Configure Online Multiplayer](#how-to-configure-online-multiplayer)
     - [How to Set Up mymc](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-mymc)
 4. [Custom Game Settings](#custom-game-settings)
     - [Grand Theft Auto III "Ghosting"](#grand-theft-auto-iii-ghosting)
@@ -655,6 +656,25 @@ The default pressure modifier is set at 30%. If you would like to adjust this se
 !!! example 
 
     As an example, in Silent Hill 2, when clicking the right trigger (R2) and either L5 or R5 (the buttons bound to the keyboard key, S, in this example) together while using the A button, the attacks will be light. Release L5 or R5, but hold R2 and click A to attack as normal.
+
+***
+
+### How to Configure Online Multiplayer
+[Back to the Top](#pcsx2-qt-table-of-contents) 
+
+1. In `/home/deck/Applications`, right click anywhere, click `Open Terminal Here`
+2. Type the following and press enter: 
+    * `./pcsx2-Qt.AppImage --appimage-extract`
+3. A `squashfs-root` folder in `/home/deck/Applications` will be created, rename this folder `pcsx2-online` or a name of your choice
+4. In `/home/deck/Applications/pcsx2-online/usr/bin`, double click `pcsx2-qt` to open it
+    * Use this file whenever you want to play online mulitplayer. Your shortcuts through Steam ROM Manager, ES-DE, or Pegasus will be using a separate version of PCSX2 **not configured** for online multiplayer
+    * You may add this version of `pcsx2-qt` to Steam by right clicking it and clicking `Add to Steam`, you may want to give it a distinctive name in Steam so you do not mix it up with your other shortcuts
+5. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`, select `PCAP Bridged` or `PCAP Switched` depending on what game you are playing 
+    * If you would like to manually tweak settings, check `Intercept DHCP` and adjust settings as needed
+6. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings as a reference
+    * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
+    * [https://ps2online.com/](https://ps2online.com/)
+7. Online multiplayer will now be configured for your game(s)
 
 ***
 
