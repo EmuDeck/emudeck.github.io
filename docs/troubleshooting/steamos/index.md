@@ -165,8 +165,9 @@ If you do not have an easy way of gathering photos, take a few photos with your 
 
 #### Method 2
 
-1. Open `$HOME/emudeck`
-2. Right click `emudeck.log`, click `Share --> Pastebin...`
+1. Open `$HOME/emudeck/logs`
+    * On a Steam Deck, this path may be `/home/deck/emudeck/logs`
+2. Right click `emudeckSetup.log`, click `Share --> Pastebin...`
     * It may appear blank, you can see the full log by clicking the `raw` button on the Pastebin page
 3. Share the Pastebin URL with the person providing you support
     * If you do not have a way of sharing URLs easily, share the alphanumerical string at the end of the URL with the person providing you support
@@ -176,8 +177,9 @@ If you do not have an easy way of gathering photos, take a few photos with your 
 
 ### How to get the EmuDeck AppImage Log
 
-1. Open `$HOME/emudeck`
-2. Right click `EmuDeck.AppImage.log`, click `Share --> Pastebin...`
+1. Open `$HOME/emudeck/logs`
+    * On a Steam Deck, this path may be `/home/deck/emudeck/logs`
+2. Right click `emudeckApp.log`, click `Share --> Pastebin...`
     * It may appear blank, you can see the full log by clicking the `raw` button on the Pastebin page
 3. Share the Pastebin URL with the person providing you support
     * If you do not have a way of sharing URLs easily, share the alphanumerical string at the end of the URL with the person providing you support
