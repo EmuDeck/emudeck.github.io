@@ -662,6 +662,11 @@ The default pressure modifier is set at 30%. If you would like to adjust this se
 ### How to Configure Online Multiplayer
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
+PCSX2 Servers:
+
+* [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
+* [https://ps2online.com/](https://ps2online.com/)
+
 1. In `/home/deck/Applications`, right click anywhere, click `Open Terminal Here`
 2. Type the following and press enter: 
     * `./pcsx2-Qt.AppImage --appimage-extract`
@@ -669,8 +674,22 @@ The default pressure modifier is set at 30%. If you would like to adjust this se
 4. In `/home/deck/Applications/pcsx2-online/usr/bin`, double click `pcsx2-qt` to open it
     * Use this file whenever you want to play online mulitplayer. Your shortcuts through Steam ROM Manager, ES-DE, or Pegasus will be using a separate version of PCSX2 **not configured** for online multiplayer
     * You may add this version of `pcsx2-qt` to Steam by right clicking it and clicking `Add to Steam`, you may want to give it a distinctive name in Steam so you do not mix it up with your other shortcuts
-5. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`, select `PCAP Bridged` or `PCAP Switched` depending on what game you are playing 
-    * If you would like to manually tweak settings, check `Intercept DHCP` and adjust settings as needed
+5. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`
+    * Ethernet Device Type
+        * Select `PCAP Bridged`, `PCAP Switched`, or `Socket`, depending on what game you are playing 
+    * Ethernet Device
+        * `Any` if using `PCAP Bridged` or `PCAP Switched`
+        * `Auto` if using `Socket`
+    * Intercept DHCP
+        * Leave unchecked
+            * If you would like to manually tweak settings, check `Intercept DHCP` and adjust settings as needed
+    * DNS1 Address and DNS2 Address:
+        * Typically, you can leave these both unedited, but if online multiplayer is not working, set `Auto` to `Manual` and enter the same DNS address from the server in both boxes so the two are identical 
+    * Hard Disk Drive
+        * Check the `Enabled` box
+        * Click `Create Image` in the bottom right corner
+    * HDD File
+        * `/home/deck/.config/PCSX2/inis/DEV9hdd.raw`
 6. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings 
     * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
     * [https://ps2online.com/](https://ps2online.com/)
