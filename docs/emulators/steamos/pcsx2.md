@@ -683,8 +683,9 @@ PCSX2 Servers:
     * Intercept DHCP
         * Leave unchecked
             * If you would like to manually tweak settings, check `Intercept DHCP` and adjust settings as needed
-    * DNS1 Address and DNS2 Address:
-        * Typically, you can leave these both unedited, but if online multiplayer is not working, set `Auto` to `Manual` and enter the same DNS address from the server in both boxes so the two are identical 
+    * DNS1 Address and DNS2 Address
+        * Match the addresses to the spreadsheet, [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
+        * For example, if using the `Cristian` server, type `45.7.228.197` into `DNS1 Address` and `0.0.0.0` into `DNS2 Address`
     * Hard Disk Drive
         * Check the `Enabled` box
         * Click `Create Image` in the bottom right corner
@@ -694,6 +695,10 @@ PCSX2 Servers:
     * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
     * [https://ps2online.com/](https://ps2online.com/)
 7. Online multiplayer will now be configured for your game(s)
+
+!!! warning
+
+    If you get a DNAS error when connecting, you will need to apply a DNAS bypass patch to your game. These steps are out of scope for this wiki at this time and can be found elsewhere. 
 
 ***
 
