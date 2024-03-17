@@ -145,6 +145,7 @@ You will need to **create** a GitHub account first. To sign up for GitHub, see [
 	* For example, `##### My favorite ROM Hack!`
     * Your section will automatically be added to the Table of Contents
 4. Write your section under your newly created header
+    * Make sure to include a small snippet of why you liked the ROM Hack or texture pack and why you would recommend it to others
 5. Once you are finished making your changes, click the `Commit changes...` button in the top right
     * ![How to Contribute to the Wiki 2](../../assets/how-to-contribute-2.png)
 6. You will be prompted to create a Pull Request. Add a little bit of detail about what you added and why
