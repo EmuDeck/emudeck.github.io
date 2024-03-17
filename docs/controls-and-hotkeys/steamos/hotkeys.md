@@ -32,7 +32,9 @@
         - [Ryujinx (Switch)](#ryujinx-switch)
         - [Yuzu (Switch)](#yuzu-switch)
     - [Sega Hotkeys](#sega-hotkeys)
+        - [Model 2 Emulator (Sega Model 2)](#model-2-emulator-sega-model-2)
         - [Flycast (Dreamcast) (Standalone)](#flycast-dreamcast-standalone)
+        - [Supermodel (Sega Model 3)](#supermodel-sega-model-3)
     - [Sony Hotkeys](#sony-hotkeys)
         - [PPSSPP (PlayStation Portable)](#ppsspp-playstation-portable)
         - [Vita3K (PlayStation Vita)](#vita3k-playstation-vita)
@@ -312,10 +314,27 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 
 ***
 
+#### Model 2 Emulator (Sega Model 2)
+[Back to the Top](#hotkeys-table-of-contents)
+
+
+{{ read_csv('model-2-emulator-hotkeys.csv') }}
+
+
+***
+
 #### Flycast (Dreamcast) (Standalone)
+[Back to the Top](#hotkeys-table-of-contents)
 
 {{ read_csv('flycast-hotkeys.csv') }}
 
+
+***
+
+#### Supermodel (Sega Model 3)
+[Back to the Top](#hotkeys-table-of-contents)
+
+N/A
 
 ***
 

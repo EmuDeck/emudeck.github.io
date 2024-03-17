@@ -333,6 +333,6 @@ model2/
 ### Model 2 Emulator Hotkeys
 [Back to the Top](#model-2-emulator-table-of-contents)
 
-N/A
+{{ read_csv('model-2-emulator-hotkeys.csv') }}
 
 ***
