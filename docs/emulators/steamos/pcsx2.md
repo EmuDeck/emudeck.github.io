@@ -665,13 +665,13 @@ The default pressure modifier is set at 30%. If you would like to adjust this se
 1. In `/home/deck/Applications`, right click anywhere, click `Open Terminal Here`
 2. Type the following and press enter: 
     * `./pcsx2-Qt.AppImage --appimage-extract`
-3. A `squashfs-root` folder in `/home/deck/Applications` will be created, rename this folder `pcsx2-online` or a name of your choice
+3. A `squashfs-root` folder in `/home/deck/Applications` will be created, rename this folder to `pcsx2-online` or a name of your choice
 4. In `/home/deck/Applications/pcsx2-online/usr/bin`, double click `pcsx2-qt` to open it
     * Use this file whenever you want to play online mulitplayer. Your shortcuts through Steam ROM Manager, ES-DE, or Pegasus will be using a separate version of PCSX2 **not configured** for online multiplayer
     * You may add this version of `pcsx2-qt` to Steam by right clicking it and clicking `Add to Steam`, you may want to give it a distinctive name in Steam so you do not mix it up with your other shortcuts
 5. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`, select `PCAP Bridged` or `PCAP Switched` depending on what game you are playing 
     * If you would like to manually tweak settings, check `Intercept DHCP` and adjust settings as needed
-6. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings as a reference
+6. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings 
     * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
     * [https://ps2online.com/](https://ps2online.com/)
 7. Online multiplayer will now be configured for your game(s)
