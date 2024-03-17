@@ -249,6 +249,8 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 {{ read_csv('dolphin-hotkeys.csv') }}
 
 
+**Note:** If you open Dolphin directly and then launch a game, you may use the full screen hotkey `Start` + `L3`. However, if you launch a GameCube or a Wii game as a shortcut through Steam, ES-DE, or Pegasus, this hotkey **will not** work. 
+
 **List of Wii Profiles Included with EmuDeck**
 
 * Wiimote with Nunchuk
