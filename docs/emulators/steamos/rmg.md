@@ -58,10 +58,6 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Saves: `Emulation/saves/RMG/saves`
 * Save States: `Emulation/saves/RMG/states`
 * Storage Location: `Emulation/storage/RMG`
-    * Contains the following folders: 
-        * `Emulation/storage/RMG/cache`
-        * `Emulation/storage/RMG/HiResTextures`
-        * `Emulation/storage/RMG/screenshots`
 
 **Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 

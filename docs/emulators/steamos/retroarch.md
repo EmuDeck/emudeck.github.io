@@ -73,9 +73,7 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
 
 * Type of Emulator: Flatpak
 * Config Location: `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch`
-    * The `cheats`, `config`, `cores`, `saves`, and `shaders` folder are located here
 * Storage Location: `Emulation/storage/retroarch`
-    * Contains: `cheats`
 * ROMs: Refer to the [Cheat Sheet](../../cheat-sheet.md)
 * BIOS: Refer to the [Cheat Sheet](../../cheat-sheet.md)
 * Saves:

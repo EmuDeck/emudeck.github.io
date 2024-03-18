@@ -70,19 +70,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * Type of Emulator: AppImage
 * Executable Location: `/home/deck/Applications/pcsx2-Qt.AppImage`
 * Config Location: `/home/deck/.config/PCSX2`
-    * Contains the following folders: 
-        * `cheats`
-        * `gamesettings`
-        * `inis`
-        * `inputprofiles`
-        * `logs`
-        * **Note:** If the `cheats_ni` and `cheats_ws` folder are here, do not use these folders. PCSX2 will not recognize any files placed in these folders
 * Storage Location: `Emulation/storage/PCSX2`
-    * Contains the following folders: 
-        * `cache`
-        * `covers`
-        * `snaps`
-        * `textures`
 * ROM Location: `Emulation/roms/ps2/`
 * BIOS Location: `Emulation/bios/`  
     * **IMPORTANT:** Files go directly in this folder. Do not make or use a `PS2`, `PCSX2`, or any sort of folder here. PCSX2 will not be able to find your bios files if they are in a folder. 
