@@ -177,7 +177,7 @@ Vita3K/
 ### Vita3K File Formats
 [Back to the Top](#vita3k-table-of-contents)
 
-* `.pkg`
+* `.pkg` and `work.bin`
     * Install through Vita3K's GUI
 * `.zip`
     * Install through Vita3K's GUI
