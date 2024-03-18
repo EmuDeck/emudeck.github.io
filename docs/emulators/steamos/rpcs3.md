@@ -57,23 +57,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: AppImage
 * Config Location: `/home/deck/Applications/rpcs3.AppImage`
-* Storage Location: `Emulation/storage/rpcs3`
-  * Contains: `dev_hdd0`
-      * Contains the following folders: 
-          * `crash_report`
-          * `data`
-          * `drm`
-          * `game`
-          * `home`
-          * `mms`
-          * `music`
-          * `photo`
-          * `savedata`
-          * `theme`
-          * `tmp`
-          * `video`
-          * `vm`
-          * `vsh`
+* Storage Location: `Emulation/storage/rpcs3/dev_hdd0`
 * ROM Location: `Emulation/roms/ps3`
 * Firmware: Install the firmware through RPCS3's GUI. Read the [Quickstart Guide](https://rpcs3.net/quickstart) for a tutorial
 * Saves: 

@@ -62,20 +62,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: Binary Package
 * Executable Location: `/home/deck/Applications/publish/Ryujinx`
-* Config Location: 
-  * `/home/deck/.config/Ryujinx/` 
-    * Contains the following folders and files: 
-      * `bis`
-      * `games`
-      * `mods`
-      * `profiles`
-      * `sdcard`
-      * `system`
-      * `Config.json`
+* Config Location: `/home/deck/.config/Ryujinx/` 
 * Storage Location: `Emulation/storage/Ryujinx`
-    * Contains the following folders: 
-     * `games`
-     * `patchesAndDlc`
 * DLC and Updates: `Emulation/storage/Ryujinx/patchesAndDlc`
     * It's recommended that you place your DLC and Updates directly in this folder. However, you can create any folder for Ryujinx DLC and Updates as long as it is not `Emulation/roms/switch`
     * For more detail, read: [How To Manage DLC and Updates](#how-to-manage-dlc-and-updates)

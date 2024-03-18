@@ -52,8 +52,7 @@ To launch your ROMs in Game Mode, first install your ROMs through Vita3K if you 
 * Type of Emulator: Binary Package
 * Config Location: `/home/deck/Applications/Vita3K`
 * Executable Location: `/home/deck/Applications/Vita3K/Vita3K`
-* Storage Location: `Emulation/storage/Vita3K`
-    * Contains: `ux0`
+* Storage Location: `Emulation/storage/Vita3K/ux0`
 * ROM Location: `Emulation/roms/psvita/InstalledGames`
     * `InstalledGames` is a symlink to `Emulation/storage/Vita3K/uxo/app`
 * Firmware: Install firmware through Vita3K's GUI. Read the [Quickstart Guide](https://vita3k.org/quickstart.html) for a tutorial
@@ -178,7 +177,7 @@ Vita3K/
 ### Vita3K File Formats
 [Back to the Top](#vita3k-table-of-contents)
 
-* `.pkg`
+* `.pkg` and `work.bin`
     * Install through Vita3K's GUI
 * `.zip`
     * Install through Vita3K's GUI

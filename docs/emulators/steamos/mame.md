@@ -48,16 +48,8 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
 
 * Type of Emulator: Flatpak
 * Config Location: `/home/deck/.mame`
-    * Contains the following folders and files: 
-        * `mame.ini`
-        * `cfg`
-        * Plugin folders will appear here after enabling them in MAME
+    * Plugin folders will appear here after enabling them in MAME
 * Storage: `Emulation/storage/mame`
-    * Contains the following folders: 
-        * `artwork`
-        * `ctrlr`
-        * `ini`
-        * `samples`
 * ROM Location: `Emulation/roms/arcade`
 * BIOS Location: `Emulation/roms/arcade`
 * Saves: `Emulation/saves/MAME/saves`
