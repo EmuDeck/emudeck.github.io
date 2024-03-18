@@ -11,6 +11,7 @@ Patreon: [https://www.patreon.com/richwhitehouse](https://www.patreon.com/richwh
 1. [Getting Started with BigPEmu](#getting-started-with-bigpemu)
     - [Configuration](#bigpemu-configuration)
     - [BigPEmu Folder Locations](#bigpemu-folder-locations)
+    - [How to Download BigPEmu](#how-to-download-bigpemu)
     - [How to Update BigPEmu](#how-to-update-bigpemu)
     - [How to Launch BigPEmu in Desktop Mode](#how-to-launch-bigpemu-in-desktop-mode)
     - [File Formats](#bigpemu-file-formats)
@@ -180,6 +181,27 @@ BigPEmu/
 └── UserData
     └── BigPEmuConfig.bigpcfg
 ```
+
+***
+
+### How to Download BigPEmu
+[Back to the Top](#bigpemu-table-of-contents)
+
+
+1. In Desktop Mode, open the EmuDeck application
+2. Click the `Manage Emulators` button
+3. Click `BigPEmu`
+4. Click `Install`
+5. BigPEmu will be installed
+    * To open BigPEmu in Desktop Mode, see [How to Launch BigPEmu in Desktop Mode](#how-to-launch-bigpemu-in-desktop-mode)
+
+To use **BigPEmu** to launch your ROMs in Game Mode:
+
+* Use Steam ROM Manager and select the `Atari Jaguar - BigPEmu Proton` parser
+* Use Steam ROM Manager and select the `ES-DE` parser
+
+**No** additional setup is required with Steam ROM Manager and ES-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
+
 
 ***
 
