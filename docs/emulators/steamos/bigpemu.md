@@ -38,9 +38,10 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 * Type of Emulator: Windows Executable through Proton
 * Executable Location (BigPEmu Script): 
-  * `Emulation/tools/launchers/bigpemu.sh`
-  * `$HOME/Applications/BigPEmu/bigpemu.sh`
-    * Use `bigpemu.sh` to launch BigPEmu in Desktop Mode
+    * `Emulation/tools/launchers/bigpemu.sh`
+        * Use `bigpemu.sh` to launch BigPEmu in Desktop Mode
+    * `$HOME/Applications/BigPEmu/bigpemu.sh`
+        * Use `bigpemu.sh` to launch BigPEmu in Desktop Mode
 * Executable Location (Windows EXE): `$HOME/Applications/BigPEmu/BigPEmu.exe`
     * Do not launch BigPEmu in Desktop Mode with `BigPEmu.exe`
 * Config Location: `$HOME/Applications/BigPEmu/UserData`
