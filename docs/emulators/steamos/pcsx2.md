@@ -701,7 +701,7 @@ PCSX2 Servers:
 
 !!! warning
 
-    If you get a DNAS error when connecting, you will need to apply a DNAS bypass patch to your game. You can find a DNAS Bypass PNACH in the "Emulator (PCSX2)" column on the spreadsheet.
+    If you get a DNAS error when connecting, you will need to apply a DNAS bypass patch to your game. You can find a DNAS Bypass PNACH in the "Emulator (PCSX2)" column on the ps2online.com spreadsheet: [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
 
 ***
 
