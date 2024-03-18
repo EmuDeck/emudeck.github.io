@@ -664,7 +664,7 @@ The default pressure modifier is set at 30%. If you would like to adjust this se
 
 PCSX2 Servers:
 
-* [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
+* [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=0](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=0)
 * [https://ps2online.com/](https://ps2online.com/)
 
 1. In `/home/deck/Applications`, right click anywhere, click `Open Terminal Here`
@@ -698,7 +698,7 @@ PCSX2 Servers:
 
 !!! warning
 
-    If you get a DNAS error when connecting, you will need to apply a DNAS bypass patch to your game. These steps are out of scope for this wiki at this time and can be found elsewhere. 
+    If you get a DNAS error when connecting, you will need to apply a DNAS bypass patch to your game. These steps are out of scope for this wiki at this time and can be found elsewhere.
 
 ***
 
