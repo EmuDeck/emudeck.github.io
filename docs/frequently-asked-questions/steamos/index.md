@@ -43,6 +43,7 @@
 3. [Citra and Yuzu FAQ](#citra-and-yuzu-faq)
     - [If I already have Citra or Yuzu installed on my system, will this EmuDeck update remove either emulator?](#if-i-already-have-citra-or-yuzu-installed-on-my-system-will-this-emudeck-update-remove-either-emulator)
     - [Can I still use Citra or Yuzu through Steam ROM Manager and ES-DE?](#can-i-still-use-citra-or-yuzu-through-steam-rom-manager-and-es-de)
+    - [Why does ES-DE default to Ryujinx?](#why-does-es-de-default-to-ryujinx)
     - [How do I get the latest EmuDeck launchers and configurations on Linux/SteamOS?](#how-do-i-get-the-latest-emudeck-launchers-and-configurations-on-linuxsteamos)
     - [ What about all of the forks of Citra and Yuzu? Will EmuDeck support those?](#what-about-all-of-the-forks-of-citra-and-yuzu-will-emudeck-support-those)
     - [Can I ask for links to mirrors of Citra and Yuzu?](#can-i-ask-for-links-to-mirrors-of-citra-and-yuzu)
@@ -909,6 +910,17 @@ For Steam ROM Manager, yes, a parser is included for both emulators. If you are 
 For ES-DE, Citra will continue to be supported. Yuzu support will be removed in the next update. This means that if you use ES-DE as a front-end for your ROMs, you will no longer be able to use Yuzu to launch Nintendo Switch games. 
 
 However, EmuDeck has pushed a hotfix to add back support for Yuzu. In order to get this hotfix, open the EmuDeck application and say yes to the prompt. If you say no or miss this prompt, you may also apply this hotfix at any time by resetting ES-DE or Yuzu on the "Manage Emulators" page in the EmuDeck application. 
+
+### Why does ES-DE default to Ryujinx?
+
+Since EmuDeck can no longer install Yuzu for new users, Ryujinx was set as the default emulator in ES-DE. However, swapping back to Yuzu is fairly easy. Do note, you will need the EmuDeck hotfix in order to continue using Yuzu in ES-DE. If you missed this hotfix, you may apply it at any time by resetting Yuzu on the "Manage Emulators" page in the EmuDeck application. 
+
+To swap back to Yuzu:
+
+1. In ES-DE, press the `Start` button
+2. Scroll down and select `Other Settings`
+3. Select `Alternative Emulators`
+4. Scroll down to `switch`, select `Yuzu (Standalone)`
 
 ### How do I get the latest EmuDeck launchers and configurations on Linux/SteamOS?
 
