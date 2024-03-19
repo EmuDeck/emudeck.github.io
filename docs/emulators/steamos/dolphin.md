@@ -383,7 +383,7 @@ If you are choosing to create your own profile:
 5. Open the `Controllers` menu
 6. Select `Configure` to the right of `Wii Remote 1`
     * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
-7. Make sure `evdev/microsoft X-box 360 pad 0` is set in the top left
+7. Make sure `SDL/0/Virtual Steam Gamepad 1` is set in the top left
 8. Select the `Motion Input` tab
 9. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `STEAM` + `L2`
 10. Make sure `DSUClient/0/steamdeckgyro` is selected in the drop-down menu at the top
@@ -427,16 +427,14 @@ For more information, read Dolphin's wiki page on gyro: [https://wiki.dolphin-em
 6. Select `Configure` to the right of `Wii Remote 1`
     * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
 7. On the `Profile` drop-down, select `Wii_base_nunchuck_with_touchpad` if you are using a Nunchuk or `Wii_no_attachment_with_touchpad` if you are not using a Nunchuk
-8. Under `Device`, select `evdev/0/yourexternalcontrollername`
+8. Under `Device`, select `SDL/0/yourexternalcontrollername`
     * Some external controllers may show up as `Wireless Controller`
-    * For example: `evdev/0/Nintendo Switch Controller` or `evdev/0/Wireless Controller`
-    * This section will use `evdev` but you may also use and tinker with `SDL` instead. External controller gyro will work with either the `evdev` or `SDL` driver options. Do note that if you use `SDL` for your input driver, you will need to fully remap your controls. To select `SDL` or `evdev` in the Dolphin controller menu, select your preferred input driver in the `Device` drop-down menu
-        * For example, if you would like to use SDL for the PlayStation 5 DualSense controller, select `SDL/0/PS5 Controller` in the drop-down menu
+    * For example: `SDL/0/Nintendo Switch Controller` or `SDL/0/Dualsense Wireless Controller`
 9. Select the `Motion Input` tab
 10. Hover over any of the buttons under the `Accelerometer` or `Gyroscope` sections and press `L2`
-11. Select `evdev/0/yourexternalcontrollername` in the drop-down menu at the top
-    * For example: `evdev/0/Nintendo Switch Controller`
-    * For some controllers, it may be under `evdev/0/Wireless Controller Motion Sensors`
+11. Select `SDL/0/yourexternalcontrollername` in the drop-down menu at the top
+    * For example: `SDL/0/Nintendo Switch Controller`
+    * For some controllers, it may be under `SDL/0/Wireless Controller Motion Sensors`
 12. Scroll down to the bottom of the list until you see `Accel` and `Gyro` direction inputs
 13. Select the matching input to the button you clicked in Step 10
     * ![How to Configure Gyro With External Controllers](../../assets/dolphin-external-controller-gyro.png)
@@ -473,7 +471,7 @@ To restore the default Steam Deck controls:
 2. Open the `Controllers` menu
 3. Select `Configure` to the right of `Wii Remote 1`
     * Make sure `Wii Remote 1` is set to `Emulated Wii Remote`
-4. Select `evdev/0/Microsoft X-Box 360 Pad 0` under `Devices`
+4. Select `SDL/0/Virtual Steam Gamepad 1` under `Devices`
 5. Select `Wii_base_nunchuck` under `Profile` and click `Load`
 6. Click `Close` and exit out of Dolphin
 
