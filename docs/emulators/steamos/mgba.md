@@ -183,18 +183,18 @@ To use **mGBA (Standalone)** to launch your ROMs in Game Mode:
 ### mGBA Hotkeys
 [Back to the Top](#mgba-table-of-contents)
 
-mGBA comes with a Steam Input profile for Hotkeys. Activate the Steam Input profile by clicking the `Game Controller` icon in `Game Mode`, change the template to `Emudeck - mGBA`. The hotkeys below can only be used if you have the Steam Input profile active.
+mGBA comes with a Steam Input profile for Hotkeys. When playing mGBA ROM shortcuts through Steam, the `EmuDeck - Controller Hotkeys` profile will automatically be applied so you may use the below hotkeys. For more info, see [Emulator Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-button-combinations-profile).
 
-**Long Press** to activate hotkeys on the left trackpad touch menu. 
+When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - Frontend Controller Hotkeys` will automatically be applied. Hold `Start` for a few seconds to switch to the action set required to use the below hotkeys. For more info, see [Emulator Frontends Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-button-combinations-profile).
 
 {{ read_csv('mgba-hotkeys.csv') }}
 
 
-**Note:** 
+**Note** 
 
-* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
+* For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
+* If you would like to use touch menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead.  
 * [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
-
 
 ***
 

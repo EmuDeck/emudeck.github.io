@@ -169,10 +169,8 @@ To switch between the two in ES-DE, you can use the `Alternative Emulators` feat
 {{ read_csv('duckstation-hotkeys.csv') }}
 
 
-**Note:** 
 
-* [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
+[Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
 
 ***
