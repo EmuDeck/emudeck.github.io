@@ -86,8 +86,7 @@ nav:
                 - 'Cemu (Proton) on SteamOS': 'emulators/steamos/cemu/cemu-proton.md'
             - 'Cemu on Windows': 'emulators/windows/cemu.md'
         - Citra (Nintendo 3DS):
-            - 'Citra on SteamOS': 'emulators/steamos/citra.md'
-            - 'Citra on Windows': 'emulators/windows/citra.md'
+            - 'Citra FAQ': 'frequently-asked-questions/steamos/#citra-and-yuzu-faq' 
         - Dolphin (GameCube and Wii):
             - 'Dolphin on SteamOS': 'emulators/steamos/dolphin.md'
             - 'Dolphin on Windows': 'emulators/windows/dolphin.md'
@@ -135,8 +134,7 @@ nav:
         - Xenia (Xbox 360):
             - 'Xenia on SteamOS': 'emulators/steamos/xenia.md'
         - Yuzu (Nintendo Switch):
-            - 'Yuzu on SteamOS': 'emulators/steamos/yuzu.md'
-            - 'Yuzu on Windows': 'emulators/windows/yuzu.md'
+            - 'Yuzu FAQ': 'frequently-asked-questions/steamos/#citra-and-yuzu-faq' 
     - Save Management:
         - Save Management on SteamOS: 'save-management/steamos/save-management.md'
         - Save Management on Windows: 'save-management/windows/save-management.md'
