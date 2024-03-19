@@ -22,6 +22,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
     - [File Formats](#rpcs3-file-formats)
     - [Hotkeys](#rpcs3-hotkeys)
     - [How to Manage Updates](#how-to-manage-updates)
+    - [How to Navigate to the SD Card Through RPCS3](#how-to-navigate-to-the-sd-card-through-rpcs3)
 
 2. [RPCS3 Tips and Tricks](#rpcs3-tips-and-tricks)
     - [How to Configure RPCS3 to Work With ES-DE and Pegasus](#how-to-configure-rpcs3-to-work-with-es-de-and-pegasus)
@@ -191,6 +192,30 @@ N/A
 Read [https://wiki.rpcs3.net/index.php?title=Help:Installing_Game_Updates](https://wiki.rpcs3.net/index.php?title=Help:Installing_Game_Updates) for a tutorial on how to download and manage PS3 updates. 
 
 The Linux version of the software mentioned in the above article can be found here: [https://github.com/RainbowCookie32/rusty-psn/releases/](https://github.com/RainbowCookie32/rusty-psn/releases/).
+
+***
+
+### How to Navigate to the SD Card Through RPCS3
+[Back to the Top](#rpcs3-table-of-contents)
+
+When using RPCS3's GUI to navigate to your SD Card or removable storage device, you will need to treat the location of the SD Card or removable storage device as a file path. Your SD Card or removable storage device will be typically located in `/run/media/deck/SDCARDNAME`. 
+
+To locate this file path, follow the steps below. The steps will cover how to install PKGs, RAPs, and Edats on your SD Card or removable storage device but you may also use the below steps for other RPCS3 functions.
+
+1. Open RPCS3
+2. Click `File`, click `Install Packages/Raps/Edats` 
+3. On the left-hand side of the screen, click `Computer`
+    * ![How to Navigate to the SD Card Through RPCS3: 1](../../assets/how-to-navigate-to-the-sd-card-through-rpcs3-1.png)
+4. Open `/`
+    * ![How to Navigate to the SD Card Through RPCS3: 2](../../assets/how-to-navigate-to-the-sd-card-through-rpcs3-2.png)
+5. Open `run`
+    * ![How to Navigate to the SD Card Through RPCS3: 3](../../assets/how-to-navigate-to-the-sd-card-through-rpcs3-3.png)
+6. Open `media`
+    * ![How to Navigate to the SD Card Through RPCS3: 4](../../assets/how-to-navigate-to-the-sd-card-through-rpcs3-4.png)
+7. Open `deck`
+    * ![How to Navigate to the SD Card Through RPCS3: 5](../../assets/how-to-navigate-to-the-sd-card-through-rpcs3-5.png)
+8. On this screen, you will see a list of your SD Cards and removable storage devices. By default, your SD Card will be named with a long alphanumeric string 
+    * ![How to Navigate to the SD Card Through RPCS3: 6](../../assets/how-to-navigate-to-the-sd-card-through-rpcs3-6.png)
 
 ***
 
