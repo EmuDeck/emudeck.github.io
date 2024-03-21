@@ -17,6 +17,7 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
     - [How to Update RetroArch And Its Cores](#how-to-update-retroarch-and-its-cores)
     - [How to Launch RetroArch](#how-to-launch-retroarch)
     - [Hotkeys](../../controls-and-hotkeys/windows/hotkeys.md#retroarch)
+    - [List of RetroArch Cores Used by Emudeck](#list-of-retroarch-cores-used-by-emudeck)
 2. [RetroArch Tips and Tricks](#retroarch-tips-and-tricks)
 
 ***
@@ -58,6 +59,20 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
 * Launch `retroarch.bat` file in `Emulation\tools\launchers`
 * Launch `retroarch.exe` in `%USERPROFILE%\emudeck\EmulationStation-DE\Emulators\RetroArch` 
 * Launch the emulator from `Steam` after adding it via the `Emulators` parser in `Steam ROM Manager`
+
+***
+
+### RetroArch Hotkeys
+[Back to the Top](#retroarch-table-of-contents)
+
+{{ read_csv('retroarch-hotkeys.csv') }}
+
+***
+
+### List of RetroArch Cores Used by EmuDeck
+[Back to the Top](#retroarch-table-of-contents)
+
+{{ read_csv('list-of-retroarch-cores.csv') }}
 
 ***
 
