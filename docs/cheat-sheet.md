@@ -196,6 +196,13 @@ It mostly comes down to preference.
 
 ***
 
+### List of RetroArch Cores Used by EmuDeck
+[Back to the Top](#cheat-sheet-table-of-contents)
+
+{{ read_csv('list-of-retroarch-cores.csv') }}
+
+***
+
 ## Cheat Sheets
 [Back to the Top](#cheat-sheet-table-of-contents)
 

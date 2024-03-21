@@ -422,58 +422,7 @@ For more information: [https://docs.libretro.com/guides/overrides/](https://docs
 ### List of RetroArch Cores Used by EmuDeck
 [Back to the Top](#retroarch-table-of-contents)
 
-| Console/System            | RetroArch Core (Click for Libretro Article)                                                                               |
-|---------------------------|---------------------------------------------------------------------------------------------------------------------------|
-| 3DO                       | [RetroArch Opera](https://docs.libretro.com/library/opera/)                                                               |
-| Amiga                     | [RetroArch PUAE](https://docs.libretro.com/library/puae/)                                                                 |
-| Amiga 600                 | [RetroArch PUAE](https://docs.libretro.com/library/puae/)                                                                 |
-| Amiga 1200                | [RetroArch PUAE](https://docs.libretro.com/library/puae/)                                                                 |
-| Amiga CD32                | [RetroArch PUAE](https://docs.libretro.com/library/puae/)                                                                 |
-| Amstrad CPC               | [RetroArch Caprice32](https://docs.libretro.com/library/caprice32/)                                                       |
-| Atari 2600                | [RetroArch Stella](https://docs.libretro.com/library/stella/)                                                             |
-| Atari Lynx                | [RetroArch Stella](https://docs.libretro.com/library/stella/)                                                             |
-| Commodore 16              | [RetroArch Vice](https://docs.libretro.com/library/vice/)                                                                 |
-| Commodore 64              | [RetroArch Vice](https://docs.libretro.com/library/vice/)                                                                 |
-| Commodore VIC-20          | [RetroArch Vice](https://docs.libretro.com/library/vice/)                                                                 |
-| Doom                      | [RetroArch PrBoom](https://docs.libretro.com/library/prboom/)                                                             |
-| DOS                       | [RetroArch DOSBox Pure](https://docs.libretro.com/library/dosbox_pure/)                                                   |
-| EasyRPG                   | [RetroArch EasyRPG](https://docs.libretro.com/library/easyrpg/)                                                           |
-| Final Burn Neo            | [RetroArch FinalBurn Neo](https://docs.libretro.com/library/fbneo/)                                                       |
-| MAME 2003 Plus            | [RetroArch MAME 2003 Plus](https://docs.libretro.com/library/mame2003_plus/)                                              |
-| MAME 2010                 | [RetroArch MAME 2010](https://docs.libretro.com/library/mame_2010/)                                                       |
-| MAME Current              | [RetroArch MAME Current](https://docs.libretro.com/development/cores/core-specific/mame/)                                 |
-| NEC PC-98                 | [RetroArch Neko Project II Kai](https://docs.libretro.com/libraryneko_project_ii_kai/)                                    |
-| NEC TurboGrafx-16         | [RetroArch Beetle PCE](https://docs.libretro.com/library/beetle_pce_fast/)                                                |
-| NEC TurboGrafx-CD         | [RetroArch Beetle PCE](https://docs.libretro.com/library/beetle_pce_fast/)                                                |
-| Neo Geo Pocket & Color    | [RetroArch Beetle NeoPop](https://docs.libretro.com/library/beetle_neopop/)                                               |
-| Nintendo 64               | [RetroArch Mupen64plus-Next](https://docs.libretro.com/library/mupen64plus/)                                              |
-| Nintendo DS               | [RetroArch melonDS](https://docs.libretro.com/library/melonds/)                                                           |
-| Nintendo Game Boy          | [RetroArch SameBoy](https://docs.libretro.com/library/sameboy/)                                                           |
-| Nintendo Game Boy          | [RetroArch Gambatte](https://docs.libretro.com/library/gambatte/)                                                         |
-| Nintendo Game Boy Advance  | [RetroArch mGBA core](https://docs.libretro.com/library/mgba/)                                                            |
-| Nintendo Game Boy Color    | [RetroArch SameBoy](https://docs.libretro.com/library/sameboy/)                                                           |
-| Nintendo Game Boy Color    | [RetroArch Gambatte](https://docs.libretro.com/library/gambatte/)                                                         |
-| Nintendo NES              | [RetroArch Mesen](https://docs.libretro.com/library/mesen/)                                                               |
-| Nintendo NES              | [RetroArch Nestopia](https://docs.libretro.com/library/nestopia_ue/)                                                      |
-| Pico-8                    | [RetroArch Pico-8](https://github.com/Jakz/retro8)                                                                        |
-| Sega 32X                  | [RetroArch PicoDrive](https://docs.libretro.com/library/picodrive/)                                                       |
-| Sega CD                   | [RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/)                                           |
-| Sega Dreamcast            | [RetroArch FlyCast](https://docs.libretro.com/library/flycast/)                                                           |
-| Sega Game Gear            | [RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/)                                           |
-| Sega Genesis / Mega Drive | [RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/)                                           |
-| Sega Genesis Widescreen   | [RetroArch Genesis Plus GX](https://www.libretro.com/index.php/genesis-plus-gx-wide-now-available-for-libretroretroarch/) |
-| Sega Master System        | [RetroArch Genesis Plus GX](https://docs.libretro.com/library/genesis_plus_gx/)                                           |
-| Sega Saturn               | [RetroArch Beetle Saturn](https://docs.libretro.com/library/beetle_saturn/)                                               |
-| Sega Saturn               | [RetroArch Kronos](https://docs.libretro.com/library/kronos/)                                                             |
-| Sega Saturn               | [RetroArch Yabause](https://docs.libretro.com/library/yabause/)                                                           |
-| Sharp X68000              | [RetroArch PX68k](https://docs.libretro.com/library/px68k/)                                                               |
-| Sony Playstation          | [RetroArch Beetle HW](https://docs.libretro.com/library/beetle_psx/)                                                      |
-| Sony Playstation          | [RetroArch Swanstation](https://www.libretro.com/index.php/category/swanstation/)                                         |
-| Sony Playstation Portable | [RetroArch PPSSPP](https://docs.libretro.com/library/ppsspp/)                                                             |
-| Super Nintendo            | [RetroArch Snes9x](https://docs.libretro.com/library/snes9x/)                                                             |
-| Super Nintendo Widescreen | [RetroArch bsnes hd beta](https://github.com/DerKoun/bsnes-hd)                                                            |
-| Wonderswan & Color        | [RetroArch Beetle Cygne](https://docs.libretro.com/library/beetle_cygne/)                                                 |
-| ZX Spectrum               | [RetroArch Fuse](https://docs.libretro.com/library/fuse/)                                                                 |
+{{ read_csv('list-of-retroarch-cores.csv') }}
 
 ***
 
