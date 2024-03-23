@@ -971,8 +971,8 @@ Delete the following files and folders:
 
 - [ ] `citra-qt.AppImage` in `$HOME/Applications`
 - [ ] `Citra.desktop` in `$HOME/.local/share/Applications`
-- [ ] `$HOME/.config/citra-emu`
 - [ ] `$HOME/.local/share/citra-emu`
+- [ ] `$HOME/.config/citra-emu`
 
 #### Yuzu
 
@@ -980,8 +980,8 @@ Delete the following files and folders:
 
 - [ ] `yuzu.AppImage` in `$HOME/Applications`
 - [ ] `yuzu.desktop` in `$HOME/.local/share/Applications`
-- [ ] `$HOME/.config/yuzu`
 - [ ] `$HOME/.local/share/yuzu`
+- [ ] `$HOME/.config/yuzu`
 - [ ] `Emulation/storage/yuzu`
 
 ***
