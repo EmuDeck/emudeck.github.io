@@ -22,6 +22,7 @@ GitHub: [https://github.com/trzy/Supermodel](https://github.com/trzy/Supermodel)
     - [File Formats](#supermodel-file-formats)
     - [Hotkeys](#supermodel-hotkeys) 
 2. [Supermodel Tips and Tricks](#supermodel-tips-and-tricks)
+    - [Which ROM Set Does Supermodel Use?](#which-rom-set-does-supermodel-use)
 
 ***
 
