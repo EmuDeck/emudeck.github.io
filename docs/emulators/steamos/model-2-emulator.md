@@ -14,6 +14,8 @@ Information: [https://emulation.gametechwiki.com/index.php/Sega_Model_2](https:/
     - [How to Launch the Model 2 Emulator in Desktop Mode](#how-to-launch-the-model-2-emulator-in-desktop-mode)
     - [File Formats](#model-2-emulator-file-formats)
     - [Hotkeys](#model-2-emulator-hotkeys)
+2. [Model 2 Emulator Tips and Tricks](#model-2-emulator-tips-and-tricks)
+    - [Which ROM Set Does Model 2 Emulator Use?](#which-rom-set-does-model-2-emulator-use)
 
 ***
 
@@ -334,5 +336,17 @@ model2/
 [Back to the Top](#model-2-emulator-table-of-contents)
 
 {{ read_csv('model-2-emulator-hotkeys.csv') }}
+
+***
+
+## Model 2 Emulator Tips and Tricks
+[Back to the Top](#model-2-emulator-table-of-contents)
+
+***
+
+### Which ROM Set Does Model 2 Emulator Use?
+[Back to the Top](#model-2-emulator-table-of-contents)
+
+Model 2 Emulator uses a merged ROM set. 
 
 ***

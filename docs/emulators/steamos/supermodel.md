@@ -21,6 +21,7 @@ GitHub: [https://github.com/trzy/Supermodel](https://github.com/trzy/Supermodel)
     - [How Supermodel ROMs Work](#how-supermodel-roms-work)
     - [File Formats](#supermodel-file-formats)
     - [Hotkeys](#supermodel-hotkeys) 
+2. [Supermodel Tips and Tricks](#supermodel-tips-and-tricks)
 
 ***
 
@@ -164,3 +165,16 @@ N/A
 
 ***
 
+## Supermodel Tips and Tricks
+[Back to the Top](#supermodel-table-of-contents)
+
+***
+
+### Which ROM Set Does Supermodel Use?
+[Back to the Top](#supermodel-table-of-contents)
+
+Supermodel uses a non-merged (ideally the latest) ROM set.
+
+See [How Supermodel ROMs Work](#how-supermodel-roms-work) for more information.
+
+***
