@@ -943,15 +943,15 @@ No, distribution of Citra and Yuzu is not allowed.
 
 No, support with configuring or troubleshooting either emulator is not allowed.
 
+***
+
+### How do I uninstall Citra and Yuzu?
+
 ???+ info "Home Directory"
     `$HOME` refers to your Home directory. On a Steam Deck, this path may be `/home/deck`.
 
 ???+ info "Hidden Folders"
     Directories with a `.` in front of their name, like `~/.steam`, are hidden by default. In Dolphin(file manager), click the hamburger menu in the top right and toggle on `Show Hidden Files`.
-
-***
-
-### How do I uninstall Citra and Yuzu?
 
 #### Citra - Flatpak
 
