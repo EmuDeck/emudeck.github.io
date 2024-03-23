@@ -960,8 +960,8 @@ When Citra was installed through EmuDeck, it was installed as a Flatpak.
 Delete the following files and folders:
 
 - [ ] Uninstall Citra through Discover
-- [ ] `$HOME/.var/app/org.citra_emu.citra`
 - [ ] `Citra.desktop` in `$HOME/.local/share/Applications`
+- [ ] `$HOME/.var/app/org.citra_emu.citra`
 
 #### Citra - AppImage
 
@@ -970,7 +970,7 @@ If you are installing Citra independent of EmuDeck, you are likely using the App
 Delete the following files and folders:
 
 - [ ] `citra-qt.AppImage` in `$HOME/Applications`
-- [ ] `$HOME/.var/app/org.citra_emu.citra`
+- [ ] `Citra.desktop` in `$HOME/.local/share/Applications`
 - [ ] `$HOME/.config/citra-emu`
 - [ ] `$HOME/.local/share/citra-emu`
 
