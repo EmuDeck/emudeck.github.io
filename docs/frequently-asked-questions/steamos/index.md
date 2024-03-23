@@ -943,4 +943,45 @@ No, distribution of Citra and Yuzu is not allowed.
 
 No, support with configuring or troubleshooting either emulator is not allowed.
 
+???+ info "Home Directory"
+    `$HOME` refers to your Home directory. On a Steam Deck, this path may be `/home/deck`.
+
+???+ info "Hidden Folders"
+    Directories with a `.` in front of their name, like `~/.steam`, are hidden by default. In Dolphin(file manager), click the hamburger menu in the top right and toggle on `Show Hidden Files`.
+
+***
+
+### How do I uninstall Citra and Yuzu?
+
+#### Citra - Flatpak
+
+When Citra was installed through EmuDeck, it was installed as a Flatpak.
+
+Delete the following files and folders:
+
+- [ ] Uninstall Citra through Discover
+- [ ] `$HOME/.var/app/org.citra_emu.citra`
+- [ ] `Citra.desktop` in `$HOME/.local/share/Applications`
+
+#### Citra - AppImage
+
+If you are installing Citra independent of EmuDeck, you are likely using the AppImage.
+
+Delete the following files and folders:
+
+- [ ] `citra-qt.AppImage` in `$HOME/Applications`
+- [ ] `$HOME/.var/app/org.citra_emu.citra`
+- [ ] `$HOME/.config/citra-emu`
+- [ ] `$HOME/.local/share/citra-emu`
+
+#### Yuzu
+
+Delete the following files and folders:
+
+- [ ] `yuzu.AppImage` in `$HOME/Applications`
+- [ ] `yuzu.desktop` in `$HOME/.local/share/Applications`
+- [ ] `$HOME/.config/yuzu`
+- [ ] `$HOME/.local/share/yuzu`
+- [ ] `Emulation/storage/yuzu`
+
 ***
