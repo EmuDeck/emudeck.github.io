@@ -1,0 +1,11 @@
+﻿Hotkey,melonDS
+Toggle Full Screen,`Start` + `L3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Fast Forward,`Select` + `R2`
+Pause/Play,`Select` + `A`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start` or hold `L5` or hold `R5`
+Close/Open Lid,`Start` + `DPad Up`
+Toggle Screens,`L4` or `R4` or `Start` + `DPad Left`
+Toggle FPS Limit,`Start` + `DPad Right`

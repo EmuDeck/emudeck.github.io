@@ -1,0 +1,6 @@
+﻿Console/System,ROM Folder Name,Emulator (Click for Link),File Types,BIOS Files
+**Bandai SuFami Turbo (Standalone)**,sufami,**[ares (Standalone)](https://ares-emu.net/compatibility)**,.bin .bml .bs .fig .sfc .smc .swc .zip,STBIOS.bin
+**Bandai Wonderswan (Standalone)**,wonderswan,**[ares (Standalone)](https://ares-emu.net/compatibility)**,.7z  .pc2  .ws  .wsc  .zip,Not Applicable
+**Bandai Wonderswan Color (Standalone)**,wonderswancolor,**[ares (Standalone)](https://ares-emu.net/compatibility)**,.7z  .pc2  .ws  .wsc  .zip,Not Applicable
+Bandai Wonderswan,wonderswan,[RetroArch Beetle Cygne](https://docs.libretro.com/library/beetle_cygne/),.7z  .pc2  .ws  .wsc  .zip,Not Applicable
+Bandai Wonderswan Color,wonderswancolor,[RetroArch Beetle Cygne](https://docs.libretro.com/library/beetle_cygne/),.7z  .pc2  .ws  .wsc  .zip,Not Applicable
