@@ -41,7 +41,7 @@ Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Confi
 
 In order to play Nintendo Switch games on Ryujinx, you need a `prod.keys` file to decrypt your ROMs. You will need to continue to keep your `prod.keys` up to date as new Nintendo Switch firmware releases. 
 
-If you play a Nintendo Switch game with Miis (example - Mario Kart 8 Deluxe), you will need firmware files. 
+Firmware **is required** to play Nintendo Switch games through Ryujinx. To install firmware, open Ryujinx, click `Tools`, click `Install Firmware` and select the appropriate option depending on how your firmware is packaged. 
 
 Read Ryujinx's Quick Start guide to learn how to dump Nintendo Switch keys, firmware, and ROMs: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-%26-Configuration-Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-%26-Configuration-Guide).
 
@@ -68,8 +68,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
     * It's recommended that you place your DLC and Updates directly in this folder. However, you can create any folder for Ryujinx DLC and Updates as long as it is not `Emulation/roms/switch`
     * For more detail, read: [How To Manage DLC and Updates](#how-to-manage-dlc-and-updates)
 * ROMs: `Emulation/roms/switch/`
-* Keys: `Emulation/bios/ryujinx/keys/`
-* Firmware: Install through Ryujinx GUI
+* Keys (**required**): `Emulation/bios/ryujinx/keys/`
+* Firmware (**required**): Install through Ryujinx GUI
     * ![Ryujinx Firmware](../../assets/ryujinx-firmware.png)
     * Firmware is installed to `$HOME/.config/Ryujinx/bis/system/Contents/registered`
 * Saves:
