@@ -61,7 +61,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 [Back to the Top](#ryujinx-table-of-contents)
 
 * Type of Emulator: Binary Package
-* Executable Location: `/home/deck/Applications/publish/Ryujinx`
+* Executable Location: `/home/deck/Applications/publish/Ryujinx` or `/home/deck/Applications/publish/Ryujinx.sh`
 * Config Location: `/home/deck/.config/Ryujinx/` 
 * Storage Location: `Emulation/storage/Ryujinx`
 * DLC and Updates: `Emulation/storage/Ryujinx/patchesAndDlc`
@@ -435,7 +435,9 @@ For further instructions, see [ES-DE: How to Select a Different Emulator on a Pe
 
 #### UI
 
-Changing Ryujinx's interface language is **only possible** on the Avalonia GUI. At this time, EmuDeck does not download the Avalonia GUI. If you would like to download Avalonia, you may do so from Ryujinx's GitHub, [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases). Extract and overwrite the files in `/home/deck/Applications/publish` to default to the new GUI.
+1. In Desktop Mode, open Ryujinx
+2. At the top, click `Options`, click `Change Language`
+3. Select your preferred language in the menu
 
 #### In-Game
 
