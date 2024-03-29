@@ -2958,14 +2958,16 @@ Options/Upright Wiimote = `Full Axis 2+`
 
 ***
 
-#### New Super Mario Bros Wii
+#### New Super Mario Bros Wii / Wario Land: Shake It!/Wario Land: The Shake Dimension
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `drone1313`
 
 **REQUIRES STEAMDECKGYRODSU TO BE INSTALLED**
 
-Comfortable button mapping for NSMB Wii, with run/hold set to X, jump to A, and spin/pickup to the right trigger. In-game gyro platforms can be tilted by tilting the Deck.
+Comfortable button mapping for NSMB Wii and Wario Land Wii. 
+For Mario, run/hold is set to X, jump to A, and spin/pickup to the right trigger. In-game gyro platforms can be tilted by tilting the Deck.
+For Wario, holding to throw is set to X, jump to A, and shaking to the right trigger. Angled throws, cannon trajectories and other tilt controls can be performed by tilting the Deck.
 
 **Download:** [nsmbwii.ini](../../community-creations-files/nsmbwii.ini){:download="nsmbwii.ini"}
 
@@ -3022,7 +3024,7 @@ IMUGyroscope/Roll Right = `Gyro Roll Right`
 IMUGyroscope/Yaw Left = `Gyro Yaw Left`
 IMUGyroscope/Yaw Right = `Gyro Yaw Right`
 Hotkeys/Sideways Toggle = SELECT&THUMBR
-Extension/Attach MotionPlus = False
+Extension = Nunchuk
 Nunchuk/Buttons/C = THUMBR
 Nunchuk/Buttons/Z = TR
 Nunchuk/Stick/Up = `Axis 1-`
