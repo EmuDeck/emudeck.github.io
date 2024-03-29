@@ -80,6 +80,7 @@ _If_ you intend on using encrypted ROMs, proceed to the [Setting up Cemu Questio
     2. Which Cemu ROM Formats are encrypted?: [File Formats](#cemu-native-file-formats)
     3. `keys.txt` Location: `/home/deck/.local/share/Cemu/`
     4. If your ROM is NUS Format (a folder with .h3 and .app files), you will need to decrypt your ROM into the Loadiine format (folder format with three subfolders - code, content, meta). Decryption methods cannot be discussed here or on the EmuDeck discord.
+        * The NUS format **cannot** be used through ES-DE, Steam ROM Manager, or Pegasus.
 2. Is your ROM decrypted?
     1. Which Cemu ROM Formats are decrypted?: [File Formats](#cemu-native-file-formats)
     2. If your ROM is decrypted, place the ROM in `Emulation/roms/wiiu/roms`. Your game should launch without needing any keys. 
@@ -252,6 +253,7 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 * NUS
     * A folder with `.h3` and `.app` files
     * Encrypted, can be decrypted into a `Loadiine (rpx)` folder. Decryption methods cannot be discussed here or on the EmuDeck discord.
+    * The NUS format **cannot** be used through ES-DE, Steam ROM Manager, or Pegasus.
 
 **IMPORTANT:**
 
@@ -272,7 +274,7 @@ Here's how to convert to WUA:
 
 **Note:** 
 
-* Encrypted ROMs (WUX, WUD, NUS) cannot be converted to WUA
+* Encrypted ROMs (WUX, WUD, NUS) cannot be converted to WUA.
 
 **Tutorial**
 
