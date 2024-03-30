@@ -930,6 +930,15 @@ After you have placed the AppImages in the appropriate place, you will see a "Re
 
 The latest configurations will work with the new Steam Input profiles included in EmuDeck 2.2. See [Emulator Frontends Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-button-combinations-profile) and [Emulator Frontends Radial Menu Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-radial-menu-profile) for more information. 
 
+### Why does the BIOS checker say I have missing firmware?
+
+Now that EmuDeck installs Ryujinx by default and can no longer install Yuzu, the BIOS checker **only** checks for the presence of **both** Ryujinx keys and firmware.
+
+For Ryujinx, **both** keys and firmware are required. If you do not have Ryujinx keys and firmware, the BIOS checker will say these are missing. 
+
+If you only have Yuzu keys (since the BIOS checker only checks for Ryujinx) and do not have Ryujinx configured, the BIOS checker will say these are missing. 
+
+However, the BIOS checker does not correlate to the validity of the keys in Yuzu. If you have the keys in place and you can confirm that these are valid, then Yuzu will work just fine. 
 
 ### What about all of the forks of Citra and Yuzu? Will EmuDeck support those?
 
