@@ -42,6 +42,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
     - [How to Optimize Breath of the Wild](#how-to-optimize-breath-of-the-wild)
     - [How to Roll Back Cemu to an Older Version](#how-to-roll-back-cemu-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
+    - [How to Configure Online Multiplayer Via Pretendo](#how-to-configure-online-multiplayer-via-pretendo)
 
 ***
 
@@ -592,5 +593,24 @@ The script launches the corresponding emulator in `/home/deck/Applications` and 
 1. In Desktop Mode, open Cemu
 2. Click `Options` at the to
 3. Click `Console language` and select your preferred language
+
+***
+
+### How to Configure Online Multiplayer Via Pretendo
+[Back to the Top](#cemu-native-table-of-contents)
+
+You need a **physical Wii U** to play online multiplayer via Pretendo. You **cannot** play online multiplayer without a physical Wii U.
+
+For instructions on how to dump the online files from a Wii U, see [https://cemu.cfw.guide/using-dumpling.html#copying-online-files-to-cemu](https://cemu.cfw.guide/using-dumpling.html#copying-online-files-to-cemu).
+
+For more information on Pretendo, see [https://pretendo.network/](https://pretendo.network/). 
+
+For Pretendo's installation instructions, see [https://pretendo.network/docs/install/cemu](https://pretendo.network/docs/install/cemu).
+
+1. From your Wii U, you will need to dump two files: `otp.bin` and `seeprom.bin`
+2. On the Steam Deck, place these two files directly in the `$HOME/.local/share/Cemu` folder
+    * Folders with a `.` (`.var`, `.local`, `.config`, etc.) at the beginning are hidden by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+3. In Desktop Mode, open Cemu, click `Options`, `General Settings`, click `Account`, select your `PNID` in the `Active Account` drop-down menu and select `Pretendo` under `Network Service`
+4. Pretendo is now configured for Cemu
 
 ***
