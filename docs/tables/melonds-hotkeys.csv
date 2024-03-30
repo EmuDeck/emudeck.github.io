@@ -7,5 +7,5 @@ Pause/Play,`Select` + `A`
 Reset Emulation,`Select` + `L3`
 Stop Emulation,`Select` + `Start` or hold `L5` or hold `R5`
 Close/Open Lid,`Start` + `DPad Up`
-Toggle Screens,`L4` or `R4` or `Start` + `DPad Left`
+Toggle Screens,`L4` or `R4` or `Start` + `DPad Left` or `Select` + `Y`
 Toggle FPS Limit,`Start` + `DPad Right`
