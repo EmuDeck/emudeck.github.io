@@ -129,6 +129,7 @@ org.flycast.Flycast/
 
 {{ read_csv('flycast-hotkeys.csv') }}
 
+* When playing arcade games through Flycast, the `Select` button will no longer open the `Quick Menu`. For arcade games specifically, the `Select` button is mapped to `Insert Coin`. For Dreamcast games, the `Select` button is mapped to the `Quick Menu`
 
 ***
 

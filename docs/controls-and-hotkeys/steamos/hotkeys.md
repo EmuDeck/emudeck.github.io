@@ -155,8 +155,6 @@ N/A
 {{ read_csv('mame-hotkeys.csv') }}
 
 
-**Note:** 
-
 * If you make any changes in the Quick Menu while in game, make sure to use one of the `Exit Emulator` hotkeys to close out of the game to ensure any changes you made are saved. If you use `STEAM` + the `Exit game` button, your changes **will not** be saved.
 
 ***
@@ -329,6 +327,8 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 [Back to the Top](#hotkeys-table-of-contents)
 
 {{ read_csv('flycast-hotkeys.csv') }}
+
+* When playing arcade games through Flycast, the `Select` button will no longer open the `Quick Menu`. For arcade games specifically, the `Select` button is mapped to `Insert Coin`. For Dreamcast games, the `Select` button is mapped to the `Quick Menu`
 
 
 ***
