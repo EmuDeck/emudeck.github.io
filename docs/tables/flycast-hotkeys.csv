@@ -1,6 +1,6 @@
 Hotkey,Flycast
-Quick Menu,`Select` or `STEAM` + `DPad Down` or `TAB`
-Save State,`R3` or `F2`
-Load State,`L3` or `F1`
+Quick Menu,`Select` or `TAB`
 Fast Forward,`STEAM` + `DPad Right` or `ENTER`
 Stop Emulation,`STEAM` + `DPad Left` or `ESCAPE`
+Insert Coin,`Select`*
+Insert Card,`R3`
