@@ -329,6 +329,7 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 {{ read_csv('flycast-hotkeys.csv') }}
 
 * When playing arcade games through Flycast, the `Select` button will no longer open the `Quick Menu`. For arcade games specifically, the `Select` button is mapped to `Insert Coin`. For Dreamcast games, the `Select` button is mapped to the `Quick Menu`
+* When playing arcade games through Flycast, `STEAM` + `DPad Down` will no longer open the `Quick Menu`. For arcade games specifically, `STEAM` + `DPad Down` is mapped to `Insert Card`. For Dreamcast games, the `STEAM` + `DPad Down` button is mapped to the `Quick Menu`
 
 
 ***
