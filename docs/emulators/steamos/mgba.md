@@ -32,6 +32,7 @@ GitHub: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Roll Back mGBA to an Older Version](#how-to-roll-back-mgba-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
+    - [How to Create Multiple Save Files for a Game](#how-to-create-multiple-save-files-for-a-game)
     - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
 
@@ -236,6 +237,8 @@ This section is strictly referring to local multiplayer. mGBA multiplayer on the
     * Player 3: `Microsoft X-Box 360 pad 2`
     * Player 4: `Microsoft X-Box 360 pad 3`
 5. Open the game in each mGBA window and you will be able to play multiplayer
+
+If you are intending on trading with yourself (in a Pokemon game as an example), you will need to create a second copy of your save file and rename the file extension to `.sa2`. 
 
 
 ***
@@ -450,3 +453,14 @@ Languages are cartridge-specific. For example, if you want to play Golden Sun in
 
 ***
 
+### How to Create Multiple Save Files for a Game
+[Back to the Top](#mgba-table-of-contents)
+
+If you would like to create multiple saves for a game in games where multiple save options are not available (the Pokemon games for example), you can do so by creating unique save files for the game.
+
+1. While in game, press `Start` + `L3`
+2. At the top, click `File`
+3. Click `Save Games`
+4. Select your preferred save slot, `Use Player # save game`
+
+***
