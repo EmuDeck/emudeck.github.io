@@ -17,6 +17,7 @@ GitHub: [https://github.com/flyinghead/flycast](https://github.com/flyinghead/fl
 2. [Flycast Tips and Tricks](#flycast-tips-and-tricks)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Configure the Sega Dreamcast Microphone](#how-to-configure-the-sega-dreamcast-microphone)
+    - [How to Configure Light Gun Games](#how-to-configure-light-gun-games)
 
 
 ***
@@ -177,5 +178,27 @@ To set this on a per-game setting:
 5. Under the `Dreamcast Devices` section, on the `Port A` controller, set the first port to `Sega VMU` and the second port to `Microphone`
 6. Click `Make Game Config` at the top of the screen
 7. Exit out of the settings and your microphone will only be enabled for this game
+
+***
+
+### How to Configure Light Gun Games
+[Back to the Top](#flycast-table-of-contents)
+
+#### Flycast Controls
+
+1. Open a game with light gun support
+2. Press `STEAM` or `...` + `DPad Down` to open the `Quick Menu`
+3. At the top, click `Make Game Config`
+4. Click the `Controls` Tab
+5. Scroll down to `Dreamcast Devices`
+6. Set the `Port A` controller to `Light Gun` and check the `Crosshair` box
+
+#### Steam Input
+
+1. In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whichever name it is currently set to) at the top
+2. Click the `Templates` tab
+3. Select the `EmuDeck - Steam Deck Light Gun Controls` profile
+4. Light gun controls will now be configured for this game
+
 
 ***

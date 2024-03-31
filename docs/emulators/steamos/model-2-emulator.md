@@ -16,6 +16,7 @@ Information: [https://emulation.gametechwiki.com/index.php/Sega_Model_2](https:/
     - [Hotkeys](#model-2-emulator-hotkeys)
 2. [Model 2 Emulator Tips and Tricks](#model-2-emulator-tips-and-tricks)
     - [Which ROM Set Does Model 2 Emulator Use?](#which-rom-set-does-model-2-emulator-use)
+    - [How to Configure Light Gun Games](#how-to-configure-light-gun-games)
 
 ***
 
@@ -348,5 +349,15 @@ model2/
 [Back to the Top](#model-2-emulator-table-of-contents)
 
 Model 2 Emulator uses a merged ROM set. 
+
+***
+
+### How to Configure Light Gun Games
+[Back to the Top](#model-2-emulator-table-of-contents)
+
+1. In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whichever name it is currently set to) at the top
+2. Click the `Templates` tab
+3. Select the `EmuDeck - Steam Deck Light Gun Controls` profile
+4. Light gun controls will now be configured for this game
 
 ***

@@ -23,6 +23,7 @@ GitHub: [https://github.com/trzy/Supermodel](https://github.com/trzy/Supermodel)
     - [Hotkeys](#supermodel-hotkeys) 
 2. [Supermodel Tips and Tricks](#supermodel-tips-and-tricks)
     - [Which ROM Set Does Supermodel Use?](#which-rom-set-does-supermodel-use)
+    - [How to Configure Light Gun Games](#how-to-configure-light-gun-games)
 
 ***
 
@@ -177,5 +178,15 @@ N/A
 Supermodel uses a non-merged (ideally the latest) ROM set.
 
 See [How Supermodel ROMs Work](#how-supermodel-roms-work) for more information.
+
+***
+
+### How to Configure Light Gun Games
+[Back to the Top](#supermodel-table-of-contents)
+
+1. In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whichever name it is currently set to) at the top
+2. Click the `Templates` tab
+3. Select the `EmuDeck - Steam Deck Light Gun Controls` profile
+4. Light gun controls will now be configured for this game
 
 ***

@@ -34,6 +34,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
     - [How to Roll Back MAME to an Older Version](#how-to-roll-back-mame-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Use Cheats](#how-to-use-cheats)
+    - [How to Configure Light Gun Games](#how-to-configure-light-gun-games)
     - [Community MAME Controller Profiles](../../community-creations/steamos/community-creations.md#community-mame-controller-profiles)
 
 ***
@@ -377,5 +378,15 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 3. Move `cheat.7z` from the extracted folder to `Emulation/storage/mame/cheat`
 4. Open MAME without a game loaded, click `General Settings`, `Miscellaneous Options`, toggle `Cheats` on, back out of this menu, click `Save Settings`
 5. While in game, press `Select` + `R3` to open the Quick Menu, click `Cheat Options`, enable cheat(s)
+
+***
+
+### How to Configure Light Gun Games
+[Back to the Top](#mame-table-of-contents)
+
+1. In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whichever name it is currently set to) at the top
+2. Click the `Templates` tab
+3. Select the `EmuDeck - Steam Deck Light Gun Controls` profile
+4. Light gun controls will now be configured for this game
 
 ***

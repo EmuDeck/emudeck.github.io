@@ -83,7 +83,7 @@ EmuDeck comes with a few Steam Input profiles to make hotkeys easier to use in a
 
 #### Selecting  Steam Input Profiles
 
-In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whatever name it is currently set to) at the top, and you will see a drop-down menu. 
+In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the `Controller Icon` on the right of the screen. Click the layout (whichever name it is currently set to) at the top, and you will see a drop-down menu. 
 
 For a visual, watch the following GIF (DuckStation is being used as an example):
 
