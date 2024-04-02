@@ -33,9 +33,11 @@ categories:
 * Flycast (New emulator!)
     * Added Flycast to EmuDeck
         * [#617](https://github.com/dragoonDorise/EmuDeck/pull/617)
+    * Fixed GUI scaling bug in Game Mode
 * MAME
     * Fixed settings not applying properly in the GUI
     * Added a `Cheats` folder to `Emulation/storage/mame`
+    * Added OOTB support for light gun games using the Steam Deck trackpad
 * melonDS
     * Fixed cheats not applying properly
 * Model 2 Emulator (New emulator!)
@@ -60,6 +62,7 @@ categories:
         * [#957](https://github.com/dragoonDorise/EmuDeck/commit/dc9803a729db0920fc06d5ef77e6097bee1a4f50)
     * Culled unused/outdated cores
         * [#597](https://github.com/dragoonDorise/EmuDeck/pull/597)
+    * Added support for the RetroArch Citra core
 * Rosalie's Mupen GUI
     * Added combo hotkeys, see [RMG Hotkeys](../../emulators/steamos/rmg.md#rmg-hotkeys) for a full list
     * Fixed save and save state folders not being created
@@ -90,8 +93,10 @@ categories:
     * Added "Atomiswave (Flycast Standalone)" parser
     * Added "NAOMI (Flycast Standalone)" parser
     * Added "NAOMI 2 (Flycast Standalone)" parser
+    * Added "Nintendo 3DS (RetroArch Citra)" parser
     * Added "Philips CD-i (MAME Standalone)" parser
     * Added "SNK Neo Geo CD - MAME (MAME Standalone)" parser
+    * Added "SNK Neo Geo CD - MAME (RetroArch FBNeo)" parser
     * Added "Tiger Electronics Game.com - MAME (MAME Standalone)" parser
     * Added "VTech VSmile - MAME (MAME Standalone)" parser
     * Added "Mattel Electronics Intellivison (RA Core)" parser
@@ -160,6 +165,9 @@ categories:
         * Pressure sensitivity dialed way down from the previous profile   
         * [#1018](https://github.com/dragoonDorise/EmuDeck/pull/1018)
     * Added `EmuDeck - Controller Hotkeys` and `EmuDeck - Frontend Controller Hotkeys` profiles for controllers. See the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page for a full list of the new hotkeys
+    * Added a `EmuDeck - Steam Deck Light Gun Controls` proifle
+        * Intended to be used with Flycast (Standalone), MAME (Standalone), the Model 2 Emulator, and Supermodel
+        * Right Trackpad set as mouse, sensitivity set to 200%. R2 set to "Left Click". L2 set to "Right Click". 
 * Moved all `/bin/sh` and `/usr/bin/bash` to `/bin/bash` 
     * [#972](https://github.com/dragoonDorise/EmuDeck/pull/972)
 * Updated emulatorInit/isLatestVersionGH
