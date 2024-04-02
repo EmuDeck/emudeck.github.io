@@ -307,7 +307,7 @@ A handful of Nintendo DS games require portrait orientation. For these games, yo
 
 **Here's How**
 
-1. In Game Mode, select the `EmuDeck - MelonDS` profile if you are playing a game directly from Game Mode or the `EmuDeck - ES-DE` profile if you are playing through ES-DE
+1. In Game Mode, select the `EmuDeck - Controller Hotkeys` profile if you are playing a game directly from Game Mode or the `EmuDeck - Frontend Controller Hotkeys` profile if you are playing through ES-DE or Pegasus
     * [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
 2. Open the game, use the Steam Input profile and select the `Fullscreen` hotkey
 3. At the top, press `Config`, `Screen Rotation`, `270`
