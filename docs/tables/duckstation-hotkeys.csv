@@ -5,7 +5,7 @@ Save State,`Select` + `R1`
 Load State,`Select` + `L1`
 Next Save State Slot,`Start` + `R1`
 Previous Save State Slot,`Start` + `L1`
-Fast Forward,`Start` + `R2`
+Fast Forward,`Select` + `R2`
 Rewind,`Select` + `L2`
 Pause/Play,`Select` + `A`
 Screenshot,`Select` + `B`
