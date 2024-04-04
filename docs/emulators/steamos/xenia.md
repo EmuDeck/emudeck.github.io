@@ -41,6 +41,7 @@ It's HIGHLY recommended to see if a game you wish to emulate has a native PC ver
     - [How to Set Up Xbox Live Arcade Games](#how-to-set-up-xbox-live-arcade-games)
     - [How to Delete Xenia's Prefix](#how-to-delete-xenias-prefix)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
+    - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
 
 
 
@@ -55,7 +56,7 @@ Xenia is a fairly straight-forward emulator to set up. Place your Xbox 360 ROMs 
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Xbox 360 ROMs:
 
-* `EmulationStation-DE`
+* `ES-DE`
 * `Microsoft Xbox 360 - Xenia`
 * `Microsoft Xbox 360 - Xenia - XBLA`
 * `Emulators`
@@ -81,7 +82,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE
+* ES-DE
 
 ***
 
@@ -299,7 +300,7 @@ Xenia cannot be installed on your initial installation of EmuDeck. It can only b
 5. Xenia will be installed to `Emulation/roms/xbox360`
     * Place your Xbox 360 ROMs in `Emulation/roms/xbox360/roms` and Xbox Live Arcade ROMs in `Emulation/roms/xbox360/roms/xbla`
 
-**No** additional setup is required with Steam ROM Manager and EmulationStation-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
+**No** additional setup is required with Steam ROM Manager and ES-DE. If you do not have the latest Steam ROM Manager configurations, either run a `Custom Reset` or click the `Reset configuration` button on the Steam ROM Manager page within the EmuDeck application.
 
 ***
 
@@ -528,11 +529,11 @@ Banjo Kazooie
 
 The `DA78E477AA5E31A7D01AE8F84109FD4BF89E49E8` file is the game file used to launch Banjo Kazooie. 
 
-To make this format easier to use with both Steam ROM Manager and EmulationStation-DE, rename the game file to match the game name. Using Banjo Kazooie as an example, rename `DA78E477AA5E31A7D01AE8F84109FD4BF89E49E8` to `Banjo Kazooie`. 
+To make this format easier to use with both Steam ROM Manager and ES-DE, rename the game file to match the game name. Using Banjo Kazooie as an example, rename `DA78E477AA5E31A7D01AE8F84109FD4BF89E49E8` to `Banjo Kazooie`. 
 
 Move the newly renamed `Banjo Kazooie` file to `Emulation/roms/xbox360/roms/xbla`. **Note the second roms folder.** 
 
-Use the `Microsoft Xbox 360 - Xenia - XBLA` parser in Steam ROM Manager or EmulationStation-DE to play your game. You **do not** need any of the additional folders included with the original ROM. You may delete these folders.  
+Use the `Microsoft Xbox 360 - Xenia - XBLA` parser in Steam ROM Manager or ES-DE to play your game. You **do not** need any of the additional folders included with the original ROM. You may delete these folders.  
 
 #### Xenia Configuration
 
@@ -612,5 +613,96 @@ However, running Xenia through Proton will still create a prefix (a sort of Wind
     * 16=nl 
     * 17=zh
 5. Save and exit out of the text file
+
+***
+
+### How to Set Game Settings On a Per-Game Basis
+[Back to the Top](#xenia-table-of-contents)
+
+For a full list of Xenia configurations, see [https://github.com/xenia-canary/xenia-canary/wiki/Options](https://github.com/xenia-canary/xenia-canary/wiki/Options).
+
+Depending on which front-end you are using, the below sections will cover how to apply the Xenia configurations as flags for your games. To convert these configurations into flags, remove any spaces and add two dashes to the beginning of the config name. 
+
+A few examples:
+
+**Xenia Config**
+
+license_mask = #
+
+user_language = #
+
+gpu = string
+
+mount_cache = bool
+
+**Xenia Flag**
+
+In order to enable license mask:
+* `--license_mask=1` 
+
+To set Polish as the language:
+* `--user_language=11`
+
+To set the GPU as vulkan:
+* `--gpu="vulkan"`
+
+To enable mount_cache
+* `--mount_cache=true`
+
+#### ES-DE
+
+1. In Desktop Mode, open the `Emulation/roms/xbox360/roms` folder or `Emulation/roms/xbox360/roms/xbla` folder
+2. Right click anywhere in the folder, click `Create New --> Text File`
+3. Match the name of the text file to the game and set the file extension to `.esprefix`
+    * For example: 
+        * ROM Name: `Peggle`
+        * New text file name: `Peggle.esprefix`
+4. Open the newly created text file in Kate or a text editor of your choice
+5. On a single line, write: 
+    * `--configname=configvalue`
+        * For example:
+            * `--license_mask=1`
+            * `--user_language=11`
+            * `--gpu="vulkan"`
+            * `--mount_cache=true`
+6. The config you set will now be applied to this specific game in ES-DE
+
+#### Pegasus
+
+1. In Desktop Mode, open the `Emulation/roms/xbox360/roms`
+2. Right click `metadata.txt`, click `Open with Kate` or a text editor of your choice
+3. At the bottom of the text file, add a new section using the following format:
+
+    game: GAMENAME
+    file: FILENAME
+    launch: /PATH/TO/xenia.sh "Z:{file.path}" --CONFIGNAME=CONFIGVALUE
+
+4. Replace GAMENAME with the name of the game
+    * For example:
+        * FILENAME: `Banjo-Kazooie - Nuts & Bolts`
+5. Replace FILENAME with the file name
+    * For example:
+        * FILENAME: `Banjo-Kazooie - Nuts & Bolts.iso`
+6. Edit `/PATH/TO` with the path to `xenia.sh`, the path for `xenia.sh` will be at the top of the `metadata.txt` file, you may copy it here
+7. Edit `--CONFIGNAME=CONFIGVALUE` with your preferred configuration
+    * For example:
+        * `--license_mask=1`
+        * `--user_language=11`
+        * `--gpu="vulkan"`
+        * `--mount_cache=true`
+8. Save and exit out of the file
+9. The config you set will now be applied to this specific game in Pegasus
+
+#### Steam Shortcuts through Steam ROM Manager
+
+1. Add your ROMs to Steam through Steam ROM Managr
+2. On the game page in Steam, click the `Gear` icon, click `Properties`
+3. In the `Launch Options` box, type `--CONFIGNAME=CONFIGVALUE`
+    * For example:
+        * `--license_mask=1`
+        * `--user_language=11`
+        * `--gpu="vulkan"`
+        * `--mount_cache=true`
+4. The config you set will now be applied to this specific game in Steam
 
 ***
