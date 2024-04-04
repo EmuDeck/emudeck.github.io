@@ -638,15 +638,19 @@ mount_cache = bool
 **Xenia Flag**
 
 In order to enable license mask:
+
 * `--license_mask=1` 
 
 To set Polish as the language:
+
 * `--user_language=11`
 
 To set the GPU as vulkan:
+
 * `--gpu="vulkan"`
 
 To enable mount_cache
+
 * `--mount_cache=true`
 
 #### ES-DE
