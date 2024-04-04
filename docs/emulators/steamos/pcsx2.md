@@ -298,7 +298,7 @@ You can manage multiple discs two ways:
 
 #### Method 1: Hotkeys
 
-1. While in game, when you are ready to switch discs, press `Start` + `L3` at the same time
+1. While in game, when you are ready to switch discs, press `Select` + `R3` at the same time
 2. Select `Change Disc` and select your next disc
 
 #### Method 2: Separate Game Entries
