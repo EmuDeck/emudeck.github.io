@@ -683,10 +683,13 @@ To enable mount_cache:
 
 4. Replace GAMENAME with the name of the game
     * For example:
-        * FILENAME: `Banjo-Kazooie - Nuts & Bolts`
+        * `Banjo-Kazooie - Nuts & Bolts`
 5. Replace FILENAME with the file name
     * For example:
-        * FILENAME: `Banjo-Kazooie - Nuts & Bolts.iso`
+        * `Banjo-Kazooie - Nuts & Bolts.iso`
+    * If your ROM is in `Emulation/roms/xbox360/roms/xbla`, write `xbla/FILENAME`
+        * For example:
+            * `xbla/Peggle`
 6. Edit `/PATH/TO` with the path to `xenia.sh`, the path for `xenia.sh` will be at the top of the `metadata.txt` file, you may copy it here
 7. Edit `--CONFIGNAME=CONFIGVALUE` with your preferred configuration
     * For example:
