@@ -649,7 +649,7 @@ To set the GPU as vulkan:
 
 * `--gpu="vulkan"`
 
-To enable mount_cache
+To enable mount_cache:
 
 * `--mount_cache=true`
 
