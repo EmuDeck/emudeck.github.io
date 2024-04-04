@@ -627,13 +627,13 @@ A few examples:
 
 **Xenia Config**
 
-license_mask = #
+`license_mask = #`
 
-user_language = #
+`user_language = #`
 
-gpu = string
+`gpu = string`
 
-mount_cache = bool
+`mount_cache = bool`
 
 **Xenia Flag**
 
