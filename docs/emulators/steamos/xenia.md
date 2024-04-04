@@ -677,9 +677,9 @@ To enable mount_cache
 2. Right click `metadata.txt`, click `Open with Kate` or a text editor of your choice
 3. At the bottom of the text file, add a new section using the following format:
 
-    game: GAMENAME
-    file: FILENAME
-    launch: /PATH/TO/xenia.sh "Z:{file.path}" --CONFIGNAME=CONFIGVALUE
+        game: GAMENAME
+        file: FILENAME
+        launch: /PATH/TO/xenia.sh "Z:{file.path}" --CONFIGNAME=CONFIGVALUE
 
 4. Replace GAMENAME with the name of the game
     * For example:
