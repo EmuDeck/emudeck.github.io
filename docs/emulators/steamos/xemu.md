@@ -37,11 +37,13 @@ Quickstart Guide (Skip the HDD requirement, it is pre-included with EmuDeck): [h
         - [Method 6: dd](#method-6-dd-linux)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Apply Zink](#how-to-apply-zink)
+        - [How to Apply Zink to ES-DE Games](#how-to-apply-zink-to-es-de-games)
+        - [How to Apply Zink to Pegasus Games](#how-to-apply-vs_position_always_invarianttrue-to-pegasus-games)
         - [How to Apply Zink to Steam ROM Manager Shortcuts](#how-to-apply-zink-to-steam-rom-manager-shortcuts)
-        - [How to Apply Zink to EmulationStation-DE Games](#how-to-apply-zink-to-emulationstation-de-games)
     - [vs_position_always_invariant=true](#vs_position_always_invarianttrue)
+        - [How to Apply vs_position_always_invariant=true to ES-DE Games](#how-to-apply-vs_position_always_invarianttrue-to-es-de-games)
+        - [How to Apply vs_position_always_invariant=true to Pegasus Games](#how-to-apply-vs_position_always_invarianttrue-to-pegasus-games)
         - [How to Apply vs_position_always_invariant=true to Steam ROM Manager Shortcuts](#how-to-apply-vs_position_always_invarianttrue-to-steam-rom-manager-shortcuts)
-        - [How to Apply vs_position_always_invariant=true to EmulationStation-DE Games](#how-to-apply-vs_position_always_invarianttrue-to-emulationstation-de-games)
     - [How to Access Saves](#how-to-access-saves)
     - [How to Roll Back Xemu to an Older Version](#how-to-roll-back-xemu-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
@@ -57,7 +59,7 @@ Xemu is a fairly straight-forward emulator to set up. Place your xiso formatted 
 
 To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Xbox (OG) ROMs:
 
-* `EmulationStation-DE`
+* `ES-DE`
 * `Microsoft XBox - Xemu` 
 * `Emulators`
 
@@ -83,7 +85,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE
+* ES-DE
 
 ***
 
@@ -332,7 +334,7 @@ Xemu comes with a nifty auto-map feature that makes setting up multiplayer a bre
     * Player 2: `Steam Virtual Gamepad 2`      
     * Player 3: `Steam Virtual Gamepad 3`      
     * Player 4: `Steam Virtual Gamepad 4`
-5. After you are finished enabling any additional players, exit out of Xemu and you may open your game either directly as a shortcut in Steam or through EmulationStation-DE    
+5. After you are finished enabling any additional players, exit out of Xemu and you may open your game either directly as a shortcut in Steam or through ES-DE   
 6. (Optional) You may need to re-arrange the controller order in Game Mode for your controllers to function as expected. See [How to Re-Arrange the Controller Order](../../controls-and-hotkeys/steamos/external-controllers.md#how-to-re-arrange-the-controller-order) to learn how
 
 ***
@@ -348,10 +350,7 @@ However, Zink can also cause performance hits in certain games. Apply it on a pe
 
 You can read more about the issue here: [https://github.com/xemu-project/xemu/issues/1279#issuecomment-1381015271](https://github.com/xemu-project/xemu/issues/1279#issuecomment-1381015271). 
 
-Read one of the below sections to learn how to apply Zink to your Xbox games:
-
-- [How to Apply Zink to Steam ROM Manager Shortcuts](#how-to-apply-zink-to-steam-rom-manager-shortcuts)
-- [How to Apply Zink to EmulationStation-DE Games](#how-to-apply-zink-to-emulationstation-de-games)
+Read one of the below sections to learn how to apply Zink to your Xbox games.
 
 **Practical Uses of Zink**
 
@@ -359,19 +358,7 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
 * Improves performance in some games (may worsen in others)
 * Fixes black screen issues in some games
 
-#### How to Apply Zink to Steam ROM Manager Shortcuts
-[Back to the Top](#how-to-apply-zink)
-
-1. In Desktop Mode, open Steam
-2. Select an Xbox Game shortcut in Steam
-3. Click the `Gear` icon 
-    * <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
-4. Click `Properties` 
-5. In the `Launch Options` box, enter: `__GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink %command%`
-    * <img src="https://user-images.githubusercontent.com/108900299/226739203-c14b2c57-3029-4f87-baa3-2fa9d0af8bef.png" height="300">
-6. Zink will now be applied to this specific game's Steam shortcut, repeat for each game you would like to apply Zink
-
-#### How to Apply Zink to EmulationStation-DE Games
+#### How to Apply Zink to ES-DE Games
 [Back to the Top](#how-to-apply-zink)
 
 1. In Desktop Mode, open the `Emulation/roms/xbox` folder
@@ -387,7 +374,39 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
     * `__GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink`
     * Example:
         * <img src="https://user-images.githubusercontent.com/108900299/226754331-28689940-10ef-42b5-9164-4bc58188ea68.png" height="300">
-6. Zink will now be applied to this specific game in EmulationStation-DE, repeat for each game you would like to apply Zink
+6. Zink will now be applied to this specific game in ES-DE, repeat for each game you would like to apply Zink
+
+#### How to Apply Zink to Pegasus Games
+
+1. In Desktop Mode, open the `Emulation/roms/xbox/roms` folder
+2. Right click `metadata.txt`, click `Open with Kate` or a text editor of your choice
+3. At the bottom of the text file, add a new section using the following format:
+
+        game: GAMENAME
+        file: FILENAME
+        launch: /PATH/TO/xemu.sh "{file.path}" __GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink
+
+4. Replace GAMENAME with the name of the game
+    * For example:
+        * `Conker: Live & Reloaded`
+5. Replace FILENAME with the file name
+    * For example:
+        * `Conker: Live & Reloaded.iso`
+6. Edit `/PATH/TO` with the path to `xemu.sh`, the path for `xemu.sh` will be at the top of the `metadata.txt` file, you may copy it here
+7. Save and exit out of the file
+8. Zink will now be applied to this specific game in Pegasus, repeat for each game you would like to apply Zink
+
+#### How to Apply Zink to Steam ROM Manager Shortcuts
+[Back to the Top](#how-to-apply-zink)
+
+1. In Desktop Mode, open Steam
+2. Select an Xbox Game shortcut in Steam
+3. Click the `Gear` icon 
+    * <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
+4. Click `Properties` 
+5. In the `Launch Options` box, enter: `__GLX_VENDOR_LIBRARY_NAME=mesa MESA_LOADER_DRIVER_OVERRIDE=zink GALLIUM_DRIVER=zink %command%`
+    * <img src="https://user-images.githubusercontent.com/108900299/226739203-c14b2c57-3029-4f87-baa3-2fa9d0af8bef.png" height="300">
+6. Zink will now be applied to this specific game's Steam shortcut, repeat for each game you would like to apply Zink
 
 ***
 
@@ -404,22 +423,9 @@ Setting `vs_position_always_invariant=true` for Xemu games can be considered an 
     * Games with black screen issues (Not an exhaustive list)
         * Burnout 3 and Phantom Dust   
 
-Read one of the below sections to learn how to apply Zink to your Xbox games:
+Read one of the below sections to learn how to apply Zink to your Xbox games.
 
-- [How to Apply vs_position_always_invariant=true to Steam ROM Manager Shortcuts](#how-to-apply-vs_position_always_invarianttrue-to-steam-rom-manager-shortcuts)
-- [How to Apply vs_position_always_invariant=true to EmulationStation-DE Games](#how-to-apply-vs_position_always_invarianttrue-to-emulationstation-de-games)
-
-#### How to Apply vs_position_always_invariant=true to Steam ROM Manager Shortcuts
-
-1. In Desktop Mode, open Steam
-2. Select an Xbox Game shortcut in Steam
-3. Click the `Gear` icon 
-    * <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
-4. Click `Properties` 
-5. In the `Launch Options` box, enter: `vs_position_always_invariant=true %command%`
-6. `vs_position_always_invariant=true` will now be applied to this specific game's Steam shortcut, repeat for each game you would like to apply `vs_position_always_invariant=true`
-
-#### How to Apply vs_position_always_invariant=true to EmulationStation-DE Games
+#### How to Apply vs_position_always_invariant=true to ES-DE Games
 
 1. In Desktop Mode, open the `Emulation/roms/xbox` folder
 2. Right click anywhere in the folder, click `Create New --> Text File`
@@ -432,7 +438,37 @@ Read one of the below sections to learn how to apply Zink to your Xbox games:
 4. Open the newly created text file in Kate or a text editor of your choice
 5. On a single line, write: 
     * `vs_position_always_invariant=true`
-6. `vs_position_always_invariant=true` will now be applied to this specific game in EmulationStation-DE, repeat for each game you would like to apply `vs_position_always_invariant=true`
+6. `vs_position_always_invariant=true` will now be applied to this specific game in ES-DE, repeat for each game you would like to apply `vs_position_always_invariant=true`
+
+#### How to Apply vs_position_always_invariant=true to Pegasus Games
+
+1. In Desktop Mode, open the `Emulation/roms/xbox/roms` folder
+2. Right click `metadata.txt`, click `Open with Kate` or a text editor of your choice
+3. At the bottom of the text file, add a new section using the following format:
+
+        game: GAMENAME
+        file: FILENAME
+        launch: /PATH/TO/xemu.sh "{file.path}" vs_position_always_invariant=true
+
+4. Replace GAMENAME with the name of the game
+    * For example:
+        * `Conker: Live & Reloaded`
+5. Replace FILENAME with the file name
+    * For example:
+        * `Conker: Live & Reloaded.iso`
+6. Edit `/PATH/TO` with the path to `xemu.sh`, the path for `xemu.sh` will be at the top of the `metadata.txt` file, you may copy it here
+7. Save and exit out of the file
+8. `vs_position_always_invariant=true` will now be applied to this specific game in Pegasus
+
+#### How to Apply vs_position_always_invariant=true to Steam ROM Manager Shortcuts
+
+1. In Desktop Mode, open Steam
+2. Select an Xbox Game shortcut in Steam
+3. Click the `Gear` icon 
+    * <img src="https://user-images.githubusercontent.com/108900299/226738898-c724328a-b91c-42d8-91d3-4109998b8212.png" height="300">
+4. Click `Properties` 
+5. In the `Launch Options` box, enter: `vs_position_always_invariant=true %command%`
+6. `vs_position_always_invariant=true` will now be applied to this specific game's Steam shortcut, repeat for each game you would like to apply `vs_position_always_invariant=true`
 
 ***
 
