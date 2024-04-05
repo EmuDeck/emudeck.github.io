@@ -673,7 +673,7 @@ To enable mount_cache:
 
 #### Pegasus
 
-1. In Desktop Mode, open the `Emulation/roms/xbox360/roms`
+1. In Desktop Mode, open the `Emulation/roms/xbox360/roms` folder
 2. Right click `metadata.txt`, click `Open with Kate` or a text editor of your choice
 3. At the bottom of the text file, add a new section using the following format:
 
@@ -702,7 +702,7 @@ To enable mount_cache:
 
 #### Steam Shortcuts through Steam ROM Manager
 
-1. Add your ROMs to Steam through Steam ROM Managr
+1. Add your ROMs to Steam through Steam ROM Manager
 2. On the game page in Steam, click the `Gear` icon, click `Properties`
 3. In the `Launch Options` box, type `--CONFIGNAME=CONFIGVALUE`
     * For example:
