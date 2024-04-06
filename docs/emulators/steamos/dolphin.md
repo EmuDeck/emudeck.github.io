@@ -60,7 +60,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
         - [Gyro Steam Deck on Dolphin](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
         - [Wiimote Motion Controls With No Attachment](../../community-creations/steamos/community-creations.md#gyro-steam-deck-on-dolphin)
         - [Wiimote Motion Controls With Nunchuck](../../community-creations/steamos/community-creations.md#wiimote-motion-controls-with-nunchuck)
-        - [New Super Mario Bros Wii / Wario Land: Shake It!/Wario Land: The Shake Dimension](../../community-creations/steamos/community-creations.md#new-super-mario-bros-wii--wario-land-shake-itwario-land-the-shake-dimension)
+        - [New Super Mario Bros Wii / Wario Land: Shake It! / Wario Land: The Shake Dimension](../../community-creations/steamos/community-creations.md#new-super-mario-bros-wii--wario-land-shake-it--wario-land-the-shake-dimension)
         - [Sideways Wiimote With No Attachment](../../community-creations/steamos/community-creations.md#sideways-wiimote-with-no-attachment)
         - [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
 

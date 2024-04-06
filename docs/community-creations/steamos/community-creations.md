@@ -2637,12 +2637,7 @@ IMUGyroscope/Yaw Left = `DSUClient/0/steamdeckgyro:Gyro Yaw Left`
 IMUGyroscope/Yaw Right = `DSUClient/0/steamdeckgyro:Gyro Yaw Right`
 IMUIR/Recenter = THUMBR
 Extension = Nunchuk
-Nunchuk/Buttons/C = TL
-Nunchuk/Buttons/Z = `Full Axis 2+`
-Nunchuk/Stick/Up = `Axis 1-`
-Nunchuk/Stick/Down = `Axis 1+`
-Nunchuk/Stick/Left = `Axis 0-`
-Nunchuk/Stick/Right = `Axis 0+`
+Nunchuk/Buttons/C = TLhttps://www.tiktok.com/@loganwithaf/video/7353373457633004842
 Nunchuk/Stick/Modifier/Range = 50.0
 Nunchuk/Stick/Calibration = 100.00 101.96 107.70 111.02 112.30 107.98 106.91 101.96 100.00 101.96 108.24 113.14 114.55 111.79 108.24 101.96 100.00 101.96 108.24 113.60 114.92 113.33 108.24 101.96 100.00 101.96 108.24 110.60 109.10 108.88 108.24 101.96
 Nunchuk/Tilt/Modifier/Range = 50.0
@@ -2958,7 +2953,7 @@ Options/Upright Wiimote = `Full Axis 2+`
 
 ***
 
-#### New Super Mario Bros Wii / Wario Land: Shake It!/Wario Land: The Shake Dimension
+#### New Super Mario Bros Wii / Wario Land: Shake It! / Wario Land: The Shake Dimension
 [Back to the Top](#community-creations-table-of-contents)
 
 Credit: `drone1313`
@@ -2971,6 +2966,11 @@ For Wario, holding to throw is set to X, jump to A, and shaking to the right tri
 
 **Download:** [nsmbwii.ini](../../community-creations-files/nsmbwii.ini){:download="nsmbwii.ini"}
 
+**Supported Games**
+
+* New Super Mario Bros Wii
+* Wario Land: Shake It!
+* Wario Land: The Shake Dimension
 
 Profile Name: `nsmbwii.ini`
 
@@ -3079,6 +3079,12 @@ Options/Sideways Wiimote = True
 Credit: `Ghost of Christmas Yet to Come`
 
 **Download:** [Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini){:download="sideways_wiimote_with_no_attachment.ini"}
+
+**Game Examples**
+
+* Kirby's Epic Yarn
+* Kirby's Return to Dream Land
+* Super Paper Mario
 
 Profile Name: `sideways_wiimote_with_no_attachment.ini`
 
