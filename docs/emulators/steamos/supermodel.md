@@ -19,6 +19,7 @@ GitHub: [https://github.com/trzy/Supermodel](https://github.com/trzy/Supermodel)
     - [How to Update Supermodel](#how-to-update-supermodel)
     - [How to Launch Supermodel in Desktop Mode](#how-to-launch-supermodel-in-desktop-mode)
     - [How Supermodel ROMs Work](#how-supermodel-roms-work)
+    - [Widescreen Hacks](#widescreen-hacks)
     - [File Formats](#supermodel-file-formats)
     - [Hotkeys](#supermodel-hotkeys) 
 2. [Supermodel Tips and Tricks](#supermodel-tips-and-tricks)
@@ -150,6 +151,46 @@ To summarize:
 As of March 11th, 2024, the latest **non-merged** ROM set is 0.263. To use Supermodel, ideally use the latest **non-merged** (0.263) and keep your ROMs zipped. Unzipping your ROMs will **not** work for Supermodel. 
 
 For more information, see the [Maintaining ROM Versions](../../emulators/steamos/mame.md#maintaining-rom-versions) on the MAME emulator page. 
+
+***
+
+### Widescreen Hacks
+[Back to the Top](#supermodel-table-of-contents)
+
+When possible, widescreen hacks are automatically applied. However, for some games, widescreen causes severe visual glitches and are disabled for the respective game. 
+
+**Applied**
+
+* daytona2
+* dayto2pe
+* dirtdvls
+* getbassur
+* eca
+* fvipers2
+* lemans24
+* mgtrkbad
+* scud
+* scudplus
+* srally2
+* srally2dx
+* swtrilgy
+* vf3
+* vf3tb
+* von2
+
+**Disabled**
+
+* lamachin
+* lostwsga
+* magtruck
+* oceanhun
+* oceanhuna
+* skichamp
+* spikeofe
+* spikeout
+* vs2
+* vs298
+* vs2v991
 
 ***
 
