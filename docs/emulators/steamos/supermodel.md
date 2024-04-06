@@ -163,7 +163,9 @@ For more information, see the [Maintaining ROM Versions](../../emulators/steamos
 ### Supermodel Hotkeys
 [Back to the Top](#supermodel-table-of-contents)
 
-N/A
+{{ read_csv('supermodel-hotkeys.csv') }}
+
+Supermodel also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
 
 ***
 

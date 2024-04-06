@@ -154,8 +154,10 @@ N/A
 
 {{ read_csv('mame-hotkeys.csv') }}
 
-
 * If you make any changes in the Quick Menu while in game, make sure to use one of the `Exit Emulator` hotkeys to close out of the game to ensure any changes you made are saved. If you use `STEAM` + the `Exit game` button, your changes **will not** be saved.
+
+MAME also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+
 
 ***
 
@@ -207,7 +209,7 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 
 **Note**
 
-* For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile)
+* For a tutorial on how to select Steam Input Profiles, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile)
 * **These hotkeys are for mGBA, a standalone Nintendo Game Boy, Game Boy Color and Game Boy Advance emulator. These hotkeys are not for the mGBA RetroArch core. For more information on RetroArch and the mGBA RetroArch core hotkeys, visit [RetroArch](#retroarch)**
 * If you would like to use the old touch menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead
 
@@ -225,7 +227,7 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 
 **Note**
 
-* For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile)
+* For a tutorial on how to select Steam Input Profiles, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile)
 * **These hotkeys are for melonDS, a standalone NDS emulator. These hotkeys are not for the melonDS RetroArch core. For more information on RetroArch and the melonDS RetroArch core hotkeys, visit [RetroArch](#retroarch)**
 * If you would like to use the old radial menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead
 
@@ -270,7 +272,7 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 
 **Note**
 
-* For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+* For a tutorial on how to select Steam Input Profiles, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 * If you would like to use the old radial menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead
 
 ***
@@ -288,7 +290,7 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 **Note** 
 
 * The `Blow Mic` hotkey only works if you are using the gamepad. 
-* For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+* For a tutorial on how to select Steam Input Profiles, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 * If you would like to use touch menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead.  
 
 ***
@@ -320,6 +322,7 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 
 {{ read_csv('model-2-emulator-hotkeys.csv') }}
 
+The Model 2 Emulator also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
 ***
 
@@ -331,13 +334,17 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 * When playing arcade games through Flycast, the `Select` button will no longer open the `Quick Menu`. For arcade games specifically, the `Select` button is mapped to `Insert Coin`. For Dreamcast games, the `Select` button is mapped to the `Quick Menu`
 * When playing arcade games through Flycast, `STEAM` + `DPad Right` will no longer `Fast Forward`. For arcade games specifically, `STEAM` + `DPad Right` is mapped to `Insert Card`. For Dreamcast games, the `STEAM` + `DPad Right` button is mapped to `Fast Forward`
 
+Flycast also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+
 
 ***
 
 #### Supermodel (Sega Model 3)
 [Back to the Top](#hotkeys-table-of-contents)
 
-N/A
+{{ read_csv('supermodel-hotkeys.csv') }}
+
+Supermodel also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 
 ***
 
