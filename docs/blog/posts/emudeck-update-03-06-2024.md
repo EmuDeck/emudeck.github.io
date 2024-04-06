@@ -165,7 +165,7 @@ categories:
         * Pressure sensitivity dialed way down from the previous profile   
         * [#1018](https://github.com/dragoonDorise/EmuDeck/pull/1018)
     * Added `EmuDeck - Controller Hotkeys` and `EmuDeck - Frontend Controller Hotkeys` profiles for controllers. See the [Hotkeys](../../controls-and-hotkeys/steamos/hotkeys.md) page for a full list of the new hotkeys
-    * Added a `EmuDeck - Steam Deck Light Gun Controls` proifle
+    * Added a `EmuDeck - Steam Deck Light Gun Controls` profile
         * Intended to be used with Flycast (Standalone), MAME (Standalone), the Model 2 Emulator, and Supermodel
         * Right Trackpad set as mouse, sensitivity set to 200%. R2 set to "Left Click". L2 set to "Right Click". 
 * Moved all `/bin/sh` and `/usr/bin/bash` to `/bin/bash` 
