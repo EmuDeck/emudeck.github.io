@@ -338,7 +338,14 @@ model2/
 
 {{ read_csv('model-2-emulator-hotkeys.csv') }}
 
-The Model 2 Emulator also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
+The Model 2 Emulator also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
+
+`EmuDeck - Steam Deck Light Gun Controls`:
+
+* Left Trackpad - Mouse and Right Click on Click
+* Right Trackpad - Mouse and Left Click on Click, Mouse sensitivity increased to 200%
+* R2 - Left Click
+* L2 - Right Click
 
 ***
 

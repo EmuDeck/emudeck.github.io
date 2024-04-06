@@ -156,7 +156,14 @@ N/A
 
 * If you make any changes in the Quick Menu while in game, make sure to use one of the `Exit Emulator` hotkeys to close out of the game to ensure any changes you made are saved. If you use `STEAM` + the `Exit game` button, your changes **will not** be saved.
 
-MAME also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+MAME also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
+
+`EmuDeck - Steam Deck Light Gun Controls`:
+
+* Left Trackpad - Mouse and Right Click on Click
+* Right Trackpad - Mouse and Left Click on Click, Mouse sensitivity increased to 200%
+* R2 - Left Click
+* L2 - Right Click
 
 
 ***
@@ -322,7 +329,14 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 
 {{ read_csv('model-2-emulator-hotkeys.csv') }}
 
-The Model 2 Emulator also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+The Model 2 Emulator also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
+
+`EmuDeck - Steam Deck Light Gun Controls`:
+
+* Left Trackpad - Mouse and Right Click on Click
+* Right Trackpad - Mouse and Left Click on Click, Mouse sensitivity increased to 200%
+* R2 - Left Click
+* L2 - Right Click
 
 ***
 
@@ -334,7 +348,14 @@ The Model 2 Emulator also comes with a `EmuDeck - Steam Deck Light Gun Controls`
 * When playing arcade games through Flycast, the `Select` button will no longer open the `Quick Menu`. For arcade games specifically, the `Select` button is mapped to `Insert Coin`. For Dreamcast games, the `Select` button is mapped to the `Quick Menu`
 * When playing arcade games through Flycast, `STEAM` + `DPad Right` will no longer `Fast Forward`. For arcade games specifically, `STEAM` + `DPad Right` is mapped to `Insert Card`. For Dreamcast games, the `STEAM` + `DPad Right` button is mapped to `Fast Forward`
 
-Flycast also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+Flycast also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
+
+`EmuDeck - Steam Deck Light Gun Controls`:
+
+* Left Trackpad - Mouse and Right Click on Click
+* Right Trackpad - Mouse and Left Click on Click, Mouse sensitivity increased to 200%
+* R2 - Left Click
+* L2 - Right Click
 
 
 ***
@@ -344,7 +365,14 @@ Flycast also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to 
 
 {{ read_csv('supermodel-hotkeys.csv') }}
 
-Supermodel also comes with a `EmuDeck - Steam Deck Light Gun Controls` intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
+Supermodel also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
+
+`EmuDeck - Steam Deck Light Gun Controls`:
+
+* Left Trackpad - Mouse and Right Click on Click
+* Right Trackpad - Mouse and Left Click on Click, Mouse sensitivity increased to 200%
+* R2 - Left Click
+* L2 - Right Click
 
 ***
 
