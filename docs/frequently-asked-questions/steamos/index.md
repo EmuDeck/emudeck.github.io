@@ -899,9 +899,13 @@ Use symlinks!
 ## Citra and Yuzu FAQ
 [Back to the Top](#frequently-asked-questions-table-of-contents)
 
+***
+
 ### If I already have Citra or Yuzu installed on my system, will this EmuDeck update remove either emulator?
 
 No, existing installs will not be touched.
+
+***
 
 ### Can I still use Citra or Yuzu through Steam ROM Manager and ES-DE?
 
@@ -910,6 +914,8 @@ For Steam ROM Manager, yes, a parser is included for both emulators. If you are 
 For ES-DE, Citra will continue to be supported. Yuzu support will be removed in the next update. This means that if you use ES-DE as a front-end for your ROMs, you will no longer be able to use Yuzu to launch Nintendo Switch games. 
 
 However, EmuDeck has pushed a hotfix to add back support for Yuzu. In order to get this hotfix, open the EmuDeck application and say yes to the prompt. If you say no or miss this prompt, you may also apply this hotfix at any time by resetting ES-DE or Yuzu on the "Manage Emulators" page in the EmuDeck application. 
+
+***
 
 ### Why does ES-DE default to Ryujinx?
 
@@ -922,6 +928,8 @@ To swap back to Yuzu:
 3. Select `Alternative Emulators`
 4. Scroll down to `switch`, select `Yuzu (Standalone)`
 
+***
+
 ### How do I get the latest EmuDeck launchers and configurations on Linux/SteamOS?
 
 Place `citra-qt.AppImage` and `yuzu.AppImage` directly in `$HOME/Applications` (`/home/deck/Applications` on a Steam Deck). No subfolders. The names are case sensitive. 
@@ -929,6 +937,16 @@ Place `citra-qt.AppImage` and `yuzu.AppImage` directly in `$HOME/Applications` (
 After you have placed the AppImages in the appropriate place, you will see a "Reset configuration" button on each emulator page on the Manage Emulators page in the EmuDeck application. Click "Reset configuration" to get the latest launcher and configurations. 
 
 The latest configurations will work with the new Steam Input profiles included in EmuDeck 2.2. See [Emulator Frontends Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-button-combinations-profile) and [Emulator Frontends Radial Menu Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-radial-menu-profile) for more information. 
+
+***
+
+### How do I get the latest EmuDeck launchers and configurations on Windows?
+
+The files for both emulators should be located in `%USERPROFILE%\EmuDeck\EmulationStation-DE\emulators\citra` and `%USERPROFILE%\EmuDeck\EmulationStation-DE\emulators\yuzu\yuzu-windows-msvc` respectively.
+
+After you have placed the emulator files in the appropriate place, you will see a "Reset configuration" button on each emulator page on the Manage Emulators page in the EmuDeck application. Click "Reset configuration" to get the latest launcher and configurations. 
+
+***
 
 ### Why does the BIOS checker say I have missing firmware?
 
@@ -940,13 +958,26 @@ If you only have Yuzu keys (since the BIOS checker only checks for Ryujinx) and 
 
 However, the BIOS checker does not correlate to the validity of the keys in Yuzu. If you have the keys in place and you can confirm that these are valid, then Yuzu will work just fine. 
 
+***
+
+### Why is the Steam Input profile not working?
+
+Reset Citra or Yuzu in the EmuDeck application on the "Manage Emulators" page. If the Steam Input profile still does not work, re-select it in the Steam Input list. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
+
+
+***
+
 ### What about all of the forks of Citra and Yuzu? Will EmuDeck support those?
 
 Citra and Yuzu fork discussion is not allowed at this time. There is no way of knowing if these forks are safe and none are close to usable at this time. Once a fork has matured and shown that it is a viable alternative to Citra and Yuzu, it will be considered for inclusion in EmuDeck. 
 
+***
+
 ### Can I ask for links to mirrors of Citra and Yuzu?
 
 No, distribution of Citra and Yuzu is not allowed.
+
+***
 
 ### I have an issue with a game in the Citra or Yuzu emulator, can I ask for support?
 
