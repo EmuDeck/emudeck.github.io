@@ -6,9 +6,16 @@
 
 1. [Configuration](#hotkeys-configuration)
     - [Steam Deck Button Layout](#steam-deck-button-layout)
-    - [How to Select A Steam Input Profile](#how-to-select-a-steam-input-profile)
 
-2. [Hotkeys](#hotkeys)
+2. [Steam Input Profiles](#steam-input-profiles)
+    - [How to Select A Steam Input Profile](#how-to-select-a-steam-input-profile)
+    - [A Breakdown of the Steam Input Profiles](#a-breakdown-of-the-steam-input-profiles)
+    - [Emulator Button Combinations Profile](#emulator-button-combinations-profile)
+    - [Emulator Frontends Button Combinations Profile](#emulator-frontends-button-combinations-profile)
+    - [Emulator Frontends Radial Menu Profile](#emulator-frontends-radial-menu-profile)
+        - [How to Map Per-Game Profiles](#how-to-map-per-game-profiles)
+
+3. [Hotkeys](#hotkeys)
     - [General](#general)
         - [Global](#global)
     - [Atari Hotkeys](#atari-hotkeys)
@@ -43,11 +50,7 @@
         - [RPCS3 (PlayStation 3)](#rpcs3-playstation-3)      
     - [Tools Hotkeys](#tools-hotkeys)
         - [Cloud Services](#cloud-services)
-    - [Steam Input Profiles](#steam-input-profiles)
-        - [Emulator Button Combinations Profile](#emulator-button-combinations-profile)
-        - [Emulator Frontends Button Combinations Profile](#emulator-frontends-button-combinations-profile)
-        - [Emulator Frontends Radial Menu Profile](#emulator-frontends-radial-menu-profile)
-            - [How to Map Per-Game Profiles](#how-to-map-per-game-profiles)
+
 
 
 
@@ -74,6 +77,11 @@
 
 ***
 
+## Steam Input Profiles
+[Back to the Top](#hotkeys-table-of-contents)
+
+***
+
 ### How to Select A Steam Input Profile
 [Back to the Top](#hotkeys-table-of-contents)
 
@@ -89,6 +97,91 @@ For a visual, watch the following GIF (DuckStation is being used as an example):
 
 <img src="https://user-images.githubusercontent.com/108900299/194612525-670e56a1-a16a-4dbf-a03f-85d14e7f7b76.gif?raw=true"/>
 
+***
+
+### A Breakdown of the Steam Input Profiles
+[Back to the Top](#hotkeys-table-of-contents)
+
+For a few emulators, binding hotkeys to controller combinations is not supported. For these emulators, only binding hotkeys to keyboard keys or singular button presses was supported. For these emulators specifically, Steam input profiles were used. 
+
+In the previous EmuDeck update, a mix of touch and radial menu profiles were utilized to bind hotkeys to the left trackpad. In the current update, this has been replaced with the `Emulator Button Combinations Profile` and `Emulator Frontends Button Combinations Profile` profiles. For more details on these two profiles, see [Emulator Button Combinations Profile](#emulator-button-combinations-profile) and [Emulator Frontends Button Combinations Profile](#emulator-frontends-button-combinations-profile). In short, these profiles bind keyboard hotkeys such as `Alt` + `F4` to controller combinations such as `Select` + `Start` to exit a game. 
+
+The reason for this change was twofold:
+
+* To standardize hotkeys across all emulators. When you open an emulator, the expectation is that you will always use the same hotkeys
+* To allow for support with external controllers in profiles that previously relied on the Steam Deck trackpads. With the new profiles, you can use any external controller and still use hotkeys that previously required hotkeys to be bound to a radial or touch menu
+
+There are a few cases still where hotkeys are still not standardized due to lack of emulator features. These are listed below.
+
+* BigPEmu - Fast Forward and Rewind are bound to Start + R2 or L2. For most emulators, it is bound to Select + L2 or R2
+* Flycast (Standalone) - The hotkey system in Flycast (Standalone) is restrictive compared to other emulators. For a full list of Flycast (Standalone) hotkeys, see [Flycast (Dreamcast) (Standalone)](#flycast-dreamcast-standalone)
+* RetroArch - Increasing and decreasing the save and load state slots are bound to Start + DPad Right or Left. For most emulators, it is bound to Start + L2 or R2
+* Ryujinx - No hotkeys are bound at this time. When controller hotkeys are implemented, EmuDeck will configure these to match the other emulators 
+
+***
+
+#### Emulator Button Combinations Profile
+[Back to the Top](#hotkeys-table-of-contents)
+
+Some of the emulators bundled with EmuDeck do not do not support controller hotkeys naturally. These emulators are Cemu, Citra, melonDS (Standalone), and mGBA (Standalone).
+
+To standardize the hotkeys with the other emulators, these profiles require a Steam Input profile that binds keyboard keys to button chords. These button chords allow you to use controller hotkeys with emulators that do not naturally support them.
+
+Typically, this profile will automatically be applied to your shortcuts for Cemu, Citra, melonDS (Standalone), and mGBA (Standalone). To apply it manually, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. 
+
+For the specific button combinations, see the following sections:
+
+* [Cemu](#cemu-wii-u)
+* [Citra](#citra-3ds)
+* [melonDS (Standalone)](#melonds-nds-standalone)
+* [mGBA (Standalone)](#mgba-gb-gbc-and-gba-standalone)
+
+
+***
+
+#### Emulator Frontends Button Combinations Profile
+[Back to the Top](#hotkeys-table-of-contents)
+
+The frontends bundled with EmuDeck, ES-DE and Pegasus, come with a Steam Input profile for hotkeys. Typically, this profile will automatically be applied to your shortcuts. To apply it manually, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Frontend Controller Hotkeys`. 
+
+The `EmuDeck - Frontend Controller Hotkeys` profile comes with two action set layers. The first layer is blank intended for emulators with traditional controller hotkeys. The second layer assigns keyboard keys to button combinations, intended for emulators that do not support controller hotkeys naturally. This layer only covers Cemu, Citra, melonDS (Standalone), and mGBA (Standalone).
+
+For the most part, you will be using the first layer, entitled the "All Hotkeys" layer. However, when you are playing a Cemu, Citra, melonDS (Standalone), or mGBA ROM, hold the `Start` button to switch to the `Cemu, Citra, melonDS (Standalone), and mGBA (Standalone)` layer. 
+
+For the specific button combinations, refer to the various sections on this page depending on which emulator you are using. The hotkeys have been largely standardized and for the most part are identical across emulators. Do note there are still a few exceptions:
+
+* The Flycast (Standalone) emulator 
+* RetroArch binds the `Next Save State Slot` and `Previous Save State Slot` to `Start` + `DPad Left` or `DPAd Right` whereas most emulators use `Start` + `R2` or `L2` 
+
+
+***
+
+#### Emulator Frontends Radial Menu Profile
+[Back to the Top](#hotkeys-table-of-contents)
+
+For details on why the `Emulator Frontends Radial Menu Profile` is no longer applied automatically, see [A Breakdown of the Steam Input Profiles](#a-breakdown-of-the-steam-input-profiles).
+
+This profile is intended for emulator frontends such as ES-DE and Pegasus. This profile will **not** be applied automatically. To apply it manually, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Steam Deck Radial Menus`. All emulators installed and configured by EmuDeck are included in this profile. 
+
+You may also use this profile with any ROM shortcut or emulator shortcut added through Steam ROM Manager. This profile will appear in the drop-down list of your profiles for any of your shortcuts added to Steam.
+
+Use the left trackpad to pull up the menu and **short-press** an icon to switch into the respective profile. The buttons on the various touch and radial menus use a **short-press** to activate the respective hotkey. 
+
+A bonus feature of this profile is allowing you to map per-game profiles in emulator frontends such as ES-DE and Pegasus. 
+
+##### How to Map Per-Game Profiles
+
+1. To apply the Steam Input profile, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Steam Deck Radial Menus`
+2. On the `Game Controller` screen, click the `Edit Layout`
+3. Press `R1` until you see `Blank Profile #` and select one of the 10 `Blank Profiles`
+    * There will be 10 Blank Profile action sets
+4. On the `Blank Profile` page you selected, remap your controls
+5. (Optional) To rename the blank icon in the radial menu:
+    * Click `Virtual Menus` on the left side of the screen in the `Controller Settings` menu 
+    * Click the `Pencil` icon to the right of `Blank Profile Selector`
+    * On the profile # you selected in 3 and 4, click the `Gear` icon, click `Rename command`, and rename your profile
+6. When you are finished, exit out and open the frontend
+7. On the left trackpad, select the `Blank Profile Selector` icon and select the matching `Blank Profile` number (or your renamed profile) to the profile you mapped in Step 3
 
 ***
 
@@ -453,74 +546,5 @@ By default, the controls are that of a standard gamepad along with:
     - X is "Find in Page (F3)"
     - Y is "Refresh (F5)"
     - Rotate left joystick to scroll: CW scroll down, CCW scroll up
-
-***
-
-### Steam Input Profiles
-[Back to the Top](#hotkeys-table-of-contents)
-
-***
-
-#### Emulator Button Combinations Profile
-[Back to the Top](#hotkeys-table-of-contents)
-
-Some of the emulators bundled with EmuDeck do not do not support controller hotkeys naturally. These emulators are Cemu, Citra, melonDS (Standalone), and mGBA (Standalone).
-
-To standardize the hotkeys with the other emulators, these profiles require a Steam Input profile that binds keyboard keys to button chords. These button chords allow you to use controller hotkeys with emulators that do not naturally support them.
-
-Typically, this profile will automatically be applied to your shortcuts for Cemu, Citra, melonDS (Standalone), and mGBA (Standalone). To apply it manually, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Controller Hotkeys`. 
-
-For the specific button combinations, see the following sections:
-
-* [Cemu](#cemu-wii-u)
-* [Citra](#citra-3ds)
-* [melonDS (Standalone)](#melonds-nds-standalone)
-* [mGBA (Standalone)](#mgba-gb-gbc-and-gba-standalone)
-
-
-***
-
-#### Emulator Frontends Button Combinations Profile
-[Back to the Top](#hotkeys-table-of-contents)
-
- 
-The frontends bundled with EmuDeck, ES-DE and Pegasus, come with a Steam Input profile for hotkeys. Typically, this profile will automatically be applied to your shortcuts. To apply it manually, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Frontend Controller Hotkeys`. 
-
-The `EmuDeck - Frontend Controller Hotkeys` profile comes with two action set layers. The first layer is blank intended for emulators with traditional controller hotkeys. The second layer assigns keyboard keys to button combinations, intended for emulators that do not support controller hotkeys naturally. This layer only covers Cemu, Citra, melonDS (Standalone), and mGBA (Standalone).
-
-For the most part, you will be using the first layer, entitled the "All Hotkeys" layer. However, when you are playing a Cemu, Citra, melonDS (Standalone), or mGBA ROM, hold the `Start` button to switch to the `Cemu, Citra, melonDS (Standalone), and mGBA (Standalone)` layer. 
-
-For the specific button combinations, refer to the various sections on this page depending on which emulator you are using. The hotkeys have been largely standardized and for the most part are identical across emulators. Do note there are still a few exceptions:
-
-* The Flycast (Standalone) emulator 
-* RetroArch binds the `Next Save State Slot` and `Previous Save State Slot` to `Start` + `DPad Left` or `DPAd Right` whereas most emulators use `Start` + `R2` or `L2` 
-
-
-***
-
-#### Emulator Frontends Radial Menu Profile
-[Back to the Top](#hotkeys-table-of-contents)
-
-This profile is intended for emulator frontends such as ES-DE and Pegasus. This profile will **not** be applied automatically. To apply it manually, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Steam Deck Radial Menus`. All emulators installed and configured by EmuDeck are included in this profile. 
-
-You may also use this profile with any ROM shortcut or emulator shortcut added through Steam ROM Manager. This profile will appear in the drop-down list of your profiles for any of your shortcuts added to Steam.
-
-Use the left trackpad to pull up the menu and **short-press** an icon to switch into the respective profile. The buttons on the various touch and radial menus use a **short-press** to activate the respective hotkey. 
-
-A bonus feature of this profile is allowing you to map per-game profiles in emulator frontends such as ES-DE and Pegasus. 
-
-##### How to Map Per-Game Profiles
-
-1. To apply the Steam Input profile, click the `Game Controller` icon in `Game Mode`, change the template to `EmuDeck - Steam Deck Radial Menus`
-2. On the `Game Controller` screen, click the `Edit Layout`
-3. Press `R1` until you see `Blank Profile #` and select one of the 10 `Blank Profiles`
-    * There will be 10 Blank Profile action sets
-4. On the `Blank Profile` page you selected, remap your controls
-5. (Optional) To rename the blank icon in the radial menu:
-    * Click `Virtual Menus` on the left side of the screen in the `Controller Settings` menu 
-    * Click the `Pencil` icon to the right of `Blank Profile Selector`
-    * On the profile # you selected in 3 and 4, click the `Gear` icon, click `Rename command`, and rename your profile
-6. When you are finished, exit out and open the frontend
-7. On the left trackpad, select the `Blank Profile Selector` icon and select the matching `Blank Profile` number (or your renamed profile) to the profile you mapped in Step 3
 
 ***
