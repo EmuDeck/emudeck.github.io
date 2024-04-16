@@ -195,19 +195,10 @@ io.github.shiiion.primehack/
 [Back to the Top](#primehack-table-of-contents)
 
 
-| Controls            | PrimeHack                |
-|---------------------|--------------------------|
-| Jump, Spring Ball   | `A`                      |
-| Grapple, Boost Ball      | `B`                      |
-| Morph               | `Y`                      |
-| Missile, Super Bomb | `X`                      |
-| Lock On, Grapple    | `L2`                     |
-| Shoot, Interact     | `R2`                     |
-| Cycle Beams         | `DPad Up/Down`           | 
-| Cycle Visors        | `DPad Left/Right`        |
+{{ read_csv('primehack-controls.csv') }}
 
-**IMPORTANT:** 
 
+* When in the morph ball state, the `A` button becomes the `Spring Ball` button
 * EmuDeck includes a texture pack that matches Metroid Prime's button prompts to the buttons in the above chart. 
 * The Steam Input profile for PrimeHack is: `Gamepad with Joystick Trackpad`. Community Layouts conflict with EmuDeck's pre-configured controls. 
 * Only `Metroid Prime Trilogy` (Wii)'s controls are configured. The Gamecube versions do not have controls configured at this time.

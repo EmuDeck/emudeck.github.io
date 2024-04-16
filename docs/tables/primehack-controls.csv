@@ -1,0 +1,13 @@
+﻿Controls,PrimeHack
+Jump,`A`
+Spring Ball,`A`*
+Grapple,`B`
+Boost Ball,`B` 
+Morph,`Y`
+Missile/Super Bomb,`X`
+Lock On/Grapple,`L2`
+Shoot/Interact,`R2`
+Activate Beam,`DPad Up/Down`
+Activate Visor,`DPad Left/Right`
+Cycle Beams,`R1` + `DPad Up/Down`
+Cycle Visors,`L1` + `DPad Left/Right`
