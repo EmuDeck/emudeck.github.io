@@ -7,7 +7,7 @@ Morph,`Y`
 Missile/Power Bomb,`X`
 Lock On/Grapple,`L2`
 Shoot/Interact,`R2`
-Activate Beam,`DPad Up/Down`
-Activate Visor,`DPad Left/Right`
-Cycle Beams,`R1` + `DPad Up/Down`
-Cycle Visors,`L1` + `DPad Left/Right`
+Cycle Visors,`DPad Left/Right`
+Cycle Beams,`DPad Up/Down`
+Visor Selection Menu,Hold `L1` and use `Right Stick` to select
+Beam Selection Menu,Hold `R1` and use `Right Stick` to select
