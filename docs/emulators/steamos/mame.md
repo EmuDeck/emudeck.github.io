@@ -393,4 +393,6 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 3. Select the `EmuDeck - Steam Deck Light Gun Controls` profile
 4. Light gun controls will now be configured for this game
 
+{{ read_csv('emudeck-steam-deck-light-gun-controls.csv') }}
+
 ***

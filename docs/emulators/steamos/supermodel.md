@@ -237,4 +237,6 @@ See [How Supermodel ROMs Work](#how-supermodel-roms-work) for more information.
 3. Select the `EmuDeck - Steam Deck Light Gun Controls` profile
 4. Light gun controls will now be configured for this game
 
+{{ read_csv('emudeck-steam-deck-light-gun-controls.csv') }}
+
 ***

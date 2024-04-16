@@ -207,5 +207,6 @@ To set this on a per-game setting:
 3. Select the `EmuDeck - Steam Deck Light Gun Controls` profile
 4. Light gun controls will now be configured for this game
 
+{{ read_csv('emudeck-steam-deck-light-gun-controls.csv') }}
 
 ***
