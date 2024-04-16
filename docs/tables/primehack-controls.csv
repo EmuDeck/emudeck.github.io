@@ -1,9 +1,7 @@
 ﻿Controls,PrimeHack
-Jump,`A`
-Spring Ball,`A`*
-Grapple,`B`
-Boost Ball,`B` 
-Morph,`Y`
+Jump/Spring Ball,`A`*
+Grapple/Boost Ball,`B`
+Morph Ball,`Y`
 Missile/Power Bomb,`X`
 Lock On/Grapple,`L2`
 Shoot/Interact,`R2`

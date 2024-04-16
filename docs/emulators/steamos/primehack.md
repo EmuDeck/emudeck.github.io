@@ -198,7 +198,7 @@ io.github.shiiion.primehack/
 {{ read_csv('primehack-controls.csv') }}
 
 
-* When in the morph ball state, the `A` button becomes the `Spring Ball` button
+* When in the `Morph Ball` state, the `A` button becomes the `Spring Ball` button.
 * EmuDeck includes a texture pack that matches Metroid Prime's button prompts to the buttons in the above chart. 
 * The Steam Input profile for PrimeHack is: `Gamepad with Joystick Trackpad`. Community Layouts conflict with EmuDeck's pre-configured controls. 
 * Only `Metroid Prime Trilogy` (Wii)'s controls are configured. The Gamecube versions do not have controls configured at this time.
