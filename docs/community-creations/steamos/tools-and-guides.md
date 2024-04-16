@@ -269,7 +269,7 @@ Emulator configurations and saves when installed on Linux are typically stored i
 1. In Desktop Mode, open Discover and download Flatseal
 2. Open Flatseal and click Lutris on the left hand side of the screen
 3. Scroll down to Filesystem
-4.  Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `~/run/media`
+4. Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `/run/media`
 5. Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `~/.var/app`
 6. Close out of Flatseal and proceed to the next section
 
