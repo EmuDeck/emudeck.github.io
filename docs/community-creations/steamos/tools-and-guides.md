@@ -222,11 +222,13 @@ This section will cover how to download and set up PKHeX. For the GitHub repo, s
     * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/PKHeX`
 3. Right click `PKHeX (23.10.11).zip`, click `Extract`, `Extract Archive Here`
 
+![How to Set Up PKHeX 1](../../assets/how-to-set-up-pkhex-1.png)
+
 #### Set up Lutris
 
 1. In Desktop Mode, open Discover and download Lutris
 2. Open Lutris
-3. Click the `Wine` button on the left, click the little page icon to the right, download `Lutris-7-2.2`
+3. Click the `Wine` button on the left, click the little page icon to the right, download `wine-ge-8-26`
 4. Click the `+` button in the top left of the Lutris application
 5. Click `Add locally installed game`
 6. On the `Game Info` tab:
@@ -234,6 +236,7 @@ This section will cover how to download and set up PKHeX. For the GitHub repo, s
     * Sort Name: Leave Blank
     * Runner: Wine (Runs Windows games)
     * Release Year: Leave Blank
+    * ![How to Set Up PKHeX 1](../../assets/how-to-set-up-pkhex-2.png)
 7. On the `Game Options` tab:
     * Executable: Click the `Browse` button and navigate to the `PKHeX.exe` file in `$HOME/Games/Lutris/PKHeX`
         * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/PKHeX`
@@ -241,9 +244,11 @@ This section will cover how to download and set up PKHeX. For the GitHub repo, s
     * Working Directory: Leave Blank
     * Wine Prefix: Click the `Browse` button and select the `$HOME/Games/Lutris/PKHeX/pfx` folder
         * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/PKHeX/pfx`
+    * ![How to Set Up PKHeX 1](../../assets/how-to-set-up-pkhex-3.png)
 8. On the `Runner options` tab:
-    * Wine version: `Lutris-7-2.2-x86_64`
+    * Wine version: `wine-ge-8.26-x86_64`
     * Leave everything else at defaults
+    * ![How to Set Up PKHeX 1](../../assets/how-to-set-up-pkhex-4.png)
 9. Click the `Save` button in the top right
 10. Single click the `PKHeX` tile in Lutris, click the `Wine` icon at the bottom of the Lutris application, click `Winetricks`
 11. Click `Select the default wineprefix`
@@ -251,6 +256,7 @@ This section will cover how to download and set up PKHeX. For the GitHub repo, s
 13. Locate `dotnet7` in the list and check the box to the left of `dotnet7 MS.NET Runtime 7.0 LTS`
 15. Locate `dotnetdesktop7` in the list and check the box to the left of `dotnetdesktop7`
 16. Click `OK`, wait a few moments for it to install
+    * ![How to Set Up PKHeX 1](../../assets/how-to-set-up-pkhex-5.png)
 17. Close out of winetricks
 18. To open PKHeX, open Lutris, select the PKHeX tile, and click `Play`
 
@@ -273,6 +279,7 @@ Emulator configurations and saves when installed on Linux are typically stored i
 5. Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `~/.var/app`
 6. Close out of Flatseal and proceed to the next section
 
+![How to Set Up PKHeX 1](../../assets/how-to-set-up-pkhex-6.png)
 
 ##### Lutris
 
@@ -281,6 +288,8 @@ Emulator configurations and saves when installed on Linux are typically stored i
 3. Click the `Drives` tab, check `Show dot files`, click `Apply`, `OK`
 4. Open PKHeX and navigate to your saves
     * See the [Save Management](../../save-management/steamos/save-management.md) page for specific save locations
+
+![How to Set Up PKHeX 1](../../assets/how-to-set-up-pkhex-7.png)
 
 ***
 
