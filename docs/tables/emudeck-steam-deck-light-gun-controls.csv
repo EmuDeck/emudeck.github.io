@@ -1,4 +1,4 @@
-﻿Controls,"EmuDeck - Steam Deck Light Gun Controls (Flycast (Standalone), MAME (Standalone), Supermodel, Model 2 Emulator)",General Notes,Emulator Specific Notes
+﻿Controls,"EmuDeck - Steam Deck Light Gun Controls",General Notes,Emulator Specific Notes
 Left Trackpad,Mouse and Right Click on Click, Mouse sensitivity set to 100%,N/A
 Right Trackpad,Mouse and Left Click on Click, Mouse sensitivity increased to 200%,N/A
 R2,Left Click,Typically used to shoot,"When using MAME, move the cursor to the bottom left of the screen, and click L2 or R2 depending on the game to reload"

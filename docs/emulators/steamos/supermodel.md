@@ -22,7 +22,7 @@ GitHub: [https://github.com/trzy/Supermodel](https://github.com/trzy/Supermodel)
     - [Widescreen Hacks](#widescreen-hacks)
     - [File Formats](#supermodel-file-formats)
     - [Hotkeys](#supermodel-hotkeys) 
-        - [EmuDeck - Steam Deck Light Gun Controls](#emudeck---steam-deck-light-gun-controls)
+        - [Steam Deck Light Gun Controls](#steam-deck-light-gun-controls)
 2. [Supermodel Tips and Tricks](#supermodel-tips-and-tricks)
     - [Which ROM Set Does Supermodel Use?](#which-rom-set-does-supermodel-use)
     - [How to Configure Light Gun Games](#how-to-configure-light-gun-games)
@@ -207,7 +207,7 @@ When possible, widescreen hacks are automatically applied. However, for some gam
 
 {{ read_csv('supermodel-hotkeys.csv') }}
 
-#### EmuDeck - Steam Deck Light Gun Controls
+#### Steam Deck Light Gun Controls
 
 Supermodel also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
 

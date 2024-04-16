@@ -21,7 +21,7 @@ Arcade Database (Lookup required files for MAME ROMs, or what a MAME short name 
     - [How to Launch MAME in Desktop Mode](#how-to-launch-mame-in-desktop-mode)
     - [File Formats](#mame-file-formats)
     - [Hotkeys](#mame-hotkeys)
-        - [EmuDeck - Steam Deck Light Gun Controls](#emudeck---steam-deck-light-gun-controls)
+        - [Steam Deck Light Gun Controls](#steam-deck-light-gun-controls)
 
 2. [MAME Tips and Tricks](#mame-tips-and-tricks)
     - [Maintaining ROM Versions](#maintaining-rom-versions)
@@ -156,7 +156,7 @@ BIOS will be searched through 3 folders:
 * If you make any changes in the Quick Menu while in game, make sure to use one of the `Exit Emulator` hotkeys to close out of the game to ensure any changes you made are saved. If you use `STEAM` + the `Exit game` button, your changes **will not** be saved.
 * [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
 
-#### EmuDeck - Steam Deck Light Gun Controls
+#### Steam Deck Light Gun Controls
 
 MAME also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
 

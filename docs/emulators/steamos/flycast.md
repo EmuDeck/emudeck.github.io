@@ -13,7 +13,7 @@ GitHub: [https://github.com/flyinghead/flycast](https://github.com/flyinghead/fl
     - [How to Launch Flycast in Desktop Mode](#how-to-launch-flycast-in-desktop-mode)
     - [File Formats](#flycast-file-formats)
     - [Hotkeys](#flycast-hotkeys) 
-        - [EmuDeck - Steam Deck Light Gun Controls](#emudeck---steam-deck-light-gun-controls)
+        - [Steam Deck Light Gun Controls](#steam-deck-light-gun-controls)
 
 2. [Flycast Tips and Tricks](#flycast-tips-and-tricks)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
@@ -134,7 +134,7 @@ org.flycast.Flycast/
 * When playing arcade games through Flycast, the `Select` button will no longer open the `Quick Menu`. For arcade games specifically, the `Select` button is mapped to `Insert Coin`. For Dreamcast games, the `Select` button is mapped to the `Quick Menu`
 * When playing arcade games through Flycast, `STEAM` + `DPad Right` will no longer `Fast Forward`. For arcade games specifically, `STEAM` + `DPad Right` is mapped to `Insert Card`. For Dreamcast games, the `STEAM` + `DPad Right` button is mapped to `Fast Forward`
 
-#### EmuDeck - Steam Deck Light Gun Controls
+#### Steam Deck Light Gun Controls
 
 Flycast also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
 

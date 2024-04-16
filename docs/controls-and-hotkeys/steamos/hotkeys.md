@@ -25,7 +25,7 @@
         - [Xenia (Xbox 360)](#xenia-xbox-360)   
     - [Multisystems Hotkeys](#multisystems-hotkeys)
         - [MAME](#mame)
-            - [EmuDeck - Steam Deck Light Gun Controls](#emudeck---steam-deck-light-gun-controls)
+            - [Steam Deck Light Gun Controls](#steam-deck-light-gun-controls)
         - [RetroArch](#retroarch)
             - [List of RetroArch Cores Used by EmuDeck](../../emulators/steamos/retroarch.md#list-of-retroarch-cores-used-by-emudeck)
         - [ScummVM](#scummvm)
@@ -42,11 +42,11 @@
         - [Yuzu (Switch)](#yuzu-switch)
     - [Sega Hotkeys](#sega-hotkeys)
         - [Model 2 Emulator (Sega Model 2)](#model-2-emulator-sega-model-2)
-            - [EmuDeck - Steam Deck Light Gun Controls](#emudeck---steam-deck-light-gun-controls-1)
+            - [Steam Deck Light Gun Controls](#steam-deck-light-gun-controls-1)
         - [Flycast (Dreamcast) (Standalone)](#flycast-dreamcast-standalone)
-            - [EmuDeck - Steam Deck Light Gun Controls](#emudeck---steam-deck-light-gun-controls-2)
+            - [Steam Deck Light Gun Controls](#steam-deck-light-gun-controls-2)
         - [Supermodel (Sega Model 3)](#supermodel-sega-model-3)
-            - [EmuDeck - Steam Deck Light Gun Controls](#emudeck---steam-deck-light-gun-controls-3)
+            - [Steam Deck Light Gun Controls](#steam-deck-light-gun-controls-3)
     - [Sony Hotkeys](#sony-hotkeys)
         - [PPSSPP (PlayStation Portable)](#ppsspp-playstation-portable)
         - [Vita3K (PlayStation Vita)](#vita3k-playstation-vita)
@@ -254,7 +254,7 @@ N/A
 
 * If you make any changes in the Quick Menu while in game, make sure to use one of the `Exit Emulator` hotkeys to close out of the game to ensure any changes you made are saved. If you use `STEAM` + the `Exit game` button, your changes **will not** be saved.
 
-#### EmuDeck - Steam Deck Light Gun Controls
+#### Steam Deck Light Gun Controls
 
 MAME also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
 
@@ -434,7 +434,7 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 
 {{ read_csv('model-2-emulator-hotkeys.csv') }}
 
-#### EmuDeck - Steam Deck Light Gun Controls
+#### Steam Deck Light Gun Controls
 
 The Model 2 Emulator also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
 
@@ -450,7 +450,7 @@ The Model 2 Emulator also comes with a `EmuDeck - Steam Deck Light Gun Controls`
 * When playing arcade games through Flycast, the `Select` button will no longer open the `Quick Menu`. For arcade games specifically, the `Select` button is mapped to `Insert Coin`. For Dreamcast games, the `Select` button is mapped to the `Quick Menu`
 * When playing arcade games through Flycast, `STEAM` + `DPad Right` will no longer `Fast Forward`. For arcade games specifically, `STEAM` + `DPad Right` is mapped to `Insert Card`. For Dreamcast games, the `STEAM` + `DPad Right` button is mapped to `Fast Forward`
 
-#### EmuDeck - Steam Deck Light Gun Controls
+#### Steam Deck Light Gun Controls
 
 Flycast also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
 
@@ -464,7 +464,7 @@ Flycast also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile inte
 
 {{ read_csv('supermodel-hotkeys.csv') }}
 
-#### EmuDeck - Steam Deck Light Gun Controls
+#### Steam Deck Light Gun Controls
 
 Supermodel also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
 
