@@ -14,6 +14,7 @@ Information: [https://emulation.gametechwiki.com/index.php/Sega_Model_2](https:/
     - [How to Launch the Model 2 Emulator in Desktop Mode](#how-to-launch-the-model-2-emulator-in-desktop-mode)
     - [File Formats](#model-2-emulator-file-formats)
     - [Hotkeys](#model-2-emulator-hotkeys)
+        - [EmuDeck - Steam Deck Light Gun Controls](#emudeck---steam-deck-light-gun-controls)
 2. [Model 2 Emulator Tips and Tricks](#model-2-emulator-tips-and-tricks)
     - [Which ROM Set Does Model 2 Emulator Use?](#which-rom-set-does-model-2-emulator-use)
     - [How to Configure Light Gun Games](#how-to-configure-light-gun-games)
@@ -338,14 +339,11 @@ model2/
 
 {{ read_csv('model-2-emulator-hotkeys.csv') }}
 
+#### EmuDeck - Steam Deck Light Gun Controls
+
 The Model 2 Emulator also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
 
-`EmuDeck - Steam Deck Light Gun Controls`:
-
-* Left Trackpad - Mouse and Right Click on Click
-* Right Trackpad - Mouse and Left Click on Click, Mouse sensitivity increased to 200%
-* R2 - Left Click
-* L2 - Right Click
+{{ read_csv('emudeck-steam-deck-light-gun-controls.csv') }}
 
 ***
 
