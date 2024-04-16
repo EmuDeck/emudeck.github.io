@@ -34,6 +34,7 @@
         - [mGBA (GB, GBC, and GBA) (Standalone)](#mgba-gb-gbc-and-gba-standalone)
         - [melonDS (NDS) (Standalone)](#melonds-nds-standalone)
         - [PrimeHack (Metroid Prime Trilogy)](#primehack-metroid-prime-trilogy)
+            - [PrimeHack Controls](#primehack-controls)
         - [Dolphin (Gamecube and Wii)](#dolphin-gamecube-and-wii)
         - [Citra (3DS)](#citra-3ds)
         - [Cemu (Wii U)](#cemu-wii-u)
@@ -340,6 +341,16 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 [Back to the Top](#hotkeys-table-of-contents)
 
 {{ read_csv('primehack-hotkeys.csv') }}
+
+##### PrimeHack Controls
+
+{{ read_csv('primehack-controls.csv') }}
+
+* When in the `Morph Ball` state, the `A` button becomes the `Spring Ball` button.
+* EmuDeck includes a texture pack that matches Metroid Prime's button prompts to the buttons in the above chart. 
+* The Steam Input profile for PrimeHack is: `Gamepad with Joystick Trackpad`. Community Layouts conflict with EmuDeck's pre-configured controls. 
+* Only `Metroid Prime Trilogy` (Wii)'s controls are configured. The Gamecube versions do not have controls configured at this time.
+
 
 
 ***
