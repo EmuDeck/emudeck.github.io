@@ -809,7 +809,7 @@ Wiki Link: [https://docs.libretro.com/library/mupen64plus/](https://docs.libretr
 
 ??? info "What is the ParaLLEl-RDP Plugin?"
 
-The "ParaLLEl-RDP" is "an LLE video plugin.. made to run on the GPU through the use of the Vulkan API's compute shaders." It can be demanding to run on the system at times. It is recommended to use this plugin on a per-game basis. For more details, see [https://emulation.gametechwiki.com/index.php/Recommended_N64_plugins#ParaLLEl-RDP](https://emulation.gametechwiki.com/index.php/Recommended_N64_plugins#ParaLLEl-RDP).
+    The "ParaLLEl-RDP" is "an LLE video plugin.. made to run on the GPU through the use of the Vulkan API's compute shaders." It can be demanding to run on the system at times. It is recommended to use this plugin on a per-game basis. For more details, see [https://emulation.gametechwiki.com/index.php/Recommended_N64_plugins#ParaLLEl-RDP](https://emulation.gametechwiki.com/index.php/Recommended_N64_plugins#ParaLLEl-RDP).
 
 1. While in game, press `L3` + `R3` or `Select` + `R3` to open the `Quick Menu`
 2. In the `Quick Menu`, Select `Core Options`
