@@ -22,6 +22,7 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
     - [List of RetroArch Cores Used by Emudeck](#list-of-retroarch-cores-used-by-emudeck)
 
 2. [Common Issues](#common-issues)
+    - [Banjo-Kazooie: Scrambled Text](#banjo-kazooie-scrambled-text)
 
 
 3. [RetroArch Tips and Tricks](#retroarch-tips-and-tricks)
@@ -55,6 +56,7 @@ RetroArch FAQ: [https://www.retroarch.com/?page=faq](https://docs.libretro.com/)
         * [How to Use the Trackpad for the Touch Screen](#how-to-use-the-trackpad-for-the-touch-screen)
     * [Mupen64Plus-Next](#mupen64Plus-next)
         * [How to Install Custom Textures for Mupen64Plus-Next](#how-to-install-custom-textures-for-mupen64plus-next)
+        * [How to Switch to the ParaLLEl-RDP Plugin](#how-to-switch-to-the-parallel-rdp-plugin)
     * [Neko Project II Kai](#neko-project-ii-kai)
         * [Configuring controls](#configuring-controls)
     * [PPSSPP RetroArch Core](#ppsspp-retroarch-core)
@@ -429,6 +431,27 @@ For more information: [https://docs.libretro.com/guides/overrides/](https://docs
 ## Common Issues
 [Back to the Top](#retroarch-table-of-contents)
 
+***
+
+### Banjo-Kazooie: Scrambled Text
+[Back to the Top](#retroarch-table-of-contents)
+
+![Banjo-Kazooie - Scrambled Text](../../assets/banjo-kazooie-scrambled-text.png)
+
+If you are experiencing scrambled text in Banjo-Kazooie, here's how to fix it.
+
+1. While in game, press `L3` + `R3` or `Select` + `R3` to open the `Quick Menu`
+2. In the `Quick Menu`, Select `Core Options`
+3. Select `GLideN64`
+4. Set `Cache Textures` to `Off`
+5. Back out and click `Manage Core Options`
+6. Click `Save Game Options`
+7. This option will now be saved for only this game
+
+Alternatively, you may also use the Parallel plugin. For instructions, see [How to Switch to the ParaLLEl-RDP Plugin](#how-to-switch-to-the-parallel-rdp-plugin).
+
+***
+
 ## RetroArch Tips and Tricks
 [Back to the Top](#retroarch-table-of-contents)
 
@@ -778,6 +801,25 @@ Wiki Link: [https://docs.libretro.com/library/mupen64plus/](https://docs.libretr
         * Cache Textures
         * Use High-Res Full Alpha Channel
         * Use Hi-Res Storage
+
+***
+
+#### How to Switch to the ParaLLEl-RDP Plugin
+[Back to the Top](#retroarch-table-of-contents)
+
+??? info "What is the ParaLLEl-RDP Plugin?"
+
+The "ParaLLEl-RDP" is "an LLE video plugin.. made to run on the GPU through the use of the Vulkan API's compute shaders." It can be demanding to run on the system at times. It is recommended to use this plugin on a per-game basis. For more details, see [https://emulation.gametechwiki.com/index.php/Recommended_N64_plugins#ParaLLEl-RDP](https://emulation.gametechwiki.com/index.php/Recommended_N64_plugins#ParaLLEl-RDP).
+
+1. While in game, press `L3` + `R3` or `Select` + `R3` to open the `Quick Menu`
+2. In the `Quick Menu`, Select `Core Options`
+3. Select `RDP Plugin`
+4. Set the `RDP Plugin` to `ParaLLEl-RDP`
+5. Back out and click `Manage Core Options`
+6. Click `Save Game Options`
+    * If you would like to save this for all games, click `Save Content Directory Options` but this is **not** recommended since the plugin can be demanding
+7. This option will now be saved for only this game
+
 
 ***
 
