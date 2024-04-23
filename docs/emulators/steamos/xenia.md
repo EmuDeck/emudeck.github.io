@@ -42,6 +42,7 @@ It's HIGHLY recommended to see if a game you wish to emulate has a native PC ver
     - [How to Delete Xenia's Prefix](#how-to-delete-xenias-prefix)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
+    - [How to Access Xenia Settings in Game Mode](#how-to-access-xenia-settings-in-game-mode)
 
 
 
@@ -395,6 +396,8 @@ However, do keep in mind that the above solutions are **not** guaranteed to fix 
 ### Troubleshooting Tips
 [Back to the Top](#xenia-table-of-contents)
 
+* As a first step, Reset Xenia on the Manage Emulators page in the EmuDeck application
+* If you get a Wine related error, make sure your ROMs are in `Emulation/roms/xbox360/roms` or `Emulation/roms/xbox360/roms/xbla`, **not** `Emulation/roms/xbox360`
 * If you are getting a `!Status or GPU Command Error Messages`, read [How to Fix !Status or GPU Command Error Messages](#how-to-fix-status-or-gpu-command-error-messages)
 * If you are still on an older version of Xenia, try updating to the latest version and use DX12 instead of Vulkan, see [How to Swap Between Vulkan and DX12](#how-to-swap-between-vulkan-and-dx12)
 * If Xenia was working perfectly fine and suddenly stopped working, see [How to Delete Xenia's Prefix](#how-to-delete-xenias-prefix)
@@ -711,5 +714,29 @@ To enable mount_cache:
         * `--gpu="vulkan"`
         * `--mount_cache=true`
 4. The config you set will now be applied to this specific game in Steam
+
+***
+
+### How to Access Xenia Settings in Game Mode
+[Back to the Top](#xenia-table-of-contents)
+
+If you added Xenia as a shortcut to Steam through the "Emulators" parser in Steam ROM Manager, you may notice that it launches into a black screen if you try to open it in Game Mode. This is a quirk of how Proton interacts with Game Mode. However, there is a workaround. 
+
+#### How to Access Xenia Settings in Game Mode
+
+1. On the Xenia shortcut in Game Mode, press the `Controller` icon
+2. Toggle `Enable Back Grip Buttons` if they are not already enabled
+3. Select one of the four back buttons and bind it using sub-commands to one of the below keyboard shortcuts depending on which setting you would like to open in Xenia. For instructions on sub-commands, see [How to Bind Sub-Commands](#how-to-bind-sub-commands)
+    * `Alt` + `F` = File   
+        * The "File" menu is used to launch games
+    * `Alt` + `G` = CPU
+    * `Alt` + `H` = GPU
+
+#### How to Bind Sub-Commands
+
+1. Click on one of the four back buttons, bind it to `Alt`
+2. Click the `Gear` icon to the right of the button, click `Add sub command`
+3. Bind it to the corresponding letter in the list above, [How to Access Xenia Settings in Game Mode](#how-to-access-xenia-settings-in-game-mode-1) depending on which setting you would like to open in Xenia
+
 
 ***
