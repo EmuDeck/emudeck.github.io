@@ -792,15 +792,39 @@ Wiki Link: [https://docs.libretro.com/library/mupen64plus/](https://docs.libretr
 #### How to Install Custom Textures for Mupen64Plus-Next
 [Back to the Top](#retroarch-table-of-contents)
 
-1. In `Emulation/hdpacks/Mupen64plus_next`, create two folders, `cache` and `hires_texture`
-2. A breakdown of which folder to use: 
-    * .png textures stored in hires_texture/ should generate a cache when loading a matching game and then work
-    * .htc/.hts textures in cache/ should work but the RA settings need to match the settings used when generating the cache
-3. Open a game, access the Quick Menu > Options > GlideN64 > Use High-Res textures
+##### Preface
+
+HTS & HTC are cache formats. PNG is the 'source' of the texture packs before it's converted to a cache file.
+
+Before installing a texture pack, you will need to determine if it is HTC, HTS, or PNG. This can usually be confirmed by checking the file extension or reading the attached documentation. Follow the respective section below for installing texture packs.
+
+##### HTC
+
+1. Open the `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/system/Mupen64plus/cache` folder
+    * {{ hiddenfolders }}
+2. Place your texture pack file directly into this folder
+
+##### HTS
+
+1. Open the `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/system/Mupen64plus/cache` folder
+    * {{ hiddenfolders }}
+2. Place your texture pack file directly into this folder
+
+##### PNG
+
+1. Open the `/home/deck/.var/app/org.libretro.RetroArch/config/retroarch/system/Mupen64plus/hires_texture` folder
+    * {{ hiddenfolders }}
+2. Place your texture pack folder directly into this folder
+
+##### RetroArch
+
+1. Open a game, open the `Quick Menu` > `Options` > `GlideN64` > `Use High-Res textures`
     * Enable:
-        * Cache Textures
-        * Use High-Res Full Alpha Channel
-        * Use Hi-Res Storage
+        * `Cache Textures`
+        * `Use High-Res Full Alpha Channel`
+        * `Use Hi-Res Storage`
+2. Back out and select `Overrides`
+3. Select `Save Game Overrides`
 
 ***
 
