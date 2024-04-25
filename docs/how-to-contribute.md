@@ -115,14 +115,14 @@ After editing the page, you may also use GitHub's web editor to edit the `main.h
 As an example for how `main.html` might be formatted, see below:
 
 ```
-{% extends "base.html" %}
+\{% extends "base.html" %}
 
-{% block announce %}
+\{% block announce %}
 ANNOUNCEMENT: Audio is not working in the latest version of DuckStation, visit <a href="https://emudeck.github.io/known-issues/steamos/#duckstation-audio-not-working-september-16th-2023">https://emudeck.github.io/known-issues/steamos/#duckstation-audio-not-working-september-16th-2023</a> for a solution.
-{% endblock %}
+\{% endblock %}
 ```
 
-Only the text between `{% block announce %}` and `{% endblock %}` needs to be updated when a new major issue occurs. To link to a page, `<a href="linktopage">repeatsamelinkhere</a>`. Example: `<a href="https://www.google.com/">https://www.google.com/</a>`.
+Only the text between `\{% block announce %}` and `\{% endblock %}` needs to be updated when a new major issue occurs. To link to a page, `<a href="linktopage">repeatsamelinkhere</a>`. Example: `<a href="https://www.google.com/">https://www.google.com/</a>`.
 
 Once the issue is resolved, you may edit the same section on the [Known Issues](./known-issues/steamos/index.md) including when it was resolved. You do not need to remove the section.
 
