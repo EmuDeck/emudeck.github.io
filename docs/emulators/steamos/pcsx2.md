@@ -662,10 +662,12 @@ PCSX2 Servers:
 3. Type the following and press enter: 
     * `./pcsx2-Qt.AppImage --appimage-extract`
 4. A `squashfs-root` folder in `/home/deck/Applications` will be created, rename this folder to `pcsx2-online` or a name of your choice
-5. In `/home/deck/Applications/pcsx2-online/usr/bin`, double click `pcsx2-qt` to open it
+5. In the `/home/deck/Applications/pcsx2-online/usr/bin` folder, right click anywhere and click `Open Terminal Here`, type `sudo setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' pcsx2-qt`
+    * If you have not already set a sudo password, you may do so by typing `passwd` and pressing enter. Once you have typed your password once, press enter, and type it again to confirm. Your password will not be visible in the terminal 
+6. In `/home/deck/Applications/pcsx2-online/usr/bin`, double click `pcsx2-qt` to open it
     * Use this file whenever you want to play online mulitplayer. Your shortcuts through Steam ROM Manager, ES-DE, or Pegasus will be using a separate version of PCSX2 **not configured** for online multiplayer
     * You may add this version of `pcsx2-qt` to Steam by right clicking it and clicking `Add to Steam`, you may want to give it a distinctive name in Steam so you do not mix it up with your other shortcuts
-6. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`
+7. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`
     * Ethernet Device Type
         * Select `PCAP Bridged`, `PCAP Switched`, or `Socket`, depending on what game you are playing 
     * Ethernet Device
@@ -682,10 +684,10 @@ PCSX2 Servers:
         * Click `Create Image` in the bottom right corner
     * HDD File
         * `/home/deck/.config/PCSX2/inis/DEV9hdd.raw`
-7. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings 
+8. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings 
     * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
     * [https://ps2online.com/](https://ps2online.com/)
-8. Online multiplayer will now be configured for your game(s)
+9. Online multiplayer will now be configured for your game(s)
 
 !!! warning
 
