@@ -233,12 +233,6 @@ A backup of your original Steam ROM Manager configurations is automatically crea
 ### "Please shutdown Steam if it is running"
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="/videos/please-shutdown-steam-if-it-is-running.mp4" type="video/mp4">
-  </video>
-</figure>
-
 If you are on the `Preview` screen in Steam ROM Manager and you get the dreaded "Please shutdown Steam if it is running" message as shown in the video above, here are a couple of tips and tricks to fix it.
 
 #### Preface
@@ -423,28 +417,6 @@ Here's a quick rundown:
 4. Click `Parse`
 5. Wait for all the images to download, click `Save apps to Steam` (It may take a few moments, check the Event Log tab to confirm that it is finished) 
 
-For a tutorial, watch one of the videos below:
-
-***
-
-#### Themes: Classic and Deck
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="/videos/how-to-generate-and-save-an-app-list-classic-and-deck.mp4" type="video/mp4">
-  </video>
-</figure>
-
-***
-
-#### Themes: EmuDeck
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="/videos/how-to-generate-and-save-an-app-list-emudeck.mp4" type="video/mp4">
-  </video>
-</figure>
-
 ***
 
 ### How to Fix a Mismatched Entry
@@ -487,14 +459,6 @@ If your ROM is still not matching correctly, proceed to `Step Two: Create An Exc
 6. The new entry will be automatically applied and Steam ROM Manager will add a new entry for this ROM to the `Exceptions` manager, which can be found on the left side of the screen
     * You can use the exceptions manager to delete or edit any of the changes you made
 
-Video Tutorial:
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="/videos/how-to-fix-a-mismatched-entry-fix-match-button.mp4" type="video/mp4">
-  </video>
-</figure>
-
 ***
 
 #### Method 2: Use the Exceptions Manager
@@ -516,15 +480,6 @@ To find your gameid:
 * Search your game on SteamGridDB (https://www.steamgriddb.com/), copy the numbers at the end of the URL. For example, `The Legend of Zelda: Breath of the Wild `'s SteamGridDB page is: https://www.steamgriddb.com/game/35744. The `gameid` would be: `35744`.
 
 **New Commandline Args:** Leave this entry blank
-
-
-For a visual, watch the following GIF:
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="/videos/how-to-fix-a-mismatched-entry-fix-exceptions-manager.mp4" type="video/mp4">
-  </video>
-</figure>
 
 
 ***
@@ -568,14 +523,6 @@ Select one of the following methods to hide an entry in Steam ROM Manager
 6. Any selected entries will be be removed from the app list and Steam ROM Manager will add a new entry for this ROM to the `Exceptions` manager, which can be found on the left side of the screen
     * You can use the exceptions manager to "un-hide" any entries by removing the matching created exception
 
-Video Tutorial: 
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="/videos/how-to-hide-an-entry-exclude-apps-button.mp4" type="video/mp4">
-  </video>
-</figure>
-
 ***
 
 #### Method 2: Use the Exceptions Manager
@@ -595,14 +542,6 @@ To find your extracted title:
 **New Commandline Args:** Leave this entry blank
 
 **Exclude Title:** Make sure this is toggled on, indicated with a green color. 
-
-For a visual, watch the following GIF:
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="/videos/how-to-hide-an-entry-exceptions-manager.mp4" type="video/mp4">
-  </video>
-</figure>
 
 ***
 
