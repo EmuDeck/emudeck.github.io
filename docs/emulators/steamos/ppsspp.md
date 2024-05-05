@@ -256,7 +256,7 @@ _This list is not exhaustive_
 * [https://forums.ppsspp.org/showthread.php?tid=6594&pid=54841#pid54841](https://forums.ppsspp.org/showthread.php?tid=6594&pid=54841#pid54841)
 * [https://forums.ppsspp.org/showthread.php?tid=6594&pid=112250#pid112250](https://forums.ppsspp.org/showthread.php?tid=6594&pid=112250#pid112250)
 * [https://buildbot.libretro.com/assets/system/](https://buildbot.libretro.com/assets/system/)
-    * Download `PPSSPP.zip` and use the `shaders` folder in the extracted `PPSSPP.zip` folder
+    * Download `PPSSPP.zip` and use the contents of the `shaders` folder in the extracted `PPSSPP.zip` folder
 
 ***
 
