@@ -297,12 +297,12 @@ extra:
     home: $HOME or ~ refer to your home directory. On a Steam Deck, the full path will be `/home/deck`. When navigating using the file manager, the file manager may not display the username visually in the full file path.
     fullpath: When navigating using the file manager, the file manager may not display the username visually in the full file path.
     emulation: Emulation/.. refers to either your home/deck directory or SD Card/removable media depending on your installation location.
-    applications: $HOME/Applications refers to the Applications folder in your home directory. On a typical linux distro, the full path will be `\$HOME/\$USER/Applications`. On a Steam Deck, the full path will be `/home/deck/Applications`. When navigating using the file manager, the file manager may not display the username visually in the full file path. The Applications folder is not created by default. If you have not created one already, do so before following the steps in this section. 
+    applications: $HOME/Applications refers to the Applications folder in your home directory. On a typical Linux distro, the full path will be `\$HOME/\$USER/Applications`. On a Steam Deck, the full path will be `/home/deck/Applications`. When navigating using the file manager, the file manager may not display the username visually in the full file path. The Applications folder is not created by default. If you have not created one already, do so before following the steps in this section. 
     hiddenfolders: Directories with a `.` in front of their name, like `/home/deck/.steam`, are hidden by default. In Dolphin (a file manager), click the hamburger menu in the top right and toggle on `Show Hidden Files`. The setting may vary depending on which file manager you are using. 
     steamdeckdesktopmode: If you are on a Steam Deck, use Desktop Mode for this step. 
     steamdeckgamemode: If you are on a Steam Deck, use Game Mode for this step. 
     appimage: An AppImage is a portable/self-contained application. It contains all of the dependencies required to run the respective program.
-    flatpak: A flatpak is a sandboxed application, flatpaks run in an isolated environment which allow for granular control over permissions. On a Steam Deck, flatpaks can be installed, managed, and updated through Discover. 
+    flatpak: A Flatpak is a sandboxed application, flatpaks run in an isolated environment which allow for granular control over permissions. On a Steam Deck, flatpaks can be installed, managed, and updated through Discover. 
     permissions: click `Properties`, click `Permissions`, check `Is Executable`.
     steaminput: This section assumes you are using an emulator through Steam and will be using the Steam Virtual Gamepad as the primary device for your controller. If you are not using Steam Input, make sure to select the appropriate controller option (which will typically match your controller name).
     social:
