@@ -286,7 +286,7 @@ Typically, the shader packs linked above will include a master INI file which wi
 5. For example:
 
         [CRT-Bloom]
-        Name=CRT-Vignette
+        Name=CRT-Bloom
         Fragment=crt.fsh
         Vertex=aa2obl.vsh
 
