@@ -24,6 +24,7 @@ Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://
 
 2. [PPSSPP Tips and Tricks](#ppsspp-tips-and-tricks)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
+    - [How to Install Custom Shaders](#how-to-install-custom-shaders)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Roll Back PPSSPP to an Older Version](#how-to-roll-back-ppsspp-to-an-older-version)
     - [How to Use the Original PSP Font](#how-to-use-the-original-psp-font)
@@ -234,6 +235,62 @@ _This list is not exhaustive_
     * Using Grand Theft Auto: Chinatown Wars as an example: 
         * ![How to Install Custom Textures: PPSSPP-4](../../assets/ppsspp-how-to-install-custom-textures-4.png)
 8. Your texture pack will now be installed
+
+***
+
+### How to Install Custom Shaders
+
+**Preface** 
+
+The PPSSPP Flatpak (installed by EmuDeck) does not use a named Memstick folder to manage its contents. Instead, the Memstick folder is located here: `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP`. 
+
+***
+
+**Shader Sources**
+
+_This list is not exhaustive_
+
+* [https://forums.ppsspp.org/showthread.php?tid=6594](https://forums.ppsspp.org/showthread.php?tid=6594)
+* [https://forums.ppsspp.org/showthread.php?tid=6594&pid=55390#pid55390](https://forums.ppsspp.org/showthread.php?tid=6594&pid=55390#pid55390)
+* [https://forums.ppsspp.org/showthread.php?tid=6594&pid=124441#pid124441](https://forums.ppsspp.org/showthread.php?tid=6594&pid=124441#pid124441)
+* [https://forums.ppsspp.org/showthread.php?tid=6594&pid=54841#pid54841](https://forums.ppsspp.org/showthread.php?tid=6594&pid=54841#pid54841)
+* [https://forums.ppsspp.org/showthread.php?tid=6594&pid=112250#pid112250](https://forums.ppsspp.org/showthread.php?tid=6594&pid=112250#pid112250)
+* [https://buildbot.libretro.com/assets/system/](https://buildbot.libretro.com/assets/system/)
+    * Download `PPSSPP.zip` and use the `shaders` folder in the extracted `PPSSPP.zip` folder
+
+***
+
+#### How to Install Custom Shaders
+
+1. In Desktop Mode, open the `/home/deck/.var/app/org.ppsspp.PPSSPP/config/ppsspp/PSP/` folder
+    * {{ hiddenfolders }}
+2. If one does not exist already, create a `shaders` folder here, casing matters
+    * `Shaders` or `SHADERS` **will not** work, it must be named `shaders`
+3. In the `shaders` folder, place your custom shader files
+4. To enable the new custom shaders, open PPSSPP, click `Settings`, click the `Graphics` tab on the left, click `Display layout & effects`, click the `+` button under `Postprocessing shaders` and select your preferred custom shader
+
+#### How to Create Custom Shader INI Files
+
+Typically, the shader packs linked above will include a master INI file which will contain a set of good defaults that expand the repository of shaders you can use in PPSSPP. However, you can create custom INI files to mix and match shaders. This section will cover how to do that. 
+
+1. Right click anywhere in the `shaders` folder, click `Create New > Text File`
+2. Name the newly created text file matching your shader file or something descriptive (For example `CRT-Bloom.ini`)
+3. Right click the newly created text file, click `Open with Kate` or a text editor of your choice
+4. Use the following format:
+
+        [SHADERNAME]
+        Name=SHADERNAME
+        Fragment=SHADER.FSH
+        Vertex=VERTEX.FSH
+
+5. For example:
+
+        [CRT-Bloom]
+        Name=CRT-Vignette
+        Fragment=crt.fsh
+        Vertex=aa2obl.vsh
+
+5. Your custom shader will now be created. To enable it, open PPSSPP, click `Settings`, click the `Graphics` tab on the left, click `Display layout & effects`, click the `+` button under `Postprocessing shaders` and select your newly created custom shader
 
 ***
 
