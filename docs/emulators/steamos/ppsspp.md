@@ -290,7 +290,7 @@ Typically, the shader packs linked above will include a master INI file which wi
         Fragment=crt.fsh
         Vertex=aa2obl.vsh
 
-5. Your custom shader will now be created. To enable it, open PPSSPP, click `Settings`, click the `Graphics` tab on the left, click `Display layout & effects`, click the `+` button under `Postprocessing shaders` and select your newly created custom shader
+6. Your custom shader will now be created. To enable it, open PPSSPP, click `Settings`, click the `Graphics` tab on the left, click `Display layout & effects`, click the `+` button under `Postprocessing shaders` and select your newly created custom shader
 
 ***
 
