@@ -34,6 +34,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Configure Multiplayer Controls](#how-to-configure-multiplayer-controls)
     - [How to Roll Back Dolphin to an Older Version](#how-to-roll-back-dolphin-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
+    - [How to Enable HDR](#how-to-enable-hdr)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
 
 3. [Dolphin Cheats, Modding, and Texture Packs](#dolphin-cheats-modding-and-texture-packs)
@@ -63,6 +64,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
         - [New Super Mario Bros Wii / Wario Land: Shake It! / Wario Land: The Shake Dimension](../../community-creations/steamos/community-creations.md#new-super-mario-bros-wii--wario-land-shake-it--wario-land-the-shake-dimension)
         - [Sideways Wiimote With No Attachment](../../community-creations/steamos/community-creations.md#sideways-wiimote-with-no-attachment)
         - [Super Mario Galaxy 1 and 2](../../community-creations/steamos/community-creations.md#super-mario-galaxy-1-and-2)
+
 
 6. [Custom Game Settings](#custom-game-settings)
     - [Pokemon Colosseum: Black Floors](#pokemon-colosseum-black-floors)
@@ -686,6 +688,28 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
     * 7 = Simplified Chinese
     * 8 = Traditional Chinese
     * 9 = Korean
+
+***
+
+### How to Enable HDR
+[Back to the Top](#dolphin-table-of-contents)
+
+With the latest Dolphin update, HDR can now be used on Steam Deck OLEDs. Here's how to enable it.
+
+1. In Desktop Mode, open `Konsole` or a terminal of your choice
+2. Paste the following command and press enter:
+    * `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope`
+    * When prompted, select `user` and `23.08`
+3. Paste the following command and press enter:
+    * `flatpak update --commit=871e619e26646af747705ad1d04f4dbd4b7809b1e45d19ef41dea1a5bf9ba6ba org.freedesktop.Platform.VulkanLayer.gamescope`
+4. In Desktop Mode, open the Dolphin emulator
+5. Click the `Graphics` button
+6. Click the `Enhancements` tab
+7. Check `HDR Post-Processing`
+8. Click the `Post-Processing Effect` drop-down menu and select `PerceptualHDR` or `AutoHDR` depending on your preference
+    * See the [latest Dolphin blog](https://dolphin-emu.org/blog/2024/04/30/dolphin-progress-report-february-march-and-april-2024/#hdr-enhancements-50-19931-add-autohdr-post-process-shader-by-filoppi-and-50-21232-add-hdr-to-metal-perceptual-hdr-by-samb) for more info on the difference between the two
+9. HDR will now be enabled
+
 
 ***
 
