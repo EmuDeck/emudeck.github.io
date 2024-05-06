@@ -2123,20 +2123,20 @@ Source: [https://gbatemp.net/threads/fanmade-pc-port-of-the-legend-of-zelda-link
 
 1. In `/home/deck/Games`, create a `PokeMMO` folder
 2. In `/home/deck/Games/PokeMMO`, create a `jdk` folder
-3. Download Java OpenJDK: [https://jdk.java.net/19/](https://jdk.java.net/19/) to `/home/deck/Games/PokeMMO`
-    * Download `Linux / x64 	tar.gz (sha256) 	195931906`
-4. Download PokeMMO: [https://pokemmo.com/downloads/linux/](https://pokemmo.com/downloads/linux/) to `/home/deck/Games/PokeMMO`
+3. Download Java OpenJDK: [https://jdk.java.net/22/](https://jdk.java.net/22/) to `/home/deck/Games/UniversalPokemonRandomizer/jdk`
+    * Download the `Linux/x64` version
+4. Right click `openjdk-#.#.#_linux-x64_bin.tar.gz`, click `Extract > Extract archive here`
+    * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded OpenJDK
+    * If the `.tar.gz` creates a subfolder, move the contents out directly into `/home/deck/Games/UniversalPokemonRandomizer/jdk`
+5. Download PokeMMO: [https://pokemmo.com/downloads/linux/](https://pokemmo.com/downloads/linux/) to `/home/deck/Games/PokeMMO`
     * Under `Other Distributions`, click `Download the Client`
-5. Extract `PokeMMO-Client.zip` in `/home/deck/Games/PokeMMO`
+6. Extract `PokeMMO-Client.zip` in `/home/deck/Games/PokeMMO`
     * <img src="https://user-images.githubusercontent.com/108900299/215299506-ef39e81d-989a-4f79-9865-4b0fbe8dba42.png" height="300">
-6. Extract `openjdk-19.0.2_linux-x64_bin.tar.gz` to `/home/deck/Games/PokeMMO/jdk`
-    * If the `.tar.gz` creates a subfolder, move the contents out directly into `/home/deck/Games/PokeMMO/jdk`
-    * <img src="https://user-images.githubusercontent.com/108900299/215299685-351108f5-4645-4316-8640-2f0e390532f2.png" height="300">
 7. To launch the game, open `Konsole` and enter: `/home/deck/Games/PokeMMO/jdk/bin/java -jar PokeMMO.exe -cp com.pokeemu.client.Client`
 
 #### How to add PokeMMO to Steam
 
-1. Download attached `.sh` file
+1. Download the attached `.sh` file
     * [PokeMMO.sh](../../configuration-files/PokeMMO.sh)
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `/home/deck/Applications`
