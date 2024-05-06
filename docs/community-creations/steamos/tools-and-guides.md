@@ -520,6 +520,8 @@ This section will cover how to download and set up the Universal Pokemon Randomi
 7. Right click `UniversalPokemonRandomizer.sh`, click `Properties`, click `Permissions`, and ensure `Is executable` is checked
 8. To launch the Universal Pokemon Randomizer, double click `UniversalPokemonRandomizer.sh`
 
+**Note:** If you are getting a warning about the randomizer not being started via the launcher, you may ignore this message. The bash script above mirrors the launcher which allows it work on the Steam Deck/Linux but the warning cannot be removed. 3DS games will likely still work even though the warning suggest they will not work if the launcher is not used. 
+
 
 ***
 
