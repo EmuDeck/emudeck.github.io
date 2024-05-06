@@ -521,8 +521,14 @@ This section will cover how to download and set up the Universal Pokemon Randomi
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 7. Right click `UniversalPokemonRandomizer.sh`, click `Properties`, click `Permissions`, and ensure `Is executable` is checked
 8. To launch the Universal Pokemon Randomizer, double click `UniversalPokemonRandomizer.sh`
+    * **Note:** If you are getting a warning about the randomizer not being started via the launcher, you may ignore this message. The bash script above mirrors the launcher which allows it work on the Steam Deck/Linux but the warning cannot be removed. 3DS games will likely still work even though the warning suggest they will not work if the launcher is not used
 
-**Note:** If you are getting a warning about the randomizer not being started via the launcher, you may ignore this message. The bash script above mirrors the launcher which allows it work on the Steam Deck/Linux but the warning cannot be removed. 3DS games will likely still work even though the warning suggest they will not work if the launcher is not used. 
+
+After following the above instructions, your folders should look like the below:
+
+![How to Install the Universal Pokemon Randomizer 1](../../assets/how-to-install-the-universal-pokemon-randomizer-1.png)
+
+![How to Install the Universal Pokemon Randomizer 2](../../assets/how-to-install-the-universal-pokemon-randomizer-2.png)
 
 
 ***
