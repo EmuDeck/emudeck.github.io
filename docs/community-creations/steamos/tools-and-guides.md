@@ -506,12 +506,14 @@ This section will cover how to download and set up the Universal Pokemon Randomi
 
 1. In `/home/deck/Games`, create a `UniversalPokemonRandomizer` folder
 2. In `/home/deck/Games/UniversalPokemonRandomizer`, create a `jdk` folder
-3. Download Java OpenJDK: [https://jdk.java.net/22/](https://jdk.java.net/22/) to `/home/deck/Games/UniversalPokemonRandomizer/jdk`
+3. Download the latest version of Java OpenJDK, [https://jdk.java.net/22/](https://jdk.java.net/22/),to `/home/deck/Games/UniversalPokemonRandomizer/jdk`
     * Download the `Linux/x64` version
 4. Right click `openjdk-#.#.#_linux-x64_bin.tar.gz`, click `Extract > Extract archive here`
     * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded OpenJDK
     * If the `.tar.gz` creates a subfolder, move the contents out directly into `/home/deck/Games/UniversalPokemonRandomizer/jdk`
-4. Download the Universal Pokemon Randomizer: [https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases](https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases) to `/home/deck/Games/UniversalPokemonRandomizer`
+4. Download the latest version of Universal Pokemon Randomizer, [https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases](https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases), to `/home/deck/Games/UniversalPokemonRandomizer`
+    * Download `PokeRandoZX-v$_#_#.zip`
+        * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded the Universal Pokemon Randomizer
 5. Right click `PokeRandoZX-v#_#_#.zip`, click `Extract > Extract archive here`
     * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded the Universal Pokemon Randomizer
 6. Download the attached `.sh` file
