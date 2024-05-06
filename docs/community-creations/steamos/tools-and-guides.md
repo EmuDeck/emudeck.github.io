@@ -224,14 +224,6 @@ This section will cover how to download and set up PKHeX. For the GitHub repo, s
 
 ![How to Set Up PKHeX 1](../../assets/how-to-set-up-pkhex-1.png)
 
-#### Set up Lutris and ProtonUp-Qt
-
-##### Set up ProtonUp-Qt
-
-1. In Desktop Mode, open Discover and download `ProtonUp-Qt`
-2. Open ProtonUp-Qt
-3. In Protonup-Qt, 
-
 ##### Set up Lutris
 
 1. In Desktop Mode, open Discover and download `Lutris`
