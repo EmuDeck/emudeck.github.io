@@ -34,6 +34,7 @@ GitHub: [https://github.com/mgba-emu/mgba](https://github.com/mgba-emu/mgba)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Create Multiple Save Files for a Game](#how-to-create-multiple-save-files-for-a-game)
     - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
+    - [How to Install the Universal Pokemon Randomizer](../../community-creations/steamos/tools-and-guides.md#how-to-install-the-universal-pokemon-randomizer)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
 
 

@@ -33,6 +33,7 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
     - [How to Roll Back melonDS to an Older Version](#how-to-roll-back-melonds-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
+    - [How to Install the Universal Pokemon Randomizer](../../community-creations/steamos/tools-and-guides.md#how-to-install-the-universal-pokemon-randomizer)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
     
 ***
