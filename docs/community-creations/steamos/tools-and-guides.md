@@ -224,9 +224,17 @@ This section will cover how to download and set up PKHeX. For the GitHub repo, s
 
 ![How to Set Up PKHeX 1](../../assets/how-to-set-up-pkhex-1.png)
 
-#### Set up Lutris
+#### Set up Lutris and ProtonUp-Qt
 
-1. In Desktop Mode, open Discover and download Lutris
+##### Set up ProtonUp-Qt
+
+1. In Desktop Mode, open Discover and download `ProtonUp-Qt`
+2. Open ProtonUp-Qt
+3. In Protonup-Qt, 
+
+##### Set up Lutris
+
+1. In Desktop Mode, open Discover and download `Lutris`
 2. Open Lutris
 3. Click the `Wine` button on the left, click the little page icon to the right, download `wine-ge-8-26`
 4. Click the `+` button in the top left of the Lutris application
@@ -521,8 +529,6 @@ This section will cover how to download and set up the Universal Pokemon Randomi
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 7. Right click `UniversalPokemonRandomizer.sh`, click `Properties`, click `Permissions`, and ensure `Is executable` is checked
 8. To launch the Universal Pokemon Randomizer, double click `UniversalPokemonRandomizer.sh`
-    * **Note:** If you are getting a warning about the randomizer not being started via the launcher, you may ignore this message. The bash script above mirrors the launcher which allows it work on the Steam Deck/Linux but the warning cannot be removed. 3DS games will likely still work even though the warning suggest they will not work if the launcher is not used
-
 
 After following the above instructions, your folders should look like the below:
 
