@@ -15,16 +15,17 @@ Only **SteamOS/Linux** is supported at this time.
 ## Download
 [Back to the Top](#import-and-export-tool-table-of-contents)
 
-[Import Tool](../../configuration-files/EmuDeckImportSaves.desktop.download){:download="EmuDeckImportSaves.desktop.download"}
-
-[Export Tool](../../configuration-files/EmuDeckExportSaves.desktop.download){:download="EmuDeckExportSaves.desktop.download"}
+* [Import Tool](../../configuration-files/EmuDeckImportSaves.desktop.download){:download="EmuDeckImportSaves.desktop.download"}
+* [Export Tool](../../configuration-files/EmuDeckExportSaves.desktop.download){:download="EmuDeckExportSaves.desktop.download"}
 
 ***
 
 ## Guides
 [Back to the Top](#import-and-export-tool-table-of-contents)
 
-**Text:** [https://steamdeckhq.com/news/emudeck-import-export-tools-steam-deck-oled/](https://steamdeckhq.com/news/emudeck-import-export-tools-steam-deck-oled/)
+**Text:** 
+
+* [https://steamdeckhq.com/news/emudeck-import-export-tools-steam-deck-oled/](https://steamdeckhq.com/news/emudeck-import-export-tools-steam-deck-oled/)
 
 **Video:** 
 
