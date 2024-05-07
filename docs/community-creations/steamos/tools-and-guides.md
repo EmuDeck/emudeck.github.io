@@ -444,7 +444,7 @@ This section is specifically for Aemulus Package Manager. For detailed instructi
 3. Download the latest version of Aemulus Package Manager, [https://github.com/TekkaGB/AemulusModManager/releases](https://github.com/TekkaGB/AemulusModManager/releases) to `$HOME/Games/Lutris/AemulusPackageManager`
     * Download the `AemulusPackageManagerv#.#.#.7z` file
         * The `#.#.#` refer to the version numbers. These may vary depending on when you download the latest release
-3. Right click `AemulusPackageManagerv#.#.#.7z`, click `Extract`, `Extract Archive Here`
+4. Right click `AemulusPackageManagerv#.#.#.7z`, click `Extract`, `Extract Archive Here`
     * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded Aemulus Package Manager
 
 #### Set up Lutris
@@ -460,7 +460,7 @@ This section is specifically for Aemulus Package Manager. For detailed instructi
     * Runner: Wine (Runs Windows games)
     * Release Year: Leave Blank
 7. On the `Game Options` tab:
-    * Executable: Click the `Browse` button and navigate to the `AemulusPackageManager.exe.exe` file in `$HOME/Games/Lutris/AemulusPackageManager`
+    * Executable: Click the `Browse` button and navigate to the `AemulusPackageManager.exe` file in `$HOME/Games/Lutris/AemulusPackageManager`
         * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/AemulusPackageManager`
     * Arguments: Leave Blank
     * Working Directory: Leave Blank
@@ -527,6 +527,58 @@ After following the above instructions, your folders should look like the below:
 ![How to Install the Universal Pokemon Randomizer 1](../../assets/how-to-install-the-universal-pokemon-randomizer-1.png)
 
 ![How to Install the Universal Pokemon Randomizer 2](../../assets/how-to-install-the-universal-pokemon-randomizer-2.png)
+
+
+***
+
+### How to Apply the Universal Slowdown Removal Patch for Final Fantasy Tactics: The War of the Lions
+
+This section will cover how to download and set up a patcher for Final Fantasy Tactics: The War of the Lions. For the source, see [https://ffhacktics.com/smf/index.php?topic=9523.0](https://ffhacktics.com/smf/index.php?topic=9523.0)
+
+#### Set up Folders
+
+1. In Desktop Mode, open Konsole
+2. Enter:
+    * `mkdir -p $HOME/Games/Lutris/FFTWOTLPatch/pfx`
+    * This command will create a couple of **empty** folders to make managing and installing the patcher easier
+3. Download the patcher, [https://ffhacktics.com/smf/index.php?topic=9523.0](https://ffhacktics.com/smf/index.php?topic=9523.0) to ` $HOME/Games/Lutris/FFTWOTLPatch/pfx`
+4. Right click `FFT - WotL Universal Slowndown removal patch - By Plastik.rar`, click `Extract`, `Extract Archive Here`
+    * If the `.rar` creates a subfolder, move the contents out directly into `$HOME/Games/Lutris/FFTWOTLPatch/pfx`
+
+#### Set up Lutris
+
+1. In Desktop Mode, open Discover and download Lutris
+2. Open Lutris
+3. Click the `Wine` button on the left, click the little page icon to the right, download `wine-ge-8-26`
+4. Click the `+` button in the top left of the Lutris application
+5. Click `Add locally installed game`
+6. On the `Game Info` tab:
+    * Name: FFTWOTLPatch
+    * Sort Name: Leave Blank
+    * Runner: Wine (Runs Windows games)
+    * Release Year: Leave Blank
+7. On the `Game Options` tab:
+    * Executable: Click the `Browse` button and navigate to the `FFT WotL - Universal Slowdown patch.exe` file in `$HOME/Games/Lutris/FFTWOTLPatch/pfx`
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/$HOME/Games/Lutris/FFTWOTLPatch/pfx`
+    * Arguments: Leave Blank
+    * Working Directory: Leave Blank
+    * Wine Prefix: Click the `Browse` button and select the `$HOME/Games/Lutris/$HOME/Games/Lutris/FFTWOTLPatch/pfx` folder
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/$HOME/Games/Lutris/FFTWOTLPatch/pfx/pfx`
+8. On the `Runner options` tab:
+    * Wine version: `wine-ge-8.26-x86_64`
+    * Leave everything else at defaults
+9. Click the `Save` button in the top right
+10. To open the patcher, open Lutris, select the FFTWOTLPatch tile, and click `Play`
+11. Apply the patch to your ROM
+
+**If your ROM is on an SD Card or external storage device**
+
+1. In Desktop Mode, open Discover and download Flatseal
+2. Open Flatseal and click Lutris on the left hand side of the screen
+3. Scroll down to Filesystem
+4.  Under `Other files`, click the "Add folder" (Folder with a plus icon) button and enter `~/run/media`
+5. Close out of Flatseal and re-open FFTWOTLPatch through Lutris
+6. Your removable storage devices will now be accessible through Lutris
 
 
 ***
