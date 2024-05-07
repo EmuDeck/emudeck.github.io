@@ -76,6 +76,8 @@ nav:
         - Pegasus:
             - 'Pegasus on SteamOS': 'tools/steamos/pegasus.md'
             - 'Pegasus on Windows': 'tools/windows/pegasus.md'
+        - Import and Export Tools:
+            - 'Import and Export Tool on SteamOS': 'tools/steamos/import-and-export-tool.md'
     - Emulators:
         - Supported Emulators:
             - Supported Emulators on SteamOS: 'emulators/steamos/supported-emulators.md'
