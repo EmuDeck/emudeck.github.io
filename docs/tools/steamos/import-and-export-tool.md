@@ -25,7 +25,7 @@ Only **SteamOS/Linux** is supported at this time.
 
 **Text:** 
 
-* [https://steamdeckhq.com/news/emudeck-import-export-tools-steam-deck-oled/](https://steamdeckhq.com/news/emudeck-import-export-tools-steam-deck-oled/)
+* **English:** [https://steamdeckhq.com/news/emudeck-import-export-tools-steam-deck-oled/](https://steamdeckhq.com/news/emudeck-import-export-tools-steam-deck-oled/)
 
 **Video:** 
 
