@@ -13,6 +13,7 @@ Only **SteamOS/Linux** is supported at this time.
 ***
 
 ## Download
+[Back to the Top](#import-and-export-tool-table-of-contents)
 
 [Import Tool](../../configuration-files/EmuDeckImportSaves.desktop.download){:download="EmuDeckImportSaves.desktop.download"}
 
@@ -21,6 +22,7 @@ Only **SteamOS/Linux** is supported at this time.
 ***
 
 ## Guides
+[Back to the Top](#import-and-export-tool-table-of-contents)
 
 **Text:** [https://steamdeckhq.com/news/emudeck-import-export-tools-steam-deck-oled/](https://steamdeckhq.com/news/emudeck-import-export-tools-steam-deck-oled/)
 
@@ -28,5 +30,12 @@ Only **SteamOS/Linux** is supported at this time.
 
 * **Export:** [https://www.youtube.com/watch?v=S87Lj0loFho](https://www.youtube.com/watch?v=S87Lj0loFho)
 * **Import:** [https://www.youtube.com/watch?v=RseOs69vfi0](https://www.youtube.com/watch?v=RseOs69vfi0)
+
+***
+
+## EmuDeck File Structure
+[Back to the Top](#import-and-export-tool-table-of-contents)
+
+For a better understanding of where EmuDeck stores files, see [EmuDeck File Locations](../../file-management/steamos/file-management.md#emudeck-file-locations) and [Emulator Save and Save State Locations](../../file-management/steamos/file-management.md#emulator-save-and-save-state-locations).
 
 ***
