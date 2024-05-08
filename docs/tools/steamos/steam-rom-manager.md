@@ -22,6 +22,7 @@ Read the [ES-DE](../steamos/es-de.md) page to learn more about ES-DE and how it 
     - [How to Launch Steam ROM Manager in Desktop Mode](#how-to-launch-steam-rom-manager-in-desktop-mode)
     - [How to Reset Steam ROM Manager](#how-to-reset-steam-rom-manager) 
 2. [Common Issues](#common-issues)
+    - [The Dangers of Proton](#the-dangers-of-proton)
     - [I hit the "Remove all added app entries" button, but the entries were not removed!](#i-hit-the-remove-all-added-app-entries-button-but-the-entries-were-not-removed)
     - [Help, I just opened Steam ROM Manager and I have no controls!](#help-i-just-opened-steam-rom-manager-and-i-have-no-controls)
     - [Why does Steam ROM Manager have no parsers?](#why-does-steam-rom-manager-have-no-parsers)
@@ -156,6 +157,19 @@ The backup file is named: `userConfigurations.json.bak`.
 
 ## Common Issues
 [Back to the Top](#steam-rom-manager-table-of-contents)
+
+***
+
+### The Dangers of Proton
+[Back to the Top](#steam-rom-manager-table-of-contents)
+
+There is outdated info on the internet that indicates you need to set Proton on games added by Steam ROM Manager to Steam. Turning on Proton is not necessary. **DO NOT set Proton Compatibity on any emulated games.** Do **NOT** set `STEAM_COMPAT_MOUNTS` in parameters.
+
+Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the settings on the `Compatibility` screen in `Game Mode`. 
+
+Using Cemu as an example:
+
+<img width="500" alt="proton" src="https://user-images.githubusercontent.com/108900299/194777064-526930f4-c36c-44be-b26a-ec192375ef7b.png">
 
 ***
 
