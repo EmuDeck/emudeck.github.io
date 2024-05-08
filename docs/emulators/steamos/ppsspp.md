@@ -30,6 +30,7 @@ Compatibility List: [https://forums.ppsspp.org/showthread.php?tid=1473](https://
     - [How to Use the Original PSP Font](#how-to-use-the-original-psp-font)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Use ROM Hacks](../../community-creations/steamos/tools-and-guides.md#how-to-use-rom-hacks)
+    - [How to Apply the Universal Slowdown Removal Patch for Final Fantasy Tactics: The War of the Lions](../../community-creations/steamos/tools-and-guides.md#how-to-apply-the-universal-slowdown-removal-patch-for-final-fantasy-tactics-the-war-of-the-lions)
 
 
 ***
