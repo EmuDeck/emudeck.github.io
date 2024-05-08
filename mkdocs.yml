@@ -85,10 +85,7 @@ nav:
         - BigPEmu (Atari Jaguar):
             - 'BigPEmu on SteamOS': 'emulators/steamos/bigpemu.md'
         - Cemu (Wii U): 
-            - 'Cemu on SteamOS': 
-                - 'emulators/steamos/cemu/index.md'
-                - 'Cemu (Native) on SteamOS': 'emulators/steamos/cemu/cemu-native.md'
-                - 'Cemu (Proton) on SteamOS': 'emulators/steamos/cemu/cemu-proton.md'
+            - 'Cemu on SteamOS': 'emulators/steamos/cemu/cemu-native.md'
             - 'Cemu on Windows': 'emulators/windows/cemu.md'
         - Citra (Nintendo 3DS):
             - 'Citra FAQ': 'frequently-asked-questions/steamos/#citra-and-yuzu-faq' 
