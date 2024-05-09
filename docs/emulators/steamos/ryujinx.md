@@ -389,6 +389,7 @@ Known **Cases**:
 
 * `é` in `Pokémon`
 * `'` in `The Legend of Zelda: Link's Awakening`
+* `+` and `'` in `Super Mario 3D World + Bowser’s Fury` 
 
 If you used Steam ROM Manager previously, re-run Steam ROM Manager after renaming your ROMs.
 
