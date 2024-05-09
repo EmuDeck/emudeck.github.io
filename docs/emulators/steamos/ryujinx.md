@@ -395,7 +395,11 @@ If you used Steam ROM Manager previously, re-run Steam ROM Manager after renamin
 
 **How to Remove Special Characters**
 
-![How to Remove Special Characters](../../videos/how-to-remove-special-characters.mp4)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/how-to-remove-special-characters.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ***
 

@@ -165,7 +165,11 @@ If your ROM has a special character, rename the file itself and re-run Steam ROM
 
 **How to Remove Special Characters**
 
-![How to Remove Special Characters](../../videos/how-to-remove-special-characters.mp4)
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true">
+    <source src="/videos/how-to-remove-special-characters.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ***
 
