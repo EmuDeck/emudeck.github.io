@@ -23,6 +23,7 @@ Read the [ES-DE](../steamos/es-de.md) page to learn more about ES-DE and how it 
     - [How to Reset Steam ROM Manager](#how-to-reset-steam-rom-manager) 
 2. [Common Issues](#common-issues)
     - [The Dangers of Proton](#the-dangers-of-proton)
+    - [Special Characters](#special-characters)
     - [I hit the "Remove all added app entries" button, but the entries were not removed!](#i-hit-the-remove-all-added-app-entries-button-but-the-entries-were-not-removed)
     - [Help, I just opened Steam ROM Manager and I have no controls!](#help-i-just-opened-steam-rom-manager-and-i-have-no-controls)
     - [Why does Steam ROM Manager have no parsers?](#why-does-steam-rom-manager-have-no-parsers)
@@ -170,6 +171,23 @@ Do not open the `Compatibility` screen in `Game Mode`. Do not touch any of the s
 Using Cemu as an example:
 
 <img width="500" alt="proton" src="https://user-images.githubusercontent.com/108900299/194777064-526930f4-c36c-44be-b26a-ec192375ef7b.png">
+
+***
+
+### Special Characters
+[Back to the Top](#steam-rom-manager-table-of-contents)
+
+If your ROM is not launching and the file name includes special characters, rename the file to remove any of these characters.
+
+Special characters may include apostrophes, pluses, or characters with acccents.
+
+Here are a few examples:
+
+* `é` in `Pokémon`
+* `'` in `The Legend of Zelda: Link's Awakening`
+* `+` and `'` in `Super Mario 3D World + Bowser’s Fury` 
+
+If your ROM has a special character, rename the file itself and re-run Steam ROM Manager after renaming your ROMs.
 
 ***
 
