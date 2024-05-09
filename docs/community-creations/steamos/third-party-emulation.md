@@ -2294,7 +2294,7 @@ Source: [https://github.com/Gemba/skyscraper](https://github.com/Gemba/skyscrape
 
 #### Skyscraper Usage
 
-For more detailed information on how to use Skyscraper, see the [Scraping](../../tools/steamos/pegasus.md#advanced) section on the Pegasus page.
+For more detailed information on how to use Skyscraper, see the [Scraping](../../tools/steamos/pegasus.md#advanced-skyscraper) section on the Pegasus page.
 
 ***
 
