@@ -44,8 +44,11 @@ The guides on this page are not officially supported by EmuDeck. Many require so
     - [Link's Awakening DX HD](#links-awakening-dx-hd)
     - [PokeMMO](#pokemmo)
     - [Sonic 3 A.I.R.](#sonic-3-air)
- 
-4. [How to Contribute to This Page](#how-to-contribute-to-this-page)
+
+4. [Emulation Related Tools](#emulation-related-tools)
+    - [Skyscraper](#skyscraper)
+
+5. [How to Contribute to This Page](#how-to-contribute-to-this-page)
 
 ***
 
@@ -2233,7 +2236,62 @@ _This list is not comprehensive_
 
 ***
 
-### How to Contribute to This Page
+## Emulation Related Tools
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+***
+
+### Skyscraper
+
+#### What is this?
+
+!!! quote
+
+    A powerful and versatile yet easy to use game scraper written in C++ for use with multiple frontends running on a Linux system (macOS and Windows too, but not officially supported). It scrapes and caches various game resources from various scraping sources, including media such as screenshot, cover and video. It then gives you the option to generate a game list and artwork for the chosen frontend by combining all of the cached resources.
+
+Source: [https://github.com/Gemba/skyscraper](https://github.com/Gemba/skyscraper)
+
+#### Installing Prerequisites
+
+1. To do the steps in this section, you will need to have created an Ubuntu Distrobox. If you have not created one already, see [How to Set up Distrobox](#how-to-set-up-distrobox) for instructions
+2. Enter the Distrobox by opening Konsole and entering: 
+    * `distrobox enter ubuntu`
+3. Enter the following command: 
+    * `sudo apt install qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools p7zip-full build-essential`
+
+#### How to Set Up Skyscraper
+
+**Note:** The following folder locations are recommendations. You may choose a different folder location. 
+
+1. In `/home/deck/Applications`, create a `Distrobox` folder
+2. In the `Distrobox` folder, right click anywhere in the folder, click `Open Terminal Here`, enter:
+    * `git clone https://github.com/Gemba/skyscraper.git`
+3. A `skyscraper` folder will be created
+
+#### How to Build Skyscraper
+
+1. In `/home/deck/Applications/Distrobox/skyscraper/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
+    * `distrobox enter ubuntu`
+2. Enter each line one at a time: 
+    * `mkdir skysource`
+    * `cd skysource`
+    `./update_skyscraper.sh`
+3. Wait for it to finish building
+4. To open Skyscraper, open `Skyscraper` in `/home/deck/Applications/Distrobox/skyscraper/` using a terminal
+    * For example, right click anywhere in `/home/deck/Applications/Distrobox/skyscraper/`, click `Open Terminal Here`, and type `./Skyscraper`
+
+#### How to Configure Skyscraper
+
+1. In `/home/deck/.skyscraper`, right click `config.ini`, click `Open with Kate` or a text editor of your choice
+2. Customize settings
+
+#### Skyscraper Usage
+
+For more detailed information on how to use Skyscraper, see the [Scraping](../../tools/steamos/pegasus.md#advanced) section on the Pegasus page.
+
+***
+
+## How to Contribute to This Page
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 You will need to **create** a GitHub account first. To sign up for GitHub, see [https://github.com/signup](https://github.com/signup).

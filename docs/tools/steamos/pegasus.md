@@ -13,6 +13,7 @@ Pegasus Wiki: [https://pegasus-frontend.org/docs/](https://pegasus-frontend.org/
     - [Pegasus Folder Locations](#pegasus-folder-locations)
     - [How to Update Pegasus](#how-to-update-pegasus)
     - [How to Launch Pegasus in Desktop Mode](#how-to-launch-pegasus-in-desktop-mode)
+    - [Scraping](#scraping)
     - [Hotkeys](#pegasus-hotkeys)
 
 2. [Emulator Configurations](#emulator-configurations)
@@ -92,6 +93,25 @@ pegasus-frontend/
 * Launch the Binary Package: `/home/deck/Applications/pegasus-fe`
 * Launch Pegasus from `Steam` after adding it via the `Pegasus` parser in `Steam Rom Manager`
 * Launch `Pegasus Binary` from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar)
+
+***
+
+### Scraping
+[Back to the Top](#pegasus-table-of-contents)
+
+
+#### Simple
+
+The simple solution for scraping ROMs so they have metadata in Pegasus is to use ES-DE. Add ES-DE to Game Mode through Steam ROM Manager, open ES-DE, and scrape your ROMs. The metadata for your ROMs in ES-DE will automatically carry over to Pegasus.
+
+Do note that there is currently a bug in Pegasus that prevents videos and audio from playing correctly. 
+
+#### Advanced
+
+If you are comfortable with a terminal and compiling software, you may also try Skyscraper, a command-line based scraping service. For instructions on how to compile Skyscraper, see [Skyscraper](../../community-creations/steamos/third-party-emulation.md#skyscraper).
+
+For Skyscraper documentation, see [https://gemba.github.io/skyscraper/](https://gemba.github.io/skyscraper/).
+
 
 ***
 
