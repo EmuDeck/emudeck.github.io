@@ -2273,7 +2273,7 @@ Source: [https://github.com/Gemba/skyscraper](https://github.com/Gemba/skyscrape
 1. In `/home/deck/Applications/Distrobox/skyscraper/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
-    `./update_skyscraper.sh`
+    * `./update_skyscraper.sh`
 3. Wait for it to finish building
 4. To open Skyscraper, open `Skyscraper` in `/home/deck/Applications/Distrobox/skyscraper/` using a terminal
     * For example, right click anywhere in `/home/deck/Applications/Distrobox/skyscraper/`, click `Open Terminal Here`, and type `./Skyscraper`
@@ -2289,7 +2289,7 @@ Source: [https://github.com/Gemba/skyscraper](https://github.com/Gemba/skyscrape
 1. In `/home/deck/Applications/Distrobox/skyscraper/`, right click anywhere in the folder, click `Open Terminal Here`, enter:
     * `distrobox enter ubuntu`
 2. Enter: 
-    `./update_skyscraper.sh`
+    * `./update_skyscraper.sh`
 3. Wait for it to finish updating
 
 #### Skyscraper Usage
