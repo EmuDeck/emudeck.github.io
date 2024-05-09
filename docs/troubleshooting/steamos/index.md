@@ -163,6 +163,10 @@ Here are a few examples:
 
 If your ROM has a special character, rename the file itself and re-run Steam ROM Manager after renaming your ROMs.
 
+**How to Remove Special Characters**
+
+![How to Remove Special Characters](../../videos/how-to-remove-special-characters.mkv)
+
 ***
 
 ## Did you turn on Proton?

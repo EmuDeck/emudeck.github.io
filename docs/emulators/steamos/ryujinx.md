@@ -393,6 +393,10 @@ Known **Cases**:
 
 If you used Steam ROM Manager previously, re-run Steam ROM Manager after renaming your ROMs.
 
+**How to Remove Special Characters**
+
+![How to Remove Special Characters](../../videos/how-to-remove-special-characters.mkv)
+
 ***
 
 ### How to Roll Back Ryujinx to an Older Version
