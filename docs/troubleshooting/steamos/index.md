@@ -149,6 +149,35 @@ See [How to Create CUE Files](../../file-management/steamos/file-management.md#h
 
 ***
 
+## ROM not launching? Does your ROM have a special character in the name?
+
+There may be a couple of reasons for this. One blanket solution is to ensure your ROM does not have any special characters in the name.
+
+Special characters may include apostrophes, pluses, or characters with acccents.
+
+Here are a few examples:
+
+* `é` in `Pokémon`
+* `'` in `The Legend of Zelda: Link's Awakening`
+* `+` and `'` in `Super Mario 3D World + Bowser’s Fury` 
+
+If your ROM has a special character, rename the file itself and re-run Steam ROM Manager after renaming your ROMs.
+
+***
+
+## Did you turn on Proton?
+
+There is outdated info on the internet that indicates you need to set Proton on games added by Steam ROM Manager to Steam. Turning on Proton is not necessary. **DO NOT set Proton Compatibity on any emulated games.** Do **NOT** set `STEAM_COMPAT_MOUNTS` in parameters.
+
+**Do not** open the `Compatibility` screen in `Game Mode`. **Do not** touch any of the settings on the `Compatibility` screen in `Game Mode`. This **only** applies for emulated games. 
+
+Using Cemu as an example:
+
+<img width="500" alt="proton" src="https://user-images.githubusercontent.com/108900299/194777064-526930f4-c36c-44be-b26a-ec192375ef7b.png">
+
+
+***
+
 ## Still stuck?
 
 If none of the troubleshooting sections above worked for you, gather photos and a log so you can request support in EmuDeck's Discord or Reddit.
