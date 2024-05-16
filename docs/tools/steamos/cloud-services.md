@@ -60,6 +60,7 @@ The Cloud Services Manager (CSM) handles two types of services:
 | Crunchyroll                | [https://www.crunchyroll.com/](https://www.crunchyroll.com/)      |
 | Discord                    | [https://discord.com/](https://discord.com/)               |
 | Disney+                    | [https://www.disneyplus.com/](https://www.disneyplus.com/)        |
+| Dropout                    | [https://dopout.tv](https://dropout.tv)                |
 | Emby *                     | [https://emby.media/](https://emby.media/)               |
 | HBO Max                    | [https://www.hbomax.com/](https://www.hbomax.com/)            |
 | Home Assistant *           | [https://demo.home-assistant.io/](https://demo.home-assistant.io/)    |
