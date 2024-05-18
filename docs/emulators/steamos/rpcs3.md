@@ -3,10 +3,12 @@
 !!! warning
 
     Prior to the 2.2 update of EmuDeck, the Flatpak version of RPCS3 was installed. The Flatpak version is identical to the version you may install from the Discover store. With the 2.2 update, EmuDeck swapped over from the Flatpak to the AppImage. The primary reason for the swap to the AppImage was to use the official distribution of RPCS3 on Linux. The Flatpak/version you may download through Discover is maintained by the community and is an unofficial build. 
-    
+
     If you are still using the Flatpak or are unsure which version you are using, you may swap over to the AppImage by opening the EmuDeck application, clicking the "Manage Emulators" tab, clicking RPCS3, and clicking both "Reinstall" and "Reset Configuration".
 
-    The AppImage works through Steam shortcuts created by Steam ROM Manager, ES-DE, and Pegasus. Any saves from the Flatpak version will be carried over when you reinstall and reset RPCS3 through the EmuDeck application. 
+    The AppImage works through Steam shortcuts created by Steam ROM Manager, ES-DE, and Pegasus. If you used Steam ROM Manager previously, you may need to re-add your PlayStation 3 games. If you created desktop files for ES-DE, you will need to recreate them so the AppImage is used instead. For instructions on ES-DE, see [How to Configure RPCS3 to Work With ES-DE and Pegasus](#how-to-configure-rpcs3-to-work-with-es-de-and-pegasus).
+
+    Any saves from the Flatpak version will be carried over when you reinstall and reset RPCS3 through the EmuDeck application. 
     
 
 Website: [https://rpcs3.net/](https://rpcs3.net/)
@@ -24,6 +26,7 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
 ## RPCS3 Table of Contents
 
 1. [Getting Started with RPCS3](#getting-started-with-rpcs3)
+    - [Why did EmuDeck switch to the AppImage?]
     - [Configuration](#rpcs3-configuration)
     - [RPCS3 Folder Locations](#rpcs3-folder-locations)
     - [How to Update RPCS3](#how-to-update-rpcs3)
@@ -59,6 +62,19 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * `Sony PlayStation 3 - RPCS3 (Extracted ISO/PSN)` or `Sony PlayStation 3 - RPCS3 (Installed PKG)`
     * Read the [File Formats](#rpcs3-file-formats) section to learn more about these various file formats
 * `Emulators`
+
+***
+
+### Why did EmuDeck switch to the AppImage?
+[Back to the Top](#rpcs3-table-of-contents)
+
+Prior to the 2.2 update of EmuDeck, the Flatpak version of RPCS3 was installed. The Flatpak version is identical to the version you may install from the Discover store. With the 2.2 update, EmuDeck swapped over from the Flatpak to the AppImage. The primary reason for the swap to the AppImage was to use the official distribution of RPCS3 on Linux. The Flatpak/version you may download through Discover is maintained by the community and is an unofficial build. 
+
+If you are still using the Flatpak or are unsure which version you are using, you may swap over to the AppImage by opening the EmuDeck application, clicking the "Manage Emulators" tab, clicking RPCS3, and clicking both "Reinstall" and "Reset Configuration".
+
+The AppImage works through Steam shortcuts created by Steam ROM Manager, ES-DE, and Pegasus. If you used Steam ROM Manager previously, you may need to re-add your PlayStation 3 games. If you created desktop files for ES-DE, you will need to recreate them so the AppImage is used instead. For instructions on ES-DE, see [How to Configure RPCS3 to Work With ES-DE and Pegasus](#how-to-configure-rpcs3-to-work-with-es-de-and-pegasus).
+
+Any saves from the Flatpak version will be carried over when you reinstall and reset RPCS3 through the EmuDeck application. 
 
 ***
 
