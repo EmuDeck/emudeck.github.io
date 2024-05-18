@@ -2,7 +2,7 @@
 
 !!! warning
 
-    Prior to the 2.2 update of EmuDeck, the Flatpak version of RPCS3 was installed. The Flatpak version is identical to the version you may install from the Discover store. With the 2.2 update, EmuDeck swapped over from the Flatpak to the AppImage. The Flatpak is unofficial and breaks frequently. 
+    Prior to the 2.2 update of EmuDeck, the Flatpak version of RPCS3 was installed. The Flatpak version is identical to the version you may install from the Discover store. With the 2.2 update, EmuDeck swapped over from the Flatpak to the AppImage. The primary reason for the swap to the AppImage was to use the official distribution of RPCS3 on Linux. The Flatpak/version you may download through Discover is maintained by the community and is an unofficial build. 
     
     If you are still using the Flatpak or are unsure which version you are using, you may swap over to the AppImage by opening the EmuDeck application, clicking the "Manage Emulators" tab, clicking RPCS3, and clicking both "Reinstall" and "Reset Configuration".
 
@@ -11,7 +11,7 @@
 
 Website: [https://rpcs3.net/](https://rpcs3.net/)
 
-Quickstart Guide: [https://rpcs3.net/quickstart](https://rpcs3.net/quickstart)
+Quickstart Guide: [https://rpcs3.net/quickstart](htt    ps://rpcs3.net/quickstart)
 
 GitHub: [https://github.com/RPCS3/rpcs3](https://github.com/RPCS3/rpcs3)
 
