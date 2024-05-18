@@ -6,7 +6,7 @@
     
     If you are still using the Flatpak or are unsure which version you are using, you may swap over to the AppImage by opening the EmuDeck application, clicking the "Manage Emulators" tab, clicking RPCS3, and clicking both "Reinstall" and "Reset Configuration".
 
-    The AppImage works through Steam shortcuts created by Steam ROM Manager, ES-DE, and Pegasus. Any saves from the Flatpak version will be carried over if you reinstall and reset through the EmuDeck application. 
+    The AppImage works through Steam shortcuts created by Steam ROM Manager, ES-DE, and Pegasus. Any saves from the Flatpak version will be carried over when you reinstall and reset RPCS3 through the EmuDeck application. 
     
 
 Website: [https://rpcs3.net/](https://rpcs3.net/)
