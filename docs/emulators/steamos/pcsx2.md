@@ -80,7 +80,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.config` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.  
 
-**Important Info:** Prior to version 0.17.6 of EmuDeck, we used the Flatpak version of PCSX2. This was installed from the discover store. We have since moved away from this release for performance reasons, and usability reasons (menus not opening).
+**Important Info:** Prior to version 0.17.6 of EmuDeck, the Flatpak version of PCSX2 was used. This was installed from the discover store. EmuDeck has since moved away from this release for performance reasons, and usability reasons (menus not opening).
 
 #### Works With
 * Steam ROM Manager

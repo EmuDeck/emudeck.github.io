@@ -1,5 +1,14 @@
 # RPCS3 is a Sony Playstation 3 Emulator.
 
+!!! warning
+
+    Prior to the 2.2 update of EmuDeck, the Flatpak version of RPCS3 was installed. The Flatpak version is identical to the version you may install from the Discover store. With the 2.2 update, EmuDeck swapped over from the Flatpak to the AppImage. The Flatpak is unofficial and breaks frequently. 
+    
+    If you are still using the Flatpak or are unsure which version you are using, you may swap over to the AppImage by opening the EmuDeck application, clicking the "Manage Emulators" tab, clicking RPCS3, and clicking both "Reinstall" and "Reset Configuration".
+
+    The AppImage works through Steam shortcuts created by Steam ROM Manager, ES-DE, and Pegasus. Any saves from the Flatpak version will be carried over if you reinstall and reset through the EmuDeck application. 
+    
+
 Website: [https://rpcs3.net/](https://rpcs3.net/)
 
 Quickstart Guide: [https://rpcs3.net/quickstart](https://rpcs3.net/quickstart)
