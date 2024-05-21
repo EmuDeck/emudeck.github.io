@@ -50,6 +50,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
 
 5. [Dolphin Unique Controller Configurations](#dolphin-unique-controller-configurations)
+    - [How to Select Wii Profiles On The Fly](#how-to-select-wii-profiles-on-the-fly)
     - [How to Configure Wii Games To Use A GameCube Controller](#how-to-configure-wii-games-to-use-a-gamecube-controller)
     - [How to Configure Wii Games to Use the Trackpad as a Pointer](#how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer)
     - [How to Configure Wii Games to Use the Classic Controller](#how-to-configure-wii-games-to-use-the-classic-controller)
@@ -987,6 +988,23 @@ Example, to use OpenGL for only Super Paper Mario:
 
 ## Dolphin Unique Controller Configurations
 [Back to the Top](#dolphin-table-of-contents)
+
+***
+
+### How to Select Wii Profiles On The Fly
+[Back to the Top](#dolphin-table-of-contents)
+
+While in game, press `Select` and move the `Left Joystick` left or right. You will see the name of the currently selected profile in the top left. Move the `Left Joystick` while holding `Select` until you identify a profile you would like to use.
+
+If you would like to detach the Nunchuk, either press `Select` + move the `Left Joystick` down or use the profile select (`Select` + move the `Left Joystick` left or right) hotkey until you see `Wii_no_attachment` in the top left.
+
+If you would like to rotate the Wiimote sideways, press `Select` and `R3`. 
+
+Do note that when you exit the game, this will reset to the default profile. To permanently set a profile for the game in question, see [How to Set Dolphin Controller Profiles On a Per-Game Basis](#how-to-set-dolphin-controller-profiles-on-a-per-game-basis).
+
+To permanently set the detached Nunchuk profile for the game in question, see [How to Remove the Unsupported Extension Controller](#how-to-remove-the-unsupported-extension-controller).
+
+To permanently set the Wiimote sideways for the game in question, see [How to Configure Wii Games to Use the Sideways Wiimote Configuration](#how-to-configure-wii-games-to-use-the-sideways-wiimote-configuration).
 
 ***
 
