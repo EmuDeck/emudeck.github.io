@@ -2602,6 +2602,12 @@ _You are advised to examine the motion inputs so you can learn how to get SDGyro
 
 **Download:** [Wii_base_nunchuck_with_true_motion.ini](../../community-creations-files/Wii_base_nunchuck_with_true_motion.ini){:download="Wii_base_nunchuck_with_true_motion.ini"}
 
+**Relevant Links**
+
+* [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
+* [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
+* [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
+[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 Profile Name: `Wii_base_nunchuck_with_true_motion.ini`
 
@@ -2703,6 +2709,13 @@ _You are advised to examine the motion inputs so you can learn how to get SDGyro
 
 Profile Name: `Wii_no_attachment_with_true_motion.ini`
 
+**Relevant Links**
+
+* [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
+* [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
+* [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
+[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+
 ```conf
 [Profile]
 Device = evdev/0/Microsoft X-Box 360 pad 0
@@ -2802,6 +2815,12 @@ Credit: `Jigs`
 
 **Download:** [wiigalaxy.ini](../../community-creations-files/wiigalaxy.ini){:download="wiigalaxy.ini"}
 
+**Relevant Links**
+
+* [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
+* [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
+* [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
+[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 **Tweaked Settings**
 
@@ -2856,6 +2875,14 @@ _You are advised to examine the motion inputs so you can learn how to get SDGyro
 
 
 Profile Name: `Gyro_SteamDeck_on_Dolphin.ini`
+
+**Relevant Links**
+
+* [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
+* [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
+* [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
+[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+
 
 ```conf
 [Profile]
@@ -2965,6 +2992,13 @@ For Mario, run/hold is set to X, jump to A, and spin/pickup to the right trigger
 For Wario, holding to throw is set to X, jump to A, and shaking to the right trigger. Angled throws, cannon trajectories and other tilt controls can be performed by tilting the Deck.
 
 **Download:** [nsmbwii.ini](../../community-creations-files/nsmbwii.ini){:download="nsmbwii.ini"}
+
+**Relevant Links**
+
+* [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
+* [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
+* [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
+[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 **Supported Games**
 
@@ -3080,6 +3114,13 @@ Credit: `Ghost of Christmas Yet to Come`
 
 **Download:** [Sideways Wiimote With No Attachment](../../community-creations-files/sideways_wiimote_with_no_attachment.ini){:download="sideways_wiimote_with_no_attachment.ini"}
 
+**Relevant Links**
+
+* [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
+* [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
+* [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
+[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+
 **Game Examples**
 
 * Kirby's Epic Yarn
@@ -3116,9 +3157,9 @@ IR/Left = `XInput2/0/Virtual core pointer:Cursor X-`
 IR/Right = `XInput2/0/Virtual core pointer:Cursor X+`
 IR/Hide = `Thumb L`
 IR/Calibration = 100.00 101.96 108.24 112.67 116.44 114.62 108.11 101.96 100.00 101.96 108.11 113.10 115.81 113.90 108.24 101.96 100.00 101.96 108.24 114.93 115.13 115.19 108.24 101.96 100.00 101.96 108.13 112.88 112.20 110.97 108.24 101.96
-Shake/X = `Trigger L`
-Shake/Y = `Trigger L`
-Shake/Z = `Trigger L`
+Shake/X = `Shoulder L`
+Shake/Y = `Shoulder L`
+Shake/Z = `Shoulder L`
 Tilt/Forward = `Trigger L`&`Left Y+`
 Tilt/Backward = `Trigger L`&`Left Y-`
 Tilt/Left = `Trigger L`&`Left X-`
