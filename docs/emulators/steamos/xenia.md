@@ -41,6 +41,7 @@ It's HIGHLY recommended to see if a game you wish to emulate has a native PC ver
     - [How to Set Up Xbox Live Arcade Games](#how-to-set-up-xbox-live-arcade-games)
     - [How to Delete Xenia's Prefix](#how-to-delete-xenias-prefix)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
+    - [How to Apply Patches](#how-to-apply-patches)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
     - [How to Access Xenia Settings in Game Mode](#how-to-access-xenia-settings-in-game-mode)
 
@@ -616,6 +617,24 @@ However, running Xenia through Proton will still create a prefix (a sort of Wind
     * 16=nl 
     * 17=zh
 5. Save and exit out of the text file
+
+***
+
+### How to Apply Patches
+[Back to the Top](#xenia-table-of-contents)
+
+When you install Xenia through EmuDeck, a collection of game patches are also automatically downloaded to your `Emulation/roms/xbox360/patches` folder. These patches provide ways to fix various issues in games. 
+
+**To apply patches:**
+
+1. In Desktop Mode, open the `Emulation/roms/xbox360/patches` folder
+2. Right click a text file matching your game name or game ID and click `Open with Kate` or a text editor of your choice
+3. Each text file will typically have multiple patches identified with the `[[patch]]` header and the name of the patch below the header. Select a patch to enable and locate the `is_enabled` field
+4. On the `is_enabled` field, change `false` to `true`
+5. Save the text file and exit out
+6. The patch you selected will now be applied for your game
+
+Do note that if your game ID does not match the ID in the patch, the patch may not apply. Game IDs typically vary depending on the region or version of your game. For example, the patches folder contains multiple patch files for "Project Gotham Racing" depending on which version of the game you have. Ensure that your game version matches the patch file you are using and the patch will successfully apply to your game. 
 
 ***
 
