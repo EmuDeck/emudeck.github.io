@@ -462,16 +462,12 @@ _This list is not exhaustive_
 
 **How to Use Custom Textures Packs**
 
-1. Download a texture pack
-2. Place it here:`Emulation/storage/pcsx2/textures/GAMEID/replacements`
-    * The `GAMEID` will be unique to your game 
-    * Typically a texture pack download will come in this format: `GAMEID/replacements`
-    * If the texture pack does not come in the standard format, you can locate the `GAMEID` by doing the following:
-        * Open PCSX2
-        * Right click the game
-        * Click `Properties`
-        * The `GAMEID` will be in the `Serial` box
-   * <img src="https://user-images.githubusercontent.com/108900299/232943226-21d9f542-3fff-4fbb-9c5a-05e1323f9926.png" height="300">
+Typically a texture pack download will come in the following format: `GAMEID/replacements`. For example, a Suikoden V texture pack will look like the following: `SLUS-21291/replacements`. The `replacements` folder will typically contain a large amount of texture files. 
+
+Do note that the Game ID may vary depending on the region or version of your ROM. A US and a PAL ROM may have different Game IDs. If a texture pack is made for a US version, it may not work for the PAL version. 
+
+1. In Desktop Mode, open the `Emulation/storage/pcsx2/textures` folder
+2. Place your texture pack directly in the `Emulation/storage/pcsx2/textures` folder
 3. Open PCSX2
 4. Right click the game
 5. Click `Game Properties`
@@ -480,7 +476,8 @@ _This list is not exhaustive_
 7. Scroll down to `Texture Replacements` and toggle `Load Textures`
     * Optionally, toggle `Asynchronous Texture Loading`
     * <img src="https://user-images.githubusercontent.com/108900299/232942987-8c49715d-3ff6-441a-90f2-507fde73a58a.png" height="300">
-8. Your game will now be using the custom texture pack
+8. The custom texture pack will now be enabled for this game
+    * If you do not see custom textures loading, you can bind a "Texture Replacements" hotkey and toggle the texture pack on and off to see if it is loading. If the texture pack is not loading, you either have a mismatching ROM or the texture pack is out of date.
   
 *** 
 
