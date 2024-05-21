@@ -824,7 +824,13 @@ This section will assume you have installed and configured Xenia through EmuDeck
 4. Change `max_queued_frames` to `16`, change `vsync` from `True` to `False`
     * The Google Doc also suggests you use `Vulkan`, however `D3D12` been massively improved in the year since the Google Doc was written. It is recommended you use `D3D12` first and only try `Vulkan` if `D3D12` does not work as expected
     * It may not be necessary to change `Vsync` or `max_queued_frames`, these are directly copied from the Google Doc. It is recommended you test these and see if these are required
-4. The remainder of the Google Doc covers how to mod Sonic Unleashed using the Unleashed Mod Manager. At this point, it is recommended you first test the game to test the performance. If you would like to use the Unleashed Mod Manager, proceed to the [Unleashed Mod Manager](#unleashed-mod-manager) section
+5. In `Emulation/roms/xbox360/patches`, right click `53450812 - Sonic Unleashed.patch.toml`, click `Open with Kate` or a text editor of your choice. For each patch you would like to enable, change `is_enabled = false` to `is_enabled = true`
+    * (Optional)
+        * `60 FPS`
+    * (Highly Recommended)
+        * `Disable Color Adjustment`
+        * `Disable Shadow Maps`
+6. The remainder of the Google Doc covers how to mod Sonic Unleashed using the Unleashed Mod Manager. At this point, it is recommended you first test the game to test the performance. If you would like to use the Unleashed Mod Manager, proceed to the [Unleashed Mod Manager](#unleashed-mod-manager) section
 
 #### Unleashed Mod Manager
 
