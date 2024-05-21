@@ -44,7 +44,10 @@ It's HIGHLY recommended to see if a game you wish to emulate has a native PC ver
     - [How to Apply Patches](#how-to-apply-patches)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
     - [How to Access Xenia Settings in Game Mode](#how-to-access-xenia-settings-in-game-mode)
-
+    - [How to Extract ISOs to the XEX Format](#how-to-extract-isos-to-the-xex-format)
+    - [How to Convert Xbox Live Arcade ROMs to XEX](#how-to-convert-xbox-live-arcade-roms-to-xex)
+    - [How to Compress ROMs to ZAR](#how-to-compress-roms-to-zar)
+    - [How to Optimize Sonic Unleashed](#how-to-optimize-sonic-unleashed)
 
 
 ***
@@ -757,5 +760,114 @@ If you added Xenia as a shortcut to Steam through the "Emulators" parser in Stea
 2. Click the `Gear` icon to the right of the button, click `Add sub command`
 3. Bind it to the corresponding letter in the list above, [How to Access Xenia Settings in Game Mode](#how-to-access-xenia-settings-in-game-mode-1) depending on which setting you would like to open in Xenia
 
+
+***
+
+### How to Extract ISOs to the XEX Format
+[Back to the Top](#xenia-table-of-contents)
+
+If you have an Xbox 360 ISO and you would like to extract it to XEX, either for compression or for modding purposes, you can do so using `extract-xiso`, a tool bundled with EmuDeck.
+
+1. In Desktop Mode, open the `Emulation/tools/chdconv` folder
+2. If you are not comfortable with a terminal, copy `extract-xiso` to `Emulation/roms/xbox360/roms`
+    * If you are comfortable with a terminal, right click anywhere in `Emulation/tools/chdconv`, click `Open Terminal Here`, type `./extract-xiso "/PATH/TO/ROM"`
+3. In `Emulation/roms/xbox360/roms`, right click anywhere, click `Open Terminal Here`
+4. Type `./extract-xiso "NAMEOFROM"` 
+    * The quotes are required for the ROM name. Alternatively, you can type the first few letters of the ROM name, press `Tab` on a keyboard, and the terminal will automatically escape the rest of the name
+5. Wait for it to finish extracting
+6. A folder matching your ROM name will be created containing a `default.xex` file which can be used to launch the ROM
+
+
+***
+
+### How to Convert Xbox Live Arcade ROMs to XEX
+[Back to the Top](#xenia-table-of-contents)
+
+If you have an Xbox 360 ISO and you would like to extract it to XEX, either for compression or for modding purposes, you can do so using the Xenia GUI.
+
+1. In Desktop Mode, open Xenia
+2. In the top left, click `File`, `Install Content`, and navigate to your Xbox Live Arcade ROM
+3. The game will be installed to the `Emulation/roms/xbox360/content` folder to a folder matching the Game ID of the game
+4. The folder will contain a `default.xex` file which can be used to launch the ROM
+
+***
+
+### How to Compress ROMs to ZAR
+[Back to the Top](#xenia-table-of-contents)
+
+ZAR is a newer file format created by the Cemu developers allowing for optimized file storage. In a recent update, Xenia added support for ZAR allowing users to compress Xbox 360 ROMs.
+
+As an example, `Banjo-Kazooie - Nuts & Bolts` in the ISO file format was 7.3 GB. When compressed, `Banjo-Kazooie - Nuts & Bolts` was 4.8 GB in the ZAR file format. 
+
+If you are using ISOs, first extract your ISOs to XEX. For instructions, see [How to Extract ISOs to the XEX Format](#how-to-extract-isos-to-the-xex-format). For Xbox Live Arcade ROMs, see [How to Convert Xbox Live Arcade ROMs to XEX](#how-to-convert-xbox-live-arcade-roms-to-xex).
+
+1. In Desktop Mode, open Xenia
+2. In the top left, click `Zar Package`, `Create`, and navigate to folder containing your `default.xex` file
+3. Select the destination for your ZAR file
+4. Wait, there may not be any response from the application for several minutes depending on how large your original file is 
+5. Once it is complete, a ZAR file will be located in the directory you selected in Step 3
+
+***
+
+### How to Optimize Sonic Unleashed
+[Back to the Top](#xenia-table-of-contents)
+
+This section is a heavily modified version of the section from [THE DEFINITIVE STEAM DECK SONIC DOC](https://docs.google.com/document/d/1FsjXbyYQTIK9f9P_NYHoLGnv8_ZqHjgLPf9Qm0VMcVo/edit#heading=h.cropilw5ikhb). 
+
+This section will assume you have installed and configured Xenia through EmuDeck. For instructions on how to install Xenia through EmuDeck, see [How to Download Xenia](#how-to-download-xenia).
+
+1. Extract Sonic Unleashed using the instructions in [How to Extract ISOs to the XEX Format](#how-to-extract-isos-to-the-xex-format)
+2. Install Xenia through EmuDeck
+    * For instructions, see [How to Download Xenia](#how-to-download-xenia)
+    * EmuDeck will automatically download the patches folder and create a `portable.text` file. You do not need to add Xenia as a non-Steam game. If you would like to add Xenia to Steam, you may do so using the `Emulators` parser in Steam ROM Manager
+3. In `Emulation/roms/xbox360`, right click `xenia-canary.config.toml`, click `Open with Kate` or a text editor of your choice
+4. Change `max_queued_frames` to `16`, change `vsync` from `True` to `False`
+    * The Google Doc also suggests you use `Vulkan`, however `D3D12` been massively improved in the year since the Google Doc was written. It is recommended you use `D3D12` first and only try `Vulkan` if `D3D12` does not work as expected
+    * It may not be necessary to change `Vsync` or `max_queued_frames`, these are directly copied from the Google Doc. It is recommended you test these and see if these are required
+4. The remainder of the Google Doc covers how to mod Sonic Unleashed using the Unleashed Mod Manager. At this point, it is recommended you first test the game to test the performance. If you would like to use the Unleashed Mod Manager, proceed to the [Unleashed Mod Manager](#unleashed-mod-manager) section
+
+#### Unleashed Mod Manager
+
+##### Lutris
+
+1. In Desktop Mode, open Konsole
+2. Enter:
+    * `mkdir -p $HOME/Games/Lutris/UnleashedModManager/pfx`
+    * This command will create a couple of **empty** folders to make managing and installing the patcher easier
+3. Download UnleashedModManager, [https://github.com/hyperbx/Unleashed-Mod-Manager/releases/tag/1.12](https://github.com/hyperbx/Unleashed-Mod-Manager/releases/tag/1.12) to `/home/deck/Games/Lutris/UnleashedModManager`
+    * Download `latest.zip`
+4. Right click `latest.zip`, click `Extract`, `Extract Archive Here`
+    * If the `.zip` creates a subfolder, move the contents out directly into `/home/deck/Games/Lutris/UnleashedModManager`
+5. In Desktop Mode, open Discover and download Lutris
+6.  Click the `Wine` button on the left, click the little page icon to the right, download `wine-ge-8-26`
+7. Click the `+` button in the top left of the Lutris application
+8. Click `Add locally installed game`
+    * On the `Game Info` tab:
+        * Name: Unleashed Mod Manager
+        * Sort Name: Leave Blank
+        * Runner: Wine (Runs Windows games)
+        * Release Year: Leave Blank
+    * On the `Game Options` tab:
+        * Executable: Click the `Browse` button and navigate to the `Unleashed Mod Manager.exe` file in `/home/deck/Games/Lutris/UnleashedModManager`
+        * Arguments: Leave Blank
+        * Working Directory: Leave Blank
+        * Wine Prefix: Click the `Browse` button and select the `/home/deck/Games/Lutris/UnleashedModManager/pfx`
+    * On the `Runner options` tab:
+        * Wine version: `wine-ge-8.26-x86_64`
+        * Leave everything else at defaults
+9. Click the `Save` button in the top right
+10. To open the patcher, open Lutris, select the UnleashedModManager tile, and click `Play`
+
+##### Applying the AMD Grass Explosion Fix 
+
+1. In `Emulation/roms/xbox360`, create a `mods` folder
+2. Download the AMD Grass Explosion Fix, [https://gamebanana.com/mods/download/393182#FileInfo_840774](https://gamebanana.com/mods/download/393182#FileInfo_840774) to the `Emulation/roms/xbox360/mods` folder
+3. Right click `amd_grass_fix.7z`, click `Extract archive here`
+4. Open `Unleashed Mod Manager.exe` through Lutris
+    * Mods Directory: `Emulation/roms/xbox360/mods`
+    * Game Executable: The `default.xex` file in the folder wherever you extracted your Sonic Unleashed ISO
+    * Emulator Executable: `Emulation/roms/xbox360/xenia_canary.exe`
+5. Click `Continue`, click `Refresh Mods List` and the `AMD Grass Explosion Fix` will appear
+6. Check the mod and it will now be applied to Sonic Unleashed
 
 ***
