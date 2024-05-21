@@ -74,7 +74,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 * ROM Location: `Emulation/roms/ps2/`
 * BIOS Location: `Emulation/bios/`  
     * **IMPORTANT:** Files go directly in this folder. Do not make or use a `PS2`, `PCSX2`, or any sort of folder here. PCSX2 will not be able to find your bios files if they are in a folder. 
-    * Required BIOS  - SEE: [https://pcsx2.net/docs/usage/setup/#how-to-dump-your-ps2-bios](https://pcsx2.net/docs/usage/setup/#how-to-dump-your-ps2-bios)
+    * Required BIOS  - SEE: [https://pcsx2.net/docs/setup/gather#how-to-dump-your-ps2-bios](https://pcsx2.net/docs/setup/gather#how-to-dump-your-ps2-bios)
 * Saves: `Emulation/saves/pcsx2/saves`
 * Save States `Emulation/saves/pcsx2/states`
 
