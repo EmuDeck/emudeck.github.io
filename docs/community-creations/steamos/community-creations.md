@@ -2607,7 +2607,7 @@ _You are advised to examine the motion inputs so you can learn how to get SDGyro
 * [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
 * [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 * [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
-[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+* [How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 Profile Name: `Wii_base_nunchuck_with_true_motion.ini`
 
@@ -2714,7 +2714,7 @@ Profile Name: `Wii_no_attachment_with_true_motion.ini`
 * [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
 * [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 * [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
-[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+* [How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 ```conf
 [Profile]
@@ -2820,7 +2820,7 @@ Credit: `Jigs`
 * [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
 * [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 * [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
-[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+* [How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 **Tweaked Settings**
 
@@ -2881,7 +2881,7 @@ Profile Name: `Gyro_SteamDeck_on_Dolphin.ini`
 * [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
 * [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 * [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
-[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+* [How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 
 ```conf
@@ -2998,7 +2998,7 @@ For Wario, holding to throw is set to X, jump to A, and shaking to the right tri
 * [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
 * [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 * [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
-[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+* [How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 **Supported Games**
 
@@ -3119,7 +3119,7 @@ Credit: `Ghost of Christmas Yet to Come`
 * [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
 * [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
 * [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
-[How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
+* [How to Install SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-101.md#steamdeckgyrodsu)
 
 **Game Examples**
 
