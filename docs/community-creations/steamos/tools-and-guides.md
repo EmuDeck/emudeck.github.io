@@ -541,9 +541,9 @@ This section will cover how to download and set up a patcher for Final Fantasy T
 2. Enter:
     * `mkdir -p $HOME/Games/Lutris/FFTWOTLPatch/pfx`
     * This command will create a couple of **empty** folders to make managing and installing the patcher easier
-3. Download the patcher, [https://ffhacktics.com/smf/index.php?topic=9523.0](https://ffhacktics.com/smf/index.php?topic=9523.0) to ` $HOME/Games/Lutris/FFTWOTLPatch/pfx`
+3. Download the patcher, [https://ffhacktics.com/smf/index.php?topic=9523.0](https://ffhacktics.com/smf/index.php?topic=9523.0) to ` $HOME/Games/Lutris/FFTWOTLPatch`
 4. Right click `FFT - WotL Universal Slowndown removal patch - By Plastik.rar`, click `Extract`, `Extract Archive Here`
-    * If the `.rar` creates a subfolder, move the contents out directly into `$HOME/Games/Lutris/FFTWOTLPatch/pfx`
+    * If the `.rar` creates a subfolder, move the contents out directly into `$HOME/Games/Lutris/FFTWOTLPatch`
 
 #### Set up Lutris
 
@@ -558,12 +558,12 @@ This section will cover how to download and set up a patcher for Final Fantasy T
     * Runner: Wine (Runs Windows games)
     * Release Year: Leave Blank
 7. On the `Game Options` tab:
-    * Executable: Click the `Browse` button and navigate to the `FFT WotL - Universal Slowdown patch.exe` file in `$HOME/Games/Lutris/FFTWOTLPatch/pfx`
-        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/$HOME/Games/Lutris/FFTWOTLPatch/pfx`
+    * Executable: Click the `Browse` button and navigate to the `FFT WotL - Universal Slowdown patch.exe` file in `$HOME/Games/Lutris/FFTWOTLPatch`
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/FFTWOTLPatch`
     * Arguments: Leave Blank
     * Working Directory: Leave Blank
-    * Wine Prefix: Click the `Browse` button and select the `$HOME/Games/Lutris/$HOME/Games/Lutris/FFTWOTLPatch/pfx` folder
-        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/$HOME/Games/Lutris/FFTWOTLPatch/pfx/pfx`
+    * Wine Prefix: Click the `Browse` button and select the `$HOME/Games/Lutris/FFTWOTLPatch/pfx` folder
+        * If you are on a Steam Deck, this path may be `/home/deck/Games/Lutris/FFTWOTLPatch/pfx`
 8. On the `Runner options` tab:
     * Wine version: `wine-ge-8.26-x86_64`
     * Leave everything else at defaults
