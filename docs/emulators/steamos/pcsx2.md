@@ -457,6 +457,7 @@ For more detail, read [https://forums.pcsx2.net/Thread-Sticky-Important-Patching
 _This list is not exhaustive_
 
 * [https://gbatemp.net/threads/list-of-hd-texture-packs-by-panda_venom.620163/](https://gbatemp.net/threads/list-of-hd-texture-packs-by-panda_venom.620163/)
+* [https://gbatemp.net/forums/pcsx2-hd-texture-pack-group.549/](https://gbatemp.net/forums/pcsx2-hd-texture-pack-group.549/)
 
 ***
 
