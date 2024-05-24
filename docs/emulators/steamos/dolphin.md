@@ -1076,6 +1076,9 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
         [Controls] 
         PadType0 = 0
+        PadType1 = 0
+        PadType2 = 0
+        PadType3 = 0
 
 
 ***
