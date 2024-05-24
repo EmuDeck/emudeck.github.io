@@ -52,6 +52,7 @@ Compatibility List: [https://dolphin-emu.org/compat/](https://dolphin-emu.org/co
 5. [Dolphin Unique Controller Configurations](#dolphin-unique-controller-configurations)
     - [How to Select Wii Profiles On The Fly](#how-to-select-wii-profiles-on-the-fly)
     - [How to Configure Wii Games To Use A GameCube Controller](#how-to-configure-wii-games-to-use-a-gamecube-controller)
+    - [How to Disable the GameCube Controller in Wii Games](#how-to-disable-the-gamecube-controller-in-wii-games)
     - [How to Configure Wii Games to Use the Trackpad as a Pointer](#how-to-configure-wii-games-to-use-the-trackpad-as-a-pointer)
     - [How to Configure Wii Games to Use the Classic Controller](#how-to-configure-wii-games-to-use-the-classic-controller)
     - [How to Configure Wii Games to Use the Sideways Wiimote Configuration](#how-to-configure-wii-games-to-use-the-sideways-wiimote-configuration)
@@ -1020,7 +1021,7 @@ To permanently set the Wiimote sideways for the game in question, see [How to Co
 2. Click `Properties`
 3. Click the `Game Config` tab
 4. Click the `Editor` tab
-5. Under `User Config`, enter the following
+5. In the box under the `User Config` section, type the following:
 
         [Controls]
         PadType0 = 6
@@ -1035,7 +1036,7 @@ To permanently set the Wiimote sideways for the game in question, see [How to Co
 2. Click `Properties`
 3. Click the `Game Config` tab
 4. Click the `Editor` tab
-5. Under `User Config`, enter the following
+5. In the box under the `User Config` section, type the following:
 
         [Controls]
         PadType0 = 6
@@ -1054,7 +1055,33 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 
 ***
 
+### How to Disable the GameCube Controller in Wii Games
+[Back to the Top](#dolphin-table-of-contents)
+
+#### How to Disable the GameCube Controller on the Fly
+
+1. In Desktop Mode, open the `Dolphin` emulator
+2. Open the `Controller` settings
+3. At the top, under `GameCube Controllers`, set `Port 1` to `None`
+
+**Note:** You will need to do this disable and enable the GameCube controller when you swap back and forth between GameCube and Wii games. However, you may apply this profile specifically to the game in question so you do not need to disable the GameCube controller globally. Read the next section [How to Disable the GameCube Controller on a Per Game Basis](#how-to-disable-the-gamecube-controller-on-a-per-game-basis) to learn how. 
+
+#### How to Disable the GameCube Controller on a Per Game Basis
+
+1. In Desktop Mode, open Dolphin
+2. Right click the game in question
+3. Click `Properties`
+4. Under the `Game Config` tab, click the `Editor` tab
+5. In the box under the `User Config` section, type the following:
+
+        [Controls] 
+        PadType0 = 0
+
+
+***
+
 ### How to Configure Wii Games to Use the Trackpad as a Pointer
+[Back to the Top](#dolphin-table-of-contents)
 
 #### How to Configure Steam Input
 
@@ -1117,7 +1144,7 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 2. Right click the game
 3. Click `Properties`
 4. Under the `Game Config` tab, click the `Editor` tab
-5. In the box under the `User Config` section:
+5. In the box under the `User Config` section, type the following:
 
         [Controls] 
         WiimoteProfile1 = Wii_classic_controller
@@ -1142,7 +1169,7 @@ You may also need to detach the nunchuk. While in game, press `Select` + `Left S
 3. Right click the game
 4. Click `Properties`
 5. Under the `Game Config` tab, click the `Editor` tab
-6. In the box under the `User Config` section:
+5. In the box under the `User Config` section, type the following:
 
         [Controls] 
         WiimoteProfile1 = sideways_wiimote_with_no_attachment.ini
@@ -1171,7 +1198,7 @@ Here's how to **resolve the error** and remove the Nunchuk:
 2. Right click the game
 3. Click `Properties`
 4. Under the `Game Config` tab, click the `Editor` tab
-5. In the box under the `User Config` section:
+5. In the box under the `User Config` section, type the following:
 
         [Controls] 
         WiimoteProfile1 = Wii_no_attachment
