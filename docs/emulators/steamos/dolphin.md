@@ -1063,6 +1063,7 @@ For additional information, see [Dolphin's "GameINI (Controller Settings)" Wiki 
 1. In Desktop Mode, open the `Dolphin` emulator
 2. Open the `Controller` settings
 3. At the top, under `GameCube Controllers`, set `Port 1` to `None`
+    * If Ports 2-4 are also enabled, set these to `None` as well
 
 **Note:** You will need to do this disable and enable the GameCube controller when you swap back and forth between GameCube and Wii games. However, you may apply this profile specifically to the game in question so you do not need to disable the GameCube controller globally. Read the next section [How to Disable the GameCube Controller on a Per Game Basis](#how-to-disable-the-gamecube-controller-on-a-per-game-basis) to learn how. 
 
