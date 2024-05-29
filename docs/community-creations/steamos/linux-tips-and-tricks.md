@@ -25,7 +25,9 @@
         export JAVA_HOME=$HOME/Applications/jdk
         export PATH=$JAVA_HOME/bin:$PATH
 
-8. Java will now be installed on your Steam Deck
+8. Save and exit out of the `.bashrc` file
+9. Java will now be installed on your Steam Deck
+    * If you had any terminals open previously, close these out and re-open them in order to use Java through the command-line
 
 To update JDK, replace the files in `/home/deck/Applications/jdk` with the latest files from [https://jdk.java.net/](https://jdk.java.net/).
 
