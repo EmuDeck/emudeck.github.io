@@ -512,7 +512,14 @@ This section will cover how to download and set up the Universal Pokemon Randomi
 3. Right click `PokeRandoZX-v#_#_#.zip`, click `Extract > Extract archive here`
     * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded the Universal Pokemon Randomizer
 4. Right click `launcher_UNIX.sh`, click `Properties`, click `Permissions`, and ensure `Is executable` is checked
-5. To launch the Universal Pokemon Randomizer, double click `launcher_UNIX.sh`
+5. Right click `launcher_UNIX.sh`, click `Open with Kate` or a text editor of your choice
+6. At the top of the file, below `#!/bin/bash`, write the following two lines:
+
+        export JAVA_HOME=$HOME/Applications/jdk
+        export PATH=$JAVA_HOME/bin:$PATH
+
+7. Save and exit out of the file
+8. To launch the Universal Pokemon Randomizer, double click `launcher_UNIX.sh`
 
 ***
 
