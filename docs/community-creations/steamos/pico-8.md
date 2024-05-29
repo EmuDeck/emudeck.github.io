@@ -27,7 +27,7 @@ Considering the cost of Pico-8, here are a couple of free alternatives:
 * Play Pico-8 games directly in the browser from the [https://www.lexaloffle.com/pico-8.php](https://www.lexaloffle.com/pico-8.php) website
 * Use Fake-08, a RetroArch core for Pico-8
     * EmuDeck includes a Steam ROM Manager parser for Fake-08
-    * Do note that some games do not work properly through Fake-08
+    * Do note that some games **do not** work properly through Fake-08
 
 If you have decided to purchase Pico-8, download the `Linux: 64-bit` version and follow the below steps to properly install it on your system. 
 
