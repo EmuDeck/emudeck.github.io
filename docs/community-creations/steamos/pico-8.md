@@ -22,9 +22,14 @@ Source: [https://en.wikipedia.org/wiki/PICO-8](https://en.wikipedia.org/wiki/PIC
 
 In order to use Pico-8, you will need to first purchase it from the website, [https://www.lexaloffle.com/pico-8.php](https://www.lexaloffle.com/pico-8.php). Do note that Pico-8 is not free, it costs $15 USD. However, if you purchased the "Bundle for Racial Justice and Equality" through [https://itch.io](https://itch.io), Pico-8 was part of this bundle. 
 
-If you do not currently own Pico-8, you may also try the games directly in the browser from the [https://www.lexaloffle.com/pico-8.php](https://www.lexaloffle.com/pico-8.php) website. This should give you a good idea of whether or not you would like to purchase Pico-8 in order to add your Pico-8 ROMs to Steam or launch them directly from ES-DE. Fake-08, a RetroArch core, is a fair alternative, but some games do not work properly through this core. A Steam ROM Manager parser is included through EmuDeck for Fake-08. 
+Considering the cost of Pico-8, here are a couple of free alternatives:
 
-After you have purchased Pico-8, download the `Linux: 64-bit` version. 
+* Play Pico-8 games directly in the browser from the [https://www.lexaloffle.com/pico-8.php](https://www.lexaloffle.com/pico-8.php) website
+* Use Fake-08, a RetroArch core for Pico-8
+    * EmuDeck includes a Steam ROM Manager parser for Fake-08
+    * Do note that some games do not work properly through Fake-08
+
+If you have decided to purchase Pico-8, download the `Linux: 64-bit` version and follow the below steps to properly install it on your system. 
 
 1. In the `/home/deck/Applications` folder, create a `pico-8` folder
     * This folder name is case sensitive, do not name it `PICO-8` or `Pico-8`
