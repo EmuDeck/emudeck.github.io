@@ -136,6 +136,8 @@ Sometimes, data loss or corruption can occur when you transfer ROMs to your Stea
 
 **Here's How**
 
+Do note that Dolphin and PCSX2 have built in verification tools. If you are using one of those emulators, see [Dolphin: How to Verify ROMs](../../emulators/steamos/dolphin.md#how-to-verify-roms) and [PCSX2: How to Verify ROMs](../../emulators/steamos/pcsx2.md#how-to-verify-roms). For any other system/emulator, you may follow the below instructions instead. 
+
 **On the Steam Deck**
 
 1. Right click the ROM
