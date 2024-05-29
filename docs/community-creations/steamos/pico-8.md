@@ -20,7 +20,9 @@ Source: [https://en.wikipedia.org/wiki/PICO-8](https://en.wikipedia.org/wiki/PIC
 ### How to Download Pico-8
 [Back to the Top](#pico-8-table-of-contents)
 
-In order to use Pico-8, you will need to first purchase it from the website, [https://www.lexaloffle.com/pico-8.php](https://www.lexaloffle.com/pico-8.php). Pico-8 is not free, it costs $15 USD. However, if you purchased the "Bundle for Racial Justice and Equality" through [https://itch.io](https://itch.io), Pico-8 was part of this bundle. 
+In order to use Pico-8, you will need to first purchase it from the website, [https://www.lexaloffle.com/pico-8.php](https://www.lexaloffle.com/pico-8.php). Do note that Pico-8 is not free, it costs $15 USD. However, if you purchased the "Bundle for Racial Justice and Equality" through [https://itch.io](https://itch.io), Pico-8 was part of this bundle. 
+
+If you do not currently own Pico-8, you may also try the games directly in the browser from the [https://www.lexaloffle.com/pico-8.php](https://www.lexaloffle.com/pico-8.php) website. This should give you a good idea of whether or not you would like to purchase Pico-8 in order to add your Pico-8 ROMs to Steam or launch them directly from ES-DE. Fake-08, a RetroArch core, is a fair alternative, but some games do not work properly through this core. A Steam ROM Manager parser is included through EmuDeck for Fake-08. 
 
 After you have purchased Pico-8, download the `Linux: 64-bit` version. 
 
