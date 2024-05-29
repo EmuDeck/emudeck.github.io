@@ -52,7 +52,7 @@ If you are using [https://itch.io/games/tag-pico-8](https://itch.io/games/tag-pi
 1. Open a game page
 2. Download the game
 3. If the game is zipped, extract it first
-4. Move the `.png` file to `Emulation/roms/pico8`
+4. Move the `.png` or `.p8` file to `Emulation/roms/pico8`
 
 
 ***
@@ -102,7 +102,7 @@ If you are using [https://itch.io/games/tag-pico-8](https://itch.io/games/tag-pi
                 "appendArgsToExecutable": false
             },
             "parserInputs": {
-                "glob": "**/${title}@(.png|.PNG)"
+                "glob": "**/${title}@(.png|.PNG|.p8|.P8)"
             },
             "titleFromVariable": {
                 "limitToGroups": "",
@@ -159,6 +159,19 @@ If you are using [https://itch.io/games/tag-pico-8](https://itch.io/games/tag-pi
         }
     
 5. Open Steam ROM Manager, toggle the `Pico-8 (Standalone)` parser and generate an app list to add your games to Steam
+    * If you are not on a Steam Deck, update the `"path":` line accordingly
+
+***
+
+### How to Configure Pegasus to Work With Pico-8
+[Back to the Top](#pico-8-table-of-contents)
+
+1. In the `Emulation/roms/pico8` folder, right click the `metadata.txt` file, click `Open with Kate` or a text editor of your choice
+2. Edit the launch line to match the below:
+    * `launch: /home/deck/Applications/pico-8/pico8 -run {file.path}`
+    * If you are not on a Steam Deck, update this path accordingly
+3. Save and exit out of the `metadata.txt` file
+4. Pegasus will now launch Pico-8 games using the standalone executable in `/home/deck/Applications/pico-8`
 
 ***
 
