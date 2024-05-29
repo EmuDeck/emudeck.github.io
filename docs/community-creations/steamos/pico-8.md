@@ -8,15 +8,17 @@ Source: [https://en.wikipedia.org/wiki/PICO-8](https://en.wikipedia.org/wiki/PIC
 
 ***
 
-## Table of Contents
+## Pico-8 Table of Contents
 
 [TOC]
 
 ***
 
 ## How to Set up Pico-8
+[Back to the Top](#pico-8-table-of-contents)
 
 ### How to Download Pico-8
+[Back to the Top](#pico-8-table-of-contents)
 
 In order to use Pico-8, you will need to first purchase it from the website, [https://www.lexaloffle.com/pico-8.php](https://www.lexaloffle.com/pico-8.php). Pico-8 is not free, it costs $15 USD. However, if you purchased the "Bundle for Racial Justice and Equality" through [https://itch.io](https://itch.io), Pico-8 was part of this bundle. 
 
@@ -33,6 +35,7 @@ After you have purchased Pico-8, download the `Linux: 64-bit` version.
 ***
 
 ### How to Download Pico-8 Games
+[Back to the Top](#pico-8-table-of-contents)
 
 If you are using the [https://www.lexaloffle.com](https://www.lexaloffle.com) website:
 
@@ -53,6 +56,7 @@ If you are using [https://itch.io/games/tag-pico-8](https://itch.io/games/tag-pi
 ***
 
 ### How to Configure ES-DE to Work With Pico-8
+[Back to the Top](#pico-8-table-of-contents)
 
 1. Open ES-DE
 2. Scroll down and select `Other Settings`
@@ -62,6 +66,7 @@ If you are using [https://itch.io/games/tag-pico-8](https://itch.io/games/tag-pi
 ***
 
 ### How to Configure Steam ROM Manager to Work With Pico-8
+[Back to the Top](#pico-8-table-of-contents)
 
 1. Place your Pico-8 games in `Emulation/roms/pico-8`
 2. In `/home/deck/.config/steam-rom-manager/userData/`, open `userConfigurations.json` in a text editor of your choice
@@ -70,96 +75,98 @@ If you are using [https://itch.io/games/tag-pico-8](https://itch.io/games/tag-pi
     * ![Steam ROM Manager Parser](../../assets/steam-rom-manager-parser.png)
 4. Paste the below block of text between the `},` and the `]`
     
-            {
-                "parserType": "Glob",
-                "configTitle": "Pico-8 (Standalone)",
-                "steamCategory": "${Pico-8 (Standalone)}",
-                "steamDirectory": "${steamdirglobal}",
-                "romDirectory": "${romsdirglobal}/pico8",
-                "executableArgs": "-run \"'${filePath}'\"",
-                "executableModifier": "\"${exePath}\"",
-                "startInDirectory": "",
-                "titleModifier": "${fuzzyTitle}",
-                "imageProviders": [
-                    "SteamGridDB"
-                ],
-                "onlineImageQueries": "${${fuzzyTitle}}",
-                "imagePool": "${fuzzyTitle}",
-                "disabled": false,
-                "userAccounts": {
-                    "specifiedAccounts": ""
-                },
-                "executable": {
-                    "path": "/home/deck/Applications/pico-8/pico8",
-                    "shortcutPassthrough": false,
-                    "appendArgsToExecutable": false
-                },
-                "parserInputs": {
-                    "glob": "**/${title}@(.png|.PNG)"
-                },
-                "titleFromVariable": {
-                    "limitToGroups": "",
-                    "caseInsensitiveVariables": false,
-                    "skipFileIfVariableWasNotFound": false,
-                    "tryToMatchTitle": false
-                },
-                "fuzzyMatch": {
-                    "replaceDiacritics": true,
-                    "removeCharacters": true,
-                    "removeBrackets": true
-                },
-                "imageProviderAPIs": {
-                    "SteamGridDB": {
-                        "nsfw": false,
-                        "humor": false,
-                        "styles": [],
-                        "stylesHero": [],
-                        "stylesLogo": [],
-                        "stylesIcon": [],
-                        "imageMotionTypes": [
-                            "static"
-                        ]
-                    }
-                },
-                "parserId": "164785207772922786",
-                "version": 17,
-                "controllers": {
-                    "ps4": null,
-                    "ps5": null,
-                    "xbox360": null,
-                    "xboxone": null,
-                    "switch_joycon_left": null,
-                    "switch_joycon_right": null,
-                    "switch_pro": null,
-                    "neptune": null
-                },
-                "defaultImage": {
-                    "long": "",
-                    "tall": "",
-                    "hero": "",
-                    "logo": "",
-                    "icon": "/home/deck/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
-                },
-                "localImages": {
-                    "long": "",
-                    "tall": "",
-                    "hero": "",
-                    "logo": "",
-                    "icon": ""
-                },
-                "steamInputEnabled": "1",
-                "drmProtect": false
-            }
+        {
+            "parserType": "Glob",
+            "configTitle": "Pico-8 (Standalone)",
+            "steamCategory": "${Pico-8 (Standalone)}",
+            "steamDirectory": "${steamdirglobal}",
+            "romDirectory": "${romsdirglobal}/pico8",
+            "executableArgs": "-run \"'${filePath}'\"",
+            "executableModifier": "\"${exePath}\"",
+            "startInDirectory": "",
+            "titleModifier": "${fuzzyTitle}",
+            "imageProviders": [
+                "SteamGridDB"
+            ],
+            "onlineImageQueries": "${${fuzzyTitle}}",
+            "imagePool": "${fuzzyTitle}",
+            "disabled": false,
+            "userAccounts": {
+                "specifiedAccounts": ""
+            },
+            "executable": {
+                "path": "/home/deck/Applications/pico-8/pico8",
+                "shortcutPassthrough": false,
+                "appendArgsToExecutable": false
+            },
+            "parserInputs": {
+                "glob": "**/${title}@(.png|.PNG)"
+            },
+            "titleFromVariable": {
+                "limitToGroups": "",
+                "caseInsensitiveVariables": false,
+                "skipFileIfVariableWasNotFound": false,
+                "tryToMatchTitle": false
+            },
+            "fuzzyMatch": {
+                "replaceDiacritics": true,
+                "removeCharacters": true,
+                "removeBrackets": true
+            },
+            "imageProviderAPIs": {
+                "SteamGridDB": {
+                    "nsfw": false,
+                    "humor": false,
+                    "styles": [],
+                    "stylesHero": [],
+                    "stylesLogo": [],
+                    "stylesIcon": [],
+                    "imageMotionTypes": [
+                        "static"
+                    ]
+                }
+            },
+            "parserId": "164785207772922786",
+            "version": 17,
+            "controllers": {
+                "ps4": null,
+                "ps5": null,
+                "xbox360": null,
+                "xboxone": null,
+                "switch_joycon_left": null,
+                "switch_joycon_right": null,
+                "switch_pro": null,
+                "neptune": null
+            },
+            "defaultImage": {
+                "long": "",
+                "tall": "",
+                "hero": "",
+                "logo": "",
+                "icon": "/home/deck/.config/EmuDeck/backend/configs/steam-rom-manager/userData/img/default/icon.png"
+            },
+            "localImages": {
+                "long": "",
+                "tall": "",
+                "hero": "",
+                "logo": "",
+                "icon": ""
+            },
+            "steamInputEnabled": "1",
+            "drmProtect": false
+        }
     
 5. Open Steam ROM Manager, toggle the `Pico-8 (Standalone)` parser and generate an app list to add your games to Steam
 
 ***
 
 ## Pico-8 Tips and Tricks
+[Back to the Top](#pico-8-table-of-contents)
 
 ***
 
 ### How to Set Up Splore
+[Back to the Top](#pico-8-table-of-contents)
 
 1. Open the `Emulation/roms/pico8` folder
 2. Right click anywhere, click `Create New > Text File`
@@ -169,7 +176,8 @@ If you are using [https://itch.io/games/tag-pico-8](https://itch.io/games/tag-pi
 
 ***
 
-## Game Resources
+### Game Resources
+[Back to the Top](#pico-8-table-of-contents)
 
 * [https://itch.io/games/tag-pico-8](https://itch.io/games/tag-pico-8)
 * [https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2](https://www.lexaloffle.com/bbs/?cat=7&carts_tab=1#mode=carts&sub=2)
