@@ -1822,6 +1822,14 @@ Source: [https://gbatemp.net/threads/fanmade-pc-port-of-the-legend-of-zelda-link
 4. Extract `PokeMMO-Client.zip` to `/home/deck/Games/PokeMMO`
     * If it creates a subfolder, move the contents directly to `/home/deck/Games/PokeMMO`
 5. Right click `PokeMMO.sh`,  click `Properties`, click `Permissions`, check `Is Executable`
+6. Right click `PokeMMO.sh`, click `Open with Kate` or a text editor of your choice
+7. At the top of the file, below `#!/bin/sh`, write the following two lines:
+
+        export JAVA_HOME=$HOME/Applications/jdk
+        export PATH=$JAVA_HOME/bin:$PATH
+
+8. Save and exit out of the file
+9. To open PokeMMO, double click `PokeMMO.sh`
 
 #### How to add PokeMMO to Steam
 
