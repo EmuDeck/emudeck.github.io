@@ -504,30 +504,15 @@ This section will cover how to download and set up the Universal Pokemon Randomi
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
-1. In `/home/deck/Games`, create a `UniversalPokemonRandomizer` folder
-2. In `/home/deck/Games/UniversalPokemonRandomizer`, create a `jdk` folder
-3. Download the latest version of Java OpenJDK, [https://jdk.java.net/22/](https://jdk.java.net/22/),to `/home/deck/Games/UniversalPokemonRandomizer/jdk`
-    * Download the `Linux/x64` version
-4. Right click `openjdk-#.#.#_linux-x64_bin.tar.gz`, click `Extract > Extract archive here`
-    * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded OpenJDK
-    * If the `.tar.gz` creates a subfolder, move the contents out directly into `/home/deck/Games/UniversalPokemonRandomizer/jdk`
-4. Download the latest version of Universal Pokemon Randomizer, [https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases](https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases), to `/home/deck/Games/UniversalPokemonRandomizer`
+1. Install Java, for instructions see [How To Install Java on the Steam Deck](../../community-creations/steamos/linux-tips-and-tricks.md#how-to-install-java-on-the-steam-deck)
+2. In `/home/deck/Games`, create a `UniversalPokemonRandomizer` folder
+3. Download the latest version of Universal Pokemon Randomizer, [https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases](https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases), to `/home/deck/Games/UniversalPokemonRandomizer`
     * Download `PokeRandoZX-v$_#_#.zip`
         * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded the Universal Pokemon Randomizer
-5. Right click `PokeRandoZX-v#_#_#.zip`, click `Extract > Extract archive here`
+3. Right click `PokeRandoZX-v#_#_#.zip`, click `Extract > Extract archive here`
     * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded the Universal Pokemon Randomizer
-6. Download the attached `.sh` file
-    * [UniversalPokemonRandomizer.sh](../../configuration-files/UniversalPokemonRandomizer.sh)
-    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
-7. Right click `UniversalPokemonRandomizer.sh`, click `Properties`, click `Permissions`, and ensure `Is executable` is checked
-8. To launch the Universal Pokemon Randomizer, double click `UniversalPokemonRandomizer.sh`
-
-After following the above instructions, your folders should look like the below:
-
-![How to Install the Universal Pokemon Randomizer 1](../../assets/how-to-install-the-universal-pokemon-randomizer-1.png)
-
-![How to Install the Universal Pokemon Randomizer 2](../../assets/how-to-install-the-universal-pokemon-randomizer-2.png)
-
+4. Right click `launcher_UNIX.sh`, click `Properties`, click `Permissions`, and ensure `Is executable` is checked
+5. To launch the Universal Pokemon Randomizer, double click `launcher_UNIX.sh`
 
 ***
 
