@@ -1815,31 +1815,17 @@ Source: [https://gbatemp.net/threads/fanmade-pc-port-of-the-legend-of-zelda-link
 
 **Note:** The following folder locations are recommendations. You may choose a different folder location. 
 
-1. In `/home/deck/Games`, create a `PokeMMO` folder
-2. In `/home/deck/Games/PokeMMO`, create a `jdk` folder
-3. Download Java OpenJDK: [https://jdk.java.net/22/](https://jdk.java.net/22/) to `/home/deck/Games/UniversalPokemonRandomizer/jdk`
-    * Download the `Linux/x64` version
-4. Right click `openjdk-#.#.#_linux-x64_bin.tar.gz`, click `Extract > Extract archive here`
-    * The `#.#.#` refer to the version numbers which may vary depending on when you downloaded OpenJDK
-    * If the `.tar.gz` creates a subfolder, move the contents out directly into `/home/deck/Games/UniversalPokemonRandomizer/jdk`
-5. Download PokeMMO: [https://pokemmo.com/downloads/linux/](https://pokemmo.com/downloads/linux/) to `/home/deck/Games/PokeMMO`
+1. In the `/home/deck/Applications` folder, create a `PokeMMO` folder
+2. Install Java, for instructions see [How To Install Java on the Steam Deck](../../community-creations/steamos/linux-tips-and-tricks.md#how-to-install-java-on-the-steam-deck)
+3. Download PokeMMO: [https://pokemmo.com/downloads/linux/](https://pokemmo.com/downloads/linux/) to `/home/deck/Games/PokeMMO`
     * Under `Other Distributions`, click `Download the Client`
-6. Extract `PokeMMO-Client.zip` in `/home/deck/Games/PokeMMO`
-    * <img src="https://user-images.githubusercontent.com/108900299/215299506-ef39e81d-989a-4f79-9865-4b0fbe8dba42.png" height="300">
-7. To launch the game, open `Konsole` and enter: `/home/deck/Games/PokeMMO/jdk/bin/java -jar PokeMMO.exe -cp com.pokeemu.client.Client`
+4. Extract `PokeMMO-Client.zip` to `/home/deck/Games/PokeMMO`
+    * If it creates a subfolder, move the contents directly to `/home/deck/Games/PokeMMO`
+5. Right click `PokeMMO.sh`,  click `Properties`, click `Permissions`, check `Is Executable`
 
 #### How to add PokeMMO to Steam
 
-1. Download the attached `.sh` file
-    * [PokeMMO.sh](../../configuration-files/PokeMMO.sh)
-    * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
-2. Place in `/home/deck/Applications`
-3. Right click `PokeMMO.sh`
-4. Click `Properties`
-5. Click `Permissions`
-6. Check `Is Executable`
-7. Use `PokeMMO.sh` to open PokeMMO
-8. In Desktop Mode, right click `PokeMMO.sh`, click `Add to Steam`
+1. In Desktop Mode, right click `PokeMMO.sh` in `/home/deck/Games/PokeMMO`, click `Add to Steam`
     * Alternatively, use the Steam ROM Manager parser here: [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager) to add it to Steam
 
 ***
