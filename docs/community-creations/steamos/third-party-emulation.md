@@ -1495,7 +1495,7 @@ This section will use a simple script file to launch the various decompilations 
 1. Place your script files in `Emulation/roms/desktop`
 2. In `/home/deck/.config/steam-rom-manager/userData/`, open `userConfigurations.json` in a text editor of your choice
 3. Scroll to the very bottom of the text file, you will see a `}` and a `]`, add a comma to `}`
-    * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/7b816803-7bd4-4758-bb04-140d447e4aa1" height="300"> 
+    * ![Steam ROM Manager Parser](../../assets/steam-rom-manager-parser.png)
 4. Paste the below block of text between the `},` and the `]`
     
             {
