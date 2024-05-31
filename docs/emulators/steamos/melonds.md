@@ -26,6 +26,7 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
 
 2. [melonDS Tips and Tricks](#melonds-tips-and-tricks)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
+    - [How to Configure Settings](#how-to-configure-settings)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Set up DSIWare](#how-to-set-up-dsiware)
     - [How to Play Nintendo DS Games in Book Mode](#how-to-play-nintendo-ds-games-in-book-mode)
@@ -198,6 +199,27 @@ This section is strictly referring to local multiplayer. melonDS multiplayer on 
 5. Open the game in each melonDS window and you will be able to play multiplayer
 
 You can determine which melonDS window corresponds to what player by looking at the menu bar at the top. Each new melonDS window will have a corresponding `(#)`.
+
+***
+
+### How to Configure Settings
+[Back to the Top](#melonds-table-of-contents)
+
+#### Game Mode
+
+If you are playing in Game Mode, make sure you have the correct "Steam Input profiles applied. For more information, see the [Hotkeys](#melonds-hotkeys) section. 
+
+While in game, press `Select` + `R3` to switch melonDS to windowed. While melonDS is windowed, you will have access to the settings at the top of the screen. Adjust these options to your liking. After you have made your changes, press `Select` + `R3` again to switch melonDS back to full screen. 
+
+After you have made your changes and you are ready to exit your game, **do not** use the `STEAM` butto to exit out of the game. If you use the `STEAM` button, any changes you have made will be reverted. 
+
+Press `Select` + `R3` again to switch melonDS to windowed. In the top right, click `File`, click `Quit`. You will only need to do this when you are changing settings. Otherwise, you may simply use the `STEAM` button as usual. 
+
+#### Desktop Mode
+
+In Desktop Mode, open melonDS. Adjust any options to your liking. In the top right, click `File`, click `Quit`.
+
+**Do not** click the `X` button in the top right to exit out of melonDS. If you use the `X` button, any changes will be reverted.
 
 ***
 
