@@ -353,9 +353,10 @@ By default, EmuDeck configures melonDS' screens to use a hybrid layout, meaning 
 
 1. In Game Mode, select the `EmuDeck - Controller Hotkeys` profile if you are playing a game directly from Game Mode or the `EmuDeck - Frontend Controller Hotkeys` profile if you are playing through ES-DE or Pegasus
     * [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile)
-2. Open the game, use the Steam Input profile and select the `Fullscreen` hotkey
+2. Open the game, use the Steam Input profile, and click `Select` + `R3`
 3. At the top, press `Config`, and use `Screen size`, `Screen rotation`, `Screen layout`, `Screen sizing`, and `Aspect Ratio` to customize your layout 
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/93413e6c-a704-48ea-aaca-565f54a85bb6" height="300">
+4. When you are finished playing your game, click `Select` + `R3` again. In the top right, click `File`, click `Quit`. If you use the `STEAM` button to exit out of the game, any changes you have made **will not** be saved 
 
 The `Screen layout` is where you can find the `Hybrid layout` option. Here, you can swap to `Natural`, `Vertical`, `Horizontal`, and `Hybrid`. 
 
