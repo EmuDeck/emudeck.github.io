@@ -207,13 +207,13 @@ You can determine which melonDS window corresponds to what player by looking at 
 
 #### Game Mode
 
-If you are playing in Game Mode, make sure you have the correct "Steam Input profiles applied. For more information, see the [Hotkeys](#melonds-hotkeys) section. 
+If you are playing in Game Mode, make sure you have the correct "Steam Input" profile applied. For more information, see the [Hotkeys](#melonds-hotkeys) section. 
 
-While in game, press `Select` + `R3` to switch melonDS to windowed. While melonDS is windowed, you will have access to the settings at the top of the screen. Adjust these options to your liking. After you have made your changes, press `Select` + `R3` again to switch melonDS back to full screen. 
+While in game, press `Select` + `R3` to exit full screen. While melonDS is windowed, you will have access to the settings at the top of the screen. Adjust these options to your liking. After you have made your changes, press `Select` + `R3` again to switch melonDS back to full screen. 
 
 After you have made your changes and you are ready to exit your game, **do not** use the `STEAM` butto to exit out of the game. If you use the `STEAM` button, any changes you have made will be reverted. 
 
-Press `Select` + `R3` again to switch melonDS to windowed. In the top right, click `File`, click `Quit`. You will only need to do this when you are changing settings. Otherwise, you may simply use the `STEAM` button as usual. 
+Press `Select` + `R3` again to exit full screen. In the top right, click `File`, click `Quit`. You will only need to do this when you are changing settings. Otherwise, you may simply use the `STEAM` button as usual. 
 
 #### Desktop Mode
 
