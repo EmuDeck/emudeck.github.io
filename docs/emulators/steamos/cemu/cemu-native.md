@@ -414,29 +414,35 @@ Some external controllers, including the Sony DualSense and the Nintendo Switch 
 
 #### Desktop Mode
 
-1. In Desktop Mode, exit out of Steam
+1. Switch to Desktop Mode
+2. Exit out of Steam
+    * You may exit out of Steam a couple of different ways:
+        * Right click the `Steam` icon in your taskbar and click `Exit Steam`
+        * Open Steam, click the `Steam` button in the top left, click `Exit`
+        * Open a terminal (Konsole) and enter `killall -9 steam`
+        * Do note that clicking the the `X` button in the top right of the Steam window **will not** exit out of Steam
     * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
-2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
+3. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
-3. Click the Steam icon in the bottom left of the taskbar and open `Cemu AppImage` 
+4. Click the Steam icon in the bottom left of the taskbar and open `Cemu AppImage` 
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/e395d988-cf13-4b2c-af2c-e27059b44ac2" height="300">
-4. At the top of the Cemu GUI, click `Options`, click `Input settings`
-5. Under the `Controller 1` tab, press the `-` button to the right of the `Controller` drop-down twice
+5. At the top of the Cemu GUI, click `Options`, click `Input settings`
+6. Under the `Controller 1` tab, press the `-` button to the right of the `Controller` drop-down twice
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/d2b7eb25-e5a2-4140-9c8e-069e5c465ab5" height="300">
-6. The drop-down box will be empty and your controls will no longer be mapped, this is expected behavior
+7. The drop-down box will be empty and your controls will no longer be mapped, this is expected behavior
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/c38668d2-a128-415a-b4fa-756e4e254c53" height="300">
-7. Under the `Controller 1` tab, press the `+` button to the right of the `Controller` drop-down
+8. Under the `Controller 1` tab, press the `+` button to the right of the `Controller` drop-down
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/3f0e4a6b-5355-420f-9def-5423cc1c0116" height="300">
-8. Select `SDLController` for the `API` drop-down and select your controller under the `Controller` drop-down
+9. Select `SDLController` for the `API` drop-down and select your controller under the `Controller` drop-down
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/10c359ca-0737-4c47-bbd9-c095777cfd42" height="300">
-9. Click the `Add` button and Cemu will auto-map your controls
-10. Click the `Settings` button under the drop-down with your controller name
-11. Check the box to the left of `Use motion`
+10. Click the `Add` button and Cemu will auto-map your controls
+11. Click the `Settings` button under the drop-down with your controller name
+12. Check the box to the left of `Use motion`
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/388f1867-dd5d-4eb1-bd9f-d0fbf39896d8" height="300">
-12. Click the `OK` button 
-13. Give the profile a unique name under the `Profile` drop-down box at the top and click `Save`
+13. Click the `OK` button 
+14. Give the profile a unique name under the `Profile` drop-down box at the top and click `Save`
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/5c64751c-041f-40a5-86a5-bc8c6615eb58" height="300">
-14. Your controller is now configured with gyro, proceed to the `Game Mode` section to start using your controller in `Game Mode`
+15. Your controller is now configured with gyro, proceed to the `Game Mode` section to start using your controller in `Game Mode`
 
 #### Game Mode
 
