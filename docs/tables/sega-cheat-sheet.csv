@@ -13,6 +13,6 @@ Sega Model 3,model3,[Supermodel](https://www.supermodel3.com/index.html),.zip,No
 Sega NAOMI,naomi,[RetroArch FlyCast](https://docs.libretro.com/library/flycast/),.zip,Create `dc` folder in `Emulation/bios` <br> Place `naomi.zip` in `Emulation/bios/dc`
 **Sega NAOMI (Standalone)**,naomi,**[Flycast (Standalone)](https://github.com/flyinghead/flycast)**,.zip,Place `naomi.zip` in `Emulation/bios/flycast/bios`
 **Sega NAOMI 2 (Standalone)**,naomi2,**[Flycast (Standalone)](https://github.com/flyinghead/flycast)**,.zip,Place `naomi2.zip` in `Emulation/bios/flycast/bios`
-Sega Saturn,saturn,[RetroArch Beetle Saturn](https://docs.libretro.com/library/beetle_saturn/),.7z .chd `.cue and .bin` .iso .zip,`sega_101.bin` (JP) <br>  `mpr-17933.bin` (US/EU)
-Sega Saturn,saturn,[RetroArch Kronos](https://docs.libretro.com/library/kronos/),.7z .chd `.cue and .bin` .iso .zip,Create `kronos` folder in `Emulation/bios` <br> Place `saturn_bios.bin` in `Emulation/bios/kronos`
-Sega Saturn,saturn,[RetroArch Yabause](https://docs.libretro.com/library/yabause/),.7z .chd `.cue and .bin` .iso .zip,`saturn_bios.bin`
+Sega Saturn,saturn,[RetroArch Beetle Saturn](https://docs.libretro.com/library/beetle_saturn/),.7z .ccd .chd ` .mds .cue and .bin` .iso .toc .zip,`sega_101.bin` (JP) <br>  `mpr-17933.bin` (US/EU)
+Sega Saturn,saturn,[RetroArch Kronos](https://docs.libretro.com/library/kronos/),.7z .ccd .chd `.cue and .bin` .mds .iso .toc .zip,Create `kronos` folder in `Emulation/bios` <br> Place `saturn_bios.bin` in `Emulation/bios/kronos`
+Sega Saturn,saturn,[RetroArch Yabause](https://docs.libretro.com/library/yabause/),.7z .ccd .chd `.cue and .bin` .mds .iso .toc .zip,`saturn_bios.bin`
