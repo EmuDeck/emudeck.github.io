@@ -614,29 +614,9 @@ Source: [https://www.shipofharkinian.com/](https://www.shipofharkinian.com/)
 
 #### Supported Legend of Zelda: Ocarina of Time ROMs
 
-**Note:** You will need one of the following ROMs before you can proceed with the tutorial.
+For a full list of supported ROMs and a ROM validation tool, see [https://ship.equipment/](https://ship.equipment/).
 
-To check the hash of your ROM, right click the ROM, click `Properties`, click `Checksums`, click `Calculate` to the right of `SHA1` and validate it matches one of the below hashes.  
-
-#### Ocarina of Time Debug PAL GC (not Master Quest)
-> Currently the recommended option
-```yaml
-Build team: `zelda@srd022j`
-Build date: `03-02-21 00:49:18` (year-month-day)
-sha1: cee6bc3c2a634b41728f2af8da54d9bf8cc14099
-```
-#### Ocarina of Time PAL GameCube
-> May lead to crashes and instability
-```yaml
-sha1: 0227d7c0074f2d0ac935631990da8ec5914597b4
-```
-#### Ocarina of Time Debug PAL GC MQ (Dungeons will be Master Quest)
-```yaml
-Build team: `zelda@srd022j`
-Build date: `03-02-21 00:16:31` (year-month-day)
-sha1: 079b855b943d6ad8bd1eb026c0ed169ecbdac7da (Produced by decomp)
-sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
-```
+To confirm that you have a valid ROM, drag and drop your ROM to the website above. 
 
 #### Setting up Ship of Harkinian
 
