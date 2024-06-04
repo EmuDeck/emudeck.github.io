@@ -231,6 +231,10 @@ __This list is not exhaustive__
     * If you have a `.rar` or `.zip` file, you will need to extract it first 
 3. Depending on the mod or texture pack, you may need to enable it in game as well. Refer to the mod or texture pack for any additional instructions
 
+#### 2Ship2Harkinian Save Location
+
+Saves for 2Ship2Harkinian are in the same folder as the `2ship.AppImage`. If you followed this section, your saves will be in `/home/deck/Applications/2Ship2Harkinian`.
+
 #### How to Transfer Zelda64: Majora's Mask Saves to 2Ship2Harkinian
 
 If you have a save you would like to transfer from Zelda64: Majora's Mask, open 2Ship2Harkinian in Desktop Mode. Drag the save from Zelda64 to the open 2Ship2Harkinian window. 
@@ -652,6 +656,10 @@ __This list is not exhaustive__
 2. Place your mods or textures directly into this folder. Mods or textures typically have a `.otr` file extension
     * If you have a `.rar` or `.zip` file, you will need to extract it first 
 3. Depending on the mod or texture pack, you may need to enable it in game as well. Refer to the mod or texture pack for any additional instructions
+
+#### Ship of Harkinian Save Location
+
+Saves for Ship of Harkinian are in the same folder as the `soh.AppImage`. If you followed this section, your saves will be in `/home/deck/Applications/ShipofHarkinian`.
 
 ***
 
