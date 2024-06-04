@@ -11,7 +11,8 @@ The guides on this page are not officially supported by EmuDeck. Many require so
         - [How to Set up Distrobox](#how-to-set-up-distrobox)
         - [Terminal Tips and Tricks](#terminal-tips-and-tricks)
     - [Games](#games)
-        - [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
+        - [2Ship2Harkinian: Majora's Mask](#2ship2harkinian-majoras-mask)
+        - [Cannonball: OutRun Engine](#cannonball-outrun-engine)
         - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
         - [OpenGOAL: Jak II](#opengoal-jak-ii)
         - [Perfect Dark](#perfect-dark)
@@ -28,8 +29,12 @@ The guides on this page are not officially supported by EmuDeck. Many require so
         - [Super Metroid](#super-metroid)
         - [Super Metroid Redux](#super-metroid-redux)
         - [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
+        - [Zelda64: Majora's Mask](#zelda64-majoras-mask)
     - [General Maintenance](#general-maintenance)
         - [How to Add Decompilations and Reverse Engineered PC Ports to Steam](#how-to-add-decompilations-and-reverse-engineered-pc-ports-to-steam)
+            - [How to Create Script Files](#how-to-create-script-files)
+            - [How to Utilize Script Files with ES-DE and Pegasus](#how-to-utilize-script-files-with-es-de-and-pegasus)
+            - [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager)
         - [How to Update Decompilations and Reverse Engineered PC Ports](#how-to-update-decompilations-and-reverse-engineered-pc-ports)
 
 2. [Emulators](#emulators)
@@ -175,7 +180,66 @@ The various sections on this page will assume you are using the Ubuntu distrobox
 
 ***
 
-### Cannonball - OutRun Engine
+### 2Ship2Harkinian: Majora's Mask
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+#### What is 2Ship2Harkinian?
+
+`An unofficial PC port of The Legend of Zelda Majora's Mask.`
+
+Source: [https://github.com/HarbourMasters/2ship2harkinian](https://github.com/HarbourMasters/2ship2harkinian)
+
+#### Supported Legend of Zelda: Majora's Mask ROMs
+
+To check the hash of your ROM, right click the ROM, click `Properties`, click `Checksums`, click `Calculate` to the right of `SHA1` and validate it matches one of the below hashes.  
+
+* `7f5630dbc4d5d61d6276213210c4d5cdd83a47d6`
+* `d6133ace5afaa0882cf214cf88daba39e266c078`
+* `9743aa026e9269b339eb0e3044cd5830a440c1fd`
+
+#### Setting up 2Ship2Harkinian
+
+**Note:** The following folder locations are recommendations. You can choose a different folder location.
+
+1. In `/home/deck/Applications`, create a `2Ship2Harkinian` folder
+2. Download the latest `Linux` version of `2Ship2Harkinian`: [https://github.com/HarbourMasters/2ship2harkinian/releases](https://github.com/HarbourMasters/2ship2harkinian/releases) to the folder you created in Step 1
+    * Download the `2Ship-VERSION-NAME-Linux.zip` file
+3. Right click `2Ship-VERSION-NAME-Linux.zip` and click `Extract > Extract archive here`
+    * If it creates a subfolder, move the contents directly to `/home/deck/Applications/2Ship2Harkinian`
+4. Right click `2ship.appimage`, click `Properties`, click `Permissions`, check `Is Executable`
+
+#### Installing 2Ship2Harkinian
+
+1. Place your `The Legend of Zelda: Majora's Mask` ROM in `/home/deck/Applications/2Ship2Harkinian`
+2. Open `2ship.AppImage`, wait for it to finish generating the OTR
+3. To play 2Ship2Harkinian, open `2ship.AppImage`
+
+#### How to Install Custom Textures and Mods
+
+**Texture Pack and Mod Sources**
+
+__This list is not exhaustive__
+
+* [https://gamebanana.com](https://gamebanana.com)
+* [https://evilgames.eu/texture-packs/oot-reloaded.htm](https://evilgames.eu/texture-packs/oot-reloaded.htm)
+
+**How to Install Custom Textures and Mods**
+
+1. In `/home/deck/Applications/2Ship2Harkinian`, create a `mods` folder if one does not exist already
+    * **Casing matters**
+2. Place your mods or textures directly into this folder. Mods or textures typically have a `.otr` file extension
+    * If you have a `.rar` or `.zip` file, you will need to extract it first 
+3. Depending on the mod or texture pack, you may need to enable it in game as well. Refer to the mod or texture pack for any additional instructions
+
+#### How to Transfer Zelda64: Majora's Mask Saves to 2Ship2Harkinian
+
+If you have a save you would like to transfer from Zelda64: Majora's Mask, open 2Ship2Harkinian in Desktop Mode. Drag the save from Zelda64 to the open 2Ship2Harkinian window. 
+
+For the save locations, see [Zelda64: Save Location](#zelda64-save-location)
+
+***
+
+### Cannonball: OutRun Engine
 [Back to the Top](#third-party-emulation-table-of-contents)
    
 #### How to Build Cannonball on the Steam Deck
@@ -552,6 +616,8 @@ Source: [https://www.shipofharkinian.com/](https://www.shipofharkinian.com/)
 
 **Note:** You will need one of the following ROMs before you can proceed with the tutorial.
 
+To check the hash of your ROM, right click the ROM, click `Properties`, click `Checksums`, click `Calculate` to the right of `SHA1` and validate it matches one of the below hashes.  
+
 #### Ocarina of Time Debug PAL GC (not Master Quest)
 > Currently the recommended option
 ```yaml
@@ -586,9 +652,8 @@ sha1: 50bebedad9e0f10746a52b07239e47fa6c284d03 (Alternate)
 #### Installing Ship of Harkinian
 
 1. Place your `The Legend of Zelda: Ocarina of Time` ROM in `/home/deck/Applications/ShipofHarkinian`
-2. Open `soh.AppImage`, wait
+2. Open `soh.AppImage`, wait for it to finish generating the OTR
 3. To play Ship of Harkinian, open `soh.AppImage`
-
 
 #### How to Install Custom Textures and Mods
 
@@ -1320,7 +1385,45 @@ Choose a soundtrack from: [https://www.zeldix.net/t791-the-legend-of-zelda-a-lin
 6. Edit the line: `EnableMSU = false` so it instead writes: `EnableMSU = true`
 7. MSU1 CD Soundtrack Files are now enabled
 
+***
 
+### Zelda64: Majora's Mask
+[Back to the Top](#third-party-emulation-table-of-contents)
+
+#### What is Zelda64?
+
+!!! info
+
+    Zelda 64: Recompiled is a project that uses N64: Recompiled to statically recompile Majora's Mask (and soon Ocarina of Time) into a native port with many new features and enhancements. This project uses RT64 as the rendering engine to provide some of these enhancements.
+
+Source: [https://github.com/Zelda64Recomp/Zelda64Recomp](https://github.com/Zelda64Recomp/Zelda64Recomp)
+
+#### How to Set Up Zelda64
+
+**Note:** The following folder locations are recommendations. You may choose a different folder location. 
+
+1. In `/home/deck/Applications`, create a `Zelda64` folder
+2. Download the latest version of Zelda64, [https://github.com/Zelda64Recomp/Zelda64Recomp/releases](https://github.com/Zelda64Recomp/Zelda64Recomp/releases) to `/home/deck/Applications/Zelda64`
+    * Download the `Zelda64Recompiled-v*.*.*-Linux-x64-AppImage.zip` file
+3. Right click `Zelda64Recompiled-v*.*.*-Linux-x64-AppImage.zip`, click `Extract > Extract archive here`
+    * If it creates a subfolder, move the contents directly to `/home/deck/Applications/Zelda64`
+4. Right click `Zelda64Recompiled-x86_64.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
+5. Place a legally dumped **US** copy of `The Legend of Zelda: Majora's Mask` in `/home/deck/Applications/Zelda64`
+6. To open `Zelda64Recompiled-x86_64.AppImage`, double click it
+7. Click `Select ROM` and select the ROM in `/home/deck/Applications/Zelda64`
+
+#### How to Configure Zelda64
+
+1. Open `Zelda64Recompiled-x86_64.AppImage` at least once so it can generate the configuration files
+1. Open the `/home/deck/.config/Zelda64Recompiled` folder
+    * `~/.config` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders 
+3. Right click `general.json`, click `Open with Kate` or a text editor of your choice
+4. Tweak settings
+    * You may also tweak settings directly from the GUI
+
+#### Zelda64: Save Location
+
+Saves can be found in the `/home/deck/.config/Zelda64Recompiled` folder. `~/.config` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
 ***
 
@@ -1332,7 +1435,11 @@ Choose a soundtrack from: [https://www.zeldix.net/t791-the-legend-of-zelda-a-lin
 ### How to Add Decompilations and Reverse Engineered PC Ports to Steam
 [Back to the Top](#third-party-emulation-table-of-contents)
 
-This section will use a simple script file to launch the various decompilations and reverse engineered ports on this page. You will need to create a script file per game. 
+This section will use a simple script file to launch the various decompilations and reverse engineered ports on this page. You will need to create a script file per game.
+
+- [How to Create Script Files](#how-to-create-script-files)
+- [How to Utilize Script Files with ES-DE and Pegasus](#how-to-utilize-script-files-with-es-de-and-pegasus)
+- [How to Utilize Script Files with Steam ROM Manager](#how-to-utilize-script-files-with-steam-rom-manager)
 
 #### How to Create Script Files
 
@@ -1349,11 +1456,13 @@ This section will use a simple script file to launch the various decompilations 
     - [Super Metroid](#super-metroid)
     - [Super Metroid Redux](#super-metroid-redux)
     - [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
+    - [Zelda64: Majora's Mask](#zelda64-majoras-mask)
 2. [Script Files: Group 2](#script-files-group-2)
     - [Super Mario 64 Plus](#super-mario-64-plus)
 3. [Script Files: Group 3](#script-files-group-3)
     - [Perfect Dark](#perfect-dark)
 4. [Script Files: Group 4](#script-files-group-4)
+    - [2Ship2Harkinian: Majora's Mask](#2ship2harkinian-majoras-mask)
     - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
 5. [Script Files: Group 5](#script-files-group-5)
     - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
@@ -1361,7 +1470,7 @@ This section will use a simple script file to launch the various decompilations 
 
 #### Script Files: Group 1
 
-- [Cannonball OutRun Engine](#user-content-cannonball---outrun-engine)
+- [Cannonball OutRun Engine](#cannonball-outrun-engine)
 - [Render96ex](#render96ex)
 - [sm64ex](#sm64ex)
 - [sm64ex-coop](#sm64ex-coop)
@@ -1373,6 +1482,7 @@ This section will use a simple script file to launch the various decompilations 
 - [Super Metroid](#super-metroid)
 - [Super Metroid Redux](#super-metroid-redux)
 - [zelda3: A Link to the Past](#zelda3-a-link-to-the-past)
+- [Zelda64: Majora's Mask](#zelda64-majoras-mask)
 
 1. In `Emulation/roms/desktop`, right click anywhere in the blank space, click `Create New` > `Text File` and give the text file a descriptive name (matching the game name typically) with a `.sh` file extension
     * For example: `Super Metroid.sh` or `The Legend of Zelda: A Link to the Past.sh`
@@ -1391,10 +1501,8 @@ This section will use a simple script file to launch the various decompilations 
             "/home/deck/Applications/Distrobox/sm/sm"
             
 5. Save and exit out of the file
-6. Right click the newly created file
-7. Click `Properties`
-8. Click `Permissions`
-9. Check `Is Executable`
+6. Right click your newly created text file, click `Properties`, click `Permissions`, check `Is Executable`
+7. You may now open the game by double clicking the newly created text file
 
 **Note:** 
 
@@ -1415,10 +1523,8 @@ This section will use a simple script file to launch the various decompilations 
     * [SuperMario64Plus.sh](../../configuration-files/SuperMario64Plus.sh)
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `Emulation/roms/desktop`
-3. Right click `SuperMario64Plus.sh`
-4. Click `Properties`
-5. Click `Permissions`
-6. Check `Is Executable`
+3. Right click your newly created text file, click `Properties`, click `Permissions`, check `Is Executable`
+4. You may now open the game by double clicking the newly created text file
 
 #### Script Files: Group 3
 
@@ -1428,14 +1534,12 @@ This section will use a simple script file to launch the various decompilations 
     * [PerfectDark.sh](../../configuration-files/PerfectDark.sh)
     * **Note:** If you are using different folder locations, make sure to edit the above file and edit the paths
 2. Place in `Emulation/roms/desktop`
-3. Right click `PerfectDark.sh`
-4. Click `Properties`
-5. Click `Permissions`
-6. Check `Is Executable`
-7. Use `PerfectDark.sh` to open Perfect Dark
+3. Right click your newly created text file, click `Properties`, click `Permissions`, check `Is Executable`
+4. Use `PerfectDark.sh` to open Perfect Dark
 
 #### Script Files: Group 4
 
+- [2Ship2Harkinian: Majora's Mask](#2ship2harkinian-majoras-mask)
 - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
 
 1. In a folder of your choice, create a text file and give it a descriptive name (matching the game name typically) with a `.sh` file extension
@@ -1455,10 +1559,7 @@ This section will use a simple script file to launch the various decompilations 
             "/home/deck/Applications/ShipofHarkinian/soh.appimage"
 
 5. Save and exit out of the file
-6. Right click the newly created file
-7. Click `Properties`
-8. Click `Permissions`
-9. Check `Is Executable`
+6. Right click your newly created text file, click `Properties`, click `Permissions`, check `Is Executable`
 
 **Note:** 
 
@@ -1482,13 +1583,14 @@ This section will use a simple script file to launch the various decompilations 
 7. In the text file you created in Step 1, right click anywhere below `#!/bin/bash` and click `Paste`
 8. Save the text file and exit out
 9. Right click your newly created text file, click `Properties`, click `Permissions`, check `Is Executable`
+10. You may now open the game by double clicking the newly created text file
 
 **Note:** You will need to update this shortcut whenever you update OpenGOAL. 
 
-#### How to Utilize Script Files with EmulationStation-DE
+#### How to Utilize Script Files with ES-DE and Pegasus
 
 1. Place your script files in `Emulation/roms/desktop`
-2. In Game Mode, open EmulationStation-DE and play your newly created script files
+2. In Game Mode, open ES-DE or Pegasus and play your newly created script files
 
 #### How to Utilize Script Files with Steam ROM Manager
 
@@ -1586,6 +1688,7 @@ This section will use a simple script file to launch the various decompilations 
 [Back to the Top](#third-party-emulation-table-of-contents)
 
 1. [Updating: Group 1](#updating-group-1)
+    - [Cannonball: OutRun Engine](#cannonball-outrun-engine)
     - [Render96ex](#render96ex)
     - [Super Mario 64 Plus](#super-mario-64-plus)
     - [sm64ex](#sm64ex)
@@ -1601,10 +1704,13 @@ This section will use a simple script file to launch the various decompilations 
 2. [Updating: Group 2](#updating-group-2)
     - [Perfect Dark](#perfect-dark)
 3. [Updating: Group 3](#updating-group-3)
+    - [2Ship2Harkinian: Majora's Mask](#2ship2harkinian-majoras-mask)
     - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)   
 4. [Updating: Group 4](#updating-group-4)
     - [OpenGOAL: Jak and Dexter: The Precursor Legacy](#opengoal-jak-and-dexter-the-precursor-legacy)
     - [OpenGOAL: Jak II](#opengoal-jak-ii)
+5. [Updating: Group 5](#updating-group-5)
+    - [Zelda64: Majora's Mask](#zelda64-majoras-mask)
 
 #### Updating: Group 1
 
@@ -1647,15 +1753,27 @@ This section will use a simple script file to launch the various decompilations 
 
 #### Updating: Group 3
 
+- [2Ship2Harkinian: Majora's Mask](#2ship2harkinian-majoras-mask)
 - [Ship of Harkinian: Ocarina of Time](#ship-of-harkinian-ocarina-of-time)
 
-1. Download the latest `Linux-Performance` version of `Ship of Harkinian`: [https://github.com/HarbourMasters/Shipwright/releases](https://github.com/HarbourMasters/Shipwright/releases) to the folder you created in Step 1
+##### 2Ship2Harkinian
+
+1. Download the latest `Linux` version of `2Ship2Harkinian`: [https://github.com/HarbourMasters/2ship2harkinian/releases](https://github.com/HarbourMasters/2ship2harkinian/releases) to `/home/deck/Applications/2Ship2Harkinian`
+    * Download the `2Ship-VERSION-NAME-Linux.zip` file
+2. Right click the downloaded zip file and click `Extract > Extract archive here`
+3. Overwrite the current `2ship.appimage` file
+4. Right click `2ship.appimage`, click `Properties`, click `Permissions`, check `Is Executable`
+5. When a new OTR is required, delete the current OTR files in `/home/deck/Applications/2Ship2Harkinian` and re-run the `2ship.appimage` file by double clicking it to generate new OTR files
+    * See [https://www.shipofharkinian.com/faq#what-do-the-release-numbers-mean](https://www.shipofharkinian.com/faq#what-do-the-release-numbers-mean) for details
+
+##### Ship of Harkinian: Ocarina of Time
+
+1. Download the latest `Linux-Performance` version of `Ship of Harkinian`: [https://github.com/HarbourMasters/Shipwright/releases](https://github.com/HarbourMasters/Shipwright/releases) to `/home/deck/Applications/ShipofHarkinian`
     * Download the `SoH-VERSION-NAME-Linux-Performance.zip` file
-2. Right click the downloaded zip file and click `Extract archive here, detect subfolder`
-3. Move the `soh.AppImage` to `/home/deck/Applications/ShipofHarkinian`
-4. Overwrite the current `soh.AppImage` file
-5. Right click `soh.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
-6. When a new OTR is required, delete the current OTR files in `/home/deck/Applications/ShipofHarkinian` and re-run the `soh.AppImage` file by double clicking it to generate new OTR files
+2. Right click the downloaded zip file and click `Extract > Extract archive here`
+3. Overwrite the current `soh.AppImage` file
+4. Right click `soh.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
+5. When a new OTR is required, delete the current OTR files in `/home/deck/Applications/ShipofHarkinian` and re-run the `soh.AppImage` file by double clicking it to generate new OTR files
     * See [https://www.shipofharkinian.com/faq#what-do-the-release-numbers-mean](https://www.shipofharkinian.com/faq#what-do-the-release-numbers-mean) for details
 
 #### Updating: Group 4
@@ -1672,6 +1790,17 @@ This section will use a simple script file to launch the various decompilations 
 
 **Note:** Do not forget to update the shortcut as well whenever you update OpenGOAL. 
 
+#### Updating: Group 5
+
+- [Zelda64: Majora's Mask](#zelda64-majoras-mask)
+
+1. Download the latest version of Zelda64, [https://github.com/Zelda64Recomp/Zelda64Recomp/releases](https://github.com/Zelda64Recomp/Zelda64Recomp/releases) to `/home/deck/Applications/Zelda64` 
+    * Download the `Zelda64Recompiled-v*.*.*-Linux-x64-AppImage.zip` file
+2. Right click `Zelda64Recompiled-v*.*.*-Linux-x64-AppImage.zip`, click `Extract > Extract archive here`
+    * **Overwrite** the current AppImage
+    * If it creates a subfolder, move the contents directly to `/home/deck/Applications/Zelda64`
+    * If you do not overwrite the outdated AppImage, simply delete it instead
+3. Right click `Zelda64Recompiled-x86_64.AppImage`, click `Properties`, click `Permissions`, check `Is Executable`
 
 ***
 
