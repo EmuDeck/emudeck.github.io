@@ -830,7 +830,7 @@ This section will assume you have installed and configured Xenia through EmuDeck
     * (Highly Recommended)
         * `Disable Color Adjustment`
         * `Disable Shadow Maps`
-6. The remainder of the Google Doc covers how to mod Sonic Unleashed using the Unleashed Mod Manager. At this point, it is recommended you first test the game to test the performance. If you would like to use the Unleashed Mod Manager, proceed to the [Unleashed Mod Manager](#unleashed-mod-manager) section
+6. The remainder of the Google Doc covers how to apply the "AMD Grass Explosion Fix" using the Unleashed Mod Manager. At this point, it is recommended you first test the game to test the performance. If you would like to apply the "AMD Grass Explosion Fix", proceed to the [Unleashed Mod Manager](#unleashed-mod-manager) section
 
 #### Unleashed Mod Manager
 
