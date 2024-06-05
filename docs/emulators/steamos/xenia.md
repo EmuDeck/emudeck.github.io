@@ -802,7 +802,7 @@ As an example, `Banjo-Kazooie - Nuts & Bolts` in the ISO file format was 7.3 GB.
 If you are using ISOs, first extract your ISOs to XEX. For instructions, see [How to Extract ISOs to the XEX Format](#how-to-extract-isos-to-the-xex-format). For Xbox Live Arcade ROMs, see [How to Convert Xbox Live Arcade ROMs to XEX](#how-to-convert-xbox-live-arcade-roms-to-xex).
 
 1. In Desktop Mode, open Xenia
-2. In the top left, click `Zar Package`, `Create`, and navigate to folder containing your `default.xex` file
+2. In the top left, click `Zar Package`, `Create`, and navigate to the folder containing your `default.xex` file
 3. Select the destination for your ZAR file
 4. Wait, there may not be any response from the application for several minutes depending on how large your original file is 
 5. Once it is complete, a ZAR file will be located in the directory you selected in Step 3
