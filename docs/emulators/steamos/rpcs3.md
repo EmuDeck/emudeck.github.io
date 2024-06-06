@@ -188,6 +188,8 @@ rpcs3/
 #### Folder File Format
 [Back to the Top](#rpcs3-file-formats)
 
+The folder file format is typically used for **disc games.**
+
 Place RPCS3 game folders in `Emulation/roms/ps3`. The folder format typically looks like `/PS3_GAME/USRDIR/eboot.bin`.
 
 For more information on the `Folder Format`, see [RPCS3's Quickstart Guide](https://rpcs3.net/quickstart). Read the `Dumping Step-by-step` section specifically.
@@ -196,6 +198,8 @@ For more information on the `Folder Format`, see [RPCS3's Quickstart Guide](http
 
 #### PKG and RAP File Format
 [Back to the Top](#rpcs3-file-formats)
+
+The folder file format is typically used for **store games.**
 
 Both `.pkg` **and** `.rap` are required for each respective game. Without the `.rap` file, an installed `.pkg` file **will not** launch properly.
 
