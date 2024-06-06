@@ -32,7 +32,10 @@ RPCS3 Wiki: [https://wiki.rpcs3.net/index.php?title=Main_Page](https://rpcs3.net
     - [How to Update RPCS3](#how-to-update-rpcs3)
     - [How to Launch RPCS3 in Desktop Mode](#how-to-launch-rpcs3-in-desktop-mode)
     - [File Formats](#rpcs3-file-formats)
-        - [Steam ROM Manager Parsers](#steam-rom-manager-parsers)
+        - [Folder File Format](#folder-file-format)
+        - [PKG and RAP File Format](#pkg-and-rap-file-format)
+        - [ISO File Format](#iso-file-format)
+    - [Steam ROM Manager Parsers](#steam-rom-manager-parsers)
     - [Hotkeys](#rpcs3-hotkeys)
     - [How to Manage Updates](#how-to-manage-updates)
     - [How to Navigate to the SD Card Through RPCS3](#how-to-navigate-to-the-sd-card-through-rpcs3)
@@ -178,30 +181,38 @@ rpcs3/
 ### RPCS3 File Formats
 [Back to the Top](#rpcs3-table-of-contents)
 
-* Folder Format: `/PS3_GAME/USRDIR/eboot.bin`
-    * Place the folder in `Emulation/roms/ps3`
-    * **Visual Reference:** 
-    
-    <img src="https://user-images.githubusercontent.com/1683513/197632719-71784143-e637-4dc8-81f4-d61c59d4f28c.png" height="300">
-    
-    * For more information on the `Folder Format`, read [RPCS3's Quickstart Guide](https://rpcs3.net/quickstart)
-        * **Note:** Read the `Dumping Step-by-step` section specifically
-* `.pkg` and `.rap`
-    * Both `.pkg` **and** `.rap` are required for each respective game. Without the `.rap` file, an installed `.pkg` file **will not** launch properly
-    * Install `.pkg` files directly through the RPCS3 UI
-        * `.pkg` files are installed to `Emulation/storage/rpcs3/dev_hdd0/game/`
-        * **Note:** You can drag and drop `.pkg` files to the RPCS3 GUI
-    * Install `.rap` files directly through the RPCS3 UI
-        * `.rap` files are installed to `Emulation/storage/rpcs3/dev_hdd0/game/`
-        * **Note:** You can drag and drop `.rap` files to the RPCS3 GUI
+- [Folder File Format](#folder-file-format)
+- [PKG and RAP File Format](#pkg-and-rap-file-format)
+- [ISO File Format](#iso-file-format)
 
-??? What about ISOs?
+#### Folder File Format
+[Back to the Top](#rpcs3-file-formats)
 
-    A file ending with the file extension, `.iso` cannot be played through RPCS3. In order to use a file ending with the file extension, `.iso`, you must first decrypt the `.iso` file (using a matching IRD file). After decrypting the `.iso` file, you may then use a file archiver like 7-Zip or WinRAR to extract the file into a working game folder. 
+Place RPCS3 game folders in `Emulation/roms/ps3`. The folder format typically looks like `/PS3_GAME/USRDIR/eboot.bin`.
 
-    Do keep in mind that this method is not recommended by RPCS3. Make sure to read [RPCS3's Quickstart Guide](https://rpcs3.net/quickstart) to learn how to properly dump your games in order to have a working and usable ROM.
+For more information on the `Folder Format`, see [RPCS3's Quickstart Guide](https://rpcs3.net/quickstart). Read the `Dumping Step-by-step` section specifically.
 
-#### Steam ROM Manager Parsers 
+![RPCS3 Folder Format](../../assets/rpcs3-folder-format.png)
+
+#### PKG and RAP File Format
+[Back to the Top](#rpcs3-file-formats)
+
+Both `.pkg` **and** `.rap` are required for each respective game. Without the `.rap` file, an installed `.pkg` file **will not** launch properly.
+
+Install `.pkg` and `.rap` files directly through the RPCS3 GUI. `.pkg` and `.rap` files are installed to `Emulation/storage/rpcs3/dev_hdd0/game/`.
+
+Do note that you can drag and drop `.pkg` and `.rap` files to the RPCS3 GUI.
+
+#### ISO File Format
+[Back to the Top](#rpcs3-file-formats)
+
+A file ending with the file extension, `.iso` cannot be played through RPCS3. In order to use a file ending with the file extension, `.iso`, you must first decrypt the `.iso` file (using a matching IRD file). After decrypting the `.iso` file, you may then use a file archiver like 7-Zip or WinRAR to extract the file into a working game folder. 
+
+Do keep in mind that this method **is not** recommended by RPCS3. Make sure to read [RPCS3's Quickstart Guide](https://rpcs3.net/quickstart) to learn how to properly dump your games in order to have a working and usable ROM.
+
+***
+
+### Steam ROM Manager Parsers 
 [Back to the Top](#rpcs3-table-of-contents)
 
 * Folder Format: Use the `Sony PlayStation 3 - RPCS3 (Extracted ISO/PSN)` parser
