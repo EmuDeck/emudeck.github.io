@@ -1212,6 +1212,8 @@ Here's how to **resolve the error** and remove the Nunchuk:
 ### How to Configure Real Wiimotes
 [Back to the Top](#dolphin-table-of-contents)
 
+**DO NOT PAIR THE WIIMOTE TO THE STEAM DECK's BLUETOOTH**
+
 **How to Configure Real Wiimotes**
 
 1. In Desktop Mode, open Dolphin 
@@ -1221,9 +1223,9 @@ Here's how to **resolve the error** and remove the Nunchuk:
 4. Return to Game Mode
 5. Open a Wii game, and press `1` and `2` on the Wiimote at the same time
 
-**IMPORTANT** 
+!!! danger
 
-* Do not pair the Wiimote to the Steam Deck
+    Do not pair the Wiimote to the Steam Deck's bluetooth
 
 **For Further Reading:** [https://dolphin-emu.org/docs/guides/configuring-controllers/](https://dolphin-emu.org/docs/guides/configuring-controllers/)
 
