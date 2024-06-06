@@ -200,7 +200,7 @@ Do keep in mind that this method is not recommended by RPCS3. Make sure to read 
 **Steam ROM Manager Parsers**
 
 * Folder Format: Use the `Sony PlayStation 3 - RPCS3 (Extracted ISO/PSN)` parser
-* PKG Format: Use the `Sony PlayStation 3 - RPCS3(Flatpak) (Installed PKG)` parser
+* PKG Format: Use the `Sony PlayStation 3 - RPCS3 (Installed PKG)` parser
 
 ***
 
