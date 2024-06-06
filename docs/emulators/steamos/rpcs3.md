@@ -195,9 +195,11 @@ rpcs3/
         * `.rap` files are installed to `Emulation/storage/rpcs3/dev_hdd0/game/`
         * **Note:** You can drag and drop `.rap` files to the RPCS3 GUI
 
-**Note:** A file ending with the file extension, `.iso` cannot be played through RPCS3. In order to use a file ending with the file extension, `.iso`, you must first decrypt the `.iso` file (using a matching IRD file). After decrypting the `.iso` file, you may then use a file archiver like 7-Zip or WinRAR to extract the file into a working game folder. 
+??? What about ISOs?
 
-Do keep in mind that this method is not recommended by RPCS3. Make sure to read [RPCS3's Quickstart Guide](https://rpcs3.net/quickstart) to learn how to properly dump your games in order to have a working and usable ROM.
+    A file ending with the file extension, `.iso` cannot be played through RPCS3. In order to use a file ending with the file extension, `.iso`, you must first decrypt the `.iso` file (using a matching IRD file). After decrypting the `.iso` file, you may then use a file archiver like 7-Zip or WinRAR to extract the file into a working game folder. 
+
+    Do keep in mind that this method is not recommended by RPCS3. Make sure to read [RPCS3's Quickstart Guide](https://rpcs3.net/quickstart) to learn how to properly dump your games in order to have a working and usable ROM.
 
 #### Steam ROM Manager Parsers 
 [Back to the Top](#rpcs3-table-of-contents)
