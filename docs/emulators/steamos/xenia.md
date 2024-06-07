@@ -878,7 +878,7 @@ This section will assume you have installed and configured Xenia through EmuDeck
     * Game Executable: The `default.xex` file in the folder wherever you extracted your Sonic Unleashed ISO
     * Emulator Executable: `Emulation/roms/xbox360/xenia_canary.exe`
 5. Click `Continue`, click `Refresh Mods List` and the `AMD Grass Explosion Fix` will appear
-6. Check the mod and it will now be applied to Sonic Unleashed
+6. Check the mod, click `Save checked mods`, and it will now be applied to Sonic Unleashed
 7. Uncheck `Uninstall mods automatically`
 
 ***
