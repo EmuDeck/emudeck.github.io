@@ -951,6 +951,10 @@ After you have placed the AppImages in the appropriate place, you will see a "Re
 
 The latest configurations will work with the new Steam Input profiles included in EmuDeck 2.2. See [Emulator Frontends Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-button-combinations-profile) and [Emulator Frontends Radial Menu Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-radial-menu-profile) for more information. 
 
+!!! File Extensions 
+
+    Yuzu on Linux was distributed as both an AppImage and a Flatpak. With Yuzu shutting down, the Flatpak was also removed from Discover. If you are still using Yuzu, you will likely be using an AppImage. AppImages have a `.AppImage` file extension. Files that have a `.exe` file extension are for **Windows** only. You can run these through Wine/Proton, but there is little to no reason to since Yuzu also had a widely available Linux distribution. 
+
 ***
 
 ### How do I get the latest EmuDeck launchers and configurations on Windows?
@@ -958,6 +962,10 @@ The latest configurations will work with the new Steam Input profiles included i
 The files for both emulators should be located in `%USERPROFILE%\EmuDeck\EmulationStation-DE\emulators\citra` and `%USERPROFILE%\EmuDeck\EmulationStation-DE\emulators\yuzu\yuzu-windows-msvc` respectively.
 
 After you have placed the emulator files in the appropriate place, you will see a "Reset configuration" button on each emulator page on the Manage Emulators page in the EmuDeck application. Click "Reset configuration" to get the latest launcher and configurations. 
+
+!!! File Extensions 
+
+    Windows applications, including Yuzu, typically have a `.exe` file extension. If you have a file with a `.AppImage` file extension, you have the incorrect file. Files that have a `.AppImage` file extension are for **Linux** only. If you are playing on Windows, you must locate a file with a `.exe` file extension. 
 
 ***
 
