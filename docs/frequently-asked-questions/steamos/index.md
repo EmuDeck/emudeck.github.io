@@ -41,6 +41,7 @@
     - [How do I use DeckyControls?](#how-do-i-use-deckycontrols)
 
 3. [Citra and Yuzu FAQ](#citra-and-yuzu-faq)
+    - [I don't have Citra or Yuzu, how do I download them?](#i-dont-have-citra-or-yuzu-how-do-i-download-them)
     - [If I already have Citra or Yuzu installed on my system, will this EmuDeck update remove either emulator?](#if-i-already-have-citra-or-yuzu-installed-on-my-system-will-this-emudeck-update-remove-either-emulator)
     - [Can I still use Citra or Yuzu through Steam ROM Manager and ES-DE?](#can-i-still-use-citra-or-yuzu-through-steam-rom-manager-and-es-de)
     - [Why does ES-DE default to Ryujinx?](#why-does-es-de-default-to-ryujinx)
@@ -904,6 +905,18 @@ Use symlinks!
 ### If I already have Citra or Yuzu installed on my system, will this EmuDeck update remove either emulator?
 
 No, existing installs will not be touched.
+
+***
+
+### I don't have Citra or Yuzu, how do I download them?
+
+Since the original GitHub pages for both Citra and Yuzu have been taken down, there is no longer an official source for either emulator. 
+
+Forked repositories ("copies" in other words) of these repositories have been taken down by Nintendo (primarily forks/"copies" of Yuzu).
+
+Due to take-down concerns, distribution of Citra and Yuzu is a sensitive subject and this wiki nor the EmuDeck Discord will cover how to locate copies of either Citra and Yuzu. 
+
+If you can locate a copy of Citra or Yuzu, you may proceed with the rest of the FAQ to learn how to properly use these copies to get the latest EmuDeck configurations. 
 
 ***
 
