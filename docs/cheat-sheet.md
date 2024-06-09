@@ -72,7 +72,7 @@ Here are a list of resources for the various consoles:
 * PlayStation 1
     * [https://www.ngemu.com/threads/psx-bios-dumping-guide.93161/](https://www.ngemu.com/threads/psx-bios-dumping-guide.93161/) 
 * PlayStation 2
-    * [https://pcsx2.net/docs/usage/setup/#how-to-dump-your-ps2-bios](https://pcsx2.net/docs/usage/setup/#how-to-dump-your-ps2-bios)
+    * [https://pcsx2.net/docs/setup/gather#how-to-dump-your-ps2-bios](https://pcsx2.net/docs/setup/gather#how-to-dump-your-ps2-bios)
 
 ***
 
