@@ -108,11 +108,15 @@ Any saves from the Flatpak version will be carried over when you reinstall and r
 
 These file locations apply regardless of where you chose to install EmuDeck (to your internal SSD, to your SD Card, or elsewhere). Some emulator configuration files will be located on the internal SSD as listed below.
 
-???+ info "Home Directory"
-    `~` refers to your Home directory
+??? info "The Basics"
 
-???+ info "Hidden Folders"
-    Directories with a `.` in front of their name, like `~/.steam`, are hidden by default. In Dolphin(file manager), click the hamburger menu in the top right and toggle on `Show Hidden Files`.
+    {{ home }} 
+
+    {{ emulation }} 
+
+    {{ hiddenfolders }}
+    
+
 
 `~/.config/rpcs3`
 
@@ -141,10 +145,7 @@ rpcs3/
 └── vfs.yml.bak
 ```
 
-???+ info "Emulation Directory"
-    `~/Emulation` refers to either your `home` directory or SD Card/removable media depending on your installation location.
-
-`~/Emulation/storage/rpcs3`
+`Emulation/storage/rpcs3`
 
 ```
 rpcs3/
