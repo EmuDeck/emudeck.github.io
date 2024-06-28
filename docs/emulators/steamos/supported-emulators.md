@@ -11,7 +11,7 @@
 * [mGBA (Nintendo Game Boy, Game Boy Color, and Game Boy Advance) (Standalone)](https://mgba.io/)
 * [Model 2 Emulator (Sega Model 2)](https://emulation.gametechwiki.com/index.php/Sega_Model_2)
 * [PCSX2 (Sony PlayStation 2)](https://pcsx2.net/)
-* [PPSSP (Sony PlayStation Portable)](https://www.ppsspp.org/)
+* [PPSSPP (Sony PlayStation Portable)](https://www.ppsspp.org/)
 * [PrimeHack (Metroid Prime Trilogy)](https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime)
 * [RetroArch (Retro Systems)](https://github.com/libretro/RetroArch/)
     * [List of RetroArch Cores Used by EmuDeck](../steamos/retroarch.md#list-of-retroarch-cores-used-by-emudeck)
