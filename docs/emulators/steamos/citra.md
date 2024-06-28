@@ -57,23 +57,25 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 [Back to the Top](#citra-table-of-contents)
 
 * Type of Emulator: Flatpak
-* Config Location: `/home/deck/.var/app/org.citra_emu.citra`
+* Config Location: 
+    * `/home/deck/.config/citra-emu`
+    * `/home/deck/.local/share/citra-emu`
 * ROM Location: `Emulation/roms/3ds` or `Emulation/roms/n3ds`
-* `aes_keys.txt` location: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/sysdata/` 
+* `aes_keys.txt` location: `/home/deck/.local/share/citra-emu/sysdata` 
     * _Only necessary if the 3DS ROM is encrypted_
-    * If the `sysdata` folder does not exist, create it. 
+    * If the `sysdata` folder does not exist, create the folder
 * Saves Location:
     * Symlink: `Emulation/saves/citra/saves`
-    * Target: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/sdmc`
+    * Target: `/Emulation/storage/citra/sdmc`
 * Save States Location:
     * Symlink: `Emulation/saves/citra/states/`
-    * Target: `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/states`
+    * Target: `/home/deck/.local/share/citra-emu/states`
 
-**Note:** `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
+**Note:** `~/.config` and `~/.local` are hidden folders by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
 #### Works With
 * Steam ROM Manager
-* EmulationStation-DE
+* ES-DE
 
 ***
 
@@ -88,33 +90,54 @@ Paths beginning with `Emulation/..` correspond to your EmuDeck install location.
 
 **Note:** Folders with a `.` (`.var`, `.local`, `.config`, etc.) at the beginning are hidden by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-`$HOME/.var/app/org.citra_emu.citra`
+`/home/deck/.config/citra-emu`
 
 ```
-org.citra_emu.citra/
-├── cache
-├── config
-    ├── citra-emu
-    │   ├── custom
-    │   ├── qt-config.ini
-    │   ├── qt-config.ini.bak
-    │   └── telemetry_id
-    ├── kdeglobals
-    ├── pulse
-    │   └── cookie
-    ├── QtProject.conf
-    └── user-dirs.dirs
-└── data
-    └── citra-emu
-        ├── cheats
-        ├── load
-        ├── log
-        ├── nand
-        ├── screenshots
-        ├── sdmc
-        ├── shaders
-        ├── states
-        └── sysdata 
+citra-emu/
+├── custom
+├── qt-config.ini
+└── qt-config.ini.bak
+```
+
+`/home/deck/.local/share/citra-emu`
+
+```
+citra-emu/
+├── cheats
+├── load
+│   └── textures
+├── log
+│   ├── citra_log.txt
+│   └── citra_log.txt.old.txt
+├── shaders
+│   └── vulkan
+├── states
+├── sysdata
+│   └── mcu.dat
+└── textures
+```
+
+`Emulation/storage/citra`
+
+```
+citra/
+├── cheats -> /home/deck/.local/share/citra-emu/cheats
+├── nand
+│   └── data
+│       └── 00000000000000000000000000000000
+│           ├── extdata
+│           │   └── 00048000
+│           └── sysdata
+│               ├── 00010017
+│               ├── 00010026
+│               └── 00010035
+├── screenshots
+├── sdmc
+│   └── Nintendo 3DS
+│       └── 00000000000000000000000000000000
+│           └── 00000000000000000000000000000000
+│               └── title
+└── textures -> /home/deck/.local/share/citra-emu/load/textures
 ```
 
 
@@ -125,7 +148,6 @@ org.citra_emu.citra/
 
 **How to Update Citra**
 
-* Update through `Discover` (Shopping bag icon)
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 
 
@@ -205,12 +227,12 @@ If your game ever crashes or you exit the game by pressing the `STEAM` button an
 
 To clear the shader cache:
 
-1. In Desktop Mode, open `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+1. In Desktop Mode, open the `/home/deck/.local/share/citra-emu` folder
+    * `~/.local` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Delete the `shaders` folder
 3. Try your game again
 
-**Note:** Use the `Quit` hotkey on the left trackpad to exit your game instead of using the `STEAM` button. 
+**Note:** Use the `Select` + `Start` hotkey to exit your game instead of using the `STEAM` button. 
 
 ***
 
@@ -313,19 +335,20 @@ Here's how to install custom textures for Citra:
 
 #### How to Install Custom Textures
 
-**Note:** Your texture pack may already come properly named and packaged with the correct `TitleID` and texture files. You may place the included texture pack folder directly into `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/load/textures`. You do not need the following section if this is the case.
+**Note:** Your texture pack may already come properly named and packaged with the correct `TitleID` and texture files. You may place the included texture pack folder directly into `/home/deck/.local/share/citra-emu/textures/`. You do not need the following section if this is the case.
 
 1. In Desktop Mode, open [https://3ds.jdbye.com/?details=USA&split=0&display=0](https://3ds.jdbye.com/?details=USA&split=0&display=0) in a browser
 2. Note down the `Title ID` for the game
     * For example, The Legend of Zelda: Majora's Mask 3D's (US) Title ID is: `0004000000125500` 
-3. Open `/home/deck/.var/app/org.citra_emu.citra/data/citra-emu/load/textures`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
-    * If the `load` and `textures` folder do not exist, create them
+3. Open `/home/deck/.local/share/citra-emu/textures/`
+    * `~/.local` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 4. In the `textures` folder from Step 3, create a folder matching the `TitleID` from Step 2
 5. Put your texture files directly into the `TitleID` folder you created in Step 4
 6. Your texture pack should now be installed
 
-**IMPORTANT:** Outdated guides will recommend enabling `Preload Custom Textures`. Turning on `Preload Textures` is no longer recommended and will cause a severe performance hit. 
+!!! tip
+    
+    Consider enabling `Preload Custom Textures`. This may help performance in some cases. 
 
 
 ***
@@ -414,8 +437,8 @@ Use [https://jesuscc1993.github.io/miscellaneous/citra-layout-generator/](https:
 
 After you have created your custom layout, use the following steps to use it. 
 
-1. Open the folder: `/home/deck/.var/app/org.citra_emu.citra/config/citra-emu/`
-    * `~/.var` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+1. Open the folder: `/home/deck/.config/citra-emu/`
+    * `~/.config` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Right click `qt-config.ini`, and click `Open with Kate` or a text editor of your choice
 3. Locate the `[Layout]` section
 4. Replace the content of the `[Layout]` section with your newly created layout
@@ -431,8 +454,8 @@ Citra allows you to configure the bottom screen as a sort of PiP (Picture in Pic
 
 **Here's How**
 
-1. Open the folder: `/home/deck/.var/app/org.citra_emu.citra/config/citra-emu/`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+1. Open the folder: `/home/deck/.config/citra-emu/`
+    * `~/.config` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Right click `qt-config.ini`, and click `Open with Kate` or a text editor of your choice
 3. Locate the `[Layout]` section
 4. Replace the content of the `[Layout]` section with the below text:
@@ -546,8 +569,8 @@ A recent update of Citra allows the ability to set the opacity on the bottom scr
  
 **Here's How**
 
-1. Open the folder: `/home/deck/.var/app/org.citra_emu.citra/config/citra-emu/`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+1. Open the folder: `/home/deck/.config/citra-emu/`
+    * `~/.config` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Right click `qt-config.ini`, and click `Open with Kate` or a text editor of your choice
 3. Locate the `[Layout]` section
 4. Replace the content of the `[Layout]` section with the below text:
@@ -656,8 +679,8 @@ Picture:
 
 Credit: `busywait`
 
-1. Open the folder: `/home/deck/.var/app/org.citra_emu.citra/config/citra-emu/`
-    * `~/.var` is an invisible folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
+1. Open the folder: `/home/deck/.config/citra-emu/`
+    * `~/.config` is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders
 2. Right click `qt-config.ini`, and click `Open with Kate` or a text editor of your choice
 3. Locate the `[Layout]` section
 4. Replace the content of the `[Layout]` section with the below text:
