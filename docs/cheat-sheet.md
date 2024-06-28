@@ -165,13 +165,13 @@ These systems will have multiple parsers, each corresponding to a different emul
 For example: PSX can be played through DuckStation (Standalone), SwanStation, or Beetle PSX. If you prefer to use DuckStation (Standalone) for PSX, enable the `Sony PlayStation - DuckStation` parser and make sure the `SwanStation` and `Beetle PSX` parsers are disabled.
 
 
-#### EmulationStation-DE
+#### ES-DE
 
 These systems will have a set default.
 
  However, you can change which emulator or RetroArch core is used:
 
-1. In `EmulationStation-DE`, press the `Start` button
+1. In `ES-DE`, press the `Start` button
 2. Scroll down and select `Other Settings`
 3. Select `Alternative Emulators`
 4. Scroll down to the system you would like to configure, press `B`, and select your preferred emulator
