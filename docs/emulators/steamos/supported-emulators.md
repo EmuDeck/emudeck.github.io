@@ -14,6 +14,7 @@
 * [PPSSP (Sony PlayStation Portable)](https://www.ppsspp.org/)
 * [PrimeHack (Metroid Prime Trilogy)](https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime)
 * [RetroArch (Retro Systems)](https://github.com/libretro/RetroArch/)
+    * [List of RetroArch Cores Used by EmuDeck](../steamos/retroarch.md#list-of-retroarch-cores-used-by-emudeck)
 * [Rosalie's Mupen GUI (Nintendo 64)](https://github.com/Rosalie241/RMG)
 * [RPCS3 (Sony PlayStation 3)](https://rpcs3.net/)
 * [Ryujinx (Nintendo Switch)](https://ryujinx.org/)
