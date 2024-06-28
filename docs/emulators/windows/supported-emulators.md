@@ -8,7 +8,7 @@
 - [x] [DuckStation (Playstation 1)](https://www.duckstation.org/)
 - [x] [melonDS (Nintendo DS) (Standalone)](https://melonds.kuribo64.net/)
 - [x] [PCSX2 (Playstation 2)](https://pcsx2.net/)
-- [x] [PPSSP (Playstation Portable)](https://www.ppsspp.org/)
+- [x] [PPSSPP (Playstation Portable)](https://www.ppsspp.org/)
 - [x] [RetroArch (Retro Systems)](https://github.com/libretro/RetroArch/)
 - [x] [RPCS3 (Playstation 3)](https://rpcs3.net/)
 - [x] [Ryujinx (Nintendo Switch)](https://ryujinx.org/)
