@@ -197,7 +197,7 @@ Using Cemu as an example:
 ### How to Test Steam ROM Manager Shortcuts
 
 1. In Desktop Mode, open Steam
-2. Locate the game in specific, click the `Gear` icon
+2. Locate the game in question, click the `Gear` icon
     * ![How to Test Steam ROM Manager Shortcuts 1](../../assets/how-to-test-steam-rom-manager-shortcuts-1.png)
 3. Click `Properties`
     * ![How to Test Steam ROM Manager Shortcuts 2](../../assets/how-to-test-steam-rom-manager-shortcuts-2.png)
