@@ -201,11 +201,12 @@ Using Cemu as an example:
     * ![How to Test Steam ROM Manager Shortcuts 1](../../assets/how-to-test-steam-rom-manager-shortcuts-1.png)
 3. Click `Properties`
     * ![How to Test Steam ROM Manager Shortcuts 2](../../assets/how-to-test-steam-rom-manager-shortcuts-2.png)
-4. Copy the `Target` box
+4. Copy the `Target` box. **If** the `Launch Options` box contains text, copy the `Launch Options` box as well
     * In some cases, you will need to copy both the `Target` box and the `Launch Options` box. This is only necessary if the `Launch Options` box has text in it. If the `Launch Options` box is empty, only copy the `Target` box
     * ![How to Test Steam ROM Manager Shortcuts 3](../../assets/how-to-test-steam-rom-manager-shortcuts-3.png)
 5. In the bottom left of the taskbar, click the `Applications Launcher` (Steam icon on a Steam Deck) and open `Konsole` or a terminal of your choice
 6. In Konsole, right click anywhere, click `Paste`
+    * If you are copying both the `Target` and `Launch Options` box, paste one at a time ensuring there is a space between the two commands
     * ![How to Test Steam ROM Manager Shortcuts 4](../../assets/how-to-test-steam-rom-manager-shortcuts-4.png)
 7. After clicking paste, you will receive some output that you can Google. If you are requesting support, you may provide a screenshot of this window or copy and paste the output
     * If the game launches successfully, your issue lies elsewhere. You may have accidentally enabled Proton for the game in question. If this is the case, disable Proton for the game in question
