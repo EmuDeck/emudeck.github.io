@@ -284,6 +284,8 @@ plugins:
         allow_missing_files: True
     - blog
     - macros
+    - git-revision-date-localized:
+        enable_creation_date: true
     - rss:
         enabled: !ENV [CI, false]
         match_path: blog/posts/.* 
