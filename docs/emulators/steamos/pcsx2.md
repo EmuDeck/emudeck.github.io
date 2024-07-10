@@ -135,6 +135,12 @@ pcsx2/
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
 * Manual file replacement of `pcsx2-Qt.AppImage` 
     * Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
+* Through PCSX2's built-in updater
+    * Desktop Mode:
+        * Search for PCSX2 in the `Applications Launcher` (Steam Deck icon in the bottom left of the taskbar) and open it, PCSX2 will prompt for an update if one is available
+    * Game Mode:
+        * Add PCSX2 to Steam by using the `Emulators` parser in Steam ROM Manager. After adding it to Steam, you may open it in Game Mode, PCSX2 will prompt for an update if one is available
+* Through `binupdate.sh` in `Emulation/tools/binupdate`, double click to launch
 
 ***
 

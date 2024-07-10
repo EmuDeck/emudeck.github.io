@@ -155,6 +155,12 @@ ryujinx/
     * Refer to [How to Swap Out AppImages and Binaries](../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
 * Through the application's automatic updater
     * When you open Ryujinx, you may be prompted for an update, accept the prompt to update the application
+* Through Ryujinx's built-in updater
+    * Desktop Mode:
+        * Search for Ryujinx in the `Applications Launcher` (Steam Deck icon in the bottom left of the taskbar) and open it, Ryujinx will prompt for an update if one is available
+    * Game Mode:
+        * Add Ryujinx to Steam by using the `Emulators` parser in Steam ROM Manager. After adding it to Steam, you may open it in Game Mode, Ryujinx will prompt for an update if one is available
+* Through `binupdate.sh` in `Emulation/tools/binupdate`, double click to launch
 
 ***
 

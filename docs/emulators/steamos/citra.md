@@ -149,6 +149,9 @@ citra/
 **How to Update Citra**
 
 * Through the `Update your Emulators & Tools` section on the `Manage Emulators` page in the `EmuDeck` application
+* Manual file replacement of `citra-qt.AppImage` 
+    * Refer to [How to Swap Out AppImages and Binaries](../../../file-management/steamos/file-management.md#how-to-swap-out-appimages-and-binaries) for instructions
+* Through `binupdate.sh` in `Emulation/tools/binupdate`, double click to launch
 
 
 ***
