@@ -10,6 +10,8 @@ The EmuDeck Wiki Website: [emudeck.github.io](https://emudeck.github.io/)
 
 This **repository** is not for the EmuDeck application, you can find that here: [https://github.com/dragoonDorise/EmuDeck/issues](https://github.com/dragoonDorise/EmuDeck/issues). If you are having any issues with the EmuDeck application, emulators or tools, use the EmuDeck Discord for support. If you have any feedback on the EmuDeck application, open an issue on the aforementioned repository. 
 
+This also has a game compatibility list to check, if your games will work or not work with emudeck [https://brantje.github.io/emudeck-compatibility-list/](https://brantje.github.io/emudeck-compatibility-list/)
+
 ## How to Contribute
 
 See [https://emudeck.github.io/how-to-contribute/](https://emudeck.github.io/how-to-contribute/).
