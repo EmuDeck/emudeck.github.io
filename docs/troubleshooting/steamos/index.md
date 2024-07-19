@@ -187,6 +187,17 @@ Using Cemu as an example:
 
 <img width="500" alt="proton" src="https://user-images.githubusercontent.com/108900299/194777064-526930f4-c36c-44be-b26a-ec192375ef7b.png">
 
+***
+
+### Is the Gamescope Flatpak installed?
+
+The Gamescope Flatpak can cause crashes with the various Flatpak emulators installed by EmuDeck. Even if you do not recall installing it, it is recommended you double check.
+
+In Desktop Mode, open Konsole, and type `flatpak list`. See if you can find an entry titled `org.freedesktop.Platform.VulkanLayer.gamescope`. If you see it in the list, you have the Gamescope Flatpak installed.
+
+To uninstall, in Konsole, type `flatpak remove org.freedesktop.Platform.VulkanLayer.gamescope` and press enter to uninstall the Gamescope Flatpak. 
+
+If you do not have it installed, you may try entering this command in case you accidentally overlooked it in the `flatpak list` command. If you do not have it installed, this command will return a generic error message. 
 
 ***
 
@@ -224,6 +235,8 @@ If you do not have an easy way of gathering photos, take a few photos with your 
 
 ### How to get the EmuDeck Log
 
+If you have been sent this link on Discord, follow the below steps to locate a log so you may share it with the person you are chatting with on Discord. These logs will allow the person to investigate the issue in further detail.
+
 #### Method 1
 
 1. In `Desktop Mode`, open the EmuDeck application
@@ -243,6 +256,8 @@ If you do not have an easy way of gathering photos, take a few photos with your 
 ***
 
 ### How to get the EmuDeck AppImage Log
+
+If you have been sent this link on Discord, follow the below steps to locate a log so you may share it with the person you are chatting with on Discord. These logs will allow the person to investigate the issue in further detail.
 
 1. Open `$HOME/emudeck/logs`
     * On a Steam Deck, this path may be `/home/deck/emudeck/logs`
