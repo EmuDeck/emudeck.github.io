@@ -3236,19 +3236,11 @@ Options/Sideways Wiimote = True
 
 Credit: [_thejacer87_](https://github.com/thejacer87)
 
-I used the text of Trick Trigger from the profile he shared as a template so here his credits:
-
-[Wiimote Motion Controls With Nunchuck](#### Gyro Steam Deck on Dolphin
-[Back to the Top](#community-creations-table-of-contents)
-
-Credit: [_punto16_](https://github.com/punto16)
-
 I used the PrimeHack SDL Controller Profile for Steam Deck as the base and modified from there:
 
 [PrimeHack SDL Controller Profile for Steam Deck](https://github.com/shiiion/dolphin/wiki/Controllers-&-GamePads#primehack-sdl-controller-profile-for-steam-deck)
 
 **Download:** [PrimeHack SD - Remastered.ini](../../community-creations-files/PrimeHack SD - Remastered.ini){:download="PrimeHack SD - Remastered.ini"}
-
 
 Profile Name: `PrimeHack SD - Remastered.ini`
 
