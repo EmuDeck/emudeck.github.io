@@ -3244,11 +3244,16 @@ I used the PrimeHack SDL Controller Profile for Steam Deck as the base and modif
 
 Profile Name: `PrimeHack SD - Remastered.ini`
 
-**Relevant Links**
+**How to use**
 
-* [How to Download Dolphin Controller Profiles](#how-to-download-dolphin-controller-profiles)
-* [How to Set Dolphin Controller Profiles On a Per-Game Basis](../../emulators/steamos/dolphin.md#how-to-set-dolphin-controller-profiles-on-a-per-game-basis)
-* [How to Select Wii Profiles On The Fly](../../emulators/steamos/dolphin.md#how-to-select-wii-profiles-on-the-fly)
+* Copy the file to the Wiimote profile of PrimeHack cofig folder. e.g. the default folder on Steamdeck can be found at `/home/deck/.var/app/io.github.shiiion.primehack/config/dolphin-emu/Profiles/Wiimote`
+* Open Primehack > Controllers > Wii Remote 1 Configure
+* In the "Profile" section, select the now available "PrimeHack SD - Remastered" option and click load.
+* Close > Return to Gaming Mode and launch Prime Trilogy.
+
+**Notes**
+* You may need to change the face buttons to match your controller. This profile should match controllers that "use nintendo layout" in the Steamdeck controller options.
+* If you prefer the missiles on "X" and beam/visor swap on "R" (an option available on Prime Remastered), you will need to update the profile and switch up "button 3" and "button 5" for the "Missile", "Beams" and "Visors" section. 
 
 ```conf
 [Profile]
