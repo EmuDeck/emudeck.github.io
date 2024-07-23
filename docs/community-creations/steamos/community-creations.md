@@ -3231,9 +3231,85 @@ Options/Sideways Wiimote = True
 
 ***
 
-#### Dolphin Controller Profile
+#### Prime Remastered Control Scheme for Primehack
+[Back to the Top](#community-creations-table-of-contents)
 
-Replace with your Dolphin controller profile and a brief description. 
+Credit: [_thejacer87_](https://github.com/thejacer87)
+
+I used the PrimeHack SDL Controller Profile for Steam Deck as the base and modified from there:
+
+[PrimeHack SDL Controller Profile for Steam Deck](https://github.com/shiiion/dolphin/wiki/Controllers-&-GamePads#primehack-sdl-controller-profile-for-steam-deck)
+
+**Download:** [PrimeHack SD - Remastered.ini](../../community-creations-files/PrimeHack SD - Remastered.ini){:download="PrimeHack SD - Remastered.ini"}
+
+Profile Name: `PrimeHack SD - Remastered.ini`
+
+**How to use**
+
+* Copy the file to the Wiimote profile of PrimeHack cofig folder. e.g. the default folder on Steamdeck can be found at `/home/deck/.var/app/io.github.shiiion.primehack/config/dolphin-emu/Profiles/Wiimote`
+* Open Primehack > Controllers > Wii Remote 1 Configure
+* In the "Profile" section, select the now available "PrimeHack SD - Remastered" option and click load.
+* Close > Return to Gaming Mode and launch Prime Trilogy.
+
+**Notes**
+* You may need to change the face buttons to match your controller. This profile should match controllers that "use nintendo layout" in the Steamdeck controller options.
+* If you prefer the missiles on "X" and beam/visor swap on "R" (an option available on Prime Remastered), you will need to update the profile and switch up "button 3" and "button 5" for the "Missile", "Beams" and "Visors" section. 
+
+```conf
+[Profile]
+Device = evdev/0/Microsoft X-Box 360 pad 0
+Buttons/A = `Full Axis 5+` | `Button 1`
+Buttons/B = `Button 0`
+Buttons/1 = `Button 7`
+Buttons/2 = `Button 6`
+Buttons/- = `Button 4`
+Buttons/+ = `Button 3`|`Button 5`
+Buttons/Down = `Button 5`
+D-Pad/Down = `Button 5`
+Tilt/Modifier/Range = 50.
+IMUIR/Enabled = False
+Extension = Nunchuk
+Nunchuk/Buttons/C = `Button 2`
+Nunchuk/Buttons/Z = `Full Axis 2+`
+Nunchuk/Stick/Dead Zone = 15.
+Nunchuk/Stick/Up = `Axis 1-`
+Nunchuk/Stick/Down = `Axis 1+`
+Nunchuk/Stick/Left = `Axis 0-`
+Nunchuk/Stick/Right = `Axis 0+`
+Nunchuk/Stick/Modifier/Range = 50.
+Nunchuk/Stick/Calibration = 100.00 141.42 100.00 141.42 100.00 141.42 100.00 141.42
+Nunchuk/Tilt/Modifier/Range = 50.
+Classic/Left Stick/Modifier/Range = 50.
+Classic/Right Stick/Modifier/Range = 50.
+Guitar/Stick/Modifier/Range = 50.
+Drums/Stick/Modifier/Range = 50.
+Turntable/Stick/Modifier/Range = 50.
+uDraw/Stylus/Modifier/Range = 50.
+Drawsome/Stylus/Modifier/Range = 50.
+Rumble/Motor = Weak
+PrimeHack/Beam 1 = `Button 3` & `Axis 7-`
+PrimeHack/Beam 2 = `Button 3` & `Axis 6+`
+PrimeHack/Beam 3 = `Button 3` & `Axis 6-`
+PrimeHack/Beam 4 = `Button 3` & `Axis 7+`
+PrimeHack/Visor 1 = !`Button 3` & `Axis 7-`
+PrimeHack/Visor 2 = !`Button 3` & `Axis 6+`
+PrimeHack/Visor 3 = !`Button 3` & `Axis 7+`
+PrimeHack/Visor 4 = !`Button 3` & `Axis 6-`
+PrimeHack/AltProfile = Disabled
+PrimeHack/Control Reticle When Locked-On = True
+Camera Control/Dead Zone = 15.
+Camera Control/Horizontal Sensitivity = 33.
+Camera Control/Vertical Sensitivity = 23.
+Camera Control/Up = `Axis 4-`
+Camera Control/Down = `Axis 4+`
+Camera Control/Left = `Axis 3-`
+Camera Control/Right = `Axis 3+`
+Camera Control/Modifier/Range = 50.
+PrimeHack/Mode = 1
+PrimeHack/Tap Grapple Repeatedly To Pull = True
+PrimeHack/Spring Ball = `Button 3`
+PrimeHack/Grapple Lasso = `Full Axis 2+`
+```
 
 ***
 
