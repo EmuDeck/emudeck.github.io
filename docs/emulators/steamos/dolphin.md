@@ -698,19 +698,23 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 With the latest Dolphin update, HDR can now be used on Steam Deck OLEDs. Here's how to enable it.
 
-1. In Desktop Mode, open `Konsole` or a terminal of your choice
-2. Paste the following command and press enter:
-    * `flatpak install org.freedesktop.Platform.VulkanLayer.gamescope`
-    * When prompted, select `user` and `23.08`
-3. Paste the following command and press enter:
-    * `flatpak update --commit=871e619e26646af747705ad1d04f4dbd4b7809b1e45d19ef41dea1a5bf9ba6ba org.freedesktop.Platform.VulkanLayer.gamescope`
-4. In Desktop Mode, open the Dolphin emulator
-5. Click the `Graphics` button
-6. Click the `Enhancements` tab
-7. Check `HDR Post-Processing`
-8. Click the `Post-Processing Effect` drop-down menu and select `PerceptualHDR` or `AutoHDR` depending on your preference
+??? warning
+
+    This section uses instructions copied from this link: https://github.com/ValveSoftware/gamescope/issues/1239. The instructions have been converted to a bash script for ease of use (Step 1 in the instructions below). This section is experimental and installing the Gamescope flatpak may come with unexpected behavior. This section installs a much older version of Gamescope to match the version used on the Steam Deck. If you accidentally install the latest version, you may notice crashing in other applications. There is a chance that even with the older version installed through the instructions below, you may encounter unexpected crashes or glitches. If you run into any of these issues, uninstall the Gamescope Flatpak.  
+    
+1. Download attached `.sh` file
+    * [flatpak-gamescope-install.sh](../../configuration-files/flatpak-gamescope-install.sh)
+2. Place in `/home/deck/Downloads` or a folder of your choice
+3. Right click `flatpak-gamescope-install.sh`, click `Properties`, click `Permissions`, check `Is Executable`
+4. Right click `flatpak-gamescope-install.sh`, click `Run in Konsole`
+5. Wait for it to finish installing
+6. In Desktop Mode, open the Dolphin emulator
+7. Click the `Graphics` button
+8. Click the `Enhancements` tab
+9. Check `HDR Post-Processing`
+10. Click the `Post-Processing Effect` drop-down menu and select `PerceptualHDR` or `AutoHDR` depending on your preference
     * See the [latest Dolphin blog](https://dolphin-emu.org/blog/2024/04/30/dolphin-progress-report-february-march-and-april-2024/#hdr-enhancements-50-19931-add-autohdr-post-process-shader-by-filoppi-and-50-21232-add-hdr-to-metal-perceptual-hdr-by-samb) for more info on the difference between the two
-9. HDR will now be enabled
+12. HDR will now be enabled
 
 
 ***
