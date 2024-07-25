@@ -127,7 +127,11 @@ Credit: `Piximator`
 
 This Steam input profile is for the NSO Nintendo 64 Controller, [https://www.nintendo.com/store/products/nintendo-64-controller/](https://www.nintendo.com/store/products/nintendo-64-controller/). 
 
-**Download:** [nintendo switch online n64 controller.vdf](../../community-creations-files/mysmg.vdf){:download="nintendo-switch-online-n64-controller.vdf"}
+**Download:** [nintendo switch online n64 controller.vdf](../../community-creations-files/nintendo-switch-online-n64-controller.vdf){:download="nintendo-switch-online-n64-controller.vdf"}
+
+**Relevant Links**
+
+* [How to Download Steam Input Profiles](#how-to-download-steam-input-profiles)
 
 **Profile Name:** `nintendo-switch-online-n64-controller.vdf`
 
@@ -871,6 +875,10 @@ Used in tandem with the Super Mario Galaxy profile, [Super Mario Galaxy 1 and 2]
 Alternatively, if you have added Super Mario Galaxy or Super Mario Galaxy 2 to Steam through Steam ROM Manager, you may also select the below profile in the `Community Layouts` tab. If you select this method, you do not need to download the below profile. 
 
 **Download:** [mysmg.vdf](../../community-creations-files/mysmg.vdf){:download="mysmg.vdf"}
+
+**Relevant Links**
+
+* [How to Download Steam Input Profiles](#how-to-download-steam-input-profiles)
 
 Profile Name: `mysmg.vdf`
 
@@ -1770,6 +1778,10 @@ The profile is a modified version of [Nintendo 64 Controller](#nintendo-64-contr
 * Adjusted Right Trigger and Left Trigger Settings and turned the Analog Output Trigger to Analog Off 
 
 **Download:** [nintendo-switch-online-n64-controller-dolphin-virtual-console.vdf](../../community-creations-files/nintendo-switch-online-n64-controller-dolphin-virtual-console.vdf){:download="nintendo-switch-online-n64-controller-dolphin-virtual-console.vdf"}
+
+**Relevant Links**
+
+* [How to Download Steam Input Profiles](#how-to-download-steam-input-profiles)
 
 ```
 "controller_mappings"
