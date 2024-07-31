@@ -725,7 +725,14 @@ With the latest Dolphin update, HDR can now be used on Steam Deck OLEDs. Here's 
 
 RetroAchievements was recently added to Dolphin but can only be used in the development branch until it has been tested thoroughly for public release. 
 
-If you are interested in using the development branch to test RetroAchievements or any other Dolphin feature before it is officially released, you may do so by following the steps in this section. Do keep in mind these builds are experimental and may have bugs. If you are using the development build and request support, make sure to include this detail. If you are using the development build and would like to use netplay, the other individual must be on the identical development build version. It is highly recommended you use the stable builds instead if you would like to use netplay. 
+If you are interested in using the development branch to test RetroAchievements or any other Dolphin feature before it is officially released, you may do so by following the steps in this section. 
+
+??? warning 
+
+    Do keep in mind these builds are experimental and may have bugs. If you are using the development build and request support, make sure to  
+    include that you are using the development build. If you are using the development build and would like to use netplay, the other
+    individual must be on the identical development build version. It is highly recommended you use the stable builds instead if you would 
+    like to use netplay. 
 
 #### How to Switch Dolphin to the Development Branch
 
@@ -734,7 +741,7 @@ If you are interested in using the development branch to test RetroAchievements 
      * `flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo --user`
 3. Type the following and press enter:
     * `flatpak install flathub-beta org.DolphinEmu.dolphin-emu --user -y`
-4. The development version of Dolphin has now been installed, to switch to the development branch as the primary version of Dolphin, type the following and press enter:
+4. The development version of Dolphin has now been installed. To switch to the development branch as the primary version of Dolphin, type the following and press enter:
     * `flatpak make-current org.DolphinEmu.dolphin-emu beta --user`
   
 To switch back to the "Stable" build ("Releases" on the Dolphin website), type the following and press enter:
