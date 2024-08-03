@@ -1215,7 +1215,7 @@ You may also need to detach the nunchuk. While in game, press `Select` + `Left S
 5. In the box under the `User Config` section, type the following:
 
         [Controls] 
-        WiimoteProfile1 = sideways_wiimote_with_no_attachment.ini
+        WiimoteProfile1 = sideways_wiimote_with_no_attachment
 
 
 ***
