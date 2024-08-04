@@ -25,6 +25,7 @@ Compatibility List: [https://melonds.kuribo64.net/board/forum.php?id=3](https://
     - [Hotkeys](#melonds-hotkeys)
 
 2. [melonDS Tips and Tricks](#melonds-tips-and-tricks)
+    - [Open Source BIOS](#open-source-bios)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Configure Settings](#how-to-configure-settings)
     - [How to Use Cheats](#how-to-use-cheats)
@@ -180,6 +181,15 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 
 ## melonDS Tips and Tricks
 [Back to the Top](#melonds-table-of-contents)
+
+### Open Source BIOS
+[Back to the Top](#melonds-table-of-contents)
+
+The open source BIOS is **enabled by default** for melonDS. This means that BIOS for Nintendo DS games is **optional**. However, some games may not perform as expected with the open source BIOS or you may need additional features provided by console dumped BIOS. You may also prefer to use DSI BIOS which allow you to play DSIWare games. 
+
+In order to use console dumped BIOS, you may place the files required into the `Emulation/bios` folder. You will also need to enable `Use external BIOS/firmware files` in the melonDS GUI. 
+
+![melonDS Open Source BIOS](../../assets/melonds-open-source-bios.png)
 
 ***
 

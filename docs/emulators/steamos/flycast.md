@@ -16,6 +16,7 @@ GitHub: [https://github.com/flyinghead/flycast](https://github.com/flyinghead/fl
         - [Steam Deck Light Gun Controls](#steam-deck-light-gun-controls)
 
 2. [Flycast Tips and Tricks](#flycast-tips-and-tricks)
+    - [HLE BIOS](#hle-bios)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Configure the Sega Dreamcast Microphone](#how-to-configure-the-sega-dreamcast-microphone)
     - [How to Configure Light Gun Games](#how-to-configure-light-gun-games)
@@ -50,11 +51,13 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
   * Atomiswave: `Emulation/roms/atomiswave`
   * NAOMI: `Emulation/roms/naomi`
   * NAOMI 2: `Emulation/roms/naomi2`
-* BIOS Location: `Emulation/bios/flycast/bios`
-    * Dreamcast (Optional BIOS): `dc_boot.bin`
-    * Atomiswave: `awbios.zip`
-    * NAOMI: `naomi.zip`
-    * NAOMI 2: `naomi2.zip`
+* BIOS 
+    * HLE BIOS is **enabled by default** for Dreamcast games. BIOS for Dreamcast games is **optional**. However, some games may not perform as expected with HLE BIOS. You may place Dreamcast BIOS into the folder listed below to use console dumped BIOS. You will need to disable HLE BIOS in the Flycast GUI. 
+    * Location: `Emulation/bios/flycast/bios`
+        * Dreamcast (Optional BIOS): `dc_boot.bin`
+        * Atomiswave: `awbios.zip`
+        * NAOMI: `naomi.zip`
+        * NAOMI 2: `naomi2.zip`
 * Saves:
     * Symlink: `Emulation/saves/flycast/saves`
     * Target Location: `$HOME/.var/app/org.flycast.Flycast/data/flycast/`
@@ -144,6 +147,17 @@ Flycast also comes with a `EmuDeck - Steam Deck Light Gun Controls` profile inte
 
 ## Flycast Tips and Tricks
 [Back to the Top](#flycast-table-of-contents)
+
+***
+
+### HLE BIOS
+[Back to the Top](#flycast-table-of-contents)
+
+HLE BIOS is **enabled by default** for Dreamcast games. BIOS for Dreamcast games is **optional**. However, some games may not perform as expected with the HLE BIOS or you may need additional features provided by console dumped BIOS. 
+
+In order to use console dumped BIOS, you may place the files required into the `Emulation/bios/flycast/bios` folder. You will also need to disable HLE BIOS in the Flycast GUI. 
+
+![Flycast HLE BIOS](../../assets/flycast-hle-bios.png)
 
 ***
 
