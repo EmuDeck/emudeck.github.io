@@ -282,7 +282,7 @@ To restore the default Steam Deck controls:
 2. Click `Options` at the top, click `Settings`
 3. Click the `Input` tab on the top
 4. Click `Configure` under `Player 1`
-5. Select `Steam Virtaul Gamepad` under `Input Device`
+5. Select `Steam Virtual Gamepad` under `Input Device`
 6. Click `Load` on the right side of the screen
 7. Click `Save` and exit out of Ryujinx
 
