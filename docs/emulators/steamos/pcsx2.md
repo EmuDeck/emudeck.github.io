@@ -365,7 +365,7 @@ PCSX2 will now give each game it's own separate memory card automatically.
 
 !!! warning
 
-    Creating this custom system means that you will not receive any updates to the PlayStation 2 in ES-DE if there are new configurations or emulators added to the PlayStation 2 system. You may monitor the file on ES-DE's repository for any changes and add them to the `es_systems.xml` file as necessary. See [https://gitlab.com/es-de/emulationstation-de/-/blob/master/resources/systems/linux/es_systems.xml#L1566](https://gitlab.com/es-de/emulationstation-de/-/blob/master/resources/systems/linux/es_systems.xml#L1566) for the upstream version of the `es_systems.xml` file.
+    Creating this custom system means that you will not receive any updates to the PlayStation 2 system in ES-DE if there are new configurations or emulators added or modified. You may monitor the file on ES-DE's repository for any changes and add them to the `es_systems.xml` file as necessary. See [https://gitlab.com/es-de/emulationstation-de/-/blob/master/resources/systems/linux/es_systems.xml#L1566](https://gitlab.com/es-de/emulationstation-de/-/blob/master/resources/systems/linux/es_systems.xml#L1566) for the upstream version of the `es_systems.xml` file.
 
 #### Big Picture Mode: Pegasus
 
