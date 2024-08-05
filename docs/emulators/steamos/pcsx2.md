@@ -33,6 +33,7 @@ PCSX2 Wiki: [https://wiki.pcsx2.net/Main_Page](https://wiki.pcsx2.net/Main_Page)
     - [How to Configure Multiplayer](#how-to-configure-multiplayer)
     - [How to Manage Multiple Discs](#how-to-manage-multiple-discs)
     - [How to Switch to Folder Memory Cards](#how-to-switch-to-folder-memory-cards)
+    - [How to Enable Big Picture Mode](#how-to-enable-big-picture-mode)
     - [How to Use Cheats](#how-to-use-cheats)
     - [How to Use Widescreen or No Interlace Cheats](#how-to-use-widescreen-or-no-interlace-cheats)
     - [How to Set Game Settings On a Per-Game Basis](#how-to-set-game-settings-on-a-per-game-basis)
@@ -329,6 +330,59 @@ By default PCSX2 stores each memory card as a single file. This doesn't have any
 7. At the bottom of the window, ensure "Automatically manage saves based on running game" is checked
 
 PCSX2 will now give each game it's own separate memory card automatically.
+
+***
+
+### How to Enable Big Picture Mode
+[Back to the Top](#pcsx2-qt-table-of-contents) 
+
+- [Big Picture Mode - ES-DE](#big-picture-mode-es-de)
+- [Big Picture Mode: Pegasus](#big-picture-mode-pegasus)
+- [Big Picture Mode: Steam ROM Manager](#big-picture-mode-steam-rom-manager)
+
+#### Big Picture Mode: ES-DE
+
+1. Open the `/home/deck/ES-DE/custom_systems` folder and right click `es_systems.xml`, click `Open with Kate` or a text editor of your choice
+2. Scroll to the bottom of the `es_systems.xml` file and paste the following above `</systemList>`
+
+        <system>
+            <name>ps2</name>
+            <fullname>Sony PlayStation 2</fullname>
+            <path>%ROMPATH%/ps2</path>
+            <extension>.arcadedef .bin .BIN .chd .CHD .ciso .CISO .cso .CSO .dump .DUMP .elf .ELF .gz .GZ .m3u .M3U .mdf .MDF .img .IMG .iso .ISO .isz .ISZ .ngr .NRG .zso .ZSO</extension>
+            <command label="LRPS2">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/pcsx2_libretro.so %ROM%</command>
+            <command label="PCSX2">%EMULATOR_RETROARCH% -L %CORE_RETROARCH%/pcsx2_libretro.so %ROM%</command>
+            <command label="PCSX2 (Standalone)">%EMULATOR_PCSX2% -batch -fullscreen -bigpicture %ROM%</command>
+            <command label="PCSX2 Legacy (Standalone)">%EMULATOR_PCSX2-LEGACY% --nogui %ROM%</command>
+            <command label="Play! (Standalone)">%EMULATOR_PLAY!% --disc %ROM%</command>
+            <platform>ps2</platform>
+            <theme>ps2</theme>
+        </system>
+
+3. Save and exit out of the text file, PCSX2 games will now launch in "Big Picture Mode" from ES-DE
+
+![PCSX2 ES-DE Big Picture Mode](../../assets/pcsx2-es-de-big-picture.png)
+
+!!! warning
+
+    Creating this custom system means that you will not receive any updates to the PlayStation 2 in ES-DE if there are new configurations or emulators added to the PlayStation 2 system. You may monitor the file on ES-DE's repository for any changes and add them to the `es_systems.xml` file as necessary. See [https://gitlab.com/es-de/emulationstation-de/-/blob/master/resources/systems/linux/es_systems.xml#L1566](https://gitlab.com/es-de/emulationstation-de/-/blob/master/resources/systems/linux/es_systems.xml#L1566) for the upstream version of the `es_systems.xml` file.
+
+#### Big Picture Mode: Pegasus
+
+1. Open the `Emulation/roms/ps2` folder and right click `metadata.txt`, click `Open with Kate` or a text editor of your choice
+2. On the `launch: ` line, add `-bigpicture` after `-batch -fullscreen` and before `"'{file.path}'"`
+3. Save and exit out of the text file, PCSX2 games will now launch in "Big Picture Mode" from Pegasus
+
+![PCSX2 Pegasus Big Picture Mode](../../assets/pcsx2-pegasus-big-picture.png)
+
+#### Big Picture Mode: Steam ROM Manager
+
+1. Open the `Emulation/tools/launchers` folder and right click `pcsx2-qt.sh`, click `Open with Kate` or a text editor of your choice
+2. Locate the `eval "${exe} ${param} -fullscreen"` line 
+3. Add `-bigpicture` after `-fullscreen` and before the end `"`
+4. Save and exit out of the text file, PCSX2 games will now launch in "Big Picture Mode" from shortcuts in Steam created by Steam ROM Manager
+
+![PCSX2 Steam ROM Manager Big Picture Mode](../../assets/pcsx2-srm-big-picture.png)
 
 ***
 
