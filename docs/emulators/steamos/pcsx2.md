@@ -336,7 +336,7 @@ PCSX2 will now give each game it's own separate memory card automatically.
 ### How to Enable Big Picture Mode
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
-- [Big Picture Mode - ES-DE](#big-picture-mode-es-de)
+- [Big Picture Mode: ES-DE](#big-picture-mode-es-de)
 - [Big Picture Mode: Pegasus](#big-picture-mode-pegasus)
 - [Big Picture Mode: Steam ROM Manager](#big-picture-mode-steam-rom-manager)
 
