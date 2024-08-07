@@ -705,6 +705,7 @@ With the latest Dolphin update, HDR can now be used on Steam Deck OLEDs. Here's 
     
 1. Download attached `.sh` file
     * [flatpak-gamescope-install.sh](../../configuration-files/flatpak-gamescope-install.sh)
+    * For the contents of the script, see [https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/flatpak-gamescope-install.sh](https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/flatpak-gamescope-install.sh)
 2. Place in `/home/deck/Downloads` or a folder of your choice
 3. Right click `flatpak-gamescope-install.sh`, click `Properties`, click `Permissions`, check `Is Executable`
 4. Right click `flatpak-gamescope-install.sh`, click `Run in Konsole`
