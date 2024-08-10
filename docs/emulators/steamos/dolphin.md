@@ -738,11 +738,11 @@ If you are interested in using the development branch to test RetroAchievements 
 #### How to Switch Dolphin to the Development Branch
 
 1. In Desktop Mode, open Konsole or a terminal of your choice
-2. Type the following and press enter:
-     * `flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo --user`
-3. Type the following and press enter:
+2. Type each bullet point line one at a time and press enter after each line:
+    * `flatpak remote-delete flathub-beta`
+    * `flatpak remote-add --if-not-exists flathub-beta https://flathub.org/beta-repo/flathub-beta.flatpakrepo --user`
     * `flatpak install flathub-beta org.DolphinEmu.dolphin-emu --user -y`
-4. The development version of Dolphin has now been installed. To switch to the development branch as the primary version of Dolphin, type the following and press enter:
+3. The development version of Dolphin has now been installed. To switch to the development branch as the primary version of Dolphin, type the following and press enter:
     * `flatpak make-current org.DolphinEmu.dolphin-emu beta --user`
   
 To switch back to the "Stable" build ("Releases" on the Dolphin website), type the following and press enter:
