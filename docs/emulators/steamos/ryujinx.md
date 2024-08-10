@@ -234,8 +234,6 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 ### How to Configure Gyro With External Controllers
 [Back to the Top](#ryujinx-table-of-contents)
 
-#### Desktop Mode
-
 1. Switch to Desktop Mode
 2. Exit out of Steam
     * You may exit out of Steam a couple of different ways:
@@ -245,32 +243,29 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
         * Do note that clicking the the `X` button in the top right of the Steam window **will not** exit out of Steam
     * Your controls will switch to `Lizard Mode`. Use `L2` to right click, `R2` to left click, and the `Right Trackpad` to move the mouse
     * You may also connect an external keyboard and mouse
-2. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
+3. Click the bluetooth icon in the bottom right of your taskbar and connect your controller
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/24945d4c-df06-4fbe-9668-7becea0c5edb" height="300">
-3. Open Ryujinx
-4. Click `Options` at the top, click `Settings`
-5. Click the `Input` tab on the top
-6. Click `Configure` under `Player 1`
-7. Under `Input Device`, select your external controller
-8. Select your `Controller Type`
+4. Open Ryujinx
+5. Click `Options` at the top, click `Settings`
+6. Click the `Input` tab on the top
+7. Click `Configure` under `Player 1`
+8. Under `Input Device`, select your external controller
+9. Select your `Controller Type`
     * Select either `Joycon Pair` or `Pro Controller` depending on the game you are playing
-9. Click `Load` to the right of `Controller Type`
-10. Under `Motion`, check `Enable Motion Controls` and uncheck `Use CemuHook compatible motion`
-11. Exit out of Ryujinx
-12. Switch to `Game Mode`
-
-#### Game Mode
-
-1. In Game Mode, connect your controller
-2. Select your Nintendo Switch game 
-3. On the `Play` screen, select the `Controller` icon to the right of the screen 
+10. Click `Load` to the right of `Controller Type`
+11. Under `Motion`, check `Enable Motion Controls` and uncheck `Use CemuHook compatible motion`
+12. Exit out of Ryujinx
+13. Switch to `Game Mode`
+14. In Game Mode, connect your controller
+15. Select your Nintendo Switch game 
+16. On the `Play` screen, select the `Controller` icon to the right of the screen 
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/468d63e3-534c-4270-ac61-06e167d6df48" height="300">
-4. Select your controller tab at the top
+17. Select your controller tab at the top
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/b51a1405-9cdf-4ba3-bebf-db817f057f63" height="300">
-5. Click the `Gear` icon to the right, and click `Disable Steam Input`
+18. Click the `Gear` icon to the right, and click `Disable Steam Input`
     * <img src="https://github.com/dragoonDorise/EmuDeck/assets/108900299/33cbcb8e-a444-4a75-8e4a-ba9451e6e07a" height="300">
     * You may need to restart first for this setting to properly apply
-6. Your controller's gyro will now work for this selected game, repeat as needed for your other games
+19. Your controller's gyro will now work for this selected game, repeat as needed for your other games
 
 If your controller gyro does not work after the above steps, reset Ryujinx's configuration in the EmuDeck application on the Manage Emulators page and try again. 
 
