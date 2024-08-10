@@ -14,6 +14,10 @@ cd "org.freedesktop.Platform.VulkanLayer.gamescope"
 echo "Checking out 3.14.2"
 git checkout 2a8ab98c2881d5a1262712093d051434a1a7d6f4
 
+echo "Updating libevdev.yml source"
+sed -i 's|https://freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz|https://distributions.freedesktop.org/software/libevdev/libevdev-1.13.1.tar.xz|' "/tmp/org.freedesktop.Platform.VulkanLayer.gamescope/modules/libevdev.yml"
+sed -i 's|https://freedesktop.org/software/libevdev/libevdev-$version.tar.xz|https://distributions.freedesktop.org/software/libevdev/libevdev-$version.tar.xz|' "/tmp/org.freedesktop.Platform.VulkanLayer.gamescope/modules/libevdev.yml"
+
 echo "Installing Flatpak Builder"
 flatpak install org.flatpak.Builder --user -y
 
@@ -28,3 +32,4 @@ echo "Deleting cloned Gamescope repository"
 rm -rf "/tmp/org.freedesktop.Platform.VulkanLayer.gamescope"
 
 echo "Gamescope Flatpak successfully installed."
+
