@@ -1,8 +1,10 @@
 #!/bin/bash
 
 
-echo "Uninstalling Gamescope Flatpak if it exists"
-flatpak remove org.freedesktop.Platform.VulkanLayer.gamescope -y
+if [[ $(flatpak list --columns=application | grep "gamescope") ]]; then
+    echo "Detected Gamescope Flatpak, uninstalling."
+    flatpak remove org.freedesktop.Platform.VulkanLayer.gamescope -y
+fi 
 
 cd /tmp
 
@@ -27,9 +29,12 @@ flatpak run org.flatpak.Builder --user --jobs=4 --install ./_build ./org.freedes
 echo "Masking the Gamescope Flatpak"
 flatpak mask --user org.freedesktop.Platform.VulkanLayer.gamescope
 
-
 echo "Deleting cloned Gamescope repository"
 rm -rf "/tmp/org.freedesktop.Platform.VulkanLayer.gamescope"
 
-echo "Gamescope Flatpak successfully installed."
 
+if [[ $(flatpak list --columns=application | grep "gamescope") ]]; then
+    echo "Gamescope Flatpak successfully installed."
+else 
+    echo -e "\e[31mGamescope Flatpak failed to install.\e[0m"
+fi 
