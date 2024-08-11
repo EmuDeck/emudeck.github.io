@@ -766,7 +766,7 @@ If you added Xenia as a shortcut to Steam through the "Emulators" parser in Stea
 ### How to Extract ISOs to the XEX Format
 [Back to the Top](#xenia-table-of-contents)
 
-If you have an Xbox 360 ISO and you would like to extract it to XEX, either for compression or for modding purposes, you can do so using `extract-xiso`, a tool bundled with EmuDeck.
+If you have an Xbox 360 ISO and you would like to extract it to XEX, either for compression or for modding purposes, you can do so using `extract-xiso`, a tool bundled with EmuDeck. `extract-xiso` is typically located in `Emulation/tools/chdconv` and this path will be used for the below instructions. However if `extract-xiso` is not in this folder, it can also be found in `/home/deck/.config/EmuDeck/backend/tools/chdconv`. If `extract-xiso` is in neither of these folders, you may need to re-install EmuDeck (uninstalling first **is not** necessary).
 
 1. In Desktop Mode, open the `Emulation/tools/chdconv` folder
 2. If you are not comfortable with a terminal, copy `extract-xiso` to `Emulation/roms/xbox360/roms`
