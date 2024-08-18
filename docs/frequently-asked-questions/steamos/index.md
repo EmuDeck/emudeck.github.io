@@ -912,11 +912,13 @@ No, existing installs will not be touched.
 
 Since the original GitHub pages for both Citra and Yuzu have been taken down, there is no longer an official source for either emulator. 
 
-Forked repositories ("copies" in other words) of these repositories have been taken down by Nintendo (primarily forks/"copies" of Yuzu).
+Forked repositories ("copies" in other words) of these repositories have been taken down by Nintendo (primarily forks/"copies" of Yuzu). No Citra fork has been taken down at this time.
 
-Due to take-down concerns, distribution of Citra and Yuzu is a sensitive subject and this wiki nor the EmuDeck Discord will cover how to locate copies of either Citra and Yuzu. 
+Due to take-down concerns, distribution of Citra and Yuzu is a sensitive subject and this wiki nor the EmuDeck Discord will cover how to locate copies of either the original Citra and Yuzu. 
 
-If you can locate a copy of Citra or Yuzu, you may proceed with the rest of the FAQ to learn how to properly use these copies to get the latest EmuDeck configurations. 
+If you can locate a copy of the original Citra or Yuzu, you may proceed with the rest of the FAQ to learn how to properly use these copies to get the latest EmuDeck configurations. 
+
+Citra forks are currently being tested and prepared for the next EmuDeck update.
 
 ***
 
@@ -990,13 +992,17 @@ Reset Citra or Yuzu in the EmuDeck application on the "Manage Emulators" page. I
 
 ### What about all of the forks of Citra and Yuzu? Will EmuDeck support those?
 
-Citra and Yuzu fork discussion is not allowed at this time. There is no way of knowing if these forks are safe and none are close to usable at this time. Once a fork has matured and shown that it is a viable alternative to Citra and Yuzu, it will be considered for inclusion in EmuDeck. 
+Yuzu fork discussion is not allowed at this time. There is no way of knowing if these forks are safe and none are close to usable at this time. Once a fork has matured and shown that it is a viable alternative to Yuzu, it will be considered for inclusion in EmuDeck. 
+
+Citra forks will likely be added to EmuDeck in the near-future.
 
 ***
 
 ### Can I ask for links to mirrors of Citra and Yuzu?
 
-No, distribution of Citra and Yuzu is not allowed.
+**Yuzu:** No, distribution of Yuzu **is not** allowed.
+
+**Citra:** Distribution of the original Citra **is not** allowed. Forks are open for discussion and will likely be implemented in the next EmuDeck update. 
 
 ***
 
