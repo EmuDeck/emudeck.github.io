@@ -1,4 +1,5 @@
 #!/bin/bash
+unset GTK_IM_MODULE
 
 while [ "$FINISHED" != "true" ]; do
     # Prompt for sudo/admin password
@@ -10,6 +11,7 @@ while [ "$FINISHED" != "true" ]; do
     # Check if the password is correct
     if ( echo "$PASS" | sudo -S -k true ); then
         FINISHED="true"
+        echo "$PASS" | sudo -S -v
     else
         zenity --title="PCSX2" --width=150 --height=40 --info --text "Incorrect Password"
     fi
