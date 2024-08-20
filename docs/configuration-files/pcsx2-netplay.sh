@@ -1,5 +1,5 @@
 #!/bin/bash
-
+PATH=$HOME/Applications/Distrobox/bin/:$PATH
 xhost +si:localuser:$USER
 
 if ! distrobox list | grep -q "| pcsx2 "; then
