@@ -1,9 +1,4 @@
 #!/bin/bash
-PATH=$HOME/Applications/Distrobox/bin/:$PATH
-
-if ! distrobox list | grep -q "| pcsx2 "; then
-    curl -sSL https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/pcsx2-distrobox.sh | bash
-fi
 
 while [ "$FINISHED" != "true" ]; do
     # Prompt for sudo/admin password
@@ -20,6 +15,5 @@ while [ "$FINISHED" != "true" ]; do
     fi
 done
 
-xhost +si:localuser:$USER
-$HOME/Applications/Distrobox/bin/distrobox-enter -n pcsx2 --  echo "$PASS" | sudo "$HOME/Applications/squashfs-root/usr/bin/pcsx2-qt"
+echo "$PASS" | sudo "$HOME/Applications/squashfs-root/usr/bin/pcsx2-qt"
 
