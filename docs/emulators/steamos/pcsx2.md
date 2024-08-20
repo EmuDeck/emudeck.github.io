@@ -724,6 +724,7 @@ PCSX2 Servers:
     * If you have not already set a sudo password, you may do so by typing `passwd` and pressing enter. Once you have typed your password once, press enter, and type it again to confirm. Your password will not be visible in the terminal 
 6. Download attached `.sh` file and place it in a folder of your choice
     * [pcsx2-netplay.sh](../../configuration-files/pcsx2-netplay.sh)
+    * For the contents of the script, see [https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/pcsx2-netplay.sh](https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/pcsx2-netplay.sh)
 7. Right click `pcsx2-netplay.sh`, click `Properties`, click `Permissions`, check `Is Executable`
 8. Double click `pcsx2-netplay.sh` to open it
     * Use this file whenever you want to play online mulitplayer. Your shortcuts through Steam ROM Manager, ES-DE, or Pegasus will be using a separate version of PCSX2 **not configured** for online multiplayer
