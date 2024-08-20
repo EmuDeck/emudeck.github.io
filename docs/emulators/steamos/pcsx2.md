@@ -705,57 +705,6 @@ The default pressure modifier is set at 30%. If you would like to adjust this se
 
 ***
 
-### How to Configure Online Multiplayer
-[Back to the Top](#pcsx2-qt-table-of-contents) 
-
-PCSX2 Servers:
-
-* [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=0](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=0)
-* [https://ps2online.com/](https://ps2online.com/)
-
-1. In Desktop Mode, open Konsole or a terminal of your choice, enter the following commands one at a time:
-    * `sudo groupadd netdev`
-    * `sudo usermod -a -G netdev deck`
-2. In `/home/deck/Applications`, right click anywhere, click `Open Terminal Here`
-3. Type the following and press enter: 
-    * `./pcsx2-Qt.AppImage --appimage-extract`
-4. A `squashfs-root` folder in `/home/deck/Applications` will be created, rename this folder to `pcsx2-online` or a name of your choice
-5. In the `/home/deck/Applications/pcsx2-online/usr/bin` folder, right click anywhere and click `Open Terminal Here`, type `sudo setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' pcsx2-qt`
-    * If you have not already set a sudo password, you may do so by typing `passwd` and pressing enter. Once you have typed your password once, press enter, and type it again to confirm. Your password will not be visible in the terminal 
-6. Download attached `.sh` file and place it in a folder of your choice
-    * [pcsx2-netplay.sh](../../configuration-files/pcsx2-netplay.sh)
-7. Right click `pcsx2-netplay.sh`, click `Properties`, click `Permissions`, check `Is Executable`
-8. Double click `pcsx2-netplay.sh` to open it
-    * Use this file whenever you want to play online mulitplayer. Your shortcuts through Steam ROM Manager, ES-DE, or Pegasus will be using a separate version of PCSX2 **not configured** for online multiplayer
-    * You may add this version of `pcsx2-netplay.sh` to Steam by right clicking it and clicking `Add to Steam`, you may want to give it a distinctive name in Steam so you do not mix it up with your other shortcuts
-9. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`
-    * Ethernet Device Type
-        * Select `PCAP Bridged`, `PCAP Switched`, or `Socket`, depending on what game you are playing 
-    * Ethernet Device
-        * `Any` if using `PCAP Bridged` or `PCAP Switched`
-        * `Auto` if using `Socket`
-    * Intercept DHCP
-        * Leave unchecked
-            * If you would like to manually tweak settings, check `Intercept DHCP` and adjust settings as needed
-    * DNS1 Address and DNS2 Address
-        * Match the addresses to the spreadsheet, [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
-        * For example, if using the `Cristian` server, type `45.7.228.197` into `DNS1 Address` and `0.0.0.0` into `DNS2 Address`
-    * Hard Disk Drive
-        * Check the `Enabled` box
-        * Click `Create Image` in the bottom right corner
-    * HDD File
-        * `/home/deck/.config/PCSX2/inis/DEV9hdd.raw`
-10. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings 
-    * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
-    * [https://ps2online.com/](https://ps2online.com/)
-11. Online multiplayer will now be configured for your game(s)
-
-!!! warning
-
-    If you get a DNAS error when connecting, you will need to apply a DNAS bypass patch to your game. You can find a DNAS Bypass PNACH in the "Emulator (PCSX2)" column on the ps2online.com spreadsheet: [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
-
-***
-
 ## Custom Game Settings
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
