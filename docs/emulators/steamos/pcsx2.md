@@ -714,8 +714,8 @@ PCSX2 Servers:
 * [https://ps2online.com/](https://ps2online.com/)
 
 1. In Desktop Mode, open Konsole or a terminal of your choice, enter the following commands one at a time:
-    * sudo groupadd netdev
-    * sudo usermod -a -G netdev deck
+    * `sudo groupadd netdev`
+    * `sudo usermod -a -G netdev deck`
 2. In Desktop Mode, open Konsole or a terminal of your choice
 3. Enter the following commands, one bullet point at a time and press enter after each line:
     * `distrobox create -i archlinux:latest -n pcsx2`
