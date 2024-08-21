@@ -713,22 +713,22 @@ PCSX2 Servers:
 * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=0](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=0)
 * [https://ps2online.com/](https://ps2online.com/)
 
-1. In Desktop Mode, open Konsole or a terminal of your choice, enter the following commands one at a time:
-    * `sudo groupadd netdev`
-    * `sudo usermod -a -G netdev deck`
-2. In `/home/deck/Applications`, right click anywhere, click `Open Terminal Here`
-3. Type the following and press enter: 
-    * `./pcsx2-Qt.AppImage --appimage-extract`
-4. A `squashfs-root` folder in `/home/deck/Applications` will be created. In the `/home/deck/Applications/squashfs-root/usr/bin` folder, right click anywhere and click `Open Terminal Here`, type `sudo setcap 'CAP_NET_RAW+eip CAP_NET_ADMIN+eip' pcsx2-qt`
-    * If you have not already set a sudo password, you may do so by typing `passwd` and pressing enter. Once you have typed your password once, press enter, and type it again to confirm. Your password will not be visible in the terminal 
-5. Download attached `.sh` file and place it in a folder of your choice
+
+1. In Desktop Mode, open Konsole or a terminal of your choice
+2. Enter the following commands, one bullet point at a time and press enter after each line:
+    * `distrobox create -i archlinux:latest -n pcsx2`
+    * `distrobox enter pcsx2`
+    * `sudo pacman -S --needed git base-devel && cd /tmp && git clone https://aur.archlinux.org/pcsx2-git.git && cd pcsx2-git && makepkg -si && cd .. && rm -rf pcsx2-git/`
+        * If you receive any prompts, press enter without typing anything in
+    * Exit out of the terminal once it is finished and proceed to the next step
+3. Download attached `.sh` file and place it in a folder of your choice
     * [pcsx2-netplay.sh](../../configuration-files/pcsx2-netplay.sh)
     * For the contents of the script, see [https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/pcsx2-netplay.sh](https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/pcsx2-netplay.sh)
-6. Right click `pcsx2-netplay.sh`, click `Properties`, click `Permissions`, check `Is Executable`
-7. Double click `pcsx2-netplay.sh` to open it
+4. Right click `pcsx2-netplay.sh`, click `Properties`, click `Permissions`, check `Is Executable`
+5. Double click `pcsx2-netplay.sh` to open it
     * Use this file whenever you want to play online mulitplayer. Your shortcuts through Steam ROM Manager, ES-DE, or Pegasus will be using a separate version of PCSX2 **not configured** for online multiplayer
     * You may add this version of `pcsx2-netplay.sh` to Steam by right clicking it and clicking `Add to Steam`, you may want to give it a distinctive name in Steam so you do not mix it up with your other shortcuts
-8. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`
+6. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`
     * Ethernet Device Type
         * Select `PCAP Bridged`, `PCAP Switched`, or `Socket`, depending on what game you are playing 
     * Ethernet Device
@@ -745,10 +745,10 @@ PCSX2 Servers:
         * Click `Create Image` in the bottom right corner
     * HDD File
         * `/home/deck/.config/PCSX2/inis/DEV9hdd.raw`
-9. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings 
+7. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings 
     * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
     * [https://ps2online.com/](https://ps2online.com/)
-10. Online multiplayer will now be configured for your game(s)
+8. Online multiplayer will now be configured for your game(s)
 
 !!! warning
 
