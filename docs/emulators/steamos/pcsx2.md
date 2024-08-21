@@ -713,10 +713,11 @@ PCSX2 Servers:
 * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=0](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=0)
 * [https://ps2online.com/](https://ps2online.com/)
 
-pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
-
-1. In Desktop Mode, open Konsole or a terminal of your choice
-2. Enter the following commands, one bullet point at a time and press enter after each line:
+1. In Desktop Mode, open Konsole or a terminal of your choice, enter the following commands one at a time:
+    * sudo groupadd netdev
+    * sudo usermod -a -G netdev deck
+2. In Desktop Mode, open Konsole or a terminal of your choice
+3. Enter the following commands, one bullet point at a time and press enter after each line:
     * `distrobox create -i archlinux:latest -n pcsx2`
     * `distrobox enter pcsx2`
     * `sudo pacman -S --needed git base-devel && cd /tmp && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && cd .. && rm -rf yay-bin`
@@ -724,14 +725,14 @@ pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin
     * `yay -S pcsx2-git`
         * If you receive any prompts, press enter without typing anything in
     * Exit out of the terminal once it is finished and proceed to the next step
-3. Download attached `.sh` file and place it in a folder of your choice
+4. Download attached `.sh` file and place it in a folder of your choice
     * [pcsx2-netplay.sh](../../configuration-files/pcsx2-netplay.sh)
     * For the contents of the script, see [https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/pcsx2-netplay.sh](https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/pcsx2-netplay.sh)
-4. Right click `pcsx2-netplay.sh`, click `Properties`, click `Permissions`, check `Is Executable`
-5. Double click `pcsx2-netplay.sh` to open it
+5. Right click `pcsx2-netplay.sh`, click `Properties`, click `Permissions`, check `Is Executable`
+6. Double click `pcsx2-netplay.sh` to open it
     * Use this file whenever you want to play online mulitplayer. Your shortcuts through Steam ROM Manager, ES-DE, or Pegasus will be using a separate version of PCSX2 **not configured** for online multiplayer
     * You may add this version of `pcsx2-netplay.sh` to Steam by right clicking it and clicking `Add to Steam`, you may want to give it a distinctive name in Steam so you do not mix it up with your other shortcuts
-6. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`
+7. Click `Settings`, `Network & HDD`, check the `Enabled` box under `Ethernet`
     * Ethernet Device Type
         * Select `PCAP Bridged`, `PCAP Switched`, or `Socket`, depending on what game you are playing 
     * Ethernet Device
@@ -748,10 +749,10 @@ pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin
         * Click `Create Image` in the bottom right corner
     * HDD File
         * `/home/deck/.config/PCSX2/inis/DEV9hdd.raw`
-7. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings 
+8. While in game, open the `Networking` settings and use the below spreadsheet or website for the DNS settings 
     * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
     * [https://ps2online.com/](https://ps2online.com/)
-8. Online multiplayer will now be configured for your game(s)
+9. Online multiplayer will now be configured for your game(s)
 
 !!! warning
 
