@@ -121,6 +121,10 @@ To navigate to the SD Card or a removable storage device, you can click `rootfs`
 
 #### When to place BIOS Files directly into Emulation/bios
 
+For some BIOS, you will need to place the BIOS files **directly** into the BIOS folder. **Do not** use a subfolder. A subfolder is a folder either pre-created in `Emulation/bios` or a folder you will need to create according to the tables below. Creating or using a subfolder is rare. 
+
+For BIOS that need to be placed **directly** into `Emulation/bios`, **do not** create or use a subfolder. Place your BIOS files **directly** in the `Emulation/bios` folder. If a table on this page **does not** explicitly say to use a subfolder, place your BIOS files **directly** into the BIOS folder. 
+
 For example, the photo below instructs you to **place** `sega_101.bin` (if you are playing JP games) or `mpr-17933.bin` (if you are playing US/EU games) **directly** into the `Emulation/bios` folder. **Do not** make a subfolder.
 
 ![Sega Saturn BIOS Example](./assets/sega-saturn-bios-example.png)
@@ -130,6 +134,10 @@ In `Emulation/bios`:
 ![Sega Saturn Folder Example](./assets/sega-saturn-folder-example.png)
 
 #### When to create a subfolder
+
+For some BIOS, you will need to use a subfolder. A subfolder is a folder either pre-created in `Emulation/bios` or a folder you will need to create according to the tables below. Creating or using a subfolder is rare. 
+
+For the most part, you will simply need to place the BIOS files **directly** into `Emulation/bios`. If a table on this page **explicitly** says to create or use a subfolder, place your BIOS files into the subfolder within `Emulation/bios`. 
 
 For example, the photo below instructs you to **create** a `dc` folder in `Emulation/bios` and to place `dc_boot.bin` directly into `Emulation/bios/dc`. 
 
