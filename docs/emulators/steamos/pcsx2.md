@@ -713,12 +713,15 @@ PCSX2 Servers:
 * [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=0](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=0)
 * [https://ps2online.com/](https://ps2online.com/)
 
+pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
 
 1. In Desktop Mode, open Konsole or a terminal of your choice
 2. Enter the following commands, one bullet point at a time and press enter after each line:
     * `distrobox create -i archlinux:latest -n pcsx2`
     * `distrobox enter pcsx2`
-    * `sudo pacman -S --needed git base-devel && cd /tmp && git clone https://aur.archlinux.org/pcsx2-git.git && cd pcsx2-git && makepkg -si && cd .. && rm -rf pcsx2-git/`
+    * `sudo pacman -S --needed git base-devel && cd /tmp && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si && cd .. && rm -rf yay-bin`
+        * If you receive any prompts, press enter without typing anything in
+    * `yay -S pcsx2-git`
         * If you receive any prompts, press enter without typing anything in
     * Exit out of the terminal once it is finished and proceed to the next step
 3. Download attached `.sh` file and place it in a folder of your choice
@@ -753,6 +756,16 @@ PCSX2 Servers:
 !!! warning
 
     If you get a DNAS error when connecting, you will need to apply a DNAS bypass patch to your game. You can find a DNAS Bypass PNACH in the "Emulator (PCSX2)" column on the ps2online.com spreadsheet: [https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811](https://docs.google.com/spreadsheets/d/1k4kJcJLkANysILr5jpmB08Px-08CIFGYvNsiwoHuCWw/edit#gid=1383772811)
+
+#### How to Update PSCSX2-Netplay
+
+1. In Desktop Mode, open Konsole or a terminal of your choice
+2. Enter the following commands, one bullet point at a time and press enter after each line:
+    * `distrobox enter pcsx2`
+    * `yay -S pcsx2-git`
+        * If you receive any prompts, press enter without typing anything in
+    * Exit out of the terminal once it is finished and proceed to the next step
+3. PCSX2 will now be updated and you can continue using the `pcsx2-netplay.sh` script to use the latest version of PCSX2
 
 ***
 
