@@ -763,7 +763,7 @@ PCSX2 Servers:
 1. In Desktop Mode, open Konsole or a terminal of your choice
 2. Enter the following commands, one bullet point at a time and press enter after each line:
     * `distrobox enter pcsx2`
-    * `yay -S pcsx2-git`
+    * `yay -Syu`
         * If you receive any prompts, press enter without typing anything in
     * Exit out of the terminal once it is finished and proceed to the next step
 3. PCSX2 will now be updated and you can continue using the `pcsx2-netplay.sh` script to use the latest version of PCSX2
