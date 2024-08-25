@@ -22,8 +22,11 @@ Read the [ES-DE](../steamos/es-de.md) page to learn more about ES-DE and how it 
     - [How to Launch Steam ROM Manager in Desktop Mode](#how-to-launch-steam-rom-manager-in-desktop-mode)
     - [How to Reset Steam ROM Manager](#how-to-reset-steam-rom-manager) 
     - [How to Test Steam ROM Manager Shortcuts](#how-to-test-steam-rom-manager-shortcuts)
-
-2. [Common Issues](#common-issues)
+2. [Troubleshooting](#troubleshooting)
+    - [Did you hide the game in Steam ROM Manager?](#did-you-hide-the-game-in-steam-rom-manager)
+    - [Did you turn on duplicate parsers in Steam ROM Manager?](#did-you-turn-on-duplicate-parsers-in-steam-rom-manager)
+    - [Are you seeing missing artwork? Are you getting axios errors?](#are-you-seeing-missing-artwork-are-you-getting-axios-errors)
+3. [Common Issues](#common-issues)
     - [The Dangers of Proton](#the-dangers-of-proton)
     - [Special Characters](#special-characters)
     - [I hit the "Remove all added app entries" button, but the entries were not removed!](#i-hit-the-remove-all-added-app-entries-button-but-the-entries-were-not-removed)
@@ -176,6 +179,47 @@ The backup file is named: `userConfigurations.json.bak`.
     * If the game launches successfully, your issue lies elsewhere. You may have accidentally enabled Proton for the game in question. If this is the case, disable Proton for the game in question
     * ![How to Test Steam ROM Manager Shortcuts 5](../../assets/how-to-test-steam-rom-manager-shortcuts-5.png)
 
+
+***
+
+## Troubleshooting
+
+***
+
+#### Did you hide the game in Steam ROM Manager?
+[Back to the Top](#steam-rom-manager-table-of-contents)
+
+When parsing an app list in Steam ROM Manager, it is easy to misclick and accidentally exclude a game. Excluding a game will hide it from the parsed app list preventing it from being added to Steam.
+
+To "un-hide" a game:
+
+1. Open Steam ROM Manager
+2. Click the `Exceptions` button
+3. Locate or search for your game in the list
+4. Click `Remove exception`
+5. Click the `Save` button 
+    * If you **do not** click the `Save` button, the game will still be hidden from the app list
+6. Generate an app list and your game will appear
+
+If your game was not in the exceptions list, your issue lies elsewhere. See [Do you have the correct BIOS or ROM file types?](#do-you-have-the-correct-bios-or-rom-file-types) for another common instance where your games may not show up in Steam ROM Manager. 
+
+***
+
+#### Did you turn on duplicate parsers in Steam ROM Manager?
+[Back to the Top](#steam-rom-manager-table-of-contents)
+
+For some systems, there may be more than one option (RetroArch core or standalone emulator) to play your game. If you enable all of the respective options for a single system, you will have duplicates in your app list with each entry correlating to a different emulator option.
+
+For example, the Nintendo DS system can be played through both a standalone emulator and a RetroArch core. If you enable both parsers, you will have duplicates with half that will launch through the standalone emulator and half through the RetroArch core. These can be identiifed by the "Collections" tab in Game Mode. However, if you prefer to only use one option for a system, make sure the other option **is disabled**. 
+
+***
+
+#### Are you seeing missing artwork? Are you getting axios errors?
+[Back to the Top](#steam-rom-manager-table-of-contents)
+
+These axios errors mean that there is a potential network issue causing connection problems between Steam ROM Manager and the website it scrapes its art from, [https://www.steamgriddb.com/](https://www.steamgriddb.com/).
+
+If you are seeing these issues, wait 24-48 hours and try again. 
 
 ***
 

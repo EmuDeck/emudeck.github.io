@@ -16,6 +16,32 @@ Do note that switching between Desktop Mode and Game Mode **is not** a restart. 
 
 ***
 
+### Is the EmuDeck installer not downloading or completing?
+
+Internet issues are an increasingly common issue among Steam Decks, even if your internet works perfectly fine on other devices, or you have the latest and fastest internet. You may notice that EmuDeck isn't installing properly, or is taking a long time time to install. You may notice these same internet issues when you try to browse the internet or download a game and the internet speeds are much slower than you would expect. 
+
+You can fix these issues by adjusting your DNS, in System Settings within Desktop Mode, in `Configure Network Settings`. 
+
+**Note:** If you are noticing unexpected behavior with RetroAchievements causing errant controls or freezing, consider trying the below steps. 
+
+**Here's How:** 
+
+1. Click the bottom left icon in the taskbar (Steam Deck icon), click `Settings` in the list, open `System Settings`.
+2. Click `Connections` on the left.
+3. On the `IPv4` tab, change the `Method` to `Automatic (Only Addresses)`.
+4. In the `DNS Servers` box, enter `1.1.1.1`.
+5. Click the `IPv6` tab at the top, change the `Method` to `Disabled`.
+6. For good measure, restart your Steam Deck.
+
+**Note:** If the above steps still do not fix the issue for you, you can try switching to a 2.4 GHz WiFi network if your ISP provides you with one. 
+
+**Visual Reference**
+
+<img src="https://github.com/rawdatafeel/Emudeck-GIFS/blob/main/GIFs/How%20to%20Configure%20Internet%20Settings.gif?raw=true"/>
+
+
+***
+
 ### Is everything up to date?
 
 ***
@@ -198,6 +224,44 @@ In Desktop Mode, open Konsole, and type `flatpak list`. See if you can find an e
 To uninstall, in Konsole, type `flatpak remove org.freedesktop.Platform.VulkanLayer.gamescope` and press enter to uninstall the Gamescope Flatpak. 
 
 If you do not have it installed, you may try entering this command in case you accidentally overlooked it in the `flatpak list` command. If you do not have it installed, this command will return a generic error message. 
+
+***
+
+### Steam ROM Manager
+
+***
+
+#### Did you hide the game in Steam ROM Manager?
+
+When parsing an app list in Steam ROM Manager, it is easy to misclick and accidentally exclude a game. Excluding a game will hide it from the parsed app list preventing it from being added to Steam.
+
+To "un-hide" a game:
+
+1. Open Steam ROM Manager
+2. Click the `Exceptions` button
+3. Locate or search for your game in the list
+4. Click `Remove exception`
+5. Click the `Save` button 
+    * If you **do not** click the `Save` button, the game will still be hidden from the app list
+6. Generate an app list and your game will appear
+
+If your game was not in the exceptions list, your issue lies elsewhere. See [Do you have the correct BIOS or ROM file types?](#do-you-have-the-correct-bios-or-rom-file-types) for another common instance where your games may not show up in Steam ROM Manager. 
+
+***
+
+#### Did you turn on duplicate parsers in Steam ROM Manager?
+
+For some systems, there may be more than one option (RetroArch core or standalone emulator) to play your game. If you enable all of the respective options for a single system, you will have duplicates in your app list with each entry correlating to a different emulator option.
+
+For example, the Nintendo DS system can be played through both a standalone emulator and a RetroArch core. If you enable both parsers, you will have duplicates with half that will launch through the standalone emulator and half through the RetroArch core. These can be identiifed by the "Collections" tab in Game Mode. However, if you prefer to only use one option for a system, make sure the other option **is disabled**. 
+
+***
+
+#### Are you seeing missing artwork? Are you getting axios errors?
+
+These axios errors mean that there is a potential network issue causing connection problems between Steam ROM Manager and the website it scrapes its art from, [https://www.steamgriddb.com/](https://www.steamgriddb.com/).
+
+If you are seeing these issues, wait 24-48 hours and try again. 
 
 ***
 
