@@ -183,6 +183,7 @@ The backup file is named: `userConfigurations.json.bak`.
 ***
 
 ## Troubleshooting
+[Back to the Top](#steam-rom-manager-table-of-contents)
 
 ***
 
