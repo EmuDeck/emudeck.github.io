@@ -23,7 +23,7 @@ Read the [ES-DE](../steamos/es-de.md) page to learn more about ES-DE and how it 
     - [How to Reset Steam ROM Manager](#how-to-reset-steam-rom-manager) 
     - [How to Test Steam ROM Manager Shortcuts](#how-to-test-steam-rom-manager-shortcuts)
 2. [Troubleshooting](#troubleshooting)
-    - [Did you hide the game in Steam ROM Manager?](#did-you-hide-the-game-in-steam-rom-manager)
+    - [Did you exclude the game in Steam ROM Manager?](#did-you-exclude-the-game-in-steam-rom-manager)
     - [Did you turn on duplicate parsers in Steam ROM Manager?](#did-you-turn-on-duplicate-parsers-in-steam-rom-manager)
     - [Are you seeing missing artwork? Are you getting axios errors?](#are-you-seeing-missing-artwork-are-you-getting-axios-errors)
 3. [Common Issues](#common-issues)
@@ -187,10 +187,10 @@ The backup file is named: `userConfigurations.json.bak`.
 
 ***
 
-#### Did you hide the game in Steam ROM Manager?
+#### Did you exclude the game in Steam ROM Manager?
 [Back to the Top](#steam-rom-manager-table-of-contents)
 
-When parsing an app list in Steam ROM Manager, it is easy to misclick and accidentally exclude a game. Excluding a game will hide it from the parsed app list preventing it from being added to Steam.
+When parsing an app list in Steam ROM Manager, it is easy to misclick and accidentally exclude or hide a game. Excluding a game will hide it from the parsed app list preventing it from being added to Steam.
 
 To "un-hide" a game:
 

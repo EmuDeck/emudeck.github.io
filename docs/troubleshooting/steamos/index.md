@@ -231,9 +231,9 @@ If you do not have it installed, you may try entering this command in case you a
 
 ***
 
-#### Did you hide the game in Steam ROM Manager?
+#### Did you exclude the game in Steam ROM Manager?
 
-When parsing an app list in Steam ROM Manager, it is easy to misclick and accidentally exclude a game. Excluding a game will hide it from the parsed app list preventing it from being added to Steam.
+When parsing an app list in Steam ROM Manager, it is easy to misclick and accidentally exclude or hide a game. Excluding a game will hide it from the parsed app list preventing it from being added to Steam.
 
 To "un-hide" a game:
 
