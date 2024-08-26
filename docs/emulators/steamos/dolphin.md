@@ -756,7 +756,7 @@ If you had Dolphin installed at the system level, you will need to type the foll
 
 !!! tip "Controls"
 
-    If the controls are not working, first add Dolphin to Steam. Either right click it (`L2`) in the "Applications Launcher" in Desktop Mode, click `Add to Steam` or add it Steam using the "Emulators" parser in Steam ROM Manager. 
+    If the controls are not working, first add Dolphin to Steam. To add Dolphin to Steam, either right click Dolphin (`L2`) in the "Applications Launcher" in Desktop Mode, click `Add to Steam` **or** add Dolphin to Steam using the "Emulators" parser in Steam ROM Manager. 
     
     In Game Mode, open Dolphin, at the top, click `Options`, click `Controller Settings`. To the right of `Port 1: Standard Controller` under `GameCube Controllers`, click `Configure` and change the `Device` in the top right to `SDL/0/Steam Deck Controller`. Close out of this window (click the `STEAM` button and click the `X` button on the controller).
     
