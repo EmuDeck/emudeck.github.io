@@ -318,18 +318,18 @@ You can manage multiple discs two ways:
 ### How to Switch to Folder Memory Cards
 [Back to the Top](#pcsx2-qt-table-of-contents) 
 
-By default PCSX2 stores each memory card as a single file. This doesn't have any compatibility problems, but means that once you hit the 8MB limit you'll have to start manually swapping cards. You can get around this by converting to folders for your memory cards:
+By default PCSX2 stores each memory card as a single file. This does not have any compatibility problems, but means that once you hit the 8MB limit you will have to start manually swapping cards. You can get around this by converting to folders for your memory cards:
 
 1. Open PCSX2
 2. Settings menu > Memory cards
 3. Eject the memory cards you wish to convert, by clicking the appropriate eject icons near the top of the window
-4. Right click each card to convert, and select "Convert"
+4. Right click each card to convert, and select `Convert`
 5. Ensure the conversion type dropdown is set to "Folder" and click OK
-    1. This process will create a new folder that is a copy of the original memory card file. The file will be left intact as a backup.
-6. Right click the newly converted memory card folder, and select Use for slot 1/Use for slot 2 as appropriate
-7. At the bottom of the window, ensure "Automatically manage saves based on running game" is checked
+    * This process will create a new folder that is a copy of the original memory card file. The file will be left intact as a backup.
+6. Right click the newly converted memory card folder, and select `Use for slot 1`/`Use for slot 2` as appropriate
+7. At the bottom of the window, ensure `Automatically manage saves based on running game` is checked
 
-PCSX2 will now give each game it's own separate memory card automatically.
+PCSX2 will now give each game its own separate memory card automatically.
 
 ***
 
