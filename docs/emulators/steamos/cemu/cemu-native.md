@@ -582,7 +582,7 @@ After doing the steps in the above two sections, Breath of the Wild will run at 
 
 This section will cover how to mod Breath of the Wild using UKMM, a mod manager.
 
-1. In `/home/deck/Applications` create a `ukmm` folder
+1. In `/home/deck/Applications`, create a `ukmm` folder
     * These folders are recommendations, you may use a folder of your choice but you will need to adjust any paths in future steps to the folders you select
 2. Download the latest `ukmm-x86_64-unknown-linux-gnu.tar.xz` file from [https://github.com/NiceneNerd/UKMM/releases](https://github.com/NiceneNerd/UKMM/releases) to `/home/deck/Applications/ukmm`
 3. Right click `ukmm-x86_64-unknown-linux-gnu.tar.xz`, click `Extract archive here`
