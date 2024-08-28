@@ -40,6 +40,7 @@ Proton Cemu: <img src="https://user-images.githubusercontent.com/108900299/22676
     - [How to Use the Wii U Pro Controller Configuration](#how-to-use-the-wii-u-pro-controller-configuration)
     - [How to Configure Cemu Native to Work With EmulationStation-DE](#how-to-configure-cemu-native-to-work-with-emulationstation-de)
     - [How to Optimize Breath of the Wild](#how-to-optimize-breath-of-the-wild)
+    - [How to Mod Breath of the Wild](#how-to-mod-breath-of-the-wild)
     - [How to Roll Back Cemu to an Older Version](#how-to-roll-back-cemu-to-an-older-version)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
     - [How to Configure Online Multiplayer Via Pretendo](#how-to-configure-online-multiplayer-via-pretendo)
@@ -571,12 +572,32 @@ In order to use Cemu Native through EmulationStation-DE, you will have to enable
 5. Enable `Use per-game profile`
 6. Set the refresh rate to 40
     * <img src="https://user-images.githubusercontent.com/108900299/236642316-5bafc264-6c82-479c-988a-b419515ee92b.png" height="300">
-7. Read [Power Tools](../../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools.  to learn how to use the battery menu and `Power Tools` to further increase performance for Breath of the Wild
 
 After doing the steps in the above two sections, Breath of the Wild will run at a stable 40 FPS with temporary occasional hiccups in new areas while it compiles shaders.
 
-
 *** 
+
+### How to Mod Breath of the Wild
+[Back to the Top](#cemu-native-table-of-contents)
+
+This section will cover how to mod Breath of the Wild using UKMM, a mod manager.
+
+1. In `/home/deck/Applications` create a `ukmm` folder
+    * These folders are recommendations, you may use a folder of your choice but you will need to adjust any paths in future steps to the folders you select
+2. Download the latest `ukmm-x86_64-unknown-linux-gnu.tar.xz` file from [https://github.com/NiceneNerd/UKMM/releases](https://github.com/NiceneNerd/UKMM/releases) to `/home/deck/Applications/ukmm`
+3. Right click `ukmm-x86_64-unknown-linux-gnu.tar.xz`, click `Extract archive here`
+    * If it creates a subfolder, move the contents directly to `/home/deck/Applications/ukmm`
+4. Download the attached `.sh` file and place it in `/home/deck/Applications/ukmm`
+    * [ukmm-launcher.sh](../../configuration-files/ukmm-launcher.sh)
+    * For the contents of the script, see [https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/ukmm-launcher.sh](https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/ukmm-launcher.sh)
+    * If you used a different folder than what was recommended in Step 1, make sure to open `ukmm-launcher.sh` in Kate or a text editor of your choice and update the paths to where you placed UKMM
+5. Right click `ukmm-launcher.sh`, click `Properties`, click `Permissions`, check `Is Executable`
+    * Use this file whenever you want to launch UKMM
+    * You may add UKMM to Steam by right clicking it and clicking `Add to Steam`
+6. Double click `ukmm-launcher.sh` to open it
+7. Follow UKMM's documentation, [https://nicenenerd.github.io/UKMM/using-mods.html](https://nicenenerd.github.io/UKMM/using-mods.html) to learn how to mod Breath of the Wild
+
+***
 
 ### How to Roll Back Cemu to an Older Version
 [Back to the Top](#cemu-native-table-of-contents)
