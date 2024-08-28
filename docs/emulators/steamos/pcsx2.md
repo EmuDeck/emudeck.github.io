@@ -725,7 +725,7 @@ PCSX2 Servers:
     * `yay -S pcsx2-git`
         * If you receive any prompts, press enter without typing anything in
     * Exit out of the terminal once it is finished and proceed to the next step
-4. Download attached `.sh` file and place it in a folder of your choice
+4. Download the attached `.sh` file and place it in a folder of your choice
     * [pcsx2-netplay.sh](../../configuration-files/pcsx2-netplay.sh)
     * For the contents of the script, see [https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/pcsx2-netplay.sh](https://raw.githubusercontent.com/EmuDeck/emudeck.github.io/main/docs/configuration-files/pcsx2-netplay.sh)
 5. Right click `pcsx2-netplay.sh`, click `Properties`, click `Permissions`, check `Is Executable`
