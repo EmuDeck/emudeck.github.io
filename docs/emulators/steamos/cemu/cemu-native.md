@@ -596,6 +596,7 @@ This section will cover how to mod Breath of the Wild using UKMM, a mod manager.
     * You may add UKMM to Steam by right clicking it and clicking `Add to Steam`
 6. Double click `ukmm-launcher.sh` to open it
 7. Follow UKMM's documentation, [https://nicenenerd.github.io/UKMM/using-mods.html](https://nicenenerd.github.io/UKMM/using-mods.html) to learn how to mod Breath of the Wild
+    * When deploying mods, the graphic pack folder will be located here: `/home/deck/.local/share/Cemu/graphicPacks`
 
 ***
 
