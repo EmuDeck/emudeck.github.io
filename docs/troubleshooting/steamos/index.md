@@ -217,13 +217,16 @@ Using Cemu as an example:
 
 ### Is the Gamescope Flatpak installed?
 
-The Gamescope Flatpak can cause crashes with the various Flatpak emulators installed by EmuDeck. Even if you do not recall installing it, it is recommended you double check.
+The Gamescope Flatpak can cause crashes with the various Flatpak emulators installed by EmuDeck. Even if you do not recall installing it, it is recommended you double check. If the Gamescope Flatpak is installed, make sure to **uninstall** it. This section will cover how to both identify if it is installed and how to **uninstall** it. 
 
-In Desktop Mode, open Konsole, and type `flatpak list`. See if you can find an entry titled `org.freedesktop.Platform.VulkanLayer.gamescope`. If you see it in the list, you have the Gamescope Flatpak installed.
-
-To uninstall, in Konsole, type `flatpak remove org.freedesktop.Platform.VulkanLayer.gamescope` and press enter to uninstall the Gamescope Flatpak. 
-
+1. In Desktop Mode, open Konsole, and type `flatpak list`
+2. See if you can find an entry titled `org.freedesktop.Platform.VulkanLayer.gamescope`
+3. If you see it in the list, you have the Gamescope Flatpak installed, this may cause **crashing** in other Flatpak applications
+4. To uninstall (**highly recommended**), in Konsole, type `flatpak remove org.freedesktop.Platform.VulkanLayer.gamescope` and press enter to uninstall the Gamescope Flatpak
+ 
 If you do not have it installed, you may try entering this command in case you accidentally overlooked it in the `flatpak list` command. If you do not have it installed, this command will return a generic error message. 
+
+For more information on this issue, see this GitHub comment [https://github.com/ValveSoftware/gamescope/issues/1239#issuecomment-2053572427](https://github.com/ValveSoftware/gamescope/issues/1239#issuecomment-2053572427) and this GitHub issue: [https://github.com/ValveSoftware/gamescope/issues/1239](https://github.com/ValveSoftware/gamescope/issues/1239)
 
 ***
 
