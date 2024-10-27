@@ -1,14 +1,10 @@
 # Ryujinx is a Nintendo Switch Emulator.
 
-Website: [https://ryujinx.org/](https://ryujinx.org/)
+GitHub: [https://github.com/ryujinx-mirror/ryujinx](https://github.com/ryujinx-mirror/ryujinx)
 
-GitHub: [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
+GitHub Releases: [https://github.com/ryujinx-mirror/ryujinx/releases](https://github.com/ryujinx-mirror/ryujinx/releases)
 
-GitHub Releases: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
-
-Compatibility List: [https://github.com/Ryujinx/Ryujinx-Games-List/issues](https://github.com/Ryujinx/Ryujinx-Games-List/issues)
-
-Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
+Compatibility List: [https://github.com/ryujinx-mirror/ryujinx-games-list/issues](https://github.com/ryujinx-mirror/ryujinx-games-list/issues)
 
 ***
 
@@ -354,8 +350,6 @@ _This list is not comprehensive_
 
 **Preface**
 
-Read Ryujinx's instructions on how to install mods here: [How to Install Ryujinx Mods](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide/87dc34d49facc69bb1b4fde45e1f10b520171671#managing-mods)
-
 The folder structure of a mod is important. It should generally look like the following:
 
 ```
@@ -419,7 +413,7 @@ The script launches the corresponding emulator in `/home/deck/Applications/publi
 
 #### How to Roll Back Ryujinx
 
-1. Download the version of the emulator you would like to use from Ryujinx's GitHub: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
+1. Download the version of the emulator you would like to use from Ryujinx's GitHub: [https://github.com/ryujinx-mirror/ryujinx/releases](https://github.com/ryujinx-mirror/ryujinx/releases).
 2. Move the downloaded emulator from Step 1 to `/home/deck/Applications/publish`
 3. (Optional) Rename or delete the original emulator file
 4. One at a time, right click `Ryujinx` and `Ryujinx.sh`, click `Properties`, click `Permissions`, check `Is executable`
