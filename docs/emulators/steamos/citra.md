@@ -1,10 +1,6 @@
 # Citra is a Nintendo 3DS Emulator.
 
-Website: [https://citra-emu.org/](https://citra-emu.org/)
-
-GiHhub: [https://github.com/citra-emu/citra](https://github.com/citra-emu/citra)
-
-Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
+GitHub: [https://github.com/PabloMK7/citra](https://github.com/PabloMK7/citra)
 
 ***
 
@@ -26,7 +22,6 @@ Compatibility List: [https://citra-emu.org/game/](https://citra-emu.org/game/)
     - [How to Optimize Performance (Power Tools)](#how-to-optimize-performance-power-tools)
     - [How to Install Custom Textures](#how-to-install-custom-textures)
     - [How to Use Cheats](#how-to-use-cheats)
-    - [How to Roll Back Citra to an Older Version](#how-to-roll-back-citra-to-an-older-version)
     - [How to Set Up PKHeX](../../community-creations/steamos/tools-and-guides.md#how-to-set-up-pkhex)
     - [How to Install the Universal Pokemon Randomizer](../../community-creations/steamos/tools-and-guides.md#how-to-install-the-universal-pokemon-randomizer)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
@@ -56,7 +51,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 ### Citra Configuration
 [Back to the Top](#citra-table-of-contents)
 
-* Type of Emulator: Flatpak
+* Type of Emulator: AppImage
 * Config Location: 
     * `/home/deck/.config/citra-emu`
     * `/home/deck/.local/share/citra-emu`
@@ -379,31 +374,6 @@ _This list is not exhaustive_
 6. Click Save in the top right
 7. Check the box to the left of the cheat to enable it
     * <img src="https://user-images.githubusercontent.com/108900299/236593806-1f8973a4-cd67-4c35-b18e-14a5fbb30105.png" height="300"> 
-
-***
-
-### How to Roll Back Citra to an Older Version
-[Back to the Top](#citra-table-of-contents)
-
-If you do not have access to a mouse and keyboard for the below section, use `L2` to right click and `R2` to left click. Alternatively, remote into your Steam Deck using one of the methods found in the FAQ, [How do I remotely control my Steam Deck?](../../frequently-asked-questions/steamos/index.md#how-do-i-remotely-control-my-steam-deck).
-
-1. In Desktop Mode, open `Konsole`
-2. To see a list of prior versions of the emulator, type:
-    * `flatpak remote-info --log flathub org.citra_emu.citra`
-3. If Konsole prompts you to select `system` or `user`, enter `2` to select `user` 
-4. Konsole will list a list of previous versions for the flatpak. The important line for each version is the `Commit: ` line. The `Commit: ` line will have a long accompanying alphanumeric string (the “commit” code). Copy the string for the version you want to downgrade to.
-    * ![How to Roll Back Flatpaks: 1](../../assets/how-to-roll-back-flatpaks-1.png) 
-5. To downgrade to the version you want:
-    * `flatpak update --commit=put_commit_code_here org.citra_emu.citra`
-    * Replace `put_commit_code_here` with the actual code you located in Step 2. 
-        * For example:
-            * ![How to Roll Back Flatpaks: 2](../../assets/how-to-roll-back-flatpaks-2.png)
-
-If the above steps did not work and you are getting an error message along the lines of `Flatpak not installed`, your Flatpak is likely installed at the system level instead. Select one of the below solutions:
-
-Solution 1: Open the EmuDeck application, click the `Manage Emulators` page, select the emulator in question, and click `Reinstall / Update`.
-
-Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In Step 2, write `sudo flatpak remote-info --log flathub org.citra_emu.citra` and in Step 5, write `sudo flatpak update --commit=put_commit_code_here org.citra_emu.citra`. 
 
 ***
 
