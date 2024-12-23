@@ -1,14 +1,10 @@
 # Ryujinx is a Nintendo Switch Emulator.
 
-Website: [https://ryujinx.org/](https://ryujinx.org/)
+GitHub: [https://github.com/GreemDev/Ryujinx](https://github.com/GreemDev/Ryujinx)
 
-GitHub: [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
+GitHub Releases: [https://github.com/GreemDev/Ryujinx/releases](https://github.com/GreemDev/Ryujinx/releases)
 
-GitHub Releases: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
-
-Compatibility List: [https://github.com/Ryujinx/Ryujinx-Games-List/issues](https://github.com/Ryujinx/Ryujinx-Games-List/issues)
-
-Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
+Quickstart guide: [https://github.com/GreemDev/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide](https://github.com/GreemDev/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
 
 ***
 
@@ -42,8 +38,6 @@ Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Confi
 In order to play Nintendo Switch games on Ryujinx, you need a `prod.keys` file to decrypt your ROMs. You will need to continue to keep your `prod.keys` up to date as new Nintendo Switch firmware releases. 
 
 Firmware **is required** to play Nintendo Switch games through Ryujinx. To install firmware, open Ryujinx, click `Tools`, click `Install Firmware` and select the appropriate option depending on how your firmware is packaged. 
-
-Read Ryujinx's Quick Start guide to learn how to dump Nintendo Switch keys, firmware, and ROMs: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-%26-Configuration-Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-%26-Configuration-Guide).
 
 Place your ROMs in `Emulation/roms/switch`. Place your `prod.keys` file in `Emulation/bios/ryujinx/keys`. Install your firmware through Ryujinx's GUI. Install your DLC and Updates through Ryujinx's GUI, see [How To Manage DLC and Updates](#how-to-manage-dlc-and-updates) to learn how.  
 
@@ -333,8 +327,6 @@ Ryujinx comes with a nifty auto-map feature that makes setting up multiplayer a 
 
 _This list is not comprehensive_
 
-* Ryujinx's Discord
-     * [https://ryujinx.org/](https://ryujinx.org/)
 * GameBanana Mods: [https://gamebanana.com/](https://gamebanana.com/)
      * Search by game name
 * Nexus Mods: [https://www.nexusmods.com/](https://www.nexusmods.com/)
@@ -419,7 +411,7 @@ The script launches the corresponding emulator in `/home/deck/Applications/publi
 
 #### How to Roll Back Ryujinx
 
-1. Download the version of the emulator you would like to use from Ryujinx's GitHub: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
+1. Download the version of the emulator you would like to use from GitHub: [https://github.com/GreemDev/Ryujinx/releases](https://github.com/GreemDev/Ryujinx/releases)
 2. Move the downloaded emulator from Step 1 to `/home/deck/Applications/publish`
 3. (Optional) Rename or delete the original emulator file
 4. One at a time, right click `Ryujinx` and `Ryujinx.sh`, click `Properties`, click `Permissions`, check `Is executable`
