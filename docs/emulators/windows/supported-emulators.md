@@ -1,7 +1,6 @@
 # Supported Emulators
 
 ## Supported Emulators
-
 - [x] [Cemu (Wii U)](https://cemu.info/)
 - [x] [Citra (3DS)](https://citra-emu.org/)
 - [x] [Dolphin (Gamecube and Wii)](https://dolphin-emu.org/)
@@ -13,12 +12,13 @@
 - [x] [RPCS3 (Playstation 3)](https://rpcs3.net/)
 - [x] [Ryujinx (Nintendo Switch)](https://ryujinx.org/)
 - [x] [Yuzu (Nintendo Switch)](https://yuzu-emu.org/)
+* [x] [ShardPS4 (Sony Playstation 4)](https://www.shardps4.net/)
 
 ## Planned Emulators
 
+- [] [BigPEmu (Atari Jaguar)](https://www.richwhitehouse.com/jaguar/)
 - [ ] [mGBA (Gameboy, Gameboy Color, and Gameboy Advance) (Standalone)](https://mgba.io/)
 - [ ] [ScummVM (Point and Click Adventures)](https://www.scummvm.org/)
 - [ ] [MAME (Arcade games and more)](https://www.mamedev.org/)
-- [ ] [Vita3K (Playstation Vita)](https://vita3k.org/)
-- [ ] [Xemu (OG Xbox)](https://xemu.app/)
-- [ ] [Xenia (Xbox 360)](https://xenia.jp/)
+- [ ] [Supermodel (Sega Model 3)](https://www.supermodel3.com/)
+- [ ] [Model 2 Emulator (Sega Model 2)](https://emulation.gametechwiki.com/index.php/Sega_Model_2)
