@@ -19,7 +19,7 @@
 * [RPCS3 (Sony PlayStation 3)](https://rpcs3.net/)
 * [Ryujinx (Nintendo Switch)](https://ryujinx.org/)
 * [ScummVM (Point and Click Adventures)](https://www.scummvm.org/)
-* [ShardPS4 (Sony Playstation 4)](https://www.shardps4.net/)
+* [ShadPS4 (Sony Playstation 4)](https://www.shadps4.net/)
 * [Supermodel (Sega Model 3)](https://www.supermodel3.com/)
 * [Vita3K (Sony PlayStation Vita)](https://vita3k.org/)
 * [Yuzu (Nintendo Switch)](https://yuzu-emu.org/)

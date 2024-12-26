@@ -12,7 +12,7 @@
 - [x] [RPCS3 (Playstation 3)](https://rpcs3.net/)
 - [x] [Ryujinx (Nintendo Switch)](https://ryujinx.org/)
 - [x] [Yuzu (Nintendo Switch)](https://yuzu-emu.org/)
-* [x] [ShardPS4 (Sony Playstation 4)](https://www.shardps4.net/)
+* [x] [ShadPS4 (Sony Playstation 4)](https://www.shadps4.net/)
 
 ## Planned Emulators
 
