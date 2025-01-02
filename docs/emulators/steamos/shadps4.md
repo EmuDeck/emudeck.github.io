@@ -29,7 +29,7 @@ shadps4 Wiki: [https://wiki.shadps4.net/index.php?title=Main_Page](https://shadp
 ## Getting Started with shadps4
 [Back to the Top](#shadps4-table-of-contents)
 
-In order to play a game on shadps4, you need to the games through the shadps4 UI. In desktop mode, open shadps4, either in the application menu or through its shortcut in `Emulation/tools/launchers/shadps4.sh`. In shadps4, click File, click Install Packages(PKG) and select your game, this will install it to Emulation/storage/shadps4/games
+In order to play a game on shadps4, you need to install the games through the shadps4 UI. In desktop mode, open shadps4, either in the application menu or through its shortcut in `Emulation/tools/launchers/shadps4.sh`. In shadps4, click File, click Install Packages(PKG) and select your game, this will install it to Emulation/storage/shadps4/games
 
 Read the [Configuration](#shadps4-configuration) section to learn more about shadps4 and its folder locations.
 
@@ -55,6 +55,8 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
     * Folder: `Emulation/saves/shadps4/saves`
 
 * Your game will not show in the shadps4 UI until you add it manually through the `Install Packages(PKG)` option under `File` in the top left.
+
+* No BIOS is needed for shadPS4
 
 #### Works With
 * Steam ROM Manager
