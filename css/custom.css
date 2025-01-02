@@ -1,0 +1,137 @@
+@media screen and (min-width: 76.25em) {
+  .md-sidebar.md-sidebar--primary .md-nav__item--nested nav.md-nav {
+    padding-left: 16px;
+  }
+  .md-sidebar.md-sidebar--primary .md-nav__item--nested nav.md-nav .md-nav__list {
+    list-style: circle;
+  }
+
+  .md-header__button.md-logo img,
+  .md-header__button.md-logo svg {
+    height: 3rem;
+  }
+
+  html header nav.md-header__inner > a.md-logo img {
+    height: 60px;
+  }
+}
+
+html.js-search-only body > * {
+  display: none !important;
+}
+
+@keyframes background {
+  0% {
+    background-color: #f99;
+  }
+  33% {
+    background-color: #5bf;
+  }
+  67% {
+    background-color: #99f;
+  }
+  100% {
+    background-color: #f99;
+  }
+}
+
+html > body > header {
+  animation: background 15s infinite;
+}
+
+html.js-search-only header {
+  display: block !important;
+  position: static;
+  height: 100vh;
+  padding-top: 12vh;
+}
+
+html.js-search-only header nav.md-header__inner {
+  flex-direction: column;
+  max-width: 660px;
+}
+
+html.js-search-only header nav.md-header__inner > a.md-logo {
+  text-align: center;
+}
+
+html.js-search-only header nav.md-header__inner > a.md-logo + label,
+html.js-search-only header nav.md-header__inner > a.md-logo + label + div,
+html.js-search-only header nav.md-header__inner > a.md-logo + label + div + form,
+html.js-search-only header nav.md-header__inner > .md-header__source,
+html.js-search-only header nav.md-header__inner .md-header__button {
+  display: none !important;
+}
+
+html.js-search-only header nav.md-header__inner > a.md-logo {
+  display: block !important;
+}
+
+html.js-search-only header nav.md-header__inner .md-search__input {
+  font-size: 0.8rem;
+  height: 100%;
+}
+
+html.js-search-only header nav.md-header__inner > a.md-logo img {
+  height: 130px;
+  display: inline-block;
+}
+
+html.js-search-only header nav.md-header__inner div.md-search {
+  width: 100%;
+}
+
+html.js-search-only header nav.md-header__inner div.md-search .md-search__inner {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  overflow: hidden;
+  position: static;
+  top: auto;
+  transform: none;
+  transition: none;
+  z-index: 2;
+}
+
+html.js-search-only header nav.md-header__inner div.md-search .md-search__inner .md-search__form {
+  height: 2.8rem;
+}
+
+html.js-search-only header nav.md-header__inner div.md-search .md-search__inner .md-search__form input + label {
+  top: 0.8rem;
+}
+
+html.js-search-only
+  header
+  nav.md-header__inner
+  div.md-search
+  .md-search__inner
+  .md-search__form
+  input
+  + label.md-search__icon[for="__search"]
+  svg:first-child {
+  display: block;
+}
+html.js-search-only
+  header
+  nav.md-header__inner
+  div.md-search
+  .md-search__inner
+  .md-search__form
+  input
+  + label.md-search__icon[for="__search"]
+  svg:last-child {
+  display: none;
+}
+
+html.js-search-only header nav.md-header__inner .md-search__output {
+  top: auto;
+}
+
+html.js-search-only header nav.md-header__inner a.md-logo:after {
+  display: block;
+  text-align: center;
+  font-family: "Open Sans", -apple-system, "system-ui", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  content: "Please search your issue. If you are using Windows include that in your search";
+}

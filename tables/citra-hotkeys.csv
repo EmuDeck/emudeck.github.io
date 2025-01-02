@@ -1,0 +1,11 @@
+﻿Hotkey,Citra
+Toggle Full Screen,`Select` + `R3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Fast Forward,`Select` + `R2`
+Pause/Play,`Select` + `A`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start` or hold `L5` or hold `R5`
+Toggle Screen Layout,`L4` or `R4` or `Start` + `DPad Left` or `Select` + `Y`
+Swap Screens,`L5` or `R5` or `Start` + `DPad Down` or `Select` + `X`
+Load Amiibo,`Start` + `DPad Right`

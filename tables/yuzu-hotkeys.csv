@@ -1,0 +1,10 @@
+﻿Hotkey,Yuzu
+Quick Menu,`Select` + `R3`
+Toggle Full Screen,`Start` + `L3`
+Pause/Play,`Select` + `A`
+Fast Forward,`Select` + `R2`
+Stop Emulation,`Select` + `Start`
+Full Screen Toggle,`Select` + `R3`
+Docked Mode Toggle,`Start` + `DPAD Up`
+GPU Accuracy,`Start` + `DPAD Down`
+Filter,`Start` + `DPAD Left`

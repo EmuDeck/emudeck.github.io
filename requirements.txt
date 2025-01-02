@@ -1,0 +1,10 @@
+mkdocs-material
+mkdocs-glightbox
+mkdocs-static-i18n
+mkdocs-table-reader-plugin
+mkdocs-rss-plugin
+mkdocs-macros-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-git-committers-plugin
+mkdocs-redirects
+mkdocs-git-revision-date-localized-plugin

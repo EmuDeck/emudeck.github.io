@@ -1,0 +1,19 @@
+Hotkey,DuckStation
+Quick Menu,`Select` + `R3`
+Toggle Full Screen,`Start` + `L3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Next Save State Slot,`Start` + `R1`
+Previous Save State Slot,`Start` + `L1`
+Fast Forward,`Select` + `R2`
+Rewind,`Select` + `L2`
+Pause/Play,`Select` + `A`
+Screenshot,`Select` + `B`
+Swap Disc,`Select` + `X`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start`
+Toggle PGXP,`Select` + `Y`
+Increase Resolution Scale,`Start` + `DPad Up`
+Decrease Resolution Scale,`Start` + `DPad Down`
+Toggle Software Rendering,`Start` + `DPad Left`
+Toggle Widescreen,`Start` + `DPad Right`
