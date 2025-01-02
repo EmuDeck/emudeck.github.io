@@ -1,11 +1,11 @@
 ---
 draft: false
-date: 2026-12-26T11:00:00
+date: 2025-01-02T11:00:00
 categories:
   - EmuDeck
 ---
 
-EmuDeck 2.3.5 released
+EmuDeck 2.3.7 released
 
 **List of changes**
 

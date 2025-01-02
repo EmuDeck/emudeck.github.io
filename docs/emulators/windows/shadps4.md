@@ -1,4 +1,4 @@
-# ShadPS4 is an expoerimental Sony Playstation 4 Emulator.
+# ShadPS4 is an experimental Sony Playstation 4 Emulator.
 
 
 Website: [https://shadps4.net/](https://shadps4.net/)
