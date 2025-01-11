@@ -10,7 +10,34 @@ This page will present you with a troubleshooting guide in case you are having i
 
 ## First Step: Make sure these files exist:
 
-Try installing cloudSync from the EmuDeck app and check these:
+Before anything else, let's make sure we are using good DNS, a lot of internet providers use really bad DNS that prevents downloading or even fast browsing, this will make your internet connection faster and more reliable. DNS is the system in charge of knowing what IP corresponds to each web domain. Here are instructions on how to change them:
+
+### Changing DNS Settings on Windows 11
+
+- Go to Settings.
+- Select Network & internet.
+- Select Wi-Fi or Ethernet depending on your connection.
+- Under DNS server assignment, select Edit.
+- From the drop-down menu, select Manual.
+- Turn on the IPv4 toggle switch.
+- Under Preferred DNS, enter your desired address: 1.1.1.1 or 8.8.8.8
+
+### Changing DNS Settings on Windows 10, 8 & 7
+
+- Open the Windows Start menu.
+- Click on the gear icon to open the Settings menu.
+- Select Network & Internet.
+- Enable Use the following DNS server addresses.
+- Under Preferred DNS server, enter your desired address: 1.1.1.1 or 8.8.8.8
+
+### Changing DNS Settings on Windows 11
+
+- Go to System Settings > Network > Connections.
+- Open the individual settings for your network.
+- Change IPV4 Method to "Manual".
+- Under DNS servers, enter your desired address: 1.1.1.1 or 8.8.8.8 or even both
+
+Once you have good DNS in place try installing cloudSync from the EmuDeck app and check these:
 
 - **Emulation/tools/rclone/rclone.exe** or just rclone if you are on linux.
   If this file doesn't exist you need to reinstall cloudSync from the EmuDeck app.
