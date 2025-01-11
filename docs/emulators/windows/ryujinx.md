@@ -1,14 +1,10 @@
 # Ryujinx is a Nintendo Switch Emulator.
 
-Website: [https://ryujinx.org/](https://ryujinx.org/)
+Github: [https://github.com/GreemDev/Ryujinx](https://github.com/GreemDev/Ryujinx)
 
-Github: [https://github.com/Ryujinx/Ryujinx](https://github.com/Ryujinx/Ryujinx)
+Github Releases: [https://github.com/GreemDev/Ryujinx/releases](https://github.com/GreemDev/Ryujinx/releases)
 
-Github Releases: [https://github.com/Ryujinx/release-channel-master/releases](https://github.com/Ryujinx/release-channel-master/releases)
-
-Compatibility List: [https://github.com/Ryujinx/Ryujinx-Games-List/issues](https://github.com/Ryujinx/Ryujinx-Games-List/issues)
-
-Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide](https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
+Quickstart guide: [https://github.com/GreemDev/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide](https://github.com/GreemDev/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide)
 
 ## Ryujinx Table of Contents
 
@@ -29,9 +25,7 @@ Quickstart guide: [https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Confi
 
 In order to play Nintendo Switch games on Ryujinx, you need a `prod.keys` file to decrypt your ROMs. You will need to continue to keep your `prod.keys` up to date as new Nintendo Switch firmware releases. 
 
-If you play a Nintendo Switch game with Miis (example - Mario Kart 8 Deluxe), you will need firmware files. 
-
-Read Ryujinx's Quick Start guide to learn how to dump Nintendo Switch keys, firmware, and ROMs: https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-%26-Configuration-Guide.
+Firmware is required to play Nintendo Switch games through Ryujinx. To install firmware, open Ryujinx, click Tools, click Install Firmware and select the appropriate option depending on how your firmware is packaged.
 
 Place your ROMs in `Emulation\roms\switch`. Place your ROMs in `Emulation\roms\switch`. Place your `prod.keys` file in `Emulation\bios\ryujinx\keys`. Install your firmware files through Ryujinx's GUI.
 
