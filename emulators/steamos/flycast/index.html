@@ -1,0 +1,6274 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://emudeck.github.io/emulators/steamos/flycast/">
+      
+      
+        <link rel="prev" href="../../windows/duckstation/">
+      
+      
+        <link rel="next" href="../mame/">
+      
+      
+        <link rel="alternate" type="application/rss+xml" title="RSS feed" href="../../../feed_rss_created.xml">
+        <link rel="alternate" type="application/rss+xml" title="RSS feed of updated content" href="../../../feed_rss_updated.xml">
+      
+      <link rel="icon" href="../../../images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.49">
+    
+    
+      
+        <title>Flycast on SteamOS - EmuDeck Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.6f8fc17f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Open Sans";--md-code-font:"IBM Plex Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/github-permalink-style.css">
+    
+      <link rel="stylesheet" href="../../../css/github-tables.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+    html.glightbox-open { overflow: initial; height: 100%; }
+    .gslide-title { margin-top: 0px; user-select: text; }
+    .gslide-desc { color: #666; user-select: text; }
+    .gslide-image img { background: white; }
+    .gscrollbar-fixer { padding-right: 15px; }
+    .gdesc-inner { font-size: 0.75rem; }
+    body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+    body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="light-blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#flycast-is-a-dreamcast-emulator" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+              <button class="md-banner__button md-icon" aria-label="Don't show this again">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+              </button>
+            
+            
+ANNOUNCEMENT: If you are having issues with the latest update, make sure to read the <a href="https://emudeck.github.io/blog/2024/03/10/emudeck-hotfixes-03-10-2024/">the latest hotfix blog post.</a>
+
+          </div>
+          
+            <script>var el=document.querySelector("[data-md-component=announce]");if(el){var content=el.querySelector(".md-typeset");__md_hash(content.innerHTML)===__md_get("__announce")&&(el.hidden=!0)}</script>
+          
+        </aside>
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="EmuDeck Wiki" class="md-header__button md-logo" aria-label="EmuDeck Wiki" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            EmuDeck Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Flycast on SteamOS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Toggle light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Toggle light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="light" data-md-color-primary="blue" data-md-color-accent="light-blue"  aria-label="Toggle dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Toggle dark mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/EmuDeck/emudeck.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    emudeck.github.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="EmuDeck Wiki" class="md-nav__button md-logo" aria-label="EmuDeck Wiki" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    EmuDeck Wiki
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/EmuDeck/emudeck.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    emudeck.github.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://www.emudeck.com/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EmuDeck Website
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/dragoonDorise/EmuDeck" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EmuDeck GitHub
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/EmuDeck/emudeck.github.io" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EmuDeck Wiki GitHub
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://discord.gg/b9F7GpXtFP" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EmuDeck Discord
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../blog/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EmuDeck Blog
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cheat-sheet/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BIOS and ROMs Cheat Sheet
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../controls-and-hotkeys/steamos/hotkeys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hotkeys
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://brantje.github.io/emudeck-compatibility-list/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Community Games Compatibility Database
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cloudsync/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    CloudSync
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../donations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Donations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    How to Install EmuDeck
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            How to Install EmuDeck
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../how-to-install-emudeck/steamos/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for SteamOS
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_13_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13_1">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for SteamOS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../how-to-install-emudeck/windows/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for Windows
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_13_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13_2">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for Windows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../how-to-install-emudeck/linux/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for Linux
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_13_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13_3">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for Linux
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_14" id="__nav_14_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Frequently Asked Questions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14">
+            <span class="md-nav__icon md-icon"></span>
+            Frequently Asked Questions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../frequently-asked-questions/steamos/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for SteamOS
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_14_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14_1">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for SteamOS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../frequently-asked-questions/windows/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for Windows
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_14_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14_2">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for Windows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_14_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../frequently-asked-questions/linux/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for Linux
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_14_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_14_3">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for Linux
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_15" id="__nav_15_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Known Issues
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15">
+            <span class="md-nav__icon md-icon"></span>
+            Known Issues
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../known-issues/steamos/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for SteamOS
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_15_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15_1">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for SteamOS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../known-issues/windows/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for Windows
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_15_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15_2">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for Windows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_15_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../known-issues/linux/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for Linux
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_15_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_15_3">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for Linux
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_16" id="__nav_16_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16">
+            <span class="md-nav__icon md-icon"></span>
+            Troubleshooting
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../troubleshooting/steamos/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for SteamOS
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_16_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16_1">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for SteamOS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://github.com/dragoonDorise/EmuDeck/pull/1002 - 'troubleshooting/windows/index.md'" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EmuDeck for Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../troubleshooting/linux/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck for Linux
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_16_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16_3">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for Linux
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_17" id="__nav_17_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    EmuDeck Maintenance
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_17">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck Maintenance
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emudeck-maintenance/steamos/updating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emudeck-maintenance/windows/updating/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_18" id="__nav_18_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Controls and Hotkeys
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18">
+            <span class="md-nav__icon md-icon"></span>
+            Controls and Hotkeys
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_18_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_18_1" id="__nav_18_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    EmuDeck for SteamOS
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_18_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18_1">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for SteamOS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../controls-and-hotkeys/steamos/controls-101/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Controls 101
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../controls-and-hotkeys/steamos/hotkeys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hotkeys
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../controls-and-hotkeys/steamos/external-controllers/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    External Controllers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_18_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_18_2" id="__nav_18_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    EmuDeck for Windows
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_18_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_18_2">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for Windows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../controls-and-hotkeys/windows/controls-101/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Controls 101
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../controls-and-hotkeys/windows/hotkeys/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Hotkeys
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_19" >
+        
+          
+          <label class="md-nav__link" for="__nav_19" id="__nav_19_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    EmuDeck Application
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_19_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_19">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck Application
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_19_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_19_1" id="__nav_19_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    EmuDeck for SteamOS
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_19_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_19_1">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for SteamOS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emudeck-application/steamos/emudeck-application-101/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EmuDeck Application 101
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emudeck-application/steamos/emudeck-store/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EmuDeck Store
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_19_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_19_2" id="__nav_19_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    EmuDeck for Windows
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_19_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_19_2">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for Windows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emudeck-application/windows/emudeck-application-101/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EmuDeck Application 101
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20" >
+        
+          
+          <label class="md-nav__link" for="__nav_20" id="__nav_20_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_20_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_20">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_20_1" id="__nav_20_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Cloud Services
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_20_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_20_1">
+            <span class="md-nav__icon md-icon"></span>
+            Cloud Services
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tools/steamos/cloud-services/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cloud Services on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_20_2" id="__nav_20_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    ES-DE
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_20_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_20_2">
+            <span class="md-nav__icon md-icon"></span>
+            ES-DE
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tools/steamos/es-de/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ES-DE on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tools/windows/es-de/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ES-DE on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_20_3" id="__nav_20_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Steam ROM Manager
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_20_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_20_3">
+            <span class="md-nav__icon md-icon"></span>
+            Steam ROM Manager
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tools/steamos/steam-rom-manager/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Steam ROM Manager on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tools/windows/steam-rom-manager/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Steam ROM Manager on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_20_4" id="__nav_20_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Pegasus
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_20_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_20_4">
+            <span class="md-nav__icon md-icon"></span>
+            Pegasus
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tools/steamos/pegasus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pegasus on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tools/windows/pegasus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pegasus on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_20_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_20_5" id="__nav_20_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Import and Export Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_20_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_20_5">
+            <span class="md-nav__icon md-icon"></span>
+            Import and Export Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../tools/steamos/import-and-export-tool/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Import and Export Tool on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_21" id="__nav_21_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Emulators
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_21_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_21">
+            <span class="md-nav__icon md-icon"></span>
+            Emulators
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_1" id="__nav_21_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Supported Emulators
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_1">
+            <span class="md-nav__icon md-icon"></span>
+            Supported Emulators
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../supported-emulators/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supported Emulators on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/supported-emulators/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supported Emulators on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_2" id="__nav_21_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    BigPEmu (Atari Jaguar)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_2">
+            <span class="md-nav__icon md-icon"></span>
+            BigPEmu (Atari Jaguar)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bigpemu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    BigPEmu on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_3" id="__nav_21_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Cemu (Wii U)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_3">
+            <span class="md-nav__icon md-icon"></span>
+            Cemu (Wii U)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cemu/cemu-native/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cemu on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/cemu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cemu on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_4" id="__nav_21_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Citra (Nintendo 3DS)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_4">
+            <span class="md-nav__icon md-icon"></span>
+            Citra (Nintendo 3DS)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../citra/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Citra on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/citra/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Citra on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_5" id="__nav_21_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Dolphin (GameCube and Wii)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_5">
+            <span class="md-nav__icon md-icon"></span>
+            Dolphin (GameCube and Wii)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../dolphin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dolphin on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/dolphin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dolphin on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_6" id="__nav_21_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    DuckStation (PlayStation 1)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_6">
+            <span class="md-nav__icon md-icon"></span>
+            DuckStation (PlayStation 1)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../duckstation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DuckStation on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/duckstation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DuckStation on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_21_7" id="__nav_21_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Flycast (Dreamcast)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_21_7">
+            <span class="md-nav__icon md-icon"></span>
+            Flycast (Dreamcast)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Flycast on SteamOS
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Flycast on SteamOS
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flycast-table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Table of Contents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started-with-flycast" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started with Flycast
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started with Flycast">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flycast-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flycast-folder-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Folder Locations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-update-flycast" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Update Flycast
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-launch-flycast-in-desktop-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Launch Flycast in Desktop Mode
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flycast-file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast File Formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flycast-hotkeys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Hotkeys
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flycast Hotkeys">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#steam-deck-light-gun-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steam Deck Light Gun Controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flycast-tips-and-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Tips and Tricks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flycast Tips and Tricks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hle-bios" class="md-nav__link">
+    <span class="md-ellipsis">
+      HLE BIOS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install-custom-textures" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Install Custom Textures
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-configure-the-sega-dreamcast-microphone" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Configure the Sega Dreamcast Microphone
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-configure-light-gun-games" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Configure Light Gun Games
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Configure Light Gun Games">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flycast-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Controls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steam-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steam Input
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_8" id="__nav_21_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    MAME
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_8">
+            <span class="md-nav__icon md-icon"></span>
+            MAME
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mame/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MAME on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_9" id="__nav_21_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    melonDS (Nintendo DS) (Standalone)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_9">
+            <span class="md-nav__icon md-icon"></span>
+            melonDS (Nintendo DS) (Standalone)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../melonds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    melonDS on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/melonds/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    melonDS on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_10" id="__nav_21_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    mGBA (GB, GBC, and GBA) (Standalone)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_10">
+            <span class="md-nav__icon md-icon"></span>
+            mGBA (GB, GBC, and GBA) (Standalone)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mgba/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    mGBA on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_11" id="__nav_21_11_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Model 2 Emulator (Sega Model 2)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_11">
+            <span class="md-nav__icon md-icon"></span>
+            Model 2 Emulator (Sega Model 2)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../model-2-emulator/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Model 2 Emulator on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_12" id="__nav_21_12_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    PCSX2 (PlayStation 2)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_12">
+            <span class="md-nav__icon md-icon"></span>
+            PCSX2 (PlayStation 2)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pcsx2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PCSX2 on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/pcsx2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PCSX2 on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_13" id="__nav_21_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    PPSSPP (PlayStation Portable) (Standalone)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_13">
+            <span class="md-nav__icon md-icon"></span>
+            PPSSPP (PlayStation Portable) (Standalone)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ppsspp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PPSSPP on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/ppsspp/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PPSSPP on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_14" id="__nav_21_14_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    PrimeHack
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_14">
+            <span class="md-nav__icon md-icon"></span>
+            PrimeHack
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../primehack/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    PrimeHack on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_15" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_15" id="__nav_21_15_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    RetroArch
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_15">
+            <span class="md-nav__icon md-icon"></span>
+            RetroArch
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../retroarch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RetroArch on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/retroarch/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RetroArch on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_16" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_16" id="__nav_21_16_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Rosalie's Mupen GUI (Nintendo 64) (Standalone)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_16">
+            <span class="md-nav__icon md-icon"></span>
+            Rosalie's Mupen GUI (Nintendo 64) (Standalone)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rmg/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Rosalie's Mupen GUI on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_17" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_17" id="__nav_21_17_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    RPCS3 (PlayStation 3)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_17">
+            <span class="md-nav__icon md-icon"></span>
+            RPCS3 (PlayStation 3)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../rpcs3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RPCS3 on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/rpcs3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RPCS3 on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_18" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_18" id="__nav_21_18_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Ryujinx (Nintendo Switch)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_18_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_18">
+            <span class="md-nav__icon md-icon"></span>
+            Ryujinx (Nintendo Switch)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ryujinx/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ryujinx on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/ryujinx/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ryujinx on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_19" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_19" id="__nav_21_19_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    ScummVM
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_19_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_19">
+            <span class="md-nav__icon md-icon"></span>
+            ScummVM
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../scummvm/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ScummVM on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_20" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_20" id="__nav_21_20_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Supermodel (Sega Model 3)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_20_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_20">
+            <span class="md-nav__icon md-icon"></span>
+            Supermodel (Sega Model 3)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../supermodel/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Supermodel on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_21" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_21" id="__nav_21_21_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    ShadPS4 (Sony Playstation 4)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_21_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_21">
+            <span class="md-nav__icon md-icon"></span>
+            ShadPS4 (Sony Playstation 4)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../shadps4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ShadPS4 on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/shadps4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ShadPS4 on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_22" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_22" id="__nav_21_22_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Vita3K (PlayStation Vita)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_22_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_22">
+            <span class="md-nav__icon md-icon"></span>
+            Vita3K (PlayStation Vita)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vita3k/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vita3K on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_23" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_23" id="__nav_21_23_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Xemu (OG Xbox)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_23_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_23">
+            <span class="md-nav__icon md-icon"></span>
+            Xemu (OG Xbox)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../xemu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Xemu on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_24" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_24" id="__nav_21_24_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Xenia (Xbox 360)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_24_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_24">
+            <span class="md-nav__icon md-icon"></span>
+            Xenia (Xbox 360)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../xenia/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Xenia on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_21_25" >
+        
+          
+          <label class="md-nav__link" for="__nav_21_25" id="__nav_21_25_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Yuzu (Nintendo Switch)
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_21_25_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_21_25">
+            <span class="md-nav__icon md-icon"></span>
+            Yuzu (Nintendo Switch)
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../yuzu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Yuzu on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../windows/yuzu/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Yuzu on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_22" >
+        
+          
+          <label class="md-nav__link" for="__nav_22" id="__nav_22_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Save Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_22_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_22">
+            <span class="md-nav__icon md-icon"></span>
+            Save Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../save-management/steamos/save-management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Save Management on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../save-management/windows/save-management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Save Management on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_23" >
+        
+          
+          <label class="md-nav__link" for="__nav_23" id="__nav_23_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    File Management
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_23_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_23">
+            <span class="md-nav__icon md-icon"></span>
+            File Management
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../file-management/steamos/file-management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    File Management on SteamOS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../file-management/windows/file-management/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    File Management on Windows
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_24" >
+        
+          
+          <label class="md-nav__link" for="__nav_24" id="__nav_24_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Community Creations
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_24_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_24">
+            <span class="md-nav__icon md-icon"></span>
+            Community Creations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_24_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_24_1" id="__nav_24_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    EmuDeck for SteamOS
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_24_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_24_1">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for SteamOS
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community-creations/steamos/community-creations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Community Creations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community-creations/steamos/community-game-configurations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Community Game Configurations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community-creations/steamos/curated-rom-hacks-and-texture-packs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Curated ROM Hacks and Texture Packs
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community-creations/steamos/linux-tips-and-tricks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Linux Tips and Tricks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community-creations/steamos/pico-8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Pico-8
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community-creations/steamos/super-smash-bros/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Super Smash Bros
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community-creations/steamos/third-party-emulation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Third Party Emulation (Decompilations and Games)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community-creations/steamos/tools-and-guides/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools and Guides
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_24_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_24_2" id="__nav_24_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    EmuDeck for Windows
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_24_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_24_2">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck for Windows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../community-creations/windows/community-creations/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Community Creations
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_25" >
+        
+          
+          <label class="md-nav__link" for="__nav_25" id="__nav_25_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    EmuDeck Plugins
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_25_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_25">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck Plugins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_25_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../emudeck-plugins/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    EmuDeck Plugins
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_25_1" id="__nav_25_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_25_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_25_1">
+            <span class="md-nav__icon md-icon"></span>
+            EmuDeck Plugins
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emudeck-plugins/deckycontrols/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DeckyControls
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emudeck-plugins/emuchievements/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Emuchievements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../emudeck-plugins/metadeck/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MetaDeck
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_26" >
+        
+          
+          <label class="md-nav__link" for="__nav_26" id="__nav_26_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Contributing to EmuDeck
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_26_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_26">
+            <span class="md-nav__icon md-icon"></span>
+            Contributing to EmuDeck
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../how-to-contribute/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to Contribute
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#flycast-table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Table of Contents
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started-with-flycast" class="md-nav__link">
+    <span class="md-ellipsis">
+      Getting Started with Flycast
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Getting Started with Flycast">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flycast-configuration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Configuration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flycast-folder-locations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Folder Locations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-update-flycast" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Update Flycast
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-launch-flycast-in-desktop-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Launch Flycast in Desktop Mode
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flycast-file-formats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast File Formats
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flycast-hotkeys" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Hotkeys
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flycast Hotkeys">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#steam-deck-light-gun-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steam Deck Light Gun Controls
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flycast-tips-and-tricks" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Tips and Tricks
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Flycast Tips and Tricks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#hle-bios" class="md-nav__link">
+    <span class="md-ellipsis">
+      HLE BIOS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install-custom-textures" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Install Custom Textures
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-configure-the-sega-dreamcast-microphone" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Configure the Sega Dreamcast Microphone
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-configure-light-gun-games" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Configure Light Gun Games
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Configure Light Gun Games">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#flycast-controls" class="md-nav__link">
+    <span class="md-ellipsis">
+      Flycast Controls
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#steam-input" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steam Input
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="flycast-is-a-dreamcast-emulator">Flycast is a Dreamcast Emulator.<a class="headerlink" href="#flycast-is-a-dreamcast-emulator" title="Permanent link"></a></h1>
+<p>GitHub: <a href="https://github.com/flyinghead/flycast">https://github.com/flyinghead/flycast</a></p>
+<hr />
+<h2 id="flycast-table-of-contents">Flycast Table of Contents<a class="headerlink" href="#flycast-table-of-contents" title="Permanent link"></a></h2>
+<ol>
+<li>
+<p><a href="#getting-started-with-flycast">Getting Started with Flycast</a></p>
+<ul>
+<li><a href="#flycast-configuration">Configuration</a></li>
+<li><a href="#flycast-folder-locations">Flycast Folder Locations</a></li>
+<li><a href="#how-to-update-flycast">How to Update Flycast</a></li>
+<li><a href="#how-to-launch-flycast-in-desktop-mode">How to Launch Flycast in Desktop Mode</a></li>
+<li><a href="#flycast-file-formats">File Formats</a></li>
+<li><a href="#flycast-hotkeys">Hotkeys</a> <ul>
+<li><a href="#steam-deck-light-gun-controls">Steam Deck Light Gun Controls</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><a href="#flycast-tips-and-tricks">Flycast Tips and Tricks</a></p>
+<ul>
+<li><a href="#hle-bios">HLE BIOS</a></li>
+<li><a href="#how-to-install-custom-textures">How to Install Custom Textures</a></li>
+<li><a href="#how-to-configure-the-sega-dreamcast-microphone">How to Configure the Sega Dreamcast Microphone</a></li>
+<li><a href="#how-to-configure-light-gun-games">How to Configure Light Gun Games</a></li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="getting-started-with-flycast">Getting Started with Flycast<a class="headerlink" href="#getting-started-with-flycast" title="Permanent link"></a></h2>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<p>Flycast is a fairly straight-forward emulator to set up. Place your ROMs in <code>Emulation/roms/dreamcast</code>. Place your BIOS directly in <code>Emulation/bios/flycast/bios</code>. Read the <a href="#flycast-configuration">Configuration</a> section to learn more about Flycast and its folder locations.</p>
+<p>To launch your ROMs in game mode, use Steam ROM Manager and use one of the following parsers to play your Flycast ROMs:</p>
+<ul>
+<li><code>EmulationStation-DE</code></li>
+<li><code>Sega Dreamcast - Flycast (Standalone)</code></li>
+<li><code>Arcade - Atomiswave - Flycast (Standalone)</code></li>
+<li><code>Arcade - NAOMI - Flycast (Standalone)</code></li>
+<li><code>Arcade - NAOMI 2 - Flycast (Standalone)</code> </li>
+<li><code>Emulators</code></li>
+</ul>
+<hr />
+<h3 id="flycast-configuration">Flycast Configuration<a class="headerlink" href="#flycast-configuration" title="Permanent link"></a></h3>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<ul>
+<li>Type of Emulator: Flatpak</li>
+<li>Config Location: <code>$HOME/.var/app/org.flycast.Flycast</code></li>
+<li>ROM Location: </li>
+<li>Dreamcast: <code>Emulation/roms/dreamcast</code></li>
+<li>Atomiswave: <code>Emulation/roms/atomiswave</code></li>
+<li>NAOMI: <code>Emulation/roms/naomi</code></li>
+<li>NAOMI 2: <code>Emulation/roms/naomi2</code></li>
+<li>BIOS <ul>
+<li>HLE BIOS is <strong>enabled by default</strong> for Dreamcast games. BIOS for Dreamcast games is <strong>optional</strong>. However, some games may not perform as expected with HLE BIOS. You may place Dreamcast BIOS into the folder listed below to use console dumped BIOS. You will need to disable HLE BIOS in the Flycast GUI. </li>
+<li>Location: <code>Emulation/bios/flycast/bios</code><ul>
+<li>Dreamcast (Optional BIOS): <code>dc_boot.bin</code></li>
+<li>Atomiswave: <code>awbios.zip</code></li>
+<li>NAOMI: <code>naomi.zip</code></li>
+<li>NAOMI 2: <code>naomi2.zip</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Saves:<ul>
+<li>Symlink: <code>Emulation/saves/flycast/saves</code></li>
+<li>Target Location: <code>$HOME/.var/app/org.flycast.Flycast/data/flycast/</code></li>
+</ul>
+</li>
+<li>Save States:<ul>
+<li>Symlink: <code>Emulation/saves/flycast/states</code></li>
+<li>Target Location: <code>$HOME/.var/app/org.flycast.Flycast/config/data/flycast/</code></li>
+</ul>
+</li>
+</ul>
+<p><strong>Note:</strong> <code>~/.var</code> is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click <code>Show Hidden Files</code> to see these folders.</p>
+<hr />
+<h3 id="flycast-folder-locations">Flycast Folder Locations<a class="headerlink" href="#flycast-folder-locations" title="Permanent link"></a></h3>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<p>These file locations apply regardless of where you chose to install EmuDeck (to your internal SSD, to your SD Card, or elsewhere). Some emulator configuration files will be located on the internal SSD as listed below. </p>
+<p><code>$HOME</code> refers to your home folder. If you are on a Steam Deck, this folder will be named <code>/home/deck</code> (you will likely not see <code>deck</code> in the file path when navigating using the file manager). </p>
+<p>Paths beginning with <code>Emulation/..</code> correspond to your EmuDeck install location. If you installed on an SD Card, your path may be <code>/run/media/mmcblk0p1/Emulation/roms/..</code>. If you installed on your internal SSD, your path may be <code>/home/deck/Emulation/roms/..</code></p>
+<p><strong>Note:</strong> Folders with a <code>.</code> (<code>.var</code>, <code>.local</code>, <code>.config</code>, etc.) at the beginning are hidden by default. In Dolphin (file manager), click the hamburger menu in the top right, click <code>Show Hidden Files</code> to see these folders.</p>
+<p><code>$HOME/.var/app/org.flycast.Flycast</code></p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>org.flycast.Flycast/
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── config
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│   ├── data
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│   │   └── flycast
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│   └── flycast
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│       ├── emu.cfg
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│       └── mappings
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│           ├── SDL_Keyboard.cfg
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│           └── SDL_Microsoft X-Box 360 pad 0.cfg
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>└── data
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    └── flycast
+</span></code></pre></div>
+<hr />
+<h3 id="how-to-update-flycast">How to Update Flycast<a class="headerlink" href="#how-to-update-flycast" title="Permanent link"></a></h3>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<ul>
+<li>Update through <code>Discover</code> (Shopping bag icon)</li>
+<li>Through the <code>Update your Emulators &amp; Tools</code> section on the <code>Manage Emulators</code> page in the <code>EmuDeck</code> application</li>
+</ul>
+<hr />
+<h3 id="how-to-launch-flycast-in-desktop-mode">How to Launch Flycast in Desktop Mode<a class="headerlink" href="#how-to-launch-flycast-in-desktop-mode" title="Permanent link"></a></h3>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<ul>
+<li>Launch <code>Flycast</code> from the Applications Launcher (Steam Deck icon in the bottom left of the taskbar)</li>
+<li>Launch the script from <code>Emulation/tools/launchers</code>, <code>flycast.sh</code></li>
+<li>Launch the emulator from <code>Steam</code> after adding it via the <code>Emulators</code> parser in <code>Steam ROM Manager</code></li>
+</ul>
+<hr />
+<h3 id="flycast-file-formats">Flycast File Formats<a class="headerlink" href="#flycast-file-formats" title="Permanent link"></a></h3>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<ul>
+<li>.cdi</li>
+<li>.chd </li>
+<li><code>.cue and .bin</code> </li>
+<li><code>.gdi and .bin</code></li>
+<li>.zip</li>
+</ul>
+<hr />
+<h3 id="flycast-hotkeys">Flycast Hotkeys<a class="headerlink" href="#flycast-hotkeys" title="Permanent link"></a></h3>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Hotkey</th>
+<th style="text-align: left;">Flycast</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Quick Menu</td>
+<td style="text-align: left;"><code>Select</code> or <code>TAB</code> or <code>STEAM</code> + <code>DPad Down</code>*</td>
+</tr>
+<tr>
+<td style="text-align: left;">Fast Forward</td>
+<td style="text-align: left;"><code>STEAM</code> + <code>DPad Right</code> or <code>ENTER</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Stop Emulation</td>
+<td style="text-align: left;"><code>STEAM</code> + <code>DPad Left</code> or <code>ESCAPE</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Insert Coin</td>
+<td style="text-align: left;"><code>Select</code>*</td>
+</tr>
+<tr>
+<td style="text-align: left;">Service Key</td>
+<td style="text-align: left;"><code>L3</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Test Key</td>
+<td style="text-align: left;"><code>R3</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Insert Card</td>
+<td style="text-align: left;"><code>Enter</code> or <code>STEAM</code> + <code>DPad Right</code>*</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>When playing arcade games through Flycast, the <code>Select</code> button will no longer open the <code>Quick Menu</code>. For arcade games specifically, the <code>Select</code> button is mapped to <code>Insert Coin</code>. For Dreamcast games, the <code>Select</code> button is mapped to the <code>Quick Menu</code></li>
+<li>When playing arcade games through Flycast, <code>STEAM</code> + <code>DPad Right</code> will no longer <code>Fast Forward</code>. For arcade games specifically, <code>STEAM</code> + <code>DPad Right</code> is mapped to <code>Insert Card</code>. For Dreamcast games, the <code>STEAM</code> + <code>DPad Right</code> button is mapped to <code>Fast Forward</code></li>
+</ul>
+<h4 id="steam-deck-light-gun-controls">Steam Deck Light Gun Controls<a class="headerlink" href="#steam-deck-light-gun-controls" title="Permanent link"></a></h4>
+<p>Flycast also comes with a <code>EmuDeck - Steam Deck Light Gun Controls</code> profile intended to be used with light gun games. To use this profile, apply it manually. For instructions, see <a href="../../../controls-and-hotkeys/steamos/hotkeys/#how-to-select-a-steam-input-profile">How to Select a Steam Input Profile</a>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Controls</th>
+<th style="text-align: left;">EmuDeck - Steam Deck Light Gun Controls</th>
+<th style="text-align: left;">General Notes</th>
+<th style="text-align: left;">Emulator Specific Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Left Trackpad</td>
+<td style="text-align: left;">Mouse and Right Click on Click</td>
+<td style="text-align: left;">Mouse sensitivity set to 100%</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">Right Trackpad</td>
+<td style="text-align: left;">Mouse and Left Click on Click</td>
+<td style="text-align: left;">Mouse sensitivity increased to 200%</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">R2</td>
+<td style="text-align: left;">Left Click</td>
+<td style="text-align: left;">Typically used to shoot</td>
+<td style="text-align: left;">When using MAME, move the cursor to the bottom left of the screen, and click L2 or R2 depending on the game to reload</td>
+</tr>
+<tr>
+<td style="text-align: left;">L2</td>
+<td style="text-align: left;">Right Click</td>
+<td style="text-align: left;">Typically used to reload</td>
+<td style="text-align: left;">When using MAME, move the cursor to the bottom left of the screen, and click L2 or R2 depending on the game to reload</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="flycast-tips-and-tricks">Flycast Tips and Tricks<a class="headerlink" href="#flycast-tips-and-tricks" title="Permanent link"></a></h2>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<hr />
+<h3 id="hle-bios">HLE BIOS<a class="headerlink" href="#hle-bios" title="Permanent link"></a></h3>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<p>HLE BIOS is <strong>enabled by default</strong> for Dreamcast games. BIOS for Dreamcast games is <strong>optional</strong>. However, some games may not perform as expected with the HLE BIOS or you may need additional features provided by console dumped BIOS. </p>
+<p>In order to use console dumped BIOS, you may place the files required into the <code>Emulation/bios/flycast/bios</code> folder. You will also need to disable HLE BIOS in the Flycast GUI. </p>
+<p><a class="glightbox" href="../../../assets/flycast-hle-bios.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="Flycast HLE BIOS" src="../../../assets/flycast-hle-bios.png" /></a></p>
+<hr />
+<h3 id="how-to-install-custom-textures">How to Install Custom Textures<a class="headerlink" href="#how-to-install-custom-textures" title="Permanent link"></a></h3>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<p><strong>Texture Pack Sources</strong></p>
+<p><em>This list is not exhaustive</em></p>
+<ul>
+<li><a href="https://old.reddit.com/r/Flycast_texture_packs/">https://old.reddit.com/r/Flycast_texture_packs/</a></li>
+</ul>
+<ol>
+<li>Open the <code>/home/deck/.var/app/org.flycast.Flycast/data/</code> folder<ul>
+<li><code>~/.var</code> is a hidden folder by default. In Dolphin (file manager), click the hamburger menu in the top right, click <code>Show Hidden Files</code> to see these folders</li>
+</ul>
+</li>
+<li>Create two folders: <code>TEXDUMP</code> and <code>TEXTURES</code>, casing matters</li>
+<li>Place your texture pack(s) in <code>/home/deck/.var/app/org.flycast.Flycast/data/TEXTURES</code></li>
+<li>Open Flycast, click the <code>Video</code> tab, scroll to the <code>Texture Upscaling</code> section, check <code>Load Custom Textures</code></li>
+<li>Your texture pack will now be installed</li>
+</ol>
+<hr />
+<h3 id="how-to-configure-the-sega-dreamcast-microphone">How to Configure the Sega Dreamcast Microphone<a class="headerlink" href="#how-to-configure-the-sega-dreamcast-microphone" title="Permanent link"></a></h3>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<p>For a full list of games that used the Sega Dreamcast Microphone, see <a href="https://segaretro.org/Dreamcast_Microphone">https://segaretro.org/Dreamcast_Microphone</a>.</p>
+<ol>
+<li>Open Flycast</li>
+<li>Click the <code>Controls</code> tab</li>
+<li>Under the <code>Dreamcast Devices</code> section, on the <code>Port A</code> controller, set the first port to <code>Sega VMU</code> and the second port to <code>Microphone</code></li>
+<li>Exit out of Flycast and your microphone will now automatically be enabled</li>
+</ol>
+<p>To set this on a per-game setting:</p>
+<ol>
+<li>Open the respective game</li>
+<li>Press the <code>Select</code> button</li>
+<li>Click <code>Settings</code></li>
+<li>Click the <code>Controls</code> tab</li>
+<li>Under the <code>Dreamcast Devices</code> section, on the <code>Port A</code> controller, set the first port to <code>Sega VMU</code> and the second port to <code>Microphone</code></li>
+<li>Click <code>Make Game Config</code> at the top of the screen</li>
+<li>Exit out of the settings and your microphone will only be enabled for this game</li>
+</ol>
+<hr />
+<h3 id="how-to-configure-light-gun-games">How to Configure Light Gun Games<a class="headerlink" href="#how-to-configure-light-gun-games" title="Permanent link"></a></h3>
+<p><a href="#flycast-table-of-contents">Back to the Top</a></p>
+<h4 id="flycast-controls">Flycast Controls<a class="headerlink" href="#flycast-controls" title="Permanent link"></a></h4>
+<ol>
+<li>Open a game with light gun support</li>
+<li>Press <code>STEAM</code> or <code>...</code> + <code>DPad Down</code> to open the <code>Quick Menu</code></li>
+<li>At the top, click <code>Make Game Config</code></li>
+<li>Click the <code>Controls</code> Tab</li>
+<li>Scroll down to <code>Dreamcast Devices</code></li>
+<li>Set the <code>Port A</code> controller to <code>Light Gun</code> and check the <code>Crosshair</code> box</li>
+</ol>
+<h4 id="steam-input">Steam Input<a class="headerlink" href="#steam-input" title="Permanent link"></a></h4>
+<ol>
+<li>In Game Mode, single click the game you would like to change the Steam Input Profile for, and click the <code>Controller Icon</code> on the right of the screen. Click the layout (whichever name it is currently set to) at the top</li>
+<li>Click the <code>Templates</code> tab</li>
+<li>Select the <code>EmuDeck - Steam Deck Light Gun Controls</code> profile</li>
+<li>Light gun controls will now be configured for this game</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Controls</th>
+<th style="text-align: left;">EmuDeck - Steam Deck Light Gun Controls</th>
+<th style="text-align: left;">General Notes</th>
+<th style="text-align: left;">Emulator Specific Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Left Trackpad</td>
+<td style="text-align: left;">Mouse and Right Click on Click</td>
+<td style="text-align: left;">Mouse sensitivity set to 100%</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">Right Trackpad</td>
+<td style="text-align: left;">Mouse and Left Click on Click</td>
+<td style="text-align: left;">Mouse sensitivity increased to 200%</td>
+<td style="text-align: left;">-</td>
+</tr>
+<tr>
+<td style="text-align: left;">R2</td>
+<td style="text-align: left;">Left Click</td>
+<td style="text-align: left;">Typically used to shoot</td>
+<td style="text-align: left;">When using MAME, move the cursor to the bottom left of the screen, and click L2 or R2 depending on the game to reload</td>
+</tr>
+<tr>
+<td style="text-align: left;">L2</td>
+<td style="text-align: left;">Right Click</td>
+<td style="text-align: left;">Typically used to reload</td>
+<td style="text-align: left;">When using MAME, move the cursor to the bottom left of the screen, and click L2 or R2 depending on the game to reload</td>
+</tr>
+</tbody>
+</table>
+<hr />
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 11, 2025</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Created">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 11, 2025</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright Creative Commons Attribution-ShareAlike 4.0 International
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.emudeck.com/" target="_blank" rel="noopener" title="www.emudeck.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" width="467" height="214" viewBox="0 0 467 214" version="1.1"><path d="M 364.491 78.844 C 357.796 82.012, 352.769 87.113, 349.606 93.949 C 347.909 97.617, 347.500 100.440, 347.500 108.500 C 347.500 116.560, 347.909 119.383, 349.606 123.051 C 352.684 129.704, 357.381 134.549, 363.818 137.710 C 368.758 140.136, 370.675 140.500, 378.500 140.500 C 386.241 140.500, 388.270 140.123, 393 137.809 C 402.884 132.974, 402.825 133.117, 397.934 125.825 C 395.600 122.346, 393.592 119.369, 393.471 119.209 C 393.351 119.050, 391.733 119.814, 389.876 120.909 C 385.439 123.525, 379.339 124.276, 375.035 122.738 C 364.636 119.022, 363.943 99.383, 374.030 94.279 C 377.393 92.578, 384.303 92.682, 388.654 94.500 C 390.629 95.325, 392.375 96, 392.536 96 C 392.696 96, 394.645 92.847, 396.867 88.993 L 400.907 81.985 398.687 80.531 C 394.023 77.474, 387.655 76, 379.124 76.001 C 371.725 76.001, 369.647 76.405, 364.491 78.844 M 27.667 77.667 C 27.300 78.033, 27 91.983, 27 108.667 L 27 139 48 139 L 69 139 69 135 L 69 131 53 131 L 37 131 37 121.500 L 37 112 51.557 112 L 66.115 112 65.807 107.750 L 65.500 103.500 51.250 103.223 L 37 102.945 37 94.473 L 37 86 52.500 86 L 68 86 68 81.500 L 68 77 48.167 77 C 37.258 77, 28.033 77.300, 27.667 77.667 M 80 108 L 80 139 84.500 139 L 89 139 89.035 114.750 L 89.070 90.500 98.932 114.500 L 108.793 138.500 112.146 138.787 L 115.500 139.075 125 115.787 L 134.500 92.500 134.768 115.750 L 135.037 139 140.033 139 L 145.029 139 144.764 108.250 L 144.500 77.500 138 77.500 L 131.500 77.500 122.022 100.222 C 116.809 112.719, 112.270 122.619, 111.935 122.222 C 111.600 121.825, 107.588 112.500, 103.019 101.500 C 98.449 90.500, 94.253 80.487, 93.695 79.250 C 92.796 77.260, 91.946 77, 86.339 77 L 80 77 80 108 M 158.369 78.481 C 158.056 79.296, 157.979 89.533, 158.197 101.231 C 158.627 124.356, 159.278 127.521, 164.803 133.342 C 169.581 138.376, 174.728 140.441, 182.500 140.441 C 190.627 140.441, 195.857 138.205, 200.739 132.645 C 205.979 126.677, 206.500 123.678, 206.500 99.500 L 206.500 77.500 202 77.500 L 197.500 77.500 197 100 C 196.562 119.723, 196.267 122.884, 194.614 125.614 C 192.016 129.906, 188.044 132, 182.500 132 C 176.580 132, 172.822 129.796, 169.865 124.590 C 167.670 120.726, 167.521 119.299, 167.161 98.750 L 166.780 77 162.859 77 C 160.318 77, 158.737 77.521, 158.369 78.481 M 234 107.981 L 234 139.172 250.276 138.836 C 266.351 138.504, 266.635 138.459, 273.220 135.215 C 284.623 129.597, 289.365 121.638, 289.434 108 C 289.487 97.544, 287.199 92.162, 279.916 85.614 C 272.537 78.980, 268.210 77.780, 249.750 77.246 L 234 76.790 234 107.981 M 297 108 L 297 139 319.042 139 L 341.084 139 340.792 131.250 L 340.500 123.500 327.750 123.220 L 315 122.940 315 119.470 L 315 116 326 116 L 337 116 337 108 L 337 100 326 100 L 315 100 315 96.500 L 315 93 328 93 L 341 93 341 85 L 341 77 319 77 L 297 77 297 108 M 407 107.962 L 407 139 416.500 139 L 426 139 426 130.155 C 426 122.633, 426.294 121.044, 427.964 119.532 C 429.884 117.795, 430.084 117.997, 436.714 128.340 L 443.500 138.925 455.250 138.963 C 461.712 138.983, 467 138.812, 467 138.582 C 467 138.352, 461.600 130.422, 455 120.959 C 448.400 111.496, 443.015 103.472, 443.034 103.127 C 443.052 102.782, 448.002 97.114, 454.034 90.532 C 460.065 83.949, 465 78.212, 465 77.782 C 465 77.352, 460.069 77, 454.043 77 L 443.086 77 434.793 87.141 L 426.500 97.281 426 87.391 L 425.500 77.500 416.250 77.212 L 407 76.925 407 107.962 M 252.803 108.627 L 253.106 123.257 257.738 122.622 C 260.286 122.273, 263.449 121.280, 264.769 120.416 C 269.635 117.227, 271.475 107.466, 268.536 100.432 C 266.857 96.413, 262.263 94.001, 256.282 93.998 L 252.500 93.997 252.803 108.627" stroke="none" fill="#fffcfc" fill-rule="evenodd"/><path d="" stroke="none" fill="#fcfcfc" fill-rule="evenodd"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/EmuDeck" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://discord.gg/b9F7GpXtFP" target="_blank" rel="noopener" title="discord.gg" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M524.531 69.836a1.5 1.5 0 0 0-.764-.7A485 485 0 0 0 404.081 32.03a1.82 1.82 0 0 0-1.923.91 338 338 0 0 0-14.9 30.6 447.9 447.9 0 0 0-134.426 0 310 310 0 0 0-15.135-30.6 1.89 1.89 0 0 0-1.924-.91 483.7 483.7 0 0 0-119.688 37.107 1.7 1.7 0 0 0-.788.676C39.068 183.651 18.186 294.69 28.43 404.354a2.02 2.02 0 0 0 .765 1.375 487.7 487.7 0 0 0 146.825 74.189 1.9 1.9 0 0 0 2.063-.676A348 348 0 0 0 208.12 430.4a1.86 1.86 0 0 0-1.019-2.588 321 321 0 0 1-45.868-21.853 1.885 1.885 0 0 1-.185-3.126 251 251 0 0 0 9.109-7.137 1.82 1.82 0 0 1 1.9-.256c96.229 43.917 200.41 43.917 295.5 0a1.81 1.81 0 0 1 1.924.233 235 235 0 0 0 9.132 7.16 1.884 1.884 0 0 1-.162 3.126 301.4 301.4 0 0 1-45.89 21.83 1.875 1.875 0 0 0-1 2.611 391 391 0 0 0 30.014 48.815 1.86 1.86 0 0 0 2.063.7A486 486 0 0 0 610.7 405.729a1.88 1.88 0 0 0 .765-1.352c12.264-126.783-20.532-236.912-86.934-334.541M222.491 337.58c-28.972 0-52.844-26.587-52.844-59.239s23.409-59.241 52.844-59.241c29.665 0 53.306 26.82 52.843 59.239 0 32.654-23.41 59.241-52.843 59.241m195.38 0c-28.971 0-52.843-26.587-52.843-59.239s23.409-59.241 52.843-59.241c29.667 0 53.307 26.82 52.844 59.239 0 32.654-23.177 59.241-52.844 59.241"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://twitter.com/EmuDeck" target="_blank" rel="noopener" title="twitter.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.patreon.com/dragoonDorise" target="_blank" rel="noopener" title="www.patreon.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M489.7 153.8c-.1-65.4-51-119-110.7-138.3C304.8-8.5 207-5 136.1 28.4 50.3 68.9 23.3 157.7 22.3 246.2 21.5 319 28.7 510.6 136.9 512c80.3 1 92.3-102.5 129.5-152.3 26.4-35.5 60.5-45.5 102.4-55.9 72-17.8 121.1-74.7 121-150z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.top", "search.suggest", "search.highlight", "search.share", "navigation.tabs.sticky", "navigation.path", "toc.follow", "navigation.indexes", "content.tooltips", "navigation.instant", "navigation.sections", "content.code.copy", "content.code.annotate", "announce.dismiss"], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.88dd0f4e.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../../../javascripts/tablesort.js"></script>
+      
+    
+  <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(() => { lightbox.reload() });
+</script></body>
+</html>

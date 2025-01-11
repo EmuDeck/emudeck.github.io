@@ -1,0 +1,16 @@
+Hotkey,RMG
+Toggle Full Screen,`Select` + `R3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Next Save State Slot,`Start` + `R1`
+Previous Save State Slot,`Start` + `L1`
+1x Speed/Regular Speed,`Select` + `L2`
+2x Speed/Fast Forward,`Select` + `R2`
+Pause/Play,`Select` + `A`
+Screenshot,`Select` + `B`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start`
+Switch to Memory Pak,`Start` + `DPad Up`
+Remove Pak,`Start` + `Dpad Down`
+Limit FPS,`Start` + `DPad Left`
+Switch to Rumble Pak,`Start` + `DPad Right`

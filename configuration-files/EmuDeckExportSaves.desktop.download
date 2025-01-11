@@ -1,0 +1,19 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=sh -c 'curl -L https://raw.githubusercontent.com/dragoonDorise/EmuDeck/main/export.sh | bash'
+GenericName[en_US]=
+GenericName=
+MimeType=
+Name[en]=EmuDeck Export tool
+Name[es]=EmuDeck Export tool
+Name=EmuDeck Export tool
+Path=
+StartupNotify=false
+Terminal=true
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

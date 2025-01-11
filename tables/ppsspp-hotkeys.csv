@@ -1,0 +1,11 @@
+Hotkey,PPSSPP
+Quick Menu,`Steam` + `DPad Left`
+Quick Menu,`Select` + `R3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Next Save State Slot,`Start` + `R1`
+Previous Save State Slot,`Start` + `L1`
+Fast Forward,`Select` + `R2`
+Rewind,`Select` + `R2`
+Screenshot,`Select` + `B`
+Stop Emulation,`Start` + `Select`

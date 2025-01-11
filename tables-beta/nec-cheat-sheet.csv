@@ -1,0 +1,6 @@
+﻿Console/System,ROM Folder Name,Emulator (Click for Link),File Types,BIOS Files
+NEC TurboGrafx-16 / PC Engine,`tg16` or `pcengine`,[RetroArch Beetle PCE](https://docs.libretro.com/library/beetle_pce_fast/),.pce  `.cue and .bin`  .ccd  .iso   .img  .bin  .chd,`syscard1.pce` `syscard2.pce` `syscard3.pce` `gexpress.pce`
+NEC TurboGrafx-16 CD / PC Engine CD,`tg-cd` or `pcenginecd`,[RetroArch Beetle PCE](https://docs.libretro.com/library/beetle_pce_fast/),.pce  `.cue and .bin`  .ccd  .iso   .img  .bin  .chd,`syscard1.pce` `syscard2.pce` `syscard3.pce` `gexpress.pce`
+**NEC TurboGrafx-16 / PC Engine (Standalone)**,`tg16` or `pcengine`,**[ares (Standalone)](https://ares-emu.net/compatibility)**,.pce  `.cue and .bin`  .ccd  .iso   .img  .bin  .chd,Not Applicable
+**NEC TurboGrafx-16 CD / PC Engine CD (Standalone)**,`tg-cd` or `pcenginecd`,**[ares (Standalone)](https://ares-emu.net/compatibility)**,.pce  `.cue and .bin`  .ccd  .iso   .img  .bin  .chd,* `syscard3u.pce` (US) <br> * `syscard3.pce` (Japan)
+**NEC SuperGrafx (Standalone)**,`supergrafx`,**[ares (Standalone)](https://ares-emu.net/compatibility)**,.pce  `.cue and .bin`  .ccd  .iso   .img  .bin  .chd,Not Applicable

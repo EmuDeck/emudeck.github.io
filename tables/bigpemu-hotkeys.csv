@@ -1,0 +1,8 @@
+Hotkey,BigPEmu
+Menu,`Select` + `R3`
+Exit,`Select` + `Start`
+Fast Forward,`Start` + `R2`
+Rewind,`Start` + `L2`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Screenshot,`Select` + `B`

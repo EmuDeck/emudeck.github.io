@@ -1,0 +1,11 @@
+﻿Hotkey,mGBA
+Quick Menu,`Select` + `R3`
+Toggle Full Screen,`Start` + `L3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Fast Forward,`Select` + `R2`
+Pause/Play,`Select` + `A`
+Screenshot,`Select` + `B`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start` or hold `L5` or hold `R5`
+Open Cheats Menu,`Start` + `DPad Right`

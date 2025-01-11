@@ -1,0 +1,18 @@
+﻿Hotkeys,RetroArch
+Quick Menu,`L3` + `R3` or `Select` + `R3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Next Save State Slot,`Select` + `DPAD Right`
+Previous Save State Slot,`Select` + `DPAD Left`
+Fast Forward,`Select` + `R2`
+Rewind,`Select` + `L2`
+Pause/Play,`Select` + `A`
+Screenshot,`Select` + `B`
+Swap Disc,`Select` + `Y`
+Toggle FPS Display,`Select` + `X`
+Reset Emulation,`Select` + `L3`
+Stop Emulation,`Select` + `Start`
+Close/Open Lid (Nintendo DS),`L3`
+Toggle Runahead,`Select` + `DPad Up`
+Blow Mic  (Nintendo DS),`L2`
+Toggle Screen Layout (Nintendo DS),`R2`

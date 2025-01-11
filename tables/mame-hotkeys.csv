@@ -1,0 +1,8 @@
+﻿Hotkey,MAME
+Quick Menu*,`STEAM` + `DPad Down` or `Select` + `R3`
+Save State,`Select` + `R1`
+Load State,`Select` + `L1`
+Fast Forward,`Select` + `R2`
+Stop Emulation,`Select` + `Start` or `STEAM` + `DPad Left`
+Coin for Player,`Select`
+Start for Player,`Start`

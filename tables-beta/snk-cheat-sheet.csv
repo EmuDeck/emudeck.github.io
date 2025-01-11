@@ -1,0 +1,6 @@
+﻿System,ROM Folder Name,Emulator (Click for Link),File Format,BIOS Files
+**SNK Neo Geo CD (Standalone)**,`neogeocd` or `neogeocdjp`,**[MAME (Standalone)](https://www.mamedev.org/)**,.chd,Place `neocdz.zip` in `Emulation/roms/neogeocd` or `Emulation/roms/neogeocdjp` (matching the location of your ROMs)
+SNK  Neo Geo Pocket,ngp,[RetroArch Beetle NeoPop](https://docs.libretro.com/library/beetle_neopop/),.7z  .ngp  .ngc .zip,Not Applicable
+**SNK  Neo Geo Pocket (Standalone)**,ngp,**[ares (Standalone)](https://ares-emu.net/compatibility)**,.7z  .ngp  .ngc .zip,Not Applicable
+SNK  Neo Geo Pocket Color,ngpc,[RetroArch Beetle NeoPop](https://docs.libretro.com/library/beetle_neopop/),.7z  .ngp  .ngc .zip,Not Applicable
+**SNK  Neo Geo Pocket Color (Standalone)**,ngpc,**[ares (Standalone)](https://ares-emu.net/compatibility)**,.7z  .ngp  .ngc .zip,Not Applicable

@@ -1,0 +1,4 @@
+﻿Hotkey,Model 2 Emulator,Notes
+Stop Emulation,Not supported by emulator,Workaround: Press the `STEAM` button (`HOME` + `A` on an external controller) and press the controller `X` button on the game tab to close the game
+Service Menu,F2,Bind a button to F2 through Steam Input to access the Service Menu
+Navigate Service Menu,F1,Bind a button to F1 through Steam Input to navigate the Service Menu
