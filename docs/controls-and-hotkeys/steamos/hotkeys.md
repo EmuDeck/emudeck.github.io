@@ -401,7 +401,12 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 
 **Note** 
 
-* The `Blow Mic` hotkey only works if you are using the gamepad. 
+* The `Blow Mic` hotkey only works if you are using the gamepad.
+  * Some users have reported issues with the hotkey not working. As a workaround, you can use the Steam Deck's internal microphone by following these steps:
+    
+    1. Open the `Steam Deck Settings`.
+    2. Navigate to `Audio` > `Voice`.
+    3. Adjust the desired microphone volume to a value above 0%.
 * For a tutorial on how to select Steam Input Profiles, see [How to Select a Steam Input Profile](#how-to-select-a-steam-input-profile).
 * If you would like to use touch menus, apply the `EmuDeck - Steam Deck Radial Menus` profile instead.  
 
