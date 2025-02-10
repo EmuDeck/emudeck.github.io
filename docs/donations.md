@@ -110,7 +110,7 @@ No donation link found at this time.
 
 ## Ryujinx
 
-* [Patreon](https://www.patreon.com/ryujinx)
+No donation link for Greem's fork at this time.
 
 ## ScummVM
 
