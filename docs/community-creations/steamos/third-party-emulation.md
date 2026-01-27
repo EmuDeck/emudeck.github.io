@@ -40,6 +40,7 @@ The guides on this page are not officially supported by EmuDeck. Many require so
 2. [Emulators](#emulators)
     - [BlueMaxima's Flashpoint](#bluemaximas-flashpoint)
     - [Hypseus Singe](#hypseus-singe)
+    - [Kemulator nnmod](#kemulator-nnmod)
 
 3. [Emulation Related Games](#emulation-related-games)
     - [AM2R](#am2r) 
@@ -1817,6 +1818,10 @@ Link: [https://gist.github.com/parkerlreed/4bd1f5fa38f7ffa72f9ceacb7d7f636d](htt
 Link: [https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#hypseus-singe-daphne](https://gitlab.com/es-de/emulationstation-de/-/blob/master/USERGUIDE.md#hypseus-singe-daphne)
 
 *** 
+### Kemulator nnmod
+1. Follow the EmuDeck guide for installing Java on Linux [https://emudeck.github.io/community-creations/steamos/linux-tips-and-tricks/](https://emudeck.github.io/community-creations/steamos/linux-tips-and-tricks/) 
+2. Download the latest version of Kemulator nnmod multiplatform, [https://nnproject.cc/kem/](https://nnproject.cc/kem/) to /home/deck/Applications
+3. Right click `kemulator.sh`, click `Permissions`, check `Allow executing file as program`
 
 ## Emulation Related Games
 
