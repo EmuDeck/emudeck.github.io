@@ -13,7 +13,7 @@
 
 Website: [https://rpcs3.net/](https://rpcs3.net/)
 
-Quickstart Guide: [https://rpcs3.net/quickstart](htt    ps://rpcs3.net/quickstart)
+Quickstart Guide: [https://rpcs3.net/quickstart](https://rpcs3.net/quickstart)
 
 GitHub: [https://github.com/RPCS3/rpcs3](https://github.com/RPCS3/rpcs3)
 
