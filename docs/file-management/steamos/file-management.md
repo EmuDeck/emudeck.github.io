@@ -62,6 +62,7 @@ Emulators will typically treat the M3U file itself as the ROM and auto-play the 
     * [How to Manage Multiple Discs in PCSX2](../../emulators/steamos/pcsx2.md#how-to-manage-multiple-discs)
 * Xenia does not support M3U files
     * [How to Manage Multiple Discs in Xenia](../../emulators/steamos/xenia.md#how-to-manage-multiple-discs)
+* Flycast does not support M3U files
 
 ***
 
