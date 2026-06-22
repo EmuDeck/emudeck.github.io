@@ -101,7 +101,7 @@ A couple of good websites to get you started:
 
 * [https://dumping.guide/start](https://dumping.guide/start)
 * [https://wiki.no-intro.org/index.php?title=Dumping_Guides](https://wiki.no-intro.org/index.php?title=Dumping_Guides)
-* [http://wiki.redump.org/index.php?title=Dumping_Guides](http://wiki.redump.org/index.php?title=Dumping_Guides)
+* [https://wiki.redump.info/index.php?title=Dumping_Guides](https://wiki.redump.info/index.php?title=Dumping_Guides)
 * [https://3ds.hacks.guide/](https://3ds.hacks.guide/)
 * [https://cemu.cfw.guide/using-dumpling.html](https://cemu.cfw.guide/using-dumpling.html)
 * [https://yuzu-emu.org/help/quickstart/](https://yuzu-emu.org/help/quickstart/)

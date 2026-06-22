@@ -158,7 +158,7 @@ Do note that Dolphin and PCSX2 have built in verification tools. If you are usin
 
 #### How to Verify a ROM is Valid
 
-For one reason or another, your ROM may be corrupt and may not work properly. One way to confirm that you have a valid ROM is by comparing it to the ROM page on [redump.org](http://redump.org). Redump is an internet community "dedicated to collecting precise and accurate information about every video game ever released". You can validate your ROM by comparing its MD5 Checksum, a 32-character hexadecimal number that is computed on a file, to the MD5 Checksum on [redump.org](http://redump.org). 
+For one reason or another, your ROM may be corrupt and may not work properly. One way to confirm that you have a valid ROM is by comparing it to the ROM page on [redump.info](https://redump.info). Redump is an internet community "dedicated to collecting precise and accurate information about every video game ever released". You can validate your ROM by comparing its MD5 Checksum, a 32-character hexadecimal number that is computed on a file, to the MD5 Checksum on [redump.info](https://redump.info). 
 
 Alternatively, you may also use No-Intro's DAT-o-MATIC, [https://datomatic.no-intro.org/](https://datomatic.no-intro.org/). No-Intro is an internet community similar to Redump. For No-Intro's website, see [https://no-intro.org/](https://no-intro.org/). 
 
@@ -179,9 +179,9 @@ Alternatively, you may also use No-Intro's DAT-o-MATIC, [https://datomatic.no-in
 
 #### How to Compare your MD5 Checksum to Redump
 
-1. Open [redump.org](https://redump.org), and search for your ROM 
-     * For example, Vampire Night's page: [http://redump.org/disc/13152/](http://redump.org/disc/13152/)
-2. Note down the MD5 Checksum on the redump.org page and compare it to your ROM
+1. Open [redump.info](https://redump.info), and search for your ROM 
+     * For example, Vampire Night's page: [https://redump.info/disc/13152/](https://redump.info/disc/13152/)
+2. Note down the MD5 Checksum on the redump.info page and compare it to your ROM
      * Using Vampire Night as an example:
          * MD5 Checksum on the ROM: <img src="https://user-images.githubusercontent.com/108900299/222926493-df0a8680-ba47-497c-a372-25905943d412.png" height="300">
          * Redump's MD5 Checksum: <img src="https://user-images.githubusercontent.com/108900299/222926621-b1b64ee7-0ed4-4a37-b22c-109c851bd836.png" height="300">
