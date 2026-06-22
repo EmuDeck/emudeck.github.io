@@ -62,7 +62,7 @@ Legally, BIOS must be obtained from your console. Various emulator websites have
 Here are a list of resources for the various consoles:
 
 * Microsoft Xbox (OG)
-    * [http://wiki.redump.org/index.php?title=Microsoft_Xbox_and_Xbox_360_Dumping_Guide](http://wiki.redump.org/index.php?title=Microsoft_Xbox_and_Xbox_360_Dumping_Guide)
+    * [https://wiki.redump.info/index.php?title=Microsoft_Xbox_and_Xbox_360_Dumping_Guide](https://wiki.redump.info/index.php?title=Microsoft_Xbox_and_Xbox_360_Dumping_Guide)
 * Nintendo DS
     * [https://dumping.guide/carts/nintendo/ds](https://dumping.guide/carts/nintendo/ds)
 * Nintendo Switch
