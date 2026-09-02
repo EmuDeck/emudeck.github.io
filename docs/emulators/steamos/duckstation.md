@@ -28,6 +28,7 @@ Compatibility List: [https://docs.google.com/spreadsheets/d/e/2PACX-1vRE0jjiK_al
     - [How to Roll Back DuckStation to an Older Version](#how-to-roll-back-duckstation-to-an-older-version)
     - [How to Create CUE files](../../file-management/steamos/file-management.md#how-to-create-cue-files)
     - [How to Configure Language Settings](#how-to-configure-language-settings)
+    - [How to Add .sbi Files for Multi-Disc Games](#how-to-add-sbi-files-for-multi-disc-games)
 
 ***
 
@@ -271,5 +272,27 @@ Some games may not have language options. For a full list of which games have la
 2. Depending on the game:
     * Select your preferred language on the initial launch of the game
     * In the main menu of the game, open the Options menu and select your preferred language
+
+***
+
+### How to Add .sbi Files for Multi-Disc Games
+[Back to the Top](#duckstation-table-of-contents)
+
+If you are using the multi-disc method described [here](../../tools/steamos/es-de.md#how-to-manage-multiple-discs), which uses .m3u files (and folders), you may need to place the corresponding `.sbi` files in DuckStation's **subchannels** directory so that the emulator can properly detect them.
+
+The `.sbi` files must follow the same naming convention as their corresponding `.chd` files. In other words, the `.sbi` and `.chd` files must have exactly the same filename, with only the file extension differing.
+
+For example:
+
+```
+Final Fantasy IX (Disc 1).chd
+Final Fantasy IX (Disc 1).sbi
+```
+
+Place the `.sbi` files in DuckStation's subchannels directory:
+
+`/home/deck/.local/share/duckstation/subchannels/`
+
+Once the files are placed there, DuckStation will be able to locate the required subchannel data when launching multi-disc games through an `.m3u` file.
 
 ***
