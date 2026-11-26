@@ -680,7 +680,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
         [Wii]
         Language = 1
 
-7. Replace the `0` with the language you would like to use:
+7. Replace the `1` with the language you would like to use:
     * 0 = Japanese
     * 1 = English
     * 2 = German
