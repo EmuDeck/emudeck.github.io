@@ -648,6 +648,8 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
 
 #### In-Game
 
+ES-DE's application language and Dolphin's user-interface language only affect those interfaces; they do not select the language used by a GameCube or Wii game launched from ES-DE. Game language is controlled by Dolphin's emulated-console settings or by the per-game settings below. A per-game `Game Config` can override Dolphin's global console language, and the game release must include the language you want to use.
+
 ##### Gamecube
 
 1. In Desktop Mode, open Dolphin
@@ -680,7 +682,7 @@ Solution 2: Add `sudo` in front of the commands written in Step 2 and Step 5. In
         [Wii]
         Language = 1
 
-7. Replace the `0` with the language you would like to use:
+7. Replace the `1` with the language you would like to use:
     * 0 = Japanese
     * 1 = English
     * 2 = German
